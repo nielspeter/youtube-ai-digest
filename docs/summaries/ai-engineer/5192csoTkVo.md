@@ -4,7 +4,7 @@ channel: "AI Engineer"
 video_id: 5192csoTkVo
 url: https://www.youtube.com/watch?v=5192csoTkVo
 published: 2026-07-12T08:47:17+00:00
-generated: 2026-07-12T21:01:44+00:00
+generated: 2026-07-12T21:18:31+00:00
 model: "z-ai/glm-5.2"
 thumbnail: https://i.ytimg.com/vi/5192csoTkVo/hqdefault.jpg
 ---
@@ -15,68 +15,73 @@ thumbnail: https://i.ytimg.com/vi/5192csoTkVo/hqdefault.jpg
 [Watch on YouTube](https://www.youtube.com/watch?v=5192csoTkVo) · **AI Engineer** · 2026-07-12
 
 ## TL;DR
-Connor Adams presents Remoby, an open-source progressive web app that mirrors your local tmux terminal sessions on a mobile phone, letting you monitor and steer AI coding agents remotely without changing your existing workflow. Rather than relying on agent-specific mobile apps or cumbersome SSH setups, Remoby simply connects to your tmux session over a secure tunnel like Tailscale.
+Connor Adams presents Remobi, an open-source progressive web app that mirrors your existing terminal and tmux workflows on a mobile phone, letting you monitor and steer coding agents remotely without adopting a new tool or relying on a third-party relay server. The talk covers why he built it, how it works with tmux, and how to get started.
 
 ## Key Takeaways
-- Remoby lets you view and control your existing tmux terminal sessions from a phone, so you don't need to adopt a new workflow or use agent-specific mobile apps.
-- It works as a progressive web app (PWA) on both iOS and Android, with a server running on your local dev machine.
-- Existing alternatives (e.g., Happy, Claude's built-in handoff, SSH terminal apps) are limited to specific agents, require manual handoffs, or involve painful SSH key management.
-- tmux acts as a terminal window manager, enabling multiple panes, windows, custom key bindings, and tools like lazygit or critique for code review.
-- Remoby installs a "skill" that helps you set up tmux and generates touch-friendly key bindings automatically.
-- Security is handled via networking tools like Tailscale (the default), Cloudflare Tunnels, or ngrok — exposing the server directly to the public internet would be dangerous.
-- The UI is described as "minimally functional" rather than polished, supporting gestures like double-click to zoom into panes and scrolling within them.
-- The project is open source, and Connor encourages the audience to star it on GitHub.
-- Connor frames the motivation partly humorously: a compulsion to check on agents during family time, what he calls "AI psychosis."
-- The talk also serves as a mini-primer on tmux and custom terminal workflows for AI agent development.
+- Remobi lets you access your existing terminal/tmux sessions from a phone instead of forcing you into a new mobile-specific workflow.
+- Existing mobile options for monitoring coding agents are limited—Happy only works with Claude Code and uses a relay server; Claude's built-in mobile handoff is manual and tool-specific; standalone SSH terminal apps require managing keys and don't integrate well with tmux workflows.
+- tmux acts as a terminal window manager, supporting panes, windows, custom key bindings, and status displays (e.g., CPU usage), enabling a portable, remote-friendly dev setup.
+- Connor runs multiple coding agents simultaneously in tmux panes and has vibed custom key bindings (e.g., spawning 4 agent panes at once) despite not knowing tmux deeply.
+- Remobi is a progressive web app that works on iOS and Android by connecting to a server running on your dev machine.
+- The app supports touch interactions: double-click to zoom into panes, scroll within panes, and gestures for navigation, plus a shift-tab-style toggle for plan mode.
+- Security is handled via Tailscale by default; alternatives like Cloudflare tunnels or ngrok work, but exposing the server publicly would compromise your machine.
+- Setup is guided: installing the skill helps configure tmux if needed and generates key bindings tailored for the mobile touch interface.
+- The project is open source, and Connor encourages GitHub stars even from non-users.
+- Connor acknowledges the UI isn't polished but emphasizes it's "minimally functional"—the priority is preserving your workflow, not winning design awards.
 
 ## Detailed Breakdown
 
-**[00:07] Introduction and Motivation**
-Connor Adams introduces himself and notes a schedule change. He asks the audience how many people currently check on their AI agents from their phones — few do, but many would like to. He admits ambivalence about the habit, describing a compulsion to check on agents while out with friends and family, but notes that enough people want this capability that several apps already exist.
+**[00:07] Intro and Motivation**
+Connor Adams introduces himself and asks the audience how many people check on their coding agents from their phones. He admits ambivalence about the habit—feeling a compulsion to check on agents while out with family and friends—but notes there's clearly demand for mobile agent monitoring.
 
-**[01:10] Why Build Another App? Surveying Existing Options**
-Connor explains he built Remoby because the tool he wanted didn't exist. He reviews existing options: Happy (a native mobile app for Claude Code, but limited to Claude and reliant on a relay server he doesn't fully trust), Claude's built-in manual handoff to mobile (which requires explicit action and doesn't support tools like Codex or Pi), and generic terminal/SSH apps for phones (which involve annoying SSH key management and don't integrate well with tmux-based workflows).
+**[01:10] Why Build Another Mobile Agent App?**
+He explains existing options fall short. Happy is a native mobile app but only supports Claude Code and relies on a relay server he doesn't fully trust. Claude's built-in mobile handoff requires a manual step and locks you into Claude Code (no Codex or other tools). Generic terminal apps for phones work but managing SSH keys and integrating with existing tmux workflows is cumbersome.
 
-**[02:11] tmux Primer and Terminal Workflow**
-Connor polls the audience for tmux users and finds few. He explains his own shift from VS Code to a terminal-based, portable setup on a remote dev machine. He then demonstrates tmux as a "window manager for your terminal," showing multiple panes running different coding agents simultaneously, switchable windows (tabs along the bottom), and custom status bar elements like CPU usage. He highlights custom key commands — for example, a shortcut to split the screen into a chosen number of panes — and admits he "vibed" (AI-generated) most of this configuration rather than learning it manually.
+**[02:11] tmux as the Foundation**
+Connor surveys the audience for tmux users (finding few) and explains his shift from VS Code to a terminal-based setup. He values the portability: a remote dev machine accessible via SSH with all his tools. He introduces tmux as a terminal window manager supporting panes, tabs/windows, and customization.
 
-**[04:14] Custom Tools Inside tmux**
-Beyond running agents, Connor shows how tmux supports a broader workflow: opening lazygit to review diffs, using a tool called "critique" to scroll through code changes before committing, and killing stray processes (like an agent browser occupying a port). The point is that tmux lets you build a personalized, highly customized toolkit — even if, he jokes, you still don't ship anything users actually use.
+**[03:13] Custom tmux Workflows**
+He demonstrates running multiple coding agents in separate panes simultaneously. tmux can display system info (CPU usage) and support custom key commands—e.g., pressing a key sequence to spawn a chosen number of agent panes. He admits he vibed these configs with AI assistance rather than learning tmux manually, and mentions alternatives like Conductor but prefers owning his workflow for now.
 
-**[05:18] The Mobile Experience with Remoby**
-Connor transitions to the phone demo. Remoby is a progressive web app running on iOS and Android, connected to a server on his dev machine. He opens it and shows the same tmux session from the desktop, now on mobile. He demonstrates switching an agent into plan mode via a "shift tab" control, opening git and critique views, and using touch gestures — double-click to zoom into a pane, scroll within panes, zoom out. He candidly admits the UI "looks like shit" and isn't winning design awards, but argues it is minimally functional and gets the job done.
+**[04:14] Reviewing Diffs and Managing Sessions**
+Connor shows how he loads lazygit or "critique" in a tmux window to review diffs before committing. He also describes ad-hoc utilities, like killing a rogue process occupying a port (e.g., an agent browser blocking his dev server). The broader point: tmux lets you build custom tools and workflows tailored to your needs.
 
-**[06:51] Setup, Open Source, and Installation**
-Remoby is open source. Rather than asking users to blindly paste a random shell script, the installer guides you through setup: it installs a "skill" that helps configure tmux if you don't have it, and if you do, it generates touch-screen-friendly key bindings for your existing setup. You can also just install the skill and NPM package directly. Connor closes by asking for GitHub stars even from those who won't use it.
+**[05:18] Remobi Demo on Phone**
+He switches to his phone and opens Remobi, a progressive web app running on his dev machine's server. The app mirrors the exact tmux session from his desktop. He can scroll through output, toggle plan mode via a shift-tab equivalent, and open tools like git or critique with touch-friendly gestures. He candidly admits the UI "looks like shit" but argues it's functional.
 
-**[07:54] Q&A: How It Works Under the Hood**
-During Q&A, an audience member asks how tmux is controlled remotely. Connor clarifies that Remoby simply calls tmux and logs you into your existing session — tmux itself handles the pane/window management. A second question probes the phone-to-machine communication: Connor admits he didn't cover this, but explains it's just over the internet, using Tailscale by default (Cloudflare Tunnels or ngrok also work). He warns that exposing the server directly to the public internet would effectively "pwn your computer," so Tailscale is the recommended default.
+**[06:20] Touch Interactions**
+Connor details the touch controls: double-clicking zooms into individual panes, scrolling works within panes, and you can zoom in and out. The emphasis is on minimal but functional mobile interaction with your existing terminal setup.
+
+**[06:51] Setup and Open Source**
+Remobi is open source. Rather than asking users to blindly paste a random shell script, the installer guides you through setup. It installs a skill that helps configure tmux if you don't have it, and generates key bindings optimized for the mobile touch interface. You can also just install the NPM package directly. He asks for GitHub stars regardless of whether people use it.
+
+**[07:54] Q&A: tmux Control and Security**
+An audience member asks how Remobi controls tmux remotely—Connor explains it simply calls tmux and logs into your existing session. Another asks about the phone-to-machine communication. Connor clarifies it runs over the internet, with Tailscale as the default secure tunnel (Cloudflare tunnels or ngrok are alternatives). He warns that exposing the server publicly would "pwn your computer," so Tailscale is the default setup path.
 
 ## Notable Quotes
 - "I've got AI psychosis, of course, and you just must build apps."
-- "Now I want to go and ruin my family time. Now I can do that."
-- "It's not winning any design awards, right? It looks like shit, but you can actually — it's minimally functional, or maybe functional."
+- "I'd rather sort of own what I'm doing and find my own workflows for now."
+- "It's not winning any design awards, right? It looks like shit but you can actually—it's minimally functional or maybe functional."
 - "If you just put it on the public internet, you've pwned your computer."
-- "I should have called my talk 'tmux talk.'"
+- "The best idea is when you see a command that just runs a random shell script, you copy and you paste that into your terminal because you know it's going to lead to good results."
 
 ## People, Tools & References Mentioned
-- **Connor Adams** — presenter and creator of Remoby
-- **Remoby** — the open-source progressive web app presented
+- **Connor Adams** — presenter and creator of Remobi
+- **Remobi** — the open-source progressive web app presented
 - **tmux** — terminal multiplexer / window manager for the terminal
-- **Claude Code** — AI coding agent
-- **Happy** — mobile app for Claude Code (mentioned as an alternative)
-- **Codex / Pi** — other coding tools mentioned as not supported by Claude's handoff
-- **lazygit** — terminal git UI
-- **critique** — a diff/code review tool shown in tmux
-- **Conductor** — another tool mentioned as an alternative workflow app
-- **Tailscale** — default networking/tunnel solution for Remoby
-- **Cloudflare Tunnels / ngrok** — alternative tunneling options
-- **VS Code** — mentioned as Connor's previous editor
-- **GitHub** — where Remoby is hosted (stars requested)
-- **Mari** — referenced briefly regarding the "fuck around and find out" stage
+- **Claude Code** — Anthropic's coding agent
+- **Happy** — a native mobile app for Claude Code (noted limitations: Claude-only, relay server)
+- **Codex** — another coding agent mentioned as unsupported by Claude's mobile handoff
+- **lazygit** — terminal UI for git, used within tmux
+- **critique** — a diff review tool used in tmux
+- **Conductor** — another tool for managing agent workflows, mentioned as an alternative
+- **Tailscale** — default secure tunnel for Remobi's phone-to-machine communication
+- **Cloudflare tunnels / ngrok** — alternative tunneling options
+- **VS Code** — Connor's previous editor before switching to terminal-based dev
+- **Mari** — referenced briefly regarding the "fuck around and find out stage"
 
 ## Who Should Watch
-Developers who run AI coding agents in terminal-based workflows (especially tmux) and want to monitor or steer them from a phone without adopting agent-specific mobile apps or managing SSH keys. It's also useful for anyone curious about building a custom, portable terminal setup for remote AI agent development.
+Developers who already use (or are curious about) tmux and terminal-based workflows with AI coding agents, and want to monitor or steer those agents from their phone without abandoning their existing setup. It's especially relevant for people dissatisfied with tool-specific mobile apps or the overhead of managing SSH keys on mobile.
 
 
 <details class="transcript">

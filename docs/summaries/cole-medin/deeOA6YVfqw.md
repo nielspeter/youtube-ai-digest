@@ -4,7 +4,7 @@ channel: "Cole Medin"
 video_id: deeOA6YVfqw
 url: https://www.youtube.com/watch?v=deeOA6YVfqw
 published: 2026-07-12T18:51:49+00:00
-generated: 2026-07-12T20:57:30+00:00
+generated: 2026-07-12T21:16:36+00:00
 model: "z-ai/glm-5.2"
 thumbnail: https://i.ytimg.com/vi/deeOA6YVfqw/hqdefault.jpg
 ---
@@ -15,63 +15,75 @@ thumbnail: https://i.ytimg.com/vi/deeOA6YVfqw/hqdefault.jpg
 [Watch on YouTube](https://www.youtube.com/watch?v=deeOA6YVfqw) · **Cole Medin** · 2026-07-12
 
 ## TL;DR
-Cole Medin demonstrates how Archon, his open-source harness builder originally designed for AI coding, can be repurposed for non-coding agentic workflows. By combining Archon's parallel agent orchestration with Higsfield's AI video generation CLI, he builds an "AI Content Factory" that automatically generates marketing videos for an entire product catalog—complete with human-in-the-loop approval steps.
+Cole Medin demonstrates how Archon, his open-source harness builder originally designed for AI coding, can be repurposed for non-coding agentic workflows—specifically, an AI content factory that generates marketing videos for a product catalog using Higsfield's video generation platform. By orchestrating parallel worker agents through two Ralph-loop-based workflows, the system validates image concepts before rendering final videos, saving credits and ensuring quality with human-in-the-loop approval.
 
 ## Key Takeaways
-- Archon was originally built as an open-source harness builder for AI coding, but users are increasingly applying it to any kind of agentic workflow—research, content creation, and more.
-- The project has reached nearly 23,000 GitHub stars, showing strong community adoption.
-- Higsfield is presented as the best video generation platform the creator has seen, offering both a web UI and a CLI for generating branded video content from prompts and reference images.
-- A single coding agent cannot handle generating videos for a large product catalog at once; Archon solves this by fanning out work across multiple parallel worker agents.
+- Archon is an open-source harness builder for AI coding that has grown to nearly 23,000 stars and is increasingly being used for non-coding agentic workflows.
+- The video showcases an "AI content factory" that combines Archon workflows with Higsfield's video generation CLI to automate marketing video creation for a product catalog.
+- A single coding agent cannot handle generating videos for dozens of products at once; Archon solves this by fanning out to multiple parallel worker agents.
+- Higsfield allows video generation via a CLI, meaning coding agents can generate branded videos without leaving the terminal, using reference images for brand consistency.
 - The system uses two Archon workflows: an "explore" workflow to generate and validate image concepts, and a "render" workflow to turn approved concepts into final videos.
-- The workflow follows a Ralph loop pattern—a harness structure that can be adapted from coding tasks to content creation tasks by simply changing what items sit in the task queue.
-- Cost efficiency is built in: images are generated and validated first, and only approved concepts are rendered into videos, saving Higsfield credits.
-- A human-in-the-loop approval step lets users review AI-scored image concepts before committing to video generation.
-- The entire demo—catalog site, Archon workflows, Higsfield skill, and sample videos—is available in a linked GitHub repository.
-- The generated UGC-style ads are impressively realistic, featuring convincing audio and visuals that are difficult to distinguish from real people.
+- Generating an image first before a video is a deliberate credit-saving strategy—bad concepts are scrapped before expensive video rendering.
+- Worker agents self-score generated images using a Gemini call, automatically rejecting low-quality ones and surfacing only good candidates for human approval.
+- Human-in-the-loop approval happens through a built-in UI where users approve vetted image concepts before they enter the render queue.
+- Both workflows are Ralph loops—a harness pattern borrowed from AI coding—adapted so the task list is a queue of products rather than codebase tasks.
+- The entire demo project, including Archon workflows, the Higsfield skill, catalog site, and sample videos, is available in a linked GitHub repository.
 
 ## Detailed Breakdown
 
-**[00:00] Introduction and Archon's Evolution**
-Cole introduces Archon, his open-source project built over eight months, originally designed as a harness builder for AI coding that connects multiple coding agents for longer autonomous tasks. He notes it has reached nearly 23,000 stars and shares an interesting trend: users are applying Archon to non-coding agentic workflows like research and content creation, which inspires the demo in this video.
+**[00:00] Introduction to Archon and Its Evolution**
+Cole introduces Archon, his open-source project he has been building for eight months. Originally created as a harness builder for AI coding, it lets users connect many coding agents to work on longer tasks autonomously. The project has grown to almost 23,000 stars. Cole notes an emerging trend: people are using Archon for non-coding agentic workflows like research and content creation, which motivates the demo in this video.
 
 **[01:01] The AI Content Factory Concept**
-Cole unveils the "AI Content Factory," a system for generating marketing content at scale. The demo centers on a product catalog of still images and shows how AI can transform them into videos—both product renderings and UGC-style ads. He highlights Higsfield as the video generation platform powering the system and notes this video is a collaboration to showcase Archon doing something beyond AI coding.
+Cole presents the "AI content factory," a system for generating marketing content at scale, driven by Archon workflows and Higsfield, a video generation platform. He shows a product catalog of still images and explains the goal: replace static images with generated videos to make a store feel more alive. He notes that AI video generation has become good enough for practical marketing use, including product renderings and UGC-style ads.
 
 **[02:34] Why Archon Is Needed**
-Generating videos for a massive catalog is too large a task for a single coding agent. Archon orchestrates multiple agents working in parallel, each taking items from a queue. Cole explains the need for a full system: image generation, validation, and then video generation, rather than simply calling the Higsfield CLI repeatedly.
+Higsfield partnered with Cole for this video, making it an ideal opportunity to showcase Archon doing something beyond AI coding. The core problem: generating videos for a large catalog requires orchestrating many agents working in parallel, because a single coding agent would be overwhelmed. Archon provides the parallel fan-out of agents that drain a queue of products needing videos.
 
-**[03:35] Higsfield CLI and Skill Setup**
-Cole walks through the first building block—using Higsfield to generate videos. He shows the Higsfield platform, its CLI, and a custom "skill" file in the repo that instructs coding agents on how to use the CLI effectively. He demonstrates generating a single 10-second UGC ad by prompting his coding agent with a reference image, and the result is a surprisingly convincing video with audio.
+**[03:35] Higsfield CLI Basics**
+Cole explains that Higsfield video generation is as simple as sending a detailed prompt. While you can use the Higsfield web platform, they also offer a CLI, which is key for the Archon integration since agents never need to leave the terminal. He shows the repo's README with installation instructions and a "skill" file that instructs the agent on how to use the CLI effectively.
 
-**[05:39] The Two-Workflow Architecture**
-Cole explains the full system architecture. The first workflow ("explore") generates and validates image concepts for each product. The second workflow ("render") takes approved concepts and creates final videos. Both are Ralph loops—harnesses repurposed from coding tasks to content creation. The explore workflow runs five parallel workers, while the render workflow runs three, since video rendering consumes more credits.
+**[04:06] Single Video Generation Demo**
+Cole demonstrates generating a single 10-second vertical UGC ad by prompting his coding agent to use the Higsfield CLI with a reference product image for branding. The agent loads the Higsfield skill, calls the CLI, and produces a video. Cole plays the result with audio—a man in a kitchen holding a branded Campbell tumbler—and notes it is a good starting point despite minor cheesiness.
 
-**[06:11] Validation and Human-in-the-Loop**
-A key design decision is validating ideas before spending video generation credits. The agent generates an image first, scores it, automatically scraps poor results, and presents good ones for human approval. Approved images move to a separate queue that feeds into the render workflow.
+**[05:09] The Scaling Problem**
+Generating one video with a single prompt is fine, but scaling to dozens of products requires a larger orchestrator. A single coding agent session cannot handle generating many videos at once. Archon solves this by fanning out to parallel workers, each handling one video at a time, with the orchestrator validating results.
 
-**[09:50] Live Demo**
-Cole runs a live demo with a smaller catalog to keep things fast. The coding agent loads the Archon skill, kicks off the explore workflow, and monitors progress. Gemini is called to validate and score generated images. After Cole approves concepts in the UI, the render workflow begins. He shows the Archon UI's graph view and logs, confirming workers are rendering videos in parallel.
+**[06:11] Two-Workflow System Design**
+Cole introduces the two Archon workflows: an "explore" workflow that generates and validates image concepts for each product, and a "render" workflow that turns approved concepts into final videos. The image-first approach saves credits by avoiding expensive video renders for bad ideas. Both workflows are Ralph loops—harnesses originally designed for coding tasks, here repurposed for content creation.
 
-**[11:51] Results and Final Thoughts**
-Cole plays the generated videos, including a UGC ad for an Onyx kettle that is remarkably realistic—both visually and audibly. He clarifies the catalog view is more of an admin dashboard for reviewing approved videos rather than a real product listing. He encourages viewers to explore the repo and wraps up by asking for likes and subscribes for more content on harness engineering and AI coding.
+**[07:12] Explore Workflow Details**
+The explore workflow uses five parallel workers, each taking the next item from a product queue. If a worker finds nothing, it outputs "complete" to exit the loop. Workers generate an image concept first, then a Gemini call scores and validates the image. Bad images are automatically scrapped; good ones are presented to the user for approval via a review queue.
+
+**[08:49] Render Workflow Details**
+The render workflow is a second Ralph loop with three parallel workers (fewer than explore to conserve rendering credits). Each worker claims one approved concept, renders the video, and stops. Python scripts grab approved concepts from markdown documents. If no concepts remain, the worker ends the loop. This workflow produces the final videos.
+
+**[10:20] Live Demo of Both Workflows**
+Cole runs a live demo with a simplified catalog. The coding agent loads the Archon skill and kicks off the explore workflow. The agent monitors the workflow as it generates image concepts and scores them via Gemini. Cole approves concepts (including showing an off-camera approval), then launches the render workflow. He shows the Archon UI logs and graph view to illustrate the parallel workers in action.
+
+**[11:51] Final Results and Catalog Showcase**
+Cole displays the updated catalog, now with videos instead of just still images. He plays an Onyx kettle UGC ad with audio—a realistic-looking person praising the gooseneck pour-over kettle. He plays a second, improved version and expresses genuine impressment with Higsfield's output. He clarifies this catalog is an admin-style demo view, not a real product listing.
+
+**[13:24] Built-in Approval UI and Wrap-Up**
+Cole shows a built-in UI feature where users can approve vetted image concepts directly, which updates a local markdown document that feeds into the render workflow. He reiterates the entire repo is available for experimentation and encourages viewers interested in harness engineering and AI coding to like and subscribe.
 
 ## Notable Quotes
 - "It's an interesting trend that I've started to see surface here where people are using it for any kind of agentic workflow. It doesn't have to be just coding."
+- "We need to orchestrate many agents taking items from the queue here and generating the videos."
 - "Because a Ralph loop is a harness, we can build any harness in Archon. We're building a Ralph loop here for content."
-- "We want to validate the idea for the video before we generate the video because we don't want to spend the credits creating it until we are confident it's going to be a good product representation."
+- "We don't want to spend the credits creating it until we are confident it's going to be a good product representation."
 - "You can't really tell that isn't a real person. I'm just really impressed with what Higsfield is able to do here and then Archon orchestrating everything."
 
 ## People, Tools & References Mentioned
-- **Archon** — Cole's open-source harness builder for AI coding and agentic workflows (nearly 23,000 GitHub stars)
-- **Higsfield** — AI video generation platform with a web UI and CLI
-- **Claude Code** — Referenced as an example primary coding agent orchestrator
-- **Codex** — Referenced as another example coding agent
-- **Gemini** — Used within the workflow to validate and score generated images
+- **Archon** — Cole's open-source harness builder for AI coding, now approaching 23,000 GitHub stars
+- **Higsfield** — Video generation platform with a CLI, used for creating product renderings and UGC-style ads
 - **Ralph loop** — A harness pattern used in Archon for orchestrating parallel worker agents
-- **GitHub repository** — Linked in the video description containing the catalog site, Archon workflows, Higsfield skill, and sample videos
+- **Gemini** — Used within the explore workflow to score and validate generated image concepts
+- **Claude Code / Codex** — Mentioned as examples of coding agents that can serve as orchestrators for Archon workflows
+- **GitHub repository** — Linked in the video description, containing the Archon workflows, Higsfield skill, catalog site, and sample videos
 
 ## Who Should Watch
-AI developers and content marketers interested in scaling AI-generated video content across large product catalogs. It's especially valuable for those wanting to see how coding-focused orchestration tools like Archon can be creatively repurposed for non-coding agentic workflows.
+AI developers and automation enthusiasts interested in harness engineering and multi-agent orchestration, particularly those curious about applying AI coding patterns to non-coding workflows like content marketing and video generation at scale.
 
 
 <details class="transcript">

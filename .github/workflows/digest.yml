@@ -41,6 +41,21 @@ jobs:
       - name: Install site dependencies
         run: npm ci
 
+      # Optional: authenticate yt-dlp so YouTube's "confirm you're not a bot"
+      # block on cloud IPs is bypassed. Add a repo secret YTDLP_COOKIES containing
+      # a Netscape-format cookies.txt exported from a logged-in browser.
+      - name: Write YouTube cookies (if provided)
+        env:
+          YTDLP_COOKIES_CONTENT: ${{ secrets.YTDLP_COOKIES }}
+        run: |
+          if [ -n "$YTDLP_COOKIES_CONTENT" ]; then
+            printf '%s' "$YTDLP_COOKIES_CONTENT" > "$RUNNER_TEMP/cookies.txt"
+            echo "YTDLP_COOKIES=$RUNNER_TEMP/cookies.txt" >> "$GITHUB_ENV"
+            echo "cookies configured"
+          else
+            echo "no cookies secret set — proceeding without (bot-check may block some videos)"
+          fi
+
       - name: Run digest
         env:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}

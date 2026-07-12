@@ -2,7 +2,7 @@ name: YouTube Digest
 
 on:
   schedule:
-    - cron: '17 3 * * *'   # daily ~03:17 UTC (odd minute avoids the congested top of the hour)
+    - cron: '17 */6 * * *'   # every 6h at :17 (00:17, 06:17, 12:17, 18:17 UTC); odd minute avoids top-of-hour congestion
   workflow_dispatch:
     inputs:
       seed:

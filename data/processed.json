@@ -584,6 +584,651 @@
       "published": "2026-07-11T16:30:04+00:00",
       "url": "https://www.youtube.com/watch?v=WLXxTaPagA8",
       "generated": "2026-07-12T21:29:15+00:00"
+    },
+    "PY7xIxybYNc": {
+      "status": "done",
+      "title": "Pydantic AI 2.0: The New Best Way to Build AI Agents is Composing Capabilities",
+      "channel": "Cole Medin",
+      "channel_slug": "cole-medin",
+      "published": "2026-07-10T14:00:40+00:00",
+      "url": "https://www.youtube.com/watch?v=PY7xIxybYNc",
+      "generated": "2026-07-12T21:43:47+00:00"
+    },
+    "R-5_2nsF_ZM": {
+      "video_id": "R-5_2nsF_ZM",
+      "title": "I Love the Karpathy LLM Wiki but it Doesn't Scale. Here's What Does.",
+      "channel": "Cole Medin",
+      "published": "2026-07-09T00:00:36+00:00",
+      "url": "https://www.youtube.com/watch?v=R-5_2nsF_ZM",
+      "channel_slug": "cole-medin",
+      "status": "pending"
+    },
+    "muwRbfuKbR4": {
+      "video_id": "muwRbfuKbR4",
+      "title": "The Best AI Coding Setup Isn't the Most Autonomous One (Here's Why)",
+      "channel": "Cole Medin",
+      "published": "2026-07-03T15:23:41+00:00",
+      "url": "https://www.youtube.com/watch?v=muwRbfuKbR4",
+      "channel_slug": "cole-medin",
+      "status": "pending"
+    },
+    "T33iI6izAKw": {
+      "video_id": "T33iI6izAKw",
+      "title": "Finally, an Open Standard for the Karpathy LLM Wiki is HERE",
+      "channel": "Cole Medin",
+      "published": "2026-07-02T00:00:33+00:00",
+      "url": "https://www.youtube.com/watch?v=T33iI6izAKw",
+      "channel_slug": "cole-medin",
+      "status": "pending"
+    },
+    "zbmuiaPuiNM": {
+      "video_id": "zbmuiaPuiNM",
+      "title": "Google Just Dropped a Masterclass on Agentic Engineering (It's SO Good)",
+      "channel": "Cole Medin",
+      "published": "2026-06-25T00:00:05+00:00",
+      "url": "https://www.youtube.com/watch?v=zbmuiaPuiNM",
+      "channel_slug": "cole-medin",
+      "status": "pending"
+    },
+    "UztrFXaSWv0": {
+      "video_id": "UztrFXaSWv0",
+      "title": "The Creators of Claude Code and OpenClaw don't Prompt Their Agents Anymore?!",
+      "channel": "Cole Medin",
+      "published": "2026-06-18T00:00:08+00:00",
+      "url": "https://www.youtube.com/watch?v=UztrFXaSWv0",
+      "channel_slug": "cole-medin",
+      "status": "pending"
+    },
+    "oGE_Dwz-rMk": {
+      "video_id": "oGE_Dwz-rMk",
+      "title": "Omnigent: The New Meta-Harness for EVERY Coding Agent - Claude Code, Codex, Pi, More",
+      "channel": "Cole Medin",
+      "published": "2026-06-15T14:42:51+00:00",
+      "url": "https://www.youtube.com/watch?v=oGE_Dwz-rMk",
+      "channel_slug": "cole-medin",
+      "status": "pending"
+    },
+    "CrLMktzEzmM": {
+      "video_id": "CrLMktzEzmM",
+      "title": "Claude Fable 5 is Now BANNED?!",
+      "channel": "Cole Medin",
+      "published": "2026-06-13T15:30:41+00:00",
+      "url": "https://www.youtube.com/watch?v=CrLMktzEzmM",
+      "channel_slug": "cole-medin",
+      "status": "pending"
+    },
+    "1wfY7GCVvh0": {
+      "video_id": "1wfY7GCVvh0",
+      "title": "Google's Agents CLI: The CLI + Skills Combination to Ship AI Agents EASILY",
+      "channel": "Cole Medin",
+      "published": "2026-06-11T00:00:16+00:00",
+      "url": "https://www.youtube.com/watch?v=1wfY7GCVvh0",
+      "channel_slug": "cole-medin",
+      "status": "pending"
+    },
+    "nvW-dTgHAHg": {
+      "video_id": "nvW-dTgHAHg",
+      "title": "Live AI Q&A + Crushing it in Chess at the Same Time - Come Hang Out!",
+      "channel": "Cole Medin",
+      "published": "2026-06-07T04:26:50+00:00",
+      "url": "https://www.youtube.com/watch?v=nvW-dTgHAHg",
+      "channel_slug": "cole-medin",
+      "status": "pending"
+    },
+    "iICZTWcryac": {
+      "video_id": "iICZTWcryac",
+      "title": "Claude Plans, Gemini Designs: The Workflow to Build BEAUTIFUL Frontends",
+      "channel": "Cole Medin",
+      "published": "2026-06-04T00:00:04+00:00",
+      "url": "https://www.youtube.com/watch?v=iICZTWcryac",
+      "channel_slug": "cole-medin",
+      "status": "pending"
+    },
+    "yATno77Uo6A": {
+      "status": "done",
+      "title": "Stampli scales product marketing with ChatGPT Work",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-10T21:11:41+00:00",
+      "url": "https://www.youtube.com/watch?v=yATno77Uo6A",
+      "generated": "2026-07-12T21:42:00+00:00"
+    },
+    "IYYTI73J7Rg": {
+      "status": "done",
+      "title": "ChatGPT Computer Use: Now faster with Live Picture-in-Picture",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-10T19:45:02+00:00",
+      "url": "https://www.youtube.com/watch?v=IYYTI73J7Rg",
+      "generated": "2026-07-12T21:42:18+00:00"
+    },
+    "nep5byxmr_M": {
+      "status": "done",
+      "title": "RingCentral Scales Customer Programs with ChatGPT Work",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-10T16:02:41+00:00",
+      "url": "https://www.youtube.com/watch?v=nep5byxmr_M",
+      "generated": "2026-07-12T21:43:21+00:00"
+    },
+    "SvGLxXHYCd8": {
+      "video_id": "SvGLxXHYCd8",
+      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+      "channel": "OpenAI",
+      "published": "2026-07-10T09:19:42+00:00",
+      "url": "https://www.youtube.com/watch?v=SvGLxXHYCd8",
+      "channel_slug": "openai",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "xYVfknDQHU4": {
+      "video_id": "xYVfknDQHU4",
+      "title": "ChatGPT Work | How NVIDIA Scales GTM with AI",
+      "channel": "OpenAI",
+      "published": "2026-07-09T22:30:40+00:00",
+      "url": "https://www.youtube.com/watch?v=xYVfknDQHU4",
+      "channel_slug": "openai",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "sqXsMDOxP0Y": {
+      "video_id": "sqXsMDOxP0Y",
+      "title": "ChatGPT Work | Zapier: Seven Figures in Monthly Pipeline",
+      "channel": "OpenAI",
+      "published": "2026-07-09T21:19:10+00:00",
+      "url": "https://www.youtube.com/watch?v=sqXsMDOxP0Y",
+      "channel_slug": "openai",
+      "status": "pending"
+    },
+    "GphgJjaKKhw": {
+      "video_id": "GphgJjaKKhw",
+      "title": "Get started with ChatGPT Work",
+      "channel": "OpenAI",
+      "published": "2026-07-09T21:00:03+00:00",
+      "url": "https://www.youtube.com/watch?v=GphgJjaKKhw",
+      "channel_slug": "openai",
+      "status": "pending"
+    },
+    "5X5CALvYvp0": {
+      "video_id": "5X5CALvYvp0",
+      "title": "Meet a mathematician solving previously unsolvable math problems with GPT-5.6",
+      "channel": "OpenAI",
+      "published": "2026-07-09T20:00:35+00:00",
+      "url": "https://www.youtube.com/watch?v=5X5CALvYvp0",
+      "channel_slug": "openai",
+      "status": "pending"
+    },
+    "hWhfrR9WJ_c": {
+      "video_id": "hWhfrR9WJ_c",
+      "title": "Meet the broccoli farmer running his farm with GPT-5.6.",
+      "channel": "OpenAI",
+      "published": "2026-07-09T20:00:24+00:00",
+      "url": "https://www.youtube.com/watch?v=hWhfrR9WJ_c",
+      "channel_slug": "openai",
+      "status": "pending"
+    },
+    "A5VgJ0KZgKs": {
+      "video_id": "A5VgJ0KZgKs",
+      "title": "Meet a family running a cereal business from their dining room with GPT-5.6.",
+      "channel": "OpenAI",
+      "published": "2026-07-09T20:00:18+00:00",
+      "url": "https://www.youtube.com/watch?v=A5VgJ0KZgKs",
+      "channel_slug": "openai",
+      "status": "pending"
+    },
+    "8sUXGKDUEzI": {
+      "video_id": "8sUXGKDUEzI",
+      "title": "ChatGPT Work for Marketing Teams",
+      "channel": "OpenAI",
+      "published": "2026-07-09T18:30:29+00:00",
+      "url": "https://www.youtube.com/watch?v=8sUXGKDUEzI",
+      "channel_slug": "openai",
+      "status": "pending"
+    },
+    "9arM9b7JgOo": {
+      "status": "done",
+      "title": "Develop at Idea Velocity - Jeffrey Lee-Chan, Snapchat",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-11T14:45:18+00:00",
+      "url": "https://www.youtube.com/watch?v=9arM9b7JgOo",
+      "generated": "2026-07-12T21:40:29+00:00"
+    },
+    "GdvKNwMcfd0": {
+      "status": "done",
+      "title": "From Writing Code to Designing Systems: How the Developer Role is Changing — Chris Noring, Microsoft",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-11T14:00:06+00:00",
+      "url": "https://www.youtube.com/watch?v=GdvKNwMcfd0",
+      "generated": "2026-07-12T21:40:51+00:00"
+    },
+    "rKV5JcALQoQ": {
+      "video_id": "rKV5JcALQoQ",
+      "title": "The different levels of how Claude thinks",
+      "channel": "Anthropic",
+      "published": "2026-07-06T16:59:51+00:00",
+      "url": "https://www.youtube.com/watch?v=rKV5JcALQoQ",
+      "channel_slug": "anthropic",
+      "status": "pending"
+    },
+    "Y9Wz2PV404E": {
+      "video_id": "Y9Wz2PV404E",
+      "title": "Introducing Claude Fable 5",
+      "channel": "Anthropic",
+      "published": "2026-06-09T17:00:05+00:00",
+      "url": "https://www.youtube.com/watch?v=Y9Wz2PV404E",
+      "channel_slug": "anthropic",
+      "status": "pending"
+    },
+    "j2knrqAzYVY": {
+      "video_id": "j2knrqAzYVY",
+      "title": "Translating Claude’s thoughts into language",
+      "channel": "Anthropic",
+      "published": "2026-05-07T17:01:21+00:00",
+      "url": "https://www.youtube.com/watch?v=j2knrqAzYVY",
+      "channel_slug": "anthropic",
+      "status": "pending"
+    },
+    "INGOC6-LLv0": {
+      "video_id": "INGOC6-LLv0",
+      "title": "An initiative to secure the world's software | Project Glasswing",
+      "channel": "Anthropic",
+      "published": "2026-04-07T18:03:51+00:00",
+      "url": "https://www.youtube.com/watch?v=INGOC6-LLv0",
+      "channel_slug": "anthropic",
+      "status": "pending"
+    },
+    "D4XTefP3Lsc": {
+      "video_id": "D4XTefP3Lsc",
+      "title": "When AIs act emotional",
+      "channel": "Anthropic",
+      "published": "2026-04-02T16:06:59+00:00",
+      "url": "https://www.youtube.com/watch?v=D4XTefP3Lsc",
+      "channel_slug": "anthropic",
+      "status": "pending"
+    },
+    "dPn3GBI8lII": {
+      "video_id": "dPn3GBI8lII",
+      "title": "Introducing Claude Opus 4.6",
+      "channel": "Anthropic",
+      "published": "2026-02-05T17:45:22+00:00",
+      "url": "https://www.youtube.com/watch?v=dPn3GBI8lII",
+      "channel_slug": "anthropic",
+      "status": "pending"
+    },
+    "bluAmTHoEow": {
+      "video_id": "bluAmTHoEow",
+      "title": "Your tools are now interactive in Claude",
+      "channel": "Anthropic",
+      "published": "2026-01-26T19:06:25+00:00",
+      "url": "https://www.youtube.com/watch?v=bluAmTHoEow",
+      "channel_slug": "anthropic",
+      "status": "pending"
+    },
+    "N5yJJA0NCU0": {
+      "video_id": "N5yJJA0NCU0",
+      "title": "AI on campus",
+      "channel": "Anthropic",
+      "published": "2026-01-12T22:41:27+00:00",
+      "url": "https://www.youtube.com/watch?v=N5yJJA0NCU0",
+      "channel_slug": "anthropic",
+      "status": "pending"
+    },
+    "UAmKyyZ-b9E": {
+      "video_id": "UAmKyyZ-b9E",
+      "title": "Introducing Cowork: Claude Code for the rest of your work",
+      "channel": "Anthropic",
+      "published": "2026-01-12T20:02:22+00:00",
+      "url": "https://www.youtube.com/watch?v=UAmKyyZ-b9E",
+      "channel_slug": "anthropic",
+      "status": "pending"
+    },
+    "nvbq39yVYRk": {
+      "video_id": "nvbq39yVYRk",
+      "title": "What is sycophancy in AI models?",
+      "channel": "Anthropic",
+      "published": "2025-12-18T20:30:14+00:00",
+      "url": "https://www.youtube.com/watch?v=nvbq39yVYRk",
+      "channel_slug": "anthropic",
+      "status": "pending"
+    },
+    "rBJnWMD0Pho": {
+      "video_id": "rBJnWMD0Pho",
+      "title": "Let Claude handle work in your browser",
+      "channel": "Anthropic",
+      "published": "2025-12-18T18:52:03+00:00",
+      "url": "https://www.youtube.com/watch?v=rBJnWMD0Pho",
+      "channel_slug": "anthropic",
+      "status": "pending"
+    },
+    "5KTHvKCrQ00": {
+      "video_id": "5KTHvKCrQ00",
+      "title": "Claude ran a business in our office",
+      "channel": "Anthropic",
+      "published": "2025-12-18T12:04:53+00:00",
+      "url": "https://www.youtube.com/watch?v=5KTHvKCrQ00",
+      "channel_slug": "anthropic",
+      "status": "pending"
+    },
+    "i9U_b-8KKno": {
+      "video_id": "i9U_b-8KKno",
+      "title": "Binti helps social workers license foster families faster with Claude",
+      "channel": "Anthropic",
+      "published": "2025-12-17T18:13:19+00:00",
+      "url": "https://www.youtube.com/watch?v=i9U_b-8KKno",
+      "channel_slug": "anthropic",
+      "status": "pending"
+    },
+    "4Lmqvn_yz-c": {
+      "status": "done",
+      "title": "Postgres Just Got It's Biggest Upgrade In Years",
+      "channel": "Better Stack",
+      "channel_slug": "better-stack",
+      "published": "2026-07-10T18:00:09+00:00",
+      "url": "https://www.youtube.com/watch?v=4Lmqvn_yz-c",
+      "generated": "2026-07-12T21:42:35+00:00"
+    },
+    "mIL4sZa8M0E": {
+      "status": "done",
+      "title": "Open-Source Dictation Is Here… Goodbye Subscriptions",
+      "channel": "Better Stack",
+      "channel_slug": "better-stack",
+      "published": "2026-07-10T12:00:12+00:00",
+      "url": "https://www.youtube.com/watch?v=mIL4sZa8M0E",
+      "generated": "2026-07-12T21:44:29+00:00"
+    },
+    "27QLmUQvL2A": {
+      "video_id": "27QLmUQvL2A",
+      "title": "OpenAI Sol Ultra Just BEAT Claude Fable",
+      "channel": "Better Stack",
+      "published": "2026-07-09T22:00:26+00:00",
+      "url": "https://www.youtube.com/watch?v=27QLmUQvL2A",
+      "channel_slug": "better-stack",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "vRTliPb8fjg": {
+      "video_id": "vRTliPb8fjg",
+      "title": "I Let Strix Attack My App... Here’s What It Found",
+      "channel": "Better Stack",
+      "published": "2026-07-09T15:00:27+00:00",
+      "url": "https://www.youtube.com/watch?v=vRTliPb8fjg",
+      "channel_slug": "better-stack",
+      "status": "pending"
+    },
+    "pHAbwL7w83Q": {
+      "video_id": "pHAbwL7w83Q",
+      "title": "AI Benchmarks Are Fake!?",
+      "channel": "Better Stack",
+      "published": "2026-07-09T08:00:19+00:00",
+      "url": "https://www.youtube.com/watch?v=pHAbwL7w83Q",
+      "channel_slug": "better-stack",
+      "status": "pending"
+    },
+    "lNsSxWQDqaU": {
+      "video_id": "lNsSxWQDqaU",
+      "title": "The Largest Supply Chain Attack Ever Just Infected Go",
+      "channel": "Better Stack",
+      "published": "2026-07-08T11:27:36+00:00",
+      "url": "https://www.youtube.com/watch?v=lNsSxWQDqaU",
+      "channel_slug": "better-stack",
+      "status": "pending"
+    },
+    "wOfm7x0i3sw": {
+      "video_id": "wOfm7x0i3sw",
+      "title": "Open Source Is Back. Goodbye Claude.",
+      "channel": "Better Stack",
+      "published": "2026-07-07T21:00:35+00:00",
+      "url": "https://www.youtube.com/watch?v=wOfm7x0i3sw",
+      "channel_slug": "better-stack",
+      "status": "pending"
+    },
+    "wiQo9gayiqU": {
+      "video_id": "wiQo9gayiqU",
+      "title": "No API Key. No Cloud. Just Mac AI (Apfel)",
+      "channel": "Better Stack",
+      "published": "2026-07-07T15:00:23+00:00",
+      "url": "https://www.youtube.com/watch?v=wiQo9gayiqU",
+      "channel_slug": "better-stack",
+      "status": "pending"
+    },
+    "roGmNXASYOM": {
+      "video_id": "roGmNXASYOM",
+      "title": "GPT-5.6 SOL is HERE",
+      "channel": "Matthew Berman",
+      "published": "2026-07-09T20:49:47+00:00",
+      "url": "https://www.youtube.com/watch?v=roGmNXASYOM",
+      "channel_slug": "matthew-berman",
+      "status": "pending"
+    },
+    "mD1F5DsC5tc": {
+      "video_id": "mD1F5DsC5tc",
+      "title": "GPT-5.6 is FINALLY HERE (WOAH)",
+      "channel": "Matthew Berman",
+      "published": "2026-07-09T18:00:10+00:00",
+      "url": "https://www.youtube.com/watch?v=mD1F5DsC5tc",
+      "channel_slug": "matthew-berman",
+      "status": "pending"
+    },
+    "bjHuGNo3spk": {
+      "video_id": "bjHuGNo3spk",
+      "title": "We just figured out how AI actually works (J-Space)",
+      "channel": "Matthew Berman",
+      "published": "2026-07-08T02:58:42+00:00",
+      "url": "https://www.youtube.com/watch?v=bjHuGNo3spk",
+      "channel_slug": "matthew-berman",
+      "status": "pending"
+    },
+    "1KKB_UiW6ls": {
+      "video_id": "1KKB_UiW6ls",
+      "title": "Cut your AI cost IN HALF (EASY)",
+      "channel": "Matthew Berman",
+      "published": "2026-07-07T00:29:07+00:00",
+      "url": "https://www.youtube.com/watch?v=1KKB_UiW6ls",
+      "channel_slug": "matthew-berman",
+      "status": "pending"
+    },
+    "TML-0HmxWCE": {
+      "video_id": "TML-0HmxWCE",
+      "title": "\"The best thing since OpenClaw\" (Hermes Tutorial)",
+      "channel": "Matthew Berman",
+      "published": "2026-06-28T14:00:35+00:00",
+      "url": "https://www.youtube.com/watch?v=TML-0HmxWCE",
+      "channel_slug": "matthew-berman",
+      "status": "pending"
+    },
+    "eEdOqSmkZy0": {
+      "video_id": "eEdOqSmkZy0",
+      "title": "I can't believe this happened...",
+      "channel": "Matthew Berman",
+      "published": "2026-06-26T21:26:32+00:00",
+      "url": "https://www.youtube.com/watch?v=eEdOqSmkZy0",
+      "channel_slug": "matthew-berman",
+      "status": "pending"
+    },
+    "EthxaDswUFo": {
+      "video_id": "EthxaDswUFo",
+      "title": "I Tested GPT 5.6 Sol vs Fable 5. What You Need To Know.",
+      "channel": "Nate Herk | AI Automation",
+      "published": "2026-07-10T01:30:15+00:00",
+      "url": "https://www.youtube.com/watch?v=EthxaDswUFo",
+      "channel_slug": "nate-herk-ai-automation",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "J_jswzXhYJA": {
+      "video_id": "J_jswzXhYJA",
+      "title": "GPT 5.6 Sol Made This Entire Video",
+      "channel": "Nate Herk | AI Automation",
+      "published": "2026-07-09T22:05:14+00:00",
+      "url": "https://www.youtube.com/watch?v=J_jswzXhYJA",
+      "channel_slug": "nate-herk-ai-automation",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "R0qF17BVl9w": {
+      "video_id": "R0qF17BVl9w",
+      "title": "Fable 5 Just Built Me a Business With One Prompt",
+      "channel": "Nate Herk | AI Automation",
+      "published": "2026-07-08T22:05:01+00:00",
+      "url": "https://www.youtube.com/watch?v=R0qF17BVl9w",
+      "channel_slug": "nate-herk-ai-automation",
+      "status": "pending"
+    },
+    "XTBWVVcF3Pk": {
+      "video_id": "XTBWVVcF3Pk",
+      "title": "How I Make Opus Think Like Fable (5 easy steps)",
+      "channel": "Nate Herk | AI Automation",
+      "published": "2026-07-07T02:44:05+00:00",
+      "url": "https://www.youtube.com/watch?v=XTBWVVcF3Pk",
+      "channel_slug": "nate-herk-ai-automation",
+      "status": "pending"
+    },
+    "hQvwMj7IJe4": {
+      "video_id": "hQvwMj7IJe4",
+      "title": "Fable 5 + Karpathy’s LLM Wiki is Basically Cheating",
+      "channel": "Nate Herk | AI Automation",
+      "published": "2026-07-03T21:53:05+00:00",
+      "url": "https://www.youtube.com/watch?v=hQvwMj7IJe4",
+      "channel_slug": "nate-herk-ai-automation",
+      "status": "pending"
+    },
+    "pbrln2TVeh4": {
+      "video_id": "pbrln2TVeh4",
+      "title": "How Claude is Creating a New Generation of Millionaires",
+      "channel": "Nate Herk | AI Automation",
+      "published": "2026-07-03T13:03:22+00:00",
+      "url": "https://www.youtube.com/watch?v=pbrln2TVeh4",
+      "channel_slug": "nate-herk-ai-automation",
+      "status": "pending"
+    },
+    "vcU85OrwuV0": {
+      "video_id": "vcU85OrwuV0",
+      "title": "How Anthropic Engineers Actually Prompt Fable 5",
+      "channel": "Nate Herk | AI Automation",
+      "published": "2026-07-01T21:21:58+00:00",
+      "url": "https://www.youtube.com/watch?v=vcU85OrwuV0",
+      "channel_slug": "nate-herk-ai-automation",
+      "status": "pending"
+    },
+    "Tj3018n5MVg": {
+      "video_id": "Tj3018n5MVg",
+      "title": "Stanford's Method Turns Claude Into a PHD Level Research Team",
+      "channel": "Nate Herk | AI Automation",
+      "published": "2026-06-29T13:15:39+00:00",
+      "url": "https://www.youtube.com/watch?v=Tj3018n5MVg",
+      "channel_slug": "nate-herk-ai-automation",
+      "status": "pending"
+    },
+    "iTY8Q449YNQ": {
+      "video_id": "iTY8Q449YNQ",
+      "title": "I asked Claude Code to make me as much money as possible",
+      "channel": "Nate Herk | AI Automation",
+      "published": "2026-06-25T19:52:16+00:00",
+      "url": "https://www.youtube.com/watch?v=iTY8Q449YNQ",
+      "channel_slug": "nate-herk-ai-automation",
+      "status": "pending"
+    },
+    "S2ME69hra-k": {
+      "video_id": "S2ME69hra-k",
+      "title": "Why Watching AI Videos Isn't Enough",
+      "channel": "Nate Herk | AI Automation",
+      "published": "2026-06-24T15:49:36+00:00",
+      "url": "https://www.youtube.com/watch?v=S2ME69hra-k",
+      "channel_slug": "nate-herk-ai-automation",
+      "status": "pending"
+    },
+    "cSIMVYjVF28": {
+      "video_id": "cSIMVYjVF28",
+      "title": "The Pragmatic Engineer AMA",
+      "channel": "The Pragmatic Engineer",
+      "published": "2026-07-08T16:18:51+00:00",
+      "url": "https://www.youtube.com/watch?v=cSIMVYjVF28",
+      "channel_slug": "the-pragmatic-engineer",
+      "status": "pending"
+    },
+    "ddHQQtjIOpw": {
+      "video_id": "ddHQQtjIOpw",
+      "title": "How Kent Beck shapes the software engineering industry",
+      "channel": "The Pragmatic Engineer",
+      "published": "2026-07-01T16:41:08+00:00",
+      "url": "https://www.youtube.com/watch?v=ddHQQtjIOpw",
+      "channel_slug": "the-pragmatic-engineer",
+      "status": "pending"
+    },
+    "xafwfGVBxos": {
+      "video_id": "xafwfGVBxos",
+      "title": "Tech interviews with NeetCode",
+      "channel": "The Pragmatic Engineer",
+      "published": "2026-06-24T17:13:15+00:00",
+      "url": "https://www.youtube.com/watch?v=xafwfGVBxos",
+      "channel_slug": "the-pragmatic-engineer",
+      "status": "pending"
+    },
+    "xHxfeWtkXrM": {
+      "status": "done",
+      "title": "Justin Cormack - When Tests Lie: Using Observability to Keep AI Honest - AI Native DevCon June 2026",
+      "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
+      "published": "2026-07-11T07:44:44+00:00",
+      "url": "https://www.youtube.com/watch?v=xHxfeWtkXrM",
+      "generated": "2026-07-12T21:41:17+00:00"
+    },
+    "guhTp2Q8VX0": {
+      "video_id": "guhTp2Q8VX0",
+      "title": "Amit Kushwaha - Benchmarking the Agent Era: Measuring Performance Beyond the LLM - AI Native DevCon",
+      "channel": "AI Native Dev",
+      "published": "2026-07-10T07:24:37+00:00",
+      "url": "https://www.youtube.com/watch?v=guhTp2Q8VX0",
+      "channel_slug": "ai-native-dev",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "pyYKOLEnsZk": {
+      "video_id": "pyYKOLEnsZk",
+      "title": "Hannah Foxwell - The Reinvention of the Dev Team - AI Native DevCon June 2026",
+      "channel": "AI Native Dev",
+      "published": "2026-07-09T03:56:59+00:00",
+      "url": "https://www.youtube.com/watch?v=pyYKOLEnsZk",
+      "channel_slug": "ai-native-dev",
+      "status": "pending"
+    },
+    "D_cw-k0F1DM": {
+      "video_id": "D_cw-k0F1DM",
+      "title": "Harness Engineering: The New Discipline of Agentic Dev",
+      "channel": "AI Native Dev",
+      "published": "2026-07-08T15:30:11+00:00",
+      "url": "https://www.youtube.com/watch?v=D_cw-k0F1DM",
+      "channel_slug": "ai-native-dev",
+      "status": "pending"
+    },
+    "I9RWrW32QEw": {
+      "video_id": "I9RWrW32QEw",
+      "title": "Patrick Debois - The Rise of Agent Enablement - AI Native DevCon June 2026",
+      "channel": "AI Native Dev",
+      "published": "2026-07-08T08:49:33+00:00",
+      "url": "https://www.youtube.com/watch?v=I9RWrW32QEw",
+      "channel_slug": "ai-native-dev",
+      "status": "pending"
+    },
+    "7Ue0yM4J-B8": {
+      "video_id": "7Ue0yM4J-B8",
+      "title": "Inside Anthropic: How Claude Tag Is Changing Agentic Work",
+      "channel": "AI Native Dev",
+      "published": "2026-07-07T12:00:31+00:00",
+      "url": "https://www.youtube.com/watch?v=7Ue0yM4J-B8",
+      "channel_slug": "ai-native-dev",
+      "status": "pending"
+    },
+    "Rgwu9nF_Xok": {
+      "video_id": "Rgwu9nF_Xok",
+      "title": "Steve Yegge: 'You'll Never Write Code the Same Way Again'",
+      "channel": "AI Native Dev",
+      "published": "2026-07-06T16:00:30+00:00",
+      "url": "https://www.youtube.com/watch?v=Rgwu9nF_Xok",
+      "channel_slug": "ai-native-dev",
+      "status": "pending"
     }
   }
 }

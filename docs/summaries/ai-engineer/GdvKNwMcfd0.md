@@ -4,7 +4,7 @@ channel: "AI Engineer"
 video_id: GdvKNwMcfd0
 url: https://www.youtube.com/watch?v=GdvKNwMcfd0
 published: 2026-07-11T14:00:06+00:00
-generated: 2026-07-12T21:08:39+00:00
+generated: 2026-07-12T21:40:51+00:00
 model: "z-ai/glm-5.2"
 thumbnail: https://i.ytimg.com/vi/GdvKNwMcfd0/hqdefault.jpg
 ---
@@ -15,81 +15,83 @@ thumbnail: https://i.ytimg.com/vi/GdvKNwMcfd0/hqdefault.jpg
 [Watch on YouTube](https://www.youtube.com/watch?v=GdvKNwMcfd0) · **AI Engineer** · 2026-07-11
 
 ## TL;DR
-Chris Noring argues that the developer's role has shifted from writing every line of code to designing systems of AI agents that do the coding. He proposes a new workflow centered on the CLI and GitHub UI for delegation, with the editor serving mainly as a control board—emphasizing that guardrails like `AGENTS.md`, skills, and custom agents are essential to scale yourself without scaling "AI slop."
+Chris Noring argues that the developer role has shifted from writing code linearly to designing systems of guarded, delegated AI agents. He proposes a new workflow starting in the CLI, moving to the editor for fine-tuning, and scaling through delegation to agents via GitHub—enabled by guardrails like `AGENTS.md`, skills, and custom agents.
 
 ## Key Takeaways
-- Developers are no longer the bottleneck; linear progress limited by one person's typing speed is a thing of the past.
-- A proposed workflow starts in the CLI, moves to the editor for fine adjustments, and scales through the CLI or GitHub UI via delegation.
-- The editor is becoming less central—resembling a "control board" rather than the primary worksite—though many developers still feel most at home there.
-- `AGENTS.md` is the bare-minimum guardrail: a high-level file in your repo explaining intent, architecture, constraints, and dos and don'ts.
-- Skills provide repeatable, constrained recipes that stop agents from improvising; they live in folders (e.g., `.claude/skills` or `.github/skills`) with a `skill.md` and front matter.
-- Custom agents go beyond skills: they have a persona, can orchestrate multiple skills, use MCP servers, and reason about tasks.
-- Scaling happens by delegating tasks to agents from the CLI (`/delegate`) or the GitHub UI ("assign to agent"), which run in sandboxes and produce draft PRs.
-- Human-in-the-loop remains critical—agents ask for review before merging, and developers still control approval gates.
-- Without guardrails, more code from agents just means more "AI slop"; the engineering brain is still needed to design the system.
-- The overarching message: AI is scaling you, not replacing you—stay in the industry.
+- Developers are no longer the bottleneck; the center of gravity has moved from hands-on coding to system design and orchestration.
+- A proposed modern workflow starts in the CLI, uses the editor as a "control board" for refinement, and scales through agent delegation in the GitHub UI.
+- `AGENTS.md` is the bare-minimum guardrail, providing high-level repository intent, architecture, constraints, and dos/don'ts.
+- Skills are repeatable, constrained recipes (contracts) that prevent agents from improvising logic; they live in self-contained folders with a `skill.md`.
+- Custom agents are higher-level orchestrators with personas, reasoning, tools, and the ability to use multiple skills and MCP servers.
+- Scaling happens by delegating tasks to agents—either from the CLI (e.g., `/delegate`) or by assigning issues to agents in the GitHub UI—which produce draft PRs for human review.
+- Human-in-the-loop remains essential: agents work in sandboxes, create PRs, and request approval before merging.
+- Without guardrails, more AI output just means more "AI slop"; the engineering brain is still needed to build and maintain the harness.
+- The talk is vendor-aware but uses GitHub Copilot for demos, noting similar concepts exist in Claude (e.g., `.claude/skills`).
+- The overarching message: AI scales developers (potentially to "20x"), not replaces them—provided the right system of guardrails is in place.
 
 ## Detailed Breakdown
 
-### [00:07] **Introduction and Audience Pulse**
-Chris Noring opens by asking the audience how many still code "like you normally do"—few hands go up. He notes that most have shifted to a systems approach. He polls usage of Claude vs. Copilot, finding roughly half-and-half, and mentions Microsoft's friendly relationship with Anthropic.
+### [00:07] Introduction and Audience Shift
+Chris Noring opens by asking the audience how many still code "like they normally do," noting few hands go up. He observes that most developers have already shifted toward a systems approach. He polls the room on tool usage, finding a roughly even split between Claude and GitHub Copilot, and notes Microsoft's friendly relationship with Anthropic.
 
-### [01:08] **The Developer's Changing Center of Gravity**
-Noring reflects on the old days when developers were 100% on the keyboard and were the limitation—progress was linear, and choosing one feature meant sacrificing another. That constraint is gone. Jobs haven't disappeared, but the "center of gravity" has moved. Developers still write code but are precious with their time, relying on many helpers.
+### [01:08] The Developer's Changing Role
+Noring reflects on the old days when developers were 100% on the keyboard and were the limitation on progress—features were built linearly, and choices had to be made about what to prioritize. That limitation no longer exists. He acknowledges that while jobs haven't disappeared, the "center of gravity" has moved. Developers still write code but are now precious with their time, relying on many AI helpers.
 
-### [02:10] **AI Slop and the Need for Guardrails**
-He acknowledges the early pain of AI tools producing "AI slop"—code that created more cleanup work. Now, guardrails are a central part of developer life. Developers must decide which AI tool fits their world, whether Claude Code/Desktop or Copilot's CLI, editor, or GitHub UI.
+### [02:10] AI Slop and the Need for Guardrails
+He introduces the concept of "AI slop"—early AI tools often generated code that created more work than they saved. Now, guardrails are a central part of a developer's existence. He notes that using an AI tool is no longer optional; the question is which tool and how to fit it into a world that used to revolve around editors and IDEs.
 
-### [03:14] **Proposing a New Workflow: CLI First**
-Noring proposes starting in the CLI rather than the editor—a shift because the editor used to be the entry point. He suggests the workflow: CLI → editor → scaling via CLI or GitHub UI. He admits this is his idea and welcomes disagreement, noting he no longer needs to open his editor to begin work.
+### [03:14] A Proposed New Workflow: CLI First
+Noring proposes a workflow that starts in the CLI, which he admits is a "weird idea" for developers used to editors being their entry point. He suggests the CLI is now a good starting point because he no longer needs to open an editor immediately. The editor becomes the second step—a familiar "home" for refinement—while the third step is scaling, which can happen from the CLI or the GitHub UI using agents.
 
-### [04:47] **CLI as the Starting Point**
-The CLI is where first drafts and MVPs begin. Noring shares an anecdote about engineers bringing working demos instead of PowerPoint decks. He describes managing issues, PRs, and status checks from the CLI without opening VS Code, and notes that developers now write prompts ("Build me an app," "Fix this issue") rather than Java or Python.
+### [04:47] CLI as the Starting Point for First Drafts
+He explains that the CLI is where first drafts and MVPs are created. He shares an anecdote about engineers bringing working demos instead of PowerPoint presentations. In the CLI, developers can manage GitHub issues, PRs, and status checks without opening VS Code. He notes that developers now write prompts—"Build me an app," "Fix an issue," "Add a new feature"—rather than writing Java, JavaScript, or Python directly.
 
-### [06:48] **The Editor as a Control Board**
-Moving from CLI to editor, Noring explains the need to set up guardrails and custom agents there. He still loves the editor after 20 years but uses it less and less, likening it to a "control board" that listens to streams from the CLI, editor, and GitHub repos.
+### [06:48] The Editor as a Control Board
+Moving from the CLI to the editor, Noring explains the need to set up guardrails and custom agents. He still loves the editor after 20 years but recognizes it makes less sense to sit and write code manually when 15–20 agents can do the work. He reframes the editor as a "control board" that listens to streams from the CLI, editor, and GitHub repos, giving a sense of control and oversight.
 
-### [07:51] **Guardrail One: AGENTS.md**
-The absolute bare minimum is an `AGENTS.md` file in every repo. It provides high-level guidance: repository intent, architecture, constraints, and dos and don'ts (e.g., "never change the architecture unless I tell you"). He demos a finance tracker repo with a detailed `AGENTS.md` and notes you can copy one from another project and ask the agent to adopt the codebase to it.
+### [07:51] Guardrail One: AGENTS.md
+Noring presents `AGENTS.md` as the absolute bare-minimum guardrail for any repository. It provides high-level guidance: repository intent, application architecture, constraints, and dos/don'ts (e.g., "never change the architecture unless I tell you"). He demos a finance tracker repo with an `AGENTS.md` containing project overview and agent responsibilities, and notes you can copy an `AGENTS.md` from another project and ask the AI to adopt the codebase to it.
 
-### [09:25] **Guardrail Two: Skills**
-Agents often don't do things correctly, so skills are needed for repeatable tasks. A skill is a contract an agent invokes—self-contained, intentionally constrained, living in a folder with a `skill.md` and front matter (name, description, instructions). Noring notes broad vendor agreement on this pattern (`.claude/skills` for Anthropic, similar in Copilot) and demos creating and invoking skills, including asking Copilot to help write better skill instructions.
+### [09:55] Guardrail Two: Skills
+When agents don't do things correctly or improvise undesirably, skills are needed. A skill is a repeatable recipe—a contract that an agent invokes. It is self-contained (lives in a folder with a `skill.md`), intentionally constrained, and prevents the agent from being "creative" in unwanted ways. Noring notes that skills are a cross-vendor concept: GitHub Copilot and Claude (via `.claude/skills`) both support them. He demos creating a skill by asking Copilot to help write a better instruction.
 
-### [12:59] **Guardrail Three: Custom Agents**
-When skills aren't enough, custom agents provide the next level. An agent has a persona (e.g., security expert, back-ender, front-ender), can use n number of skills, can leverage MCP servers, and can reason and plan. Noring contrasts agents with skills: agents are orchestrators with broader scope, personality, and autonomy. He demos a custom agent in `.github/agents` with argument hints and constrained tools (read, search web, create to-do lists), showing a "researcher" agent scoped to web research.
+### [12:59] Guardrail Three: Custom Agents
+When skills aren't enough—because they can't orchestrate or reason—custom agents are the next level. A custom agent has a persona (e.g., security expert, back-ender, front-ender), can use multiple skills, and can connect to MCP servers. Noring compares skills and agents: agents are orchestrators with personality, planning, reasoning, and tool access. He demos a "researcher" agent constrained to web search and reading, showing how it differs from a skill by having argument hints, tools, and broader autonomy.
 
-### [16:05] **Scaling via Delegation from the CLI**
-Noring introduces the scaling chapter. He compares agents to "toddlers"—sometimes genius, sometimes inexplicably dumb—reinforcing the need for harnesses. With guardrails in place, developers can scale themselves to 10x, 20x, or 100x. From the CLI, calling `/delegate` sends a session to GitHub, which starts a job and creates a draft PR. Agents work in sandboxes, keeping humans in the loop for review.
+### [16:05] Scaling Through Delegation
+Noring introduces the scaling chapter. He compares agents to "toddlers"—sometimes genius, sometimes inexplicably dumb—reinforcing the need for a harness. Once guardrails are in place, developers can scale themselves to 10x, 20x, or even 100x. He shows two modalities for scaling: delegating from the CLI using `/delegate`, and delegating from the GitHub UI by assigning issues to agents.
 
-### [18:55] **Scaling via the GitHub UI**
-The second scaling modality is the GitHub repo UI. You create an issue (e.g., "Add dark mode"), then click "assign to agent," optionally adding instructions. Copilot picks it up, shows a work-in-progress indicator, and eventually returns a draft PR for human review. Noring highlights that this runs in the background, letting you continue other work.
+### [17:39] Delegation Demo: CLI to GitHub
+He demos `/delegate` in the CLI, asking it to "Create a finance app that tracks my spending" using HTML, CSS, and JavaScript. The tool requires a proper GitHub repo, then sends the session to GitHub, starting a job and creating a draft PR. He emphasizes that agents work in sandboxes and can't break out, but they can create PRs—bringing humans into the loop for review.
 
-### [20:45] **Human in the Loop and Closing Message**
-Noring compares the current era to moving from axes to chainsaws—developers are used to better tools. Humans remain important because they built the system, set the harness, and control approval gates. He summarizes: try the CLI for building and delegating, use the editor for fine adjustments, and scale via CLI or GitHub UI. The guardrails—`AGENTS.md`, skills, custom agents—prevent 20x code from becoming 20x slop. The engineering brain is still wanted; AI scales you, it doesn't replace you.
+### [19:12] Delegation Demo: GitHub UI
+Noring shows the second modality: creating an issue in the GitHub repo UI (e.g., "Add dark mode to my app") and clicking "assign to agent." This kicks off the agent, which shows a work-in-progress indicator. Once done, it returns a draft PR for human review. He highlights that this happens in the background, letting the developer continue other work.
+
+### [20:45] Summary and Closing Message
+He compares the current era to moving from axes to chainsaws—better tools are not new to developers. Human-in-the-loop remains critical: we built the system, set approval gates, and can still merge. Noring summarizes the guardrails (`AGENTS.md`, skills, custom agents) and stresses that AI scales developers, not replaces them. He closes with an encouraging message: "We want the engineering brain, so please stay in this industry."
 
 ## Notable Quotes
-- "We were brilliant engineers. We did 100% of the code, but linear progress. It was just you trying to advance things."
-- "Without rules, agents run amuck."
-- "A skill is a contract… self-contained, intentionally constrained because we don't want agents to do things."
-- "I've heard people refer to them as toddlers… they literally go between genius and oh my god, I can't believe you did this."
+- "We were brilliant engineers. We did 100% of the code, but linear progress. It was just you trying to advance things. That's no longer a limitation."
+- "Without rules, agents run amok."
+- "A skill is a contract... instead of improvising logic, because we know as developers we want to mitigate risk."
+- "I've heard people refer to them as toddlers... they literally go between genius and oh my god, I can't believe you did this."
 - "20 times more code, that could be 20 times more slop, and we don't want that."
 - "We want the engineering brain, so please stay in this industry."
 
 ## People, Tools & References Mentioned
 - **Chris Noring** — Speaker, Microsoft AI engineering
-- **Claude / Claude Code / Claude Desktop** — Anthropic AI tools
-- **GitHub Copilot** — including CLI, editor integration, and GitHub UI delegation
-- **Anthropic** — mentioned as a Microsoft partner
-- **AGENTS.md** — high-level repo guardrail file
-- **Skills** — repeatable agent contracts (`.claude/skills`, `.github/skills`)
-- **Custom agents** — `.github/agents` in Copilot
-- **MCP servers** — Playwright, GitHub MCP
-- **VS Code, IntelliJ** — editors mentioned
-- **React, Tailwind, HTML/CSS/JavaScript** — example technologies
-- **Microsoft Agent Framework** — referenced in a demo prompt
+- **GitHub Copilot** — including CLI, editor integration, custom agents, `/delegate`, and GitHub UI agent assignment
+- **Claude / Anthropic** — Claude Code, Claude Desktop, `.claude/skills`
+- **AGENTS.md** — high-level repository guardrail file
+- **Skills** — repeatable, constrained agent contracts (`skill.md`)
+- **Custom Agents** — `.github/agents`, persona-based orchestrators with tools and reasoning
+- **MCP Servers** — Playwright, GitHub MCP
+- **VS Code / IntelliJ** — editors mentioned for skill creation
+- **Technologies referenced:** React, Tailwind, HTML, CSS, JavaScript, Java, Python, PowerShell, Bash
+- **Concepts:** AI slop, guardrails, human-in-the-loop, sandbox execution, draft PRs, scaling/delegation, approval gates
 
 ## Who Should Watch
-Developers at any level who are already experimenting with AI coding tools and want a practical framework for scaling themselves through guardrails, skills, and agent delegation—especially those feeling the tension between loving their editor and needing to manage multiple AI agents across CLI and GitHub workflows.
+Developers and engineering leaders who are already experimenting with AI coding tools and want to move from ad-hoc usage to a structured, scalable system of guarded agents. It's especially relevant for those curious about practical workflows that span CLI, editor, and GitHub UI delegation.
 
 
 <details class="transcript">

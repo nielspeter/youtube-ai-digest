@@ -4,7 +4,7 @@ channel: "Better Stack"
 video_id: 4Lmqvn_yz-c
 url: https://www.youtube.com/watch?v=4Lmqvn_yz-c
 published: 2026-07-10T18:00:09+00:00
-generated: 2026-07-12T21:10:42+00:00
+generated: 2026-07-12T21:42:35+00:00
 model: "z-ai/glm-5.2"
 thumbnail: https://i.ytimg.com/vi/4Lmqvn_yz-c/hqdefault.jpg
 ---
@@ -15,59 +15,60 @@ thumbnail: https://i.ytimg.com/vi/4Lmqvn_yz-c/hqdefault.jpg
 [Watch on YouTube](https://www.youtube.com/watch?v=4Lmqvn_yz-c) · **Better Stack** · 2026-07-10
 
 ## TL;DR
-PG Durable is an open-source PostgreSQL extension developed by Microsoft that brings durable, crash-proof functions directly into the database, enabling scheduled jobs, automatic retries, and complex workflows like human-in-the-loop approvals without relying on external services. The video demonstrates how to use it for recurring tasks and approval workflows, highlighting how it can replace hundreds of lines of boilerplate SQL with just a few lines.
+PG Durable is an open-source PostgreSQL extension by Microsoft that brings durable, crash-proof functions directly into the database, enabling scheduled jobs, automatic retries, long-running workflows, and human-in-the-loop approvals without any external services. The video demonstrates how to replace hundreds of lines of boilerplate code with concise SQL using built-in operations for sequencing, parallelism, waiting, and signaling.
 
 ## Key Takeaways
-- PG Durable is an open-source PostgreSQL extension developed by Microsoft.
-- It enables durable functions that are persisted to disk at every step, surviving crashes and restarts.
-- You can manage scheduled jobs, automatic retries, long-running processes, and human-in-the-loop workflows entirely inside Postgres.
-- Functions are submitted using the `df_start` function, and their progress can be tracked via `df_status` and `df_result`.
+- PG Durable is a Microsoft-developed, open-source PostgreSQL extension that persists functions to disk at every step, making them crash-proof and durable.
+- It enables managing scheduled jobs, automatic retries, long-running processes, and human-in-the-loop workflows entirely inside PostgreSQL—no external services required.
+- Durable functions are submitted via the `df_start` function, which returns an 8-character ID for tracking status (`df_status`) and retrieving results (`df_result`).
 - Built-in operations include running steps in sequence, in parallel, or racing operations to return the fastest result.
-- The `df.wait` function allows scheduling on cron expressions, eliminating the need for external cron systems.
-- Human-in-the-loop approval workflows can be built using `df_signal` to wake parked workflows.
-- PG Durable runs on Postgres 17 and requires setting `pg_durable` in `shared_preload_libraries`.
-- It can drastically reduce boilerplate code—demonstrated by replacing 300 lines of SQL with just 7 lines.
-- Error handling and retries are managed automatically by the extension.
+- The `df.wait` function supports cron expressions, allowing scheduled jobs to run natively in Postgres without third-party cron systems.
+- A looping schedule demo shows a one-minute recurring job that waits, then calls a procedure to insert a log entry—running permanently as long as the script is active.
+- A human-in-the-loop approval workflow demonstrates waiting for a signal (up to 24 hours) from a human before updating an order's status to approved or rejected.
+- The `df_signal` function wakes a parked workflow when external approval is given.
+- PG Durable can reduce 300 lines of boilerplate SQL (queue setup, worker management, polling, error handling, retries) down to just 7 lines.
+- Error handling and retries are handled automatically, which is a major reason for the dramatic code reduction.
 
 ## Detailed Breakdown
 
 **[00:00] Introduction to PG Durable**
-The video introduces PG Durable, an open-source PostgreSQL extension by Microsoft. It brings durable, crash-proof functions into Postgres, allowing developers to manage scheduled jobs, automatic retries, and long-running workflows—such as human-in-the-loop approvals—without needing external services.
+The video opens by announcing a major upgrade to PostgreSQL: durable, crash-proof functions inside the database. PG Durable, an open-source extension developed by Microsoft, allows users to manage scheduled jobs, automatic retries, long-running processes, and workflows like human-in-the-loop approvals—all without external services. The host promises a hands-on demo, including setting up scheduling directly in Postgres.
 
-**[00:30] What Durable Functions Are**
-Durable functions in PG Durable are persisted to disk at every step, providing guarantees beyond a standard `BEGIN`/`COMMIT` block or cron job. This means operations can survive database crashes and restarts, and long waits or failures can be handled directly inside Postgres.
+**[00:30] What Durable Functions Provide**
+Durable functions in PG Durable are persisted to disk at every step, offering guarantees beyond a plain `BEGIN`/`COMMIT` block or a cron job. This means database crashes, restarts, long waits, and failures can all be managed natively inside Postgres.
 
 **[01:01] Core Concepts and API**
-A durable function is a graph of steps submitted using the `df_start` function. Running `select df_start select hello world` returns an 8-character ID. This ID can be passed to `df_status` to check the operation's status or `df_result` to retrieve the final output. Built-in operations include sequential execution, parallel execution, and racing operations to return the fastest. The `df.wait` function enables cron-based scheduling without third-party tools.
+A durable function is a graph of steps submitted via SQL using the `df_start` function. A simple example wraps `SELECT 'hello world'` inside `df_start`, returning an 8-character ID. That ID can be passed to `df_status` to check operation status or `df_result` to retrieve the final output. PG Durable also includes built-in operations for sequencing, parallelism, racing operations, and `df.wait` for cron-based scheduling.
 
-**[02:02] Demo: Scheduled Job Setup**
-The first demo sets up a recurring scheduled job using `df_start` with a `loop` operation to run forever on a one-minute interval. Inside the loop, a `sequence` operation first waits for one minute, then calls a procedure named `refresh materialized views`, which inserts a record into a `refresh_log` table. After running the script, the presenter confirms the table fills with new log entries every minute, demonstrating a self-sustaining, database-native scheduler.
+**[02:02] Demo: Scheduled Job Loop**
+The first demo sets up a permanent one-minute schedule using `df_start` with a `loop` operation. Inside the loop, a `sequence` operation first waits one minute (`df.wait`), then calls a procedure (`refresh_materialized_views`) that inserts a row into a `refresh_log` table. After running the script, the host queries the table and observes multiple log entries accumulating, confirming the loop runs indefinitely on a one-minute cadence.
 
-**[03:05] Demo: Human-in-the-Loop Approval Workflow**
-The second demo builds an order approval workflow. The script uses `df_start` to select the top order, assigns it to a variable, and then waits up to 24 hours for a human approval signal. An `if` function checks whether approval was granted or timed out, then updates the order status to "approved" or "rejected" accordingly. A second script uses the `df_signal` function to wake the parked workflow and approve the order, which the presenter verifies by checking the database status change from "pending" to "approved."
+**[03:05] Demo: Human-in-the-Loop Order Approval**
+The second demo demonstrates a workflow for approving orders with human intervention. The workflow selects the top order, stores it in a variable, then waits for a human approval signal (up to 24 hours). An `if` conditional checks whether approval was granted and not timed out; if so, the order status is set to approved, otherwise rejected. The host runs the workflow script, observes the order in `pending` status, then runs a separate approval script that uses `df_signal` to wake the parked workflow, which updates the status to `approved`.
 
-**[04:40] Running Locally with Docker**
-To run the examples locally, the presenter shows a Docker Compose file using Microsoft's PG Durable image running Postgres 17. The configuration requires setting `shared_preload_libraries` to `pg_durable`, but the rest of the config is customizable. This setup runs a Postgres database with the PG Durable extension enabled.
+**[04:40] Running Locally with Docker Compose**
+The host briefly walks through the Docker Compose configuration for running the examples locally. It uses Microsoft's PG Durable image running Postgres 17, with `shared_preload_libraries` set to `pg_durable`. The rest of the config is customizable, and the setup runs a Postgres database with the extension enabled.
 
-**[05:10] Replacing Boilerplate and Conclusion**
-The video highlights an example from the PG Durable site where 300 lines of boilerplate SQL—handling queue setup, worker management, polling, message handling, state tracking, and retries—are replaced with just 7 lines using PG Durable. The concise version runs three operations in parallel (using the ampersand character) and then sequences a dashboard refresh. The presenter notes that automatic error handling and retries are built-in, and directs viewers to links in the description for deeper exploration.
+**[05:10] Code Reduction Example**
+The video highlights a comparison from the PG Durable site: 300 lines of boilerplate SQL (handling queue setup, worker management, polling, message handling, state tracking, error handling, and retries) reduced to just 7 lines using PG Durable. The concise version runs three operations in parallel (using the `&` character) and then sequences a dashboard refresh. The reduction is possible not only because of new operations but also because error handling and retries are automatic. The host closes by pointing viewers to links in the description for deeper exploration.
 
 ## Notable Quotes
-- "A durable function in PG durable is persisted to disk every step of the way. That gives you a specific set of guarantees you don't get from a plain begin commit block or a cron job."
-- "This is 300 lines of boilerplate which can then be reduced down to just seven lines with PG durable."
+- "A durable function in PG Durable is persisted to disk every step of the way. That gives you a specific set of guarantees you don't get from a plain begin commit block or a cron job."
+- "This is 300 lines of boilerplate which can then be reduced down to just seven lines with PG Durable."
 - "Things like error handling and retries are handled automatically inside PG Durable."
 
 ## People, Tools & References Mentioned
 - **PG Durable** — open-source PostgreSQL extension by Microsoft
-- **PostgreSQL 17** — database version used in the demo
+- **PostgreSQL 17** — the database version used in the demo
 - **Docker Compose** — used to run the local demo environment
 - **Microsoft** — developer of the PG Durable extension
-- **Warren (presenter)** — from Better Stack
+- **Warren (Better Stack)** — video host
 - **Better Stack** — YouTube channel publishing the video
-- Key functions/commands: `df_start`, `df_status`, `df_result`, `df_signal`, `df.wait`, `sequence`, `loop`, `if`
+- Functions referenced: `df_start`, `df_status`, `df_result`, `df.wait`, `df_signal`
+- Operations referenced: `loop`, `sequence`, parallel (using `&`), `if`
 
 ## Who Should Watch
-Backend developers and database administrators who want to simplify complex scheduling, retries, and workflow logic by moving it directly into Postgres—without relying on external job runners or orchestration services.
+Backend developers and database administrators who want to eliminate external job schedulers, workflow engines, or retry systems and instead manage long-running, crash-proof workflows directly inside PostgreSQL. It's especially valuable for teams already invested in Postgres who want to simplify their infrastructure and reduce boilerplate code.
 
 
 <details class="transcript">

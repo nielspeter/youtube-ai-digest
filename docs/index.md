@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **17** videos summarized.
+Auto-generated summaries of subscribed channels. **26** videos summarized.
 
 ## AI Engineer
 
@@ -22,23 +22,42 @@ Auto-generated summaries of subscribed channels. **17** videos summarized.
 <a class="video-card" href="summaries/ai-engineer/RGiXcVxSD3s"><img loading="lazy" src="https://i.ytimg.com/vi/RGiXcVxSD3s/hqdefault.jpg" alt=""><span class="video-title">Chat and citations won&#x27;t save your vertical AI - Atul Ramachandran, Filed Inc</span><span class="video-date">2026-07-11</span></a>
 <a class="video-card" href="summaries/ai-engineer/KB41dTlX1Uc"><img loading="lazy" src="https://i.ytimg.com/vi/KB41dTlX1Uc/hqdefault.jpg" alt=""><span class="video-title">State of the Union: Why Local, Why Now — NVIDIA, Osmantic, Roboflow, EXO Labs, @matthew_berman</span><span class="video-date">2026-07-11</span></a>
 <a class="video-card" href="summaries/ai-engineer/WLXxTaPagA8"><img loading="lazy" src="https://i.ytimg.com/vi/WLXxTaPagA8/hqdefault.jpg" alt=""><span class="video-title">Every Solo Agent Builder Eventually Reinvents a Worse Version of CI/CD - Sumaiya Shrabony</span><span class="video-date">2026-07-11</span></a>
+<a class="video-card" href="summaries/ai-engineer/9arM9b7JgOo"><img loading="lazy" src="https://i.ytimg.com/vi/9arM9b7JgOo/hqdefault.jpg" alt=""><span class="video-title">Develop at Idea Velocity - Jeffrey Lee-Chan, Snapchat</span><span class="video-date">2026-07-11</span></a>
+<a class="video-card" href="summaries/ai-engineer/GdvKNwMcfd0"><img loading="lazy" src="https://i.ytimg.com/vi/GdvKNwMcfd0/hqdefault.jpg" alt=""><span class="video-title">From Writing Code to Designing Systems: How the Developer Role is Changing — Chris Noring, Microsoft</span><span class="video-date">2026-07-11</span></a>
 </div>
 
 ## AI Native Dev
 
 <div class="video-grid">
 <a class="video-card" href="summaries/ai-native-dev/BkJCF2yV53w"><img loading="lazy" src="https://i.ytimg.com/vi/BkJCF2yV53w/hqdefault.jpg" alt=""><span class="video-title">The Architecture of Claude Tag</span><span class="video-date">2026-07-11</span></a>
+<a class="video-card" href="summaries/ai-native-dev/xHxfeWtkXrM"><img loading="lazy" src="https://i.ytimg.com/vi/xHxfeWtkXrM/hqdefault.jpg" alt=""><span class="video-title">Justin Cormack - When Tests Lie: Using Observability to Keep AI Honest - AI Native DevCon June 2026</span><span class="video-date">2026-07-11</span></a>
 <a class="video-card" href="summaries/ai-native-dev/tFffUnSq7VA"><img loading="lazy" src="https://i.ytimg.com/vi/tFffUnSq7VA/hqdefault.jpg" alt=""><span class="video-title">Birgitta Böckeler - State of Play: AI Coding Assistants - AI Native DevCon June 2026</span><span class="video-date">2026-06-24</span></a>
+</div>
+
+## Better Stack
+
+<div class="video-grid">
+<a class="video-card" href="summaries/better-stack/4Lmqvn_yz-c"><img loading="lazy" src="https://i.ytimg.com/vi/4Lmqvn_yz-c/hqdefault.jpg" alt=""><span class="video-title">Postgres Just Got It&#x27;s Biggest Upgrade In Years</span><span class="video-date">2026-07-10</span></a>
+<a class="video-card" href="summaries/better-stack/mIL4sZa8M0E"><img loading="lazy" src="https://i.ytimg.com/vi/mIL4sZa8M0E/hqdefault.jpg" alt=""><span class="video-title">Open-Source Dictation Is Here… Goodbye Subscriptions</span><span class="video-date">2026-07-10</span></a>
 </div>
 
 ## Cole Medin
 
 <div class="video-grid">
 <a class="video-card" href="summaries/cole-medin/deeOA6YVfqw"><img loading="lazy" src="https://i.ytimg.com/vi/deeOA6YVfqw/hqdefault.jpg" alt=""><span class="video-title">I Turned Claude Code Into a Complete Video Generation System (with Archon)</span><span class="video-date">2026-07-12</span></a>
+<a class="video-card" href="summaries/cole-medin/PY7xIxybYNc"><img loading="lazy" src="https://i.ytimg.com/vi/PY7xIxybYNc/hqdefault.jpg" alt=""><span class="video-title">Pydantic AI 2.0: The New Best Way to Build AI Agents is Composing Capabilities</span><span class="video-date">2026-07-10</span></a>
 </div>
 
 ## Nate Herk | AI Automation
 
 <div class="video-grid">
 <a class="video-card" href="summaries/nate-herk-ai-automation/zyvdl__Ywfk"><img loading="lazy" src="https://i.ytimg.com/vi/zyvdl__Ywfk/hqdefault.jpg" alt=""><span class="video-title">Claude Code + Clay Makes Lead Generation Actually Fun</span><span class="video-date">2026-07-12</span></a>
+</div>
+
+## OpenAI
+
+<div class="video-grid">
+<a class="video-card" href="summaries/openai/yATno77Uo6A"><img loading="lazy" src="https://i.ytimg.com/vi/yATno77Uo6A/hqdefault.jpg" alt=""><span class="video-title">Stampli scales product marketing with ChatGPT Work</span><span class="video-date">2026-07-10</span></a>
+<a class="video-card" href="summaries/openai/IYYTI73J7Rg"><img loading="lazy" src="https://i.ytimg.com/vi/IYYTI73J7Rg/hqdefault.jpg" alt=""><span class="video-title">ChatGPT Computer Use: Now faster with Live Picture-in-Picture</span><span class="video-date">2026-07-10</span></a>
+<a class="video-card" href="summaries/openai/nep5byxmr_M"><img loading="lazy" src="https://i.ytimg.com/vi/nep5byxmr_M/hqdefault.jpg" alt=""><span class="video-title">RingCentral Scales Customer Programs with ChatGPT Work</span><span class="video-date">2026-07-10</span></a>
 </div>

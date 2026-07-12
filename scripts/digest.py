@@ -80,9 +80,20 @@ RATE_LIMIT_MAX_RETRIES = int(os.environ.get("RATE_LIMIT_MAX_RETRIES", "12"))
 RATE_LIMIT_MAX_WAIT = 600  # never sleep longer than this per retry
 
 
+class BotCheckError(Exception):
+    """YouTube demanded 'confirm you're not a bot' — an IP-level block, not a
+    per-video problem. Retried on future runs (different IP) without burning the
+    per-video attempt budget."""
+
+
 def is_rate_limited(text: str) -> bool:
     t = (text or "").lower()
     return "429" in t or "too many requests" in t
+
+
+def is_bot_check(text: str) -> bool:
+    t = (text or "").lower()
+    return "confirm you" in t and "not a bot" in t
 
 
 def retry_after_seconds(text: str, attempt: int) -> int:
@@ -259,6 +270,9 @@ def fetch_transcript(video_id: str) -> str | None:
         return cached.read_text(encoding="utf-8")
 
     cookies = env("YTDLP_COOKIES")
+    # Local convenience: read cookies straight from a logged-in browser, no export
+    # needed. e.g. YTDLP_COOKIES_FROM_BROWSER=chrome (or firefox, safari, brave...).
+    cookies_from_browser = env("YTDLP_COOKIES_FROM_BROWSER")
     rate_limit_attempt = 0
     while True:
         with tempfile.TemporaryDirectory() as tmp:
@@ -276,10 +290,16 @@ def fetch_transcript(video_id: str) -> str | None:
             ]
             if cookies:
                 cmd += ["--cookies", cookies]
+            elif cookies_from_browser:
+                cmd += ["--cookies-from-browser", cookies_from_browser]
             try:
                 subprocess.run(cmd, check=True, capture_output=True, text=True, timeout=600)
             except subprocess.CalledProcessError as exc:
                 stderr = exc.stderr or ""
+                if is_bot_check(stderr):
+                    # IP-level block — no cookies to authenticate. Don't retry here
+                    # (same IP won't clear it); signal the caller to try next run.
+                    raise BotCheckError(video_id)
                 if is_rate_limited(stderr) and rate_limit_attempt < RATE_LIMIT_MAX_RETRIES:
                     wait = retry_after_seconds(stderr, rate_limit_attempt)
                     rate_limit_attempt += 1
@@ -577,11 +597,21 @@ def is_short(video_id: str) -> bool:
 
 def process_one(client: OpenAI, model: str, entry: dict, videos: dict,
                 max_minutes: int = 0) -> bool:
-    """Fetch transcript, summarize, write markdown, update state. Returns True on success.
-    max_minutes > 0 skips videos longer than that (0 = no limit)."""
+    """Fetch transcript, summarize, write markdown, update state.
+    Returns True on success, False on a per-video failure, None on an IP-level
+    bot-check (caller should stop the run). max_minutes > 0 skips longer videos."""
     vid = entry["video_id"]
     print(f"→ {entry['title']}  ({vid})")
-    transcript = fetch_transcript(vid)
+    try:
+        transcript = fetch_transcript(vid)
+    except BotCheckError:
+        # IP-level bot-block: keep the video queued and retry next run (likely a
+        # different, cleaner IP). Does NOT count against the attempt budget.
+        # Returns None (not False) so the caller stops hammering the flagged IP.
+        rec = {k: v for k, v in entry.items() if k != "status"}
+        videos[vid] = {**rec, "status": "blocked"}
+        print("  blocked by YouTube bot-check; will retry next run")
+        return None
     if not transcript:
         attempts = videos.get(vid, {}).get("attempts", 0) + 1
         videos[vid] = {**entry, "status": "no_transcript", "attempts": attempts}
@@ -735,7 +765,7 @@ def main() -> None:
     workable = [
         {**rec, "video_id": vid}
         for vid, rec in videos.items()
-        if rec.get("status") == "pending"
+        if rec.get("status") in ("pending", "blocked")  # blocked: retry until a clean IP
         or (rec.get("status") in ("no_transcript", "llm_error")
             and rec.get("attempts", 0) < MAX_ATTEMPTS)
     ]
@@ -759,7 +789,11 @@ def main() -> None:
             print(f"Reached limit of {limit}; {len(workable) - attempted} still queued for next run.")
             break
         attempted += 1
-        if process_one(client, model, entry, videos, max_minutes=MAX_VIDEO_MINUTES):
+        result = process_one(client, model, entry, videos, max_minutes=MAX_VIDEO_MINUTES)
+        if result is None:  # bot-check: this IP is flagged, further fetches will fail too
+            print("  IP flagged by YouTube; ending run early — queued videos retry next run.")
+            break
+        if result:
             made += 1
 
     if not args.dry_run:

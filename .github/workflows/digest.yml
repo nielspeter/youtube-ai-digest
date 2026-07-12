@@ -2,7 +2,7 @@ name: YouTube Digest
 
 on:
   schedule:
-    - cron: '17 */6 * * *'   # every 6h at :17 (00:17, 06:17, 12:17, 18:17 UTC); odd minute avoids top-of-hour congestion
+    - cron: '7,37 * * * *'   # every 30 min (:07 and :37) — small batches per run stay under YouTube's bot-check threshold; blocked videos retry next run on a fresh runner IP
   workflow_dispatch:
     inputs:
       seed:

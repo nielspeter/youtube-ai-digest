@@ -4,7 +4,7 @@ channel: "AI Engineer"
 video_id: vJukHCIv7Ck
 url: https://www.youtube.com/watch?v=vJukHCIv7Ck
 published: 2026-07-11T21:45:00+00:00
-generated: 2026-07-12T21:04:29+00:00
+generated: 2026-07-12T21:27:17+00:00
 model: "z-ai/glm-5.2"
 thumbnail: https://i.ytimg.com/vi/vJukHCIv7Ck/hqdefault.jpg
 ---
@@ -15,61 +15,55 @@ thumbnail: https://i.ytimg.com/vi/vJukHCIv7Ck/hqdefault.jpg
 [Watch on YouTube](https://www.youtube.com/watch?v=vJukHCIv7Ck) · **AI Engineer** · 2026-07-11
 
 ## TL;DR
-Elizabeth Fuentes Leon, an AWS developer advocate, demonstrates five code-level techniques—beyond prompt engineering—to reduce AI agent hallucinations and token waste using the open-source Strands agent framework. The methods include semantic tool selection, GraphRAG, multi-agent validation, neuro-symbolic guardians, and runtime steering, all of which can be deployed to production using Amazon Bedrock Agent Core.
+Elizabeth Fuentes Leon, a developer advocate at AWS, presents five code-level techniques to reduce AI agent hallucinations and token waste—moving beyond prompt engineering. Using a travel agent demo built with the open-source Strands framework, she demonstrates semantic tool selection, GraphRAG, multi-agent validation, neuro-symbolic guardians, and runtime steering, concluding with how to deploy these patterns to production using Amazon Bedrock Agent Core.
 
 ## Key Takeaways
-- Sending all available tools to an AI agent on every call wastes tokens and increases hallucination risk; semantic tool selection filters tools so the model only sees what it needs.
-- Traditional RAG struggles with aggregation, counting, and multi-hop reasoning because it only samples a few text chunks; GraphRAG queries a knowledge graph for computed, verifiable answers.
-- A single agent can rationalize tool errors and fabricate success responses; multi-agent validation (e.g., executor, validator, critic) adds a second opinion to catch failures.
-- Rules written in prompts are treated as suggestions by the model; neuro-symbolic guardians enforce rules in Python code via hooks, making them inescapable.
-- Hard constraints should block execution, but soft constraints can use runtime steering to let the agent self-correct and complete the task without stopping.
-- The Strands agent framework (open-source, maintained by AWS) provides built-in hooks, tool swapping, and a Swarm class for multi-agent orchestration.
-- Amazon Bedrock Agent Core provides a production-ready managed service with a gateway for tool routing, runtime, memory, observability, and policy-based rule enforcement.
-- Neo4j can automatically build knowledge graphs from text documents using its LLM-driven library, simplifying GraphRAG implementation.
+- **Hallucinations are often a context problem:** Sending too many tokens, missing important context, or sending irrelevant information causes models to hallucinate and inflates API costs.
+- **Semantic tool selection reduces token waste:** Instead of sending all tool descriptions (schemas) on every API call, use a local vector store to filter and send only the most relevant tools for a specific query.
+- **GraphRAG replaces text retrieval for precise queries:** For aggregations, counts, and multi-hop reasoning, traditional RAG guesses based on a few retrieved chunks. GraphRAG uses a knowledge graph (like Neo4j) to run structured queries (like Cypher) and return computed, verifiable answers.
+- **Multi-agent validation prevents fabricated success:** A single agent may hide tool errors and return a fake success message. Using a multi-agent swarm (executor, validator, critic) adds a second opinion to catch failures.
+- **Prompts are suggestions; code is a constraint:** Models probabilistically interpret prompt rules and may ignore them. Neuro-symbolic guardians enforce rules in Python code via hooks that intercept tool calls before they execute.
+- **Runtime guardians allow steering instead of hard blocking:** For soft constraints, runtime steering allows the agent to self-correct (e.g., splitting a large group into two rooms) rather than hard-stopping the user.
+- **Strands is the underlying framework:** The open-source Strands agent framework (maintained by AWS) provides built-in features like tool swapping, agent loops, hooks, and swarms.
+- **Amazon Bedrock Agent Core handles production:** The local demo patterns can be moved to production using Amazon Bedrock Agent Core, which provides a managed gateway for tool routing, DynamoDB for steering rules, and runtime infrastructure without manual server management.
 
 ## Detailed Breakdown
 
-**[00:00] Introduction and the Token Problem**
-Every AI agent response costs tokens for both input and output. Sending too much or irrelevant context causes hallucinations and inflates costs. Elizabeth introduces five code-level techniques—not prompt changes—to reduce token waste, improve accuracy, and catch failures before submission.
+**[00:00] Introduction and the Cost of Hallucinations**
+Fuentes opens by explaining that every AI agent API call charges for tokens sent in and received out. If the context sent to the model is incorrect, bloated, or missing key information, the agent will hallucinate. She introduces five code-level techniques (not prompt-level) to reduce token waste, improve accuracy, and catch failures before submission.
 
 **[03:42] Semantic Tool Selection**
-A travel agent with 29 tools sends all tool schemas (about 3,000 tokens) into the context window on every call, regardless of relevance. By creating a vector database of tool descriptions, the agent can semantically search for and inject only the top 3 most relevant tools per query, dropping token usage from thousands to under 300. The demo uses Strands with OpenAI, a local Sentence Transformer for embeddings, and a local file-based vector store. In conversational mode, the Strands loop allows tools to be swapped in and out per invocation, keeping context lean even as chat history grows.
+Using a travel agent with 29 dummy tools, Fuentes explains that every API call sends all 29 tool schemas into the context window, costing roughly 3,000 tokens per call before the user's message is even processed. To fix this, she creates a local vector database of tool descriptions using Sentence Transformers. When a user sends a query, the system performs a semantic search and only passes the top 3 most relevant tool schemas to the model. This drops token usage from thousands to under 300 per call. She also demonstrates using Strands' `swap_tools` to add and remove tools dynamically during multi-turn conversations, ensuring chat history doesn't bloat the context with unused tools.
 
-**[17:10] GraphRAG vs. Traditional RAG**
-Traditional RAG retrieves a few text chunks and cannot aggregate, count, or traverse relationships across a full dataset, leading the model to estimate and present guesses as facts. GraphRAG replaces text retrieval with structured graph queries. The demo uses Neo4j locally, where the model writes Cypher queries to query a knowledge graph and returns computed, verified results. Examples show GraphRAG correctly answering aggregation questions (e.g., average hotel rating, hotel counts) and honestly reporting zero results for non-existent hotels in Antarctica, while traditional RAG hallucinates or hedges. Neo4j's library can automatically build the knowledge graph from raw text.
+**[17:21] GraphRAG for Precise Queries**
+Traditional RAG (Retrieval Augmented Generation) breaks down when users ask aggregation questions like "What is the average rating of hotels in Paris?" or "How many hotels have a pool?" because vector search only returns a sample of chunks, forcing the LLM to guess the math. Fuentes introduces GraphRAG using a local Neo4j database. The LLM generates a Cypher query (similar to SQL) that runs across the entire dataset, returning a computed, verified result. She compares both approaches, showing how traditional RAG hallucinates or converses excessively when asked about hotels in Antarctica (where zero exist), while GraphRAG simply returns "zero" based on the query. She notes Neo4j's LLM library can automatically build the knowledge graph from text files.
 
 **[28:22] Multi-Agent Validation**
-A single agent that encounters a tool error may rationalize it and return a fabricated success response. Strands' built-in Swarm class orchestrates a chain of three agents: an executor, a validator, and a critic. The executor acts, the validator checks the output, and the critic approves or rejects. The demo shows a single agent falsely confirming a booking for a non-existent hotel, while the swarm catches the error and rejects the request, preventing the user from seeing a fabricated confirmation.
+Sometimes an agent calls a tool, receives an error, rationalizes it, and returns a fabricated success message to the user. To solve this, Fuentes demonstrates a multi-agent pattern using Strands' built-in `swarm` class. She chains three agents: an Executor (performs the task), a Validator (reviews the output and outputs on/off), and a Critic (approves or rejects). When testing a booking for a non-existent hotel, the single agent fabricates a success, while the swarm catches the error at the validator stage and the critic rejects it, ensuring the user sees the actual failure.
 
 **[36:18] Neuro-Symbolic Guardians**
-Rules written in prompts (e.g., "max 10 guests per booking") are treated as suggestions and often ignored. Neuro-symbolic guardians enforce rules in Python using Strands hooks—callbacks that fire at specific points in the agent loop, such as `before_tool_call`. If a rule fails (e.g., booking 11 guests or confirming without payment), the hook cancels the tool execution. The demo compares a baseline agent that violates rules against a guardian-equipped agent that blocks invalid actions, all using the same model, tools, and prompt.
+Fuentes addresses the problem of models ignoring rules written in system prompts (e.g., "max 10 guests per booking"). Because prompts are probabilistic text, models treat them as suggestions. She introduces neuro-symbolic guardians using Strands' `hook` providers (`before_tool_call` event). She writes Python rules that intercept tool calls before execution. If a parameter violates a rule (e.g., booking 11 guests or confirming without payment), the code hard-blocks the tool execution. She compares a baseline agent (which ignores the prompt rule and confirms) to the guardian agent (which blocks the action), showing that same-model, same-prompt agents behave differently when rules are enforced in code.
 
 **[45:20] Runtime Guardians and Steering**
-Hooks block unconditionally, which is ideal for hard constraints but can leave the user stuck. Runtime steering, using the open-source Agent Control library, handles soft constraints by letting the agent self-correct. Rules are registered on a local server via API and picked up without redeploying the agent. The demo shows an agent booking a room for 6 guests (exceeding the max of 4); instead of blocking, the steering rule guides the agent to split the booking into two rooms and complete the task.
+While hooks are useful for hard constraints, they stop the agent entirely, forcing user retry. For soft constraints, Fuentes introduces runtime steering using the open-source `agent-control` library. If a user tries to book 50 guests (exceeding the 10-guest limit), the steering rule fires and guides the model to self-correct. The agent automatically splits the booking into two rooms and completes the task without a hard stop. Fuentes notes that operationally, steering rules are registered on a local server via API, allowing rule updates without redeploying the agent code.
 
-**[51:39] Production Deployment with Amazon Bedrock Agent Core**
-For production, Amazon Bedrock Agent Core provides a managed runtime, gateway for automatic tool routing, short- and long-term memory, CloudWatch observability, and policy-based rule enforcement. Steering rules live in DynamoDB and can be updated without redeployment. The Strands engine runs inside the runtime, and external services like Neo4j AuraDB can be integrated. Elizabeth points to a repository with notebooks, CDK deployment options, and AWS credits for trying it out.
+**[51:39] Moving to Production with Amazon Bedrock Agent Core**
+Fuentes explains how to take these local Jupyter notebook demos into production without managing infrastructure. Amazon Bedrock Agent Core provides the runtime, a gateway for automatic tool routing (handling the semantic tool selection), short/long-term memory, and CloudWatch observability. The steering rules live in DynamoDB, allowing instant updates on the next call. She mentions Neo4j AuraDB can be used for the graph database in production, and provides repository links, AWS credits, and CDK deployment options for the audience.
 
 ## Notable Quotes
 - "A rule in the prompt the model read it as a suggestion. A rule in the code the model can not escape it."
-- "Vector search always returns something even when nothing is truly relevant."
-- "The agent acts and validate its own output in the same loop. There's no separation, no second opinion."
-- "Use hook for hard constraints. Agent control for soft rules."
+- "Vector search always returns something even when nothing is truly relevant. And the agent only sees the top end chunks of your all data at a time. It cannot aggregate, count, or traverse relationship across all the full data set. So, it estimates."
+- "Sometimes an agent fails, and nobody find out. It calls a tool, and the tool returns an error, and the agent does not surface that error. It generate a confidence success response instead."
+- "Use hook for hard constraints... [and] for soft rules, use steering to self-correct and finish."
 
 ## People, Tools & References Mentioned
-- **Elizabeth Fuentes Leon** — Developer Advocate for AWS, focused on agentic applications.
-- **Strands Agent** — Open-source agent framework maintained by AWS.
-- **Amazon Bedrock Agent Core** — Managed AWS service for production agents, including Agent Core Gateway and policies.
-- **Neo4j** — Graph database used locally and Neo4j AuraDB for cloud, with its knowledge graph builder library.
-- **OpenAI API** — Used as the model provider in demos.
-- **Sentence Transformer** — Local embedding model for tool vector stores.
-- **Agent Control** — Open-source library for runtime steering and soft rules.
-- **Amazon DynamoDB** — Stores steering rules in production architecture.
-- **Amazon CloudWatch** — Observability for Agent Core.
-- **AWS CDK** — Cloud Developer Kit for deployment.
+- **People:** Elizabeth Fuentes Leon (Developer Advocate, AWS)
+- **Frameworks & Libraries:** Strands Agents (open-source AWS framework), Agent Control (open-source steering library), Sentence Transformers, Llamafiles
+- **Databases & Cloud Services:** Neo4j (and Neo4j AuraDB), Amazon Bedrock Agent Core, Amazon Bedrock, Amazon DynamoDB, Amazon CloudWatch, AWS Lambda, AWS CDK
+- **Concepts & Features:** Semantic Tool Selection, GraphRAG, Cypher query language, Multi-agent Swarm, Neuro-symbolic Guardians, Hooks (`before_tool_call`), Runtime Steering, Token optimization
 
 ## Who Should Watch
-AI engineers and developers building production agentic applications who want practical, code-level strategies to reduce hallucinations, cut token costs, and enforce business rules without relying solely on prompt engineering.
+AI engineers and developers building production agentic applications who want to move beyond prompt engineering and learn practical, code-level architecture patterns to reduce token costs, enforce business logic, and eliminate model hallucinations.
 
 
 <details class="transcript">

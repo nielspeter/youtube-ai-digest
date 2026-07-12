@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **11** videos summarized.
+Auto-generated summaries of subscribed channels. **17** videos summarized.
 
 ## AI Engineer
 
@@ -16,6 +16,12 @@ Auto-generated summaries of subscribed channels. **11** videos summarized.
 <a class="video-card" href="summaries/ai-engineer/5192csoTkVo"><img loading="lazy" src="https://i.ytimg.com/vi/5192csoTkVo/hqdefault.jpg" alt=""><span class="video-title">remobi.app: Don&#x27;t change your terminal workflow for mobile</span><span class="video-date">2026-07-12</span></a>
 <a class="video-card" href="summaries/ai-engineer/EfcfUB2uprc"><img loading="lazy" src="https://i.ytimg.com/vi/EfcfUB2uprc/hqdefault.jpg" alt=""><span class="video-title">Stop Evaluating Models Like It&#x27;s the 50s - Alejandro Vidal, Mindmakers</span><span class="video-date">2026-07-12</span></a>
 <a class="video-card" href="summaries/ai-engineer/7P0elyLIxXo"><img loading="lazy" src="https://i.ytimg.com/vi/7P0elyLIxXo/hqdefault.jpg" alt=""><span class="video-title">What Does Done Even Mean? Agents and Paperclip&#x27;s Liveness Model - Dotta, Paperclip</span><span class="video-date">2026-07-12</span></a>
+<a class="video-card" href="summaries/ai-engineer/xg1zNlzw7Jk"><img loading="lazy" src="https://i.ytimg.com/vi/xg1zNlzw7Jk/hqdefault.jpg" alt=""><span class="video-title">Claws Out: Securing and Building with OpenClaw - Nick Taylor, Pomerium</span><span class="video-date">2026-07-11</span></a>
+<a class="video-card" href="summaries/ai-engineer/vJukHCIv7Ck"><img loading="lazy" src="https://i.ytimg.com/vi/vJukHCIv7Ck/hqdefault.jpg" alt=""><span class="video-title">Stop AI Agent Hallucinations: 5 Techniques + Production Patterns - Elizabeth Fuentes, AWS</span><span class="video-date">2026-07-11</span></a>
+<a class="video-card" href="summaries/ai-engineer/jtzh-GBXBWc"><img loading="lazy" src="https://i.ytimg.com/vi/jtzh-GBXBWc/hqdefault.jpg" alt=""><span class="video-title">The Factory That Dreams: 39 AI Agents, No Framework - Rushabh Doshi, Machinecraft</span><span class="video-date">2026-07-11</span></a>
+<a class="video-card" href="summaries/ai-engineer/RGiXcVxSD3s"><img loading="lazy" src="https://i.ytimg.com/vi/RGiXcVxSD3s/hqdefault.jpg" alt=""><span class="video-title">Chat and citations won&#x27;t save your vertical AI - Atul Ramachandran, Filed Inc</span><span class="video-date">2026-07-11</span></a>
+<a class="video-card" href="summaries/ai-engineer/KB41dTlX1Uc"><img loading="lazy" src="https://i.ytimg.com/vi/KB41dTlX1Uc/hqdefault.jpg" alt=""><span class="video-title">State of the Union: Why Local, Why Now — NVIDIA, Osmantic, Roboflow, EXO Labs, @matthew_berman</span><span class="video-date">2026-07-11</span></a>
+<a class="video-card" href="summaries/ai-engineer/WLXxTaPagA8"><img loading="lazy" src="https://i.ytimg.com/vi/WLXxTaPagA8/hqdefault.jpg" alt=""><span class="video-title">Every Solo Agent Builder Eventually Reinvents a Worse Version of CI/CD - Sumaiya Shrabony</span><span class="video-date">2026-07-11</span></a>
 </div>
 
 ## AI Native Dev

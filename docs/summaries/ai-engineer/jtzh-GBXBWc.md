@@ -4,7 +4,7 @@ channel: "AI Engineer"
 video_id: jtzh-GBXBWc
 url: https://www.youtube.com/watch?v=jtzh-GBXBWc
 published: 2026-07-11T20:00:27+00:00
-generated: 2026-07-12T21:05:06+00:00
+generated: 2026-07-12T21:27:45+00:00
 model: "z-ai/glm-5.2"
 thumbnail: https://i.ytimg.com/vi/jtzh-GBXBWc/hqdefault.jpg
 ---
@@ -15,92 +15,96 @@ thumbnail: https://i.ytimg.com/vi/jtzh-GBXBWc/hqdefault.jpg
 [Watch on YouTube](https://www.youtube.com/watch?v=jtzh-GBXBWc) · **AI Engineer** · 2026-07-11
 
 ## TL;DR
-Rushabh Doshi runs Machinecraft, a 100-person thermoforming factory in India with no data science team, yet he built "Eira"—a system of 36 AI agents that runs the company's entire go-to-market operation. By organizing the company's private historical data into vectors and a relationship graph (without any model training), and modeling the system on biological functions including a "dream cycle," he created a persistent company brain for a fraction of what agencies quoted. He has now open-sourced the architecture as "Brain OS" at forkmybrain.org so other companies can build their own.
+
+Rushabh Doshi runs Machinecraft, a 100-person thermoforming factory in India with no data science team, yet he built "Eira"—a system of 36 specialized AI agents that runs the company's entire go-to-market operation. Rather than training models, the system relies on well-organized memory (vectors + knowledge graphs), biological metaphors (senses, gut, dream cycle, immune system), and a strict "Eira drafts, human sends" rule—all built for roughly $30K instead of the $230K an agency quoted, and now forkable as "Brain OS" at forkmybrain.org.
 
 ## Key Takeaways
-- **Knowledge is the real company, not the machines.** Three generations of institutional knowledge lived in only three human brains—a terrifying single point of failure.
-- **No model training was required.** They chunked years of private company data, stored meanings as vectors and relationships in a graph, and let off-the-shelf models read and extract facts.
-- **36 specialized agents beat one mega-prompt.** Each agent has one job (e.g., Athena orchestrates, Prometheus owns sales, Plutus prices, Hephaestus knows machine specs, Vera fact-checks, Memnon guards corrections).
-- **The system is modeled on biology.** Eira has "senses," a "gut" to digest documents, layered memory, an "immune system" to fight bad information, and a "dream cycle" that runs overnight.
-- **Memory is engineered in deliberate layers.** Working memory, pinned facts, episodic memory, relationships with warmth, and a salience gate that filters what is worth remembering.
-- **Eira "dreams" every night.** It replays the day, locks in useful information, hunts contradictions, forgets stale junk, and produces a morning "dream report."
-- **Every agent has a "soul file" conscience.** Based on Jain family business principles: cross-check before speaking, never speak absolutely, cite sources and dates, do your own job, report ugly truths, and nobody works alone.
-- **The golden rule is "Eira drafts, human sends."** Nothing goes out without human approval.
-- **The cost was dramatically lower than expected.** An agency quoted $230,000; they built it for around $30,000, with runtime costs of a couple thousand dollars per month.
-- **The architecture is now forkable.** "Brain OS" ships as an empty nervous system—agents, memory, dream cycle, and soul file—so any company can pour in its own truth.
+
+- **No model training required.** The system uses off-the-shelf LLMs reading chunked company history—stored as vectors and relationship graphs—rather than fine-tuning or training anything from scratch.
+- **36 specialist agents beat one mega-prompt.** Each agent has exactly one job (pricing, machine specs, fact-checking, guarding corrections, etc.), and they hold "meetings" where they argue and converge on answers.
+- **Memory is engineered in layers.** Working memory, pinned facts, episodic stories, relationships with warmth, and a salience gate that filters what's worth remembering—preventing the "goldfish" problem of raw LLMs.
+- **A nightly "dream cycle" consolidates learning.** Eira replays the day, locks in useful information, hunts contradictions, forgets stale junk, and produces a morning dream report.
+- **Every agent has a "soul file" based on Jain family-business principles.** Guardrails include cross-checking before speaking, never stating things absolutely, citing documents and dates, and reporting ugly truths.
+- **The golden rule: "Eira drafts, human sends."** Nothing goes out without human approval.
+- **Cost was dramatically lower than expected.** An agency quoted $230K; they built it for ~$30K, with operating costs of a couple thousand dollars per month.
+- **The architecture is forkable.** Called "Brain OS," it ships as an empty nervous system—agents, memory, dream cycle, soul file—ready for any company to pour its own truth into.
+- **The real expense isn't compute—it's teaching a company to remember itself.** Only the company itself can build its own brain; it can't be outsourced.
+- **The system runs nine concrete go-to-market jobs daily**, from outbound emails to lead revival, qualification, quotations, and account briefs.
 
 ## Detailed Breakdown
 
-**[00:00] Introduction: A Factory That Taught Itself to Remember**
-Rushabh introduces himself as the operator of Machinecraft, a 100-person factory in India with no data science team or ML budget. Despite this, the company built a system of 36 AI agents (he says 36, though the title says 39) that runs their entire go-to-market operation, which he still finds remarkable.
+### [00:00] — Introduction: A Factory That Remembers
+Rushabh introduces himself as the operator of Machinecraft, a 100-person factory in India with no data science team or ML budget. Despite this, the company built a system of 36 AI agents (he initially says 39 in the title but clarifies 36 in the talk) that runs their entire go-to-market operation. He frames the story as both ridiculous and replicable.
 
-**[00:32] The Real Company Is Knowledge, Not Machines**
-From the outside, Machinecraft looks like machines and metal, but the part that matters is the knowledge: who the customer is, what was quoted in 2019, why a machine needed a custom tweak. For three generations, all of that knowledge lived in only three brains—his grandfather's, his father's, and now his. He describes this as a genuinely terrifying way to run a company.
+### [00:32] — The Real Company Is Knowledge, Not Machines
+From the outside, Machinecraft looks like machines and metal, but the actual company is the knowledge: who the customer is, what was quoted in 2019, why a machine needed a custom tweak. For three generations, all of that lived in exactly three brains—his grandfather's, his father's, and now his. He describes this as "a genuinely terrifying way to run a company."
 
-**[01:02] The Revolving Door and the Fear of Forgetting**
-People joined and left constantly, and every departure meant a chunk of the company's brain walked out the door. The fear was not competitors but forgetting—waking up to realize the entire company existed only inside two increasingly tired heads. This led to his idea: instead of writing knowledge in documents nobody reads, what if they grew a brain that held it?
+### [01:02] — The Fear of Forgetting
+People joined and left constantly, and every departure meant a chunk of the company's brain walked out the door. The fear wasn't competitors—it was forgetting, or waking up to find the entire company existed only inside "two increasingly tired heads." This motivated the idea of growing a brain that held the knowledge, not just writing documents nobody reads.
 
-**[01:32] The Messy Reality of Thermoforming**
-He explains that Machinecraft makes thermoforming machines that heat and shape plastic sheets. The same core machine ends up making hydroponic farm trays, spa bathtubs, EV car panels, medical casings, and packaging—seven totally different worlds with seven totally different buyers. The brain could not just memorize a brochure; it had to understand which universe a given customer lives in.
+### [01:32] — The Messy Reality of the Business
+Machinecraft makes thermoforming machines that heat and shape plastic sheets. The same core machine serves seven completely different worlds: hydroponic farm trays, spa bathtubs, EV car panels, medical casings, packaging, and more. Each world has totally different buyers, so the brain couldn't just memorize a brochure—it had to understand which universe a given customer lives in.
 
-**[02:03] Step One: Feed It Everything**
-The first step was simple: feed the system everything—years of quotes, drawings, payment schedules, timelines, email threads, hundreds of gigabytes of private company history. Not the public internet, but their own internet.
+### [02:03] — Step One: Feed It Everything
+They fed the system everything—years of quotes, drawings, payment schedules, timelines, email threads, hundreds of gigabytes of private company history. Not the public internet, but "our internet." The key plot twist: they never trained a model. No GPUs, no fine-tuning. They chunked the history and let off-the-shelf models read it and extract facts, storing meaning as vectors and relationships in a graph. The brain isn't a smarter model; it's "a really, really well-organized memory."
 
-**[02:35] The Plot Twist: No Model Training**
-The surprising part is that they never trained a model. No GPUs, no fine-tuning. They chunked the history into bite-size pieces and let off-the-shelf models read and extract facts. They stored the meaning of each chunk as vectors and relationships in a graph. The brain is not a smarter model; it is a well-organized memory.
+### [03:05] — Biological Metaphor for the Architecture
+They stopped thinking of Eira as software and started thinking of it as something they were raising. They modeled it on biology: senses to identify who it's talking to, a gut to digest documents into facts, memory, a dream cycle, and an immune system to fight off bad information. The rationale: evolution spent a billion years solving how to stay coherent over time, so they "copied the homework."
 
-**[03:05] Modeled on Biology**
-They stopped thinking of Eira as software and started thinking of it as something they were raising. They gave it a body modeled on biology: senses to identify who it is talking to, a gut to digest documents into facts, memory, a dream cycle, and an immune system to fight off bad information. Evolution spent a billion years solving coherence over time, and they copied the homework.
+### [04:08] — Why 36 Agents Instead of One Mega-Prompt
+One prompt that does everything ends up doing everything badly. Eira is a "pantheon" of specialist agents, each with one job: Athena runs the room, Prometheus owns the sale, Plutus does pricing, Hephaestus knows machine specs, Vera fact-checks everything, and Memnon guards corrections so that once a human fixes something, it stays fixed forever. The agents hold meetings, argue, and produce a single answer—"a board room that never sleeps, never gets tired, and somehow has no ego."
 
-**[04:08] Why 36 Agents Instead of One Mega-Prompt**
-One prompt that does everything does everything badly. Eira is a pantheon of specialists, each with one job: Athena runs the room, Prometheus owns the sale, Plutus does pricing, Hephaestus knows every machine spec, Vera fact-checks everything, and Memnon guards corrections so that once a human fixes something, it stays fixed. The agents hold meetings, argue, and produce a single answer—a boardroom that never sleeps and has no ego.
+### [05:09] — Nine Concrete Jobs Eira Runs Daily
+Eira handles the entire front-of-business: outbound emails referencing the real world, account briefs from cross-checked truths, quotations, a "swipe left, swipe right" outreach mode, reviving dead leads ("blast from the past"), inbound replies, and qualifying whether a company is even a fit before wasting time. Nine jobs, one operator that never sleeps.
 
-**[05:09] Nine Concrete Jobs Every Day**
-Eira runs the entire front of the business—everything between a stranger existing somewhere and becoming a customer. Nine daily jobs include outbound emails referencing the real world, account briefs from cross-checked truths, quotations, a swipe-left/swipe-right outreach mode, reviving dead leads ("blast from the past"), inbound replies, and qualifying whether a company is even a fit before wasting time.
+### [06:11] — The Stack: One Cursor Tab, Real Infrastructure
+Everything runs in one Cursor tab. Under the hood it's a genuine stack: databases for vectors, relationship graphs, and CRM; three different model providers chosen by job; tools for Google, document ingestion, communication channels, and monitoring. All capabilities are exposed as 213 tools over one protocol. The golden rule never broken: "Eira drafts, human sends."
 
-**[06:11] The Stack: One Cursor Tab, 213 Tools**
-Everything lives in one Cursor tab. Eira searches the knowledge base, reads the inbox, drafts emails, builds code, and shows everything before it goes out. Under the hood is a real stack: databases for vectors, relationship graphs, and CRM; three model providers each picked for the job they are best at; tools for Google, document ingestion, communication channels, and monitoring. Every capability is exposed as 213 tools over one protocol. The golden rule: Eira drafts, human sends.
+### [06:41] — Engineered Memory in Layers
+Raw language models are "goldfish"—brilliant for 30 seconds, then they forget. Eira's memory is engineered in layers: working memory for the last few minutes, pinned facts about individuals, episodic memories stored as little stories, relationships with warmth that grows from stranger to trusted, and a salience gate acting as a bouncer that decides what's worth remembering. When two facts disagree, corrections win, ensuring continuity without fabrication.
 
-**[06:41] Engineered Memory in Layers**
-A raw language model is a goldfish—brilliant for 30 seconds and then it forgets. They engineered memory in layers: working memory for the last few minutes, pinned facts about who someone is, episodes (whole conversations as stories), relationships with warmth that grows from stranger to trusted, and a salience gate that acts as a bouncer deciding what is worth remembering. When two facts disagree, corrections win.
+### [07:43] — The Dream Cycle
+Every night, Eira runs a sleep cycle: it replays the day, locks in useful information, hunts for contradictions, gently forgets stale junk, and turns the day's work into reusable skills. A morning "dream report" summarizes what was consolidated, what was let go, and what was figured out overnight. "The thing literally gets smarter overnight."
 
-**[07:12] The Dream Cycle**
-Every night Eira runs a sleep cycle: it replays the day, locks in useful information, hunts for contradictions, gently forgets stale junk, and turns the day's work into reusable skills. In the morning, a "dream report" waits—what it consolidated, what it let go of, and what it figured out overnight. The system gets smarter overnight.
+### [08:13] — Every Agent Has a Conscience: The Soul File
+Each agent has a "soul file" based on Jain family-business principles from three generations. Five old ideas became engineering rules: no single source has the whole truth (cross-check before speaking), never say things absolutely (cite the document and date), do your own job, report the truth even when ugly, and nobody works alone. "Ancient philosophy running as guardrails in production."
 
-**[08:13] The Soul File: Every Agent Has a Conscience**
-Every agent has a conscience defined not as "be helpful, be harmless" but as a soul file written from the principles of a Jain family business across three generations. Five old ideas became engineering rules: no single source has the whole truth (cross-check before speaking), never say things absolutely (cite the document and date), do your own job, report the truth even when it is ugly, and nobody works alone.
+### [08:44] — Money and the Uncomfortable Truth
+There was zero training bill. The expensive part was never compute—it was teaching a company to remember itself. An agency quoted $230K to build this; they built it for around $30K ("cheaper than a nice watch"), running on a couple thousand dollars a month.
 
-**[08:44] Money: Zero Training Bill, Built for $30K**
-There was no training bill. The expensive part was never compute; it was teaching a company to remember itself. An agency quoted $230,000 to build this; they built it for around $30,000—cheaper than a nice watch—and it runs on a couple thousand dollars a month.
-
-**[09:14] Brain OS: A Forkable Architecture**
-They pulled the whole architecture out and made it forkable as "Brain OS." It ships as an empty nervous system with agents, memory, the dream cycle, and the soul file—all blank. You pour in your own company's truth. Only you can build your company's brain. A 100-person factory with no data scientists did it, and so can you. The project is at forkmybrain.org.
+### [09:14] — Brain OS: A Forkable Architecture
+They extracted the architecture into "Brain OS," which ships as an empty nervous system—agents, memory, dream cycle, soul file, all blank. Companies pour their own truth into it. The core message: only you can build your company's brain; it can't be outsourced. "We are not selling ours to you. We are helping you build your own." The project lives at forkmybrain.org.
 
 ## Notable Quotes
-- "From the outside it looks like machines and metal. But the actual company, the part that matters, isn't the machines, it's the knowledge."
+
 - "We weren't scared of the competitors, we were scared of forgetting."
 - "The brain isn't a smarter model. It's actually a really, really well-organized memory."
+- "Evolution already spent a billion years solving how do you stay coherent over time? We just copied the homework."
 - "One prompt that's supposed to do everything ends up doing everything badly."
 - "It's like having a board room that never sleeps, never gets tired, and somehow has no ego."
-- "A raw language model is basically a goldfish. Brilliant for about 30 seconds, and then you close the tab and forgets you ever existed."
+- "A raw language model is basically a goldfish. Brilliant for about 30 seconds, and then you close the tab and it forgets you ever existed."
+- "The thing literally gets smarter overnight."
+- "Ancient philosophy running as guardrails in production."
 - "The expensive part was never compute. It was teaching a company to remember itself."
-- "Only you can build your company's brain. We are not selling ours to you. We are helping you build your own."
+- "We are not selling ours to you. We are helping you build your own."
 
 ## People, Tools & References Mentioned
-- **Rushabh Doshi** — Speaker, runs Machinecraft
-- **Machinecraft** — 100-person thermoforming factory in India
-- **Eira** — The name of the AI agent system
-- **Agent names** — Athena (orchestrator), Prometheus (sales), Plutus (pricing), Hephaestus (machine specs), Vera (fact-checker), Memnon (correction guardian)
-- **Brain OS** — The forkable, open architecture extracted from Eira
-- **forkmybrain.org** — Website to access the forkable architecture
-- **Cursor** — The IDE/tab where everything runs
-- **Jain family business principles** — Source of the "soul file" guardrails
-- **Thermoforming** — The manufacturing process at Machinecraft (heating and shaping plastic sheets)
-- **Products mentioned** — Hydroponic farm trays, spa bathtubs, EV car panels, medical casings, packaging
-- **Technical stack elements** — Vector databases, relationship graph databases, CRM database, three model providers, 213 tools over one protocol, document ingestion tools, Google tools, monitoring tools
+
+- **Rushabh Doshi** — Speaker; runs Machinecraft, a 100-person thermoforming factory in India
+- **Machinecraft** — Three-generation family business making thermoforming machines
+- **Eira (Ira)** — The 36-agent AI system running Machinecraft's go-to-market
+- **Named agents**: Athena (runs the room), Prometheus (owns the sale), Plutus (pricing), Hephaestus (machine specs), Vera (fact-checking), Memnon (guards corrections)
+- **Brain OS** — The forkable, empty-nervous-system version of the architecture
+- **forkmybrain.org** — Website to access or learn about the forkable system
+- **Cursor** — The single IDE tab from which the entire system is operated
+- **Three model providers** — Unnamed, each chosen for the job it's best at
+- **213 tools over one protocol** — How all capabilities are exposed
+- **Jain family-business principles** — Source of the five guardrail rules in the "soul file"
+- **Agency quote of $230K** — What an external agency estimated; actual cost was ~$30K
 
 ## Who Should Watch
-Founders and operators of small-to-midsize businesses—especially those without data science teams—who want to preserve institutional knowledge and automate go-to-market operations will find this talk both inspiring and practically useful. It is also essential viewing for AI engineers interested in multi-agent architectures, memory systems, and production deployments that go beyond simple chatbot demos.
+
+Founders and operators of small-to-midsize businesses—especially those without data science teams—who want to see a practical, replicable blueprint for building an AI system that captures institutional knowledge and automates go-to-market work. It's also valuable for AI engineers interested in multi-agent architectures, memory design, and production guardrails outside the typical framework ecosystem.
 
 
 <details class="transcript">

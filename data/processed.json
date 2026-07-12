@@ -530,6 +530,60 @@
       "published": "2026-07-12T06:45:06+00:00",
       "url": "https://www.youtube.com/watch?v=7P0elyLIxXo",
       "generated": "2026-07-12T21:19:21+00:00"
+    },
+    "xg1zNlzw7Jk": {
+      "status": "done",
+      "title": "Claws Out: Securing and Building with OpenClaw - Nick Taylor, Pomerium",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-11T22:30:06+00:00",
+      "url": "https://www.youtube.com/watch?v=xg1zNlzw7Jk",
+      "generated": "2026-07-12T21:26:46+00:00"
+    },
+    "vJukHCIv7Ck": {
+      "status": "done",
+      "title": "Stop AI Agent Hallucinations: 5 Techniques + Production Patterns - Elizabeth Fuentes, AWS",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-11T21:45:00+00:00",
+      "url": "https://www.youtube.com/watch?v=vJukHCIv7Ck",
+      "generated": "2026-07-12T21:27:17+00:00"
+    },
+    "jtzh-GBXBWc": {
+      "status": "done",
+      "title": "The Factory That Dreams: 39 AI Agents, No Framework - Rushabh Doshi, Machinecraft",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-11T20:00:27+00:00",
+      "url": "https://www.youtube.com/watch?v=jtzh-GBXBWc",
+      "generated": "2026-07-12T21:27:45+00:00"
+    },
+    "RGiXcVxSD3s": {
+      "status": "done",
+      "title": "Chat and citations won't save your vertical AI - Atul Ramachandran, Filed Inc",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-11T17:30:06+00:00",
+      "url": "https://www.youtube.com/watch?v=RGiXcVxSD3s",
+      "generated": "2026-07-12T21:28:22+00:00"
+    },
+    "KB41dTlX1Uc": {
+      "status": "done",
+      "title": "State of the Union: Why Local, Why Now — NVIDIA, Osmantic, Roboflow, EXO Labs, @matthew_berman",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-11T16:30:06+00:00",
+      "url": "https://www.youtube.com/watch?v=KB41dTlX1Uc",
+      "generated": "2026-07-12T21:28:47+00:00"
+    },
+    "WLXxTaPagA8": {
+      "status": "done",
+      "title": "Every Solo Agent Builder Eventually Reinvents a Worse Version of CI/CD - Sumaiya Shrabony",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-11T16:30:04+00:00",
+      "url": "https://www.youtube.com/watch?v=WLXxTaPagA8",
+      "generated": "2026-07-12T21:29:15+00:00"
     }
   }
 }

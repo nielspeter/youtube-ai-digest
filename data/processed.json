@@ -1229,6 +1229,15 @@
       "url": "https://www.youtube.com/watch?v=Rgwu9nF_Xok",
       "channel_slug": "ai-native-dev",
       "status": "pending"
+    },
+    "7JgIS42mz7U": {
+      "video_id": "7JgIS42mz7U",
+      "title": "The AI bugpocalypse is here. Now what? - Jack Cable, Corridor",
+      "channel": "AI Engineer",
+      "published": "2026-07-12T22:00:09+00:00",
+      "url": "https://www.youtube.com/watch?v=7JgIS42mz7U",
+      "channel_slug": "ai-engineer",
+      "status": "blocked"
     }
   }
 }

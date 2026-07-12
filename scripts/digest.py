@@ -694,52 +694,71 @@ def main() -> None:
     if args.resolve:
         return
 
-    # Collect candidate new videos across all channels.
-    candidates: list[dict] = []
-    skipped_shorts = 0
+    # --- DISCOVERY -------------------------------------------------------- #
+    # Register every new feed video into state immediately (as "pending" or
+    # "short"). This captures videos while they're briefly in the ~15-item RSS
+    # window, so nothing is lost if the queue can't be fully processed this run.
+    discovered = skipped_shorts = 0
     for ref, cid in resolved:
         for entry in feed_entries(cid):
+            vid = entry["video_id"]
+            if vid in videos:
+                continue  # already known (any status) — don't re-discover
             entry["channel_slug"] = slugify(entry["channel"] or ref.lstrip("@"))
-            rec = videos.get(entry["video_id"])
-            if rec and rec.get("status") in ("done", "short", "too_long"):
-                continue
-            if rec and rec.get("attempts", 0) >= MAX_ATTEMPTS:
-                continue
-            if not include_shorts and is_short(entry["video_id"]):
-                videos[entry["video_id"]] = {**entry, "status": "short"}
+            if not include_shorts and is_short(vid):
+                videos[vid] = {**entry, "status": "short"}
                 skipped_shorts += 1
-                continue
-            candidates.append(entry)
+            else:
+                videos[vid] = {**entry, "status": "pending"}
+                discovered += 1
     if skipped_shorts:
-        print(f"  (skipped {skipped_shorts} Shorts; use --include-shorts to keep them)")
-
-    # Newest first so a capped run always picks up the latest uploads.
-    candidates.sort(key=lambda v: v.get("published", ""), reverse=True)
+        print(f"  (skipped {skipped_shorts} new Shorts; use --include-shorts to keep them)")
+    if discovered:
+        print(f"  discovered {discovered} new video(s)")
+    # Persist discovery up front, so a crash mid-processing never loses a video.
+    if not args.dry_run and not args.seed:
+        save_json(PROCESSED_FILE, processed)
 
     if args.seed:
-        for entry in candidates:
-            videos[entry["video_id"]] = {
-                "status": "seeded", "title": entry["title"],
-                "channel": entry["channel"], "channel_slug": entry["channel_slug"],
-                "published": entry["published"], "url": entry["url"],
-            }
+        for rec in videos.values():
+            if rec.get("status") == "pending":
+                rec["status"] = "seeded"
         if not args.dry_run:
             save_json(PROCESSED_FILE, processed)
-        print(f"Seeded {len(candidates)} videos as seen (no summaries generated).")
+        print("Seeded pending videos as seen (no summaries generated).")
         return
 
-    print(f"\n{len(candidates)} candidate video(s); processing up to {limit}.\n")
-    if not candidates:
+    # --- THROUGHPUT ------------------------------------------------------- #
+    # Work the persisted queue (not just the current feed): pending videos plus
+    # transient failures still within their retry budget. Newest-first so fresh
+    # uploads jump ahead of old backlog. The cap only limits pace, never loss.
+    workable = [
+        {**rec, "video_id": vid}
+        for vid, rec in videos.items()
+        if rec.get("status") == "pending"
+        or (rec.get("status") in ("no_transcript", "llm_error")
+            and rec.get("attempts", 0) < MAX_ATTEMPTS)
+    ]
+    workable.sort(key=lambda v: v.get("published", ""), reverse=True)
+
+    unlimited = limit <= 0  # MAX_VIDEOS_PER_RUN=0 -> process the whole queue
+    cap_desc = "all" if unlimited else str(limit)
+    print(f"\n{len(workable)} video(s) in queue; processing up to {cap_desc}.\n")
+    if not workable:
+        if not args.dry_run:
+            regenerate_index(processed)
+            save_json(PROCESSED_FILE, processed)
         return
 
     client = make_client()
     model = env("LLM_MODEL", "z-ai/glm-5.2")
 
-    made = 0
-    for entry in candidates:
-        if made >= limit:
-            print(f"Reached limit of {limit}; remaining videos will run next time.")
+    made = attempted = 0
+    for entry in workable:
+        if not unlimited and attempted >= limit:
+            print(f"Reached limit of {limit}; {len(workable) - attempted} still queued for next run.")
             break
+        attempted += 1
         if process_one(client, model, entry, videos, max_minutes=MAX_VIDEO_MINUTES):
             made += 1
 

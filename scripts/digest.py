@@ -546,7 +546,10 @@ def regenerate_index(processed: dict) -> None:
         lines.append("")
         lines.append('<div class="video-grid">')
         for v in by_channel[channel]:
-            link = f"/summaries/{v['channel_slug']}/{v['video_id']}"
+            # Relative link (no leading slash): VitePress doesn't rewrite raw-HTML
+            # anchors with the site base, but a relative href resolves correctly
+            # under any base — "/youtube-ai-digest/" in prod and "/" locally.
+            link = f"summaries/{v['channel_slug']}/{v['video_id']}"
             thumb = thumbnail_url(v["video_id"])
             date = v.get("published", "")[:10]
             title = html.escape(v["title"])

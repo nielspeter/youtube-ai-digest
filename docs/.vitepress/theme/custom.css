@@ -1,0 +1,54 @@
+/* Homepage thumbnail grid */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+.video-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  overflow: hidden;
+  text-decoration: none;
+  transition: border-color 0.2s;
+}
+.video-card:hover { border-color: var(--vp-c-brand-1); }
+.video-card img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; }
+.video-title {
+  padding: 0.6rem 0.7rem 0.2rem;
+  font-weight: 600;
+  font-size: 0.92rem;
+  line-height: 1.3;
+  color: var(--vp-c-text-1);
+}
+.video-date {
+  padding: 0 0.7rem 0.7rem;
+  font-size: 0.8rem;
+  color: var(--vp-c-text-2);
+  margin-top: auto;
+}
+
+/* Collapsible verbatim transcript on a summary page */
+.transcript {
+  margin-top: 2.5rem;
+  border-top: 1px solid var(--vp-c-divider);
+  padding-top: 0.5rem;
+}
+.transcript > summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--vp-c-brand-1);
+  list-style: none;
+  padding: 0.5rem 0;
+}
+.transcript > summary::-webkit-details-marker { display: none; }
+.transcript > summary::before { content: '▸ '; }
+.transcript[open] > summary::before { content: '▾ '; }
+.transcript p {
+  max-width: 42rem;
+  line-height: 1.75;
+  color: var(--vp-c-text-2);
+  margin: 0 0 0.9rem;
+}

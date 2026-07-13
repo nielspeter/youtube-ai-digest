@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **77** videos summarized.
+Auto-generated summaries of subscribed channels. **84** videos summarized.
 
 ## AI Engineer
 
@@ -31,12 +31,14 @@ Auto-generated summaries of subscribed channels. **77** videos summarized.
 ## AI Native Dev
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-native-dev/gc5_ICZg9tg"><img loading="lazy" src="https://i.ytimg.com/vi/gc5_ICZg9tg/hqdefault.jpg" alt=""><span class="video-title">Joseph Katsioloudes - Code Security Reinvented: Navigating the era of AI - AI Native DevCon June 26</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/ai-native-dev/5SKh-FmjX7U"><img loading="lazy" src="https://i.ytimg.com/vi/5SKh-FmjX7U/hqdefault.jpg" alt=""><span class="video-title">Katie Roberts - Stop Maintaining, Start Evolving: Applying AI-Native Practices to Brownfield Codebas</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/ai-native-dev/BkJCF2yV53w"><img loading="lazy" src="https://i.ytimg.com/vi/BkJCF2yV53w/hqdefault.jpg" alt=""><span class="video-title">The Architecture of Claude Tag</span><span class="video-date">2026-07-11</span></a>
 <a class="video-card" href="summaries/ai-native-dev/xHxfeWtkXrM"><img loading="lazy" src="https://i.ytimg.com/vi/xHxfeWtkXrM/hqdefault.jpg" alt=""><span class="video-title">Justin Cormack - When Tests Lie: Using Observability to Keep AI Honest - AI Native DevCon June 2026</span><span class="video-date">2026-07-11</span></a>
 <a class="video-card" href="summaries/ai-native-dev/guhTp2Q8VX0"><img loading="lazy" src="https://i.ytimg.com/vi/guhTp2Q8VX0/hqdefault.jpg" alt=""><span class="video-title">Amit Kushwaha - Benchmarking the Agent Era: Measuring Performance Beyond the LLM - AI Native DevCon</span><span class="video-date">2026-07-10</span></a>
 <a class="video-card" href="summaries/ai-native-dev/pyYKOLEnsZk"><img loading="lazy" src="https://i.ytimg.com/vi/pyYKOLEnsZk/hqdefault.jpg" alt=""><span class="video-title">Hannah Foxwell - The Reinvention of the Dev Team - AI Native DevCon June 2026</span><span class="video-date">2026-07-09</span></a>
 <a class="video-card" href="summaries/ai-native-dev/D_cw-k0F1DM"><img loading="lazy" src="https://i.ytimg.com/vi/D_cw-k0F1DM/hqdefault.jpg" alt=""><span class="video-title">Harness Engineering: The New Discipline of Agentic Dev</span><span class="video-date">2026-07-08</span></a>
+<a class="video-card" href="summaries/ai-native-dev/I9RWrW32QEw"><img loading="lazy" src="https://i.ytimg.com/vi/I9RWrW32QEw/hqdefault.jpg" alt=""><span class="video-title">Patrick Debois - The Rise of Agent Enablement - AI Native DevCon June 2026</span><span class="video-date">2026-07-08</span></a>
 <a class="video-card" href="summaries/ai-native-dev/7Ue0yM4J-B8"><img loading="lazy" src="https://i.ytimg.com/vi/7Ue0yM4J-B8/hqdefault.jpg" alt=""><span class="video-title">Inside Anthropic: How Claude Tag Is Changing Agentic Work</span><span class="video-date">2026-07-07</span></a>
 <a class="video-card" href="summaries/ai-native-dev/Rgwu9nF_Xok"><img loading="lazy" src="https://i.ytimg.com/vi/Rgwu9nF_Xok/hqdefault.jpg" alt=""><span class="video-title">Steve Yegge: &#x27;You&#x27;ll Never Write Code the Same Way Again&#x27;</span><span class="video-date">2026-07-06</span></a>
 <a class="video-card" href="summaries/ai-native-dev/tFffUnSq7VA"><img loading="lazy" src="https://i.ytimg.com/vi/tFffUnSq7VA/hqdefault.jpg" alt=""><span class="video-title">Birgitta Böckeler - State of Play: AI Coding Assistants - AI Native DevCon June 2026</span><span class="video-date">2026-06-24</span></a>
@@ -47,6 +49,10 @@ Auto-generated summaries of subscribed channels. **77** videos summarized.
 <div class="video-grid">
 <a class="video-card" href="summaries/anthropic/rKV5JcALQoQ"><img loading="lazy" src="https://i.ytimg.com/vi/rKV5JcALQoQ/hqdefault.jpg" alt=""><span class="video-title">The different levels of how Claude thinks</span><span class="video-date">2026-07-06</span></a>
 <a class="video-card" href="summaries/anthropic/Y9Wz2PV404E"><img loading="lazy" src="https://i.ytimg.com/vi/Y9Wz2PV404E/hqdefault.jpg" alt=""><span class="video-title">Introducing Claude Fable 5</span><span class="video-date">2026-06-09</span></a>
+<a class="video-card" href="summaries/anthropic/j2knrqAzYVY"><img loading="lazy" src="https://i.ytimg.com/vi/j2knrqAzYVY/hqdefault.jpg" alt=""><span class="video-title">Translating Claude’s thoughts into language</span><span class="video-date">2026-05-07</span></a>
+<a class="video-card" href="summaries/anthropic/INGOC6-LLv0"><img loading="lazy" src="https://i.ytimg.com/vi/INGOC6-LLv0/hqdefault.jpg" alt=""><span class="video-title">An initiative to secure the world&#x27;s software | Project Glasswing</span><span class="video-date">2026-04-07</span></a>
+<a class="video-card" href="summaries/anthropic/D4XTefP3Lsc"><img loading="lazy" src="https://i.ytimg.com/vi/D4XTefP3Lsc/hqdefault.jpg" alt=""><span class="video-title">When AIs act emotional</span><span class="video-date">2026-04-02</span></a>
+<a class="video-card" href="summaries/anthropic/bluAmTHoEow"><img loading="lazy" src="https://i.ytimg.com/vi/bluAmTHoEow/hqdefault.jpg" alt=""><span class="video-title">Your tools are now interactive in Claude</span><span class="video-date">2026-01-26</span></a>
 </div>
 
 ## Better Stack
@@ -77,6 +83,7 @@ Auto-generated summaries of subscribed channels. **77** videos summarized.
 <a class="video-card" href="summaries/cole-medin/oGE_Dwz-rMk"><img loading="lazy" src="https://i.ytimg.com/vi/oGE_Dwz-rMk/hqdefault.jpg" alt=""><span class="video-title">Omnigent: The New Meta-Harness for EVERY Coding Agent - Claude Code, Codex, Pi, More</span><span class="video-date">2026-06-15</span></a>
 <a class="video-card" href="summaries/cole-medin/CrLMktzEzmM"><img loading="lazy" src="https://i.ytimg.com/vi/CrLMktzEzmM/hqdefault.jpg" alt=""><span class="video-title">Claude Fable 5 is Now BANNED?!</span><span class="video-date">2026-06-13</span></a>
 <a class="video-card" href="summaries/cole-medin/1wfY7GCVvh0"><img loading="lazy" src="https://i.ytimg.com/vi/1wfY7GCVvh0/hqdefault.jpg" alt=""><span class="video-title">Google&#x27;s Agents CLI: The CLI + Skills Combination to Ship AI Agents EASILY</span><span class="video-date">2026-06-11</span></a>
+<a class="video-card" href="summaries/cole-medin/iICZTWcryac"><img loading="lazy" src="https://i.ytimg.com/vi/iICZTWcryac/hqdefault.jpg" alt=""><span class="video-title">Claude Plans, Gemini Designs: The Workflow to Build BEAUTIFUL Frontends</span><span class="video-date">2026-06-04</span></a>
 </div>
 
 ## Matthew Berman

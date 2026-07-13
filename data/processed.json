@@ -677,13 +677,13 @@
       "minutes": 105
     },
     "iICZTWcryac": {
-      "video_id": "iICZTWcryac",
+      "status": "done",
       "title": "Claude Plans, Gemini Designs: The Workflow to Build BEAUTIFUL Frontends",
       "channel": "Cole Medin",
+      "channel_slug": "cole-medin",
       "published": "2026-06-04T00:00:04+00:00",
       "url": "https://www.youtube.com/watch?v=iICZTWcryac",
-      "channel_slug": "cole-medin",
-      "status": "pending"
+      "generated": "2026-07-13T15:13:01+00:00"
     },
     "yATno77Uo6A": {
       "status": "done",
@@ -783,7 +783,7 @@
       "url": "https://www.youtube.com/watch?v=8sUXGKDUEzI",
       "channel_slug": "openai",
       "status": "no_transcript",
-      "attempts": 3
+      "attempts": 4
     },
     "9arM9b7JgOo": {
       "status": "done",
@@ -822,31 +822,31 @@
       "generated": "2026-07-13T13:49:08+00:00"
     },
     "j2knrqAzYVY": {
-      "video_id": "j2knrqAzYVY",
+      "status": "done",
       "title": "Translating Claude’s thoughts into language",
       "channel": "Anthropic",
+      "channel_slug": "anthropic",
       "published": "2026-05-07T17:01:21+00:00",
       "url": "https://www.youtube.com/watch?v=j2knrqAzYVY",
-      "channel_slug": "anthropic",
-      "status": "pending"
+      "generated": "2026-07-13T15:14:32+00:00"
     },
     "INGOC6-LLv0": {
-      "video_id": "INGOC6-LLv0",
+      "status": "done",
       "title": "An initiative to secure the world's software | Project Glasswing",
       "channel": "Anthropic",
+      "channel_slug": "anthropic",
       "published": "2026-04-07T18:03:51+00:00",
       "url": "https://www.youtube.com/watch?v=INGOC6-LLv0",
-      "channel_slug": "anthropic",
-      "status": "pending"
+      "generated": "2026-07-13T15:15:12+00:00"
     },
     "D4XTefP3Lsc": {
-      "video_id": "D4XTefP3Lsc",
+      "status": "done",
       "title": "When AIs act emotional",
       "channel": "Anthropic",
+      "channel_slug": "anthropic",
       "published": "2026-04-02T16:06:59+00:00",
       "url": "https://www.youtube.com/watch?v=D4XTefP3Lsc",
-      "channel_slug": "anthropic",
-      "status": "pending"
+      "generated": "2026-07-13T15:16:13+00:00"
     },
     "dPn3GBI8lII": {
       "video_id": "dPn3GBI8lII",
@@ -855,16 +855,17 @@
       "published": "2026-02-05T17:45:22+00:00",
       "url": "https://www.youtube.com/watch?v=dPn3GBI8lII",
       "channel_slug": "anthropic",
-      "status": "pending"
+      "status": "no_transcript",
+      "attempts": 1
     },
     "bluAmTHoEow": {
-      "video_id": "bluAmTHoEow",
+      "status": "done",
       "title": "Your tools are now interactive in Claude",
       "channel": "Anthropic",
+      "channel_slug": "anthropic",
       "published": "2026-01-26T19:06:25+00:00",
       "url": "https://www.youtube.com/watch?v=bluAmTHoEow",
-      "channel_slug": "anthropic",
-      "status": "pending"
+      "generated": "2026-07-13T15:16:52+00:00"
     },
     "N5yJJA0NCU0": {
       "video_id": "N5yJJA0NCU0",
@@ -1201,14 +1202,13 @@
       "generated": "2026-07-13T06:47:20+00:00"
     },
     "I9RWrW32QEw": {
-      "video_id": "I9RWrW32QEw",
+      "status": "done",
       "title": "Patrick Debois - The Rise of Agent Enablement - AI Native DevCon June 2026",
       "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
       "published": "2026-07-08T08:49:33+00:00",
       "url": "https://www.youtube.com/watch?v=I9RWrW32QEw",
-      "channel_slug": "ai-native-dev",
-      "status": "no_transcript",
-      "attempts": 1
+      "generated": "2026-07-13T15:11:21+00:00"
     },
     "7Ue0yM4J-B8": {
       "status": "done",
@@ -1274,14 +1274,13 @@
       "status": "short"
     },
     "gc5_ICZg9tg": {
-      "video_id": "gc5_ICZg9tg",
+      "status": "done",
       "title": "Joseph Katsioloudes - Code Security Reinvented: Navigating the era of AI - AI Native DevCon June 26",
       "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
       "published": "2026-07-13T09:29:19+00:00",
       "url": "https://www.youtube.com/watch?v=gc5_ICZg9tg",
-      "channel_slug": "ai-native-dev",
-      "status": "no_transcript",
-      "attempts": 1
+      "generated": "2026-07-13T15:09:03+00:00"
     },
     "5SKh-FmjX7U": {
       "status": "done",
@@ -1291,6 +1290,24 @@
       "published": "2026-07-13T09:28:53+00:00",
       "url": "https://www.youtube.com/watch?v=5SKh-FmjX7U",
       "generated": "2026-07-13T13:28:39+00:00"
+    },
+    "rr9bUgQHIa8": {
+      "video_id": "rr9bUgQHIa8",
+      "title": "With AI, we hire candidates who can explain their work",
+      "channel": "The Pragmatic Engineer",
+      "published": "2026-07-13T15:00:31+00:00",
+      "url": "https://www.youtube.com/watch?v=rr9bUgQHIa8",
+      "channel_slug": "the-pragmatic-engineer",
+      "status": "short"
+    },
+    "b6dKwe00GpQ": {
+      "video_id": "b6dKwe00GpQ",
+      "title": "The DevOps Godfather on AI's \"Dark Factory\" Problem",
+      "channel": "AI Native Dev",
+      "published": "2026-07-13T14:00:04+00:00",
+      "url": "https://www.youtube.com/watch?v=b6dKwe00GpQ",
+      "channel_slug": "ai-native-dev",
+      "status": "blocked"
     }
   }
 }

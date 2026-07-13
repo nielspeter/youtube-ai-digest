@@ -116,9 +116,10 @@ def yt_proxy_url() -> str | None:
     user, pw = os.environ.get("DECODO_USERNAME"), os.environ.get("DECODO_PASSWORD")
     if user and pw:
         host = os.environ.get("DECODO_HOST") or "gate.decodo.com"
-        # Decodo gives sticky-session ports 10001-10010 (each = a distinct IP).
-        # Rotating across them spreads requests over ~10 residential IPs.
-        port = _pick_port(os.environ.get("DECODO_PORT") or "10001-10010")
+        # Port 7000 is Decodo's rotating endpoint: a fresh residential IP *per
+        # request*, so no single IP gets flagged. (Sticky ports 10001-10010 hold
+        # one IP and get bot-checked after repeated fetches — avoid for this.)
+        port = _pick_port(os.environ.get("DECODO_PORT") or "7000")
         return f"http://{user}:{pw}@{host}:{port}"
     return None
 

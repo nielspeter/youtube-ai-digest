@@ -75,10 +75,12 @@ MAX_ATTEMPTS = 6  # give up fetching a transcript after this many runs
 MAX_VIDEO_MINUTES = int(os.environ.get("MAX_VIDEO_MINUTES", "90"))
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 
-# 429 handling: keep retrying transcript fetches, respecting Retry-After, until
-# success or a genuine (non-rate-limit) error. Caps keep a single run bounded.
-RATE_LIMIT_MAX_RETRIES = int(os.environ.get("RATE_LIMIT_MAX_RETRIES", "12"))
-RATE_LIMIT_MAX_WAIT = 600  # never sleep longer than this per retry
+# 429 handling. Kept deliberately SMALL: the persistent queue means a video that
+# can't be fetched now is simply retried next run, so long per-video backoff is
+# both unnecessary and dangerous (it can hang a whole run). With a rotating proxy
+# a 429 is cleared by switching IP, not by waiting.
+RATE_LIMIT_MAX_RETRIES = int(os.environ.get("RATE_LIMIT_MAX_RETRIES", "5"))
+RATE_LIMIT_MAX_WAIT = 60  # never sleep longer than this per retry
 
 
 class BotCheckError(Exception):
@@ -310,15 +312,15 @@ def fetch_transcript(video_id: str) -> str | None:
     rate_limit_attempt = 0
     while True:
         with tempfile.TemporaryDirectory() as tmp:
+            proxy = yt_proxy_url()
             cmd = [
                 "yt-dlp", "--skip-download",
                 "--write-subs", "--write-auto-subs",
                 "--sub-langs", "en.*,en,en-US,en-GB",
                 "--sub-format", "vtt",
-                "--retries", "10", "--retry-sleep", "5",
-                "--extractor-retries", "3",
-                "--sleep-requests", "1",        # pace API calls to dodge 429s
-                "--sleep-subtitles", "2",       # extra pause before subtitle download
+                "--retries", "3", "--retry-sleep", "3",
+                "--extractor-retries", "2",
+                "--socket-timeout", "30",       # don't hang on a dead proxy connection
                 "-o", f"{tmp}/%(id)s.%(ext)s",
                 WATCH_URL.format(vid=video_id),
             ]
@@ -326,11 +328,11 @@ def fetch_transcript(video_id: str) -> str | None:
                 cmd += ["--cookies", cookies]
             elif cookies_from_browser:
                 cmd += ["--cookies-from-browser", cookies_from_browser]
-            proxy = yt_proxy_url()
             if proxy:
                 cmd += ["--proxy", proxy]
             try:
-                subprocess.run(cmd, check=True, capture_output=True, text=True, timeout=600)
+                # Hard per-fetch cap; a transcript should take seconds, not minutes.
+                subprocess.run(cmd, check=True, capture_output=True, text=True, timeout=120)
             except subprocess.CalledProcessError as exc:
                 stderr = exc.stderr or ""
                 if is_bot_check(stderr):
@@ -338,9 +340,11 @@ def fetch_transcript(video_id: str) -> str | None:
                     # (same IP won't clear it); signal the caller to try next run.
                     raise BotCheckError(video_id)
                 if is_rate_limited(stderr) and rate_limit_attempt < RATE_LIMIT_MAX_RETRIES:
-                    wait = retry_after_seconds(stderr, rate_limit_attempt)
                     rate_limit_attempt += 1
-                    print(f"  429 Too Many Requests; waiting {wait}s "
+                    # With a rotating proxy, a fresh IP (next loop) clears the 429 —
+                    # retry almost immediately. Without one, wait for the limit.
+                    wait = 2 if proxy else retry_after_seconds(stderr, rate_limit_attempt)
+                    print(f"  429; {'switching IP' if proxy else f'waiting {wait}s'} "
                           f"(retry {rate_limit_attempt}/{RATE_LIMIT_MAX_RETRIES})")
                     time.sleep(wait)
                     continue

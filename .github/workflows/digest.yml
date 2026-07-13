@@ -22,6 +22,7 @@ concurrency:
 jobs:
   digest:
     runs-on: ubuntu-latest
+    timeout-minutes: 30      # hard backstop — never let a hung fetch run for hours
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}

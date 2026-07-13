@@ -4,11 +4,12 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **91** videos summarized.
+Auto-generated summaries of subscribed channels. **94** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/-CnA2lGfymY"><img loading="lazy" src="https://i.ytimg.com/vi/-CnA2lGfymY/hqdefault.jpg" alt=""><span class="video-title">In Code They Act, In Proof We Trust — Erik Meijer, Leibniz Labs</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/ai-engineer/OqM67QG_Ikk"><img loading="lazy" src="https://i.ytimg.com/vi/OqM67QG_Ikk/hqdefault.jpg" alt=""><span class="video-title">From fork() to Fleet: Designing an Agent Sandbox Cloud — Abhishek Bhardwaj, OpenAI</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/ai-engineer/V-EDrhIhHzQ"><img loading="lazy" src="https://i.ytimg.com/vi/V-EDrhIhHzQ/hqdefault.jpg" alt=""><span class="video-title">The Prime Intellect Stack — Will Brown, Prime Intellect</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/ai-engineer/8oyalrfwgjw"><img loading="lazy" src="https://i.ytimg.com/vi/8oyalrfwgjw/hqdefault.jpg" alt=""><span class="video-title">RLM: Recursive Language Models for Large Codebases - Shashi, Superagentic AI</span><span class="video-date">2026-07-12</span></a>
@@ -58,12 +59,14 @@ Auto-generated summaries of subscribed channels. **91** videos summarized.
 <a class="video-card" href="summaries/anthropic/bluAmTHoEow"><img loading="lazy" src="https://i.ytimg.com/vi/bluAmTHoEow/hqdefault.jpg" alt=""><span class="video-title">Your tools are now interactive in Claude</span><span class="video-date">2026-01-26</span></a>
 <a class="video-card" href="summaries/anthropic/N5yJJA0NCU0"><img loading="lazy" src="https://i.ytimg.com/vi/N5yJJA0NCU0/hqdefault.jpg" alt=""><span class="video-title">AI on campus</span><span class="video-date">2026-01-12</span></a>
 <a class="video-card" href="summaries/anthropic/nvbq39yVYRk"><img loading="lazy" src="https://i.ytimg.com/vi/nvbq39yVYRk/hqdefault.jpg" alt=""><span class="video-title">What is sycophancy in AI models?</span><span class="video-date">2025-12-18</span></a>
+<a class="video-card" href="summaries/anthropic/5KTHvKCrQ00"><img loading="lazy" src="https://i.ytimg.com/vi/5KTHvKCrQ00/hqdefault.jpg" alt=""><span class="video-title">Claude ran a business in our office</span><span class="video-date">2025-12-18</span></a>
 <a class="video-card" href="summaries/anthropic/i9U_b-8KKno"><img loading="lazy" src="https://i.ytimg.com/vi/i9U_b-8KKno/hqdefault.jpg" alt=""><span class="video-title">Binti helps social workers license foster families faster with Claude</span><span class="video-date">2025-12-17</span></a>
 </div>
 
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/dKbV8MEzVPA"><img loading="lazy" src="https://i.ytimg.com/vi/dKbV8MEzVPA/hqdefault.jpg" alt=""><span class="video-title">DuckDB is becoming unstoppable...</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/better-stack/0TSxrzBVEwQ"><img loading="lazy" src="https://i.ytimg.com/vi/0TSxrzBVEwQ/hqdefault.jpg" alt=""><span class="video-title">The Zig Creator is NOT Happy About This... (Bun to Rust)</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/better-stack/ElaEGr2t9XQ"><img loading="lazy" src="https://i.ytimg.com/vi/ElaEGr2t9XQ/hqdefault.jpg" alt=""><span class="video-title">Event-Driven Architecture, Webhook Chaos, and the Rise of AI Agents | Better Stack Podcast Ep. 17</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/better-stack/4Lmqvn_yz-c"><img loading="lazy" src="https://i.ytimg.com/vi/4Lmqvn_yz-c/hqdefault.jpg" alt=""><span class="video-title">Postgres Just Got It&#x27;s Biggest Upgrade In Years</span><span class="video-date">2026-07-10</span></a>

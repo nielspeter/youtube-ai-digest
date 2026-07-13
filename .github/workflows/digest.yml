@@ -2,7 +2,7 @@ name: YouTube Digest
 
 on:
   schedule:
-    - cron: '7,37 * * * *'   # every 30 min (:07 and :37) — small batches per run stay under YouTube's bot-check threshold; blocked videos retry next run on a fresh runner IP
+    - cron: '13 */2 * * *'   # every 2h at :13 — reliable cadence (GitHub throttles high-frequency crons). The residential proxy handles the bot-check, so big batches are safe.
   workflow_dispatch:
     inputs:
       seed:

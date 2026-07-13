@@ -826,7 +826,12 @@ def main() -> None:
             break
         attempted += 1
         result = process_one(client, model, entry, videos, max_minutes=MAX_VIDEO_MINUTES)
-        if result is None:  # bot-check: this IP is flagged, further fetches will fail too
+        if result is None:  # bot-check
+            if yt_proxy_url():
+                # Rotating proxy: the next fetch draws a different residential IP,
+                # so don't give up — just move on to the next video.
+                print("  (proxy IP flagged; continuing on a fresh IP)")
+                continue
             print("  IP flagged by YouTube; ending run early — queued videos retry next run.")
             break
         if result:

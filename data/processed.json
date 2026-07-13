@@ -783,7 +783,7 @@
       "url": "https://www.youtube.com/watch?v=8sUXGKDUEzI",
       "channel_slug": "openai",
       "status": "no_transcript",
-      "attempts": 5
+      "attempts": 6
     },
     "9arM9b7JgOo": {
       "status": "done",
@@ -856,7 +856,7 @@
       "url": "https://www.youtube.com/watch?v=dPn3GBI8lII",
       "channel_slug": "anthropic",
       "status": "no_transcript",
-      "attempts": 2
+      "attempts": 3
     },
     "bluAmTHoEow": {
       "status": "done",
@@ -884,7 +884,7 @@
       "url": "https://www.youtube.com/watch?v=UAmKyyZ-b9E",
       "channel_slug": "anthropic",
       "status": "no_transcript",
-      "attempts": 1
+      "attempts": 2
     },
     "nvbq39yVYRk": {
       "status": "done",
@@ -903,7 +903,7 @@
       "url": "https://www.youtube.com/watch?v=rBJnWMD0Pho",
       "channel_slug": "anthropic",
       "status": "no_transcript",
-      "attempts": 1
+      "attempts": 2
     },
     "5KTHvKCrQ00": {
       "video_id": "5KTHvKCrQ00",
@@ -912,16 +912,16 @@
       "published": "2025-12-18T12:04:53+00:00",
       "url": "https://www.youtube.com/watch?v=5KTHvKCrQ00",
       "channel_slug": "anthropic",
-      "status": "pending"
+      "status": "blocked"
     },
     "i9U_b-8KKno": {
-      "video_id": "i9U_b-8KKno",
+      "status": "done",
       "title": "Binti helps social workers license foster families faster with Claude",
       "channel": "Anthropic",
+      "channel_slug": "anthropic",
       "published": "2025-12-17T18:13:19+00:00",
       "url": "https://www.youtube.com/watch?v=i9U_b-8KKno",
-      "channel_slug": "anthropic",
-      "status": "pending"
+      "generated": "2026-07-13T18:08:02+00:00"
     },
     "4Lmqvn_yz-c": {
       "status": "done",
@@ -1303,13 +1303,13 @@
       "status": "short"
     },
     "b6dKwe00GpQ": {
-      "video_id": "b6dKwe00GpQ",
+      "status": "done",
       "title": "The DevOps Godfather on AI's \"Dark Factory\" Problem",
       "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
       "published": "2026-07-13T14:00:04+00:00",
       "url": "https://www.youtube.com/watch?v=b6dKwe00GpQ",
-      "channel_slug": "ai-native-dev",
-      "status": "blocked"
+      "generated": "2026-07-13T18:06:33+00:00"
     },
     "4tCIa_fnEIo": {
       "video_id": "4tCIa_fnEIo",
@@ -1591,13 +1591,13 @@
       "generated": "2026-07-13T17:48:39+00:00"
     },
     "OqM67QG_Ikk": {
-      "video_id": "OqM67QG_Ikk",
+      "status": "done",
       "title": "From fork() to Fleet: Designing an Agent Sandbox Cloud — Abhishek Bhardwaj, OpenAI",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-13T17:00:06+00:00",
       "url": "https://www.youtube.com/watch?v=OqM67QG_Ikk",
-      "channel_slug": "ai-engineer",
-      "status": "blocked"
+      "generated": "2026-07-13T18:05:07+00:00"
     },
     "V-EDrhIhHzQ": {
       "status": "done",

@@ -4,11 +4,12 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **88** videos summarized.
+Auto-generated summaries of subscribed channels. **91** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/OqM67QG_Ikk"><img loading="lazy" src="https://i.ytimg.com/vi/OqM67QG_Ikk/hqdefault.jpg" alt=""><span class="video-title">From fork() to Fleet: Designing an Agent Sandbox Cloud — Abhishek Bhardwaj, OpenAI</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/ai-engineer/V-EDrhIhHzQ"><img loading="lazy" src="https://i.ytimg.com/vi/V-EDrhIhHzQ/hqdefault.jpg" alt=""><span class="video-title">The Prime Intellect Stack — Will Brown, Prime Intellect</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/ai-engineer/8oyalrfwgjw"><img loading="lazy" src="https://i.ytimg.com/vi/8oyalrfwgjw/hqdefault.jpg" alt=""><span class="video-title">RLM: Recursive Language Models for Large Codebases - Shashi, Superagentic AI</span><span class="video-date">2026-07-12</span></a>
 <a class="video-card" href="summaries/ai-engineer/7JgIS42mz7U"><img loading="lazy" src="https://i.ytimg.com/vi/7JgIS42mz7U/hqdefault.jpg" alt=""><span class="video-title">The AI bugpocalypse is here. Now what? - Jack Cable, Corridor</span><span class="video-date">2026-07-12</span></a>
@@ -32,6 +33,7 @@ Auto-generated summaries of subscribed channels. **88** videos summarized.
 ## AI Native Dev
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-native-dev/b6dKwe00GpQ"><img loading="lazy" src="https://i.ytimg.com/vi/b6dKwe00GpQ/hqdefault.jpg" alt=""><span class="video-title">The DevOps Godfather on AI&#x27;s &quot;Dark Factory&quot; Problem</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/ai-native-dev/gc5_ICZg9tg"><img loading="lazy" src="https://i.ytimg.com/vi/gc5_ICZg9tg/hqdefault.jpg" alt=""><span class="video-title">Joseph Katsioloudes - Code Security Reinvented: Navigating the era of AI - AI Native DevCon June 26</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/ai-native-dev/5SKh-FmjX7U"><img loading="lazy" src="https://i.ytimg.com/vi/5SKh-FmjX7U/hqdefault.jpg" alt=""><span class="video-title">Katie Roberts - Stop Maintaining, Start Evolving: Applying AI-Native Practices to Brownfield Codebas</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/ai-native-dev/BkJCF2yV53w"><img loading="lazy" src="https://i.ytimg.com/vi/BkJCF2yV53w/hqdefault.jpg" alt=""><span class="video-title">The Architecture of Claude Tag</span><span class="video-date">2026-07-11</span></a>
@@ -56,6 +58,7 @@ Auto-generated summaries of subscribed channels. **88** videos summarized.
 <a class="video-card" href="summaries/anthropic/bluAmTHoEow"><img loading="lazy" src="https://i.ytimg.com/vi/bluAmTHoEow/hqdefault.jpg" alt=""><span class="video-title">Your tools are now interactive in Claude</span><span class="video-date">2026-01-26</span></a>
 <a class="video-card" href="summaries/anthropic/N5yJJA0NCU0"><img loading="lazy" src="https://i.ytimg.com/vi/N5yJJA0NCU0/hqdefault.jpg" alt=""><span class="video-title">AI on campus</span><span class="video-date">2026-01-12</span></a>
 <a class="video-card" href="summaries/anthropic/nvbq39yVYRk"><img loading="lazy" src="https://i.ytimg.com/vi/nvbq39yVYRk/hqdefault.jpg" alt=""><span class="video-title">What is sycophancy in AI models?</span><span class="video-date">2025-12-18</span></a>
+<a class="video-card" href="summaries/anthropic/i9U_b-8KKno"><img loading="lazy" src="https://i.ytimg.com/vi/i9U_b-8KKno/hqdefault.jpg" alt=""><span class="video-title">Binti helps social workers license foster families faster with Claude</span><span class="video-date">2025-12-17</span></a>
 </div>
 
 ## Better Stack

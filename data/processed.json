@@ -1247,6 +1247,16 @@
       "url": "https://www.youtube.com/watch?v=8oyalrfwgjw",
       "channel_slug": "ai-engineer",
       "status": "blocked"
+    },
+    "ElaEGr2t9XQ": {
+      "video_id": "ElaEGr2t9XQ",
+      "title": "Event-Driven Architecture, Webhook Chaos, and the Rise of AI Agents | Better Stack Podcast Ep. 17",
+      "channel": "Better Stack",
+      "published": "2026-07-13T00:44:56+00:00",
+      "url": "https://www.youtube.com/watch?v=ElaEGr2t9XQ",
+      "channel_slug": "better-stack",
+      "status": "no_transcript",
+      "attempts": 1
     }
   }
 }

@@ -1,0 +1,9 @@
+[00:00]  I'm currently working in a broccoli field, and I often lose track of where I've started and finished my work. So, I want to create a system that allows me to track my progress digitally. When I first came to Hokkaido, I didn't know how to drive a tractor
+
+[00:30]  first came to Hokkaido, I didn't know how to drive a tractor , and I started from scratch knowing absolutely nothing about how to grow vegetables, so it was really tough. I'm not an engineer, but I use Podex to improve efficiency . I've been doing this by hand for a long time: rolling up the plastic sheeting on the sides of the greenhouse to allow for ventilation . Well, we were able to use Codex to automate things like that by incorporating electric motors for music. We
+
+[01:12]  created a system that allows you to control the up and down movement of this electric motor from anywhere, as long as you have an internet connection . This model required repeated back-and-forth communication, improvements, and further instructions, but the new model allows Codex to read its database [music] with a single prompt, and then, using various tools on its own, it can think and execute towards the final [music] goal without me having to check or manage it so much. This is also an
+
+[01:44]  This is also an incredible [music] change. The fact that I was able to create a system that could be used in a real-world setting was quite surprising and felt like I was witnessing magic. [Laughs] The bird is crying "cock-a-doodle-doo" and making so much noise that we can't get the interview done. How can I quiet a chicken? Well, chickens basically make noise, so it's honestly difficult to make them completely quiet.
+
+[02:18]  [Laughter] [Music]

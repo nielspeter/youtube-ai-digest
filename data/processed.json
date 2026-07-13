@@ -610,16 +610,16 @@
       "published": "2026-07-03T15:23:41+00:00",
       "url": "https://www.youtube.com/watch?v=muwRbfuKbR4",
       "channel_slug": "cole-medin",
-      "status": "pending"
+      "status": "blocked"
     },
     "T33iI6izAKw": {
-      "video_id": "T33iI6izAKw",
+      "status": "done",
       "title": "Finally, an Open Standard for the Karpathy LLM Wiki is HERE",
       "channel": "Cole Medin",
+      "channel_slug": "cole-medin",
       "published": "2026-07-02T00:00:33+00:00",
       "url": "https://www.youtube.com/watch?v=T33iI6izAKw",
-      "channel_slug": "cole-medin",
-      "status": "pending"
+      "generated": "2026-07-13T08:39:49+00:00"
     },
     "zbmuiaPuiNM": {
       "video_id": "zbmuiaPuiNM",
@@ -757,22 +757,22 @@
       "generated": "2026-07-13T06:39:20+00:00"
     },
     "hWhfrR9WJ_c": {
-      "video_id": "hWhfrR9WJ_c",
+      "status": "done",
       "title": "Meet the broccoli farmer running his farm with GPT-5.6.",
       "channel": "OpenAI",
+      "channel_slug": "openai",
       "published": "2026-07-09T20:00:24+00:00",
       "url": "https://www.youtube.com/watch?v=hWhfrR9WJ_c",
-      "channel_slug": "openai",
-      "status": "blocked"
+      "generated": "2026-07-13T06:58:01+00:00"
     },
     "A5VgJ0KZgKs": {
-      "video_id": "A5VgJ0KZgKs",
+      "status": "done",
       "title": "Meet a family running a cereal business from their dining room with GPT-5.6.",
       "channel": "OpenAI",
+      "channel_slug": "openai",
       "published": "2026-07-09T20:00:18+00:00",
       "url": "https://www.youtube.com/watch?v=A5VgJ0KZgKs",
-      "channel_slug": "openai",
-      "status": "blocked"
+      "generated": "2026-07-13T06:58:28+00:00"
     },
     "8sUXGKDUEzI": {
       "video_id": "8sUXGKDUEzI",
@@ -782,7 +782,7 @@
       "url": "https://www.youtube.com/watch?v=8sUXGKDUEzI",
       "channel_slug": "openai",
       "status": "no_transcript",
-      "attempts": 1
+      "attempts": 2
     },
     "9arM9b7JgOo": {
       "status": "done",
@@ -803,13 +803,13 @@
       "generated": "2026-07-12T21:40:51+00:00"
     },
     "rKV5JcALQoQ": {
-      "video_id": "rKV5JcALQoQ",
+      "status": "done",
       "title": "The different levels of how Claude thinks",
       "channel": "Anthropic",
+      "channel_slug": "anthropic",
       "published": "2026-07-06T16:59:51+00:00",
       "url": "https://www.youtube.com/watch?v=rKV5JcALQoQ",
-      "channel_slug": "anthropic",
-      "status": "pending"
+      "generated": "2026-07-13T08:35:22+00:00"
     },
     "Y9Wz2PV404E": {
       "video_id": "Y9Wz2PV404E",
@@ -1016,26 +1016,26 @@
       "published": "2026-07-08T02:58:42+00:00",
       "url": "https://www.youtube.com/watch?v=bjHuGNo3spk",
       "channel_slug": "matthew-berman",
-      "status": "no_transcript",
-      "attempts": 1
+      "attempts": 1,
+      "status": "blocked"
     },
     "1KKB_UiW6ls": {
-      "video_id": "1KKB_UiW6ls",
+      "status": "done",
       "title": "Cut your AI cost IN HALF (EASY)",
       "channel": "Matthew Berman",
+      "channel_slug": "matthew-berman",
       "published": "2026-07-07T00:29:07+00:00",
       "url": "https://www.youtube.com/watch?v=1KKB_UiW6ls",
-      "channel_slug": "matthew-berman",
-      "status": "pending"
+      "generated": "2026-07-13T08:34:04+00:00"
     },
     "TML-0HmxWCE": {
-      "video_id": "TML-0HmxWCE",
+      "status": "done",
       "title": "\"The best thing since OpenClaw\" (Hermes Tutorial)",
       "channel": "Matthew Berman",
+      "channel_slug": "matthew-berman",
       "published": "2026-06-28T14:00:35+00:00",
       "url": "https://www.youtube.com/watch?v=TML-0HmxWCE",
-      "channel_slug": "matthew-berman",
-      "status": "pending"
+      "generated": "2026-07-13T08:43:12+00:00"
     },
     "eEdOqSmkZy0": {
       "video_id": "eEdOqSmkZy0",
@@ -1065,58 +1065,58 @@
       "generated": "2026-07-13T06:29:01+00:00"
     },
     "R0qF17BVl9w": {
-      "video_id": "R0qF17BVl9w",
+      "status": "done",
       "title": "Fable 5 Just Built Me a Business With One Prompt",
       "channel": "Nate Herk | AI Automation",
+      "channel_slug": "nate-herk-ai-automation",
       "published": "2026-07-08T22:05:01+00:00",
       "url": "https://www.youtube.com/watch?v=R0qF17BVl9w",
-      "channel_slug": "nate-herk-ai-automation",
-      "status": "blocked"
+      "generated": "2026-07-13T08:29:08+00:00"
     },
     "XTBWVVcF3Pk": {
-      "video_id": "XTBWVVcF3Pk",
+      "status": "done",
       "title": "How I Make Opus Think Like Fable (5 easy steps)",
       "channel": "Nate Herk | AI Automation",
+      "channel_slug": "nate-herk-ai-automation",
       "published": "2026-07-07T02:44:05+00:00",
       "url": "https://www.youtube.com/watch?v=XTBWVVcF3Pk",
-      "channel_slug": "nate-herk-ai-automation",
-      "status": "pending"
+      "generated": "2026-07-13T08:33:03+00:00"
     },
     "hQvwMj7IJe4": {
-      "video_id": "hQvwMj7IJe4",
+      "status": "done",
       "title": "Fable 5 + Karpathy’s LLM Wiki is Basically Cheating",
       "channel": "Nate Herk | AI Automation",
+      "channel_slug": "nate-herk-ai-automation",
       "published": "2026-07-03T21:53:05+00:00",
       "url": "https://www.youtube.com/watch?v=hQvwMj7IJe4",
-      "channel_slug": "nate-herk-ai-automation",
-      "status": "pending"
+      "generated": "2026-07-13T08:36:53+00:00"
     },
     "pbrln2TVeh4": {
-      "video_id": "pbrln2TVeh4",
+      "status": "done",
       "title": "How Claude is Creating a New Generation of Millionaires",
       "channel": "Nate Herk | AI Automation",
+      "channel_slug": "nate-herk-ai-automation",
       "published": "2026-07-03T13:03:22+00:00",
       "url": "https://www.youtube.com/watch?v=pbrln2TVeh4",
-      "channel_slug": "nate-herk-ai-automation",
-      "status": "pending"
+      "generated": "2026-07-13T08:38:42+00:00"
     },
     "vcU85OrwuV0": {
-      "video_id": "vcU85OrwuV0",
+      "status": "done",
       "title": "How Anthropic Engineers Actually Prompt Fable 5",
       "channel": "Nate Herk | AI Automation",
+      "channel_slug": "nate-herk-ai-automation",
       "published": "2026-07-01T21:21:58+00:00",
       "url": "https://www.youtube.com/watch?v=vcU85OrwuV0",
-      "channel_slug": "nate-herk-ai-automation",
-      "status": "pending"
+      "generated": "2026-07-13T08:41:13+00:00"
     },
     "Tj3018n5MVg": {
-      "video_id": "Tj3018n5MVg",
+      "status": "done",
       "title": "Stanford's Method Turns Claude Into a PHD Level Research Team",
       "channel": "Nate Herk | AI Automation",
+      "channel_slug": "nate-herk-ai-automation",
       "published": "2026-06-29T13:15:39+00:00",
       "url": "https://www.youtube.com/watch?v=Tj3018n5MVg",
-      "channel_slug": "nate-herk-ai-automation",
-      "status": "pending"
+      "generated": "2026-07-13T08:42:04+00:00"
     },
     "iTY8Q449YNQ": {
       "video_id": "iTY8Q449YNQ",
@@ -1152,7 +1152,8 @@
       "published": "2026-07-01T16:41:08+00:00",
       "url": "https://www.youtube.com/watch?v=ddHQQtjIOpw",
       "channel_slug": "the-pragmatic-engineer",
-      "status": "pending"
+      "status": "too_long",
+      "minutes": 148
     },
     "xafwfGVBxos": {
       "video_id": "xafwfGVBxos",
@@ -1189,7 +1190,7 @@
       "url": "https://www.youtube.com/watch?v=pyYKOLEnsZk",
       "channel_slug": "ai-native-dev",
       "status": "no_transcript",
-      "attempts": 1
+      "attempts": 2
     },
     "D_cw-k0F1DM": {
       "status": "done",
@@ -1210,13 +1211,13 @@
       "status": "blocked"
     },
     "7Ue0yM4J-B8": {
-      "video_id": "7Ue0yM4J-B8",
+      "status": "done",
       "title": "Inside Anthropic: How Claude Tag Is Changing Agentic Work",
       "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
       "published": "2026-07-07T12:00:31+00:00",
       "url": "https://www.youtube.com/watch?v=7Ue0yM4J-B8",
-      "channel_slug": "ai-native-dev",
-      "status": "blocked"
+      "generated": "2026-07-13T08:31:11+00:00"
     },
     "Rgwu9nF_Xok": {
       "video_id": "Rgwu9nF_Xok",
@@ -1225,7 +1226,8 @@
       "published": "2026-07-06T16:00:30+00:00",
       "url": "https://www.youtube.com/watch?v=Rgwu9nF_Xok",
       "channel_slug": "ai-native-dev",
-      "status": "pending"
+      "status": "no_transcript",
+      "attempts": 1
     },
     "7JgIS42mz7U": {
       "status": "done",

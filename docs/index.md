@@ -4,11 +4,12 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **84** videos summarized.
+Auto-generated summaries of subscribed channels. **88** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/V-EDrhIhHzQ"><img loading="lazy" src="https://i.ytimg.com/vi/V-EDrhIhHzQ/hqdefault.jpg" alt=""><span class="video-title">The Prime Intellect Stack — Will Brown, Prime Intellect</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/ai-engineer/8oyalrfwgjw"><img loading="lazy" src="https://i.ytimg.com/vi/8oyalrfwgjw/hqdefault.jpg" alt=""><span class="video-title">RLM: Recursive Language Models for Large Codebases - Shashi, Superagentic AI</span><span class="video-date">2026-07-12</span></a>
 <a class="video-card" href="summaries/ai-engineer/7JgIS42mz7U"><img loading="lazy" src="https://i.ytimg.com/vi/7JgIS42mz7U/hqdefault.jpg" alt=""><span class="video-title">The AI bugpocalypse is here. Now what? - Jack Cable, Corridor</span><span class="video-date">2026-07-12</span></a>
 <a class="video-card" href="summaries/ai-engineer/EUsPvBeIx70"><img loading="lazy" src="https://i.ytimg.com/vi/EUsPvBeIx70/hqdefault.jpg" alt=""><span class="video-title">Semantic Blindness: 500,000 Sensors Confused an LLM - Raahul Singh &amp; Vanč Levstik, Phaidra</span><span class="video-date">2026-07-12</span></a>
@@ -53,6 +54,8 @@ Auto-generated summaries of subscribed channels. **84** videos summarized.
 <a class="video-card" href="summaries/anthropic/INGOC6-LLv0"><img loading="lazy" src="https://i.ytimg.com/vi/INGOC6-LLv0/hqdefault.jpg" alt=""><span class="video-title">An initiative to secure the world&#x27;s software | Project Glasswing</span><span class="video-date">2026-04-07</span></a>
 <a class="video-card" href="summaries/anthropic/D4XTefP3Lsc"><img loading="lazy" src="https://i.ytimg.com/vi/D4XTefP3Lsc/hqdefault.jpg" alt=""><span class="video-title">When AIs act emotional</span><span class="video-date">2026-04-02</span></a>
 <a class="video-card" href="summaries/anthropic/bluAmTHoEow"><img loading="lazy" src="https://i.ytimg.com/vi/bluAmTHoEow/hqdefault.jpg" alt=""><span class="video-title">Your tools are now interactive in Claude</span><span class="video-date">2026-01-26</span></a>
+<a class="video-card" href="summaries/anthropic/N5yJJA0NCU0"><img loading="lazy" src="https://i.ytimg.com/vi/N5yJJA0NCU0/hqdefault.jpg" alt=""><span class="video-title">AI on campus</span><span class="video-date">2026-01-12</span></a>
+<a class="video-card" href="summaries/anthropic/nvbq39yVYRk"><img loading="lazy" src="https://i.ytimg.com/vi/nvbq39yVYRk/hqdefault.jpg" alt=""><span class="video-title">What is sycophancy in AI models?</span><span class="video-date">2025-12-18</span></a>
 </div>
 
 ## Better Stack
@@ -116,6 +119,7 @@ Auto-generated summaries of subscribed channels. **84** videos summarized.
 ## OpenAI
 
 <div class="video-grid">
+<a class="video-card" href="summaries/openai/q571PxpsdoA"><img loading="lazy" src="https://i.ytimg.com/vi/q571PxpsdoA/hqdefault.jpg" alt=""><span class="video-title">Meet the family running a cereal business from their dining room with GPT-5.6</span><span class="video-date">2026-07-11</span></a>
 <a class="video-card" href="summaries/openai/yATno77Uo6A"><img loading="lazy" src="https://i.ytimg.com/vi/yATno77Uo6A/hqdefault.jpg" alt=""><span class="video-title">Stampli scales product marketing with ChatGPT Work</span><span class="video-date">2026-07-10</span></a>
 <a class="video-card" href="summaries/openai/IYYTI73J7Rg"><img loading="lazy" src="https://i.ytimg.com/vi/IYYTI73J7Rg/hqdefault.jpg" alt=""><span class="video-title">ChatGPT Computer Use: Now faster with Live Picture-in-Picture</span><span class="video-date">2026-07-10</span></a>
 <a class="video-card" href="summaries/openai/nep5byxmr_M"><img loading="lazy" src="https://i.ytimg.com/vi/nep5byxmr_M/hqdefault.jpg" alt=""><span class="video-title">RingCentral Scales Customer Programs with ChatGPT Work</span><span class="video-date">2026-07-10</span></a>

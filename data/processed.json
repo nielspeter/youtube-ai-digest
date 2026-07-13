@@ -783,7 +783,7 @@
       "url": "https://www.youtube.com/watch?v=8sUXGKDUEzI",
       "channel_slug": "openai",
       "status": "no_transcript",
-      "attempts": 4
+      "attempts": 5
     },
     "9arM9b7JgOo": {
       "status": "done",
@@ -856,7 +856,7 @@
       "url": "https://www.youtube.com/watch?v=dPn3GBI8lII",
       "channel_slug": "anthropic",
       "status": "no_transcript",
-      "attempts": 1
+      "attempts": 2
     },
     "bluAmTHoEow": {
       "status": "done",
@@ -868,13 +868,13 @@
       "generated": "2026-07-13T15:16:52+00:00"
     },
     "N5yJJA0NCU0": {
-      "video_id": "N5yJJA0NCU0",
+      "status": "done",
       "title": "AI on campus",
       "channel": "Anthropic",
+      "channel_slug": "anthropic",
       "published": "2026-01-12T22:41:27+00:00",
       "url": "https://www.youtube.com/watch?v=N5yJJA0NCU0",
-      "channel_slug": "anthropic",
-      "status": "pending"
+      "generated": "2026-07-13T17:49:21+00:00"
     },
     "UAmKyyZ-b9E": {
       "video_id": "UAmKyyZ-b9E",
@@ -883,16 +883,17 @@
       "published": "2026-01-12T20:02:22+00:00",
       "url": "https://www.youtube.com/watch?v=UAmKyyZ-b9E",
       "channel_slug": "anthropic",
-      "status": "pending"
+      "status": "no_transcript",
+      "attempts": 1
     },
     "nvbq39yVYRk": {
-      "video_id": "nvbq39yVYRk",
+      "status": "done",
       "title": "What is sycophancy in AI models?",
       "channel": "Anthropic",
+      "channel_slug": "anthropic",
       "published": "2025-12-18T20:30:14+00:00",
       "url": "https://www.youtube.com/watch?v=nvbq39yVYRk",
-      "channel_slug": "anthropic",
-      "status": "pending"
+      "generated": "2026-07-13T17:51:47+00:00"
     },
     "rBJnWMD0Pho": {
       "video_id": "rBJnWMD0Pho",
@@ -901,7 +902,8 @@
       "published": "2025-12-18T18:52:03+00:00",
       "url": "https://www.youtube.com/watch?v=rBJnWMD0Pho",
       "channel_slug": "anthropic",
-      "status": "pending"
+      "status": "no_transcript",
+      "attempts": 1
     },
     "5KTHvKCrQ00": {
       "video_id": "5KTHvKCrQ00",
@@ -1578,6 +1580,42 @@
       "url": "https://www.youtube.com/watch?v=RairMJflUSA",
       "channel_slug": "indydevdan",
       "status": "seeded"
+    },
+    "q571PxpsdoA": {
+      "status": "done",
+      "title": "Meet the family running a cereal business from their dining room with GPT-5.6",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-11T00:44:29+00:00",
+      "url": "https://www.youtube.com/watch?v=q571PxpsdoA",
+      "generated": "2026-07-13T17:48:39+00:00"
+    },
+    "OqM67QG_Ikk": {
+      "video_id": "OqM67QG_Ikk",
+      "title": "From fork() to Fleet: Designing an Agent Sandbox Cloud — Abhishek Bhardwaj, OpenAI",
+      "channel": "AI Engineer",
+      "published": "2026-07-13T17:00:06+00:00",
+      "url": "https://www.youtube.com/watch?v=OqM67QG_Ikk",
+      "channel_slug": "ai-engineer",
+      "status": "blocked"
+    },
+    "V-EDrhIhHzQ": {
+      "status": "done",
+      "title": "The Prime Intellect Stack — Will Brown, Prime Intellect",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-13T15:34:07+00:00",
+      "url": "https://www.youtube.com/watch?v=V-EDrhIhHzQ",
+      "generated": "2026-07-13T17:47:52+00:00"
+    },
+    "iCtqkiVlg1U": {
+      "video_id": "iCtqkiVlg1U",
+      "title": "Patrick Debois: Fix the system, not the code.",
+      "channel": "AI Native Dev",
+      "published": "2026-07-13T15:00:23+00:00",
+      "url": "https://www.youtube.com/watch?v=iCtqkiVlg1U",
+      "channel_slug": "ai-native-dev",
+      "status": "short"
     }
   }
 }

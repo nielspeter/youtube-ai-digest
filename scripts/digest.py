@@ -35,6 +35,7 @@ import glob
 import html
 import json
 import os
+import random
 import re
 import subprocess
 import sys
@@ -105,11 +106,35 @@ def retry_after_seconds(text: str, attempt: int) -> int:
     return min(30 * (2 ** attempt), RATE_LIMIT_MAX_WAIT)
 
 
+def yt_proxy_url() -> str | None:
+    """Proxy URL for YouTube traffic only (residential, to dodge the bot-check).
+    Either set YT_PROXY directly, or provide DECODO_USERNAME + DECODO_PASSWORD
+    (host/port default to Decodo's gateway; override with DECODO_HOST/PORT)."""
+    direct = os.environ.get("YT_PROXY")
+    if direct:
+        return direct
+    user, pw = os.environ.get("DECODO_USERNAME"), os.environ.get("DECODO_PASSWORD")
+    if user and pw:
+        host = os.environ.get("DECODO_HOST") or "gate.decodo.com"
+        # Decodo gives sticky-session ports 10001-10010 (each = a distinct IP).
+        # Rotating across them spreads requests over ~10 residential IPs.
+        port = _pick_port(os.environ.get("DECODO_PORT") or "10001-10010")
+        return f"http://{user}:{pw}@{host}:{port}"
+    return None
+
+
+def _pick_port(spec: str) -> str:
+    """A single port ('10001') or an inclusive range ('10001-10010') → one port,
+    chosen at random so successive requests use different sticky-session IPs."""
+    if "-" in spec:
+        lo, hi = spec.split("-", 1)
+        return str(random.randint(int(lo), int(hi)))
+    return spec
+
+
 def yt_proxies() -> dict | None:
-    """Route only YouTube traffic through a proxy (residential, to dodge the
-    bot-check). The LLM call deliberately does NOT use this. Set YT_PROXY to
-    e.g. http://user:pass@gate.decodo.com:7000 (Decodo/IPRoyal/any provider)."""
-    p = os.environ.get("YT_PROXY")
+    """requests-style proxies dict. The LLM call deliberately does NOT use this."""
+    p = yt_proxy_url()
     return {"http": p, "https": p} if p else None
 
 
@@ -300,8 +325,9 @@ def fetch_transcript(video_id: str) -> str | None:
                 cmd += ["--cookies", cookies]
             elif cookies_from_browser:
                 cmd += ["--cookies-from-browser", cookies_from_browser]
-            if env("YT_PROXY"):
-                cmd += ["--proxy", env("YT_PROXY")]
+            proxy = yt_proxy_url()
+            if proxy:
+                cmd += ["--proxy", proxy]
             try:
                 subprocess.run(cmd, check=True, capture_output=True, text=True, timeout=600)
             except subprocess.CalledProcessError as exc:

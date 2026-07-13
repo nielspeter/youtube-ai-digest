@@ -62,9 +62,13 @@ jobs:
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
           MAX_VIDEOS_PER_RUN: ${{ vars.MAX_VIDEOS_PER_RUN }}
-          # Optional residential proxy for YouTube only (bypasses the bot-check).
-          # e.g. http://user:pass@gate.decodo.com:7000 — LLM traffic stays direct.
+          # Residential proxy for YouTube only (bypasses the bot-check); LLM stays direct.
+          # Either a full YT_PROXY URL, or Decodo username/password (rotates sticky ports).
           YT_PROXY: ${{ secrets.YT_PROXY }}
+          DECODO_USERNAME: ${{ secrets.DECODO_USERNAME }}
+          DECODO_PASSWORD: ${{ secrets.DECODO_PASSWORD }}
+          DECODO_HOST: ${{ vars.DECODO_HOST }}
+          DECODO_PORT: ${{ vars.DECODO_PORT }}
         run: |
           if [ "${{ inputs.seed }}" = "true" ]; then
             uv run scripts/digest.py --seed

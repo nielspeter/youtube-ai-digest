@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **61** videos summarized.
+Auto-generated summaries of subscribed channels. **77** videos summarized.
 
 ## AI Engineer
 
@@ -31,11 +31,14 @@ Auto-generated summaries of subscribed channels. **61** videos summarized.
 ## AI Native Dev
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-native-dev/5SKh-FmjX7U"><img loading="lazy" src="https://i.ytimg.com/vi/5SKh-FmjX7U/hqdefault.jpg" alt=""><span class="video-title">Katie Roberts - Stop Maintaining, Start Evolving: Applying AI-Native Practices to Brownfield Codebas</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/ai-native-dev/BkJCF2yV53w"><img loading="lazy" src="https://i.ytimg.com/vi/BkJCF2yV53w/hqdefault.jpg" alt=""><span class="video-title">The Architecture of Claude Tag</span><span class="video-date">2026-07-11</span></a>
 <a class="video-card" href="summaries/ai-native-dev/xHxfeWtkXrM"><img loading="lazy" src="https://i.ytimg.com/vi/xHxfeWtkXrM/hqdefault.jpg" alt=""><span class="video-title">Justin Cormack - When Tests Lie: Using Observability to Keep AI Honest - AI Native DevCon June 2026</span><span class="video-date">2026-07-11</span></a>
 <a class="video-card" href="summaries/ai-native-dev/guhTp2Q8VX0"><img loading="lazy" src="https://i.ytimg.com/vi/guhTp2Q8VX0/hqdefault.jpg" alt=""><span class="video-title">Amit Kushwaha - Benchmarking the Agent Era: Measuring Performance Beyond the LLM - AI Native DevCon</span><span class="video-date">2026-07-10</span></a>
+<a class="video-card" href="summaries/ai-native-dev/pyYKOLEnsZk"><img loading="lazy" src="https://i.ytimg.com/vi/pyYKOLEnsZk/hqdefault.jpg" alt=""><span class="video-title">Hannah Foxwell - The Reinvention of the Dev Team - AI Native DevCon June 2026</span><span class="video-date">2026-07-09</span></a>
 <a class="video-card" href="summaries/ai-native-dev/D_cw-k0F1DM"><img loading="lazy" src="https://i.ytimg.com/vi/D_cw-k0F1DM/hqdefault.jpg" alt=""><span class="video-title">Harness Engineering: The New Discipline of Agentic Dev</span><span class="video-date">2026-07-08</span></a>
 <a class="video-card" href="summaries/ai-native-dev/7Ue0yM4J-B8"><img loading="lazy" src="https://i.ytimg.com/vi/7Ue0yM4J-B8/hqdefault.jpg" alt=""><span class="video-title">Inside Anthropic: How Claude Tag Is Changing Agentic Work</span><span class="video-date">2026-07-07</span></a>
+<a class="video-card" href="summaries/ai-native-dev/Rgwu9nF_Xok"><img loading="lazy" src="https://i.ytimg.com/vi/Rgwu9nF_Xok/hqdefault.jpg" alt=""><span class="video-title">Steve Yegge: &#x27;You&#x27;ll Never Write Code the Same Way Again&#x27;</span><span class="video-date">2026-07-06</span></a>
 <a class="video-card" href="summaries/ai-native-dev/tFffUnSq7VA"><img loading="lazy" src="https://i.ytimg.com/vi/tFffUnSq7VA/hqdefault.jpg" alt=""><span class="video-title">Birgitta Böckeler - State of Play: AI Coding Assistants - AI Native DevCon June 2026</span><span class="video-date">2026-06-24</span></a>
 </div>
 
@@ -43,11 +46,13 @@ Auto-generated summaries of subscribed channels. **61** videos summarized.
 
 <div class="video-grid">
 <a class="video-card" href="summaries/anthropic/rKV5JcALQoQ"><img loading="lazy" src="https://i.ytimg.com/vi/rKV5JcALQoQ/hqdefault.jpg" alt=""><span class="video-title">The different levels of how Claude thinks</span><span class="video-date">2026-07-06</span></a>
+<a class="video-card" href="summaries/anthropic/Y9Wz2PV404E"><img loading="lazy" src="https://i.ytimg.com/vi/Y9Wz2PV404E/hqdefault.jpg" alt=""><span class="video-title">Introducing Claude Fable 5</span><span class="video-date">2026-06-09</span></a>
 </div>
 
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/0TSxrzBVEwQ"><img loading="lazy" src="https://i.ytimg.com/vi/0TSxrzBVEwQ/hqdefault.jpg" alt=""><span class="video-title">The Zig Creator is NOT Happy About This... (Bun to Rust)</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/better-stack/ElaEGr2t9XQ"><img loading="lazy" src="https://i.ytimg.com/vi/ElaEGr2t9XQ/hqdefault.jpg" alt=""><span class="video-title">Event-Driven Architecture, Webhook Chaos, and the Rise of AI Agents | Better Stack Podcast Ep. 17</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/better-stack/4Lmqvn_yz-c"><img loading="lazy" src="https://i.ytimg.com/vi/4Lmqvn_yz-c/hqdefault.jpg" alt=""><span class="video-title">Postgres Just Got It&#x27;s Biggest Upgrade In Years</span><span class="video-date">2026-07-10</span></a>
 <a class="video-card" href="summaries/better-stack/mIL4sZa8M0E"><img loading="lazy" src="https://i.ytimg.com/vi/mIL4sZa8M0E/hqdefault.jpg" alt=""><span class="video-title">Open-Source Dictation Is Here… Goodbye Subscriptions</span><span class="video-date">2026-07-10</span></a>
@@ -65,7 +70,13 @@ Auto-generated summaries of subscribed channels. **61** videos summarized.
 <a class="video-card" href="summaries/cole-medin/deeOA6YVfqw"><img loading="lazy" src="https://i.ytimg.com/vi/deeOA6YVfqw/hqdefault.jpg" alt=""><span class="video-title">I Turned Claude Code Into a Complete Video Generation System (with Archon)</span><span class="video-date">2026-07-12</span></a>
 <a class="video-card" href="summaries/cole-medin/PY7xIxybYNc"><img loading="lazy" src="https://i.ytimg.com/vi/PY7xIxybYNc/hqdefault.jpg" alt=""><span class="video-title">Pydantic AI 2.0: The New Best Way to Build AI Agents is Composing Capabilities</span><span class="video-date">2026-07-10</span></a>
 <a class="video-card" href="summaries/cole-medin/R-5_2nsF_ZM"><img loading="lazy" src="https://i.ytimg.com/vi/R-5_2nsF_ZM/hqdefault.jpg" alt=""><span class="video-title">I Love the Karpathy LLM Wiki but it Doesn&#x27;t Scale. Here&#x27;s What Does.</span><span class="video-date">2026-07-09</span></a>
+<a class="video-card" href="summaries/cole-medin/muwRbfuKbR4"><img loading="lazy" src="https://i.ytimg.com/vi/muwRbfuKbR4/hqdefault.jpg" alt=""><span class="video-title">The Best AI Coding Setup Isn&#x27;t the Most Autonomous One (Here&#x27;s Why)</span><span class="video-date">2026-07-03</span></a>
 <a class="video-card" href="summaries/cole-medin/T33iI6izAKw"><img loading="lazy" src="https://i.ytimg.com/vi/T33iI6izAKw/hqdefault.jpg" alt=""><span class="video-title">Finally, an Open Standard for the Karpathy LLM Wiki is HERE</span><span class="video-date">2026-07-02</span></a>
+<a class="video-card" href="summaries/cole-medin/zbmuiaPuiNM"><img loading="lazy" src="https://i.ytimg.com/vi/zbmuiaPuiNM/hqdefault.jpg" alt=""><span class="video-title">Google Just Dropped a Masterclass on Agentic Engineering (It&#x27;s SO Good)</span><span class="video-date">2026-06-25</span></a>
+<a class="video-card" href="summaries/cole-medin/UztrFXaSWv0"><img loading="lazy" src="https://i.ytimg.com/vi/UztrFXaSWv0/hqdefault.jpg" alt=""><span class="video-title">The Creators of Claude Code and OpenClaw don&#x27;t Prompt Their Agents Anymore?!</span><span class="video-date">2026-06-18</span></a>
+<a class="video-card" href="summaries/cole-medin/oGE_Dwz-rMk"><img loading="lazy" src="https://i.ytimg.com/vi/oGE_Dwz-rMk/hqdefault.jpg" alt=""><span class="video-title">Omnigent: The New Meta-Harness for EVERY Coding Agent - Claude Code, Codex, Pi, More</span><span class="video-date">2026-06-15</span></a>
+<a class="video-card" href="summaries/cole-medin/CrLMktzEzmM"><img loading="lazy" src="https://i.ytimg.com/vi/CrLMktzEzmM/hqdefault.jpg" alt=""><span class="video-title">Claude Fable 5 is Now BANNED?!</span><span class="video-date">2026-06-13</span></a>
+<a class="video-card" href="summaries/cole-medin/1wfY7GCVvh0"><img loading="lazy" src="https://i.ytimg.com/vi/1wfY7GCVvh0/hqdefault.jpg" alt=""><span class="video-title">Google&#x27;s Agents CLI: The CLI + Skills Combination to Ship AI Agents EASILY</span><span class="video-date">2026-06-11</span></a>
 </div>
 
 ## Matthew Berman
@@ -73,8 +84,10 @@ Auto-generated summaries of subscribed channels. **61** videos summarized.
 <div class="video-grid">
 <a class="video-card" href="summaries/matthew-berman/roGmNXASYOM"><img loading="lazy" src="https://i.ytimg.com/vi/roGmNXASYOM/hqdefault.jpg" alt=""><span class="video-title">GPT-5.6 SOL is HERE</span><span class="video-date">2026-07-09</span></a>
 <a class="video-card" href="summaries/matthew-berman/mD1F5DsC5tc"><img loading="lazy" src="https://i.ytimg.com/vi/mD1F5DsC5tc/hqdefault.jpg" alt=""><span class="video-title">GPT-5.6 is FINALLY HERE (WOAH)</span><span class="video-date">2026-07-09</span></a>
+<a class="video-card" href="summaries/matthew-berman/bjHuGNo3spk"><img loading="lazy" src="https://i.ytimg.com/vi/bjHuGNo3spk/hqdefault.jpg" alt=""><span class="video-title">We just figured out how AI actually works (J-Space)</span><span class="video-date">2026-07-08</span></a>
 <a class="video-card" href="summaries/matthew-berman/1KKB_UiW6ls"><img loading="lazy" src="https://i.ytimg.com/vi/1KKB_UiW6ls/hqdefault.jpg" alt=""><span class="video-title">Cut your AI cost IN HALF (EASY)</span><span class="video-date">2026-07-07</span></a>
 <a class="video-card" href="summaries/matthew-berman/TML-0HmxWCE"><img loading="lazy" src="https://i.ytimg.com/vi/TML-0HmxWCE/hqdefault.jpg" alt=""><span class="video-title">&quot;The best thing since OpenClaw&quot; (Hermes Tutorial)</span><span class="video-date">2026-06-28</span></a>
+<a class="video-card" href="summaries/matthew-berman/eEdOqSmkZy0"><img loading="lazy" src="https://i.ytimg.com/vi/eEdOqSmkZy0/hqdefault.jpg" alt=""><span class="video-title">I can&#x27;t believe this happened...</span><span class="video-date">2026-06-26</span></a>
 </div>
 
 ## Nate Herk | AI Automation
@@ -89,6 +102,8 @@ Auto-generated summaries of subscribed channels. **61** videos summarized.
 <a class="video-card" href="summaries/nate-herk-ai-automation/pbrln2TVeh4"><img loading="lazy" src="https://i.ytimg.com/vi/pbrln2TVeh4/hqdefault.jpg" alt=""><span class="video-title">How Claude is Creating a New Generation of Millionaires</span><span class="video-date">2026-07-03</span></a>
 <a class="video-card" href="summaries/nate-herk-ai-automation/vcU85OrwuV0"><img loading="lazy" src="https://i.ytimg.com/vi/vcU85OrwuV0/hqdefault.jpg" alt=""><span class="video-title">How Anthropic Engineers Actually Prompt Fable 5</span><span class="video-date">2026-07-01</span></a>
 <a class="video-card" href="summaries/nate-herk-ai-automation/Tj3018n5MVg"><img loading="lazy" src="https://i.ytimg.com/vi/Tj3018n5MVg/hqdefault.jpg" alt=""><span class="video-title">Stanford&#x27;s Method Turns Claude Into a PHD Level Research Team</span><span class="video-date">2026-06-29</span></a>
+<a class="video-card" href="summaries/nate-herk-ai-automation/iTY8Q449YNQ"><img loading="lazy" src="https://i.ytimg.com/vi/iTY8Q449YNQ/hqdefault.jpg" alt=""><span class="video-title">I asked Claude Code to make me as much money as possible</span><span class="video-date">2026-06-25</span></a>
+<a class="video-card" href="summaries/nate-herk-ai-automation/S2ME69hra-k"><img loading="lazy" src="https://i.ytimg.com/vi/S2ME69hra-k/hqdefault.jpg" alt=""><span class="video-title">Why Watching AI Videos Isn&#x27;t Enough</span><span class="video-date">2026-06-24</span></a>
 </div>
 
 ## OpenAI
@@ -110,4 +125,5 @@ Auto-generated summaries of subscribed channels. **61** videos summarized.
 
 <div class="video-grid">
 <a class="video-card" href="summaries/the-pragmatic-engineer/cSIMVYjVF28"><img loading="lazy" src="https://i.ytimg.com/vi/cSIMVYjVF28/hqdefault.jpg" alt=""><span class="video-title">The Pragmatic Engineer AMA</span><span class="video-date">2026-07-08</span></a>
+<a class="video-card" href="summaries/the-pragmatic-engineer/xafwfGVBxos"><img loading="lazy" src="https://i.ytimg.com/vi/xafwfGVBxos/hqdefault.jpg" alt=""><span class="video-title">Tech interviews with NeetCode</span><span class="video-date">2026-06-24</span></a>
 </div>

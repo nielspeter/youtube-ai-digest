@@ -595,13 +595,13 @@
       "generated": "2026-07-12T21:43:47+00:00"
     },
     "R-5_2nsF_ZM": {
-      "video_id": "R-5_2nsF_ZM",
+      "status": "done",
       "title": "I Love the Karpathy LLM Wiki but it Doesn't Scale. Here's What Does.",
       "channel": "Cole Medin",
+      "channel_slug": "cole-medin",
       "published": "2026-07-09T00:00:36+00:00",
       "url": "https://www.youtube.com/watch?v=R-5_2nsF_ZM",
-      "channel_slug": "cole-medin",
-      "status": "pending"
+      "generated": "2026-07-13T06:44:10+00:00"
     },
     "muwRbfuKbR4": {
       "video_id": "muwRbfuKbR4",
@@ -739,22 +739,22 @@
       "generated": "2026-07-13T06:32:29+00:00"
     },
     "GphgJjaKKhw": {
-      "video_id": "GphgJjaKKhw",
+      "status": "done",
       "title": "Get started with ChatGPT Work",
       "channel": "OpenAI",
+      "channel_slug": "openai",
       "published": "2026-07-09T21:00:03+00:00",
       "url": "https://www.youtube.com/watch?v=GphgJjaKKhw",
-      "channel_slug": "openai",
-      "status": "blocked"
+      "generated": "2026-07-13T06:35:21+00:00"
     },
     "5X5CALvYvp0": {
-      "video_id": "5X5CALvYvp0",
+      "status": "done",
       "title": "Meet a mathematician solving previously unsolvable math problems with GPT-5.6",
       "channel": "OpenAI",
+      "channel_slug": "openai",
       "published": "2026-07-09T20:00:35+00:00",
       "url": "https://www.youtube.com/watch?v=5X5CALvYvp0",
-      "channel_slug": "openai",
-      "status": "pending"
+      "generated": "2026-07-13T06:39:20+00:00"
     },
     "hWhfrR9WJ_c": {
       "video_id": "hWhfrR9WJ_c",
@@ -763,7 +763,7 @@
       "published": "2026-07-09T20:00:24+00:00",
       "url": "https://www.youtube.com/watch?v=hWhfrR9WJ_c",
       "channel_slug": "openai",
-      "status": "pending"
+      "status": "blocked"
     },
     "A5VgJ0KZgKs": {
       "video_id": "A5VgJ0KZgKs",
@@ -772,7 +772,7 @@
       "published": "2026-07-09T20:00:18+00:00",
       "url": "https://www.youtube.com/watch?v=A5VgJ0KZgKs",
       "channel_slug": "openai",
-      "status": "pending"
+      "status": "blocked"
     },
     "8sUXGKDUEzI": {
       "video_id": "8sUXGKDUEzI",
@@ -781,7 +781,8 @@
       "published": "2026-07-09T18:30:29+00:00",
       "url": "https://www.youtube.com/watch?v=8sUXGKDUEzI",
       "channel_slug": "openai",
-      "status": "pending"
+      "status": "no_transcript",
+      "attempts": 1
     },
     "9arM9b7JgOo": {
       "status": "done",
@@ -946,67 +947,67 @@
       "generated": "2026-07-13T06:31:00+00:00"
     },
     "vRTliPb8fjg": {
-      "video_id": "vRTliPb8fjg",
+      "status": "done",
       "title": "I Let Strix Attack My App... Here’s What It Found",
       "channel": "Better Stack",
+      "channel_slug": "better-stack",
       "published": "2026-07-09T15:00:27+00:00",
       "url": "https://www.youtube.com/watch?v=vRTliPb8fjg",
-      "channel_slug": "better-stack",
-      "status": "pending"
+      "generated": "2026-07-13T06:41:14+00:00"
     },
     "pHAbwL7w83Q": {
-      "video_id": "pHAbwL7w83Q",
+      "status": "done",
       "title": "AI Benchmarks Are Fake!?",
       "channel": "Better Stack",
+      "channel_slug": "better-stack",
       "published": "2026-07-09T08:00:19+00:00",
       "url": "https://www.youtube.com/watch?v=pHAbwL7w83Q",
-      "channel_slug": "better-stack",
-      "status": "pending"
+      "generated": "2026-07-13T06:42:21+00:00"
     },
     "lNsSxWQDqaU": {
-      "video_id": "lNsSxWQDqaU",
+      "status": "done",
       "title": "The Largest Supply Chain Attack Ever Just Infected Go",
       "channel": "Better Stack",
+      "channel_slug": "better-stack",
       "published": "2026-07-08T11:27:36+00:00",
       "url": "https://www.youtube.com/watch?v=lNsSxWQDqaU",
-      "channel_slug": "better-stack",
-      "status": "pending"
+      "generated": "2026-07-13T06:48:25+00:00"
     },
     "wOfm7x0i3sw": {
-      "video_id": "wOfm7x0i3sw",
+      "status": "done",
       "title": "Open Source Is Back. Goodbye Claude.",
       "channel": "Better Stack",
+      "channel_slug": "better-stack",
       "published": "2026-07-07T21:00:35+00:00",
       "url": "https://www.youtube.com/watch?v=wOfm7x0i3sw",
-      "channel_slug": "better-stack",
-      "status": "pending"
+      "generated": "2026-07-13T06:52:32+00:00"
     },
     "wiQo9gayiqU": {
-      "video_id": "wiQo9gayiqU",
+      "status": "done",
       "title": "No API Key. No Cloud. Just Mac AI (Apfel)",
       "channel": "Better Stack",
+      "channel_slug": "better-stack",
       "published": "2026-07-07T15:00:23+00:00",
       "url": "https://www.youtube.com/watch?v=wiQo9gayiqU",
-      "channel_slug": "better-stack",
-      "status": "pending"
+      "generated": "2026-07-13T06:53:37+00:00"
     },
     "roGmNXASYOM": {
-      "video_id": "roGmNXASYOM",
+      "status": "done",
       "title": "GPT-5.6 SOL is HERE",
       "channel": "Matthew Berman",
+      "channel_slug": "matthew-berman",
       "published": "2026-07-09T20:49:47+00:00",
       "url": "https://www.youtube.com/watch?v=roGmNXASYOM",
-      "channel_slug": "matthew-berman",
-      "status": "pending"
+      "generated": "2026-07-13T06:37:08+00:00"
     },
     "mD1F5DsC5tc": {
-      "video_id": "mD1F5DsC5tc",
+      "status": "done",
       "title": "GPT-5.6 is FINALLY HERE (WOAH)",
       "channel": "Matthew Berman",
+      "channel_slug": "matthew-berman",
       "published": "2026-07-09T18:00:10+00:00",
       "url": "https://www.youtube.com/watch?v=mD1F5DsC5tc",
-      "channel_slug": "matthew-berman",
-      "status": "pending"
+      "generated": "2026-07-13T06:40:16+00:00"
     },
     "bjHuGNo3spk": {
       "video_id": "bjHuGNo3spk",
@@ -1015,7 +1016,8 @@
       "published": "2026-07-08T02:58:42+00:00",
       "url": "https://www.youtube.com/watch?v=bjHuGNo3spk",
       "channel_slug": "matthew-berman",
-      "status": "pending"
+      "status": "no_transcript",
+      "attempts": 1
     },
     "1KKB_UiW6ls": {
       "video_id": "1KKB_UiW6ls",
@@ -1069,7 +1071,7 @@
       "published": "2026-07-08T22:05:01+00:00",
       "url": "https://www.youtube.com/watch?v=R0qF17BVl9w",
       "channel_slug": "nate-herk-ai-automation",
-      "status": "pending"
+      "status": "blocked"
     },
     "XTBWVVcF3Pk": {
       "video_id": "XTBWVVcF3Pk",
@@ -1135,13 +1137,13 @@
       "status": "pending"
     },
     "cSIMVYjVF28": {
-      "video_id": "cSIMVYjVF28",
+      "status": "done",
       "title": "The Pragmatic Engineer AMA",
       "channel": "The Pragmatic Engineer",
+      "channel_slug": "the-pragmatic-engineer",
       "published": "2026-07-08T16:18:51+00:00",
       "url": "https://www.youtube.com/watch?v=cSIMVYjVF28",
-      "channel_slug": "the-pragmatic-engineer",
-      "status": "pending"
+      "generated": "2026-07-13T06:45:04+00:00"
     },
     "ddHQQtjIOpw": {
       "video_id": "ddHQQtjIOpw",
@@ -1186,16 +1188,17 @@
       "published": "2026-07-09T03:56:59+00:00",
       "url": "https://www.youtube.com/watch?v=pyYKOLEnsZk",
       "channel_slug": "ai-native-dev",
-      "status": "pending"
+      "status": "no_transcript",
+      "attempts": 1
     },
     "D_cw-k0F1DM": {
-      "video_id": "D_cw-k0F1DM",
+      "status": "done",
       "title": "Harness Engineering: The New Discipline of Agentic Dev",
       "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
       "published": "2026-07-08T15:30:11+00:00",
       "url": "https://www.youtube.com/watch?v=D_cw-k0F1DM",
-      "channel_slug": "ai-native-dev",
-      "status": "pending"
+      "generated": "2026-07-13T06:47:20+00:00"
     },
     "I9RWrW32QEw": {
       "video_id": "I9RWrW32QEw",
@@ -1204,7 +1207,7 @@
       "published": "2026-07-08T08:49:33+00:00",
       "url": "https://www.youtube.com/watch?v=I9RWrW32QEw",
       "channel_slug": "ai-native-dev",
-      "status": "pending"
+      "status": "blocked"
     },
     "7Ue0yM4J-B8": {
       "video_id": "7Ue0yM4J-B8",
@@ -1213,7 +1216,7 @@
       "published": "2026-07-07T12:00:31+00:00",
       "url": "https://www.youtube.com/watch?v=7Ue0yM4J-B8",
       "channel_slug": "ai-native-dev",
-      "status": "pending"
+      "status": "blocked"
     },
     "Rgwu9nF_Xok": {
       "video_id": "Rgwu9nF_Xok",

@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **36** videos summarized.
+Auto-generated summaries of subscribed channels. **48** videos summarized.
 
 ## AI Engineer
 
@@ -34,6 +34,7 @@ Auto-generated summaries of subscribed channels. **36** videos summarized.
 <a class="video-card" href="summaries/ai-native-dev/BkJCF2yV53w"><img loading="lazy" src="https://i.ytimg.com/vi/BkJCF2yV53w/hqdefault.jpg" alt=""><span class="video-title">The Architecture of Claude Tag</span><span class="video-date">2026-07-11</span></a>
 <a class="video-card" href="summaries/ai-native-dev/xHxfeWtkXrM"><img loading="lazy" src="https://i.ytimg.com/vi/xHxfeWtkXrM/hqdefault.jpg" alt=""><span class="video-title">Justin Cormack - When Tests Lie: Using Observability to Keep AI Honest - AI Native DevCon June 2026</span><span class="video-date">2026-07-11</span></a>
 <a class="video-card" href="summaries/ai-native-dev/guhTp2Q8VX0"><img loading="lazy" src="https://i.ytimg.com/vi/guhTp2Q8VX0/hqdefault.jpg" alt=""><span class="video-title">Amit Kushwaha - Benchmarking the Agent Era: Measuring Performance Beyond the LLM - AI Native DevCon</span><span class="video-date">2026-07-10</span></a>
+<a class="video-card" href="summaries/ai-native-dev/D_cw-k0F1DM"><img loading="lazy" src="https://i.ytimg.com/vi/D_cw-k0F1DM/hqdefault.jpg" alt=""><span class="video-title">Harness Engineering: The New Discipline of Agentic Dev</span><span class="video-date">2026-07-08</span></a>
 <a class="video-card" href="summaries/ai-native-dev/tFffUnSq7VA"><img loading="lazy" src="https://i.ytimg.com/vi/tFffUnSq7VA/hqdefault.jpg" alt=""><span class="video-title">Birgitta Böckeler - State of Play: AI Coding Assistants - AI Native DevCon June 2026</span><span class="video-date">2026-06-24</span></a>
 </div>
 
@@ -44,6 +45,11 @@ Auto-generated summaries of subscribed channels. **36** videos summarized.
 <a class="video-card" href="summaries/better-stack/4Lmqvn_yz-c"><img loading="lazy" src="https://i.ytimg.com/vi/4Lmqvn_yz-c/hqdefault.jpg" alt=""><span class="video-title">Postgres Just Got It&#x27;s Biggest Upgrade In Years</span><span class="video-date">2026-07-10</span></a>
 <a class="video-card" href="summaries/better-stack/mIL4sZa8M0E"><img loading="lazy" src="https://i.ytimg.com/vi/mIL4sZa8M0E/hqdefault.jpg" alt=""><span class="video-title">Open-Source Dictation Is Here… Goodbye Subscriptions</span><span class="video-date">2026-07-10</span></a>
 <a class="video-card" href="summaries/better-stack/27QLmUQvL2A"><img loading="lazy" src="https://i.ytimg.com/vi/27QLmUQvL2A/hqdefault.jpg" alt=""><span class="video-title">OpenAI Sol Ultra Just BEAT Claude Fable</span><span class="video-date">2026-07-09</span></a>
+<a class="video-card" href="summaries/better-stack/vRTliPb8fjg"><img loading="lazy" src="https://i.ytimg.com/vi/vRTliPb8fjg/hqdefault.jpg" alt=""><span class="video-title">I Let Strix Attack My App... Here’s What It Found</span><span class="video-date">2026-07-09</span></a>
+<a class="video-card" href="summaries/better-stack/pHAbwL7w83Q"><img loading="lazy" src="https://i.ytimg.com/vi/pHAbwL7w83Q/hqdefault.jpg" alt=""><span class="video-title">AI Benchmarks Are Fake!?</span><span class="video-date">2026-07-09</span></a>
+<a class="video-card" href="summaries/better-stack/lNsSxWQDqaU"><img loading="lazy" src="https://i.ytimg.com/vi/lNsSxWQDqaU/hqdefault.jpg" alt=""><span class="video-title">The Largest Supply Chain Attack Ever Just Infected Go</span><span class="video-date">2026-07-08</span></a>
+<a class="video-card" href="summaries/better-stack/wOfm7x0i3sw"><img loading="lazy" src="https://i.ytimg.com/vi/wOfm7x0i3sw/hqdefault.jpg" alt=""><span class="video-title">Open Source Is Back. Goodbye Claude.</span><span class="video-date">2026-07-07</span></a>
+<a class="video-card" href="summaries/better-stack/wiQo9gayiqU"><img loading="lazy" src="https://i.ytimg.com/vi/wiQo9gayiqU/hqdefault.jpg" alt=""><span class="video-title">No API Key. No Cloud. Just Mac AI (Apfel)</span><span class="video-date">2026-07-07</span></a>
 </div>
 
 ## Cole Medin
@@ -51,6 +57,14 @@ Auto-generated summaries of subscribed channels. **36** videos summarized.
 <div class="video-grid">
 <a class="video-card" href="summaries/cole-medin/deeOA6YVfqw"><img loading="lazy" src="https://i.ytimg.com/vi/deeOA6YVfqw/hqdefault.jpg" alt=""><span class="video-title">I Turned Claude Code Into a Complete Video Generation System (with Archon)</span><span class="video-date">2026-07-12</span></a>
 <a class="video-card" href="summaries/cole-medin/PY7xIxybYNc"><img loading="lazy" src="https://i.ytimg.com/vi/PY7xIxybYNc/hqdefault.jpg" alt=""><span class="video-title">Pydantic AI 2.0: The New Best Way to Build AI Agents is Composing Capabilities</span><span class="video-date">2026-07-10</span></a>
+<a class="video-card" href="summaries/cole-medin/R-5_2nsF_ZM"><img loading="lazy" src="https://i.ytimg.com/vi/R-5_2nsF_ZM/hqdefault.jpg" alt=""><span class="video-title">I Love the Karpathy LLM Wiki but it Doesn&#x27;t Scale. Here&#x27;s What Does.</span><span class="video-date">2026-07-09</span></a>
+</div>
+
+## Matthew Berman
+
+<div class="video-grid">
+<a class="video-card" href="summaries/matthew-berman/roGmNXASYOM"><img loading="lazy" src="https://i.ytimg.com/vi/roGmNXASYOM/hqdefault.jpg" alt=""><span class="video-title">GPT-5.6 SOL is HERE</span><span class="video-date">2026-07-09</span></a>
+<a class="video-card" href="summaries/matthew-berman/mD1F5DsC5tc"><img loading="lazy" src="https://i.ytimg.com/vi/mD1F5DsC5tc/hqdefault.jpg" alt=""><span class="video-title">GPT-5.6 is FINALLY HERE (WOAH)</span><span class="video-date">2026-07-09</span></a>
 </div>
 
 ## Nate Herk | AI Automation
@@ -70,4 +84,12 @@ Auto-generated summaries of subscribed channels. **36** videos summarized.
 <a class="video-card" href="summaries/openai/SvGLxXHYCd8"><img loading="lazy" src="https://i.ytimg.com/vi/SvGLxXHYCd8/hqdefault.jpg" alt=""><span class="video-title">How Deutsche Telekom is rewiring telecommunications with AI</span><span class="video-date">2026-07-10</span></a>
 <a class="video-card" href="summaries/openai/xYVfknDQHU4"><img loading="lazy" src="https://i.ytimg.com/vi/xYVfknDQHU4/hqdefault.jpg" alt=""><span class="video-title">ChatGPT Work | How NVIDIA Scales GTM with AI</span><span class="video-date">2026-07-09</span></a>
 <a class="video-card" href="summaries/openai/sqXsMDOxP0Y"><img loading="lazy" src="https://i.ytimg.com/vi/sqXsMDOxP0Y/hqdefault.jpg" alt=""><span class="video-title">ChatGPT Work | Zapier: Seven Figures in Monthly Pipeline</span><span class="video-date">2026-07-09</span></a>
+<a class="video-card" href="summaries/openai/GphgJjaKKhw"><img loading="lazy" src="https://i.ytimg.com/vi/GphgJjaKKhw/hqdefault.jpg" alt=""><span class="video-title">Get started with ChatGPT Work</span><span class="video-date">2026-07-09</span></a>
+<a class="video-card" href="summaries/openai/5X5CALvYvp0"><img loading="lazy" src="https://i.ytimg.com/vi/5X5CALvYvp0/hqdefault.jpg" alt=""><span class="video-title">Meet a mathematician solving previously unsolvable math problems with GPT-5.6</span><span class="video-date">2026-07-09</span></a>
+</div>
+
+## The Pragmatic Engineer
+
+<div class="video-grid">
+<a class="video-card" href="summaries/the-pragmatic-engineer/cSIMVYjVF28"><img loading="lazy" src="https://i.ytimg.com/vi/cSIMVYjVF28/hqdefault.jpg" alt=""><span class="video-title">The Pragmatic Engineer AMA</span><span class="video-date">2026-07-08</span></a>
 </div>

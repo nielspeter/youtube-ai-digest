@@ -712,33 +712,31 @@
       "generated": "2026-07-12T21:43:21+00:00"
     },
     "SvGLxXHYCd8": {
-      "video_id": "SvGLxXHYCd8",
+      "status": "done",
       "title": "How Deutsche Telekom is rewiring telecommunications with AI",
       "channel": "OpenAI",
+      "channel_slug": "openai",
       "published": "2026-07-10T09:19:42+00:00",
       "url": "https://www.youtube.com/watch?v=SvGLxXHYCd8",
-      "channel_slug": "openai",
-      "status": "no_transcript",
-      "attempts": 1
+      "generated": "2026-07-13T06:22:55+00:00"
     },
     "xYVfknDQHU4": {
-      "video_id": "xYVfknDQHU4",
+      "status": "done",
       "title": "ChatGPT Work | How NVIDIA Scales GTM with AI",
       "channel": "OpenAI",
+      "channel_slug": "openai",
       "published": "2026-07-09T22:30:40+00:00",
       "url": "https://www.youtube.com/watch?v=xYVfknDQHU4",
-      "channel_slug": "openai",
-      "status": "no_transcript",
-      "attempts": 1
+      "generated": "2026-07-13T06:28:31+00:00"
     },
     "sqXsMDOxP0Y": {
-      "video_id": "sqXsMDOxP0Y",
+      "status": "done",
       "title": "ChatGPT Work | Zapier: Seven Figures in Monthly Pipeline",
       "channel": "OpenAI",
+      "channel_slug": "openai",
       "published": "2026-07-09T21:19:10+00:00",
       "url": "https://www.youtube.com/watch?v=sqXsMDOxP0Y",
-      "channel_slug": "openai",
-      "status": "pending"
+      "generated": "2026-07-13T06:32:29+00:00"
     },
     "GphgJjaKKhw": {
       "video_id": "GphgJjaKKhw",
@@ -747,7 +745,7 @@
       "published": "2026-07-09T21:00:03+00:00",
       "url": "https://www.youtube.com/watch?v=GphgJjaKKhw",
       "channel_slug": "openai",
-      "status": "pending"
+      "status": "blocked"
     },
     "5X5CALvYvp0": {
       "video_id": "5X5CALvYvp0",
@@ -939,14 +937,13 @@
       "generated": "2026-07-12T21:44:29+00:00"
     },
     "27QLmUQvL2A": {
-      "video_id": "27QLmUQvL2A",
+      "status": "done",
       "title": "OpenAI Sol Ultra Just BEAT Claude Fable",
       "channel": "Better Stack",
+      "channel_slug": "better-stack",
       "published": "2026-07-09T22:00:26+00:00",
       "url": "https://www.youtube.com/watch?v=27QLmUQvL2A",
-      "channel_slug": "better-stack",
-      "status": "no_transcript",
-      "attempts": 1
+      "generated": "2026-07-13T06:31:00+00:00"
     },
     "vRTliPb8fjg": {
       "video_id": "vRTliPb8fjg",
@@ -1048,24 +1045,22 @@
       "status": "pending"
     },
     "EthxaDswUFo": {
-      "video_id": "EthxaDswUFo",
+      "status": "done",
       "title": "I Tested GPT 5.6 Sol vs Fable 5. What You Need To Know.",
       "channel": "Nate Herk | AI Automation",
+      "channel_slug": "nate-herk-ai-automation",
       "published": "2026-07-10T01:30:15+00:00",
       "url": "https://www.youtube.com/watch?v=EthxaDswUFo",
-      "channel_slug": "nate-herk-ai-automation",
-      "status": "no_transcript",
-      "attempts": 1
+      "generated": "2026-07-13T06:27:02+00:00"
     },
     "J_jswzXhYJA": {
-      "video_id": "J_jswzXhYJA",
+      "status": "done",
       "title": "GPT 5.6 Sol Made This Entire Video",
       "channel": "Nate Herk | AI Automation",
+      "channel_slug": "nate-herk-ai-automation",
       "published": "2026-07-09T22:05:14+00:00",
       "url": "https://www.youtube.com/watch?v=J_jswzXhYJA",
-      "channel_slug": "nate-herk-ai-automation",
-      "status": "no_transcript",
-      "attempts": 1
+      "generated": "2026-07-13T06:29:01+00:00"
     },
     "R0qF17BVl9w": {
       "video_id": "R0qF17BVl9w",
@@ -1176,14 +1171,13 @@
       "generated": "2026-07-12T21:41:17+00:00"
     },
     "guhTp2Q8VX0": {
-      "video_id": "guhTp2Q8VX0",
+      "status": "done",
       "title": "Amit Kushwaha - Benchmarking the Agent Era: Measuring Performance Beyond the LLM - AI Native DevCon",
       "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
       "published": "2026-07-10T07:24:37+00:00",
       "url": "https://www.youtube.com/watch?v=guhTp2Q8VX0",
-      "channel_slug": "ai-native-dev",
-      "status": "no_transcript",
-      "attempts": 1
+      "generated": "2026-07-13T06:25:35+00:00"
     },
     "pyYKOLEnsZk": {
       "video_id": "pyYKOLEnsZk",
@@ -1231,32 +1225,31 @@
       "status": "pending"
     },
     "7JgIS42mz7U": {
-      "video_id": "7JgIS42mz7U",
+      "status": "done",
       "title": "The AI bugpocalypse is here. Now what? - Jack Cable, Corridor",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-12T22:00:09+00:00",
       "url": "https://www.youtube.com/watch?v=7JgIS42mz7U",
-      "channel_slug": "ai-engineer",
-      "status": "blocked"
+      "generated": "2026-07-13T06:21:56+00:00"
     },
     "8oyalrfwgjw": {
-      "video_id": "8oyalrfwgjw",
+      "status": "done",
       "title": "RLM: Recursive Language Models for Large Codebases - Shashi, Superagentic AI",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-12T23:00:06+00:00",
       "url": "https://www.youtube.com/watch?v=8oyalrfwgjw",
-      "channel_slug": "ai-engineer",
-      "status": "blocked"
+      "generated": "2026-07-13T06:20:24+00:00"
     },
     "ElaEGr2t9XQ": {
-      "video_id": "ElaEGr2t9XQ",
+      "status": "done",
       "title": "Event-Driven Architecture, Webhook Chaos, and the Rise of AI Agents | Better Stack Podcast Ep. 17",
       "channel": "Better Stack",
+      "channel_slug": "better-stack",
       "published": "2026-07-13T00:44:56+00:00",
       "url": "https://www.youtube.com/watch?v=ElaEGr2t9XQ",
-      "channel_slug": "better-stack",
-      "status": "no_transcript",
-      "attempts": 1
+      "generated": "2026-07-13T06:18:42+00:00"
     }
   }
 }

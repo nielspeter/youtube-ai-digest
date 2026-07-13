@@ -4,11 +4,13 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **26** videos summarized.
+Auto-generated summaries of subscribed channels. **36** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/8oyalrfwgjw"><img loading="lazy" src="https://i.ytimg.com/vi/8oyalrfwgjw/hqdefault.jpg" alt=""><span class="video-title">RLM: Recursive Language Models for Large Codebases - Shashi, Superagentic AI</span><span class="video-date">2026-07-12</span></a>
+<a class="video-card" href="summaries/ai-engineer/7JgIS42mz7U"><img loading="lazy" src="https://i.ytimg.com/vi/7JgIS42mz7U/hqdefault.jpg" alt=""><span class="video-title">The AI bugpocalypse is here. Now what? - Jack Cable, Corridor</span><span class="video-date">2026-07-12</span></a>
 <a class="video-card" href="summaries/ai-engineer/EUsPvBeIx70"><img loading="lazy" src="https://i.ytimg.com/vi/EUsPvBeIx70/hqdefault.jpg" alt=""><span class="video-title">Semantic Blindness: 500,000 Sensors Confused an LLM - Raahul Singh &amp; Vanč Levstik, Phaidra</span><span class="video-date">2026-07-12</span></a>
 <a class="video-card" href="summaries/ai-engineer/sum9DgexFRQ"><img loading="lazy" src="https://i.ytimg.com/vi/sum9DgexFRQ/hqdefault.jpg" alt=""><span class="video-title">The Agentic Web and the Bazaar Era of AI - Ramesh Raskar, MIT Media Lab</span><span class="video-date">2026-07-12</span></a>
 <a class="video-card" href="summaries/ai-engineer/UlFB6efYN5Q"><img loading="lazy" src="https://i.ytimg.com/vi/UlFB6efYN5Q/hqdefault.jpg" alt=""><span class="video-title">A Song of Types and Agents - Roberto Stagi, Ratel</span><span class="video-date">2026-07-12</span></a>
@@ -31,14 +33,17 @@ Auto-generated summaries of subscribed channels. **26** videos summarized.
 <div class="video-grid">
 <a class="video-card" href="summaries/ai-native-dev/BkJCF2yV53w"><img loading="lazy" src="https://i.ytimg.com/vi/BkJCF2yV53w/hqdefault.jpg" alt=""><span class="video-title">The Architecture of Claude Tag</span><span class="video-date">2026-07-11</span></a>
 <a class="video-card" href="summaries/ai-native-dev/xHxfeWtkXrM"><img loading="lazy" src="https://i.ytimg.com/vi/xHxfeWtkXrM/hqdefault.jpg" alt=""><span class="video-title">Justin Cormack - When Tests Lie: Using Observability to Keep AI Honest - AI Native DevCon June 2026</span><span class="video-date">2026-07-11</span></a>
+<a class="video-card" href="summaries/ai-native-dev/guhTp2Q8VX0"><img loading="lazy" src="https://i.ytimg.com/vi/guhTp2Q8VX0/hqdefault.jpg" alt=""><span class="video-title">Amit Kushwaha - Benchmarking the Agent Era: Measuring Performance Beyond the LLM - AI Native DevCon</span><span class="video-date">2026-07-10</span></a>
 <a class="video-card" href="summaries/ai-native-dev/tFffUnSq7VA"><img loading="lazy" src="https://i.ytimg.com/vi/tFffUnSq7VA/hqdefault.jpg" alt=""><span class="video-title">Birgitta Böckeler - State of Play: AI Coding Assistants - AI Native DevCon June 2026</span><span class="video-date">2026-06-24</span></a>
 </div>
 
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/ElaEGr2t9XQ"><img loading="lazy" src="https://i.ytimg.com/vi/ElaEGr2t9XQ/hqdefault.jpg" alt=""><span class="video-title">Event-Driven Architecture, Webhook Chaos, and the Rise of AI Agents | Better Stack Podcast Ep. 17</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/better-stack/4Lmqvn_yz-c"><img loading="lazy" src="https://i.ytimg.com/vi/4Lmqvn_yz-c/hqdefault.jpg" alt=""><span class="video-title">Postgres Just Got It&#x27;s Biggest Upgrade In Years</span><span class="video-date">2026-07-10</span></a>
 <a class="video-card" href="summaries/better-stack/mIL4sZa8M0E"><img loading="lazy" src="https://i.ytimg.com/vi/mIL4sZa8M0E/hqdefault.jpg" alt=""><span class="video-title">Open-Source Dictation Is Here… Goodbye Subscriptions</span><span class="video-date">2026-07-10</span></a>
+<a class="video-card" href="summaries/better-stack/27QLmUQvL2A"><img loading="lazy" src="https://i.ytimg.com/vi/27QLmUQvL2A/hqdefault.jpg" alt=""><span class="video-title">OpenAI Sol Ultra Just BEAT Claude Fable</span><span class="video-date">2026-07-09</span></a>
 </div>
 
 ## Cole Medin
@@ -52,6 +57,8 @@ Auto-generated summaries of subscribed channels. **26** videos summarized.
 
 <div class="video-grid">
 <a class="video-card" href="summaries/nate-herk-ai-automation/zyvdl__Ywfk"><img loading="lazy" src="https://i.ytimg.com/vi/zyvdl__Ywfk/hqdefault.jpg" alt=""><span class="video-title">Claude Code + Clay Makes Lead Generation Actually Fun</span><span class="video-date">2026-07-12</span></a>
+<a class="video-card" href="summaries/nate-herk-ai-automation/EthxaDswUFo"><img loading="lazy" src="https://i.ytimg.com/vi/EthxaDswUFo/hqdefault.jpg" alt=""><span class="video-title">I Tested GPT 5.6 Sol vs Fable 5. What You Need To Know.</span><span class="video-date">2026-07-10</span></a>
+<a class="video-card" href="summaries/nate-herk-ai-automation/J_jswzXhYJA"><img loading="lazy" src="https://i.ytimg.com/vi/J_jswzXhYJA/hqdefault.jpg" alt=""><span class="video-title">GPT 5.6 Sol Made This Entire Video</span><span class="video-date">2026-07-09</span></a>
 </div>
 
 ## OpenAI
@@ -60,4 +67,7 @@ Auto-generated summaries of subscribed channels. **26** videos summarized.
 <a class="video-card" href="summaries/openai/yATno77Uo6A"><img loading="lazy" src="https://i.ytimg.com/vi/yATno77Uo6A/hqdefault.jpg" alt=""><span class="video-title">Stampli scales product marketing with ChatGPT Work</span><span class="video-date">2026-07-10</span></a>
 <a class="video-card" href="summaries/openai/IYYTI73J7Rg"><img loading="lazy" src="https://i.ytimg.com/vi/IYYTI73J7Rg/hqdefault.jpg" alt=""><span class="video-title">ChatGPT Computer Use: Now faster with Live Picture-in-Picture</span><span class="video-date">2026-07-10</span></a>
 <a class="video-card" href="summaries/openai/nep5byxmr_M"><img loading="lazy" src="https://i.ytimg.com/vi/nep5byxmr_M/hqdefault.jpg" alt=""><span class="video-title">RingCentral Scales Customer Programs with ChatGPT Work</span><span class="video-date">2026-07-10</span></a>
+<a class="video-card" href="summaries/openai/SvGLxXHYCd8"><img loading="lazy" src="https://i.ytimg.com/vi/SvGLxXHYCd8/hqdefault.jpg" alt=""><span class="video-title">How Deutsche Telekom is rewiring telecommunications with AI</span><span class="video-date">2026-07-10</span></a>
+<a class="video-card" href="summaries/openai/xYVfknDQHU4"><img loading="lazy" src="https://i.ytimg.com/vi/xYVfknDQHU4/hqdefault.jpg" alt=""><span class="video-title">ChatGPT Work | How NVIDIA Scales GTM with AI</span><span class="video-date">2026-07-09</span></a>
+<a class="video-card" href="summaries/openai/sqXsMDOxP0Y"><img loading="lazy" src="https://i.ytimg.com/vi/sqXsMDOxP0Y/hqdefault.jpg" alt=""><span class="video-title">ChatGPT Work | Zapier: Seven Figures in Monthly Pipeline</span><span class="video-date">2026-07-09</span></a>
 </div>

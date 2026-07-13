@@ -62,6 +62,9 @@ jobs:
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
           MAX_VIDEOS_PER_RUN: ${{ vars.MAX_VIDEOS_PER_RUN }}
+          # Optional residential proxy for YouTube only (bypasses the bot-check).
+          # e.g. http://user:pass@gate.decodo.com:7000 — LLM traffic stays direct.
+          YT_PROXY: ${{ secrets.YT_PROXY }}
         run: |
           if [ "${{ inputs.seed }}" = "true" ]; then
             uv run scripts/digest.py --seed

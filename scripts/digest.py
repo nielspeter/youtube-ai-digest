@@ -105,12 +105,20 @@ def retry_after_seconds(text: str, attempt: int) -> int:
     return min(30 * (2 ** attempt), RATE_LIMIT_MAX_WAIT)
 
 
+def yt_proxies() -> dict | None:
+    """Route only YouTube traffic through a proxy (residential, to dodge the
+    bot-check). The LLM call deliberately does NOT use this. Set YT_PROXY to
+    e.g. http://user:pass@gate.decodo.com:7000 (Decodo/IPRoyal/any provider)."""
+    p = os.environ.get("YT_PROXY")
+    return {"http": p, "https": p} if p else None
+
+
 def http_request(method: str, url: str, **kwargs):
     """requests wrapper that reads the Retry-After header on 429 and waits."""
     resp = None
     for attempt in range(6):
         resp = requests.request(method, url, headers={"User-Agent": UA},
-                                timeout=20, **kwargs)
+                                timeout=20, proxies=yt_proxies(), **kwargs)
         if resp.status_code != 429:
             return resp
         wait = int(resp.headers.get("Retry-After") or min(30 * (attempt + 1), 120))
@@ -292,6 +300,8 @@ def fetch_transcript(video_id: str) -> str | None:
                 cmd += ["--cookies", cookies]
             elif cookies_from_browser:
                 cmd += ["--cookies-from-browser", cookies_from_browser]
+            if env("YT_PROXY"):
+                cmd += ["--proxy", env("YT_PROXY")]
             try:
                 subprocess.run(cmd, check=True, capture_output=True, text=True, timeout=600)
             except subprocess.CalledProcessError as exc:

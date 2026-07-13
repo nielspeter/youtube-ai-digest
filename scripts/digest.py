@@ -318,8 +318,9 @@ def fetch_transcript(video_id: str) -> str | None:
                 "--write-subs", "--write-auto-subs",
                 "--sub-langs", "en.*,en,en-US,en-GB",
                 "--sub-format", "vtt",
-                "--retries", "3", "--retry-sleep", "3",
-                "--extractor-retries", "2",
+                # Fail fast: retrying on the SAME proxy IP is pointless (still 429s).
+                # Our outer loop switches to a fresh IP instead — far quicker.
+                "--retries", "1", "--extractor-retries", "1",
                 "--socket-timeout", "30",       # don't hang on a dead proxy connection
                 "-o", f"{tmp}/%(id)s.%(ext)s",
                 WATCH_URL.format(vid=video_id),

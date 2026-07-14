@@ -1724,6 +1724,55 @@
       "url": "https://www.youtube.com/watch?v=d_rZY6RsW8Y",
       "channel_slug": "the-pragmatic-engineer",
       "status": "short"
+    },
+    "8zH_O74hZBw": {
+      "status": "done",
+      "title": "Build and publish web apps directly in ChatGPT",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-14T19:19:36+00:00",
+      "url": "https://www.youtube.com/watch?v=8zH_O74hZBw",
+      "generated": "2026-07-14T19:40:53+00:00"
+    },
+    "0vphxNt4wyk": {
+      "video_id": "0vphxNt4wyk",
+      "title": "Don't Ship Skills Without Evals — Philipp Schmid, Google DeepMind",
+      "channel": "AI Engineer",
+      "published": "2026-07-14T01:13:32+00:00",
+      "url": "https://www.youtube.com/watch?v=0vphxNt4wyk",
+      "channel_slug": "ai-engineer",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "APqXGyCoGW4": {
+      "video_id": "APqXGyCoGW4",
+      "title": "Forward Deployed Engineering at Cursor — Pauline Brunet",
+      "channel": "AI Engineer",
+      "published": "2026-07-14T00:55:53+00:00",
+      "url": "https://www.youtube.com/watch?v=APqXGyCoGW4",
+      "channel_slug": "ai-engineer",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "8G_1-3IO4ZQ": {
+      "video_id": "8G_1-3IO4ZQ",
+      "title": "WTF Is the Context Layer? The Missing Infrastructure for Production Agents — Prukalpa Sankar",
+      "channel": "AI Engineer",
+      "published": "2026-07-14T00:54:03+00:00",
+      "url": "https://www.youtube.com/watch?v=8G_1-3IO4ZQ",
+      "channel_slug": "ai-engineer",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "c35YoMdnI78": {
+      "video_id": "c35YoMdnI78",
+      "title": "The Great Loops Debate — Dex Horthy, Geoff Huntley, Ian Livingstone, Greg Pstrucha, @insecure-agents",
+      "channel": "AI Engineer",
+      "published": "2026-07-13T20:36:45+00:00",
+      "url": "https://www.youtube.com/watch?v=c35YoMdnI78",
+      "channel_slug": "ai-engineer",
+      "status": "no_transcript",
+      "attempts": 1
     }
   }
 }

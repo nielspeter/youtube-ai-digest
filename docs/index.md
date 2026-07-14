@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **102** videos summarized.
+Auto-generated summaries of subscribed channels. **103** videos summarized.
 
 ## AI Engineer
 
@@ -132,6 +132,7 @@ Auto-generated summaries of subscribed channels. **102** videos summarized.
 ## OpenAI
 
 <div class="video-grid">
+<a class="video-card" href="summaries/openai/8zH_O74hZBw"><img loading="lazy" src="https://i.ytimg.com/vi/8zH_O74hZBw/hqdefault.jpg" alt=""><span class="video-title">Build and publish web apps directly in ChatGPT</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/openai/-J5KoSMfPLk"><img loading="lazy" src="https://i.ytimg.com/vi/-J5KoSMfPLk/hqdefault.jpg" alt=""><span class="video-title">Learning with AI at Any Stage of Life | Fast Campus x OpenAI</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/openai/q571PxpsdoA"><img loading="lazy" src="https://i.ytimg.com/vi/q571PxpsdoA/hqdefault.jpg" alt=""><span class="video-title">Meet the family running a cereal business from their dining room with GPT-5.6</span><span class="video-date">2026-07-11</span></a>
 <a class="video-card" href="summaries/openai/yATno77Uo6A"><img loading="lazy" src="https://i.ytimg.com/vi/yATno77Uo6A/hqdefault.jpg" alt=""><span class="video-title">Stampli scales product marketing with ChatGPT Work</span><span class="video-date">2026-07-10</span></a>

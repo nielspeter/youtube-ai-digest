@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **99** videos summarized.
+Auto-generated summaries of subscribed channels. **100** videos summarized.
 
 ## AI Engineer
 
@@ -68,6 +68,7 @@ Auto-generated summaries of subscribed channels. **99** videos summarized.
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/i66Bsnv12ZA"><img loading="lazy" src="https://i.ytimg.com/vi/i66Bsnv12ZA/hqdefault.jpg" alt=""><span class="video-title">Git Can’t Handle Games… So Epic Built Lore</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/better-stack/WZoC1HA1vec"><img loading="lazy" src="https://i.ytimg.com/vi/WZoC1HA1vec/hqdefault.jpg" alt=""><span class="video-title">This Free Go Alternative to Firebase is Just One File</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/better-stack/dKbV8MEzVPA"><img loading="lazy" src="https://i.ytimg.com/vi/dKbV8MEzVPA/hqdefault.jpg" alt=""><span class="video-title">DuckDB is becoming unstoppable...</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/better-stack/0TSxrzBVEwQ"><img loading="lazy" src="https://i.ytimg.com/vi/0TSxrzBVEwQ/hqdefault.jpg" alt=""><span class="video-title">The Zig Creator is NOT Happy About This... (Bun to Rust)</span><span class="video-date">2026-07-13</span></a>

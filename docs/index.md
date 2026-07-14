@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **95** videos summarized.
+Auto-generated summaries of subscribed channels. **97** videos summarized.
 
 ## AI Engineer
 
@@ -67,6 +67,7 @@ Auto-generated summaries of subscribed channels. **95** videos summarized.
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/WZoC1HA1vec"><img loading="lazy" src="https://i.ytimg.com/vi/WZoC1HA1vec/hqdefault.jpg" alt=""><span class="video-title">This Free Go Alternative to Firebase is Just One File</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/better-stack/dKbV8MEzVPA"><img loading="lazy" src="https://i.ytimg.com/vi/dKbV8MEzVPA/hqdefault.jpg" alt=""><span class="video-title">DuckDB is becoming unstoppable...</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/better-stack/0TSxrzBVEwQ"><img loading="lazy" src="https://i.ytimg.com/vi/0TSxrzBVEwQ/hqdefault.jpg" alt=""><span class="video-title">The Zig Creator is NOT Happy About This... (Bun to Rust)</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/better-stack/ElaEGr2t9XQ"><img loading="lazy" src="https://i.ytimg.com/vi/ElaEGr2t9XQ/hqdefault.jpg" alt=""><span class="video-title">Event-Driven Architecture, Webhook Chaos, and the Rise of AI Agents | Better Stack Podcast Ep. 17</span><span class="video-date">2026-07-13</span></a>
@@ -126,6 +127,7 @@ Auto-generated summaries of subscribed channels. **95** videos summarized.
 ## OpenAI
 
 <div class="video-grid">
+<a class="video-card" href="summaries/openai/-J5KoSMfPLk"><img loading="lazy" src="https://i.ytimg.com/vi/-J5KoSMfPLk/hqdefault.jpg" alt=""><span class="video-title">Learning with AI at Any Stage of Life | Fast Campus x OpenAI</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/openai/q571PxpsdoA"><img loading="lazy" src="https://i.ytimg.com/vi/q571PxpsdoA/hqdefault.jpg" alt=""><span class="video-title">Meet the family running a cereal business from their dining room with GPT-5.6</span><span class="video-date">2026-07-11</span></a>
 <a class="video-card" href="summaries/openai/yATno77Uo6A"><img loading="lazy" src="https://i.ytimg.com/vi/yATno77Uo6A/hqdefault.jpg" alt=""><span class="video-title">Stampli scales product marketing with ChatGPT Work</span><span class="video-date">2026-07-10</span></a>
 <a class="video-card" href="summaries/openai/IYYTI73J7Rg"><img loading="lazy" src="https://i.ytimg.com/vi/IYYTI73J7Rg/hqdefault.jpg" alt=""><span class="video-title">ChatGPT Computer Use: Now faster with Live Picture-in-Picture</span><span class="video-date">2026-07-10</span></a>

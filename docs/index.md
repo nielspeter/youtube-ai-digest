@@ -4,11 +4,12 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **100** videos summarized.
+Auto-generated summaries of subscribed channels. **102** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/n97BCfyFIvw"><img loading="lazy" src="https://i.ytimg.com/vi/n97BCfyFIvw/hqdefault.jpg" alt=""><span class="video-title">Don&#x27;t Build Agents You Can&#x27;t Answer For — Addy Osmani</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/ai-engineer/-CnA2lGfymY"><img loading="lazy" src="https://i.ytimg.com/vi/-CnA2lGfymY/hqdefault.jpg" alt=""><span class="video-title">In Code They Act, In Proof We Trust — Erik Meijer, Leibniz Labs</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/ai-engineer/O3FEoMYvUf8"><img loading="lazy" src="https://i.ytimg.com/vi/O3FEoMYvUf8/hqdefault.jpg" alt=""><span class="video-title">Stop Evaluating Models Like It&#x27;s the 50s - Alejandro Vidal, Mindmakers</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/ai-engineer/OqM67QG_Ikk"><img loading="lazy" src="https://i.ytimg.com/vi/OqM67QG_Ikk/hqdefault.jpg" alt=""><span class="video-title">From fork() to Fleet: Designing an Agent Sandbox Cloud — Abhishek Bhardwaj, OpenAI</span><span class="video-date">2026-07-13</span></a>
@@ -102,6 +103,7 @@ Auto-generated summaries of subscribed channels. **100** videos summarized.
 ## Matthew Berman
 
 <div class="video-grid">
+<a class="video-card" href="summaries/matthew-berman/etduwo9Lu3M"><img loading="lazy" src="https://i.ytimg.com/vi/etduwo9Lu3M/hqdefault.jpg" alt=""><span class="video-title">You aren&#x27;t using Codex like me...</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/matthew-berman/roGmNXASYOM"><img loading="lazy" src="https://i.ytimg.com/vi/roGmNXASYOM/hqdefault.jpg" alt=""><span class="video-title">GPT-5.6 SOL is HERE</span><span class="video-date">2026-07-09</span></a>
 <a class="video-card" href="summaries/matthew-berman/mD1F5DsC5tc"><img loading="lazy" src="https://i.ytimg.com/vi/mD1F5DsC5tc/hqdefault.jpg" alt=""><span class="video-title">GPT-5.6 is FINALLY HERE (WOAH)</span><span class="video-date">2026-07-09</span></a>
 <a class="video-card" href="summaries/matthew-berman/bjHuGNo3spk"><img loading="lazy" src="https://i.ytimg.com/vi/bjHuGNo3spk/hqdefault.jpg" alt=""><span class="video-title">We just figured out how AI actually works (J-Space)</span><span class="video-date">2026-07-08</span></a>

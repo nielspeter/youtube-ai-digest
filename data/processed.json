@@ -1697,6 +1697,33 @@
       "published": "2026-07-14T14:00:37+00:00",
       "url": "https://www.youtube.com/watch?v=i66Bsnv12ZA",
       "generated": "2026-07-14T15:42:29+00:00"
+    },
+    "n97BCfyFIvw": {
+      "status": "done",
+      "title": "Don't Build Agents You Can't Answer For — Addy Osmani",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-14T17:16:43+00:00",
+      "url": "https://www.youtube.com/watch?v=n97BCfyFIvw",
+      "generated": "2026-07-14T17:33:00+00:00"
+    },
+    "etduwo9Lu3M": {
+      "status": "done",
+      "title": "You aren't using Codex like me...",
+      "channel": "Matthew Berman",
+      "channel_slug": "matthew-berman",
+      "published": "2026-07-14T16:15:00+00:00",
+      "url": "https://www.youtube.com/watch?v=etduwo9Lu3M",
+      "generated": "2026-07-14T17:34:20+00:00"
+    },
+    "d_rZY6RsW8Y": {
+      "video_id": "d_rZY6RsW8Y",
+      "title": "The future of The Pragmatic Engineer",
+      "channel": "The Pragmatic Engineer",
+      "published": "2026-07-14T16:00:31+00:00",
+      "url": "https://www.youtube.com/watch?v=d_rZY6RsW8Y",
+      "channel_slug": "the-pragmatic-engineer",
+      "status": "short"
     }
   }
 }

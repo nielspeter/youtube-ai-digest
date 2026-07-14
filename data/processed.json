@@ -1742,7 +1742,7 @@
       "url": "https://www.youtube.com/watch?v=0vphxNt4wyk",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 1
+      "attempts": 2
     },
     "APqXGyCoGW4": {
       "video_id": "APqXGyCoGW4",
@@ -1752,7 +1752,7 @@
       "url": "https://www.youtube.com/watch?v=APqXGyCoGW4",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 1
+      "attempts": 2
     },
     "8G_1-3IO4ZQ": {
       "video_id": "8G_1-3IO4ZQ",
@@ -1762,7 +1762,7 @@
       "url": "https://www.youtube.com/watch?v=8G_1-3IO4ZQ",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 1
+      "attempts": 2
     },
     "c35YoMdnI78": {
       "video_id": "c35YoMdnI78",
@@ -1772,7 +1772,25 @@
       "url": "https://www.youtube.com/watch?v=c35YoMdnI78",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 1
+      "attempts": 2
+    },
+    "avpZWh6sm9M": {
+      "status": "done",
+      "title": "Improved Intelligence with GPT-Live",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-14T20:22:11+00:00",
+      "url": "https://www.youtube.com/watch?v=avpZWh6sm9M",
+      "generated": "2026-07-14T21:12:00+00:00"
+    },
+    "NXQkCGKFfQI": {
+      "video_id": "NXQkCGKFfQI",
+      "title": "Windows Finally Has Real UNIX Commands #windows #microsoft #linux",
+      "channel": "Better Stack",
+      "published": "2026-07-14T20:10:11+00:00",
+      "url": "https://www.youtube.com/watch?v=NXQkCGKFfQI",
+      "channel_slug": "better-stack",
+      "status": "short"
     }
   }
 }

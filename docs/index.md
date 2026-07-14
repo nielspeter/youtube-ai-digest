@@ -4,12 +4,13 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **94** videos summarized.
+Auto-generated summaries of subscribed channels. **95** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
 <a class="video-card" href="summaries/ai-engineer/-CnA2lGfymY"><img loading="lazy" src="https://i.ytimg.com/vi/-CnA2lGfymY/hqdefault.jpg" alt=""><span class="video-title">In Code They Act, In Proof We Trust — Erik Meijer, Leibniz Labs</span><span class="video-date">2026-07-13</span></a>
+<a class="video-card" href="summaries/ai-engineer/O3FEoMYvUf8"><img loading="lazy" src="https://i.ytimg.com/vi/O3FEoMYvUf8/hqdefault.jpg" alt=""><span class="video-title">Stop Evaluating Models Like It&#x27;s the 50s - Alejandro Vidal, Mindmakers</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/ai-engineer/OqM67QG_Ikk"><img loading="lazy" src="https://i.ytimg.com/vi/OqM67QG_Ikk/hqdefault.jpg" alt=""><span class="video-title">From fork() to Fleet: Designing an Agent Sandbox Cloud — Abhishek Bhardwaj, OpenAI</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/ai-engineer/V-EDrhIhHzQ"><img loading="lazy" src="https://i.ytimg.com/vi/V-EDrhIhHzQ/hqdefault.jpg" alt=""><span class="video-title">The Prime Intellect Stack — Will Brown, Prime Intellect</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/ai-engineer/8oyalrfwgjw"><img loading="lazy" src="https://i.ytimg.com/vi/8oyalrfwgjw/hqdefault.jpg" alt=""><span class="video-title">RLM: Recursive Language Models for Large Codebases - Shashi, Superagentic AI</span><span class="video-date">2026-07-12</span></a>

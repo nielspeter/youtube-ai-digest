@@ -1634,6 +1634,34 @@
       "published": "2026-07-13T18:00:07+00:00",
       "url": "https://www.youtube.com/watch?v=dKbV8MEzVPA",
       "generated": "2026-07-13T19:45:32+00:00"
+    },
+    "-J5KoSMfPLk": {
+      "video_id": "-J5KoSMfPLk",
+      "title": "Learning with AI at Any Stage of Life | Fast Campus x OpenAI",
+      "channel": "OpenAI",
+      "published": "2026-07-13T23:07:18+00:00",
+      "url": "https://www.youtube.com/watch?v=-J5KoSMfPLk",
+      "channel_slug": "openai",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "O3FEoMYvUf8": {
+      "status": "done",
+      "title": "Stop Evaluating Models Like It's the 50s - Alejandro Vidal, Mindmakers",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-13T17:56:55+00:00",
+      "url": "https://www.youtube.com/watch?v=O3FEoMYvUf8",
+      "generated": "2026-07-14T10:10:18+00:00"
+    },
+    "WZoC1HA1vec": {
+      "video_id": "WZoC1HA1vec",
+      "title": "This Free Go Alternative to Firebase is Just One File",
+      "channel": "Better Stack",
+      "published": "2026-07-14T07:00:00+00:00",
+      "url": "https://www.youtube.com/watch?v=WZoC1HA1vec",
+      "channel_slug": "better-stack",
+      "status": "blocked"
     }
   }
 }

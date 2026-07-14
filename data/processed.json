@@ -1661,6 +1661,33 @@
       "published": "2026-07-14T07:00:00+00:00",
       "url": "https://www.youtube.com/watch?v=WZoC1HA1vec",
       "generated": "2026-07-14T11:42:49+00:00"
+    },
+    "eFOTQpbGcy8": {
+      "status": "done",
+      "title": "The $200K AI Job That Didn't Exist Last Year",
+      "channel": "Nate Herk | AI Automation",
+      "channel_slug": "nate-herk-ai-automation",
+      "published": "2026-07-14T12:19:51+00:00",
+      "url": "https://www.youtube.com/watch?v=eFOTQpbGcy8",
+      "generated": "2026-07-14T14:09:22+00:00"
+    },
+    "TnaQQDI_Tf4": {
+      "video_id": "TnaQQDI_Tf4",
+      "title": "Patrick Debois Maps the Patterns of AI-Native Dev",
+      "channel": "AI Native Dev",
+      "published": "2026-07-14T12:30:01+00:00",
+      "url": "https://www.youtube.com/watch?v=TnaQQDI_Tf4",
+      "channel_slug": "ai-native-dev",
+      "status": "short"
+    },
+    "UvhmYntrLMI": {
+      "status": "done",
+      "title": "Patrick Debois Maps the Patterns of AI-Native Dev",
+      "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
+      "published": "2026-07-14T12:00:09+00:00",
+      "url": "https://www.youtube.com/watch?v=UvhmYntrLMI",
+      "generated": "2026-07-14T14:11:18+00:00"
     }
   }
 }

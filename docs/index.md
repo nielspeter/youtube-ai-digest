@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **97** videos summarized.
+Auto-generated summaries of subscribed channels. **99** videos summarized.
 
 ## AI Engineer
 
@@ -35,6 +35,7 @@ Auto-generated summaries of subscribed channels. **97** videos summarized.
 ## AI Native Dev
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-native-dev/UvhmYntrLMI"><img loading="lazy" src="https://i.ytimg.com/vi/UvhmYntrLMI/hqdefault.jpg" alt=""><span class="video-title">Patrick Debois Maps the Patterns of AI-Native Dev</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/ai-native-dev/b6dKwe00GpQ"><img loading="lazy" src="https://i.ytimg.com/vi/b6dKwe00GpQ/hqdefault.jpg" alt=""><span class="video-title">The DevOps Godfather on AI&#x27;s &quot;Dark Factory&quot; Problem</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/ai-native-dev/gc5_ICZg9tg"><img loading="lazy" src="https://i.ytimg.com/vi/gc5_ICZg9tg/hqdefault.jpg" alt=""><span class="video-title">Joseph Katsioloudes - Code Security Reinvented: Navigating the era of AI - AI Native DevCon June 26</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/ai-native-dev/5SKh-FmjX7U"><img loading="lazy" src="https://i.ytimg.com/vi/5SKh-FmjX7U/hqdefault.jpg" alt=""><span class="video-title">Katie Roberts - Stop Maintaining, Start Evolving: Applying AI-Native Practices to Brownfield Codebas</span><span class="video-date">2026-07-13</span></a>
@@ -111,6 +112,7 @@ Auto-generated summaries of subscribed channels. **97** videos summarized.
 ## Nate Herk | AI Automation
 
 <div class="video-grid">
+<a class="video-card" href="summaries/nate-herk-ai-automation/eFOTQpbGcy8"><img loading="lazy" src="https://i.ytimg.com/vi/eFOTQpbGcy8/hqdefault.jpg" alt=""><span class="video-title">The $200K AI Job That Didn&#x27;t Exist Last Year</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/nate-herk-ai-automation/zyvdl__Ywfk"><img loading="lazy" src="https://i.ytimg.com/vi/zyvdl__Ywfk/hqdefault.jpg" alt=""><span class="video-title">Claude Code + Clay Makes Lead Generation Actually Fun</span><span class="video-date">2026-07-12</span></a>
 <a class="video-card" href="summaries/nate-herk-ai-automation/EthxaDswUFo"><img loading="lazy" src="https://i.ytimg.com/vi/EthxaDswUFo/hqdefault.jpg" alt=""><span class="video-title">I Tested GPT 5.6 Sol vs Fable 5. What You Need To Know.</span><span class="video-date">2026-07-10</span></a>
 <a class="video-card" href="summaries/nate-herk-ai-automation/J_jswzXhYJA"><img loading="lazy" src="https://i.ytimg.com/vi/J_jswzXhYJA/hqdefault.jpg" alt=""><span class="video-title">GPT 5.6 Sol Made This Entire Video</span><span class="video-date">2026-07-09</span></a>

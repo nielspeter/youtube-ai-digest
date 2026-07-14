@@ -1735,24 +1735,22 @@
       "generated": "2026-07-14T19:40:53+00:00"
     },
     "0vphxNt4wyk": {
-      "video_id": "0vphxNt4wyk",
+      "status": "done",
       "title": "Don't Ship Skills Without Evals — Philipp Schmid, Google DeepMind",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-14T01:13:32+00:00",
       "url": "https://www.youtube.com/watch?v=0vphxNt4wyk",
-      "channel_slug": "ai-engineer",
-      "status": "no_transcript",
-      "attempts": 2
+      "generated": "2026-07-14T23:09:06+00:00"
     },
     "APqXGyCoGW4": {
-      "video_id": "APqXGyCoGW4",
+      "status": "done",
       "title": "Forward Deployed Engineering at Cursor — Pauline Brunet",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-14T00:55:53+00:00",
       "url": "https://www.youtube.com/watch?v=APqXGyCoGW4",
-      "channel_slug": "ai-engineer",
-      "status": "no_transcript",
-      "attempts": 2
+      "generated": "2026-07-14T23:09:54+00:00"
     },
     "8G_1-3IO4ZQ": {
       "video_id": "8G_1-3IO4ZQ",
@@ -1761,8 +1759,8 @@
       "published": "2026-07-14T00:54:03+00:00",
       "url": "https://www.youtube.com/watch?v=8G_1-3IO4ZQ",
       "channel_slug": "ai-engineer",
-      "status": "no_transcript",
-      "attempts": 2
+      "attempts": 2,
+      "status": "blocked"
     },
     "c35YoMdnI78": {
       "video_id": "c35YoMdnI78",
@@ -1772,7 +1770,7 @@
       "url": "https://www.youtube.com/watch?v=c35YoMdnI78",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 2
+      "attempts": 3
     },
     "avpZWh6sm9M": {
       "status": "done",
@@ -1791,6 +1789,15 @@
       "url": "https://www.youtube.com/watch?v=NXQkCGKFfQI",
       "channel_slug": "better-stack",
       "status": "short"
+    },
+    "matzTxfrhJU": {
+      "video_id": "matzTxfrhJU",
+      "title": "Background Robustness with GPT-Live",
+      "channel": "OpenAI",
+      "published": "2026-07-14T22:35:03+00:00",
+      "url": "https://www.youtube.com/watch?v=matzTxfrhJU",
+      "channel_slug": "openai",
+      "status": "blocked"
     }
   }
 }

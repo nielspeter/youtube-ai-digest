@@ -1887,7 +1887,7 @@
       "url": "https://www.youtube.com/watch?v=Usufn8IQJgw",
       "channel_slug": "the-pragmatic-engineer",
       "status": "no_transcript",
-      "attempts": 2
+      "attempts": 3
     },
     "e-pFrQ_Rh0s": {
       "status": "done",
@@ -2025,31 +2025,50 @@
       "generated": "2026-07-15T18:51:59+00:00"
     },
     "6BB6exR8Zd8": {
-      "video_id": "6BB6exR8Zd8",
+      "status": "done",
       "title": "I stopped using /grill-me for coding. Here’s what I use instead:",
       "channel": "Matt Pocock",
+      "channel_slug": "matt-pocock",
       "published": "2026-05-14T14:22:56+00:00",
       "url": "https://www.youtube.com/watch?v=6BB6exR8Zd8",
-      "channel_slug": "matt-pocock",
-      "status": "pending"
+      "generated": "2026-07-15T19:35:00+00:00"
     },
     "lNOQaakmyDU": {
-      "video_id": "lNOQaakmyDU",
+      "status": "done",
       "title": "Anthropic's \"dedicated monthly credit\" is actually a huge cut",
       "channel": "Matt Pocock",
+      "channel_slug": "matt-pocock",
       "published": "2026-05-13T20:12:51+00:00",
       "url": "https://www.youtube.com/watch?v=lNOQaakmyDU",
-      "channel_slug": "matt-pocock",
-      "status": "pending"
+      "generated": "2026-07-15T19:36:02+00:00"
     },
     "DNqsMXH6Eog": {
-      "video_id": "DNqsMXH6Eog",
+      "status": "done",
       "title": "New Skills! /handoff, /prototype, /review and /writing-* | Skills Changelog",
       "channel": "Matt Pocock",
+      "channel_slug": "matt-pocock",
       "published": "2026-05-12T09:56:10+00:00",
       "url": "https://www.youtube.com/watch?v=DNqsMXH6Eog",
-      "channel_slug": "matt-pocock",
-      "status": "pending"
+      "generated": "2026-07-15T19:37:07+00:00"
+    },
+    "5HTqWgt6ctk": {
+      "video_id": "5HTqWgt6ctk",
+      "title": "AI NEWS LIVE",
+      "channel": "Matthew Berman",
+      "published": "2026-07-15T18:40:22+00:00",
+      "url": "https://www.youtube.com/watch?v=5HTqWgt6ctk",
+      "channel_slug": "matthew-berman",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "WMiylHobhBM": {
+      "status": "done",
+      "title": "AI NEWS LIVE",
+      "channel": "Matthew Berman",
+      "channel_slug": "matthew-berman",
+      "published": "2026-07-15T18:43:18+00:00",
+      "url": "https://www.youtube.com/watch?v=WMiylHobhBM",
+      "generated": "2026-07-15T19:34:06+00:00"
     }
   }
 }

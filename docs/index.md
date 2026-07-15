@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **122** videos summarized.
+Auto-generated summaries of subscribed channels. **126** videos summarized.
 
 ## AI Engineer
 
@@ -116,11 +116,15 @@ Auto-generated summaries of subscribed channels. **122** videos summarized.
 <a class="video-card" href="summaries/matt-pocock/mh5XZ-L5SFQ"><img loading="lazy" src="https://i.ytimg.com/vi/mh5XZ-L5SFQ/hqdefault.jpg" alt=""><span class="video-title">Can Cursor&#x27;s HARDCORE Review Skill Stop The Slop?</span><span class="video-date">2026-05-28</span></a>
 <a class="video-card" href="summaries/matt-pocock/UzMNBN6xLLA"><img loading="lazy" src="https://i.ytimg.com/vi/UzMNBN6xLLA/hqdefault.jpg" alt=""><span class="video-title">9 Things People Get Wrong With My /grill-* skills</span><span class="video-date">2026-05-25</span></a>
 <a class="video-card" href="summaries/matt-pocock/dtAJ2dOd3ko"><img loading="lazy" src="https://i.ytimg.com/vi/dtAJ2dOd3ko/hqdefault.jpg" alt=""><span class="video-title">/handoff is my new favourite skill</span><span class="video-date">2026-05-21</span></a>
+<a class="video-card" href="summaries/matt-pocock/6BB6exR8Zd8"><img loading="lazy" src="https://i.ytimg.com/vi/6BB6exR8Zd8/hqdefault.jpg" alt=""><span class="video-title">I stopped using /grill-me for coding. Here’s what I use instead:</span><span class="video-date">2026-05-14</span></a>
+<a class="video-card" href="summaries/matt-pocock/lNOQaakmyDU"><img loading="lazy" src="https://i.ytimg.com/vi/lNOQaakmyDU/hqdefault.jpg" alt=""><span class="video-title">Anthropic&#x27;s &quot;dedicated monthly credit&quot; is actually a huge cut</span><span class="video-date">2026-05-13</span></a>
+<a class="video-card" href="summaries/matt-pocock/DNqsMXH6Eog"><img loading="lazy" src="https://i.ytimg.com/vi/DNqsMXH6Eog/hqdefault.jpg" alt=""><span class="video-title">New Skills! /handoff, /prototype, /review and /writing-* | Skills Changelog</span><span class="video-date">2026-05-12</span></a>
 </div>
 
 ## Matthew Berman
 
 <div class="video-grid">
+<a class="video-card" href="summaries/matthew-berman/WMiylHobhBM"><img loading="lazy" src="https://i.ytimg.com/vi/WMiylHobhBM/hqdefault.jpg" alt=""><span class="video-title">AI NEWS LIVE</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/matthew-berman/nxr20lcqagg"><img loading="lazy" src="https://i.ytimg.com/vi/nxr20lcqagg/hqdefault.jpg" alt=""><span class="video-title">Fine, I&#x27;ll finally pick one</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/matthew-berman/etduwo9Lu3M"><img loading="lazy" src="https://i.ytimg.com/vi/etduwo9Lu3M/hqdefault.jpg" alt=""><span class="video-title">You aren&#x27;t using Codex like me...</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/matthew-berman/roGmNXASYOM"><img loading="lazy" src="https://i.ytimg.com/vi/roGmNXASYOM/hqdefault.jpg" alt=""><span class="video-title">GPT-5.6 SOL is HERE</span><span class="video-date">2026-07-09</span></a>

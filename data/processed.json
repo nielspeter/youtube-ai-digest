@@ -1887,7 +1887,7 @@
       "url": "https://www.youtube.com/watch?v=Usufn8IQJgw",
       "channel_slug": "the-pragmatic-engineer",
       "status": "no_transcript",
-      "attempts": 3
+      "attempts": 4
     },
     "e-pFrQ_Rh0s": {
       "status": "done",
@@ -2052,14 +2052,13 @@
       "generated": "2026-07-15T19:37:07+00:00"
     },
     "5HTqWgt6ctk": {
-      "video_id": "5HTqWgt6ctk",
+      "status": "done",
       "title": "AI NEWS LIVE",
       "channel": "Matthew Berman",
+      "channel_slug": "matthew-berman",
       "published": "2026-07-15T18:40:22+00:00",
       "url": "https://www.youtube.com/watch?v=5HTqWgt6ctk",
-      "channel_slug": "matthew-berman",
-      "status": "no_transcript",
-      "attempts": 1
+      "generated": "2026-07-15T21:14:43+00:00"
     },
     "WMiylHobhBM": {
       "status": "done",
@@ -2069,6 +2068,24 @@
       "published": "2026-07-15T18:43:18+00:00",
       "url": "https://www.youtube.com/watch?v=WMiylHobhBM",
       "generated": "2026-07-15T19:34:06+00:00"
+    },
+    "m8uUUUsMD3Y": {
+      "status": "done",
+      "title": "Introducing the Codex Micro",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-15T19:42:38+00:00",
+      "url": "https://www.youtube.com/watch?v=m8uUUUsMD3Y",
+      "generated": "2026-07-15T21:14:21+00:00"
+    },
+    "q4Tr-DknG2M": {
+      "status": "done",
+      "title": "Recursive Model Improvement — Lee Robinson, Cursor, SpaceXAI",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-15T20:13:51+00:00",
+      "url": "https://www.youtube.com/watch?v=q4Tr-DknG2M",
+      "generated": "2026-07-15T21:12:54+00:00"
     }
   }
 }

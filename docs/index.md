@@ -4,11 +4,12 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **126** videos summarized.
+Auto-generated summaries of subscribed channels. **129** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/q4Tr-DknG2M"><img loading="lazy" src="https://i.ytimg.com/vi/q4Tr-DknG2M/hqdefault.jpg" alt=""><span class="video-title">Recursive Model Improvement — Lee Robinson, Cursor, SpaceXAI</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/ai-engineer/uU5Gv2h8-9g"><img loading="lazy" src="https://i.ytimg.com/vi/uU5Gv2h8-9g/hqdefault.jpg" alt=""><span class="video-title">Simon Willison in conversation with Cat Wu &amp; Thariq Shihipar, Anthropic</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/ai-engineer/n97BCfyFIvw"><img loading="lazy" src="https://i.ytimg.com/vi/n97BCfyFIvw/hqdefault.jpg" alt=""><span class="video-title">Don&#x27;t Build Agents You Can&#x27;t Answer For — Addy Osmani</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/ai-engineer/0vphxNt4wyk"><img loading="lazy" src="https://i.ytimg.com/vi/0vphxNt4wyk/hqdefault.jpg" alt=""><span class="video-title">Don&#x27;t Ship Skills Without Evals — Philipp Schmid, Google DeepMind</span><span class="video-date">2026-07-14</span></a>
@@ -125,6 +126,7 @@ Auto-generated summaries of subscribed channels. **126** videos summarized.
 
 <div class="video-grid">
 <a class="video-card" href="summaries/matthew-berman/WMiylHobhBM"><img loading="lazy" src="https://i.ytimg.com/vi/WMiylHobhBM/hqdefault.jpg" alt=""><span class="video-title">AI NEWS LIVE</span><span class="video-date">2026-07-15</span></a>
+<a class="video-card" href="summaries/matthew-berman/5HTqWgt6ctk"><img loading="lazy" src="https://i.ytimg.com/vi/5HTqWgt6ctk/hqdefault.jpg" alt=""><span class="video-title">AI NEWS LIVE</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/matthew-berman/nxr20lcqagg"><img loading="lazy" src="https://i.ytimg.com/vi/nxr20lcqagg/hqdefault.jpg" alt=""><span class="video-title">Fine, I&#x27;ll finally pick one</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/matthew-berman/etduwo9Lu3M"><img loading="lazy" src="https://i.ytimg.com/vi/etduwo9Lu3M/hqdefault.jpg" alt=""><span class="video-title">You aren&#x27;t using Codex like me...</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/matthew-berman/roGmNXASYOM"><img loading="lazy" src="https://i.ytimg.com/vi/roGmNXASYOM/hqdefault.jpg" alt=""><span class="video-title">GPT-5.6 SOL is HERE</span><span class="video-date">2026-07-09</span></a>
@@ -155,6 +157,7 @@ Auto-generated summaries of subscribed channels. **126** videos summarized.
 ## OpenAI
 
 <div class="video-grid">
+<a class="video-card" href="summaries/openai/m8uUUUsMD3Y"><img loading="lazy" src="https://i.ytimg.com/vi/m8uUUUsMD3Y/hqdefault.jpg" alt=""><span class="video-title">Introducing the Codex Micro</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/openai/roUoucb7jbI"><img loading="lazy" src="https://i.ytimg.com/vi/roUoucb7jbI/hqdefault.jpg" alt=""><span class="video-title">Schedule tasks with ChatGPT</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/openai/eiQgljOrkWU"><img loading="lazy" src="https://i.ytimg.com/vi/eiQgljOrkWU/hqdefault.jpg" alt=""><span class="video-title">Codex just got better for developers</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/openai/matzTxfrhJU"><img loading="lazy" src="https://i.ytimg.com/vi/matzTxfrhJU/hqdefault.jpg" alt=""><span class="video-title">Background Robustness with GPT-Live</span><span class="video-date">2026-07-14</span></a>

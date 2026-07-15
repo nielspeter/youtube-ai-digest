@@ -1869,6 +1869,25 @@
       "url": "https://www.youtube.com/watch?v=eCPtxciYBbE",
       "channel_slug": "ai-native-dev",
       "status": "short"
+    },
+    "XLzWrfx36uE": {
+      "video_id": "XLzWrfx36uE",
+      "title": "Give Yourself a Red Card with Codex",
+      "channel": "OpenAI",
+      "published": "2026-07-15T17:10:14+00:00",
+      "url": "https://www.youtube.com/watch?v=XLzWrfx36uE",
+      "channel_slug": "openai",
+      "status": "short"
+    },
+    "Usufn8IQJgw": {
+      "video_id": "Usufn8IQJgw",
+      "title": "Context engineering with Dex Horthy",
+      "channel": "The Pragmatic Engineer",
+      "published": "2026-07-15T15:59:47+00:00",
+      "url": "https://www.youtube.com/watch?v=Usufn8IQJgw",
+      "channel_slug": "the-pragmatic-engineer",
+      "status": "no_transcript",
+      "attempts": 1
     }
   }
 }

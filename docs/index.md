@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **108** videos summarized.
+Auto-generated summaries of subscribed channels. **110** videos summarized.
 
 ## AI Engineer
 
@@ -39,6 +39,7 @@ Auto-generated summaries of subscribed channels. **108** videos summarized.
 ## AI Native Dev
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-native-dev/6VRKZQ3pmoU"><img loading="lazy" src="https://i.ytimg.com/vi/6VRKZQ3pmoU/hqdefault.jpg" alt=""><span class="video-title">James Moss - Using skills to pay the bills: graduating from solo hacks to a team workflow - DevCon26</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/ai-native-dev/UvhmYntrLMI"><img loading="lazy" src="https://i.ytimg.com/vi/UvhmYntrLMI/hqdefault.jpg" alt=""><span class="video-title">Patrick Debois Maps the Patterns of AI-Native Dev</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/ai-native-dev/b6dKwe00GpQ"><img loading="lazy" src="https://i.ytimg.com/vi/b6dKwe00GpQ/hqdefault.jpg" alt=""><span class="video-title">The DevOps Godfather on AI&#x27;s &quot;Dark Factory&quot; Problem</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/ai-native-dev/gc5_ICZg9tg"><img loading="lazy" src="https://i.ytimg.com/vi/gc5_ICZg9tg/hqdefault.jpg" alt=""><span class="video-title">Joseph Katsioloudes - Code Security Reinvented: Navigating the era of AI - AI Native DevCon June 26</span><span class="video-date">2026-07-13</span></a>
@@ -135,6 +136,7 @@ Auto-generated summaries of subscribed channels. **108** videos summarized.
 ## OpenAI
 
 <div class="video-grid">
+<a class="video-card" href="summaries/openai/eiQgljOrkWU"><img loading="lazy" src="https://i.ytimg.com/vi/eiQgljOrkWU/hqdefault.jpg" alt=""><span class="video-title">Codex just got better for developers</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/openai/matzTxfrhJU"><img loading="lazy" src="https://i.ytimg.com/vi/matzTxfrhJU/hqdefault.jpg" alt=""><span class="video-title">Background Robustness with GPT-Live</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/openai/avpZWh6sm9M"><img loading="lazy" src="https://i.ytimg.com/vi/avpZWh6sm9M/hqdefault.jpg" alt=""><span class="video-title">Improved Intelligence with GPT-Live</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/openai/8zH_O74hZBw"><img loading="lazy" src="https://i.ytimg.com/vi/8zH_O74hZBw/hqdefault.jpg" alt=""><span class="video-title">Build and publish web apps directly in ChatGPT</span><span class="video-date">2026-07-14</span></a>

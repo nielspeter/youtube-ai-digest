@@ -1769,7 +1769,7 @@
       "url": "https://www.youtube.com/watch?v=c35YoMdnI78",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 5
+      "attempts": 6
     },
     "avpZWh6sm9M": {
       "status": "done",
@@ -1797,6 +1797,42 @@
       "published": "2026-07-14T22:35:03+00:00",
       "url": "https://www.youtube.com/watch?v=matzTxfrhJU",
       "generated": "2026-07-15T03:28:10+00:00"
+    },
+    "eiQgljOrkWU": {
+      "status": "done",
+      "title": "Codex just got better for developers",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-14T23:30:19+00:00",
+      "url": "https://www.youtube.com/watch?v=eiQgljOrkWU",
+      "generated": "2026-07-15T10:16:02+00:00"
+    },
+    "zVPrgjMapxM": {
+      "video_id": "zVPrgjMapxM",
+      "title": "Twilio Is DDoSing Its Own Customers (And They Know It)",
+      "channel": "Better Stack",
+      "published": "2026-07-15T08:30:17+00:00",
+      "url": "https://www.youtube.com/watch?v=zVPrgjMapxM",
+      "channel_slug": "better-stack",
+      "status": "short"
+    },
+    "R2kkm87o_XM": {
+      "video_id": "R2kkm87o_XM",
+      "title": "China's making their own chips now",
+      "channel": "Matthew Berman",
+      "published": "2026-07-15T03:05:45+00:00",
+      "url": "https://www.youtube.com/watch?v=R2kkm87o_XM",
+      "channel_slug": "matthew-berman",
+      "status": "short"
+    },
+    "6VRKZQ3pmoU": {
+      "status": "done",
+      "title": "James Moss - Using skills to pay the bills: graduating from solo hacks to a team workflow - DevCon26",
+      "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
+      "published": "2026-07-15T07:36:52+00:00",
+      "url": "https://www.youtube.com/watch?v=6VRKZQ3pmoU",
+      "generated": "2026-07-15T10:14:25+00:00"
     }
   }
 }

@@ -1753,14 +1753,13 @@
       "generated": "2026-07-14T23:09:54+00:00"
     },
     "8G_1-3IO4ZQ": {
-      "video_id": "8G_1-3IO4ZQ",
+      "status": "done",
       "title": "WTF Is the Context Layer? The Missing Infrastructure for Production Agents — Prukalpa Sankar",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-14T00:54:03+00:00",
       "url": "https://www.youtube.com/watch?v=8G_1-3IO4ZQ",
-      "channel_slug": "ai-engineer",
-      "attempts": 2,
-      "status": "blocked"
+      "generated": "2026-07-15T03:28:43+00:00"
     },
     "c35YoMdnI78": {
       "video_id": "c35YoMdnI78",
@@ -1770,7 +1769,7 @@
       "url": "https://www.youtube.com/watch?v=c35YoMdnI78",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 3
+      "attempts": 4
     },
     "avpZWh6sm9M": {
       "status": "done",
@@ -1791,13 +1790,13 @@
       "status": "short"
     },
     "matzTxfrhJU": {
-      "video_id": "matzTxfrhJU",
+      "status": "done",
       "title": "Background Robustness with GPT-Live",
       "channel": "OpenAI",
+      "channel_slug": "openai",
       "published": "2026-07-14T22:35:03+00:00",
       "url": "https://www.youtube.com/watch?v=matzTxfrhJU",
-      "channel_slug": "openai",
-      "status": "blocked"
+      "generated": "2026-07-15T03:28:10+00:00"
     }
   }
 }

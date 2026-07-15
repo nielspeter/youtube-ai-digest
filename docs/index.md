@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **106** videos summarized.
+Auto-generated summaries of subscribed channels. **108** videos summarized.
 
 ## AI Engineer
 
@@ -12,6 +12,7 @@ Auto-generated summaries of subscribed channels. **106** videos summarized.
 <a class="video-card" href="summaries/ai-engineer/n97BCfyFIvw"><img loading="lazy" src="https://i.ytimg.com/vi/n97BCfyFIvw/hqdefault.jpg" alt=""><span class="video-title">Don&#x27;t Build Agents You Can&#x27;t Answer For — Addy Osmani</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/ai-engineer/0vphxNt4wyk"><img loading="lazy" src="https://i.ytimg.com/vi/0vphxNt4wyk/hqdefault.jpg" alt=""><span class="video-title">Don&#x27;t Ship Skills Without Evals — Philipp Schmid, Google DeepMind</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/ai-engineer/APqXGyCoGW4"><img loading="lazy" src="https://i.ytimg.com/vi/APqXGyCoGW4/hqdefault.jpg" alt=""><span class="video-title">Forward Deployed Engineering at Cursor — Pauline Brunet</span><span class="video-date">2026-07-14</span></a>
+<a class="video-card" href="summaries/ai-engineer/8G_1-3IO4ZQ"><img loading="lazy" src="https://i.ytimg.com/vi/8G_1-3IO4ZQ/hqdefault.jpg" alt=""><span class="video-title">WTF Is the Context Layer? The Missing Infrastructure for Production Agents — Prukalpa Sankar</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/ai-engineer/-CnA2lGfymY"><img loading="lazy" src="https://i.ytimg.com/vi/-CnA2lGfymY/hqdefault.jpg" alt=""><span class="video-title">In Code They Act, In Proof We Trust — Erik Meijer, Leibniz Labs</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/ai-engineer/O3FEoMYvUf8"><img loading="lazy" src="https://i.ytimg.com/vi/O3FEoMYvUf8/hqdefault.jpg" alt=""><span class="video-title">Stop Evaluating Models Like It&#x27;s the 50s - Alejandro Vidal, Mindmakers</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/ai-engineer/OqM67QG_Ikk"><img loading="lazy" src="https://i.ytimg.com/vi/OqM67QG_Ikk/hqdefault.jpg" alt=""><span class="video-title">From fork() to Fleet: Designing an Agent Sandbox Cloud — Abhishek Bhardwaj, OpenAI</span><span class="video-date">2026-07-13</span></a>
@@ -134,6 +135,7 @@ Auto-generated summaries of subscribed channels. **106** videos summarized.
 ## OpenAI
 
 <div class="video-grid">
+<a class="video-card" href="summaries/openai/matzTxfrhJU"><img loading="lazy" src="https://i.ytimg.com/vi/matzTxfrhJU/hqdefault.jpg" alt=""><span class="video-title">Background Robustness with GPT-Live</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/openai/avpZWh6sm9M"><img loading="lazy" src="https://i.ytimg.com/vi/avpZWh6sm9M/hqdefault.jpg" alt=""><span class="video-title">Improved Intelligence with GPT-Live</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/openai/8zH_O74hZBw"><img loading="lazy" src="https://i.ytimg.com/vi/8zH_O74hZBw/hqdefault.jpg" alt=""><span class="video-title">Build and publish web apps directly in ChatGPT</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/openai/-J5KoSMfPLk"><img loading="lazy" src="https://i.ytimg.com/vi/-J5KoSMfPLk/hqdefault.jpg" alt=""><span class="video-title">Learning with AI at Any Stage of Life | Fast Campus x OpenAI</span><span class="video-date">2026-07-13</span></a>

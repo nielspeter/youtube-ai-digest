@@ -4,11 +4,12 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **129** videos summarized.
+Auto-generated summaries of subscribed channels. **131** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/ZSQb5fzRFPw"><img loading="lazy" src="https://i.ytimg.com/vi/ZSQb5fzRFPw/hqdefault.jpg" alt=""><span class="video-title">Computer-Use 2.0: Agents Just Got Multi-Cursor — Francesco Bonacci, Cua</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/ai-engineer/q4Tr-DknG2M"><img loading="lazy" src="https://i.ytimg.com/vi/q4Tr-DknG2M/hqdefault.jpg" alt=""><span class="video-title">Recursive Model Improvement — Lee Robinson, Cursor, SpaceXAI</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/ai-engineer/uU5Gv2h8-9g"><img loading="lazy" src="https://i.ytimg.com/vi/uU5Gv2h8-9g/hqdefault.jpg" alt=""><span class="video-title">Simon Willison in conversation with Cat Wu &amp; Thariq Shihipar, Anthropic</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/ai-engineer/n97BCfyFIvw"><img loading="lazy" src="https://i.ytimg.com/vi/n97BCfyFIvw/hqdefault.jpg" alt=""><span class="video-title">Don&#x27;t Build Agents You Can&#x27;t Answer For — Addy Osmani</span><span class="video-date">2026-07-14</span></a>
@@ -157,6 +158,7 @@ Auto-generated summaries of subscribed channels. **129** videos summarized.
 ## OpenAI
 
 <div class="video-grid">
+<a class="video-card" href="summaries/openai/CToxp125mhc"><img loading="lazy" src="https://i.ytimg.com/vi/CToxp125mhc/hqdefault.jpg" alt=""><span class="video-title">Schedule tasks with ChatGPT</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/openai/m8uUUUsMD3Y"><img loading="lazy" src="https://i.ytimg.com/vi/m8uUUUsMD3Y/hqdefault.jpg" alt=""><span class="video-title">Introducing the Codex Micro</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/openai/roUoucb7jbI"><img loading="lazy" src="https://i.ytimg.com/vi/roUoucb7jbI/hqdefault.jpg" alt=""><span class="video-title">Schedule tasks with ChatGPT</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/openai/eiQgljOrkWU"><img loading="lazy" src="https://i.ytimg.com/vi/eiQgljOrkWU/hqdefault.jpg" alt=""><span class="video-title">Codex just got better for developers</span><span class="video-date">2026-07-14</span></a>

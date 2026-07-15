@@ -1887,7 +1887,7 @@
       "url": "https://www.youtube.com/watch?v=Usufn8IQJgw",
       "channel_slug": "the-pragmatic-engineer",
       "status": "no_transcript",
-      "attempts": 4
+      "attempts": 5
     },
     "e-pFrQ_Rh0s": {
       "status": "done",
@@ -2086,6 +2086,24 @@
       "published": "2026-07-15T20:13:51+00:00",
       "url": "https://www.youtube.com/watch?v=q4Tr-DknG2M",
       "generated": "2026-07-15T21:12:54+00:00"
+    },
+    "CToxp125mhc": {
+      "status": "done",
+      "title": "Schedule tasks with ChatGPT",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-15T22:50:17+00:00",
+      "url": "https://www.youtube.com/watch?v=CToxp125mhc",
+      "generated": "2026-07-15T23:10:19+00:00"
+    },
+    "ZSQb5fzRFPw": {
+      "status": "done",
+      "title": "Computer-Use 2.0: Agents Just Got Multi-Cursor — Francesco Bonacci, Cua",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-15T22:45:06+00:00",
+      "url": "https://www.youtube.com/watch?v=ZSQb5fzRFPw",
+      "generated": "2026-07-15T23:10:41+00:00"
     }
   }
 }

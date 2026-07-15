@@ -4,11 +4,12 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **110** videos summarized.
+Auto-generated summaries of subscribed channels. **112** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/uU5Gv2h8-9g"><img loading="lazy" src="https://i.ytimg.com/vi/uU5Gv2h8-9g/hqdefault.jpg" alt=""><span class="video-title">Simon Willison in conversation with Cat Wu &amp; Thariq Shihipar, Anthropic</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/ai-engineer/n97BCfyFIvw"><img loading="lazy" src="https://i.ytimg.com/vi/n97BCfyFIvw/hqdefault.jpg" alt=""><span class="video-title">Don&#x27;t Build Agents You Can&#x27;t Answer For — Addy Osmani</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/ai-engineer/0vphxNt4wyk"><img loading="lazy" src="https://i.ytimg.com/vi/0vphxNt4wyk/hqdefault.jpg" alt=""><span class="video-title">Don&#x27;t Ship Skills Without Evals — Philipp Schmid, Google DeepMind</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/ai-engineer/APqXGyCoGW4"><img loading="lazy" src="https://i.ytimg.com/vi/APqXGyCoGW4/hqdefault.jpg" alt=""><span class="video-title">Forward Deployed Engineering at Cursor — Pauline Brunet</span><span class="video-date">2026-07-14</span></a>
@@ -157,6 +158,7 @@ Auto-generated summaries of subscribed channels. **110** videos summarized.
 ## The Pragmatic Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/the-pragmatic-engineer/4MVFQ9HNFjk"><img loading="lazy" src="https://i.ytimg.com/vi/4MVFQ9HNFjk/hqdefault.jpg" alt=""><span class="video-title">Should you jump jobs or stay put, in this market?</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/the-pragmatic-engineer/cSIMVYjVF28"><img loading="lazy" src="https://i.ytimg.com/vi/cSIMVYjVF28/hqdefault.jpg" alt=""><span class="video-title">The Pragmatic Engineer AMA</span><span class="video-date">2026-07-08</span></a>
 <a class="video-card" href="summaries/the-pragmatic-engineer/xafwfGVBxos"><img loading="lazy" src="https://i.ytimg.com/vi/xafwfGVBxos/hqdefault.jpg" alt=""><span class="video-title">Tech interviews with NeetCode</span><span class="video-date">2026-06-24</span></a>
 </div>

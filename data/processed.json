@@ -1842,6 +1842,33 @@
       "url": "https://www.youtube.com/watch?v=M2WtYYR_Dk0",
       "channel_slug": "matthew-berman",
       "status": "short"
+    },
+    "uU5Gv2h8-9g": {
+      "status": "done",
+      "title": "Simon Willison in conversation with Cat Wu & Thariq Shihipar, Anthropic",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-15T15:05:06+00:00",
+      "url": "https://www.youtube.com/watch?v=uU5Gv2h8-9g",
+      "generated": "2026-07-15T15:45:57+00:00"
+    },
+    "4MVFQ9HNFjk": {
+      "status": "done",
+      "title": "Should you jump jobs or stay put, in this market?",
+      "channel": "The Pragmatic Engineer",
+      "channel_slug": "the-pragmatic-engineer",
+      "published": "2026-07-15T15:00:26+00:00",
+      "url": "https://www.youtube.com/watch?v=4MVFQ9HNFjk",
+      "generated": "2026-07-15T15:48:11+00:00"
+    },
+    "eCPtxciYBbE": {
+      "video_id": "eCPtxciYBbE",
+      "title": "Why surveys can't keep up with AI-native development",
+      "channel": "AI Native Dev",
+      "published": "2026-07-15T15:00:38+00:00",
+      "url": "https://www.youtube.com/watch?v=eCPtxciYBbE",
+      "channel_slug": "ai-native-dev",
+      "status": "short"
     }
   }
 }

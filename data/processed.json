@@ -1888,6 +1888,15 @@
       "channel_slug": "the-pragmatic-engineer",
       "status": "no_transcript",
       "attempts": 1
+    },
+    "e-pFrQ_Rh0s": {
+      "status": "done",
+      "title": "AI Coding is exhausting",
+      "channel": "Matt Pocock",
+      "channel_slug": "matt-pocock",
+      "published": "2026-07-15T00:00:00+00:00",
+      "url": "https://www.youtube.com/watch?v=e-pFrQ_Rh0s",
+      "generated": "2026-07-15T18:36:21+00:00"
     }
   }
 }

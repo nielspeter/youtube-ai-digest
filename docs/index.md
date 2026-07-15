@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **112** videos summarized.
+Auto-generated summaries of subscribed channels. **113** videos summarized.
 
 ## AI Engineer
 
@@ -103,6 +103,12 @@ Auto-generated summaries of subscribed channels. **112** videos summarized.
 <a class="video-card" href="summaries/cole-medin/CrLMktzEzmM"><img loading="lazy" src="https://i.ytimg.com/vi/CrLMktzEzmM/hqdefault.jpg" alt=""><span class="video-title">Claude Fable 5 is Now BANNED?!</span><span class="video-date">2026-06-13</span></a>
 <a class="video-card" href="summaries/cole-medin/1wfY7GCVvh0"><img loading="lazy" src="https://i.ytimg.com/vi/1wfY7GCVvh0/hqdefault.jpg" alt=""><span class="video-title">Google&#x27;s Agents CLI: The CLI + Skills Combination to Ship AI Agents EASILY</span><span class="video-date">2026-06-11</span></a>
 <a class="video-card" href="summaries/cole-medin/iICZTWcryac"><img loading="lazy" src="https://i.ytimg.com/vi/iICZTWcryac/hqdefault.jpg" alt=""><span class="video-title">Claude Plans, Gemini Designs: The Workflow to Build BEAUTIFUL Frontends</span><span class="video-date">2026-06-04</span></a>
+</div>
+
+## Matt Pocock
+
+<div class="video-grid">
+<a class="video-card" href="summaries/matt-pocock/e-pFrQ_Rh0s"><img loading="lazy" src="https://i.ytimg.com/vi/e-pFrQ_Rh0s/hqdefault.jpg" alt=""><span class="video-title">AI Coding is exhausting</span><span class="video-date">2026-07-15</span></a>
 </div>
 
 ## Matthew Berman

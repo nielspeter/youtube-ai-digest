@@ -1,0 +1,137 @@
+---
+title: "Learn anything with the /teach skill"
+channel: "Matt Pocock"
+video_id: s5T5oQJcJ6U
+url: https://www.youtube.com/watch?v=s5T5oQJcJ6U
+published: 2026-06-08T17:07:15+00:00
+generated: 2026-07-15T18:49:08+00:00
+model: "z-ai/glm-5.2"
+thumbnail: https://i.ytimg.com/vi/s5T5oQJcJ6U/hqdefault.jpg
+---
+# Learn anything with the /teach skill
+
+[![Learn anything with the /teach skill](https://i.ytimg.com/vi/s5T5oQJcJ6U/hqdefault.jpg)](https://www.youtube.com/watch?v=s5T5oQJcJ6U)
+
+[Watch on YouTube](https://www.youtube.com/watch?v=s5T5oQJcJ6U) · **Matt Pocock** · 2026-06-08
+
+## TL;DR
+Matt Pocock introduces a custom "teach skill" for AI coding agents that acts as a stateful, personalized tutor—saving lessons, resources, glossaries, and learning records to the file system so learning persists across sessions. He demonstrates it by teaching himself to solve a Rubik's Cube, showing how it creates interactive HTML lessons, tracks progress, and tailors future lessons to keep the learner in their "zone of proximal development."
+
+## Key Takeaways
+- The teach skill is **stateful**: it saves mission files, resources, lessons, glossaries, cheat sheets, and notes to the local file system so the agent retains context across sessions.
+- A key early design decision was choosing stateful over stateless—good teaching requires remembering where the student left off and what they've already learned.
+- The skill first creates a **mission.md** file capturing *why* the student wants to learn, which keeps the teacher aligned with the learner's goals.
+- It searches the web for **high-trust primary sources** on the first pass and continues updating resources as learning progresses.
+- Lessons are delivered as **interactive HTML files** rather than markdown, enabling richer diagrams, callouts, quizzes, and even interactive widgets (e.g., a guided Rubik's Cube move trainer).
+- The skill maintains **learning records** based on the student's self-reported progress, allowing it to tailor subsequent lessons.
+- A **glossary** and **cheat sheets** are generated automatically, making future lessons more concise and giving the learner quick reference material.
+- The skill applies the pedagogical concept of the **zone of proximal development**—teaching where the student is challenged but not intimidated.
+- Beyond personal learning, Pocock sees engineering applications like **onboarding developers to a codebase**, since the skill adapts to what the learner already knows.
+- Developers are "first movers" in AI—skills and instincts built working with AI in coding can be exported to other domains, making this expertise broadly valuable.
+
+## Detailed Breakdown
+
+**[00:00] Origin and Motivation**
+Pocock reflects on his decade of teaching—six years as a voice coach and four years teaching developers. On a long bus ride to London, he wrote a "teach skill" and found it effective enough to teach him how to solve a Rubik's Cube, something he'd always wanted to learn but never prioritized.
+
+**[00:30] Stateful vs. Stateless Skills**
+He introduces the core design distinction: stateless skills retain no memory between runs, while stateful skills save state to the file system or MCP servers. Initially he imagined teach as stateless—just fetch resources and output a lesson—but realized effective teaching is inherently stateful: a good teacher remembers where the student is and what comes next.
+
+**[01:32] Examples from His Skills Repo**
+He contrasts two existing skills: "Grill Me" (stateless, just quizzes you) and "Grill with Docs" (stateful, saves ADRs and glossaries to the repo, improving over time). Neither approach is inherently better; the choice depends on the use case. Teach needed to be stateful.
+
+**[02:04] Installation and First Run**
+Users install the skill from his skills repo (`mapper.got skills`) via a `skills.sh` installer, then run `teach` inside their coding agent in an empty directory. His demo directory is for learning the Rubik's Cube.
+
+**[02:35] The Mission File**
+The first file the skill creates is a **mission.md** capturing the learner's intent. For Pocock, it recorded that he wants to solve a scrambled 3×3 cube unaided at least once, with the goal being achievement—not speed or theory. Understanding *why* someone wants to learn is essential for effective teaching.
+
+**[03:06] Resources and First Lesson**
+The skill searches the web for high-trust primary sources, stores them as resources, and then generates the first lesson. Lessons are saved as numbered HTML files in a lessons folder. HTML is chosen over markdown for its richness and interactivity.
+
+**[03:37] Anatomy of a Lesson**
+The first lesson—"Anatomy, Notation and the White Cross"—includes diagrams, simple explainers, callouts, quizzes, notation guides, traps, and a first skill to practice. Pocock emphasizes the importance of feedback loops, with quizzes as a baseline when richer ones aren't available. The skill distinguishes between giving *knowledge* and developing *skills*.
+
+**[04:09] Learning Records**
+When Pocock reports completing a lesson (e.g., "Yes, I can make the white cross"), the skill records this in a learning record file. This lets it track progress and tailor the next lesson, effectively building a personalized course as it goes.
+
+**[04:40] Evolving Lessons and Community Links**
+Later lessons add citations and more quizzes. Pocock added a feature at the bottom of lessons that links to communities where learners can ask questions, because true *wisdom* comes from interacting with real-world practitioners, not just acquiring knowledge and skills in isolation.
+
+**[05:10] Reference Material: Glossary and Cheat Sheets**
+The skill maintains a glossary for jargon (anatomy, notation, "daisy," etc.), which also lets future lessons be more concise by referencing defined terms. It creates cheat sheets—like a "solve card" containing the entire solve in one place.
+
+**[06:11] Resuming a Session**
+Pocock demonstrates starting a fresh session by simply saying "teach" and reporting his status: he can solve the cube except for the corner cycle. The agent checks the workspace state, diagnoses that the concept is solid but the algorithm hasn't reached muscle memory, and prepares a targeted lesson.
+
+**[07:13] Zone of Proximal Development**
+The skill applies the pedagogical concept of the **zone of proximal development**—teaching where the learner is perfectly challenged but not intimidated. Every lesson must be concise and framed at that zone so the student is neither bored nor overwhelmed. He notes he's using Opus 4.8 with medium effort.
+
+**[07:44] The Corner Cycle Lesson**
+The generated lesson breaks down the corner cycle algorithm, offers new mental models (e.g., "one four-move phrase played twice"), and includes an interactive tap-through widget for practicing the move sequence (U R U' L' U R' U' L) with a guided mode. Pocock marvels at what HTML enables compared to markdown.
+
+**[08:45] Inside the Skill Definition**
+He walks through the skill's prompt structure: it declares the request as stateful and intended for multiple sessions, defines the teaching workspace shape, and lays out a sectional philosophy around knowledge (high-quality resources), skills (interactive lessons), and wisdom (community interaction). The goal is to eventually send the learner out into the world, not keep them dependent on the agent.
+
+**[09:48] Engineering and Personal Applications**
+Pocock imagines the skill being useful for onboarding developers to a codebase—learners work independently in their own workspace, and the skill adapts to their existing knowledge. Personally, he's excited to use it for side projects, the Rubik's Cube, and possibly chess openings.
+
+**[10:49] Developers as AI First Movers**
+He closes with a broader reflection: developers are among the first people to experience AI in a domain where it's genuinely strong (writing code). The instincts and skills developers build now can be turned into transferable skills and brought to non-coding domains, making this expertise valuable regardless of how work evolves.
+
+**[12:21] Newsletter and Sign-Off**
+Pocock directs interested viewers to AI Hero / skills and his newsletter for updates, and mentions wanting to use the skill to learn vocal harmonies. He thanks viewers and expresses excitement about seeing how others use it.
+
+## Notable Quotes
+- "I realized that all the good teaching that I do is stateful where I teach you, I remember where you've got to. I know what you've learned. I know what you can go to next."
+- "I believe that for a teacher to be effective, you need to understand why a student wants to learn the thing."
+- "The zone of proximal development is this key teaching idea which I am obsessed with. And it's the idea that you should always teach someone in the area where they are perfectly challenged but not intimidated."
+- "My idea with this teach skill is not to have you hooked onto the agent for learning everything. It's to actually give you the skills you need to feel confident to go out and work with a community and send you out into the world."
+- "We, the developer community, engineers out there, are the first people to really experience what AI can do on something that it's really good at."
+
+## People, Tools & References Mentioned
+- **Matt Pocock** — creator of the teach skill and video presenter
+- **Skills repo** — `mapper.got skills` (installer via `skills.sh`)
+- **Grill Me** — Pocock's stateless skill that quizzes users on a topic
+- **Grill with Docs** — Pocock's stateful skill that saves ADRs and glossaries
+- **Opus 4.8 (medium effort)** — the AI model used in the demo
+- **Zone of proximal development** — pedagogical concept central to the skill's lesson design
+- **AI Hero / skills** — site and newsletter for Pocock's skill releases
+- **Clo code / Codex** — AI coding agents mentioned in the closing discussion
+- **Rubik's Cube, chess openings, vocal harmonies** — example learning topics
+
+## Who Should Watch
+Developers and AI-coding-agent users interested in building or using stateful skills for personalized learning—whether for onboarding teammates to a codebase, picking up new technical concepts, or learning entirely non-coding skills. It's also valuable for anyone curious about how pedagogical principles like the zone of proximal development can be encoded into AI agent workflows.
+
+
+<details class="transcript">
+<summary>Full transcript</summary>
+
+<p>I realized the other day, I&#x27;ve been teaching stuff for 10 years. I was a voice coach for 6 years and I&#x27;ve been doing this job teaching devs for 4 years. And for a while I&#x27;ve been thinking, wouldn&#x27;t it be great if I could take everything I know about teaching and put it inside a skill so that anyone could learn anything. I had a long bus ride to London the other day and I wrote a teach skill and it turns out that it&#x27;s pretty good. It taught me how to solve a Rubik&#x27;s Cube, which is something, you know, I&#x27;ve always wanted to learn how to do, but I never really had the time or inclination to do it.</p>
+<p>had the time or inclination to do it. But with this teach skill, it felt like I had a real teacher who was teaching how I like to be taught and was totally aligned with my mission. And I&#x27;m going to show you how I did it. The key concept when we&#x27;re looking at a teach skill is some skills can be stateful and some skills can be stateless. If a skill is stateless, it means that it doesn&#x27;t retain any state from previous runs. It doesn&#x27;t have any memory of the things that you&#x27;ve done before. In other words, a stateless skill doesn&#x27;t save anything on the file system to help it pick up where it left off later. Whereas stateful skills do do that. They save</p>
+<p>stateful skills do do that. They save things either to the local file system or they save things to MCP servers. They keep notes that they later track. Initially, I was thinking about teach as a kind of stateless skill where you would just say, &quot;Teach me this thing.&quot; and then it would just find some good resources for you and give you like a an output that would teach you a lesson about that thing. But I realized that all the good teaching that I do is stateful where I teach you, I being the teacher, I remember where you&#x27;ve got to. I know what you&#x27;ve learned. I know what you can go to next and I&#x27;ve got a bunch</p>
+<p>you can go to next and I&#x27;ve got a bunch of great resources that I remember from previous times that I&#x27;ve taught this thing to teach you about it. So, I decided that teach had to be a stateful skill. As an example, if you&#x27;ve used my skills repo before, you know that grill me is totally stateless. It just grills you about a topic until you&#x27;re ready to implement. But then grill with docs is actually stateful. In other words, it saves some local ADRs, architectural decision records. It saves some other stuff, some glossaries to the repo as well. And so Grill with Docs is stateful and it gets</p>
+<p>Grill with Docs is stateful and it gets better over time, whereas Grill me is totally stateless. Now, one of these is not better than the other, they&#x27;re just useful in different situations. And so when you&#x27;re designing skills, you need to be careful to think about whether they need to be stateless or stateful. And Teach needed to be stateful. The way you install this skill is you go to my skills repo, mapper.got skills. You go down to this quick start here and you just run the skills.sh installer and you choose the Teach skill. Once you do that, you go to an empty directory and you run Teach inside your coding agent.</p>
+<p>you run Teach inside your coding agent. So for instance, in this directory, which is my Rubik&#x27;s Cube directory, I said, &quot;Teach me to how to solve a Rubik&#x27;s Cube.&quot; And you&#x27;ll notice during my journey how many files it has created here. But the first one it created was the mission. I believe that for a teacher to be effective, you need to understand why a student wants to learn the thing. And so I got this skill to create a mission for you. Here it says, &quot;Matt wants to be able to take a scrambled 3 by 3 Rubik&#x27;s Cube and solve it unaided at least once. The goal is the achievement itself, not speed, not theory.&quot; The next thing it does is it</p>
+<p>theory.&quot; The next thing it does is it creates a set of resources. So it goes and searches the web for actual primary source, high trust resources that it&#x27;s going to use to create the lessons out of. It does this on the first pass when you ask it to teach you something and then it will continue to update these as you go. And then it will create your first lesson for you. And lessons are stored in the lessons folder and then numbered like this and they&#x27;re all individual HTML files. HTML is just so much richer than markdown, it allows it to be so much more expressive, so much more interactive. And this is really the</p>
+<p>more interactive. And this is really the core of what makes this such a good learning experience. And here is my first lesson, anatomy, notation and the white cross. And it basically teaches you just what you need to know at that moment. It gives you diagrams, it gives you very simple explainers, gives you call outs, and it gives you quizzes, too. One thing I find really important whenever you&#x27;re teaching anything is to develop a feedback loop, and quizzes are okay at this. They&#x27;re basically good if you can&#x27;t find any richer feedback loop. Again, if we zoom down this, we&#x27;ve got notations, we&#x27;ve got traps, we&#x27;ve got</p>
+<p>notations, we&#x27;ve got traps, we&#x27;ve got your first skill here. And so, it&#x27;s giving me the knowledge that I need, but also encouraging me to develop the skills I need, which is slightly different. And the And the skill itself knows that. Once I completed the lesson, and I said, &quot;Yes, I can make the white cross,&quot; then it recommended that, or rather recorded that, inside a learning record here. And these learning records are very simple records that the agent creates when I report how I&#x27;m doing. So, this allows it to keep track of how I&#x27;m doing, and just like a real teacher,</p>
+<p>doing, and just like a real teacher, then tailor the next lesson to what I need. Here&#x27;s another explainer from slightly further down this course. I suppose it&#x27;s kind of creating a course as we go based on what I need. So, this one here, it was okay, it started to add like little citations now. Again, more quizzes. I mean, I I just find this layout really nice to look at and really useful. I was sort of working on the skill as I was building this, too. And so, I added this little bottom or thing at the bottom. It says It tries to find uh communities where you can ask</p>
+<p>uh communities where you can ask questions here. Because sure, you can develop knowledge and skills here, but the only way you&#x27;re going to be develop wisdom about the thing is actually interacting with a community testing your ideas out in the real world. It also develops reference material for you, too. This was something I noticed that I needed. So, there&#x27;s a glossary. This glossary has the anatomy, it has the notation here, has the solving grip, the daisy, sort of anything like weird jargon that we&#x27;ve learned is going to go into the glossary. This is really useful, especially if you&#x27;re learning like a coding language using this. It</p>
+<p>like a coding language using this. It also means that future lessons can be more concise because they&#x27;re able to reference the term in the glossary, and you can look back if you&#x27;re confused. It also creates cheat sheets for you. So this is a solve card here where it&#x27;s basically just giving me the entire solve. If I want just a single place to look at how to create or solve a Rubik&#x27;s Cube, this is the place I can go. And finally, just to explain this notes.md file, this is where the agent can note down any of my preferences, note down any watch outs, and it&#x27;s just kind of internal note taking for the agent</p>
+<p>internal note taking for the agent itself. So let&#x27;s imagine that I sit down to a session and I basically want to fill in the teacher on what I&#x27;ve been doing since I last had a session. So I just say teach and I can basically complete the Rubik&#x27;s Cube now except for the corner cycle, which I&#x27;ve still not quite got into memory. Let&#x27;s go ahead and see what it says. It starts of course, because this is a empty context, by checking the state of my teaching workspace. It&#x27;s checking all of the solve cards, seeing how far I&#x27;ve got to. It&#x27;s now giving me a decent diagnosis</p>
+<p>It&#x27;s now giving me a decent diagnosis for what I&#x27;m feeling. It&#x27;s saying the concept is solid for the corner cycle, which is a particular algorithm, but it&#x27;s the one that hasn&#x27;t reached muscle memory. Let me look at the existing memorization lesson, one earlier lesson to match the house style. So we&#x27;ve turned the agent basically into a teacher and you&#x27;ve got to work with it in the same way that you would any one-to-one teacher. You tell it what problems you&#x27;re having and it will design lessons to find solutions. The model I&#x27;m using here is Opus 4.8 with medium effort, by the way. It&#x27;s also using a key teaching term here, the zone</p>
+<p>using a key teaching term here, the zone of proximal development. One algorithm, pure muscle memory work. The zone of proximal development is this key teaching idea which I am obsessed with. And it&#x27;s the idea that you should always teach someone in the area where they are perfectly challenged but not intimidated. This means that every lesson has to be concise, compact, and exactly framed at that zone of proximal development. So the student&#x27;s not bored, but also not freaked out. So we can see it&#x27;s now created this lesson, the corner cycle lesson. And it&#x27;s created this exact lesson for us. So, it&#x27;s basically</p>
+<p>exact lesson for us. So, it&#x27;s basically just breaking it down, paying more attention to it, giving me new mental models. One four move phrase played twice. Okay, that is handy. And the idea is I would walk through this lesson. Oh, look at this. Oh my gosh, look at this. So, it&#x27;s actually given me an interactive tap thing I could do. Okay, so it&#x27;s U R U&#x27; prime L&#x27; prime U R&#x27; prime U&#x27; prime L. Oh my god, look at this. So, it&#x27;s got guided mode. So, I can turn off that. Oh, that&#x27;s That&#x27;s unreasonably cool. You see what being in</p>
+<p>unreasonably cool. You see what being in HTML gives us here, right? We&#x27;ve got the full power of the browser to mess about with here. So, you get the idea of what these lessons look like. They are short, they are really focused, and it gives me exactly what to practice now. And this also means because everything has been saved to the file system, I can clear this, and every time I run teach again, it will have all the context it needs to keep me in the zone of proximal development. Let&#x27;s briefly look at the skill itself here. It&#x27;s really quite simple, although it is one of the longer skills that I&#x27;ve put together. The user has asked you to teach them something.</p>
+<p>has asked you to teach them something. This is a stateful request. They intend to learn the topic over multiple sessions. It goes into the shape of the teaching workspace, which we&#x27;ve looked at already, and it has a sectional philosophy here. So, I really define the terms that the AI should think in. It should think in terms of giving them knowledge from high-quality, high-trust resources, skills, highly relevant interactive lessons, and actually developing the skills, and then wisdom that comes from interacting from other learners and practitioners. We go further down here, and we touch on the shape of the lessons themselves. We&#x27;ve</p>
+<p>shape of the lessons themselves. We&#x27;ve talked about the mission as well, mission.md, the zone of proximal development, acquiring knowledge and skills, how to do that, acquiring wisdom, which basically when the learner is ready to go out into the world, once they&#x27;ve got the knowledge and skills, how do you delegate them to the community? When the user asks a question that appears to require wisdom, your default posture should be to attempt to answer, but to ultimately delegate to a community. My idea with this teach skill is not to have you hooked onto the agent for learning everything. It&#x27;s to actually give you the skills you need to feel confident to go out and work with a</p>
+<p>feel confident to go out and work with a community and send you out into the world. That&#x27;s the dream of this stuff. We&#x27;ve also got more material here on reference.documents and finally on notes.md, but that really is the skill. There&#x27;s a few little bits of supporting documents for like learning record format, the mission format, the resources format, etc. In terms of engineering, I can imagine this skill being really useful in onboarding people to a code base. Creating documentation is a real pain in the ass because not only do you need to keep it up to date, but that documentation is probably outside the person&#x27;s zone of proximal</p>
+<p>outside the person&#x27;s zone of proximal development. They might have worked with your stack before, they might just need to know the specific problem domain, or they might have worked with the problem domain before, but they have no idea what TypeScript is or things like that. So, you can think of teach here as, you know, you start them off in their own workspace, you point them at code base, you teach them how to, you know, they learn independently how to work with the code, what the concepts are, and guess what? You&#x27;ve got a productive employee in record time. For me, I&#x27;m excited to use this just on my side projects, on having fun, on just learning stuff that</p>
+<p>having fun, on just learning stuff that I wouldn&#x27;t have learned how to do before, you know, solving this freaking Rubik&#x27;s Cube. I might even dig out a bit of old chess material and see if it can teach me some openings. And I wanted to end here by talking about an idea that I&#x27;ve had for a while that I think this teach skill really proves or rather makes very plain to me, which is that we, the developer community, engineers out there, are the first people to really experience what AI can do on something that it&#x27;s really good at. AI is currently better at writing code than</p>
+<p>is currently better at writing code than it is at almost anything else. There are a few exceptions, but really AI is very good at writing code, and developers have an advantage that we&#x27;re the first people to really get to test AI out on a problem where it&#x27;s very good at it. This means that we are the first people really in the world, you know, with a couple of exceptions, that get to know AI, that get to build these cool things, and it means that we&#x27;re the first movers in this new space. We can take the ideas that we develop here, turn them into skills, and start bringing them out to</p>
+<p>skills, and start bringing them out to the world. I think that&#x27;s incredibly exciting, and it&#x27;s something that I&#x27;m going to be exploring more, and this teach skill is kind of the first phase of that. So, when you&#x27;re working with Clo code or Codex, and you&#x27;re struggling with it, and you&#x27;re losing motivation, you think, &quot;God, this sucks.&quot; Just think that you&#x27;ll be able to take the skills that you are learning now, the instincts that you&#x27;re building working with AI, and take them outside of coding domains. That, I think, is going to be an incredibly valuable skill, no matter what the future of work looks like. We&#x27;re all going to be working with AI,</p>
+<p>We&#x27;re all going to be working with AI, and we are the first people to really get to do it. Now, if you&#x27;re digging my skills, then you should go to AI Hero {slash} skills, and sign up for my newsletter that lets you know whenever I release a new skill, whenever I have any changes, because I do change the skills all the time. If you want up-to-date information on how to use my skills for engineering and for other stuff, too, then check it out. But, overall, thanks for watching. I can&#x27;t wait to see the languages that you&#x27;re learning, coding languages or human languages, the new skills that you&#x27;re developing. I&#x27;m going to get this thing to teach me vocal</p>
+<p>to get this thing to teach me vocal harmonies as well. It&#x27;s always a skill that I&#x27;ve wanted to know, but never been very good at. And, ah, I just can&#x27;t wait to get using this thing myself and seeing how you&#x27;re using it, too. But, overall, thanks so much for watching, and I&#x27;ll see you very soon.</p>
+
+</details>

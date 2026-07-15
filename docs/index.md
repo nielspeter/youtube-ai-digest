@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **113** videos summarized.
+Auto-generated summaries of subscribed channels. **122** videos summarized.
 
 ## AI Engineer
 
@@ -74,6 +74,7 @@ Auto-generated summaries of subscribed channels. **113** videos summarized.
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/ktkDGQyRx3Y"><img loading="lazy" src="https://i.ytimg.com/vi/ktkDGQyRx3Y/hqdefault.jpg" alt=""><span class="video-title">What&#x27;s The Best Electron Alternative? Let&#x27;s Find Out.</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/better-stack/i66Bsnv12ZA"><img loading="lazy" src="https://i.ytimg.com/vi/i66Bsnv12ZA/hqdefault.jpg" alt=""><span class="video-title">Git Can’t Handle Games… So Epic Built Lore</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/better-stack/WZoC1HA1vec"><img loading="lazy" src="https://i.ytimg.com/vi/WZoC1HA1vec/hqdefault.jpg" alt=""><span class="video-title">This Free Go Alternative to Firebase is Just One File</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/better-stack/dKbV8MEzVPA"><img loading="lazy" src="https://i.ytimg.com/vi/dKbV8MEzVPA/hqdefault.jpg" alt=""><span class="video-title">DuckDB is becoming unstoppable...</span><span class="video-date">2026-07-13</span></a>
@@ -109,11 +110,18 @@ Auto-generated summaries of subscribed channels. **113** videos summarized.
 
 <div class="video-grid">
 <a class="video-card" href="summaries/matt-pocock/e-pFrQ_Rh0s"><img loading="lazy" src="https://i.ytimg.com/vi/e-pFrQ_Rh0s/hqdefault.jpg" alt=""><span class="video-title">AI Coding is exhausting</span><span class="video-date">2026-07-15</span></a>
+<a class="video-card" href="summaries/matt-pocock/251hsWgoTPM"><img loading="lazy" src="https://i.ytimg.com/vi/251hsWgoTPM/hqdefault.jpg" alt=""><span class="video-title">LIVE: The /wayfinder Demo</span><span class="video-date">2026-07-13</span></a>
+<a class="video-card" href="summaries/matt-pocock/A8mokin_YOs"><img loading="lazy" src="https://i.ytimg.com/vi/A8mokin_YOs/hqdefault.jpg" alt=""><span class="video-title">New Skills! v1.1 brings /wayfinder, /research, /implement, /to-spec, /to-tickets</span><span class="video-date">2026-07-08</span></a>
+<a class="video-card" href="summaries/matt-pocock/s5T5oQJcJ6U"><img loading="lazy" src="https://i.ytimg.com/vi/s5T5oQJcJ6U/hqdefault.jpg" alt=""><span class="video-title">Learn anything with the /teach skill</span><span class="video-date">2026-06-08</span></a>
+<a class="video-card" href="summaries/matt-pocock/mh5XZ-L5SFQ"><img loading="lazy" src="https://i.ytimg.com/vi/mh5XZ-L5SFQ/hqdefault.jpg" alt=""><span class="video-title">Can Cursor&#x27;s HARDCORE Review Skill Stop The Slop?</span><span class="video-date">2026-05-28</span></a>
+<a class="video-card" href="summaries/matt-pocock/UzMNBN6xLLA"><img loading="lazy" src="https://i.ytimg.com/vi/UzMNBN6xLLA/hqdefault.jpg" alt=""><span class="video-title">9 Things People Get Wrong With My /grill-* skills</span><span class="video-date">2026-05-25</span></a>
+<a class="video-card" href="summaries/matt-pocock/dtAJ2dOd3ko"><img loading="lazy" src="https://i.ytimg.com/vi/dtAJ2dOd3ko/hqdefault.jpg" alt=""><span class="video-title">/handoff is my new favourite skill</span><span class="video-date">2026-05-21</span></a>
 </div>
 
 ## Matthew Berman
 
 <div class="video-grid">
+<a class="video-card" href="summaries/matthew-berman/nxr20lcqagg"><img loading="lazy" src="https://i.ytimg.com/vi/nxr20lcqagg/hqdefault.jpg" alt=""><span class="video-title">Fine, I&#x27;ll finally pick one</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/matthew-berman/etduwo9Lu3M"><img loading="lazy" src="https://i.ytimg.com/vi/etduwo9Lu3M/hqdefault.jpg" alt=""><span class="video-title">You aren&#x27;t using Codex like me...</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/matthew-berman/roGmNXASYOM"><img loading="lazy" src="https://i.ytimg.com/vi/roGmNXASYOM/hqdefault.jpg" alt=""><span class="video-title">GPT-5.6 SOL is HERE</span><span class="video-date">2026-07-09</span></a>
 <a class="video-card" href="summaries/matthew-berman/mD1F5DsC5tc"><img loading="lazy" src="https://i.ytimg.com/vi/mD1F5DsC5tc/hqdefault.jpg" alt=""><span class="video-title">GPT-5.6 is FINALLY HERE (WOAH)</span><span class="video-date">2026-07-09</span></a>
@@ -143,6 +151,7 @@ Auto-generated summaries of subscribed channels. **113** videos summarized.
 ## OpenAI
 
 <div class="video-grid">
+<a class="video-card" href="summaries/openai/roUoucb7jbI"><img loading="lazy" src="https://i.ytimg.com/vi/roUoucb7jbI/hqdefault.jpg" alt=""><span class="video-title">Schedule tasks with ChatGPT</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/openai/eiQgljOrkWU"><img loading="lazy" src="https://i.ytimg.com/vi/eiQgljOrkWU/hqdefault.jpg" alt=""><span class="video-title">Codex just got better for developers</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/openai/matzTxfrhJU"><img loading="lazy" src="https://i.ytimg.com/vi/matzTxfrhJU/hqdefault.jpg" alt=""><span class="video-title">Background Robustness with GPT-Live</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/openai/avpZWh6sm9M"><img loading="lazy" src="https://i.ytimg.com/vi/avpZWh6sm9M/hqdefault.jpg" alt=""><span class="video-title">Improved Intelligence with GPT-Live</span><span class="video-date">2026-07-14</span></a>

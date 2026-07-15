@@ -1887,7 +1887,7 @@
       "url": "https://www.youtube.com/watch?v=Usufn8IQJgw",
       "channel_slug": "the-pragmatic-engineer",
       "status": "no_transcript",
-      "attempts": 1
+      "attempts": 2
     },
     "e-pFrQ_Rh0s": {
       "status": "done",
@@ -1897,6 +1897,159 @@
       "published": "2026-07-15T00:00:00+00:00",
       "url": "https://www.youtube.com/watch?v=e-pFrQ_Rh0s",
       "generated": "2026-07-15T18:36:21+00:00"
+    },
+    "roUoucb7jbI": {
+      "status": "done",
+      "title": "Schedule tasks with ChatGPT",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-15T18:00:12+00:00",
+      "url": "https://www.youtube.com/watch?v=roUoucb7jbI",
+      "generated": "2026-07-15T18:44:52+00:00"
+    },
+    "ktkDGQyRx3Y": {
+      "status": "done",
+      "title": "What's The Best Electron Alternative? Let's Find Out.",
+      "channel": "Better Stack",
+      "channel_slug": "better-stack",
+      "published": "2026-07-15T18:30:03+00:00",
+      "url": "https://www.youtube.com/watch?v=ktkDGQyRx3Y",
+      "generated": "2026-07-15T18:43:25+00:00"
+    },
+    "nxr20lcqagg": {
+      "status": "done",
+      "title": "Fine, I'll finally pick one",
+      "channel": "Matthew Berman",
+      "channel_slug": "matthew-berman",
+      "published": "2026-07-15T17:31:52+00:00",
+      "url": "https://www.youtube.com/watch?v=nxr20lcqagg",
+      "generated": "2026-07-15T18:45:29+00:00"
+    },
+    "SF1Ab0Y-9BY": {
+      "video_id": "SF1Ab0Y-9BY",
+      "title": "Don't know which model to choose? *taps the graph*",
+      "channel": "Matt Pocock",
+      "published": "2026-07-15T12:49:20+00:00",
+      "url": "https://www.youtube.com/watch?v=SF1Ab0Y-9BY",
+      "channel_slug": "matt-pocock",
+      "status": "short"
+    },
+    "CE57AICfAew": {
+      "video_id": "CE57AICfAew",
+      "title": "A dictionary of AI Coding",
+      "channel": "Matt Pocock",
+      "published": "2026-07-15T11:40:40+00:00",
+      "url": "https://www.youtube.com/watch?v=CE57AICfAew",
+      "channel_slug": "matt-pocock",
+      "status": "short"
+    },
+    "H-JHumbpORI": {
+      "video_id": "H-JHumbpORI",
+      "title": "My agent hallucinated - what do I do?",
+      "channel": "Matt Pocock",
+      "published": "2026-07-15T11:34:03+00:00",
+      "url": "https://www.youtube.com/watch?v=H-JHumbpORI",
+      "channel_slug": "matt-pocock",
+      "status": "short"
+    },
+    "iQb3F9UzBR4": {
+      "video_id": "iQb3F9UzBR4",
+      "title": "Your effort level is TOO DAMN HIGH",
+      "channel": "Matt Pocock",
+      "published": "2026-07-15T10:20:03+00:00",
+      "url": "https://www.youtube.com/watch?v=iQb3F9UzBR4",
+      "channel_slug": "matt-pocock",
+      "status": "short"
+    },
+    "8WLi98SEdeU": {
+      "video_id": "8WLi98SEdeU",
+      "title": "/handoff + /teach is awesome for learning while coding",
+      "channel": "Matt Pocock",
+      "published": "2026-07-15T10:15:16+00:00",
+      "url": "https://www.youtube.com/watch?v=8WLi98SEdeU",
+      "channel_slug": "matt-pocock",
+      "status": "short"
+    },
+    "251hsWgoTPM": {
+      "status": "done",
+      "title": "LIVE: The /wayfinder Demo",
+      "channel": "Matt Pocock",
+      "channel_slug": "matt-pocock",
+      "published": "2026-07-13T16:25:39+00:00",
+      "url": "https://www.youtube.com/watch?v=251hsWgoTPM",
+      "generated": "2026-07-15T18:47:06+00:00"
+    },
+    "A8mokin_YOs": {
+      "status": "done",
+      "title": "New Skills! v1.1 brings /wayfinder, /research, /implement, /to-spec, /to-tickets",
+      "channel": "Matt Pocock",
+      "channel_slug": "matt-pocock",
+      "published": "2026-07-08T14:26:10+00:00",
+      "url": "https://www.youtube.com/watch?v=A8mokin_YOs",
+      "generated": "2026-07-15T18:48:14+00:00"
+    },
+    "s5T5oQJcJ6U": {
+      "status": "done",
+      "title": "Learn anything with the /teach skill",
+      "channel": "Matt Pocock",
+      "channel_slug": "matt-pocock",
+      "published": "2026-06-08T17:07:15+00:00",
+      "url": "https://www.youtube.com/watch?v=s5T5oQJcJ6U",
+      "generated": "2026-07-15T18:49:08+00:00"
+    },
+    "mh5XZ-L5SFQ": {
+      "status": "done",
+      "title": "Can Cursor's HARDCORE Review Skill Stop The Slop?",
+      "channel": "Matt Pocock",
+      "channel_slug": "matt-pocock",
+      "published": "2026-05-28T14:00:25+00:00",
+      "url": "https://www.youtube.com/watch?v=mh5XZ-L5SFQ",
+      "generated": "2026-07-15T18:49:44+00:00"
+    },
+    "UzMNBN6xLLA": {
+      "status": "done",
+      "title": "9 Things People Get Wrong With My /grill-* skills",
+      "channel": "Matt Pocock",
+      "channel_slug": "matt-pocock",
+      "published": "2026-05-25T13:22:40+00:00",
+      "url": "https://www.youtube.com/watch?v=UzMNBN6xLLA",
+      "generated": "2026-07-15T18:51:02+00:00"
+    },
+    "dtAJ2dOd3ko": {
+      "status": "done",
+      "title": "/handoff is my new favourite skill",
+      "channel": "Matt Pocock",
+      "channel_slug": "matt-pocock",
+      "published": "2026-05-21T10:32:40+00:00",
+      "url": "https://www.youtube.com/watch?v=dtAJ2dOd3ko",
+      "generated": "2026-07-15T18:51:59+00:00"
+    },
+    "6BB6exR8Zd8": {
+      "video_id": "6BB6exR8Zd8",
+      "title": "I stopped using /grill-me for coding. Here’s what I use instead:",
+      "channel": "Matt Pocock",
+      "published": "2026-05-14T14:22:56+00:00",
+      "url": "https://www.youtube.com/watch?v=6BB6exR8Zd8",
+      "channel_slug": "matt-pocock",
+      "status": "pending"
+    },
+    "lNOQaakmyDU": {
+      "video_id": "lNOQaakmyDU",
+      "title": "Anthropic's \"dedicated monthly credit\" is actually a huge cut",
+      "channel": "Matt Pocock",
+      "published": "2026-05-13T20:12:51+00:00",
+      "url": "https://www.youtube.com/watch?v=lNOQaakmyDU",
+      "channel_slug": "matt-pocock",
+      "status": "pending"
+    },
+    "DNqsMXH6Eog": {
+      "video_id": "DNqsMXH6Eog",
+      "title": "New Skills! /handoff, /prototype, /review and /writing-* | Skills Changelog",
+      "channel": "Matt Pocock",
+      "published": "2026-05-12T09:56:10+00:00",
+      "url": "https://www.youtube.com/watch?v=DNqsMXH6Eog",
+      "channel_slug": "matt-pocock",
+      "status": "pending"
     }
   }
 }

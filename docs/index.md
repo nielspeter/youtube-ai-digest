@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **131** videos summarized.
+Auto-generated summaries of subscribed channels. **135** videos summarized.
 
 ## AI Engineer
 
@@ -42,6 +42,7 @@ Auto-generated summaries of subscribed channels. **131** videos summarized.
 ## AI Native Dev
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-native-dev/AHIY1XccX_E"><img loading="lazy" src="https://i.ytimg.com/vi/AHIY1XccX_E/hqdefault.jpg" alt=""><span class="video-title">Peter Wilson &amp; Davide Eynard - cq - Stack Overflow for Agents - AI Native DevCon June 2026</span><span class="video-date">2026-07-16</span></a>
 <a class="video-card" href="summaries/ai-native-dev/6VRKZQ3pmoU"><img loading="lazy" src="https://i.ytimg.com/vi/6VRKZQ3pmoU/hqdefault.jpg" alt=""><span class="video-title">James Moss - Using skills to pay the bills: graduating from solo hacks to a team workflow - DevCon26</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/ai-native-dev/UvhmYntrLMI"><img loading="lazy" src="https://i.ytimg.com/vi/UvhmYntrLMI/hqdefault.jpg" alt=""><span class="video-title">Patrick Debois Maps the Patterns of AI-Native Dev</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/ai-native-dev/b6dKwe00GpQ"><img loading="lazy" src="https://i.ytimg.com/vi/b6dKwe00GpQ/hqdefault.jpg" alt=""><span class="video-title">The DevOps Godfather on AI&#x27;s &quot;Dark Factory&quot; Problem</span><span class="video-date">2026-07-13</span></a>
@@ -76,6 +77,7 @@ Auto-generated summaries of subscribed channels. **131** videos summarized.
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/n6DIs13ilvU"><img loading="lazy" src="https://i.ytimg.com/vi/n6DIs13ilvU/hqdefault.jpg" alt=""><span class="video-title">Grok Was Caught Uploading Your Entire Codebase</span><span class="video-date">2026-07-16</span></a>
 <a class="video-card" href="summaries/better-stack/ktkDGQyRx3Y"><img loading="lazy" src="https://i.ytimg.com/vi/ktkDGQyRx3Y/hqdefault.jpg" alt=""><span class="video-title">What&#x27;s The Best Electron Alternative? Let&#x27;s Find Out.</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/better-stack/i66Bsnv12ZA"><img loading="lazy" src="https://i.ytimg.com/vi/i66Bsnv12ZA/hqdefault.jpg" alt=""><span class="video-title">Git Can’t Handle Games… So Epic Built Lore</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/better-stack/WZoC1HA1vec"><img loading="lazy" src="https://i.ytimg.com/vi/WZoC1HA1vec/hqdefault.jpg" alt=""><span class="video-title">This Free Go Alternative to Firebase is Just One File</span><span class="video-date">2026-07-14</span></a>
@@ -95,6 +97,7 @@ Auto-generated summaries of subscribed channels. **131** videos summarized.
 ## Cole Medin
 
 <div class="video-grid">
+<a class="video-card" href="summaries/cole-medin/m8VC2SV2igM"><img loading="lazy" src="https://i.ytimg.com/vi/m8VC2SV2igM/hqdefault.jpg" alt=""><span class="video-title">This Completely Changes the Way We Build Production AI Agents (Vercel Eve)</span><span class="video-date">2026-07-16</span></a>
 <a class="video-card" href="summaries/cole-medin/deeOA6YVfqw"><img loading="lazy" src="https://i.ytimg.com/vi/deeOA6YVfqw/hqdefault.jpg" alt=""><span class="video-title">I Turned Claude Code Into a Complete Video Generation System (with Archon)</span><span class="video-date">2026-07-12</span></a>
 <a class="video-card" href="summaries/cole-medin/PY7xIxybYNc"><img loading="lazy" src="https://i.ytimg.com/vi/PY7xIxybYNc/hqdefault.jpg" alt=""><span class="video-title">Pydantic AI 2.0: The New Best Way to Build AI Agents is Composing Capabilities</span><span class="video-date">2026-07-10</span></a>
 <a class="video-card" href="summaries/cole-medin/R-5_2nsF_ZM"><img loading="lazy" src="https://i.ytimg.com/vi/R-5_2nsF_ZM/hqdefault.jpg" alt=""><span class="video-title">I Love the Karpathy LLM Wiki but it Doesn&#x27;t Scale. Here&#x27;s What Does.</span><span class="video-date">2026-07-09</span></a>
@@ -111,6 +114,7 @@ Auto-generated summaries of subscribed channels. **131** videos summarized.
 ## Matt Pocock
 
 <div class="video-grid">
+<a class="video-card" href="summaries/matt-pocock/M6mYodf0dJM"><img loading="lazy" src="https://i.ytimg.com/vi/M6mYodf0dJM/hqdefault.jpg" alt=""><span class="video-title">mattpocock/skills: Learn the whole flow, end-to-end</span><span class="video-date">2026-07-16</span></a>
 <a class="video-card" href="summaries/matt-pocock/e-pFrQ_Rh0s"><img loading="lazy" src="https://i.ytimg.com/vi/e-pFrQ_Rh0s/hqdefault.jpg" alt=""><span class="video-title">AI Coding is exhausting</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/matt-pocock/251hsWgoTPM"><img loading="lazy" src="https://i.ytimg.com/vi/251hsWgoTPM/hqdefault.jpg" alt=""><span class="video-title">LIVE: The /wayfinder Demo</span><span class="video-date">2026-07-13</span></a>
 <a class="video-card" href="summaries/matt-pocock/A8mokin_YOs"><img loading="lazy" src="https://i.ytimg.com/vi/A8mokin_YOs/hqdefault.jpg" alt=""><span class="video-title">New Skills! v1.1 brings /wayfinder, /research, /implement, /to-spec, /to-tickets</span><span class="video-date">2026-07-08</span></a>

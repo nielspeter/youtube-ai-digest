@@ -2105,6 +2105,78 @@
       "published": "2026-07-15T22:45:06+00:00",
       "url": "https://www.youtube.com/watch?v=ZSQb5fzRFPw",
       "generated": "2026-07-15T23:10:41+00:00"
+    },
+    "m8VC2SV2igM": {
+      "status": "done",
+      "title": "This Completely Changes the Way We Build Production AI Agents (Vercel Eve)",
+      "channel": "Cole Medin",
+      "channel_slug": "cole-medin",
+      "published": "2026-07-16T00:00:30+00:00",
+      "url": "https://www.youtube.com/watch?v=m8VC2SV2igM",
+      "generated": "2026-07-16T10:24:41+00:00"
+    },
+    "n6DIs13ilvU": {
+      "status": "done",
+      "title": "Grok Was Caught Uploading Your Entire Codebase",
+      "channel": "Better Stack",
+      "channel_slug": "better-stack",
+      "published": "2026-07-16T09:00:07+00:00",
+      "url": "https://www.youtube.com/watch?v=n6DIs13ilvU",
+      "generated": "2026-07-16T10:21:39+00:00"
+    },
+    "nE9rmCDOTXA": {
+      "video_id": "nE9rmCDOTXA",
+      "title": "Poll-Based Queues Are Dumb (Here's the Fix)",
+      "channel": "Better Stack",
+      "published": "2026-07-16T08:30:00+00:00",
+      "url": "https://www.youtube.com/watch?v=nE9rmCDOTXA",
+      "channel_slug": "better-stack",
+      "status": "short"
+    },
+    "M6mYodf0dJM": {
+      "status": "done",
+      "title": "mattpocock/skills: Learn the whole flow, end-to-end",
+      "channel": "Matt Pocock",
+      "channel_slug": "matt-pocock",
+      "published": "2026-07-16T09:32:49+00:00",
+      "url": "https://www.youtube.com/watch?v=M6mYodf0dJM",
+      "generated": "2026-07-16T10:20:39+00:00"
+    },
+    "U832hShMVnc": {
+      "video_id": "U832hShMVnc",
+      "title": "I'm thinking about changing my most popular skill",
+      "channel": "Matt Pocock",
+      "published": "2026-07-16T08:16:30+00:00",
+      "url": "https://www.youtube.com/watch?v=U832hShMVnc",
+      "channel_slug": "matt-pocock",
+      "status": "short"
+    },
+    "t34UuBxB2YQ": {
+      "video_id": "t34UuBxB2YQ",
+      "title": "My #1 book recommendation for strategic programming",
+      "channel": "Matt Pocock",
+      "published": "2026-07-16T08:06:02+00:00",
+      "url": "https://www.youtube.com/watch?v=t34UuBxB2YQ",
+      "channel_slug": "matt-pocock",
+      "status": "short"
+    },
+    "Fj8DKMbdIzU": {
+      "video_id": "Fj8DKMbdIzU",
+      "title": "Delete (most of) your docs",
+      "channel": "Matt Pocock",
+      "published": "2026-07-16T08:04:10+00:00",
+      "url": "https://www.youtube.com/watch?v=Fj8DKMbdIzU",
+      "channel_slug": "matt-pocock",
+      "status": "short"
+    },
+    "AHIY1XccX_E": {
+      "status": "done",
+      "title": "Peter Wilson & Davide Eynard - cq - Stack Overflow for Agents - AI Native DevCon June 2026",
+      "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
+      "published": "2026-07-16T07:10:25+00:00",
+      "url": "https://www.youtube.com/watch?v=AHIY1XccX_E",
+      "generated": "2026-07-16T10:23:41+00:00"
     }
   }
 }

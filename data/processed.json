@@ -2321,6 +2321,277 @@
       "url": "https://www.youtube.com/watch?v=r-cvllSYZCY",
       "channel_slug": "the-pragmatic-engineer",
       "status": "short"
+    },
+    "NxJjMvDN6aE": {
+      "status": "done",
+      "title": "OpenWiki 0.2 is adopting the OKF spec",
+      "channel": "LangChain",
+      "channel_slug": "langchain",
+      "published": "2026-07-16T16:57:07+00:00",
+      "url": "https://www.youtube.com/watch?v=NxJjMvDN6aE",
+      "generated": "2026-07-16T20:24:12+00:00"
+    },
+    "HbUznYhKFOc": {
+      "status": "done",
+      "title": "The best AI agents need more humans than you think",
+      "channel": "LangChain",
+      "channel_slug": "langchain",
+      "published": "2026-07-16T14:00:12+00:00",
+      "url": "https://www.youtube.com/watch?v=HbUznYhKFOc",
+      "generated": "2026-07-16T20:25:04+00:00"
+    },
+    "Z4DoEXhrPC8": {
+      "status": "done",
+      "title": "How 11x Built a Slack-Native Bug Triage Agent with LangSmith Fleet",
+      "channel": "LangChain",
+      "channel_slug": "langchain",
+      "published": "2026-07-15T16:53:16+00:00",
+      "url": "https://www.youtube.com/watch?v=Z4DoEXhrPC8",
+      "generated": "2026-07-16T20:25:58+00:00"
+    },
+    "nUNuNxMhwug": {
+      "status": "done",
+      "title": "Inside Toyota's Production System for Agents | Interrupt 26",
+      "channel": "LangChain",
+      "channel_slug": "langchain",
+      "published": "2026-07-15T13:04:17+00:00",
+      "url": "https://www.youtube.com/watch?v=nUNuNxMhwug",
+      "generated": "2026-07-16T20:26:43+00:00"
+    },
+    "kkL_y5t1jo4": {
+      "status": "done",
+      "title": "The LangChain Team Answers the Most Searched Questions About Agents",
+      "channel": "LangChain",
+      "channel_slug": "langchain",
+      "published": "2026-07-14T20:28:06+00:00",
+      "url": "https://www.youtube.com/watch?v=kkL_y5t1jo4",
+      "generated": "2026-07-16T20:27:13+00:00"
+    },
+    "jv91Ruwrl0U": {
+      "status": "done",
+      "title": "Trace Every Codex Session in LangSmith in Minutes",
+      "channel": "LangChain",
+      "channel_slug": "langchain",
+      "published": "2026-07-14T13:19:06+00:00",
+      "url": "https://www.youtube.com/watch?v=jv91Ruwrl0U",
+      "generated": "2026-07-16T20:28:19+00:00"
+    },
+    "bKd_Xq-kClE": {
+      "video_id": "bKd_Xq-kClE",
+      "title": "LangChain Runs 2 Totally Different Engineering Processes",
+      "channel": "LangChain",
+      "published": "2026-07-14T11:30:03+00:00",
+      "url": "https://www.youtube.com/watch?v=bKd_Xq-kClE",
+      "channel_slug": "langchain",
+      "status": "short"
+    },
+    "3lb_4OEOykc": {
+      "status": "done",
+      "title": "Lessons Learned Building Rippling AI | Interrupt 26",
+      "channel": "LangChain",
+      "channel_slug": "langchain",
+      "published": "2026-07-13T12:40:21+00:00",
+      "url": "https://www.youtube.com/watch?v=3lb_4OEOykc",
+      "generated": "2026-07-16T20:29:13+00:00"
+    },
+    "sBg90v2qfas": {
+      "video_id": "sBg90v2qfas",
+      "title": "OpenWiki Brains, general-purpose memory for agents",
+      "channel": "LangChain",
+      "published": "2026-07-10T16:55:39+00:00",
+      "url": "https://www.youtube.com/watch?v=sBg90v2qfas",
+      "channel_slug": "langchain",
+      "status": "blocked"
+    },
+    "Lsut4TCfygw": {
+      "video_id": "Lsut4TCfygw",
+      "title": "LLM Wikis and how to give your agents memory",
+      "channel": "LangChain",
+      "published": "2026-07-10T13:35:26+00:00",
+      "url": "https://www.youtube.com/watch?v=Lsut4TCfygw",
+      "channel_slug": "langchain",
+      "status": "pending"
+    },
+    "J77ro1AJGa0": {
+      "video_id": "J77ro1AJGa0",
+      "title": "How Podium Scaled their Agents with LangSmith and LangGraph",
+      "channel": "LangChain",
+      "published": "2026-07-09T18:11:08+00:00",
+      "url": "https://www.youtube.com/watch?v=J77ro1AJGa0",
+      "channel_slug": "langchain",
+      "status": "pending"
+    },
+    "jLOM_ahG78c": {
+      "video_id": "jLOM_ahG78c",
+      "title": "Trace Every Claude Code Session in LangSmith in Minutes",
+      "channel": "LangChain",
+      "published": "2026-07-09T14:20:56+00:00",
+      "url": "https://www.youtube.com/watch?v=jLOM_ahG78c",
+      "channel_slug": "langchain",
+      "status": "pending"
+    },
+    "_iGxqQ2J2hc": {
+      "video_id": "_iGxqQ2J2hc",
+      "title": "NemoClaw + dcode: A governed blueprint for AI coding agents",
+      "channel": "LangChain",
+      "published": "2026-07-08T19:22:49+00:00",
+      "url": "https://www.youtube.com/watch?v=_iGxqQ2J2hc",
+      "channel_slug": "langchain",
+      "status": "pending"
+    },
+    "MxgUMBGeF14": {
+      "video_id": "MxgUMBGeF14",
+      "title": "How to use dcode + Nemotron 3 Ultra",
+      "channel": "LangChain",
+      "published": "2026-07-08T17:22:45+00:00",
+      "url": "https://www.youtube.com/watch?v=MxgUMBGeF14",
+      "channel_slug": "langchain",
+      "status": "pending"
+    },
+    "Yy3JH6dDugc": {
+      "video_id": "Yy3JH6dDugc",
+      "title": "Jensen Huang: Why companies need open agent systems",
+      "channel": "LangChain",
+      "published": "2026-07-08T14:59:32+00:00",
+      "url": "https://www.youtube.com/watch?v=Yy3JH6dDugc",
+      "channel_slug": "langchain",
+      "status": "pending"
+    },
+    "R-Yqes8AotY": {
+      "video_id": "R-Yqes8AotY",
+      "title": "Reconstructing Pelé’s lost goal",
+      "channel": "Google DeepMind",
+      "published": "2026-07-14T13:04:39+00:00",
+      "url": "https://www.youtube.com/watch?v=R-Yqes8AotY",
+      "channel_slug": "google-deepmind",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "1DtMiRKg-cs": {
+      "status": "done",
+      "title": "Understanding the inner thoughts of AI",
+      "channel": "Google DeepMind",
+      "channel_slug": "google-deepmind",
+      "published": "2026-07-10T15:50:55+00:00",
+      "url": "https://www.youtube.com/watch?v=1DtMiRKg-cs",
+      "generated": "2026-07-16T20:30:03+00:00"
+    },
+    "V04bm-3d6EQ": {
+      "video_id": "V04bm-3d6EQ",
+      "title": "When millions of AI agents meet",
+      "channel": "Google DeepMind",
+      "published": "2026-06-23T15:48:06+00:00",
+      "url": "https://www.youtube.com/watch?v=V04bm-3d6EQ",
+      "channel_slug": "google-deepmind",
+      "status": "pending"
+    },
+    "pm5PBbo6l2k": {
+      "video_id": "pm5PBbo6l2k",
+      "title": "Gemini for Science is here. 🧬",
+      "channel": "Google DeepMind",
+      "published": "2026-05-26T16:17:10+00:00",
+      "url": "https://www.youtube.com/watch?v=pm5PBbo6l2k",
+      "channel_slug": "google-deepmind",
+      "status": "short"
+    },
+    "EF1BFaNZN9U": {
+      "video_id": "EF1BFaNZN9U",
+      "title": "SynthID, our imperceptible watermark for AI-generated content, is expanding to more partners.",
+      "channel": "Google DeepMind",
+      "published": "2026-05-22T16:09:49+00:00",
+      "url": "https://www.youtube.com/watch?v=EF1BFaNZN9U",
+      "channel_slug": "google-deepmind",
+      "status": "short"
+    },
+    "R6mM0m3IZWY": {
+      "video_id": "R6mM0m3IZWY",
+      "title": "Gemini 3.5 Flash has landed.",
+      "channel": "Google DeepMind",
+      "published": "2026-05-20T20:10:43+00:00",
+      "url": "https://www.youtube.com/watch?v=R6mM0m3IZWY",
+      "channel_slug": "google-deepmind",
+      "status": "short"
+    },
+    "u3T_0HmNbHM": {
+      "video_id": "u3T_0HmNbHM",
+      "title": "Build your next story with Gemini Omni.",
+      "channel": "Google DeepMind",
+      "published": "2026-05-20T00:21:16+00:00",
+      "url": "https://www.youtube.com/watch?v=u3T_0HmNbHM",
+      "channel_slug": "google-deepmind",
+      "status": "short"
+    },
+    "aSY_vFFmkW0": {
+      "video_id": "aSY_vFFmkW0",
+      "title": "Generating novel scientific hypotheses with Co-Scientist",
+      "channel": "Google DeepMind",
+      "published": "2026-05-19T17:51:44+00:00",
+      "url": "https://www.youtube.com/watch?v=aSY_vFFmkW0",
+      "channel_slug": "google-deepmind",
+      "status": "pending"
+    },
+    "Cnuj24PjWrQ": {
+      "video_id": "Cnuj24PjWrQ",
+      "title": "Using AI to outsmart drug-resistant bacteria",
+      "channel": "Google DeepMind",
+      "published": "2026-05-19T17:51:04+00:00",
+      "url": "https://www.youtube.com/watch?v=Cnuj24PjWrQ",
+      "channel_slug": "google-deepmind",
+      "status": "pending"
+    },
+    "exh1vwGlrSo": {
+      "video_id": "exh1vwGlrSo",
+      "title": "Understanding cancer at a genetic level with AI",
+      "channel": "Google DeepMind",
+      "published": "2026-05-19T17:50:59+00:00",
+      "url": "https://www.youtube.com/watch?v=exh1vwGlrSo",
+      "channel_slug": "google-deepmind",
+      "status": "pending"
+    },
+    "wd5ZZV8if54": {
+      "video_id": "wd5ZZV8if54",
+      "title": "Predicting a historic storm earlier with WeatherNext",
+      "channel": "Google DeepMind",
+      "published": "2026-05-19T17:50:53+00:00",
+      "url": "https://www.youtube.com/watch?v=wd5ZZV8if54",
+      "channel_slug": "google-deepmind",
+      "status": "pending"
+    },
+    "AEH6dBOnE_U": {
+      "video_id": "AEH6dBOnE_U",
+      "title": "This is Gemini Omni ♾️ #GoogleIO",
+      "channel": "Google DeepMind",
+      "published": "2026-05-19T17:23:14+00:00",
+      "url": "https://www.youtube.com/watch?v=AEH6dBOnE_U",
+      "channel_slug": "google-deepmind",
+      "status": "short"
+    },
+    "pZNzfQLgGsA": {
+      "video_id": "pZNzfQLgGsA",
+      "title": "Reimagining the mouse pointer with AI",
+      "channel": "Google DeepMind",
+      "published": "2026-05-13T09:07:06+00:00",
+      "url": "https://www.youtube.com/watch?v=pZNzfQLgGsA",
+      "channel_slug": "google-deepmind",
+      "status": "pending"
+    },
+    "6VV5Gvmtrl4": {
+      "video_id": "6VV5Gvmtrl4",
+      "title": "What’s new in Gemma 4?",
+      "channel": "Google DeepMind",
+      "published": "2026-04-13T09:30:33+00:00",
+      "url": "https://www.youtube.com/watch?v=6VV5Gvmtrl4",
+      "channel_slug": "google-deepmind",
+      "status": "short"
+    },
+    "udnhu43tTfk": {
+      "video_id": "udnhu43tTfk",
+      "title": "Teaching the foundations of AI in the classroom",
+      "channel": "Google DeepMind",
+      "published": "2026-04-09T13:27:40+00:00",
+      "url": "https://www.youtube.com/watch?v=udnhu43tTfk",
+      "channel_slug": "google-deepmind",
+      "status": "pending"
     }
   }
 }

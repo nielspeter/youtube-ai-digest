@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **146** videos summarized.
+Auto-generated summaries of subscribed channels. **154** videos summarized.
 
 ## AI Engineer
 
@@ -111,6 +111,24 @@ Auto-generated summaries of subscribed channels. **146** videos summarized.
 <a class="video-card" href="summaries/cole-medin/CrLMktzEzmM"><img loading="lazy" src="https://i.ytimg.com/vi/CrLMktzEzmM/hqdefault.jpg" alt=""><span class="video-title">Claude Fable 5 is Now BANNED?!</span><span class="video-date">2026-06-13</span></a>
 <a class="video-card" href="summaries/cole-medin/1wfY7GCVvh0"><img loading="lazy" src="https://i.ytimg.com/vi/1wfY7GCVvh0/hqdefault.jpg" alt=""><span class="video-title">Google&#x27;s Agents CLI: The CLI + Skills Combination to Ship AI Agents EASILY</span><span class="video-date">2026-06-11</span></a>
 <a class="video-card" href="summaries/cole-medin/iICZTWcryac"><img loading="lazy" src="https://i.ytimg.com/vi/iICZTWcryac/hqdefault.jpg" alt=""><span class="video-title">Claude Plans, Gemini Designs: The Workflow to Build BEAUTIFUL Frontends</span><span class="video-date">2026-06-04</span></a>
+</div>
+
+## Google DeepMind
+
+<div class="video-grid">
+<a class="video-card" href="summaries/google-deepmind/1DtMiRKg-cs"><img loading="lazy" src="https://i.ytimg.com/vi/1DtMiRKg-cs/hqdefault.jpg" alt=""><span class="video-title">Understanding the inner thoughts of AI</span><span class="video-date">2026-07-10</span></a>
+</div>
+
+## LangChain
+
+<div class="video-grid">
+<a class="video-card" href="summaries/langchain/NxJjMvDN6aE"><img loading="lazy" src="https://i.ytimg.com/vi/NxJjMvDN6aE/hqdefault.jpg" alt=""><span class="video-title">OpenWiki 0.2 is adopting the OKF spec</span><span class="video-date">2026-07-16</span></a>
+<a class="video-card" href="summaries/langchain/HbUznYhKFOc"><img loading="lazy" src="https://i.ytimg.com/vi/HbUznYhKFOc/hqdefault.jpg" alt=""><span class="video-title">The best AI agents need more humans than you think</span><span class="video-date">2026-07-16</span></a>
+<a class="video-card" href="summaries/langchain/Z4DoEXhrPC8"><img loading="lazy" src="https://i.ytimg.com/vi/Z4DoEXhrPC8/hqdefault.jpg" alt=""><span class="video-title">How 11x Built a Slack-Native Bug Triage Agent with LangSmith Fleet</span><span class="video-date">2026-07-15</span></a>
+<a class="video-card" href="summaries/langchain/nUNuNxMhwug"><img loading="lazy" src="https://i.ytimg.com/vi/nUNuNxMhwug/hqdefault.jpg" alt=""><span class="video-title">Inside Toyota&#x27;s Production System for Agents | Interrupt 26</span><span class="video-date">2026-07-15</span></a>
+<a class="video-card" href="summaries/langchain/kkL_y5t1jo4"><img loading="lazy" src="https://i.ytimg.com/vi/kkL_y5t1jo4/hqdefault.jpg" alt=""><span class="video-title">The LangChain Team Answers the Most Searched Questions About Agents</span><span class="video-date">2026-07-14</span></a>
+<a class="video-card" href="summaries/langchain/jv91Ruwrl0U"><img loading="lazy" src="https://i.ytimg.com/vi/jv91Ruwrl0U/hqdefault.jpg" alt=""><span class="video-title">Trace Every Codex Session in LangSmith in Minutes</span><span class="video-date">2026-07-14</span></a>
+<a class="video-card" href="summaries/langchain/3lb_4OEOykc"><img loading="lazy" src="https://i.ytimg.com/vi/3lb_4OEOykc/hqdefault.jpg" alt=""><span class="video-title">Lessons Learned Building Rippling AI | Interrupt 26</span><span class="video-date">2026-07-13</span></a>
 </div>
 
 ## Matt Maher

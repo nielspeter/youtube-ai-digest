@@ -1,0 +1,114 @@
+---
+title: "Inside Toyota's Production System for Agents | Interrupt 26"
+channel: "LangChain"
+video_id: nUNuNxMhwug
+url: https://www.youtube.com/watch?v=nUNuNxMhwug
+published: 2026-07-15T13:04:17+00:00
+generated: 2026-07-16T20:26:43+00:00
+model: "z-ai/glm-5.2"
+thumbnail: https://i.ytimg.com/vi/nUNuNxMhwug/hqdefault.jpg
+---
+# Inside Toyota's Production System for Agents | Interrupt 26
+
+[![Inside Toyota's Production System for Agents | Interrupt 26](https://i.ytimg.com/vi/nUNuNxMhwug/hqdefault.jpg)](https://www.youtube.com/watch?v=nUNuNxMhwug)
+
+[Watch on YouTube](https://www.youtube.com/watch?v=nUNuNxMhwug) · **LangChain** · 2026-07-15
+
+## TL;DR
+Toyota's enterprise AI team built "ToyotaGPT," an internal platform that compresses AI agent delivery from six months and six engineers to four days and one engineer, using LangGraph, LangSmith, and a dynamic graph creation approach. The platform now powers 50+ production agents across manufacturing, R&D, and design, and the team discovered a deep philosophical parallel between LangChain's ecosystem and Toyota's own Production System principles like Kaizen, Jidoka, and Genchi Gembutsu.
+
+## Key Takeaways
+- ToyotaGPT reduced AI agent delivery from 6 months/6 engineers to 4 days/1 engineer by standardizing architecture so every agent is just a config file.
+- Dynamic graph creation on LangGraph automatically builds agent graphs from a use case and data connectors — no per-agent security or architecture review needed.
+- Toyota's data is notoriously complex (scanned '90s manuals, CAD files, nested tables, multilingual documents), requiring custom-built layout-aware parsing and OCR.
+- "Skills" are treated as reusable units of intelligence: enterprise-grade, shared across all agents, and auto-generated from unstructured data without manual engineering.
+- Over 50 agents are in production, including GearPull (plant-floor troubleshooting saving millions), R&D GPT (decades of paint research searchable in seconds), and KadyaGPT (in-canvas design assistant).
+- The team draws a direct parallel between LangChain's tools and the Toyota Production System (TPS): LangSmith as the Andon board, LangGraph as Jidoka, and traces as Genchi Gembutsu.
+- MCP-compatible tool layer means every tool is pre-secured and available to any agent on the platform.
+- Toyota built the entire ingestion and extraction pipeline from scratch, cutting enterprise license costs.
+
+## Detailed Breakdown
+
+**[00:05] The Problem: Enterprise AI Chaos**
+Ravi, head of Agent AI and product research at Toyota, introduces the context. When generative AI emerged in 2023, Toyota's 65,000-person organization saw every team rushing to build duplicate chatbots with no security or architecture standards. The enterprise AI team's mandate was to become the single platform for all AI agents — one standard, no duplication.
+
+**[01:40] From Six Months to Four Days**
+A single RAG app at Toyota used to require six engineers and six months — not because AI was hard, but because everything around it (security reviews, architecture sign-offs, ingestion plumbing) was hard. The team built a dynamic graph creation approach on LangGraph: provide the use case and data connectors, and the graph builds itself. The architecture and security are constant, so only a config file changes per agent. Six months became four days; six engineers became one.
+
+**[02:43] Conquering Brutal Data Extraction**
+Toyota's data is exceptionally difficult: PDFs, Word, Excel, CAD/AutoCAD files, scanned manuals from the 1990s, nested tables inside images, and multilingual content (Japanese and English). The team built custom extractors with layout-aware parsing, OCR with vision, and schema mapping to create one unified index — all built in-house to cut enterprise license costs. LangGraph routes dynamically by source type end-to-end.
+
+**[04:22] Skills: The Core Concept**
+A "skill" is defined as a unit of intelligence. Toyota does two things at scale: shares enterprise-grade skills across every agent from one library (no drift, no duplication), and auto-generates skills from terabytes of unstructured data without engineers writing them by hand. A unified, MCP-compatible tool layer sits on top, with every tool pre-secured for any agent.
+
+**[05:26] Production Agents in the Wild**
+Over 50 agents are in production. GearPull, born from a hackathon idea by Braden Buffard, lets manufacturing engineers type a problem and get a solution in 10 seconds — replacing manual bookshelf searches that took hours or days, with production line downtime costing millions. R&D GPT makes decades of paint and materials research searchable in seconds, compressing what took years. KadyaGPT lives inside the designer's canvas, querying best practices and identifying patterns with zero context switching.
+
+**[08:37] The TPS–LangChain Parallel**
+Kordel, head of AI engineering, takes over to explain the Toyota Production System (TPS): a philosophy for building things quickly with minimal resources, formalized in the 1980s to help Japan compete with fewer resources. He argues LangChain is the modern equivalent — the backbone for manufacturing next-generation software and agent workflows.
+
+**[10:43] TPS Principles Mapped to LangChain**
+- **Andon board → LangSmith**: Real-time observability showing what's broken, what needs attention, and what's going well across all agents.
+- **Kaizen → Continuous improvement**: Both at the macro level (LangChain shipping new features) and micro level (ReAct agents self-monitoring output quality).
+- **Jidoka → LangGraph**: "Automation with a human touch" — LangGraph abstracts monotony while keeping engineers in the loop, a handshake between AI automation and human guidance.
+- **Genchi Gembutsu → LangSmith traces**: "Go to the source" — traces let engineers see the exact route to a solution and pinpoint root causes without sifting through logs.
+
+**[15:30] The LangChain Production System**
+Kordel concludes that LangChain carries TPS legacy forward into software and agentic manufacturing. He predicts the AI industry will look to LangChain as "the LangChain Production System" — the bedrock for all SaaS services and companies, just as TPS became the bedrock for all hardware manufacturing.
+
+## Notable Quotes
+- "Six months became four days, six engineers became one. That is not an optimization. That's a different way of building."
+- "The thing that kills every AI agent before it even starts is the extraction. Bad text in, bad text out."
+- "A skill is a unit of intelligence... we generate skills automatically from unstructured data."
+- "From hackathon idea to millions of dollars in savings. That's GearPull."
+- "LangChain is the modern backbone on which all next-generation software and agent workflows will be manufactured."
+- "LangGraph is a literal embodiment of the Jidoka principle, which we love."
+- "I fully believe that in the next few years — and actually probably now — the entire AI industry will look to LangChain as the TPS, or the LangChain Production System."
+
+## People, Tools & References Mentioned
+- **People**: Ravi (head of Agent AI and product research at Toyota), Kordel (head of AI engineering at Toyota), Harrison Chase (LangChain founder), Braden Buffard (team member, GearPull creator)
+- **Tools & Platforms**: LangChain, LangGraph, LangSmith, ToyotaGPT, MCP (Model Context Protocol), vector databases, SharePoint, vision-language-action models
+- **Agents mentioned**: GearPull (manufacturing troubleshooting), R&D GPT (paint/materials research), KadyaGPT (design assistant), Gura (enterprise long-term memory / Toyota Way agent), two vehicle AI experts
+- **Concepts**: Toyota Production System (TPS), Andon board, Kaizen, Jidoka, Genchi Gembutsu, ReAct agents, deep agents, dynamic graph creation, layout-aware parsing, OCR with vision
+- **Organizations**: Toyota Motor North America (TMNA) cybersecurity team
+
+## Who Should Watch
+Enterprise AI leaders, platform engineers, and anyone building agent infrastructure at scale — especially those interested in how industrial manufacturing philosophy can inform software architecture, or how LangChain's ecosystem maps onto real production-grade agent deployment at a Fortune 500 company.
+
+
+<details class="transcript">
+<summary>Full transcript</summary>
+
+<p>Hi, everyone. I&#x27;m the head of Agent AI and product research at Toyota. I have Kordel joining, who is the head of AI engineering. In 2023, when Generative AI changed the world, inside Toyota, 65,000 people, multiple factories, and one question that we had was: what do we do with this? We are the enterprise AI team. Every AI use case that&#x27;s going to production comes to our team. So one standard, one platform, no chaos, no duplication. The</p>
+<p>problem is nothing existing before that could be what we wanted to do. So we opened up a blank repository in our GitHub and built it ourselves. So this is the story I&#x27;m going to talk about today. I&#x27;ll show you how we built ToyotaGPT, a platform that ships AI agents in very few days, then Kordel talks about how it connects with the Toyota Production System and how LangChain, LangGraph, and LangSmith are really useful in our ecosystem today. That part really</p>
+<p>surprised us. Let&#x27;s go. So in 2023, every team at Toyota was rushing to build their own chatbot. Same ingestion, same extraction, same pipeline — multiple duplicate things were coming up. No security standards, no architecture standards, pure duplication at an enterprise scale. Our job was to stop that. To be the platform every AI agent is built on. The pressure was real, the timeline was yesterday. So what did we need to do? We needed</p>
+<p>to go to work. One RAG app at Toyota used to mean six engineers and six months in the early days — not because AI was hard, but because everything around it is hard. Security reviews, architecture sign-offs, and ingestion plumbing across multiple data sources, rebuilt from scratch. Our delivery was stuck in months, so that gap we decided to close permanently. In four days, we built a dynamic graph creation approach</p>
+<p>on LangGraph: give it the use case, give it the data connectors, and the entire graph builds itself automatically. ReAct agents, deep agents — everything plugged in. No security review, no architecture review. It&#x27;s all reviewed at once, because the architecture never changes, the security never changes. The only difference between every AI agent we build is just a config file. So six months became four days, six engineers became one.</p>
+<p>That is not an optimization. That&#x27;s a different way of building. The thing that kills every AI agent before it even starts is the extraction. Bad text in, bad text out. Our data at Toyota is brutal. PDFs, Word docs, Excel files, CAD files, AutoCAD. You name it, we have it. Scanned manuals from the &#x27;90s. Toyota tables inside tables inside tables inside tables inside images.</p>
+<p>We have complex data sources at Toyota because we have Japanese, we have English, we have a lot of different languages. Name the format, we built an extractor for it. Layout-aware parsing and OCR with vision. Schema mapping, every source, one unified index. And we built it ourselves, cutting enterprise license costs. LangGraph at the core — thanks to Harrison Chase for building the great framework. LangSmith for observability, vector databases, SharePoint,</p>
+<p>and the TMNA cybersecurity team, baked in from day one, working with us. Every agent inherits this and is exposed via API. ToyotaGPT web, internal apps, factory machines, robotics — which uses LangGraph in the background — vision-language-action models, everything runs on top of this framework. The pipeline is LangGraph end-to-end, routing dynamically by source type. But the concept I want you to take home is skills.</p>
+<p>A skill is a unit of intelligence. We do two things nobody else does at scale. One: enterprise-grade skills shared across every agent. One library, no drift, no duplication. And two: we generate skills automatically from unstructured data. We have terabytes of data sitting in our databases. Feed these documents into the pipeline, skills emerge without a single engineer writing them by hand. And on top, a unified tool layer —</p>
+<p>MCP compatible. Every tool secured for any AI agent. You want it? It&#x27;s there. Is it secure? Already done. Today, over 50-plus agents are in production, every single one built on ToyotaGPT. Every one is a config file. From GearPull on the plant floor, to Gura, the long-term memory of the entire enterprise — the Toyota Way, Toyota&#x27;s culture and principles codified into an agent — and two vehicle AI experts</p>
+<p>that know every Toyota model, every spec, every history, all queryable in seconds. Let me walk you through a few to show you what this platform actually makes possible. GearPull started as a hackathon idea. One of our team members, Braden Buffard, had a vision. What if every manufacturing engineer could just type the problem and get the answer instantly? Today, GearPull sits on terabytes of data</p>
+<p>in our vector databases, serving every manufacturing plant across North America. Here&#x27;s the reality it replaced. When a production line goes down, an engineer walks to a bookshelf and pulls a manual, flips through the pages, manually searching for information, and fixes the problem. That takes hours and sometimes days. But if a production line stops for a few hours, we lose millions of dollars because we&#x27;re not making cars.</p>
+<p>Today: type the problem, get the solution in 10 seconds. From hackathon idea to millions of dollars in savings. That&#x27;s GearPull. R&amp;D GPT. This is close to my heart. Every color you see on a Toyota on the road, we created that from scratch. We created the paint from scratch. Years of R&amp;D testing in extreme cold, extreme heat, to make sure the quality doesn&#x27;t degrade. A year, sometimes two, sometimes two to four years.</p>
+<p>Today, R&amp;D GPT learns from decades of our own past research. Deep research is really helping us solve that. Now, techniques emerging from old technology, old knowledge — what used to take multiple years, now compressed because our own institutional knowledge is now searchable, connectable, and queryable within seconds. And then KadyaGPT, the design agent that lives inside the tool designer. Already using new car designs, existing parts, existing designs,</p>
+<p>it can query best practices, find differences, identify patterns without ever leaving their canvas. Zero context switching — the AI is just there in the workflow, exactly where it needs to be. When we started our journey with Harrison, nothing existed. We built the entire ingestion formatted from scratch, from PDF files. The LangChain ecosystem came to life and then we built the framework using LangChain, LangGraph, and deep agents.</p>
+<p>Dynamic graphs automatically populating. We built the skills engine — intelligence that generates itself. We built the tool layer: MCP-ready, enterprise-secured. We took a hackathon idea and turned it into terabytes of production. 50 agents, millions of dollars in savings. Built from zero, from scratch. We learned every single thing as we went. We didn&#x27;t wait for the industry to catch up. We went ahead and built it. Now, Kordel is going to show us something that genuinely</p>
+<p>surprised us about everything we built. Toyota invented the philosophy behind it, I think, on the factory floor in 1988. Kordel, it&#x27;s yours. Thanks, Ravi. [APPLAUSE] Toyota is arguably the best automotive manufacturer in the world, and by extension, one of the largest and best hardware manufacturers. And it got there through something called</p>
+<p>the Toyota Production System. The Toyota Production System, or TPS, is a philosophy, a framework, for building a lot of anything, really, really quickly and with really minimal resources. So by extension, it&#x27;s a philosophy on how we can build vehicles on a manufacturing line very leanly, with minimal staffing, minimal resources — make a manufacturing line modular, make it robust, so that it&#x27;s amenable to breakdowns and keep continuous flow from raw materials all the way</p>
+<p>to when a car comes out at the other end of the manufacturing line. The principles of TPS are really the backbone for any scaled hardware manufacturing line that we see today. It started with Toyota. It&#x27;s been fashioned over the course of almost 100 years, but really became formalized in the &#x27;80s — as Ravi mentioned — in order to help Japan, who had far fewer resources than North America, compete on the North American automotive front. TPS is the backbone</p>
+<p>for all hardware manufacturing today. And we see a very similar parallel between TPS and LangChain. LangChain is the modern backbone on which all next-generation software and agent workflows will be manufactured. The principles from hardware manufacturing translate really well into agent manufacturing. It&#x27;s just a matter of the substrate — the matter that we&#x27;re manufacturing. And so this has been a really pleasing and quite awesome experience not only to use</p>
+<p>LangChain&#x27;s products but to become more embedded in their ecosystem, because they embody the ethos from which Toyota was founded and all of the principles that our team shares and works with every day. So a couple of TPS principles that are pretty easy to identify with LangChain — starting with the Andon board. The Andon board in manufacturing is a way to see what&#x27;s going on really quickly without having to survey the whole manufacturing floor. What&#x27;s broken down? What needs supplies?</p>
+<p>What&#x27;s going well? You allocate resources to bolster another part of the manufacturing line that&#x27;s dwindling. And LangSmith is the literal embodiment of an Andon board. We can see observability over all of our agents in real time. Understand what tool calls aren&#x27;t working, what features we should focus on for the next PR, for the next product release, and what&#x27;s going well with our users. What are the frustration points? How do we better serve our users and improve our software? LangSmith is the direct analog of the Andon board.</p>
+<p>One term you all are probably familiar with is Kaizen, which is continuous improvement through slow and steady, but consistent modifications. And software engineering culture really embodies that. We&#x27;re always pushing PRs, we&#x27;re always bolstering new products, and we push updates regularly — sometimes nightly. The great thing about Kaizen is that from the LangSmith perspective, or LangChain perspective, there&#x27;s really a macro level at which Kaizen is being implemented and a micro level.</p>
+<p>At the macro level, the software is always improving. Harrison just announced a bunch of new features today that are going to be a huge advantage to the ecosystem — already published. And then at the micro level, there are agents that are continuously improving. A very rudimentary example might be the ReAct agent — something that&#x27;s always monitoring its output and continuously improving it to make sure that before it presents the final response to the user, it&#x27;s actually correct and does what the user intended.</p>
+<p>So this philosophy of continuous improvement through steady and consistent changes is something we embody at Toyota and are delighted to see with LangChain throughout the whole ecosystem. My personal favorite is the principle of Jidoka. Translated literally, it means automation with a human touch. And what LangGraph does really well is it automates a lot, or abstracts a lot of the nuance and monotony that, as an engineer, I don&#x27;t want to have to deal with</p>
+<p>or don&#x27;t care to deal with. But it keeps me in the loop. It keeps me plugged in so that I still have the values of a human and can still guide the product as it&#x27;s being developed and deployed. And Jidoka is really like a handshake deal between AI, automation, and a human — to say: I understand each role that you play, and I understand we&#x27;re going to have to adapt as technology progresses. On the manufacturing line, Jidoka means that a human understands we need automation in order to manufacture things very leanly and very efficiently.</p>
+<p>But as technology evolves, a human&#x27;s role will change, because that automation will change. But a human is still critical to ensuring high quality of products and delivery to the final customer. So, yeah, LangGraph is a literal embodiment of the Jidoka principle, which we love. The next term is Genchi Gembutsu. This means to literally go to the source and understand what&#x27;s going on. Try to find the root cause of the problem. We can&#x27;t figure things out on a Teams call.</p>
+<p>If there&#x27;s a manufacturing issue in Texas, we can&#x27;t sit in California and try to figure out what&#x27;s going on. The best way to solve the problem is to go to the manufacturing line, actually touch the hardware, understand the root cause of the problem, and then proliferate the solution throughout the rest of the manufacturing line so that we Kaizen the remedy. LangSmith traces are a direct embodiment of Genchi Gembutsu. For every query, every tool call, I can see the entire trace, the entire route to the solution. And if there&#x27;s an issue, I can see exactly what caused it.</p>
+<p>And so it goes beyond the Andon board by giving me direct insight into what the problem is for any one of my products, my bots, my agents, and helps me as an engineer not have to sift through logs or spend a lot of time debugging. I can go directly to the problem, try to solve it, and keep our products up and running for our customers. LangChain is a direct embodiment of the Toyota Production System philosophy. And while the framework is timeless,</p>
+<p>and TPS is the bedrock for all hardware manufacturing today, it hadn&#x27;t been well translated into software or agentic manufacturing of agents — until LangChain. LangChain carries the legacy of TPS forward, allowing all these principles to be carried over into manufacturing for the new era of software engineering. And so I&#x27;m really excited to see where LangChain is going to go, because our cultures are so similar.</p>
+<p>And I fully believe that in the next few years — and actually probably now — the entire AI industry will look to LangChain as the TPS, or the LangChain Production System — the bedrock on which all the SaaS services, companies, et cetera, the entire industry is built on. [APPLAUSE]</p>
+
+</details>

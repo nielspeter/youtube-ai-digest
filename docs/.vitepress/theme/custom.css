@@ -6,6 +6,7 @@
   margin: 1rem 0 2rem;
 }
 .video-card {
+  position: relative;
   display: flex;
   flex-direction: column;
   border: 1px solid var(--vp-c-divider);
@@ -29,6 +30,63 @@
   color: var(--vp-c-text-2);
   margin-top: auto;
 }
+
+/* Read/unread state — applied client-side from localStorage after hydration */
+.video-card.is-read img {
+  opacity: 0.4;
+  filter: saturate(0.5);
+}
+.video-card.is-read .video-title { color: var(--vp-c-text-2); font-weight: 500; }
+.video-card.is-read::after {
+  content: '✓';
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+  width: 1.4rem;
+  height: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--vp-c-brand-1);
+  color: var(--vp-c-bg);
+  font-size: 0.8rem;
+  line-height: 1;
+}
+html.hide-read .video-card.is-read { display: none; }
+html.hide-read .channel-emptied { display: none; }
+
+.read-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 0 0 1.5rem;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  font-size: 0.85rem;
+}
+.read-stat { color: var(--vp-c-text-2); margin-right: auto; }
+.read-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  cursor: pointer;
+  user-select: none;
+}
+.read-controls button {
+  padding: 0.25rem 0.6rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 5px;
+  color: var(--vp-c-text-2);
+  transition: color 0.2s, border-color 0.2s;
+}
+.read-controls button:hover:not(:disabled) {
+  color: var(--vp-c-brand-1);
+  border-color: var(--vp-c-brand-1);
+}
+.read-controls button:disabled { opacity: 0.45; cursor: default; }
 
 /* Collapsible verbatim transcript on a summary page */
 .transcript {

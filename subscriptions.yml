@@ -4,11 +4,13 @@
 # data/channels.json, so you can just paste handles here.
 channels:
   - "@ColeMedin"
+  - "@LangChain"
   - "@MetalSole"
   - "@OpenAI"
   - "@aiDotEngineer"
   - "@anthropic-ai"
   - "@betterstack"
+  - "@googledeepmind"
   - "@indydevdan"
   - "@matthew_berman"
   - "@mattpocockuk"

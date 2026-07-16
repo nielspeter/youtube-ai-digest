@@ -1,17 +1,16 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import DefaultTheme from 'vitepress/theme'
-import { useRoute } from 'vitepress'
+import { useData } from 'vitepress'
 import ReadControls from './ReadControls.vue'
 import ReadTracker from './ReadTracker.vue'
 
 const { Layout } = DefaultTheme
-const route = useRoute()
+const { page } = useData()
 
-const isHome = computed(() => {
-  const path = route.path.replace(/index\.html$/, '').replace(/\.html$/, '')
-  return path === '/' || path === ''
-})
+// relativePath is independent of the deployed base path, which is '/' locally
+// but '/<repo>/' on GitHub Pages.
+const isHome = computed(() => page.value.relativePath === 'index.md')
 </script>
 
 <template>

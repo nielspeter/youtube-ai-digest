@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **163** videos summarized.
+Auto-generated summaries of subscribed channels. **168** videos summarized.
 
 ## AI Engineer
 
@@ -119,6 +119,11 @@ Auto-generated summaries of subscribed channels. **163** videos summarized.
 <a class="video-card" href="summaries/google-deepmind/1DtMiRKg-cs"><img loading="lazy" src="https://i.ytimg.com/vi/1DtMiRKg-cs/hqdefault.jpg" alt=""><span class="video-title">Understanding the inner thoughts of AI</span><span class="video-date">2026-07-10</span></a>
 <a class="video-card" href="summaries/google-deepmind/V04bm-3d6EQ"><img loading="lazy" src="https://i.ytimg.com/vi/V04bm-3d6EQ/hqdefault.jpg" alt=""><span class="video-title">When millions of AI agents meet</span><span class="video-date">2026-06-23</span></a>
 <a class="video-card" href="summaries/google-deepmind/aSY_vFFmkW0"><img loading="lazy" src="https://i.ytimg.com/vi/aSY_vFFmkW0/hqdefault.jpg" alt=""><span class="video-title">Generating novel scientific hypotheses with Co-Scientist</span><span class="video-date">2026-05-19</span></a>
+<a class="video-card" href="summaries/google-deepmind/Cnuj24PjWrQ"><img loading="lazy" src="https://i.ytimg.com/vi/Cnuj24PjWrQ/hqdefault.jpg" alt=""><span class="video-title">Using AI to outsmart drug-resistant bacteria</span><span class="video-date">2026-05-19</span></a>
+<a class="video-card" href="summaries/google-deepmind/exh1vwGlrSo"><img loading="lazy" src="https://i.ytimg.com/vi/exh1vwGlrSo/hqdefault.jpg" alt=""><span class="video-title">Understanding cancer at a genetic level with AI</span><span class="video-date">2026-05-19</span></a>
+<a class="video-card" href="summaries/google-deepmind/wd5ZZV8if54"><img loading="lazy" src="https://i.ytimg.com/vi/wd5ZZV8if54/hqdefault.jpg" alt=""><span class="video-title">Predicting a historic storm earlier with WeatherNext</span><span class="video-date">2026-05-19</span></a>
+<a class="video-card" href="summaries/google-deepmind/pZNzfQLgGsA"><img loading="lazy" src="https://i.ytimg.com/vi/pZNzfQLgGsA/hqdefault.jpg" alt=""><span class="video-title">Reimagining the mouse pointer with AI</span><span class="video-date">2026-05-13</span></a>
+<a class="video-card" href="summaries/google-deepmind/udnhu43tTfk"><img loading="lazy" src="https://i.ytimg.com/vi/udnhu43tTfk/hqdefault.jpg" alt=""><span class="video-title">Teaching the foundations of AI in the classroom</span><span class="video-date">2026-04-09</span></a>
 </div>
 
 ## LangChain

@@ -2464,8 +2464,8 @@
       "published": "2026-07-14T13:04:39+00:00",
       "url": "https://www.youtube.com/watch?v=R-Yqes8AotY",
       "channel_slug": "google-deepmind",
-      "status": "no_transcript",
-      "attempts": 2
+      "attempts": 2,
+      "status": "blocked"
     },
     "1DtMiRKg-cs": {
       "status": "done",
@@ -2531,31 +2531,31 @@
       "generated": "2026-07-16T21:19:55+00:00"
     },
     "Cnuj24PjWrQ": {
-      "video_id": "Cnuj24PjWrQ",
+      "status": "done",
       "title": "Using AI to outsmart drug-resistant bacteria",
       "channel": "Google DeepMind",
+      "channel_slug": "google-deepmind",
       "published": "2026-05-19T17:51:04+00:00",
       "url": "https://www.youtube.com/watch?v=Cnuj24PjWrQ",
-      "channel_slug": "google-deepmind",
-      "status": "pending"
+      "generated": "2026-07-16T22:08:29+00:00"
     },
     "exh1vwGlrSo": {
-      "video_id": "exh1vwGlrSo",
+      "status": "done",
       "title": "Understanding cancer at a genetic level with AI",
       "channel": "Google DeepMind",
+      "channel_slug": "google-deepmind",
       "published": "2026-05-19T17:50:59+00:00",
       "url": "https://www.youtube.com/watch?v=exh1vwGlrSo",
-      "channel_slug": "google-deepmind",
-      "status": "pending"
+      "generated": "2026-07-16T22:09:01+00:00"
     },
     "wd5ZZV8if54": {
-      "video_id": "wd5ZZV8if54",
+      "status": "done",
       "title": "Predicting a historic storm earlier with WeatherNext",
       "channel": "Google DeepMind",
+      "channel_slug": "google-deepmind",
       "published": "2026-05-19T17:50:53+00:00",
       "url": "https://www.youtube.com/watch?v=wd5ZZV8if54",
-      "channel_slug": "google-deepmind",
-      "status": "pending"
+      "generated": "2026-07-16T22:09:27+00:00"
     },
     "AEH6dBOnE_U": {
       "video_id": "AEH6dBOnE_U",
@@ -2567,13 +2567,13 @@
       "status": "short"
     },
     "pZNzfQLgGsA": {
-      "video_id": "pZNzfQLgGsA",
+      "status": "done",
       "title": "Reimagining the mouse pointer with AI",
       "channel": "Google DeepMind",
+      "channel_slug": "google-deepmind",
       "published": "2026-05-13T09:07:06+00:00",
       "url": "https://www.youtube.com/watch?v=pZNzfQLgGsA",
-      "channel_slug": "google-deepmind",
-      "status": "pending"
+      "generated": "2026-07-16T22:09:53+00:00"
     },
     "6VV5Gvmtrl4": {
       "video_id": "6VV5Gvmtrl4",
@@ -2585,13 +2585,13 @@
       "status": "short"
     },
     "udnhu43tTfk": {
-      "video_id": "udnhu43tTfk",
+      "status": "done",
       "title": "Teaching the foundations of AI in the classroom",
       "channel": "Google DeepMind",
+      "channel_slug": "google-deepmind",
       "published": "2026-04-09T13:27:40+00:00",
       "url": "https://www.youtube.com/watch?v=udnhu43tTfk",
-      "channel_slug": "google-deepmind",
-      "status": "pending"
+      "generated": "2026-07-16T22:10:15+00:00"
     }
   }
 }

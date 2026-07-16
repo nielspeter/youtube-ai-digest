@@ -4,11 +4,12 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **144** videos summarized.
+Auto-generated summaries of subscribed channels. **146** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/iCj_ATyThvc"><img loading="lazy" src="https://i.ytimg.com/vi/iCj_ATyThvc/hqdefault.jpg" alt=""><span class="video-title">An AI Agent Became the #1 Contributor in OpenAI&#x27;s Hiring Challenge — Zhengyao Jiang, Weco</span><span class="video-date">2026-07-16</span></a>
 <a class="video-card" href="summaries/ai-engineer/ZSQb5fzRFPw"><img loading="lazy" src="https://i.ytimg.com/vi/ZSQb5fzRFPw/hqdefault.jpg" alt=""><span class="video-title">Computer-Use 2.0: Agents Just Got Multi-Cursor — Francesco Bonacci, Cua</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/ai-engineer/q4Tr-DknG2M"><img loading="lazy" src="https://i.ytimg.com/vi/q4Tr-DknG2M/hqdefault.jpg" alt=""><span class="video-title">Recursive Model Improvement — Lee Robinson, Cursor, SpaceXAI</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/ai-engineer/uU5Gv2h8-9g"><img loading="lazy" src="https://i.ytimg.com/vi/uU5Gv2h8-9g/hqdefault.jpg" alt=""><span class="video-title">Simon Willison in conversation with Cat Wu &amp; Thariq Shihipar, Anthropic</span><span class="video-date">2026-07-15</span></a>
@@ -169,6 +170,7 @@ Auto-generated summaries of subscribed channels. **144** videos summarized.
 ## OpenAI
 
 <div class="video-grid">
+<a class="video-card" href="summaries/openai/dB6pOolO7io"><img loading="lazy" src="https://i.ytimg.com/vi/dB6pOolO7io/hqdefault.jpg" alt=""><span class="video-title">ChatGPT can now complete tasks on your computer</span><span class="video-date">2026-07-16</span></a>
 <a class="video-card" href="summaries/openai/KNPjRpNtQ7s"><img loading="lazy" src="https://i.ytimg.com/vi/KNPjRpNtQ7s/hqdefault.jpg" alt=""><span class="video-title">What racing reveals about working with AI — the OpenAI Podcast Ep. 22</span><span class="video-date">2026-07-16</span></a>
 <a class="video-card" href="summaries/openai/Xk-X1TI2pQ4"><img loading="lazy" src="https://i.ytimg.com/vi/Xk-X1TI2pQ4/hqdefault.jpg" alt=""><span class="video-title">The AI Era Needs a Different Kind of Talent | Peter Steinberger | OpenAI France</span><span class="video-date">2026-07-16</span></a>
 <a class="video-card" href="summaries/openai/Fu3WWi-pAv4"><img loading="lazy" src="https://i.ytimg.com/vi/Fu3WWi-pAv4/hqdefault.jpg" alt=""><span class="video-title">Think AI-First: Emmanuel Marill on Building AI-Native Companies | OpenAI France</span><span class="video-date">2026-07-16</span></a>

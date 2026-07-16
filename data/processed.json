@@ -2222,6 +2222,78 @@
       "url": "https://www.youtube.com/watch?v=m9fRiMjhf1Y",
       "channel_slug": "ai-native-dev",
       "status": "short"
+    },
+    "DVQ-Y6poojY": {
+      "status": "done",
+      "title": "Watch Fable Turn 628 Million Tokens Into a Professional Game",
+      "channel": "Matt Maher",
+      "channel_slug": "matt-maher",
+      "published": "2026-07-16T15:37:18+00:00",
+      "url": "https://www.youtube.com/watch?v=DVQ-Y6poojY",
+      "generated": "2026-07-16T17:41:33+00:00"
+    },
+    "KNPjRpNtQ7s": {
+      "status": "done",
+      "title": "What racing reveals about working with AI — the OpenAI Podcast Ep. 22",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-16T17:00:16+00:00",
+      "url": "https://www.youtube.com/watch?v=KNPjRpNtQ7s",
+      "generated": "2026-07-16T17:37:58+00:00"
+    },
+    "Xk-X1TI2pQ4": {
+      "status": "done",
+      "title": "The AI Era Needs a Different Kind of Talent | Peter Steinberger | OpenAI France",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-16T15:37:36+00:00",
+      "url": "https://www.youtube.com/watch?v=Xk-X1TI2pQ4",
+      "generated": "2026-07-16T17:39:48+00:00"
+    },
+    "Fu3WWi-pAv4": {
+      "status": "done",
+      "title": "Think AI-First: Emmanuel Marill on Building AI-Native Companies | OpenAI France",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-16T15:37:30+00:00",
+      "url": "https://www.youtube.com/watch?v=Fu3WWi-pAv4",
+      "generated": "2026-07-16T17:40:25+00:00"
+    },
+    "1fL_lwsdMd4": {
+      "status": "done",
+      "title": "Stop Prompting. Start Giving AI Goals. | Katia Gil Guzman | OpenAI France",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-16T15:37:20+00:00",
+      "url": "https://www.youtube.com/watch?v=1fL_lwsdMd4",
+      "generated": "2026-07-16T17:40:51+00:00"
+    },
+    "W0mU8zgop60": {
+      "status": "done",
+      "title": "From AI Pilots to Production | François Weider on Enterprise Adoption | OpenAI France",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-16T15:37:16+00:00",
+      "url": "https://www.youtube.com/watch?v=W0mU8zgop60",
+      "generated": "2026-07-16T17:42:36+00:00"
+    },
+    "K9_G-v8AE_s": {
+      "status": "done",
+      "title": "What Great AI Founders Do Differently | Laura Modiano | OpenAI France",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-16T15:37:12+00:00",
+      "url": "https://www.youtube.com/watch?v=K9_G-v8AE_s",
+      "generated": "2026-07-16T17:43:20+00:00"
+    },
+    "jaYDbeQTUR0": {
+      "status": "done",
+      "title": "Have a Crazy Idea? Build It with Codex | Romain Huet | OpenAI France",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-16T15:37:08+00:00",
+      "url": "https://www.youtube.com/watch?v=jaYDbeQTUR0",
+      "generated": "2026-07-16T17:43:37+00:00"
     }
   }
 }

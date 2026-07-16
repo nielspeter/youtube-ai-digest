@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **136** videos summarized.
+Auto-generated summaries of subscribed channels. **144** videos summarized.
 
 ## AI Engineer
 
@@ -112,6 +112,12 @@ Auto-generated summaries of subscribed channels. **136** videos summarized.
 <a class="video-card" href="summaries/cole-medin/iICZTWcryac"><img loading="lazy" src="https://i.ytimg.com/vi/iICZTWcryac/hqdefault.jpg" alt=""><span class="video-title">Claude Plans, Gemini Designs: The Workflow to Build BEAUTIFUL Frontends</span><span class="video-date">2026-06-04</span></a>
 </div>
 
+## Matt Maher
+
+<div class="video-grid">
+<a class="video-card" href="summaries/matt-maher/DVQ-Y6poojY"><img loading="lazy" src="https://i.ytimg.com/vi/DVQ-Y6poojY/hqdefault.jpg" alt=""><span class="video-title">Watch Fable Turn 628 Million Tokens Into a Professional Game</span><span class="video-date">2026-07-16</span></a>
+</div>
+
 ## Matt Pocock
 
 <div class="video-grid">
@@ -163,6 +169,13 @@ Auto-generated summaries of subscribed channels. **136** videos summarized.
 ## OpenAI
 
 <div class="video-grid">
+<a class="video-card" href="summaries/openai/KNPjRpNtQ7s"><img loading="lazy" src="https://i.ytimg.com/vi/KNPjRpNtQ7s/hqdefault.jpg" alt=""><span class="video-title">What racing reveals about working with AI — the OpenAI Podcast Ep. 22</span><span class="video-date">2026-07-16</span></a>
+<a class="video-card" href="summaries/openai/Xk-X1TI2pQ4"><img loading="lazy" src="https://i.ytimg.com/vi/Xk-X1TI2pQ4/hqdefault.jpg" alt=""><span class="video-title">The AI Era Needs a Different Kind of Talent | Peter Steinberger | OpenAI France</span><span class="video-date">2026-07-16</span></a>
+<a class="video-card" href="summaries/openai/Fu3WWi-pAv4"><img loading="lazy" src="https://i.ytimg.com/vi/Fu3WWi-pAv4/hqdefault.jpg" alt=""><span class="video-title">Think AI-First: Emmanuel Marill on Building AI-Native Companies | OpenAI France</span><span class="video-date">2026-07-16</span></a>
+<a class="video-card" href="summaries/openai/1fL_lwsdMd4"><img loading="lazy" src="https://i.ytimg.com/vi/1fL_lwsdMd4/hqdefault.jpg" alt=""><span class="video-title">Stop Prompting. Start Giving AI Goals. | Katia Gil Guzman | OpenAI France</span><span class="video-date">2026-07-16</span></a>
+<a class="video-card" href="summaries/openai/W0mU8zgop60"><img loading="lazy" src="https://i.ytimg.com/vi/W0mU8zgop60/hqdefault.jpg" alt=""><span class="video-title">From AI Pilots to Production | François Weider on Enterprise Adoption | OpenAI France</span><span class="video-date">2026-07-16</span></a>
+<a class="video-card" href="summaries/openai/K9_G-v8AE_s"><img loading="lazy" src="https://i.ytimg.com/vi/K9_G-v8AE_s/hqdefault.jpg" alt=""><span class="video-title">What Great AI Founders Do Differently | Laura Modiano | OpenAI France</span><span class="video-date">2026-07-16</span></a>
+<a class="video-card" href="summaries/openai/jaYDbeQTUR0"><img loading="lazy" src="https://i.ytimg.com/vi/jaYDbeQTUR0/hqdefault.jpg" alt=""><span class="video-title">Have a Crazy Idea? Build It with Codex | Romain Huet | OpenAI France</span><span class="video-date">2026-07-16</span></a>
 <a class="video-card" href="summaries/openai/CToxp125mhc"><img loading="lazy" src="https://i.ytimg.com/vi/CToxp125mhc/hqdefault.jpg" alt=""><span class="video-title">Schedule tasks with ChatGPT</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/openai/m8uUUUsMD3Y"><img loading="lazy" src="https://i.ytimg.com/vi/m8uUUUsMD3Y/hqdefault.jpg" alt=""><span class="video-title">Introducing the Codex Micro</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/openai/roUoucb7jbI"><img loading="lazy" src="https://i.ytimg.com/vi/roUoucb7jbI/hqdefault.jpg" alt=""><span class="video-title">Schedule tasks with ChatGPT</span><span class="video-date">2026-07-15</span></a>

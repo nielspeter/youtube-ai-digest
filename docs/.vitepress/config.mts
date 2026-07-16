@@ -39,11 +39,17 @@ function buildSidebar() {
     .sort((a, b) => a.text.localeCompare(b.text))
 }
 
+// For GitHub project pages set SITE_BASE="/<repo-name>/" in the workflow.
+const base = process.env.SITE_BASE || '/'
+
 export default defineConfig({
   title: 'YouTube Digest',
   description: 'Auto-generated summaries of subscribed YouTube channels.',
-  // For GitHub project pages set SITE_BASE="/<repo-name>/" in the workflow.
-  base: process.env.SITE_BASE || '/',
+  base,
+  // Without an explicit icon the browser falls back to /favicon.ico at the
+  // origin root, which is outside `base` and always 404s. Links in `head` are
+  // not rewritten for base, so it is applied by hand.
+  head: [['link', { rel: 'icon', type: 'image/svg+xml', href: `${base}favicon.svg` }]],
   lastUpdated: true,
   cleanUrls: true,
   ignoreDeadLinks: true, // content is machine-generated; don't fail the build on odd links

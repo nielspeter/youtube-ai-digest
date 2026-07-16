@@ -2464,8 +2464,8 @@
       "published": "2026-07-14T13:04:39+00:00",
       "url": "https://www.youtube.com/watch?v=R-Yqes8AotY",
       "channel_slug": "google-deepmind",
-      "attempts": 2,
-      "status": "blocked"
+      "attempts": 3,
+      "status": "no_transcript"
     },
     "1DtMiRKg-cs": {
       "status": "done",
@@ -2592,6 +2592,15 @@
       "published": "2026-04-09T13:27:40+00:00",
       "url": "https://www.youtube.com/watch?v=udnhu43tTfk",
       "generated": "2026-07-16T22:10:15+00:00"
+    },
+    "OHVu3Y4B3RI": {
+      "status": "done",
+      "title": "How Shopify Uses ChatGPT Work to Build Faster with AI Agents",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-16T22:15:11+00:00",
+      "url": "https://www.youtube.com/watch?v=OHVu3Y4B3RI",
+      "generated": "2026-07-16T22:16:20+00:00"
     }
   }
 }

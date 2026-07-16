@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **168** videos summarized.
+Auto-generated summaries of subscribed channels. **169** videos summarized.
 
 ## AI Engineer
 
@@ -202,6 +202,7 @@ Auto-generated summaries of subscribed channels. **168** videos summarized.
 ## OpenAI
 
 <div class="video-grid">
+<a class="video-card" href="summaries/openai/OHVu3Y4B3RI"><img loading="lazy" src="https://i.ytimg.com/vi/OHVu3Y4B3RI/hqdefault.jpg" alt=""><span class="video-title">How Shopify Uses ChatGPT Work to Build Faster with AI Agents</span><span class="video-date">2026-07-16</span></a>
 <a class="video-card" href="summaries/openai/dB6pOolO7io"><img loading="lazy" src="https://i.ytimg.com/vi/dB6pOolO7io/hqdefault.jpg" alt=""><span class="video-title">ChatGPT can now complete tasks on your computer</span><span class="video-date">2026-07-16</span></a>
 <a class="video-card" href="summaries/openai/KNPjRpNtQ7s"><img loading="lazy" src="https://i.ytimg.com/vi/KNPjRpNtQ7s/hqdefault.jpg" alt=""><span class="video-title">What racing reveals about working with AI — the OpenAI Podcast Ep. 22</span><span class="video-date">2026-07-16</span></a>
 <a class="video-card" href="summaries/openai/Xk-X1TI2pQ4"><img loading="lazy" src="https://i.ytimg.com/vi/Xk-X1TI2pQ4/hqdefault.jpg" alt=""><span class="video-title">The AI Era Needs a Different Kind of Talent | Peter Steinberger | OpenAI France</span><span class="video-date">2026-07-16</span></a>

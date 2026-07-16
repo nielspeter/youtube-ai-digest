@@ -86,7 +86,21 @@ jobs:
           date -u +%FT%TZ > data/last-run
           git add data/last-run
           git diff --cached --quiet || git commit -m "chore: digest $(date -u +%F)"
-          git push
+          # main can advance while the digest is running (a push from a laptop,
+          # say), which rejects our push. Rebase onto it and retry rather than
+          # failing the run — the commit here only adds generated files.
+          for attempt in 1 2 3; do
+            git push && break
+            if [ "$attempt" -eq 3 ]; then
+              echo "::error::push still rejected after $attempt rebase attempts"
+              exit 1
+            fi
+            git pull --rebase origin "$GITHUB_REF_NAME" || {
+              git rebase --abort || true
+              echo "::error::rebase onto $GITHUB_REF_NAME hit a conflict; resolve it locally"
+              exit 1
+            }
+          done
 
       - name: Build site
         env:

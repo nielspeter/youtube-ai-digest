@@ -19,3 +19,6 @@ cookies.txt
 
 # Serena
 .serena/
+
+# Playwright MCP scratch output
+.playwright-mcp/

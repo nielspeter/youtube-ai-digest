@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **135** videos summarized.
+Auto-generated summaries of subscribed channels. **136** videos summarized.
 
 ## AI Engineer
 
@@ -77,6 +77,7 @@ Auto-generated summaries of subscribed channels. **135** videos summarized.
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/LPDWUWP9SCk"><img loading="lazy" src="https://i.ytimg.com/vi/LPDWUWP9SCk/hqdefault.jpg" alt=""><span class="video-title">Run Claude Code with Ollama for 99% Cheaper AI</span><span class="video-date">2026-07-16</span></a>
 <a class="video-card" href="summaries/better-stack/n6DIs13ilvU"><img loading="lazy" src="https://i.ytimg.com/vi/n6DIs13ilvU/hqdefault.jpg" alt=""><span class="video-title">Grok Was Caught Uploading Your Entire Codebase</span><span class="video-date">2026-07-16</span></a>
 <a class="video-card" href="summaries/better-stack/ktkDGQyRx3Y"><img loading="lazy" src="https://i.ytimg.com/vi/ktkDGQyRx3Y/hqdefault.jpg" alt=""><span class="video-title">What&#x27;s The Best Electron Alternative? Let&#x27;s Find Out.</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/better-stack/i66Bsnv12ZA"><img loading="lazy" src="https://i.ytimg.com/vi/i66Bsnv12ZA/hqdefault.jpg" alt=""><span class="video-title">Git Can’t Handle Games… So Epic Built Lore</span><span class="video-date">2026-07-14</span></a>

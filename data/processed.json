@@ -2177,6 +2177,51 @@
       "published": "2026-07-16T07:10:25+00:00",
       "url": "https://www.youtube.com/watch?v=AHIY1XccX_E",
       "generated": "2026-07-16T10:23:41+00:00"
+    },
+    "LPDWUWP9SCk": {
+      "status": "done",
+      "title": "Run Claude Code with Ollama for 99% Cheaper AI",
+      "channel": "Better Stack",
+      "channel_slug": "better-stack",
+      "published": "2026-07-16T11:00:34+00:00",
+      "url": "https://www.youtube.com/watch?v=LPDWUWP9SCk",
+      "generated": "2026-07-16T14:18:17+00:00"
+    },
+    "eEjBhVI9Qok": {
+      "video_id": "eEjBhVI9Qok",
+      "title": "Do software fundamentals still matter?",
+      "channel": "Matt Pocock",
+      "published": "2026-07-16T12:14:54+00:00",
+      "url": "https://www.youtube.com/watch?v=eEjBhVI9Qok",
+      "channel_slug": "matt-pocock",
+      "status": "short"
+    },
+    "glaIO6OYh74": {
+      "video_id": "glaIO6OYh74",
+      "title": "My /teach skill is still insane",
+      "channel": "Matt Pocock",
+      "published": "2026-07-16T11:11:11+00:00",
+      "url": "https://www.youtube.com/watch?v=glaIO6OYh74",
+      "channel_slug": "matt-pocock",
+      "status": "short"
+    },
+    "oLx4yCbeklQ": {
+      "video_id": "oLx4yCbeklQ",
+      "title": "Claude Code's system tools are SO BLOATED",
+      "channel": "Matt Pocock",
+      "published": "2026-07-16T10:20:06+00:00",
+      "url": "https://www.youtube.com/watch?v=oLx4yCbeklQ",
+      "channel_slug": "matt-pocock",
+      "status": "short"
+    },
+    "m9fRiMjhf1Y": {
+      "video_id": "m9fRiMjhf1Y",
+      "title": "Stop blindly spending tokens",
+      "channel": "AI Native Dev",
+      "published": "2026-07-16T14:00:39+00:00",
+      "url": "https://www.youtube.com/watch?v=m9fRiMjhf1Y",
+      "channel_slug": "ai-native-dev",
+      "status": "short"
     }
   }
 }

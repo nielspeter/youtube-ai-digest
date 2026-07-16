@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **154** videos summarized.
+Auto-generated summaries of subscribed channels. **163** videos summarized.
 
 ## AI Engineer
 
@@ -117,6 +117,8 @@ Auto-generated summaries of subscribed channels. **154** videos summarized.
 
 <div class="video-grid">
 <a class="video-card" href="summaries/google-deepmind/1DtMiRKg-cs"><img loading="lazy" src="https://i.ytimg.com/vi/1DtMiRKg-cs/hqdefault.jpg" alt=""><span class="video-title">Understanding the inner thoughts of AI</span><span class="video-date">2026-07-10</span></a>
+<a class="video-card" href="summaries/google-deepmind/V04bm-3d6EQ"><img loading="lazy" src="https://i.ytimg.com/vi/V04bm-3d6EQ/hqdefault.jpg" alt=""><span class="video-title">When millions of AI agents meet</span><span class="video-date">2026-06-23</span></a>
+<a class="video-card" href="summaries/google-deepmind/aSY_vFFmkW0"><img loading="lazy" src="https://i.ytimg.com/vi/aSY_vFFmkW0/hqdefault.jpg" alt=""><span class="video-title">Generating novel scientific hypotheses with Co-Scientist</span><span class="video-date">2026-05-19</span></a>
 </div>
 
 ## LangChain
@@ -129,6 +131,13 @@ Auto-generated summaries of subscribed channels. **154** videos summarized.
 <a class="video-card" href="summaries/langchain/kkL_y5t1jo4"><img loading="lazy" src="https://i.ytimg.com/vi/kkL_y5t1jo4/hqdefault.jpg" alt=""><span class="video-title">The LangChain Team Answers the Most Searched Questions About Agents</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/langchain/jv91Ruwrl0U"><img loading="lazy" src="https://i.ytimg.com/vi/jv91Ruwrl0U/hqdefault.jpg" alt=""><span class="video-title">Trace Every Codex Session in LangSmith in Minutes</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/langchain/3lb_4OEOykc"><img loading="lazy" src="https://i.ytimg.com/vi/3lb_4OEOykc/hqdefault.jpg" alt=""><span class="video-title">Lessons Learned Building Rippling AI | Interrupt 26</span><span class="video-date">2026-07-13</span></a>
+<a class="video-card" href="summaries/langchain/sBg90v2qfas"><img loading="lazy" src="https://i.ytimg.com/vi/sBg90v2qfas/hqdefault.jpg" alt=""><span class="video-title">OpenWiki Brains, general-purpose memory for agents</span><span class="video-date">2026-07-10</span></a>
+<a class="video-card" href="summaries/langchain/Lsut4TCfygw"><img loading="lazy" src="https://i.ytimg.com/vi/Lsut4TCfygw/hqdefault.jpg" alt=""><span class="video-title">LLM Wikis and how to give your agents memory</span><span class="video-date">2026-07-10</span></a>
+<a class="video-card" href="summaries/langchain/J77ro1AJGa0"><img loading="lazy" src="https://i.ytimg.com/vi/J77ro1AJGa0/hqdefault.jpg" alt=""><span class="video-title">How Podium Scaled their Agents with LangSmith and LangGraph</span><span class="video-date">2026-07-09</span></a>
+<a class="video-card" href="summaries/langchain/jLOM_ahG78c"><img loading="lazy" src="https://i.ytimg.com/vi/jLOM_ahG78c/hqdefault.jpg" alt=""><span class="video-title">Trace Every Claude Code Session in LangSmith in Minutes</span><span class="video-date">2026-07-09</span></a>
+<a class="video-card" href="summaries/langchain/_iGxqQ2J2hc"><img loading="lazy" src="https://i.ytimg.com/vi/_iGxqQ2J2hc/hqdefault.jpg" alt=""><span class="video-title">NemoClaw + dcode: A governed blueprint for AI coding agents</span><span class="video-date">2026-07-08</span></a>
+<a class="video-card" href="summaries/langchain/MxgUMBGeF14"><img loading="lazy" src="https://i.ytimg.com/vi/MxgUMBGeF14/hqdefault.jpg" alt=""><span class="video-title">How to use dcode + Nemotron 3 Ultra</span><span class="video-date">2026-07-08</span></a>
+<a class="video-card" href="summaries/langchain/Yy3JH6dDugc"><img loading="lazy" src="https://i.ytimg.com/vi/Yy3JH6dDugc/hqdefault.jpg" alt=""><span class="video-title">Jensen Huang: Why companies need open agent systems</span><span class="video-date">2026-07-08</span></a>
 </div>
 
 ## Matt Maher

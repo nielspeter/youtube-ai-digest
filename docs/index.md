@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **179** videos summarized.
+Auto-generated summaries of subscribed channels. **186** videos summarized.
 
 ## AI Engineer
 
@@ -136,6 +136,7 @@ Auto-generated summaries of subscribed channels. **179** videos summarized.
 ## LangChain
 
 <div class="video-grid">
+<a class="video-card" href="summaries/langchain/GbzEDgcuGJU"><img loading="lazy" src="https://i.ytimg.com/vi/GbzEDgcuGJU/hqdefault.jpg" alt=""><span class="video-title">Deep Agents Explained</span><span class="video-date">2026-07-17</span></a>
 <a class="video-card" href="summaries/langchain/IoTJ0qMc4Hk"><img loading="lazy" src="https://i.ytimg.com/vi/IoTJ0qMc4Hk/hqdefault.jpg" alt=""><span class="video-title">LangSmith: The Agent Engineering Platform</span><span class="video-date">2026-07-17</span></a>
 <a class="video-card" href="summaries/langchain/mxweSHetuN8"><img loading="lazy" src="https://i.ytimg.com/vi/mxweSHetuN8/hqdefault.jpg" alt=""><span class="video-title">How Abridge Built AI For Healthcare | Interrupt 26</span><span class="video-date">2026-07-17</span></a>
 <a class="video-card" href="summaries/langchain/NxJjMvDN6aE"><img loading="lazy" src="https://i.ytimg.com/vi/NxJjMvDN6aE/hqdefault.jpg" alt=""><span class="video-title">OpenWiki 0.2 is adopting the OKF spec</span><span class="video-date">2026-07-16</span></a>
@@ -240,6 +241,17 @@ Auto-generated summaries of subscribed channels. **179** videos summarized.
 <a class="video-card" href="summaries/openai/5X5CALvYvp0"><img loading="lazy" src="https://i.ytimg.com/vi/5X5CALvYvp0/hqdefault.jpg" alt=""><span class="video-title">Meet a mathematician solving previously unsolvable math problems with GPT-5.6</span><span class="video-date">2026-07-09</span></a>
 <a class="video-card" href="summaries/openai/hWhfrR9WJ_c"><img loading="lazy" src="https://i.ytimg.com/vi/hWhfrR9WJ_c/hqdefault.jpg" alt=""><span class="video-title">Meet the broccoli farmer running his farm with GPT-5.6.</span><span class="video-date">2026-07-09</span></a>
 <a class="video-card" href="summaries/openai/A5VgJ0KZgKs"><img loading="lazy" src="https://i.ytimg.com/vi/A5VgJ0KZgKs/hqdefault.jpg" alt=""><span class="video-title">Meet a family running a cereal business from their dining room with GPT-5.6.</span><span class="video-date">2026-07-09</span></a>
+</div>
+
+## Ray Amjad
+
+<div class="video-grid">
+<a class="video-card" href="summaries/ray-amjad/XLA-sTSJ-Wc"><img loading="lazy" src="https://i.ytimg.com/vi/XLA-sTSJ-Wc/hqdefault.jpg" alt=""><span class="video-title">How Claude Code&#x27;s Creator Just Shared ACTUALLY Uses Claude Code</span><span class="video-date">2026-07-17</span></a>
+<a class="video-card" href="summaries/ray-amjad/EVyhcfo_Zsw"><img loading="lazy" src="https://i.ytimg.com/vi/EVyhcfo_Zsw/hqdefault.jpg" alt=""><span class="video-title">Anthropic Just Dropped a New Kind of Subagent</span><span class="video-date">2026-07-14</span></a>
+<a class="video-card" href="summaries/ray-amjad/B1sYKOWVHR0"><img loading="lazy" src="https://i.ytimg.com/vi/B1sYKOWVHR0/hqdefault.jpg" alt=""><span class="video-title">You Only Have 1 Day Left With Fable 5. Maximize It.</span><span class="video-date">2026-07-05</span></a>
+<a class="video-card" href="summaries/ray-amjad/hMgB1bjkI7o"><img loading="lazy" src="https://i.ytimg.com/vi/hMgB1bjkI7o/hqdefault.jpg" alt=""><span class="video-title">I Spent a Day With Anthropic Engineers. Here&#x27;s Their REAL Workflow.</span><span class="video-date">2026-07-05</span></a>
+<a class="video-card" href="summaries/ray-amjad/1sMHcJMxYqo"><img loading="lazy" src="https://i.ytimg.com/vi/1sMHcJMxYqo/hqdefault.jpg" alt=""><span class="video-title">Claude Code + Anki = Learn ANYTHING!</span><span class="video-date">2026-06-20</span></a>
+<a class="video-card" href="summaries/ray-amjad/2-0lxK2wgJ8"><img loading="lazy" src="https://i.ytimg.com/vi/2-0lxK2wgJ8/hqdefault.jpg" alt=""><span class="video-title">Loop Engineering: The Future of AI Coding?</span><span class="video-date">2026-06-09</span></a>
 </div>
 
 ## The Pragmatic Engineer

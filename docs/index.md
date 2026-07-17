@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **186** videos summarized.
+Auto-generated summaries of subscribed channels. **193** videos summarized.
 
 ## AI Engineer
 
@@ -252,6 +252,13 @@ Auto-generated summaries of subscribed channels. **186** videos summarized.
 <a class="video-card" href="summaries/ray-amjad/hMgB1bjkI7o"><img loading="lazy" src="https://i.ytimg.com/vi/hMgB1bjkI7o/hqdefault.jpg" alt=""><span class="video-title">I Spent a Day With Anthropic Engineers. Here&#x27;s Their REAL Workflow.</span><span class="video-date">2026-07-05</span></a>
 <a class="video-card" href="summaries/ray-amjad/1sMHcJMxYqo"><img loading="lazy" src="https://i.ytimg.com/vi/1sMHcJMxYqo/hqdefault.jpg" alt=""><span class="video-title">Claude Code + Anki = Learn ANYTHING!</span><span class="video-date">2026-06-20</span></a>
 <a class="video-card" href="summaries/ray-amjad/2-0lxK2wgJ8"><img loading="lazy" src="https://i.ytimg.com/vi/2-0lxK2wgJ8/hqdefault.jpg" alt=""><span class="video-title">Loop Engineering: The Future of AI Coding?</span><span class="video-date">2026-06-09</span></a>
+<a class="video-card" href="summaries/ray-amjad/c0gVowvMR-g"><img loading="lazy" src="https://i.ytimg.com/vi/c0gVowvMR-g/hqdefault.jpg" alt=""><span class="video-title">Anthropic Just Dropped the Update Everyone&#x27;s Obsessed With: Dynamic Workflows</span><span class="video-date">2026-05-22</span></a>
+<a class="video-card" href="summaries/ray-amjad/p88mkfPkOZc"><img loading="lazy" src="https://i.ytimg.com/vi/p88mkfPkOZc/hqdefault.jpg" alt=""><span class="video-title">The Codex Feature That&#x27;s Going Viral Right Now</span><span class="video-date">2026-05-04</span></a>
+<a class="video-card" href="summaries/ray-amjad/_QGgk9F9CSM"><img loading="lazy" src="https://i.ytimg.com/vi/_QGgk9F9CSM/hqdefault.jpg" alt=""><span class="video-title">Anthropic Just Dropped the Biggest Subagent Upgrade Yet</span><span class="video-date">2026-04-23</span></a>
+<a class="video-card" href="summaries/ray-amjad/ASAaKhK1B5w"><img loading="lazy" src="https://i.ytimg.com/vi/ASAaKhK1B5w/hqdefault.jpg" alt=""><span class="video-title">Even Anthropic Engineers Use This Claude Code Workflow</span><span class="video-date">2026-04-15</span></a>
+<a class="video-card" href="summaries/ray-amjad/MpSf7EN5dhc"><img loading="lazy" src="https://i.ytimg.com/vi/MpSf7EN5dhc/hqdefault.jpg" alt=""><span class="video-title">Claude Code just shipped the monitor tool</span><span class="video-date">2026-04-10</span></a>
+<a class="video-card" href="summaries/ray-amjad/rj7xi-s4Ssg"><img loading="lazy" src="https://i.ytimg.com/vi/rj7xi-s4Ssg/hqdefault.jpg" alt=""><span class="video-title">Anthropic Just Dropped the Feature That Makes Sonnet Feel Like Opus</span><span class="video-date">2026-04-09</span></a>
+<a class="video-card" href="summaries/ray-amjad/UNhA17l6CWw"><img loading="lazy" src="https://i.ytimg.com/vi/UNhA17l6CWw/hqdefault.jpg" alt=""><span class="video-title">Anthropic Just Dropped Ultra Plan for Claude Code</span><span class="video-date">2026-04-06</span></a>
 </div>
 
 ## The Pragmatic Engineer

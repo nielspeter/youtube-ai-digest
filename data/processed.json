@@ -2781,7 +2781,8 @@
       "url": "https://www.youtube.com/watch?v=uIiA6DquRiE",
       "channel_slug": "ai-engineer",
       "attempts": 1,
-      "status": "blocked"
+      "status": "too_long",
+      "minutes": 140
     },
     "RGSFUqzqErE": {
       "status": "done",
@@ -2892,58 +2893,58 @@
       "generated": "2026-07-17T18:01:19+00:00"
     },
     "c0gVowvMR-g": {
-      "video_id": "c0gVowvMR-g",
+      "status": "done",
       "title": "Anthropic Just Dropped the Update Everyone's Obsessed With: Dynamic Workflows",
       "channel": "Ray Amjad",
+      "channel_slug": "ray-amjad",
       "published": "2026-05-22T12:43:24+00:00",
       "url": "https://www.youtube.com/watch?v=c0gVowvMR-g",
-      "channel_slug": "ray-amjad",
-      "status": "blocked"
+      "generated": "2026-07-17T19:24:39+00:00"
     },
     "p88mkfPkOZc": {
-      "video_id": "p88mkfPkOZc",
+      "status": "done",
       "title": "The Codex Feature That's Going Viral Right Now",
       "channel": "Ray Amjad",
+      "channel_slug": "ray-amjad",
       "published": "2026-05-04T12:21:36+00:00",
       "url": "https://www.youtube.com/watch?v=p88mkfPkOZc",
-      "channel_slug": "ray-amjad",
-      "status": "pending"
+      "generated": "2026-07-17T19:26:16+00:00"
     },
     "_QGgk9F9CSM": {
-      "video_id": "_QGgk9F9CSM",
+      "status": "done",
       "title": "Anthropic Just Dropped the Biggest Subagent Upgrade Yet",
       "channel": "Ray Amjad",
+      "channel_slug": "ray-amjad",
       "published": "2026-04-23T11:42:28+00:00",
       "url": "https://www.youtube.com/watch?v=_QGgk9F9CSM",
-      "channel_slug": "ray-amjad",
-      "status": "pending"
+      "generated": "2026-07-17T19:27:50+00:00"
     },
     "ASAaKhK1B5w": {
-      "video_id": "ASAaKhK1B5w",
+      "status": "done",
       "title": "Even Anthropic Engineers Use This Claude Code Workflow",
       "channel": "Ray Amjad",
+      "channel_slug": "ray-amjad",
       "published": "2026-04-15T11:13:49+00:00",
       "url": "https://www.youtube.com/watch?v=ASAaKhK1B5w",
-      "channel_slug": "ray-amjad",
-      "status": "pending"
+      "generated": "2026-07-17T19:28:56+00:00"
     },
     "MpSf7EN5dhc": {
-      "video_id": "MpSf7EN5dhc",
+      "status": "done",
       "title": "Claude Code just shipped the monitor tool",
       "channel": "Ray Amjad",
+      "channel_slug": "ray-amjad",
       "published": "2026-04-10T07:41:50+00:00",
       "url": "https://www.youtube.com/watch?v=MpSf7EN5dhc",
-      "channel_slug": "ray-amjad",
-      "status": "pending"
+      "generated": "2026-07-17T19:29:47+00:00"
     },
     "rj7xi-s4Ssg": {
-      "video_id": "rj7xi-s4Ssg",
+      "status": "done",
       "title": "Anthropic Just Dropped the Feature That Makes Sonnet Feel Like Opus",
       "channel": "Ray Amjad",
+      "channel_slug": "ray-amjad",
       "published": "2026-04-09T23:46:24+00:00",
       "url": "https://www.youtube.com/watch?v=rj7xi-s4Ssg",
-      "channel_slug": "ray-amjad",
-      "status": "pending"
+      "generated": "2026-07-17T19:30:37+00:00"
     },
     "EhiJX0WvRz4": {
       "video_id": "EhiJX0WvRz4",
@@ -2952,16 +2953,16 @@
       "published": "2026-04-09T11:03:54+00:00",
       "url": "https://www.youtube.com/watch?v=EhiJX0WvRz4",
       "channel_slug": "ray-amjad",
-      "status": "pending"
+      "status": "blocked"
     },
     "UNhA17l6CWw": {
-      "video_id": "UNhA17l6CWw",
+      "status": "done",
       "title": "Anthropic Just Dropped Ultra Plan for Claude Code",
       "channel": "Ray Amjad",
+      "channel_slug": "ray-amjad",
       "published": "2026-04-06T02:02:07+00:00",
       "url": "https://www.youtube.com/watch?v=UNhA17l6CWw",
-      "channel_slug": "ray-amjad",
-      "status": "pending"
+      "generated": "2026-07-17T19:31:19+00:00"
     }
   }
 }

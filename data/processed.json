@@ -2610,6 +2610,42 @@
       "url": "https://www.youtube.com/watch?v=fnPMkEe6Nik",
       "channel_slug": "openai",
       "status": "short"
+    },
+    "eBUyTS7SzV4": {
+      "status": "done",
+      "title": "Closing Keynote: Garry Tan, Y Combinator",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-17T01:00:06+00:00",
+      "url": "https://www.youtube.com/watch?v=eBUyTS7SzV4",
+      "generated": "2026-07-17T03:34:07+00:00"
+    },
+    "Z2Erdirpudo": {
+      "video_id": "Z2Erdirpudo",
+      "title": "Imagination Engineering — Eve Bouffard, Head of Design, Y Combinator",
+      "channel": "AI Engineer",
+      "published": "2026-07-16T23:45:06+00:00",
+      "url": "https://www.youtube.com/watch?v=Z2Erdirpudo",
+      "channel_slug": "ai-engineer",
+      "status": "blocked"
+    },
+    "QfCpRTLSOB4": {
+      "status": "done",
+      "title": "Kimi K3 Is Fable Level... (they should be worried)",
+      "channel": "Better Stack",
+      "channel_slug": "better-stack",
+      "published": "2026-07-17T01:00:17+00:00",
+      "url": "https://www.youtube.com/watch?v=QfCpRTLSOB4",
+      "generated": "2026-07-17T03:32:52+00:00"
+    },
+    "eHfskBecYMw": {
+      "video_id": "eHfskBecYMw",
+      "title": "Apple Won't Tell You This About USB-C Cables",
+      "channel": "Better Stack",
+      "published": "2026-07-16T22:57:47+00:00",
+      "url": "https://www.youtube.com/watch?v=eHfskBecYMw",
+      "channel_slug": "better-stack",
+      "status": "short"
     }
   }
 }

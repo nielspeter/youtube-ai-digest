@@ -4,11 +4,12 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **169** videos summarized.
+Auto-generated summaries of subscribed channels. **171** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/eBUyTS7SzV4"><img loading="lazy" src="https://i.ytimg.com/vi/eBUyTS7SzV4/hqdefault.jpg" alt=""><span class="video-title">Closing Keynote: Garry Tan, Y Combinator</span><span class="video-date">2026-07-17</span></a>
 <a class="video-card" href="summaries/ai-engineer/iCj_ATyThvc"><img loading="lazy" src="https://i.ytimg.com/vi/iCj_ATyThvc/hqdefault.jpg" alt=""><span class="video-title">An AI Agent Became the #1 Contributor in OpenAI&#x27;s Hiring Challenge — Zhengyao Jiang, Weco</span><span class="video-date">2026-07-16</span></a>
 <a class="video-card" href="summaries/ai-engineer/ZSQb5fzRFPw"><img loading="lazy" src="https://i.ytimg.com/vi/ZSQb5fzRFPw/hqdefault.jpg" alt=""><span class="video-title">Computer-Use 2.0: Agents Just Got Multi-Cursor — Francesco Bonacci, Cua</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/ai-engineer/q4Tr-DknG2M"><img loading="lazy" src="https://i.ytimg.com/vi/q4Tr-DknG2M/hqdefault.jpg" alt=""><span class="video-title">Recursive Model Improvement — Lee Robinson, Cursor, SpaceXAI</span><span class="video-date">2026-07-15</span></a>
@@ -78,6 +79,7 @@ Auto-generated summaries of subscribed channels. **169** videos summarized.
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/QfCpRTLSOB4"><img loading="lazy" src="https://i.ytimg.com/vi/QfCpRTLSOB4/hqdefault.jpg" alt=""><span class="video-title">Kimi K3 Is Fable Level... (they should be worried)</span><span class="video-date">2026-07-17</span></a>
 <a class="video-card" href="summaries/better-stack/LPDWUWP9SCk"><img loading="lazy" src="https://i.ytimg.com/vi/LPDWUWP9SCk/hqdefault.jpg" alt=""><span class="video-title">Run Claude Code with Ollama for 99% Cheaper AI</span><span class="video-date">2026-07-16</span></a>
 <a class="video-card" href="summaries/better-stack/n6DIs13ilvU"><img loading="lazy" src="https://i.ytimg.com/vi/n6DIs13ilvU/hqdefault.jpg" alt=""><span class="video-title">Grok Was Caught Uploading Your Entire Codebase</span><span class="video-date">2026-07-16</span></a>
 <a class="video-card" href="summaries/better-stack/ktkDGQyRx3Y"><img loading="lazy" src="https://i.ytimg.com/vi/ktkDGQyRx3Y/hqdefault.jpg" alt=""><span class="video-title">What&#x27;s The Best Electron Alternative? Let&#x27;s Find Out.</span><span class="video-date">2026-07-15</span></a>

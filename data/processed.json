@@ -2646,6 +2646,33 @@
       "url": "https://www.youtube.com/watch?v=eHfskBecYMw",
       "channel_slug": "better-stack",
       "status": "short"
+    },
+    "NrMxfDipDKU": {
+      "video_id": "NrMxfDipDKU",
+      "title": "The Webhook Rabbit Hole Nobody Warns You About (Alex from Hookdeck)",
+      "channel": "Better Stack",
+      "published": "2026-07-17T08:30:10+00:00",
+      "url": "https://www.youtube.com/watch?v=NrMxfDipDKU",
+      "channel_slug": "better-stack",
+      "status": "short"
+    },
+    "jsR_2hMPewY": {
+      "video_id": "jsR_2hMPewY",
+      "title": "Kimi K3 just beat FABLE.",
+      "channel": "Matthew Berman",
+      "published": "2026-07-17T09:09:19+00:00",
+      "url": "https://www.youtube.com/watch?v=jsR_2hMPewY",
+      "channel_slug": "matthew-berman",
+      "status": "short"
+    },
+    "mB74LGAmmV0": {
+      "status": "done",
+      "title": "Daniel Jones & Tomasz Maj - More software, faster - Odevo's AI Native transformation - AI DevCon '26",
+      "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
+      "published": "2026-07-17T05:53:27+00:00",
+      "url": "https://www.youtube.com/watch?v=mB74LGAmmV0",
+      "generated": "2026-07-17T10:09:50+00:00"
     }
   }
 }

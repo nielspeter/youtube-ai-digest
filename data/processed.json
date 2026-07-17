@@ -2700,6 +2700,51 @@
       "url": "https://www.youtube.com/watch?v=A0scuiiGBC4",
       "channel_slug": "matt-pocock",
       "status": "short"
+    },
+    "mxweSHetuN8": {
+      "status": "done",
+      "title": "How Abridge Built AI For Healthcare | Interrupt 26",
+      "channel": "LangChain",
+      "channel_slug": "langchain",
+      "published": "2026-07-17T12:40:27+00:00",
+      "url": "https://www.youtube.com/watch?v=mxweSHetuN8",
+      "generated": "2026-07-17T14:01:24+00:00"
+    },
+    "5gBQzz_5_jU": {
+      "video_id": "5gBQzz_5_jU",
+      "title": "Virgin Atlantic Turns Weeks of Work Into Hours with ChatGPT Work",
+      "channel": "OpenAI",
+      "published": "2026-07-17T13:14:34+00:00",
+      "url": "https://www.youtube.com/watch?v=5gBQzz_5_jU",
+      "channel_slug": "openai",
+      "status": "short"
+    },
+    "tyAO2zR_qZI": {
+      "status": "done",
+      "title": "Virgin Atlantic Turns Weeks of Work Into Hours with ChatGPT Work",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-17T12:55:22+00:00",
+      "url": "https://www.youtube.com/watch?v=tyAO2zR_qZI",
+      "generated": "2026-07-17T13:59:49+00:00"
+    },
+    "zj48xrUJCx0": {
+      "video_id": "zj48xrUJCx0",
+      "title": "27 Billion Parameter AI Just Ran on a Phone (No Cloud Needed) #ai #aitools #bonsai",
+      "channel": "Better Stack",
+      "published": "2026-07-17T13:30:15+00:00",
+      "url": "https://www.youtube.com/watch?v=zj48xrUJCx0",
+      "channel_slug": "better-stack",
+      "status": "short"
+    },
+    "WvfacC0FtbE": {
+      "status": "done",
+      "title": "Postgres was rewritten in Rust… and somehow passed every test",
+      "channel": "Better Stack",
+      "channel_slug": "better-stack",
+      "published": "2026-07-17T12:00:16+00:00",
+      "url": "https://www.youtube.com/watch?v=WvfacC0FtbE",
+      "generated": "2026-07-17T14:02:37+00:00"
     }
   }
 }

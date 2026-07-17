@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **173** videos summarized.
+Auto-generated summaries of subscribed channels. **176** videos summarized.
 
 ## AI Engineer
 
@@ -81,6 +81,7 @@ Auto-generated summaries of subscribed channels. **173** videos summarized.
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/WvfacC0FtbE"><img loading="lazy" src="https://i.ytimg.com/vi/WvfacC0FtbE/hqdefault.jpg" alt=""><span class="video-title">Postgres was rewritten in Rust… and somehow passed every test</span><span class="video-date">2026-07-17</span></a>
 <a class="video-card" href="summaries/better-stack/QfCpRTLSOB4"><img loading="lazy" src="https://i.ytimg.com/vi/QfCpRTLSOB4/hqdefault.jpg" alt=""><span class="video-title">Kimi K3 Is Fable Level... (they should be worried)</span><span class="video-date">2026-07-17</span></a>
 <a class="video-card" href="summaries/better-stack/LPDWUWP9SCk"><img loading="lazy" src="https://i.ytimg.com/vi/LPDWUWP9SCk/hqdefault.jpg" alt=""><span class="video-title">Run Claude Code with Ollama for 99% Cheaper AI</span><span class="video-date">2026-07-16</span></a>
 <a class="video-card" href="summaries/better-stack/n6DIs13ilvU"><img loading="lazy" src="https://i.ytimg.com/vi/n6DIs13ilvU/hqdefault.jpg" alt=""><span class="video-title">Grok Was Caught Uploading Your Entire Codebase</span><span class="video-date">2026-07-16</span></a>
@@ -133,6 +134,7 @@ Auto-generated summaries of subscribed channels. **173** videos summarized.
 ## LangChain
 
 <div class="video-grid">
+<a class="video-card" href="summaries/langchain/mxweSHetuN8"><img loading="lazy" src="https://i.ytimg.com/vi/mxweSHetuN8/hqdefault.jpg" alt=""><span class="video-title">How Abridge Built AI For Healthcare | Interrupt 26</span><span class="video-date">2026-07-17</span></a>
 <a class="video-card" href="summaries/langchain/NxJjMvDN6aE"><img loading="lazy" src="https://i.ytimg.com/vi/NxJjMvDN6aE/hqdefault.jpg" alt=""><span class="video-title">OpenWiki 0.2 is adopting the OKF spec</span><span class="video-date">2026-07-16</span></a>
 <a class="video-card" href="summaries/langchain/HbUznYhKFOc"><img loading="lazy" src="https://i.ytimg.com/vi/HbUznYhKFOc/hqdefault.jpg" alt=""><span class="video-title">The best AI agents need more humans than you think</span><span class="video-date">2026-07-16</span></a>
 <a class="video-card" href="summaries/langchain/Z4DoEXhrPC8"><img loading="lazy" src="https://i.ytimg.com/vi/Z4DoEXhrPC8/hqdefault.jpg" alt=""><span class="video-title">How 11x Built a Slack-Native Bug Triage Agent with LangSmith Fleet</span><span class="video-date">2026-07-15</span></a>
@@ -206,6 +208,7 @@ Auto-generated summaries of subscribed channels. **173** videos summarized.
 ## OpenAI
 
 <div class="video-grid">
+<a class="video-card" href="summaries/openai/tyAO2zR_qZI"><img loading="lazy" src="https://i.ytimg.com/vi/tyAO2zR_qZI/hqdefault.jpg" alt=""><span class="video-title">Virgin Atlantic Turns Weeks of Work Into Hours with ChatGPT Work</span><span class="video-date">2026-07-17</span></a>
 <a class="video-card" href="summaries/openai/OHVu3Y4B3RI"><img loading="lazy" src="https://i.ytimg.com/vi/OHVu3Y4B3RI/hqdefault.jpg" alt=""><span class="video-title">How Shopify Uses ChatGPT Work to Build Faster with AI Agents</span><span class="video-date">2026-07-16</span></a>
 <a class="video-card" href="summaries/openai/dB6pOolO7io"><img loading="lazy" src="https://i.ytimg.com/vi/dB6pOolO7io/hqdefault.jpg" alt=""><span class="video-title">ChatGPT can now complete tasks on your computer</span><span class="video-date">2026-07-16</span></a>
 <a class="video-card" href="summaries/openai/KNPjRpNtQ7s"><img loading="lazy" src="https://i.ytimg.com/vi/KNPjRpNtQ7s/hqdefault.jpg" alt=""><span class="video-title">What racing reveals about working with AI — the OpenAI Podcast Ep. 22</span><span class="video-date">2026-07-16</span></a>

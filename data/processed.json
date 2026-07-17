@@ -2673,6 +2673,33 @@
       "published": "2026-07-17T05:53:27+00:00",
       "url": "https://www.youtube.com/watch?v=mB74LGAmmV0",
       "generated": "2026-07-17T10:09:50+00:00"
+    },
+    "tLyfDIt9wHg": {
+      "video_id": "tLyfDIt9wHg",
+      "title": "This change makes /grill-me SO MUCH BETTER",
+      "channel": "Matt Pocock",
+      "published": "2026-07-17T11:20:45+00:00",
+      "url": "https://www.youtube.com/watch?v=tLyfDIt9wHg",
+      "channel_slug": "matt-pocock",
+      "status": "short"
+    },
+    "32LyZyFQhCQ": {
+      "video_id": "32LyZyFQhCQ",
+      "title": "Framework Hell, Tutorial Hell... now Skill Hell",
+      "channel": "Matt Pocock",
+      "published": "2026-07-17T10:34:19+00:00",
+      "url": "https://www.youtube.com/watch?v=32LyZyFQhCQ",
+      "channel_slug": "matt-pocock",
+      "status": "short"
+    },
+    "A0scuiiGBC4": {
+      "video_id": "A0scuiiGBC4",
+      "title": "Kill your MEMORY.md",
+      "channel": "Matt Pocock",
+      "published": "2026-07-17T10:10:42+00:00",
+      "url": "https://www.youtube.com/watch?v=A0scuiiGBC4",
+      "channel_slug": "matt-pocock",
+      "status": "short"
     }
   }
 }

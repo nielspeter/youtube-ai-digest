@@ -2754,6 +2754,70 @@
       "url": "https://www.youtube.com/watch?v=kJe2Nbxunco",
       "channel_slug": "ai-native-dev",
       "status": "short"
+    },
+    "IoTJ0qMc4Hk": {
+      "status": "done",
+      "title": "LangSmith: The Agent Engineering Platform",
+      "channel": "LangChain",
+      "channel_slug": "langchain",
+      "published": "2026-07-17T16:16:57+00:00",
+      "url": "https://www.youtube.com/watch?v=IoTJ0qMc4Hk",
+      "generated": "2026-07-17T17:25:48+00:00"
+    },
+    "nrqmgvc9TJ8": {
+      "video_id": "nrqmgvc9TJ8",
+      "title": "What Is an AI Agent, Actually?",
+      "channel": "LangChain",
+      "published": "2026-07-17T16:04:35+00:00",
+      "url": "https://www.youtube.com/watch?v=nrqmgvc9TJ8",
+      "channel_slug": "langchain",
+      "status": "short"
+    },
+    "uIiA6DquRiE": {
+      "video_id": "uIiA6DquRiE",
+      "title": "Special Topics in Kernels, RL, Reward Hacking in Agents — Daniel Han, Unsloth",
+      "channel": "AI Engineer",
+      "published": "2026-07-17T17:00:06+00:00",
+      "url": "https://www.youtube.com/watch?v=uIiA6DquRiE",
+      "channel_slug": "ai-engineer",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "RGSFUqzqErE": {
+      "status": "done",
+      "title": "On AI and Knowledge — Pablo Castro, Distinguished Engineer & CVP for AI Knowledge, Microsoft",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-17T16:30:06+00:00",
+      "url": "https://www.youtube.com/watch?v=RGSFUqzqErE",
+      "generated": "2026-07-17T17:24:01+00:00"
+    },
+    "1P1hJ36rxM0": {
+      "status": "done",
+      "title": "Research to Reality: Benoit Schillings, Google DeepMind, VP Research (Thinking, Reasoning, Coding)",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-17T15:24:44+00:00",
+      "url": "https://www.youtube.com/watch?v=1P1hJ36rxM0",
+      "generated": "2026-07-17T17:26:17+00:00"
+    },
+    "j1tZvvOPJqs": {
+      "video_id": "j1tZvvOPJqs",
+      "title": "Websites Know Your OS With Just 1 Line of JavaScript #javascript #didyouknow #tech",
+      "channel": "Better Stack",
+      "published": "2026-07-17T17:00:24+00:00",
+      "url": "https://www.youtube.com/watch?v=j1tZvvOPJqs",
+      "channel_slug": "better-stack",
+      "status": "short"
+    },
+    "oyuKk670wfM": {
+      "video_id": "oyuKk670wfM",
+      "title": "What is the “dark factory”?",
+      "channel": "The Pragmatic Engineer",
+      "published": "2026-07-17T16:00:11+00:00",
+      "url": "https://www.youtube.com/watch?v=oyuKk670wfM",
+      "channel_slug": "the-pragmatic-engineer",
+      "status": "short"
     }
   }
 }

@@ -4,11 +4,13 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **176** videos summarized.
+Auto-generated summaries of subscribed channels. **179** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/RGSFUqzqErE"><img loading="lazy" src="https://i.ytimg.com/vi/RGSFUqzqErE/hqdefault.jpg" alt=""><span class="video-title">On AI and Knowledge — Pablo Castro, Distinguished Engineer &amp; CVP for AI Knowledge, Microsoft</span><span class="video-date">2026-07-17</span></a>
+<a class="video-card" href="summaries/ai-engineer/1P1hJ36rxM0"><img loading="lazy" src="https://i.ytimg.com/vi/1P1hJ36rxM0/hqdefault.jpg" alt=""><span class="video-title">Research to Reality: Benoit Schillings, Google DeepMind, VP Research (Thinking, Reasoning, Coding)</span><span class="video-date">2026-07-17</span></a>
 <a class="video-card" href="summaries/ai-engineer/eBUyTS7SzV4"><img loading="lazy" src="https://i.ytimg.com/vi/eBUyTS7SzV4/hqdefault.jpg" alt=""><span class="video-title">Closing Keynote: Garry Tan, Y Combinator</span><span class="video-date">2026-07-17</span></a>
 <a class="video-card" href="summaries/ai-engineer/Z2Erdirpudo"><img loading="lazy" src="https://i.ytimg.com/vi/Z2Erdirpudo/hqdefault.jpg" alt=""><span class="video-title">Imagination Engineering — Eve Bouffard, Head of Design, Y Combinator</span><span class="video-date">2026-07-16</span></a>
 <a class="video-card" href="summaries/ai-engineer/iCj_ATyThvc"><img loading="lazy" src="https://i.ytimg.com/vi/iCj_ATyThvc/hqdefault.jpg" alt=""><span class="video-title">An AI Agent Became the #1 Contributor in OpenAI&#x27;s Hiring Challenge — Zhengyao Jiang, Weco</span><span class="video-date">2026-07-16</span></a>
@@ -134,6 +136,7 @@ Auto-generated summaries of subscribed channels. **176** videos summarized.
 ## LangChain
 
 <div class="video-grid">
+<a class="video-card" href="summaries/langchain/IoTJ0qMc4Hk"><img loading="lazy" src="https://i.ytimg.com/vi/IoTJ0qMc4Hk/hqdefault.jpg" alt=""><span class="video-title">LangSmith: The Agent Engineering Platform</span><span class="video-date">2026-07-17</span></a>
 <a class="video-card" href="summaries/langchain/mxweSHetuN8"><img loading="lazy" src="https://i.ytimg.com/vi/mxweSHetuN8/hqdefault.jpg" alt=""><span class="video-title">How Abridge Built AI For Healthcare | Interrupt 26</span><span class="video-date">2026-07-17</span></a>
 <a class="video-card" href="summaries/langchain/NxJjMvDN6aE"><img loading="lazy" src="https://i.ytimg.com/vi/NxJjMvDN6aE/hqdefault.jpg" alt=""><span class="video-title">OpenWiki 0.2 is adopting the OKF spec</span><span class="video-date">2026-07-16</span></a>
 <a class="video-card" href="summaries/langchain/HbUznYhKFOc"><img loading="lazy" src="https://i.ytimg.com/vi/HbUznYhKFOc/hqdefault.jpg" alt=""><span class="video-title">The best AI agents need more humans than you think</span><span class="video-date">2026-07-16</span></a>

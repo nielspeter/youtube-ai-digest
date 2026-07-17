@@ -1,0 +1,5 @@
+[00:00]  Agents are new kind of software. Endless inputs and non-deterministic outputs. Build them the old way and they break. Enter LangSmith, the agent engineering platform. It's model agnostic, cloud agnostic, and framework agnostic. Organizations shipping the best agents iterate with a system, and we call that system the agent development life cycle. Build, test, deploy, and monitor. You
+
+[00:30]  Build, test, deploy, and monitor. You build with our open-source frameworks. Deep Agents, LangChain, or LangGraph. LangSmith Fleet enables anyone to build agents without code. Test agents using evals and experiments. Deploy changes in one-click with LangSmith deployment. Monitor every interaction from a single dashboard.
+
+[01:04]  Governance is built into every stage of the agent development cycle with LangSmith LLM Gateway. LangSmith Engine helps you improve agents autonomously and move through the development life cycle more quickly. LangSmith Engine is your agent for agent engineering.

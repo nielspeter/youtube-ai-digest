@@ -1,0 +1,128 @@
+---
+title: "Imagination Engineering — Eve Bouffard, Head of Design, Y Combinator"
+channel: "AI Engineer"
+video_id: Z2Erdirpudo
+url: https://www.youtube.com/watch?v=Z2Erdirpudo
+published: 2026-07-16T23:45:06+00:00
+generated: 2026-07-17T06:25:24+00:00
+model: "z-ai/glm-5.2"
+thumbnail: https://i.ytimg.com/vi/Z2Erdirpudo/hqdefault.jpg
+---
+# Imagination Engineering — Eve Bouffard, Head of Design, Y Combinator
+
+[![Imagination Engineering — Eve Bouffard, Head of Design, Y Combinator](https://i.ytimg.com/vi/Z2Erdirpudo/hqdefault.jpg)](https://www.youtube.com/watch?v=Z2Erdirpudo)
+
+[Watch on YouTube](https://www.youtube.com/watch?v=Z2Erdirpudo) · **AI Engineer** · 2026-07-16
+
+## TL;DR
+Eve Bouffard, Head of Design at Y Combinator, introduces "imagination engineering" — the idea that as AI models become increasingly capable, the new bottleneck will be human imagination and the ability to generate bold ideas. She demonstrates a series of personal experiments, including a website that aggregates her stream-of-consciousness thoughts and a tool exploring the commonalities among history's greatest minds, all built rapidly with AI agents.
+
+## Key Takeaways
+- As AI models become capable of one-shotting nearly anything, the limiting factor shifts to human imagination and idea generation.
+- "Thinking in public" — sharing your stream of consciousness the way Paul Graham shares essays — can be as powerful as building in public.
+- Eve created a Slack channel called "Eve Thoughts" (inspired by a colleague's "Lewis Thoughts") to brain-dump ideas, then had Opus 4.8 build a website aggregating those thoughts.
+- The AI-generated website captured her personality: favorite art, quotes, books (some in French), tools, and projects, with extensive customization options like sliders, dark mode, and multilingual translation.
+- Claude generated a "voice on MD" file distilling her writing tone from her tweets and online writings, plus an auto-updating design language file.
+- "Shape of Minds" is a tool built the morning of the talk to explore commonalities across dimensions (thinking, obsessions, quirks, origins, routines, etc.) among history's most brilliant minds.
+- Highlights from that tool: many great minds liked to argue, were childless, took naps, and barely ate.
+- The design language of the "Shape of Minds" tool celebrated the Fable 5 campaign, using butterfly components extracted by Fable.
+- She built small personal utilities on demand — a Slack emoji picker, a custom iOS emoji search tool, and quick research reports on topics like the 10 principles of good design and Renaissance patronage.
+- She is excited about Cloud Workspaces and Conductor Cloud enabling agents to spin up on the go while traveling.
+
+## Detailed Breakdown
+
+**[00:01] — Introduction: Why "Imagination Engineering"**
+Eve opens by acknowledging the unusual title and expresses surprise at the full room. She frames the core thesis: with models becoming so capable (noting Fable 5's release that day), the bottleneck is shifting from execution to imagination. The new challenge is stretching our minds to invent things that don't currently seem possible. She references an AI-generated image of the Library of Alexandria, drawing a parallel between that ancient center of knowledge and the current moment in human history.
+
+**[01:35] — The "Eve Thoughts" Experiment**
+Eve explains her role leading design at Y Combinator and credits a former colleague named Lewis, now at Conductor, who created a Slack channel called "Lewis Thoughts" to share his stream of consciousness. Inspired by this, she created "Eve Thoughts" on the YC Slack and spent a week brain-dumping everything that crossed her mind. Two days before the talk, she asked Opus 4.8 to build a website encapsulating those thoughts. The result felt almost like AGI to her.
+
+**[03:09] — Thinking in Public, Inspired by Paul Graham**
+Eve discusses Paul Graham as one of the most intricate minds of our generation and a key reason she works at YC. She notes that PG's essays still drive people to apply to YC — he effectively "thinks in public." This inspired her experiment: what if she made her own stream of consciousness available to a trusted few at YC? She acknowledges it feels a bit sci-fi but wanted to see where it goes.
+
+**[04:10] — Demo: evebuffard.com**
+Eve shows the website the AI built from her thoughts. It picked up on her love of art (customizable backgrounds), admired quotes, YC projects, media appearances, daily tools, and life-changing books (some in French). She highlights PG's quote "live in the future and then build what's missing" as a prompt for the audience, and shares Gary's analogy that today's models are no longer a "bicycle for the mind" (Steve Jobs) but a "rocket ship for the mind."
+
+**[05:45] — Customization and Design Features**
+The website allows extensive personalization: applying "paper shaders" (a feature she loves from the design tool Paper), customizing fonts, typeface, width, dark mode, and translating everything into foreign languages. She predicts the future of design will involve "a lot of sliders." She also created a dashboard showing the website's stack, an early design system for consistency, and a checklist (generated by Claude) to hold herself accountable for completeness, including open graph images.
+
+**[08:20] — Voice and Design Language Files**
+Eve describes how the AI distilled her online writings and tweets into a markdown file capturing her unique tone and voice. A similar file was created for the website's design language, which auto-updates whenever she changes or adds components. She also created invocable "skills" for herself within the system.
+
+**[08:51] — Shape of Minds: Commonalities Among Great Minds**
+The centerpiece of the talk is "Shape of Minds," a tool Eve built starting at 10 a.m. that morning at her favorite coffee shop using Opus 4.8 (Fable wasn't out yet). It explores commonalities across dimensions — thinking, obsessions, quirks, origins, routines, prolific output, love, worldview, religion, habits, knowledge — among history's most brilliant minds. The interface is highly responsive, letting you hover over figures like Bach to see what makes them unique. She notes many were German, workaholic, and childless.
+
+**[10:23] — Highlights and Fable 5 Design Language**
+Because the data was overwhelming, Eve asked Fable to generate highlights of the most interesting commonalities. She discovers them live with the audience: many liked to argue, were childless, took naps, and barely ate. The entire design language of the tool celebrated the Fable 5 campaign — she had Fable extract butterflies from the campaign and turn them into individual design components. She also created a glossary markdown file for efficient agent readability and a personal timer to track her work deadline.
+
+**[12:59] — Personal Utilities Built On Demand**
+Eve shows smaller tools she built for herself: a Slack emoji search tool (because finding the right emoji to make colleagues smile was inefficient), a custom iOS emoji picker, and quick research reports on topics she wants to learn about — such as the 10 principles of good design and Renaissance patronage — generated for easy consumption during commutes. She expresses excitement about Cloud Workspaces and Conductor Cloud enabling agents to spin up while she's traveling.
+
+**[15:07] — Wrap-Up and Q&A Invitation**
+Eve briefly shows a backlog of changes to the website as she made final tweaks to "Shape of Minds" about 25 minutes before the talk. She ends early, emphasizing that everything is an experiment and inviting the audience to share how they're experimenting with models.
+
+## Notable Quotes
+- "The new bottleneck will be to come up with like crazy ideas because it's going to be really easy to one-shot absolutely everything and anything very soon."
+- "Live in the future and then we'll build what's missing." — Paul Graham (quoted by Eve)
+- "Computers are the bicycle of the mind" — Steve Jobs; "with Fable and these insanely capable models it's like a rocket ship for the minds" — Gary (quoted by Eve)
+- "We hear very often about building in public… but what about thinking in public?"
+- "Whatever stream of consciousness you have, you should just ask an agent to do it for you."
+- "I think the future of design will be just a lot of sliders."
+
+## People, Tools & References Mentioned
+- **Eve Bouffard** — Head of Design, Y Combinator (speaker)
+- **Paul Graham (PG)** — YC co-founder; referenced for his essays and the quote "live in the future and then build what's missing"
+- **Lewis** — former YC colleague, now at Conductor; creator of "Lewis Thoughts" Slack channel
+- **Gary** — referenced for the "rocket ship for the mind" analogy
+- **Steve Jobs** — referenced for "bicycle of the mind" quote
+- **Opus 4.8** — Claude/Anthropic model used to build the website and Shape of Minds
+- **Fable / Fable 5** — AI model released the day of the talk; used for highlights and butterfly design components
+- **Conductor / Conductor Cloud** — platform Eve is excited about for spinning up agents on the go
+- **Cloud Workspaces** — referenced as an upcoming capability
+- **Paper** — design tool Eve loves, specifically its "shaders" (cloud-code compatible)
+- **Historical figures mentioned in Shape of Minds**: Bach, Da Vinci, Salvador Dalí, Marie Curie, Nikola Tesla, Einstein
+- **Topics explored via AI reports**: 10 principles of good design, Renaissance patronage
+- **Websites**: evebuffard.com (Eve's thoughts site)
+
+## Who Should Watch
+Designers, builders, and AI-curious professionals interested in using AI as a real-time collaborator for personal knowledge management, rapid prototyping, and creative exploration. The talk is less technical and more inspirational, making it ideal for anyone wondering how to harness increasingly capable models to amplify their own thinking and output.
+
+
+<details class="transcript">
+<summary>Full transcript</summary>
+
+<p>Hi everyone. Thanks so much for coming. I&#x27;m actually really surprised that the room is so full cuz imagination engineering is like a really weird term. I&#x27;m really surprised that you showed up to learn more about it. Um the reason I called this talk imagination engineering is because I&#x27;ve been thinking about</p>
+<p>been thinking about in how incredibly capable the recent models are, especially today with Fable 5 coming back. And I think that the new bottleneck will be to come up with like crazy ideas because it&#x27;s going to be really easy to one-shot absolutely everything and anything very soon. And so I think that the thing that we can reflect on that will be the most valuable for the world right now is how to stretch our mind and how to invent things that don&#x27;t think are possible right now. And the reason I took this um that I</p>
+<p>And the reason I took this um that I created with ChatGPT this image, it&#x27;s the Library of Alexandria, which was like the center of knowledge uh many thousand years ago. And I feel like we&#x27;re in a very similar period in our in the human history right now where we should be thinking about how to consolidate all the knowledge and how to create more knowledge for our species. Um and so I thought I thought today I could share with you a really weird experiment that I started uh a week ago.</p>
+<p>uh a week ago. And I was one of the or if you don&#x27;t know, I work at YC. I lead design at YC and I have the privilege to work with wonderful, wonderful minds. The partners there are incredible. The engineers that I get to work with are phenomenal. And um there&#x27;s a wonderful person that I used to work with at YC and he&#x27;s now at Conductor. Um his name is Lewis and he created a Slack channel in the Conductor Slack called Lewis Thoughts. And ever since then, he&#x27;s been sharing his stream of consciousness of everything that hits his mind.</p>
+<p>everything that hits his mind. And it is a way for everyone on the Conductor team to see what&#x27;s going on in his mind as he&#x27;s thinking about features and how to make the product better. And I was heavily inspired by his approach, and I did the same for the YC Slack, and I created Eve Thoughts. And for a week have been brain dumping everything that has crossed my mind. And 2 days ago, I asked Opus 4.8, I wish it was Fable, but it was Opus 4.8 on Saturday to make a website that encapsulate all the thoughts that I had in the last week.</p>
+<p>thoughts that I had in the last week. And it came up with something that is quite magical and phenomenal, and I kind of felt like um it was AGI. And I&#x27;m excited to share with you the result and to share the wonder and the awe that I feel towards technology currently. Um maybe to take a take a step back before I show you the website is I work at YC, and one of the big reasons why I work at YC is many probably know about this wonderful mind, Paul Graham. He&#x27;s arguably one of the</p>
+<p>Paul Graham. He&#x27;s arguably one of the most intricate minds in our generation, and it&#x27;s one of the reasons why I work at YC. And um what I think is truly phenomenal about PG is that not only he&#x27;s a phenomenal thinker and phenomenal brain, but he also shares his brain and how his mind works with the world. And one of the main reasons why YC has been so successful is because his essays are still echoing to this day, and people are applying to YC because of his essays. And um I&#x27;ve been thinking, you know, we</p>
+<p>And um I&#x27;ve been thinking, you know, we we hear very often about like building in public, you know, building open source or like sharing how you build things. But what about thinking in public? And it&#x27;s basically what PG is doing, thinking in public. And this is the experiment that I wanted to run with Eve&#x27;s thoughts, the Slack channel on the YC channel. The YC Slack. It was what if I thought in public and I allowed a few people that I highly trust at YC to have access to my stream of consciousness. And it does feel a little bit sci-fi. Um but at the same time it&#x27;s sort of an</p>
+<p>Um but at the same time it&#x27;s sort of an experiment that I really wanted to see the light of. Um and see where it goes. So I can show you an experiment I can show you actually what it looks like. Uh evebufar. com And so this was an iteration uh no it was actually like an aggregation of all the thoughts that I&#x27;ve been dumping in this Eve Slack channel for a week. And it picked up on the fact that I love art. And so it allows me to</p>
+<p>that I love art. And so it allows me to customize the background here. Um it picked up on some of the quotes that I truly admire. It picked up on the projects that I&#x27;ve been working on at YC. Picked up on some of the media that I&#x27;ve been doing. It picked up on the tools that I use on a daily basis. It picked up on all the books that have changed my life. Some of them are in French because I grew up speaking French up until I was 21. Um the books that I want to read, some quotes. One One my favorite quote of all time is PG</p>
+<p>One my favorite quote of all time is PG quote that says live in the future and then we&#x27;ll build what&#x27;s missing. I feel like it&#x27;s a great prompt for everyone here. How can we live in the future and build and then build what&#x27;s missing? Um another So there&#x27;s this famous quote by Steve Jobs like computers are the bicycle of their minds and Gary always says that with Fable and these insanely capable models it&#x27;s like a rocket mind like a rocket ship for the minds. It&#x27;s no longer a bicycle. Um which I loved he made me laugh like on Sunday when he said that.</p>
+<p>on Sunday when he said that. Um and it also picked up on like a train of thought. Um, and like many, many thoughts cuz my brain has many, many thoughts. It&#x27;s actually like sometimes overflowing with thoughts. So, I was able to capture everything as I was brain dumping in the Slack channel. Um, I can also share a little bit more about the fun things that it came up with. Like for example, um, it loves it knows that I love paper sheeters. Paper, if you know, it&#x27;s a a new design tool. Um, I can show you the website if you want.</p>
+<p>want. I love their product. And I specifically love their sheeters. I think I can do it here. Specifically love their sheeters. They&#x27;re all cloud code compatible and you can use them for all your creative projects. And so, uh, whoops, it picked up on this. And it allows me to apply sheeters to my background. I can hide this. And you can you get to see the most beautiful pieces of art in human history with some very fun sheeters. Just kind of fun.</p>
+<p>Just kind of fun. You can do it this here. And then you can even like customize all these things. And I think the future of design will be just a lot of sliders. Um, and I can revert. And it also allowed me to uh, I can like do dark mode for the reader. Um, it allows me to customize absolutely everything about the font and typeface and the width, everything. Oh, if you speak foreign languages, it also</p>
+<p>speak foreign languages, it also converted or translated everything that is on the website depending on whatever language you want. But I think going back to the how to think in public and how to build in public, I wanted to experiment with, okay, what if I made sort of a dashboard of what this website consists of. And so, what is the stack of this website? And also some of the an early version of a design system to keep everything consistent. Um, I also experimented with toolkit to allow to hold myself accountable to make sure that everything about this um</p>
+<p>sure that everything about this um this project as a webpage is uh complete. And so, Claude made this really lovely list of all the things that I should be that I should hit including like an open graph picture and things like that. Um, but yeah, there&#x27;s so many things that I want to show here. So, I asked it to create a voice on MD which um it picked up on all the writings that it could find on the internet that was written by me including my tweets and everything and then it made it distilled it into an MD file that is my tone and what</p>
+<p>an MD file that is my tone and what makes me unique as a person. And it&#x27;s kind of crazy to read it. And I asked it to do the same for my for the design language of this website. And whenever I make a a change to the design of this website or create a new uh component, it automatically updates it. Um, and I can also show I created a few skills for myself that I can in invoke at any given point. Um but the real real fun project that I wanted to show today was</p>
+<p>today was we&#x27;re in in imagination engineering and so, thinking about how the most beautiful fertile minds in history were thinking and what is the commonality between all of these beautiful minds. And so, this morning started at 10:00 a.m. at my favorite coffee shop in the marina uh with Opus 4.8 because Fable was not out at this point. I created this really fun tool. I call it Shape of Minds and it&#x27;s a way for us to find commonality across different dimensions of the most beautiful brains in the history of</p>
+<p>most beautiful brains in the history of humanity. Um and I can show you a little bit. It is uh highly responsive. You can just hover over all of these beautiful minds and it tells you what makes this person unique or in the dimension of thinking for example, how is Bach unique? And it&#x27;s all like you can see them the spikiest minds uh based on this different dimension. So, I wanted to explore their thinking, their</p>
+<p>wanted to explore their thinking, their obsessions, their quirks, their origins, you know, it&#x27;s interesting cuz here for example, there are a lot of Germans in these uh in these great minds. Um their routine, prolific output, workaholic, unsurprisingly I guess. For love, interests, worldview, religion, habits, knowledge. And because I didn&#x27;t want to bore you too much with all of this overload of information, I asked Fable to come up with the highlights, the most</p>
+<p>with the highlights, the most interesting things that it picked up on uh when it came to the commonality or spikiness of some of these minds across the different dimensions. And there are really interesting things and I&#x27;m going to discover them with you because I haven&#x27;t had time to read them before uh presenting here cuz this was generated about 20 minutes ago, right before. Um so let&#x27;s see. I guess people these people like to to argue. Um a lot of them were childless.</p>
+<p>Uh not sure what this means. Um oh yeah, naps naps were very popular among the best minds. Um they barely ate. This is an interesting one. Um and yeah, anyway, all of this is public so if you want to uh look at the highlights, it&#x27;s um it&#x27;s quite soul nourishing and mind nourishing to look at this. Um and I also created a design so if you had not um picked up on this, the entire</p>
+<p>had not um picked up on this, the entire design language of this tool that I built this morning was in celebration of the Fable 5 campaign that came back. Um and so I asked uh Fable to extract all the butterflies from this and then turn them into individual components that I can use for the design language of this project. Um what else can I share? Um oh, this is a MD of it&#x27;s a glossary of all the information that is displayed on this project. Super</p>
+<p>that is displayed on this project. Super easily readable by the agents and it&#x27;s a lot more efficient than having the agent look at this page, obviously. And funny enough, I made this page this morning when I started working on this project and I knew that I had a a deadline to hit and so I made a timer for myself uh when I started 10:10 a.m. so that I knew exactly how much time I had to work on this project to accomplish the task that I needed to accomplish. Um and yeah, it&#x27;s all like software on demand. Whatever like whatever stream of</p>
+<p>demand. Whatever like whatever stream of consciousness you have, you should just ask an agent to do it for you. Um like all of this is AI. I have generated this picture which I kind of thought was cool. You can probably recognize some of these cool faces like Da Vinci, Salvador Dali, Marie Curie, Nikola Tesla, Einstein. Um and yeah, they&#x27;re only I have 5 minutes left. What can I share? Um I can share so</p>
+<p>I can share so I love to make people smile. I love to make people smile when I can. And um a great way for me to make people smile is to use a lot of emojis um especially in the company Slack. And um it was always a pain to find the emoji that I wanted to use to make people smile in the Slack. It was like very inefficient for me to find that. So I created this tool for myself where I can just like search for a random fun stupid Slack emoji as a reaction um for my Slack and same thing for these here. They&#x27;re kind of fun. I</p>
+<p>here. They&#x27;re kind of fun. I specifically like this one. And this is like the regular iOS emoji picker, which I kind of always struggle with. I never find the thing that I&#x27;m looking for and so I just built it for myself and you can like by a click just copy. Another fun thing that I built is I always, you know, we&#x27;re all students of life and we&#x27;re all trying to learn as much as possible and with these these new models we can</p>
+<p>and</p>
+<p>learn at a pace that was never possible before. And so whenever you have a stream of consciousness about something</p>
+<p>stream of consciousness about something that you&#x27;d like to work on you should just ask it. You should you should just get ask a a model to prepare like a little like report for you on this topic and that&#x27;s what I started doing a few few days ago. All these things are things that I would have that I love to would love to deepen my understanding of and would still make it very efficient. And so I just explored a few concepts like the 10 principles of good design and um like Renaissance patronage is also something that I&#x27;m fascinated by</p>
+<p>something that I&#x27;m fascinated by right now. And so it just cooked up like a short very short report for me that I can digest as I&#x27;m on my way to work or I&#x27;m coming back from an event or something like that. That&#x27;s why I&#x27;m so excited about Cloud Workspaces as well is because it&#x27;s going to be very possible very soon with Conductor Cloud to be able to spin off a bunch of agents on the go as I&#x27;m like traveling from one place to another. But yeah, feel like I can</p>
+<p>But yeah, feel like I can I can stop there. I don&#x27;t want to overload you with a lot of things, but another interesting thing that I created is like this the backlog of all the changes on this website as I was making the final tweaks to the shape of mine a few minutes ago, 25 minutes ago. And you can see like the evolution of that repo over time. Um But yeah. I guess I can I can end early, and if you have questions, I am happy to take it. Uh to take questions. All of this is an</p>
+<p>Uh to take questions. All of this is an experiment, and I would love to learn from you guys on how you&#x27;re experimenting with models. Um Yeah.</p>
+
+</details>

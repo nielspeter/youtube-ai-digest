@@ -2621,13 +2621,13 @@
       "generated": "2026-07-17T03:34:07+00:00"
     },
     "Z2Erdirpudo": {
-      "video_id": "Z2Erdirpudo",
+      "status": "done",
       "title": "Imagination Engineering — Eve Bouffard, Head of Design, Y Combinator",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-16T23:45:06+00:00",
       "url": "https://www.youtube.com/watch?v=Z2Erdirpudo",
-      "channel_slug": "ai-engineer",
-      "status": "blocked"
+      "generated": "2026-07-17T06:25:24+00:00"
     },
     "QfCpRTLSOB4": {
       "status": "done",

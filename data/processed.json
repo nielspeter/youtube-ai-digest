@@ -2875,13 +2875,13 @@
       "generated": "2026-07-17T18:00:20+00:00"
     },
     "i4fMF1pug3w": {
-      "video_id": "i4fMF1pug3w",
+      "status": "done",
       "title": "Anthropic Just Dropped the Biggest Subagent Upgrade Yet",
       "channel": "Ray Amjad",
+      "channel_slug": "ray-amjad",
       "published": "2026-06-10T15:00:50+00:00",
       "url": "https://www.youtube.com/watch?v=i4fMF1pug3w",
-      "channel_slug": "ray-amjad",
-      "status": "blocked"
+      "generated": "2026-07-17T21:05:54+00:00"
     },
     "2-0lxK2wgJ8": {
       "status": "done",
@@ -2947,13 +2947,13 @@
       "generated": "2026-07-17T19:30:37+00:00"
     },
     "EhiJX0WvRz4": {
-      "video_id": "EhiJX0WvRz4",
+      "status": "done",
       "title": "Claude Code Ultrareview Is Here: What You Need to Know",
       "channel": "Ray Amjad",
+      "channel_slug": "ray-amjad",
       "published": "2026-04-09T11:03:54+00:00",
       "url": "https://www.youtube.com/watch?v=EhiJX0WvRz4",
-      "channel_slug": "ray-amjad",
-      "status": "blocked"
+      "generated": "2026-07-17T21:06:27+00:00"
     },
     "UNhA17l6CWw": {
       "status": "done",

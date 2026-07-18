@@ -2972,7 +2972,7 @@
       "url": "https://www.youtube.com/watch?v=9QebvrrY3KY",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 5
+      "attempts": 6
     },
     "8c68vFpT9Tk": {
       "status": "done",
@@ -3018,6 +3018,15 @@
       "published": "2026-07-18T08:34:32+00:00",
       "url": "https://www.youtube.com/watch?v=-6SNbcE3C9o",
       "generated": "2026-07-18T09:43:47+00:00"
+    },
+    "y_tsIG43F7U": {
+      "video_id": "y_tsIG43F7U",
+      "title": "Your Dream Job Depends on a Random Number... #ai #techjobs #technology",
+      "channel": "Better Stack",
+      "published": "2026-07-18T12:00:25+00:00",
+      "url": "https://www.youtube.com/watch?v=y_tsIG43F7U",
+      "channel_slug": "better-stack",
+      "status": "short"
     }
   }
 }

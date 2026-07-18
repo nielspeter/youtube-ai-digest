@@ -4,11 +4,13 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **196** videos summarized.
+Auto-generated summaries of subscribed channels. **200** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/bZISsg7H7DA"><img loading="lazy" src="https://i.ytimg.com/vi/bZISsg7H7DA/hqdefault.jpg" alt=""><span class="video-title">Your Agents Need a Save Button - Hamza Tahir, ZenML</span><span class="video-date">2026-07-18</span></a>
+<a class="video-card" href="summaries/ai-engineer/zU4EagB311U"><img loading="lazy" src="https://i.ytimg.com/vi/zU4EagB311U/hqdefault.jpg" alt=""><span class="video-title">Agents Need Feature Flags - Sachin Gupta</span><span class="video-date">2026-07-18</span></a>
 <a class="video-card" href="summaries/ai-engineer/RGSFUqzqErE"><img loading="lazy" src="https://i.ytimg.com/vi/RGSFUqzqErE/hqdefault.jpg" alt=""><span class="video-title">On AI and Knowledge — Pablo Castro, Distinguished Engineer &amp; CVP for AI Knowledge, Microsoft</span><span class="video-date">2026-07-17</span></a>
 <a class="video-card" href="summaries/ai-engineer/1P1hJ36rxM0"><img loading="lazy" src="https://i.ytimg.com/vi/1P1hJ36rxM0/hqdefault.jpg" alt=""><span class="video-title">Research to Reality: Benoit Schillings, Google DeepMind, VP Research (Thinking, Reasoning, Coding)</span><span class="video-date">2026-07-17</span></a>
 <a class="video-card" href="summaries/ai-engineer/eBUyTS7SzV4"><img loading="lazy" src="https://i.ytimg.com/vi/eBUyTS7SzV4/hqdefault.jpg" alt=""><span class="video-title">Closing Keynote: Garry Tan, Y Combinator</span><span class="video-date">2026-07-17</span></a>
@@ -47,6 +49,7 @@ Auto-generated summaries of subscribed channels. **196** videos summarized.
 ## AI Native Dev
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-native-dev/-6SNbcE3C9o"><img loading="lazy" src="https://i.ytimg.com/vi/-6SNbcE3C9o/hqdefault.jpg" alt=""><span class="video-title">May Walter - From Blind Spots to Merged PRs: Runtime Intelligence for Continuous Agentic Performance</span><span class="video-date">2026-07-18</span></a>
 <a class="video-card" href="summaries/ai-native-dev/mB74LGAmmV0"><img loading="lazy" src="https://i.ytimg.com/vi/mB74LGAmmV0/hqdefault.jpg" alt=""><span class="video-title">Daniel Jones &amp; Tomasz Maj - More software, faster - Odevo&#x27;s AI Native transformation - AI DevCon &#x27;26</span><span class="video-date">2026-07-17</span></a>
 <a class="video-card" href="summaries/ai-native-dev/AHIY1XccX_E"><img loading="lazy" src="https://i.ytimg.com/vi/AHIY1XccX_E/hqdefault.jpg" alt=""><span class="video-title">Peter Wilson &amp; Davide Eynard - cq - Stack Overflow for Agents - AI Native DevCon June 2026</span><span class="video-date">2026-07-16</span></a>
 <a class="video-card" href="summaries/ai-native-dev/6VRKZQ3pmoU"><img loading="lazy" src="https://i.ytimg.com/vi/6VRKZQ3pmoU/hqdefault.jpg" alt=""><span class="video-title">James Moss - Using skills to pay the bills: graduating from solo hacks to a team workflow - DevCon26</span><span class="video-date">2026-07-15</span></a>
@@ -181,6 +184,7 @@ Auto-generated summaries of subscribed channels. **196** videos summarized.
 ## Matthew Berman
 
 <div class="video-grid">
+<a class="video-card" href="summaries/matthew-berman/JrVPIy9AdfQ"><img loading="lazy" src="https://i.ytimg.com/vi/JrVPIy9AdfQ/hqdefault.jpg" alt=""><span class="video-title">Did Kimi K3 really beat Fable?</span><span class="video-date">2026-07-18</span></a>
 <a class="video-card" href="summaries/matthew-berman/WMiylHobhBM"><img loading="lazy" src="https://i.ytimg.com/vi/WMiylHobhBM/hqdefault.jpg" alt=""><span class="video-title">AI NEWS LIVE</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/matthew-berman/5HTqWgt6ctk"><img loading="lazy" src="https://i.ytimg.com/vi/5HTqWgt6ctk/hqdefault.jpg" alt=""><span class="video-title">AI NEWS LIVE</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/matthew-berman/nxr20lcqagg"><img loading="lazy" src="https://i.ytimg.com/vi/nxr20lcqagg/hqdefault.jpg" alt=""><span class="video-title">Fine, I&#x27;ll finally pick one</span><span class="video-date">2026-07-15</span></a>

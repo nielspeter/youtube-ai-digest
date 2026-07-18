@@ -2972,7 +2972,7 @@
       "url": "https://www.youtube.com/watch?v=9QebvrrY3KY",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 3
+      "attempts": 4
     },
     "8c68vFpT9Tk": {
       "status": "done",
@@ -2982,6 +2982,42 @@
       "published": "2026-07-17T21:38:54+00:00",
       "url": "https://www.youtube.com/watch?v=8c68vFpT9Tk",
       "generated": "2026-07-17T23:04:36+00:00"
+    },
+    "bZISsg7H7DA": {
+      "status": "done",
+      "title": "Your Agents Need a Save Button - Hamza Tahir, ZenML",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-18T07:00:06+00:00",
+      "url": "https://www.youtube.com/watch?v=bZISsg7H7DA",
+      "generated": "2026-07-18T09:46:36+00:00"
+    },
+    "zU4EagB311U": {
+      "status": "done",
+      "title": "Agents Need Feature Flags - Sachin Gupta",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-18T07:00:06+00:00",
+      "url": "https://www.youtube.com/watch?v=zU4EagB311U",
+      "generated": "2026-07-18T09:48:11+00:00"
+    },
+    "JrVPIy9AdfQ": {
+      "status": "done",
+      "title": "Did Kimi K3 really beat Fable?",
+      "channel": "Matthew Berman",
+      "channel_slug": "matthew-berman",
+      "published": "2026-07-18T06:14:32+00:00",
+      "url": "https://www.youtube.com/watch?v=JrVPIy9AdfQ",
+      "generated": "2026-07-18T09:49:31+00:00"
+    },
+    "-6SNbcE3C9o": {
+      "status": "done",
+      "title": "May Walter - From Blind Spots to Merged PRs: Runtime Intelligence for Continuous Agentic Performance",
+      "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
+      "published": "2026-07-18T08:34:32+00:00",
+      "url": "https://www.youtube.com/watch?v=-6SNbcE3C9o",
+      "generated": "2026-07-18T09:43:47+00:00"
     }
   }
 }

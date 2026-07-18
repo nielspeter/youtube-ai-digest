@@ -3054,6 +3054,25 @@
       "published": "2026-07-18T18:15:06+00:00",
       "url": "https://www.youtube.com/watch?v=Bck7ABCZRZI",
       "generated": "2026-07-18T19:20:44+00:00"
+    },
+    "L3RuP_q8Bwc": {
+      "video_id": "L3RuP_q8Bwc",
+      "title": "The UX of AI: Making AI-Powered Apps Your Users Don't Hate - Kathryn Grayson Nanz, Progress Software",
+      "channel": "AI Engineer",
+      "published": "2026-07-18T20:30:06+00:00",
+      "url": "https://www.youtube.com/watch?v=L3RuP_q8Bwc",
+      "channel_slug": "ai-engineer",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "eAXxdtNlK04": {
+      "video_id": "eAXxdtNlK04",
+      "title": "Stop Burning Tokens: Why self-improvement needs domain expertise first - Annabell Schäfer, Langfuse",
+      "channel": "AI Engineer",
+      "published": "2026-07-18T20:15:06+00:00",
+      "url": "https://www.youtube.com/watch?v=eAXxdtNlK04",
+      "channel_slug": "ai-engineer",
+      "status": "blocked"
     }
   }
 }

@@ -3056,21 +3056,29 @@
       "generated": "2026-07-18T19:20:44+00:00"
     },
     "L3RuP_q8Bwc": {
-      "video_id": "L3RuP_q8Bwc",
+      "status": "done",
       "title": "The UX of AI: Making AI-Powered Apps Your Users Don't Hate - Kathryn Grayson Nanz, Progress Software",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-18T20:30:06+00:00",
       "url": "https://www.youtube.com/watch?v=L3RuP_q8Bwc",
-      "channel_slug": "ai-engineer",
-      "status": "no_transcript",
-      "attempts": 1
+      "generated": "2026-07-18T23:05:57+00:00"
     },
     "eAXxdtNlK04": {
-      "video_id": "eAXxdtNlK04",
+      "status": "done",
       "title": "Stop Burning Tokens: Why self-improvement needs domain expertise first - Annabell Schäfer, Langfuse",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-18T20:15:06+00:00",
       "url": "https://www.youtube.com/watch?v=eAXxdtNlK04",
+      "generated": "2026-07-18T23:06:32+00:00"
+    },
+    "3ySF0I5iE_0": {
+      "video_id": "3ySF0I5iE_0",
+      "title": "A Practitioner's Guide to Graphs - Tim Ainge, Good Collective",
+      "channel": "AI Engineer",
+      "published": "2026-07-18T21:30:06+00:00",
+      "url": "https://www.youtube.com/watch?v=3ySF0I5iE_0",
       "channel_slug": "ai-engineer",
       "status": "blocked"
     }

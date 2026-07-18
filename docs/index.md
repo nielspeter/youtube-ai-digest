@@ -4,11 +4,13 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **203** videos summarized.
+Auto-generated summaries of subscribed channels. **205** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/L3RuP_q8Bwc"><img loading="lazy" src="https://i.ytimg.com/vi/L3RuP_q8Bwc/hqdefault.jpg" alt=""><span class="video-title">The UX of AI: Making AI-Powered Apps Your Users Don&#x27;t Hate - Kathryn Grayson Nanz, Progress Software</span><span class="video-date">2026-07-18</span></a>
+<a class="video-card" href="summaries/ai-engineer/eAXxdtNlK04"><img loading="lazy" src="https://i.ytimg.com/vi/eAXxdtNlK04/hqdefault.jpg" alt=""><span class="video-title">Stop Burning Tokens: Why self-improvement needs domain expertise first - Annabell Schäfer, Langfuse</span><span class="video-date">2026-07-18</span></a>
 <a class="video-card" href="summaries/ai-engineer/Bck7ABCZRZI"><img loading="lazy" src="https://i.ytimg.com/vi/Bck7ABCZRZI/hqdefault.jpg" alt=""><span class="video-title">Stop Renting Your Cognitive Infrastructure - Thiyagarajan Maruthavanan, Kalmantic Labs</span><span class="video-date">2026-07-18</span></a>
 <a class="video-card" href="summaries/ai-engineer/yv6xovSsB1U"><img loading="lazy" src="https://i.ytimg.com/vi/yv6xovSsB1U/hqdefault.jpg" alt=""><span class="video-title">Content Is Code - Matt Palmer, Conductor</span><span class="video-date">2026-07-18</span></a>
 <a class="video-card" href="summaries/ai-engineer/Fu45geO3zX8"><img loading="lazy" src="https://i.ytimg.com/vi/Fu45geO3zX8/hqdefault.jpg" alt=""><span class="video-title">Agents Need Receipts, Not More Tool Calls - Armanas Povilionis, Alithea Bio</span><span class="video-date">2026-07-18</span></a>

@@ -4,11 +4,12 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **201** videos summarized.
+Auto-generated summaries of subscribed channels. **202** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/yv6xovSsB1U"><img loading="lazy" src="https://i.ytimg.com/vi/yv6xovSsB1U/hqdefault.jpg" alt=""><span class="video-title">Content Is Code - Matt Palmer, Conductor</span><span class="video-date">2026-07-18</span></a>
 <a class="video-card" href="summaries/ai-engineer/Fu45geO3zX8"><img loading="lazy" src="https://i.ytimg.com/vi/Fu45geO3zX8/hqdefault.jpg" alt=""><span class="video-title">Agents Need Receipts, Not More Tool Calls - Armanas Povilionis, Alithea Bio</span><span class="video-date">2026-07-18</span></a>
 <a class="video-card" href="summaries/ai-engineer/bZISsg7H7DA"><img loading="lazy" src="https://i.ytimg.com/vi/bZISsg7H7DA/hqdefault.jpg" alt=""><span class="video-title">Your Agents Need a Save Button - Hamza Tahir, ZenML</span><span class="video-date">2026-07-18</span></a>
 <a class="video-card" href="summaries/ai-engineer/zU4EagB311U"><img loading="lazy" src="https://i.ytimg.com/vi/zU4EagB311U/hqdefault.jpg" alt=""><span class="video-title">Agents Need Feature Flags - Sachin Gupta</span><span class="video-date">2026-07-18</span></a>

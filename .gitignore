@@ -10,6 +10,13 @@ node_modules/
 docs/.vitepress/dist/
 docs/.vitepress/cache/
 
+# Derived search index. Rebuildable from data/transcripts/ (which IS committed):
+#   make corpus && make embed
+# Kept out of git because SQLite rewrites pages on every update, so committing it
+# would add ~9 MB of undeltifiable binary churn per month.
+data/corpus.db
+docs/public/corpus.db
+
 # Secrets / local config
 .env
 cookies.txt

@@ -102,6 +102,52 @@ jobs:
             }
           done
 
+      # ---- searchable transcript corpus -------------------------------------
+      # data/corpus.db is derived data and stays out of git (SQLite rewrites
+      # pages on every update, which git cannot deltify). It is cached between
+      # runs instead, so each run only embeds the chunks the digest just added,
+      # then published to Pages as a static file.
+      - name: Restore corpus cache
+        uses: actions/cache/restore@v4
+        with:
+          path: data/corpus.db
+          # Exact key never hits; the prefix restores the newest previous corpus.
+          key: corpus-db-${{ github.run_id }}
+          restore-keys: corpus-db-
+
+      # Chunking is deterministic and cheap, and `build` carries existing vectors
+      # over by (video_id, start_s, text), so re-running never re-embeds.
+      - name: Build corpus
+        run: uv run scripts/corpus.py build
+
+      # Non-fatal: a rate-limited or flaky embeddings endpoint must not block the
+      # site deploy. Vectors are committed per batch, so a partial run resumes
+      # next time and the corpus stays queryable via BM25 meanwhile.
+      - name: Embed new chunks
+        continue-on-error: true
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          EMBED_MODEL: ${{ vars.EMBED_MODEL }}
+        run: uv run scripts/corpus.py embed
+
+      # Keyed on transcript content: when the digest found nothing new the key
+      # already exists and the save is skipped, so a 15 MB entry is not written
+      # every two hours.
+      - name: Save corpus cache
+        uses: actions/cache/save@v4
+        with:
+          path: data/corpus.db
+          key: corpus-db-${{ hashFiles('data/transcripts/**') }}
+
+      # Anything in docs/public/ is copied into the build output, so this ships
+      # with the site without ever being committed to the repo.
+      - name: Publish corpus to the site
+        run: |
+          mkdir -p docs/public
+          cp data/corpus.db docs/public/corpus.db
+          uv run scripts/corpus.py stats
+
       - name: Build site
         env:
           SITE_BASE: ${{ vars.SITE_BASE }}   # e.g. "/youtube-ai-trtanscriptions/" for project pages

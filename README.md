@@ -60,6 +60,68 @@ Skip `make seed` if you *want* summaries of the most recent existing videos
 | `python scripts/digest.py --limit 3` | Cap videos this run |
 | `make dev` / `make build` | Preview / build the site |
 
+## Searching the corpus
+
+The site's built-in search covers the *summaries*. To query the transcripts
+themselves — from the terminal, or from an agent — build the local index:
+
+```bash
+make corpus     # chunk transcripts into data/corpus.db  (seconds)
+make embed      # add vectors via the embeddings endpoint (incremental)
+make search Q="how should agents handle memory"
+```
+
+Transcripts are chunked into ~75s windows on their `[mm:ss]` marks, so every hit
+resolves to a moment in a video rather than to a filename:
+
+```
+The best AI agents need more humans than you think
+  LangChain · 2026-07-16 · [37:15] · rrf=0.0164
+  https://www.youtube.com/watch?v=HbUznYhKFOc&t=2235s
+```
+
+Search is hybrid: SQLite FTS5 (BM25) for exact terms like model names or `MCP`,
+plus cosine similarity over embeddings for paraphrase, fused with reciprocal
+rank fusion. The two disagree a lot — on paraphrased queries they typically
+share only 0–2 of their top 10 — which is the point of running both. Use
+`--mode bm25` or `--mode semantic` to isolate one, `--channel <slug>` to filter,
+and `--json` for machine-readable output.
+
+`data/corpus.db` is **not** committed: it is derived data, and SQLite's
+page-rewriting would add ~9 MB/month of binary churn to git. The transcripts it
+is built from *are* committed, so `make corpus && make embed` reconstructs it.
+Embedding is incremental — it only fills in chunks whose vectors are missing, so
+a routine run costs a handful of API calls.
+
+CI rebuilds the corpus on every digest run (cached between runs, so only new
+chunks are embedded) and publishes it with the site, at
+`<site-url>/corpus.db` — a SQLite file any script or agent can fetch and query
+without cloning the repo.
+
+### Querying it from an agent
+
+`scripts/mcp_server.py` exposes the same search over MCP, so an agent can cite a
+moment in a video directly:
+
+```bash
+claude mcp add youtube-corpus -- uv run "$PWD/scripts/mcp_server.py"
+```
+
+| Tool | Returns |
+|---|---|
+| `search_transcripts(query, limit, channel, mode)` | Passages with `?t=` deep links |
+| `get_transcript_window(video_id, at_seconds, window)` | Neighbouring passages for context |
+| `list_channels()` | Channel slugs and coverage |
+
+It reads `data/corpus.db` directly, so build the corpus first. Without
+`LLM_API_KEY` the server still runs and falls back to keyword-only search.
+
+Note that this does **not** change search on the website itself, which is still
+VitePress's own index over the summaries. Querying transcripts semantically
+needs the embedding model on both sides, and a browser has nowhere safe to hold
+the API key — so hybrid search lives in the CLI and in anything server-side, not
+in the page.
+
 ## Choosing the model
 
 Default is `z-ai/glm-5.2` — currently the strongest free open-weights model on

@@ -456,8 +456,9 @@ Two or three sentences capturing the essence.
 5–10 bullet points of the most important ideas.
 
 ## Detailed Breakdown
-Walk through the video section by section. Start each section with its
-approximate [mm:ss] timestamp and a short bold heading, then summarize.
+Walk through the video section by section. Head each section with a level-3
+heading naming the topic, followed by its approximate timestamp, exactly like
+`### Auto Mode and Security [31:14]` — topic first, then the [mm:ss] mark.
 
 ## Notable Quotes
 A few verbatim or closely-paraphrased quotes worth remembering.
@@ -557,6 +558,59 @@ def thumbnail_url(video_id: str) -> str:
     return f"https://i.ytimg.com/vi/{video_id}/hqdefault.jpg"
 
 
+# A [mm:ss] marker the model wrote as plain prose. Not already a link (the
+# lookahead), so re-running this is a no-op.
+TS_BARE = re.compile(r"\[(\d{1,3}):(\d{2})\](?!\()")
+# Legacy shapes, from before the prompt asked for a heading: a bold pseudo-heading,
+# and a real heading led by the timestamp.
+TS_HEADING_BOLD = re.compile(r"^\*\*\[(\d{1,3}):(\d{2})\]\s*(.+?)\*\*\s*$", re.M)
+TS_HEADING_LED = re.compile(r"^(#{2,4})\s*\[(\d{1,3}):(\d{2})\]\s*(.+?)\s*$", re.M)
+
+
+def linkify_timestamps(body: str, url: str) -> str:
+    """Make [mm:ss] markers clickable, and promote timestamped pseudo-headings
+    into real ones with the topic first:
+
+        **[31:14] Auto Mode and Security**
+        ### Auto Mode and Security [31:14](https://youtu.be/...&t=1874s)
+
+    Leading with the topic matters. The heading text is what search indexes and
+    what the anchor is derived from, so the section becomes #auto-mode-and-security
+    and matches a search for the subject — nobody searches for "[31:14]". The
+    timestamp stays, as a link that jumps to that moment in the video.
+    """
+    def link(mm: str, ss: str) -> str:
+        return f"[{mm}:{ss}]({url}&t={int(mm) * 60 + int(ss)}s)"
+
+    def topic(text: str) -> str:
+        # The timestamp often led with a separator ("[06:41] — Title"); once it
+        # moves to the end that dash would dangle at the front of the heading.
+        return re.sub(r"^[\s—–:.\-]+", "", text).strip()
+
+    # Headings first: afterwards the timestamp is no longer leading, so these
+    # patterns can't re-match, and the bare pass below only sees prose markers.
+    body = TS_HEADING_BOLD.sub(lambda m: f"### {topic(m[3])} {link(m[1], m[2])}", body)
+    body = TS_HEADING_LED.sub(lambda m: f"{m[1]} {topic(m[4])} {link(m[2], m[3])}", body)
+    return TS_BARE.sub(lambda m: link(m[1], m[2]), body)
+
+
+def relink_summaries() -> None:
+    """Apply linkify_timestamps to summaries already on disk. Idempotent."""
+    changed = 0
+    for path in sorted(SUMMARIES_DIR.rglob("*.md")):
+        text = path.read_text(encoding="utf-8")
+        url_match = re.search(r"^url:\s*(\S+)\s*$", text, re.M)
+        if not url_match:
+            continue
+        # Never touch the verbatim transcript appended at the end.
+        head, sep, tail = text.partition('\n\n<details class="transcript">')
+        updated = linkify_timestamps(head, url_match[1]) + sep + tail
+        if updated != text:
+            path.write_text(updated, encoding="utf-8")
+            changed += 1
+    print(f"relinked {changed} summary file(s)")
+
+
 def write_summary(meta: dict, body: str, transcript: str = "") -> Path:
     out_dir = SUMMARIES_DIR / meta["channel_slug"]
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -580,6 +634,7 @@ def write_summary(meta: dict, body: str, transcript: str = "") -> Path:
         f"[![{meta['title']}]({thumb})]({meta['url']})\n\n"
         f"[Watch on YouTube]({meta['url']}) · **{meta['channel']}** · {meta['published'][:10]}\n\n"
     )
+    body = linkify_timestamps(body, meta["url"])
     transcript_block = transcript_details_block(transcript) if transcript else ""
     out_path.write_text(fm + header + body + "\n" + transcript_block, encoding="utf-8")
     return out_path
@@ -731,7 +786,14 @@ def main() -> None:
                     help="summarize a single video by URL or ID (bypasses feeds)")
     ap.add_argument("--include-shorts", action="store_true",
                     help="include YouTube Shorts (skipped by default)")
+    ap.add_argument("--relink", action="store_true",
+                    help="rewrite timestamps in existing summaries as links, then exit")
     args = ap.parse_args()
+
+    # Purely local rewrite of files already on disk — no network, no state.
+    if args.relink:
+        relink_summaries()
+        return
 
     include_shorts = args.include_shorts or env("INCLUDE_SHORTS", "").lower() in ("1", "true", "yes")
     limit = args.limit if args.limit is not None else int(env("MAX_VIDEOS_PER_RUN", "25"))

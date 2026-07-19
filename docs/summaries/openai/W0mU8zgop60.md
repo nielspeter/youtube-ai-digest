@@ -30,13 +30,13 @@ François Weider highlights that enterprise customers are shifting from AI pilot
 
 ## Detailed Breakdown
 
-**[00:00] — Moving from Pilots to Production and Measuring Value**
+### Moving from Pilots to Production and Measuring Value [00:00](https://www.youtube.com/watch?v=W0mU8zgop60&t=0s)
 François opens by noting that discussions with customers reveal a clear shift: organizations are no longer just experimenting with AI pilots—they are moving into production. The key challenge for these companies is prioritization and being able to concretely measure the value AI delivers. He emphasizes the importance of working closely with customers to define the value of each use case so that investments make sense over the long term.
 
-**[00:31] — From Knowledge Access to Process Automation**
+### From Knowledge Access to Process Automation [00:31](https://www.youtube.com/watch?v=W0mU8zgop60&t=31s)
 He explains that over the past couple of years, the primary AI revolution was easier access to an enterprise's broad knowledge base, which drove productivity gains. Now, the landscape is evolving: companies are building their own agents and, beyond that, automating entire organizational processes. François identifies this shift—toward full process automation—as where the most value is being realized. He references an example mentioned on stage where someone reduced employee onboarding time by 80%, illustrating the tangible impact of this approach.
 
-**[01:01] — Executives as Role Models and the Impact of Codex**
+### Executives as Role Models and the Impact of Codex [01:01](https://www.youtube.com/watch?v=W0mU8zgop60&t=61s)
 François argues that company leaders must serve as role models for AI adoption. He points to Codex, a tool originally developed for developers, and notes that its most striking impact is now being seen when executives use it to build their own applications. When leaders personally use these tools and showcase their work to employees, it can fundamentally change how the wider organization approaches and works with AI.
 
 ## Notable Quotes

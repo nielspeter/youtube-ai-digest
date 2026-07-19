@@ -26,10 +26,10 @@ This is an extremely brief, music-heavy promotional clip from OpenAI announcing 
 - No technical details, demos, or explanations are provided in the spoken content.
 
 ## Detailed Breakdown
-**[00:10] Opening Teaser**
+### Opening Teaser [00:10](https://www.youtube.com/watch?v=IYYTI73J7Rg&t=10s)
 The video opens with music and a brief spoken cue: "Light it up." This sets an energetic, promotional tone but provides no substantive information about the feature being announced.
 
-**[00:41] Repeated Motivational Phrasing**
+### Repeated Motivational Phrasing [00:41](https://www.youtube.com/watch?v=IYYTI73J7Rg&t=41s)
 The same phrases recur — "Here we go," "Light it up," and "We're going to light it up" — again accompanied by music. No additional context, demonstrations, or explanations of the ChatGPT computer use feature or the Live Picture-in-Picture mode are included in the spoken transcript.
 
 ## Notable Quotes

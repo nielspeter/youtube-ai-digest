@@ -31,16 +31,16 @@ Jason Patel, CTO at 11X, shares how his company built a Slack-native bug triage 
 
 ## Detailed Breakdown
 
-**[00:00] — Introduction and the Bug Triage Problem**
+### Introduction and the Bug Triage Problem [00:00](https://www.youtube.com/watch?v=Z4DoEXhrPC8&t=0s)
 Jason Patel introduces himself as CTO of 11X, a company that builds AI software for go-to-market teams. The initial problem was bringing AI into the bug filing and triaging process. Customer Success Managers (CSMs) file bugs, and the goal was to have AI automatically investigate and triage those issues. A PM had already created a process for this, but it was running off his personal machine, making it unsustainable. Jason wanted a solution where he could build agents without writing code or deploying infrastructure, and Slack integration was a critical requirement—he also didn't want to build his own Slack app.
 
-**[00:31] — Discovering Fleet and Slack-Native Design**
+### Discovering Fleet and Slack-Native Design [00:31](https://www.youtube.com/watch?v=Z4DoEXhrPC8&t=31s)
 Jason discovered LangSmith Fleet and was initially skeptical that its capabilities could be real. The agent's user experience is designed around Slack: employees simply talk to it by tagging it in channels. Everyone in the company knows the agent's identity, and it lives in all the main channels, making access frictionless.
 
-**[01:02] — Expanding from Bug Triage to a General-Purpose Agent**
+### Expanding from Bug Triage to a General-Purpose Agent [01:02](https://www.youtube.com/watch?v=Z4DoEXhrPC8&t=62s)
 After building the bug triage agent, Jason identified two more use cases: triaging Datadog alerts that arrive in Slack, and a general Q&A agent. He realized the tools he had already built for bug triage were sufficient for these additional use cases, so he integrated them into the same agent. This revealed a broader pattern: he could keep folding new use cases into a single agent, increasing its capabilities until it became a general-purpose agent powering the entire organization. People now ask it a wide variety of questions, and salespeople even use it live on calls to answer product questions.
 
-**[01:33] — Next Steps: Democratizing Agent Building Across the Company**
+### Next Steps: Democratizing Agent Building Across the Company [01:33](https://www.youtube.com/watch?v=Z4DoEXhrPC8&t=93s)
 The bots and agents built so far were created by a small handful of people. Jason's next step is to enable the rest of the organization to build their own agents using Fleet, because it is both easy to use and powerful. He wants individuals and teams to automate their own workflows. He closes with a strong endorsement: if you can enable just one use case, you'll understand Fleet's power and immediately want to build ten more.
 
 ## Notable Quotes

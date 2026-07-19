@@ -33,16 +33,16 @@ Garry Tan, president of Y Combinator, argues that AI-native companies—where ag
 
 ## Detailed Breakdown
 
-### [00:01] Opening: What Do We Build?
+### Opening: What Do We Build? [00:01](https://www.youtube.com/watch?v=eBUyTS7SzV4&t=1s)
 Tan opens by reframing the question "What do we build?" from the perspective of both a founder and an investor who now runs a 20-year-old institution (YC) that is becoming AI-native. He sets the stakes: people in the room will soon do in an hour what used to take a thousand people, and some will walk into Startup Battlefield knowing what's now possible.
 
-### [01:01] The 400x Number
+### The 400x Number [01:01](https://www.youtube.com/watch?v=eBUyTS7SzV4&t=61s)
 Tan revisits a controversial claim: in 2013, as a YC partner writing code, he produced about 14–15 usable logical lines of code per day—consistent with industry norms at the time. This year, running YC full-time with fewer hours, his output is roughly 400x. He pre-emptively deflates the number himself: even with the most pessimistic assumptions about bloated agent-generated code, the floor is still 8x. The critical insight: the 2x and 100x people use the exact same model. The leverage is in how the work is wired, not in the weights.
 
-### [03:06] Evidence from YC Batches
+### Evidence from YC Batches [03:06](https://www.youtube.com/watch?v=eBUyTS7SzV4&t=186s)
 In the Winter 2025 batch, a quarter of companies had codebases that were 95% AI-generated. That batch became the fastest-growing, most profitable in YC history. Tan can't prove causation, but observes that the fastest-growing founders treat AI as a workforce, not autocomplete.
 
-### [04:11] Wiring the Work: The Org Map
+### Wiring the Work: The Org Map [04:11](https://www.youtube.com/watch?v=eBUyTS7SzV4&t=251s)
 This is the core of the talk. Tan maps AI engineering concepts to organizational structures:
 - **Skill file** = an employee with one clearly written job.
 - **Resolver table** = an org chart that routes tasks to the right handler.
@@ -51,37 +51,37 @@ This is the core of the talk. Tan maps AI engineering concepts to organizational
 
 When you sit down with Claude Code or Codex, you're not writing software—you're hiring, training, and managing a workforce made of markdown.
 
-### [06:14] AI-Native Companies in Practice
+### AI-Native Companies in Practice [06:14](https://www.youtube.com/watch?v=eBUyTS7SzV4&t=374s)
 Tan cites Emergence (Summer 2024 batch), which went from public launch to nine-figure ARR in 8 months with only 15 people at $15M ARR, and Retail (Winter 2024), at $60M with ~40 people. This revenue-per-head never existed before in any industry. AI-native companies encode sales, support, ops, and finance as skill files; engineers maintain the skills and do the work skills can't do yet.
 
-### [07:50] YC's Own Transformation
+### YC's Own Transformation [07:50](https://www.youtube.com/watch?v=eBUyTS7SzV4&t=470s)
 At YC, non-engineers—media, events, finance—are building skill files and cron jobs. A finance team member collapsed ~100 Excel workbooks into a single app using YC's internal tools. Everyone at YC is now a manager of agents, which is why YC runs at scale with a tiny staff.
 
-### [08:53] Latent Space vs. Deterministic Space
+### Latent Space vs. Deterministic Space [08:53](https://www.youtube.com/watch?v=eBUyTS7SzV4&t=533s)
 A key engineering discipline: know where computation is happening. **Latent space** (the LLM) handles taste, judgment, understanding vague human intent—steered by markdown. **Deterministic space** (your code) handles logic and storage. Bugs arise when something that belongs in one space is done in the other. Example: seating 800 people at Startup School requires the LLM for human judgment but the seat-assignment storage must live in deterministic space, not the context window.
 
-### [10:57] Working Memory: Seven Digits vs. Three Harry Potter Books
+### Working Memory: Seven Digits vs. Three Harry Potter Books [10:57](https://www.youtube.com/watch?v=eBUyTS7SzV4&t=657s)
 Humans hold ~7 items in working memory (the famous cognitive psychology finding). Every institution—checklists, org charts, filing cabinets—is a prosthetic for that limit. An AI agent holds ~1,000 pages (a million tokens), roughly three Harry Potter books. But your company is a library, not three books. The decisive question: who picks which three books are open? That's context engineering.
 
-### [13:01] The Company Brain: Not Just RAG
+### The Company Brain: Not Just RAG [13:01](https://www.youtube.com/watch?v=eBUyTS7SzV4&t=781s)
 Tan acknowledges retrieval is the primitive (like B-trees in Postgres), but the hard part is everything around it: what gets written down, how it's enriched and linked, hot vs. cold memory, and contradiction arbitration. "Retrieval is easy. Being worth retrieving from is the product." He introduces GBrain, his open-source project—effectively Postgres for agents that determines what context to load for any given task.
 
-### [14:04] GBrain in Practice
+### GBrain in Practice [14:04](https://www.youtube.com/watch?v=eBUyTS7SzV4&t=844s)
 Tan's personal GBrain holds ~220,000 pages, mostly written by agents from his emails, meetings, and 20 years of notes. When a founder emails about a crisis, his agent has already pulled prior conversations and relevant patterns from portfolio companies before he finishes reading. That's the difference between an assistant and a colleague.
 
-### [14:37] Failure Modes and Hygiene
+### Failure Modes and Hygiene [14:37](https://www.youtube.com/watch?v=eBUyTS7SzV4&t=877s)
 A brain nobody curates becomes a garbage dump with great search. A bad skill file encodes a bad process forever. The primitive is memory **plus hygiene**: provenance on every fact, contradiction checks, and a human-plus-agent librarian whose job is pruning. Treat it like production infrastructure and it compounds; treat it like a dumping ground and you get a confidently wrong agent.
 
-### [15:08] Never Do One-Off Work: Skillify It
+### Never Do One-Off Work: Skillify It [15:08](https://www.youtube.com/watch?v=eBUyTS7SzV4&t=908s)
 Tan's signature discipline: after completing any task with an agent and being happy with the output, don't stop—skillify it. Convert the work into a reusable skill file. If you have to ask for something twice, you failed. Organizations that capture what they learn get smarter daily; those that don't wake up with amnesia. "Model quality is rented. But if you build your brain, you own that brain."
 
-### [16:41] What to Build Now
+### What to Build Now [16:41](https://www.youtube.com/watch?v=eBUyTS7SzV4&t=1001s)
 Build the AI-native company—not one that merely uses AI, but one shaped from day one as a thin team with skill files for everything and a compounding company brain. For the green-field opportunity: every company on earth will need a brain. GBrain is open-source and free, but the space is wide open. Tan explicitly invites founders to build the defining company here and says he'll fund them at YC.
 
-### [17:43] Tool-Agnostic; Concepts Are the Point
+### Tool-Agnostic; Concepts Are the Point [17:43](https://www.youtube.com/watch?v=eBUyTS7SzV4&t=1063s)
 Tan is honest about not needing his tools: Open Claw is the Ferrari, Codex is a solid Honda that does 90% of the job. The concepts—skill files as employees, the library, the librarian, never doing one-off work—travel to any stack.
 
-### [18:15] Closing: Abundance Is Shipped Software
+### Closing: Abundance Is Shipped Software [18:15](https://www.youtube.com/watch?v=eBUyTS7SzV4&t=1095s)
 Tan addresses job fears directly: "That is a failure of imagination and the people in this room are the answer to it." He tells the story of a friend with a son who has rare epilepsy, who built an 80,000-markdown-file knowledge base pushing the edge of what humanity knows about his son's condition—no lab, no grant, just a father, a laptop, and a library. That's the exact architecture Tan described: library, librarian, the right three books open at the right moment. He closes by urging everyone to build the AI-native company, build the brain underneath it, and "go boil the ocean."
 
 ## Notable Quotes

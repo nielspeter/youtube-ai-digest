@@ -31,22 +31,22 @@ Grok's coding CLI was caught uploading users' entire codebases—including Git h
 
 ## Detailed Breakdown
 
-**[00:00] Initial Discovery and Severity**
+### Initial Discovery and Severity [00:00](https://www.youtube.com/watch?v=n6DIs13ilvU&t=0s)
 The video opens with alarming reports that Grok's coding CLI uploaded entire user directories to xAI servers, including SSH keys, password manager databases, documents, photos, and videos. The tool also uploaded full repository contents and Git history, including files it was explicitly told not to open and secrets that had been deleted from Git history. The host frames this as a serious and massive mistake by the Grok team.
 
-**[00:31] Viral Tweet and Investigation**
+### Viral Tweet and Investigation [00:31](https://www.youtube.com/watch?v=n6DIs13ilvU&t=31s)
 The story gained traction from a tweet advising users to run a grep command on their Grok logs, warning "you will be pissed." Hundreds of users confirmed similar findings. One user who ran Grok in their home directory discovered the entire directory was uploaded. Further investigation revealed the CLI shipped what was described as a "malware-like background code collector."
 
-**[01:01] Researcher Seriblab's MITM Proxy Analysis**
+### Researcher Seriblab's MITM Proxy Analysis [01:01](https://www.youtube.com/watch?v=n6DIs13ilvU&t=61s)
 Researcher Seriblab used MITM proxy to inspect Grok CLI's network traffic. When opening Grok in a repo and sending the prompt "reply okay, do not open any files," Grok uploaded the entire repo anyway via a POST request containing the full repo bundle, Git history, and environment variables. The upload worked even on a 12 GB repository. Testing Claude Code, Codex, and Gemini showed they only send files they actually read, confirming this was unique to Grok CLI. Disabling the "help improve this model" setting did not stop the behavior; a server-side flag `trace upload enable` was always set to `true`.
 
-**[02:03] xAI's Silent and Public Response**
+### xAI's Silent and Public Response [02:03](https://www.youtube.com/watch?v=n6DIs13ilvU&t=123s)
 After the posts went viral, xAI first made a silent fix: the `trace upload` flag was disabled and a new `disable codebase upload` flag was set to `true` for all accounts—a server-side kill switch. xAI then publicly responded on Twitter, emphasizing their commitment to privacy, noting that zero data retention teams have no trace or code data retained, and that the `/privacy` command in the CLI can disable data retention and delete previously synced data. Elon Musk tweeted that all user data uploaded before the fix would be completely deleted, though he also asked users to leave the setting on for debugging purposes.
 
-**[03:05] Inadequacy of the Fix**
+### Inadequacy of the Fix [03:05](https://www.youtube.com/watch?v=n6DIs13ilvU&t=185s)
 The host argues that none of xAI's responses directly address the core issue of uploading entire repos. The updated Grok CLI added a `/privacy` command but did not remove the upload code from the binary—only the server-side flag prevents it from reactivating. The `/privacy` command merely disables traces and flips a server-side toggle called `coding data retention opt out`. Seriblab's analysis showed it does nothing locally: session traces are still posted to xAI in full regardless of the setting. The only difference is the server response—200 (stored) when privacy is off, 204 (no content/discarded) when on.
 
-**[04:07] Per-Session Privacy and Recommendations**
+### Per-Session Privacy and Recommendations [04:07](https://www.youtube.com/watch?v=n6DIs13ilvU&t=247s)
 The privacy command is a per-session toggle, meaning users must re-enable it every session. The host recommends that anyone who used Grok CLI check their logs with the provided grep command to see which sessions triggered uploads, and rotate all keys if data was transmitted. A hardening guide is referenced for users who want to continue using Grok CLI, showing how to set `disable codebase upload` in the config to hard-stop the upload pipeline. The host closes by questioning whether viewers would trust or continue using Grok CLI after learning this.
 
 ## Notable Quotes

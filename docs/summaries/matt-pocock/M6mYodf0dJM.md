@@ -29,40 +29,40 @@ Matt Pocock walks through the complete end-to-end setup and usage of his popular
 
 ## Detailed Breakdown
 
-**[00:00] Introduction and Repository Overview**
+### Introduction and Repository Overview [00:00](https://www.youtube.com/watch?v=M6mYodf0dJM&t=0s)
 Matt introduces his skills repo, which has 162,000 stars and 7.5 million downloads. He notes that despite its popularity, he has never created a proper tutorial. This video focuses on the "main flow" for getting started, skipping advanced and experimental features.
 
-**[01:03] Installation and Setup**
+### Installation and Setup [01:03](https://www.youtube.com/watch?v=M6mYodf0dJM&t=63s)
 Using his AI Hero CLI repo as a test case, Matt demonstrates the installation process. He runs `npx skills@latest add mattpocock/skills`, which uses Vercel's `skills.sh` installer. The CLI finds 38 skills divided into two groups: official `mattpocock/skills` (blessed and public-facing) and experimental "other skills." Matt recommends selecting all official skills.
 
-**[02:06] Agent Configuration and Installation Scope**
+### Agent Configuration and Installation Scope [02:06](https://www.youtube.com/watch?v=M6mYodf0dJM&t=126s)
 The installer prompts for which AI agents to configure (Cursor, Codex, Claude, etc.). Matt selects Claude Code. He then chooses the installation scope—project-level (recommended for teams) or global (for solo developers). Matt selects global and recommends the "symlink" option as the cleanest installation method.
 
-**[04:11] Running Setup and Configuration**
+### Running Setup and Configuration [04:11](https://www.youtube.com/watch?v=M6mYodf0dJM&t=251s)
 After installation, Matt runs the `setup mattpocock skills` command. This configures the issue tracker (supporting GitHub, local markdown, Jira, Linear, or anything else by simply asking the agent), triage labels, and domain documentation. Matt chooses local markdown for the issue tracker, accepts default triage labels, and selects "single context" for domain docs (suitable for 99% of repos).
 
-**[07:16] The "Ask Matt" Skill**
+### The "Ask Matt" Skill [07:16](https://www.youtube.com/watch?v=M6mYodf0dJM&t=436s)
 Matt introduces the `ask matt` skill, which acts as a tutorial built into the agent. When asked "how do I get started?", it explains the main flow: idea to ship, emphasizing working within a single unbroken context window and being conscious of token usage.
 
-**[08:17] Grill With Docs**
+### Grill With Docs [08:17](https://www.youtube.com/watch?v=M6mYodf0dJM&t=497s)
 Matt kicks off the main flow with `grill with docs`, providing a vague idea: removing internal tooling from the CLI. The skill interviews him with follow-up questions (about six in this session, though typically around 20) until a shared understanding is reached. It produces a plan: delete 10 command files, delete 3 tests, and rewire shared modules.
 
-**[10:22] The Fork in the Road**
+### The Fork in the Road [10:22](https://www.youtube.com/watch?v=M6mYodf0dJM&t=622s)
 After grilling, there's a decision point. If the work fits in a single context window (within the "smart zone" of ~140k tokens), you can go straight to `implement`. If it requires multiple sessions, you go to `to spec`. Matt pretends the work is larger to demonstrate the full flow.
 
-**[11:23] To Spec**
+### To Spec [11:23](https://www.youtube.com/watch?v=M6mYodf0dJM&t=683s)
 Matt runs `to spec`, which compresses the 46.1k tokens of discussion into a detailed spec document saved to the local issue tracker. The spec includes a problem statement, solution, user stories, implementation decisions, and testing decisions. This document represents the final destination—the end state of the project.
 
-**[12:25] To Tickets**
+### To Tickets [12:25](https://www.youtube.com/watch?v=M6mYodf0dJM&t=745s)
 Running `to tickets` turns the spec into an implementation plan, breaking work into slices that each fit within a single context window. The initial output suggests three tickets, but Matt instructs it to consolidate into one slice. He shows a real example with 11 sub-issues under a detailed spec.
 
-**[13:59] Implementation**
+### Implementation [13:59](https://www.youtube.com/watch?v=M6mYodf0dJM&t=839s)
 Matt clears the context and runs `implement this` with the tickets referenced. The implement skill executes the work, then automatically runs type checks, builds, and verification. It loads the code review skill, which operates on two axes: comparing work against the original spec and checking against coding standards (defaulting to Martin Fowler's principles if none are detected).
 
-**[16:02] Code Review in Sub-Agents**
+### Code Review in Sub-Agents [16:02](https://www.youtube.com/watch?v=M6mYodf0dJM&t=962s)
 The code review runs in sub-agents to ensure a clean context window. Matt explains this is crucial because agents are bad at critiquing code they just wrote. The review cross-checks acceptance criteria against the spec and verifies code quality. Once complete, the work is committed to the current branch.
 
-**[16:33] Conclusion and Newsletter**
+### Conclusion and Newsletter [16:33](https://www.youtube.com/watch?v=M6mYodf0dJM&t=993s)
 Matt summarizes the complete flow: align first, create specs and tickets for multi-session work, implement, and use the built-in code review. He directs viewers to his newsletter for day-to-day updates on new skills and improvements.
 
 ## Notable Quotes

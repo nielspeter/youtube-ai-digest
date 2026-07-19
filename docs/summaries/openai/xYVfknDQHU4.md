@@ -28,10 +28,10 @@ An individual contributor at NVIDIA explains how ChatGPT has become a major forc
 - Users can build foundational workflow building blocks themselves, which can then scale to a global team.
 
 ## Detailed Breakdown
-**[00:04] Automating Manual Workflows**
+### Automating Manual Workflows [00:04](https://www.youtube.com/watch?v=xYVfknDQHU4&t=4s)
 The speaker, an individual contributor at NVIDIA, describes ChatGPT as a "force multiplier" for their daily work. They highlight the ability to take a workflow they had already developed and automate it to run on a recurring basis with minimal overhead. Previously, they dedicated roughly 40% of their time to manual number crunching and analysis. By automating this process to run twice a week in ChatGPT, they eliminated that manual effort, resulting in a significant quality-of-life improvement. 
 
-**[00:35] Synthesizing Customer Data at Scale**
+### Synthesizing Customer Data at Scale [00:35](https://www.youtube.com/watch?v=xYVfknDQHU4&t=35s)
 The speaker explains how their team used ChatGPT to process thousands of data points, including transcripts and notes from customer meetings. This allowed them to easily synthesize how the team performed against their goals. The speaker emphasizes that once you build the initial building block yourself, the workflow can be scaled to a global team with ease.
 
 ## Notable Quotes

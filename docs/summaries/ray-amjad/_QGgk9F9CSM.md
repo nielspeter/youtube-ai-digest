@@ -29,37 +29,37 @@ Anthropic introduced "forked subagents" for Claude Code, a feature that allows s
 
 ## Detailed Breakdown
 
-### [00:00] The Problem with Standard Subagents
+### The Problem with Standard Subagents [00:00](https://www.youtube.com/watch?v=_QGgk9F9CSM&t=0s)
 Subagents exist to delegate noisy tool calling into separate context windows, returning only relevant results to the main session. This prevents the main context from filling with unnecessary output, which degrades Claude Code's decision-making. However, standard subagents receive only a compressed summary of the main conversation, which can lose critical nuance.
 
-### [01:03] Introducing Forked Subagents
+### Introducing Forked Subagents [01:03](https://www.youtube.com/watch?v=_QGgk9F9CSM&t=63s)
 Forked subagents solve the compression problem by inheriting the entire prior conversation history and instructions from the main session. They can continue down a specific path and pass results back. Because they use the same prompt cache as the main session, they are cheaper than re-sending the full history from scratch.
 
-### [02:06] Real-World Example: Design Variations
+### Real-World Example: Design Variations [02:06](https://www.youtube.com/watch?v=_QGgk9F9CSM&t=126s)
 The speaker describes a scenario where they discussed design choices (fonts, colors) with Claude Code, accumulating ~50,000 tokens of nuance. Asking for three parallel design variations with standard subagents compressed this into ~2,000 tokens per subagent, resulting in worse output. Forked subagents preserve the full nuance, leading to better design decisions.
 
-### [03:41] Existing Features Using Forked Subagents
+### Existing Features Using Forked Subagents [03:41](https://www.youtube.com/watch?v=_QGgk9F9CSM&t=221s)
 Anthropic already uses forked subagents behind the scenes in features like the auto-dream memory consolidation, the `/recap` command, and the `/bytheway` (`/btw`) command. This demonstrates the feature's utility for context-rich background tasks.
 
-### [04:12] Enabling and Using Forked Subagents
+### Enabling and Using Forked Subagents [04:12](https://www.youtube.com/watch?v=_QGgk9F9CSM&t=252s)
 To enable forked subagents, set an environment variable before launching Claude Code, or add it to your project's `settings.json` for persistent use. Once enabled, the `/fork` command spawns a background agent that inherits the full conversation.
 
-### [04:45] Example: Parallel Research with Full Context
+### Example: Parallel Research with Full Context [04:45](https://www.youtube.com/watch?v=_QGgk9F9CSM&t=285s)
 The speaker demonstrates asking Claude Code to spawn two forked subagents: one to create a Mermaid diagram of changes made so far, and another to search online (via Exa MCP) to verify the approach. Both forks start with ~180,000 tokens, inheriting the full conversation. The speaker shows how to monitor forks, send follow-up messages (e.g., "use a light theme"), and view results passed back to the main session.
 
-### [06:56] Use Case: MCP Server Recommendations
+### Use Case: MCP Server Recommendations [06:56](https://www.youtube.com/watch?v=_QGgk9F9CSM&t=416s)
 The speaker uses a forked subagent to query their "Agentic Coding School" MCP server, asking it to recommend videos based on the current session. The fork performs noisy tool calls in the background and returns tailored recommendations to the main session without cluttering it.
 
-### [08:53] Additional Use Cases
+### Additional Use Cases [08:53](https://www.youtube.com/watch?v=_QGgk9F9CSM&t=533s)
 - **Tangent containment:** Forks can handle multi-step side questions without derailing the main conversation.
 - **Opposing views:** A fork can explore whether the main conversation's premise is wrong, using full context.
 - **Log verification:** Forks can check logs to verify work done so far.
 - **Parallel decision convergence:** Combine forked and non-forked subagents to compare conclusions from full-context vs. blank-context perspectives.
 
-### [10:07] When NOT to Use Forked Subagents
+### When NOT to Use Forked Subagents [10:07](https://www.youtube.com/watch?v=_QGgk9F9CSM&t=607s)
 Code reviews are a common case where forks are counterproductive. A forked subagent would see the code it wrote earlier and be biased toward approving it. A standard subagent with a blank context provides a more objective review.
 
-### [10:39] Closing and Masterclass Promotion
+### Closing and Masterclass Promotion [10:39](https://www.youtube.com/watch?v=_QGgk9F9CSM&t=639s)
 The speaker expresses excitement about exploring more use cases and shares them in their Claude Code Masterclass. They promote the lifetime plan (being removed soon), noting it includes access to all future agentic coding classes, with a 14-day money-back guarantee and a refund rate under 0.2%.
 
 ## Notable Quotes

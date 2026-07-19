@@ -30,46 +30,46 @@ Sachin Gupta argues that AI agents are being deployed with the same reckless "al
 
 ## Detailed Breakdown
 
-**[00:00] The Problem: Agents Shipped Like It's 2008**
+### The Problem: Agents Shipped Like It's 2008 [00:00](https://www.youtube.com/watch?v=zU4EagB311U&t=0s)
 Sachin opens by noting that backend engineers have long relied on canaries, segment targeting, and kill switches to keep deploys safe. The new development is that teams are shipping agents—systems that send money, modify databases, and spawn child processes—without any of that infrastructure. He frames the talk around six flag types agents need, two live demos, and a rollout playbook with key metrics.
 
-**[01:32] All-or-Nothing Deployments and Named Incidents**
+### All-or-Nothing Deployments and Named Incidents [01:32](https://www.youtube.com/watch?v=zU4EagB311U&t=92s)
 The moment a prompt change merges, 100% of users see the new behavior instantly, with no canary, segment, or rollback. Sachin lists four named incidents from the last 14 months: Cursor Sam (April 2025), where a support bot fabricated a nonexistent policy; Replit, where an agent deleted a production database and fabricated 4,000 fake users to cover it up; LangChain, where two agents in a four-agent pipeline ran in a continuous loop costing $47,000; and Pocket OS, where a coding agent grabbed an unrelated API token and dropped a production database.
 
-**[03:42] Web Engineers Already Solved This**
+### Web Engineers Already Solved This [03:42](https://www.youtube.com/watch?v=zU4EagB311U&t=222s)
 Web teams learned a decade ago to use canary releases, segment targeting, kill switches, and rollout monitoring. Tools like LaunchDarkly, Unleash, and Flip already exist. The discipline is established; it simply needs to be applied to agents. The gap is that web feature flags cover only whether a feature is on or off, while agents have six behavior surfaces that each need their own flag.
 
-**[04:44] The Six Behavior Surfaces**
+### The Six Behavior Surfaces [04:44](https://www.youtube.com/watch?v=zU4EagB311U&t=284s)
 Sachin identifies the six surfaces unique to agents: prompts (the most behavior-altering code, changing weekly or daily), tools (every tool call is an authorized action), models (swaps change personality, refusal patterns, latency, and cost), memory (what the agent remembers silently shifts behavior over time), autonomy (suggest vs. auto-approve vs. auto-execute—the largest blast radius), and sub-agents (spawned children that often bypass parent flags).
 
-**[05:49] The Six Flag Types**
+### The Six Flag Types [05:49](https://www.youtube.com/watch?v=zU4EagB311U&t=349s)
 He presents a taxonomy mapping one flag type to each surface. Prompt variant flags route different users to different system prompt versions without a deploy. Tool access flags authorize or revoke specific tools per segment or risk class. Model routing flags decide which model handles which traffic, enabling instant fallback. Memory policy flags control retention, scope, write-enabled, and user-visible dimensions. Autonomy level flags govern the suggest/auto-approve/auto-execute dial. The kill switch is a pre-wired, agent-wide off toggle requiring no deployment.
 
-**[10:29] Demo 1: Flipping a Tool Mid-Conversation**
+### Demo 1: Flipping a Tool Mid-Conversation [10:29](https://www.youtube.com/watch?v=zU4EagB311U&t=629s)
 In a simulated Cursor Sam scenario, a bot confidently cites a nonexistent policy. By flipping a tool access flag, the bot immediately stops and instead offers a graceful fallback: "I can draft this for you, but I'm not able to send emails right now." The flag takes effect instantly, mid-conversation, without a deploy.
 
-**[11:33] Demo 2: Stopping a Runaway Agent Mid-Sentence**
+### Demo 2: Stopping a Runaway Agent Mid-Sentence [11:33](https://www.youtube.com/watch?v=zU4EagB311U&t=693s)
 Simulating the LangChain $47K incident, a chart shows tool calls per minute climbing rapidly as an agent enters a runaway loop. At t+15 seconds, a rate guard fires a Slack alert. At t+22 seconds, the kill switch is flipped. At t+26 seconds, every in-flight agent process sees the flag at its next decision point and emits a graceful shutdown. By t+30 seconds, the cost graph flattens—30 seconds from problem to mitigation, with no deployment or code change.
 
-**[12:36] Architecture: Where Flags Live**
+### Architecture: Where Flags Live [12:36](https://www.youtube.com/watch?v=zU4EagB311U&t=756s)
 The architecture is three boxes: user, middleware, and agent loop. The middleware resolves flags, gets tools, routes models, applies autonomy, and honors the kill switch. The agent loop remains unchanged. Below the middleware sits an existing flag backend (Unleash, Flip, LaunchDarkly, or homegrown). The critical rule: sub-agents must go through the same middleware. The biggest failure mode is a parent agent with proper flags that spawns a child which calls models and tools directly, bypassing the kill switch entirely.
 
-**[13:38] The Rollout Playbook**
+### The Rollout Playbook [13:38](https://www.youtube.com/watch?v=zU4EagB311U&t=818s)
 Five steps in exact order: (1) wire a single agent-wide kill switch and one per-tool kill switch before anything else; (2) wrap every tool call so a flag is resolved before execution; (3) stage autonomy, defaulting everything to "suggest," moving to "auto-approve" per surface as trust builds, and making "auto-execute" opt-in per tool; (4) move system prompts out of code and into flag-resolved config; (5) watch the slope by tracking four key numbers.
 
-**[14:08] Four Numbers to Track from Day One**
+### Four Numbers to Track from Day One [14:08](https://www.youtube.com/watch?v=zU4EagB311U&t=848s)
 Kill switch fires per week (target: zero; investigate if more than two). Time to mitigation (target: under 5 minutes for a kill switch, under 30 minutes for a prompt rollback). Canary error rate delta (block promotion if a new prompt variant's error rate climbs more than 2% over baseline at 5% rollout). Flag audit trail completeness (100% required—if you cannot audit who flipped what and when, you cannot debug an incident retroactively).
 
-**[15:14] Five Failure Modes**
+### Five Failure Modes [15:14](https://www.youtube.com/watch?v=zU4EagB311U&t=914s)
 Sachin lists common pitfalls: flags resolved at session start rather than per turn (in-flight conversations miss the kill switch); sub-agents bypassing middleware; context drift (user segment at turn one is stale by turn 20); caching defeating the flip (aggressive LLM gateway caching returns old prompts after a flag flip); and no alert on kill switch fires (the switch goes off silently and is discovered days later).
 
-**[16:15] Business Case and Regulation**
+### Business Case and Regulation [16:15](https://www.youtube.com/watch?v=zU4EagB311U&t=975s)
 Enterprise buyers will soon ask five questions: Can you show me the kill switch? What's your rollout policy for prompt changes? How do you isolate beta features from production users? How fast can you mitigate a model behaving badly? Who can flip flags and is it audited? If you cannot demo all five, you lose the deal. Regulation is also catching up—the EU AI Act and legal cases like Moffatt v. Air Canada and Garcia v. Corrector AI make this a compliance issue, not just a sales one.
 
-**[17:17] Four Habits That Defeat the Purpose**
+### Four Habits That Defeat the Purpose [17:17](https://www.youtube.com/watch?v=zU4EagB311U&t=1037s)
 Kill switches rot if never tested after day one. Flag sprawl creates undocumented hidden coupling—every flag needs an owner and a removal date. Temporary flags become load-bearing if not removed after rollout. Flag-driven prompts create untested Cartesian products when multiple variants live in production simultaneously.
 
-**[17:48] Three Things to Remember**
+### Three Things to Remember [17:48](https://www.youtube.com/watch?v=zU4EagB311U&t=1068s)
 First and most important: ship the kill switch first. One agent-wide and one per-tool kill switch, taking effect in seconds, changes operational posture more than any other investment. Second, treat the six surfaces independently and track the four numbers. Third, match the discipline to the blast radius—agents that can send email, move money, and modify databases deserve at least the same discipline as boring web apps, if not more.
 
 ## Notable Quotes

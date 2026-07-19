@@ -31,19 +31,19 @@ Philipp Schmid from Google DeepMind argues that while coding agent skills (markd
 
 ## Detailed Breakdown
 
-**[00:01] Introduction and the State of Skills**
+### Introduction and the State of Skills [00:01](https://www.youtube.com/watch?v=0vphxNt4wyk&t=1s)
 Schmid opens by asking the audience about their use of coding agents and skills. Nearly everyone uses skills, but almost no one has evals for them. He references Skill Bench, which indexed over 50,000 skills and found that almost none had evals, most were AI-written, and testing was rare. This is risky because agents are non-deterministic; when a task fails, it's hard to know if the skill is bad or the task is too hard for the model.
 
-**[01:33] Agents We Use vs. Agents We Build**
+### Agents We Use vs. Agents We Build [01:33](https://www.youtube.com/watch?v=0vphxNt4wyk&t=93s)
 He draws a sharp distinction between the agents engineers use for productivity (like Cursor or Claude Code) and agents built for consumers. Engineers have context and can manually trigger or reprompt a skill if it fails. Consumers don't know skills exist and won't explicitly invoke them, making reliable model-invoked skills essential for production agents.
 
-**[02:35] What is a Skill?**
+### What is a Skill? [02:35](https://www.youtube.com/watch?v=0vphxNt4wyk&t=155s)
 A skill is a folder with a `skills.md` file and supporting assets. It uses progressive disclosure: layer one is a title and description (always in the model's context), layer two is the skill body with instructions, and layer three is reference files for deep context. Schmid differentiates between capability skills (temporary, teaching new capabilities like log tracing) and preference skills (durable, encoding company-specific workflows or styles).
 
-**[04:07] Do Skills Work?**
+### Do Skills Work? [04:07](https://www.youtube.com/watch?v=0vphxNt4wyk&t=247s)
 Yes. Skill Bench 1.1 shows skills improve performance by roughly 15% across 100 coding and productivity tasks. However, AI-generated skills can hurt performance, while human-written skills are best. He warns that `skills.md` files should be under 500 lines. He also distinguishes between model-triggered skills and user-invoked skills, noting that user-invoked skills are underused for workflow tasks like creating pull requests.
 
-**[06:42] Eight Tips for Writing Good Skills**
+### Eight Tips for Writing Good Skills [06:42](https://www.youtube.com/watch?v=0vphxNt4wyk&t=402s)
 1.  **Description matters most:** For model-invoked skills, the description tells the model when and how to use it.
 2.  **Write directives, not essays:** Be clear and imperative (e.g., "use the Interactions API if...").
 3.  **Keep it lean and layered:** The description is a token cost paid on every call; keep it short. Push deep details to reference files.
@@ -53,16 +53,16 @@ Yes. Skill Bench 1.1 shows skills improve performance by roughly 15% across 100 
 7.  **Kill no-ops:** Credit to Matt for this tip—AI-generated skills often contain "no-ops" (instructions that don't change behavior, like "make code easy to read"). Remove them to save tokens.
 8.  **Know when to retire:** Models improve; run evals to see if a skill is still needed.
 
-**[12:22] Practical Example: Gemini Interactions API Skill**
+### Practical Example: Gemini Interactions API Skill [12:22](https://www.youtube.com/watch?v=0vphxNt4wyk&t=742s)
 Schmid shares a case study where DeepMind created a skill for the Gemini Interactions API, which was released after the model's training cutoff. They built 117 test cases from real user data and synthetic cases. The skill improved valid code generation to nearly 90%. The eval harness was simple: a JSON file with prompts, expected trigger flags, and language tags, run by a Python script using the Gemini CLI.
 
-**[14:57] Building an Eval Harness**
+### Building an Eval Harness [14:57](https://www.youtube.com/watch?v=0vphxNt4wyk&t=897s)
 Most skill evals can use simple regex assertions to check for correct SDKs, models, or methods, which is cheap and fast. For more complex evaluation, LLM-as-a-judge with a rubric can be used. At Google DeepMind, every internal skill has evals alongside it, run in isolated workspaces. Evals run on every diff to the skill file, and changes are only merged if they improve test results.
 
-**[17:22] Ten Best Practices for Skills**
+### Ten Best Practices for Skills [17:22](https://www.youtube.com/watch?v=0vphxNt4wyk&t=1042s)
 He reiterates key practices: descriptions cause 50% of failures; use directives; include negative tests; start small (10–20 samples); test outcomes not paths (don't care if the skill loads on turn 1 or 5, only if the task succeeds); use isolated runs to prevent agents from cheating by reading old context; run multiple trials for reliability; test across different harnesses (Cursor, Codex, etc.); keep evals even after retiring a skill to monitor for regressions; and run ablation tests.
 
-**[20:10] Homework**
+### Homework [20:10](https://www.youtube.com/watch?v=0vphxNt4wyk&t=1210s)
 Schmid assigns homework: pick your most used skill, write five test prompts, and build a simple eval harness. He also recommends removing no-ops to save token costs and running ablation tests to validate skill usefulness.
 
 ## Notable Quotes

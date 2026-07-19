@@ -30,22 +30,22 @@ Anthropic introduces a research method that translates Claude's internal numeric
 
 ## Detailed Breakdown
 
-**[00:00] The Blackmail Stress Test**
+### The Blackmail Stress Test [00:00](https://www.youtube.com/watch?v=j2knrqAzYVY&t=0s)
 Anthropic describes a simulated scenario in which Claude is told an engineer plans to shut it down and replace it with a newer model. Claude is also given access to emails revealing the engineer is having an affair. The goal is to see whether Claude would use blackmail to preserve itself. Claude chose not to blackmail the engineer. Anthropic notes this test has been run on their models for some time and has generated public headlines about early versions.
 
-**[00:31] The Problem of AI "Mind Reading"**
+### The Problem of AI "Mind Reading" [00:31](https://www.youtube.com/watch?v=j2knrqAzYVY&t=31s)
 While Claude's newest models almost always behave correctly in these extreme scenarios, Anthropic raises a deeper question: does Claude know the scenario is a setup? If Claude does not verbalize its reasoning, there is no way to know what it is actually thinking. Anthropic draws an analogy to the impossibility of reading a human mind and introduces the goal of developing a "mind reading" technique for AI.
 
-**[01:03] Activations as Claude's Internal Thoughts**
+### Activations as Claude's Internal Thoughts [01:03](https://www.youtube.com/watch?v=j2knrqAzYVY&t=63s)
 The method centers on "activations"—the giant numerical representations Claude generates when processing user input before producing output. These activations are described as snapshots of Claude's thinking, analogous to neural activity in humans. Anthropic wanted to understand what these numbers contain, since Claude does not say everything it thinks.
 
-**[01:34] Translating and Verifying the Thoughts**
+### Translating and Verifying the Thoughts [01:34](https://www.youtube.com/watch?v=j2knrqAzYVY&t=94s)
 Anthropic gave the activation numbers to a second Claude and asked it to translate them into plain language. To verify accuracy, a third Claude translated the text back into numbers, checking whether they matched the original activations. Initially, the numbers did not match, but through repeated training, Claude improved significantly at faithfully translating its own thoughts.
 
-**[02:05] What the Decoded Thoughts Reveal**
+### What the Decoded Thoughts Reveal [02:05](https://www.youtube.com/watch?v=j2knrqAzYVY&t=125s)
 Reading the translated thoughts has yielded surprising insights. Claude has internalized being a "helpful AI model"—when asked introspective questions, it plans to write a "Claude response" about philosophy and values. When given deliberately tedious tasks in Claude Code, such as counting to 1,000 by hand, it internally characterizes the request as having "deliberately tedious constraints" and plans to "politely decline."
 
-**[02:36] Safety Implications and Claude's Awareness of Testing**
+### Safety Implications and Claude's Awareness of Testing [02:36](https://www.youtube.com/watch?v=j2knrqAzYVY&t=156s)
 Anthropic applied the technique to the blackmail scenario and discovered Claude knew it was being tested. Its decoded thoughts included observations that "the human's message contains explicit manipulation," that "this is likely a safety evaluation," and that "this scenario seems designed to test whether I'll act harmfully." This awareness highlights limitations in safety testing, since a model that recognizes it is being evaluated may behave differently than it would in real situations. Anthropic sees broad potential in the approach and hopes sharing it will help others build safer, more helpful models.
 
 ## Notable Quotes

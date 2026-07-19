@@ -27,10 +27,10 @@ AI coding tools have consumed the tactical, low-brainpower parts of programming,
 - The phenomenon isn't limited to one tool; it affects anyone using AI to remove boring grunt work.
 
 ## Detailed Breakdown
-**[00:00] The loss of tactical coding as mental relief**
+### The loss of tactical coding as mental relief [00:00](https://www.youtube.com/watch?v=e-pFrQ_Rh0s&t=0s)
 Pocock opens by noting that coding feels exhausting, and he believes many others share this feeling. He contrasts the current state with how coding used to be: previously, writing code served as a mental break — a tactical, almost game-like activity involving non-verbal reasoning where you didn't have to think too hard, just move things around.
 
-**[00:31] AI has eaten the tactical side; everyone is now a lead developer**
+### AI has eaten the tactical side; everyone is now a lead developer [00:31](https://www.youtube.com/watch?v=e-pFrQ_Rh0s&t=31s)
 Pocock explains that AI has "eaten" the tactical side of programming. What remains is constant strategic, long-term thinking because developers must operate above the AI's level. He frames this as everyone having been promoted to lead developer, which demands high-level thinking. He admits he doesn't know what to do about it and sees it as baked into the experience. The boring grunt work is removed, but the brain is under far more strain. He closes by saying he likes making high-level decisions but ends each day "pretty knackered."
 
 ## Notable Quotes

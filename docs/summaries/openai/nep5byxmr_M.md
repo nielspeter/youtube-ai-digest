@@ -26,10 +26,10 @@ A RingCentral program management office (PMO) professional uses ChatGPT with Cod
 - Despite being a solo operator, the user feels like a larger team because of the AI's support.
 
 ## Detailed Breakdown
-**[00:04] The PMO Role and Data Fragmentation**
+### The PMO Role and Data Fragmentation [00:04](https://www.youtube.com/watch?v=nep5byxmr_M&t=4s)
 The speaker introduces themselves as part of the Program Management Office (PMO), a role that sits at a critical juncture between cross-functional stakeholders. They explain that a major challenge in their function is working with numerous data silos—every team or organization they interact with stores its data in a different, specific repository. They describe ChatGPT with Codex as an extension of themselves, noting that they work, learn, and improve the tool through ongoing use.
 
-**[00:35] Scaling Customer Programs with Agentic AI**
+### Scaling Customer Programs with Agentic AI [00:35](https://www.youtube.com/watch?v=nep5byxmr_M&t=35s)
 The speaker explains how ChatGPT with Codex transformed their scattered notes and chat histories into what they call a "living, breathing operating system." Since the launch of Codex, they describe their productivity as being "on steroids" due to new agentic AI capabilities that allow them to move insights from the review plane into the execution plane. As a concrete result, they scaled from tracking 6 customers during a pilot phase to managing 80 customers in an early access program. They close by noting that while they are technically a team of one, they do not feel like it because of the continuous support from ChatGPT with Codex.
 
 ## Notable Quotes

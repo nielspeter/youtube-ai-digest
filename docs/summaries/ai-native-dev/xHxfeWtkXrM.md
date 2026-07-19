@@ -31,74 +31,74 @@ Justin Cormack shares his experience using AI to build a 350,000-line Rust-based
 
 ## Detailed Breakdown
 
-### [00:00] Introduction and Motivation
+### Introduction and Motivation [00:00](https://www.youtube.com/watch?v=xHxfeWtkXrM&t=0s)
 Justin opens by expressing his longstanding love for testing and infrastructure. He recounts living in rural eastern England near a deteriorating Roman road, using it as a metaphor for unmaintained infrastructure. When MinIO stopped maintaining their S3-compatible object storage product, he saw an opportunity to experiment with using AI to build a large, complex system—something traditionally taking years to develop.
 
-### [01:00] The Project: AI-Built Object Storage
+### The Project: AI-Built Object Storage [01:00](https://www.youtube.com/watch?v=xHxfeWtkXrM&t=60s)
 Justin decided to try building an S3 clone using AI. Object storage implementations typically take two to ten years to write. The project has grown to 350,000 lines of Rust, far too large for him to read entirely. He acknowledges he's only half-learned Rust and doesn't need to understand every line, but he wants high-quality code. His goal was to reverse-engineer S3 by interacting with it and having AI generate the implementation, while staying in the loop with architectural opinions to prevent the codebase from collapsing into chaos.
 
-### [03:05] Ambition and the Human-in-the-Loop Approach
+### Ambition and the Human-in-the-Loop Approach [03:05](https://www.youtube.com/watch?v=xHxfeWtkXrM&t=185s)
 He wanted to discover what's achievable with AI coding—can we build ambitious systems we'd never attempt otherwise, like databases, in less than a decade? He deliberately avoided automating everything upfront, wanting to understand what went wrong. He references Deming's quality philosophy: inspection alone doesn't find bugs; quality must be built in continuously, and testing is central to that.
 
-### [04:07] Testing: Small Projects vs. Large Projects
+### Testing: Small Projects vs. Large Projects [04:07](https://www.youtube.com/watch?v=xHxfeWtkXrM&t=247s)
 Testing works well for small AI projects where you can be ruthless and thorough. But large distributed systems introduce race conditions and complexity that make testing harder. Justin repeatedly hears the claim that "with AI, all you need is 100% test coverage"—a claim he finds dubious.
 
-### [05:08] The 100% Test Coverage Experiment
+### The 100% Test Coverage Experiment [05:08](https://www.youtube.com/watch?v=xHxfeWtkXrM&t=308s)
 He tried achieving 100% coverage by asking an AI agent to fill gaps. The result was trivial, meaningless tests—for example, a test for when the random number generator fails. He concluded that obsessing over 100% coverage wasn't a good use of time. His codebase now has 75% test code, with file-level coverage between 75–100%, which he considers a better balance.
 
-### [06:10] The Test Oracle: Copying S3
+### The Test Oracle: Copying S3 [06:10](https://www.youtube.com/watch?v=xHxfeWtkXrM&t=370s)
 Copying an existing system provides a powerful test oracle. Justin has 1,500 tests that run against real S3, locking down expected behavior. This gives the AI a concrete baseline. He suggests that when building any complex system, you should first write a trivial version with the same behavior and build a test suite against it, then use that suite when building the real thing.
 
-### [07:41] Limitations of the Test Oracle
+### Limitations of the Test Oracle [07:41](https://www.youtube.com/watch?v=xHxfeWtkXrM&t=461s)
 Even with S3 as an oracle, challenges remain. S3's authorization is eventually consistent, requiring retries in tests. The oracle isn't a full specification. Also, public APIs don't expose invisible background behaviors (e.g., when an item is truly deleted), so some behaviors must be inferred or tested differently.
 
-### [09:16] Documentation Is Unreliable
+### Documentation Is Unreliable [09:16](https://www.youtube.com/watch?v=xHxfeWtkXrM&t=556s)
 Despite S3 having hundreds of pages of documentation, Justin found it wrong in nearly every detail when examined closely. The docs might have been true once or are approximately true, but running tests against the real system was far more valuable. He emphasizes: never trust anyone's documentation.
 
-### [10:18] Finding Edge Cases and S3 Bugs
+### Finding Edge Cases and S3 Bugs [10:18](https://www.youtube.com/watch?v=xHxfeWtkXrM&t=618s)
 While improving the type system, the AI generated test cases that ran against S3 and discovered a repeatable 500 error—a bug in Amazon's own S3. Finding this gave Justin confidence that his test suite was genuinely thorough. He later found another repeatable 500 error. He noted that AI was poor at finding edge cases by reading documentation, but good at finding them through test coverage gaps and when prompted with standard edge case patterns (zero length, one length, 10,001 length, etc.).
 
-### [13:23] Flaky Tests and AI Behavior
+### Flaky Tests and AI Behavior [13:23](https://www.youtube.com/watch?v=xHxfeWtkXrM&t=803s)
 Flaky tests wasted enormous time. AWS converges to truth over time, causing apparent inconsistencies. Justin's hard rule: never have flaky tests with AI—fix them immediately. The AI sometimes ignored flaky tests because its training data suggested developers never fix them. Other times it assumed AWS changed behavior daily and kept modifying code to match, when the real problem was the test. He emphasizes making tests fast (5,000 tests in 2 minutes) and running them frequently to catch flakes quickly.
 
-### [15:58] Diverse Testing Strategies
+### Diverse Testing Strategies [15:58](https://www.youtube.com/watch?v=xHxfeWtkXrM&t=958s)
 Justin asked the AI what kinds of tests could prevent specific issues, and it suggested new testing approaches. Fuzz testing and property-based testing found real bugs. He encourages trying many kinds of tests and expanding your testing toolkit beyond the basics.
 
-### [16:59] What Tests Can't Find
+### What Tests Can't Find [16:59](https://www.youtube.com/watch?v=xHxfeWtkXrM&t=1019s)
 Tests struggle with race conditions (though more and faster tests help), performance (hard to test ongoing), security issues, and architectural quality. If something can't be measured right now, it's hard to test. Focusing solely on test coverage means you're not thinking enough about security and other non-testable concerns.
 
-### [17:31] Making Systems More Testable
+### Making Systems More Testable [17:31](https://www.youtube.com/watch?v=xHxfeWtkXrM&t=1051s)
 To improve testability, extract more signals from the black box. Build more testable interfaces—Justin regrets not building out management and reporting APIs, which would have given more visibility. He also recommends having the AI build a hand-maintained tracing framework, even if not tied to production, as it dramatically helps debugging rare conditions by providing traces the AI can analyze rather than guess at.
 
-### [20:36] Performance Testing
+### Performance Testing [20:36](https://www.youtube.com/watch?v=xHxfeWtkXrM&t=1236s)
 AI approaches performance like humans: it often makes things worse. Justin's advice: treat performance attempts as cheap, disposable experiments—throw away what doesn't work. He compared performance against another S3 implementation and matched read speed, but found write speed was faster in the competitor because it skipped sync. Once he understood that, he stopped chasing a meaningless target.
 
-### [21:37] Security and Type System Enforcement
+### Security and Type System Enforcement [21:37](https://www.youtube.com/watch?v=xHxfeWtkXrM&t=1297s)
 Justin had issues with permission checking (time-of-check-to-time-of-use vulnerabilities). Instead of relying on tracing or tests, he enforced authorization through the type system—creating an "authorized request" type that can't be re-authorized. This eliminated entire classes of bugs without needing tests. He also used Codex security reviews, checked findings into the repo for AI review, and found about three-quarters of findings were valid. He recommends periodic holistic security reviews, not just per-PR checks.
 
-### [24:11] The Human in the Loop
+### The Human in the Loop [24:11](https://www.youtube.com/watch?v=xHxfeWtkXrM&t=1451s)
 Justin views himself as part of the feedback loop. He deliberately avoids over-automating because he wants to understand what goes wrong—he's responsible for quality. He has architectural opinions and wants to know the code is good.
 
-### [25:14] Refactoring and Convergence
+### Refactoring and Convergence [25:14](https://www.youtube.com/watch?v=xHxfeWtkXrM&t=1514s)
 His GitHub commit graph shows massive refactoring weeks, including one where 120,000 lines were added and 75,000 removed. A single 43,000-line file had to be refactored. Refactoring is part of the feedback loop—you don't one-shot things; you converge on better answers over time.
 
-### [26:19] Tests as Discovery Tools
+### Tests as Discovery Tools [26:19](https://www.youtube.com/watch?v=xHxfeWtkXrM&t=1579s)
 Tests aren't about finding a single right answer. They're discovery tools. When you're suspicious or worried about code, expand tests in that area. Your role is to break things and get them fixed. Justin plans to open-source the project soon, once the distributed systems portion is complete.
 
-### [27:53] Q&A: Formal Verification
+### Q&A: Formal Verification [27:53](https://www.youtube.com/watch?v=xHxfeWtkXrM&t=1673s)
 Asked about formal verification tools for distributed systems, Justin says he hasn't used them yet but plans to once the system is fully distributed. He's fascinated by the space and acknowledges there will likely be bugs to find, though reports on AI's effectiveness at formal verification are mixed.
 
-### [29:25] Q&A: Test Oracle Tautology Problem
+### Q&A: Test Oracle Tautology Problem [29:25](https://www.youtube.com/watch?v=xHxfeWtkXrM&t=1765s)
 An audience member asks about the challenge of the test oracle being a tautology—implementing the same logic twice produces the same output. Justin acknowledges the issue, noting it was easier for him because S3 was external. He suggests building a "very dumb model" outside the repo as a fixed reference to avoid testing the system against itself.
 
 ## Notable Quotes
-- "I keep hearing people say, well, with AI, all you need is 100% test coverage, and you're done. And I was like, hmm." [05:08]
-- "Never trust anyone's documentation at all." [09:46]
-- "As soon as I found that [S3 500 error], I was like, my test suite's actually good now." [10:48]
-- "AI is never have flaky test with AI is my hard rule, just fix them immediately." [13:23]
-- "The training data says that developers never fix flaky tests, so we ignore them." [13:54]
-- "Tests are really discovery tools. They're not like it's not that there's an answer and that if you had the right set of tests, it's there." [26:19]
-- "Your role is to be there and break things and get them fixed." [26:49]
+- "I keep hearing people say, well, with AI, all you need is 100% test coverage, and you're done. And I was like, hmm." [05:08](https://www.youtube.com/watch?v=xHxfeWtkXrM&t=308s)
+- "Never trust anyone's documentation at all." [09:46](https://www.youtube.com/watch?v=xHxfeWtkXrM&t=586s)
+- "As soon as I found that [S3 500 error], I was like, my test suite's actually good now." [10:48](https://www.youtube.com/watch?v=xHxfeWtkXrM&t=648s)
+- "AI is never have flaky test with AI is my hard rule, just fix them immediately." [13:23](https://www.youtube.com/watch?v=xHxfeWtkXrM&t=803s)
+- "The training data says that developers never fix flaky tests, so we ignore them." [13:54](https://www.youtube.com/watch?v=xHxfeWtkXrM&t=834s)
+- "Tests are really discovery tools. They're not like it's not that there's an answer and that if you had the right set of tests, it's there." [26:19](https://www.youtube.com/watch?v=xHxfeWtkXrM&t=1579s)
+- "Your role is to be there and break things and get them fixed." [26:49](https://www.youtube.com/watch?v=xHxfeWtkXrM&t=1609s)
 
 ## People, Tools & References Mentioned
 - **Justin Cormack** – Speaker

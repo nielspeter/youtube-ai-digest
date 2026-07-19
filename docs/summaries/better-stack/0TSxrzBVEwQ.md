@@ -30,49 +30,49 @@ Bun rewrote its entire ~500,000-line codebase from Zig to Rust in just 11 days u
 
 ## Detailed Breakdown
 
-**[00:00] The Big Announcement**
+### The Big Announcement [00:00](https://www.youtube.com/watch?v=0TSxrzBVEwQ&t=0s)
 Bun rewrote its entire codebase from Zig to Rust in 11 days, with v1.3.14 being the last Zig release and v1.4 shipping the Rust port. The rewrite spanned May 3–14, involved 652 commits, and added roughly a million lines of code.
 
-**[00:31] The Scale of the AI Operation**
+### The Scale of the AI Operation [00:31](https://www.youtube.com/watch?v=0TSxrzBVEwQ&t=31s)
 At peak, 64 Claude instances ran simultaneously across 4 git work trees using a pre-release of Fable 5, hitting 58 commits in a single minute. The estimated API cost was $165,000.
 
-**[01:01] Why Rewrite at All?**
+### Why Rewrite at All? [01:01](https://www.youtube.com/watch?v=0TSxrzBVEwQ&t=61s)
 Jared's stated reason was stability. Bun sits on JavaScriptCore (garbage-collected) while Zig uses manual memory management, causing constant boundary bugs. Zig relied on style guides and code review for memory safety; Rust's borrow checker enforces it at compile time. Jared frames compiler errors as a better feedback loop than a style guide.
 
-**[02:03] Faithful, Not Idiomatic**
+### Faithful, Not Idiomatic [02:03](https://www.youtube.com/watch?v=0TSxrzBVEwQ&t=123s)
 They chose a full rewrite at once rather than incremental, and a faithful port preserving Zig architecture rather than an idiomatic Rust rewrite—similar to how the TypeScript team handled their Go rewrite. They created `porting.mmd` (mapping Zig patterns to Rust) and `lifetimes.tsv` (specifying struct field lifetimes via Claude prompts).
 
-**[03:05] The Workflow Takes Shape**
+### The Workflow Takes Shape [03:05](https://www.youtube.com/watch?v=0TSxrzBVEwQ&t=185s)
 After a 3-file trial, Jared looped the workflow over all 1,448 Zig files. Early problems included Claude agents fighting over git stash commands. Jared banned non-committing git commands and slow cargo commands, then split into 4 work trees with 16 Claudes each.
 
-**[04:37] Fixing 16,000 Compiler Errors**
+### Fixing 16,000 Compiler Errors [04:37](https://www.youtube.com/watch?v=0TSxrzBVEwQ&t=277s)
 The Zig codebase was one big compilation unit with circular dependencies; Rust requires 100 separate crates with no cycles. After classifying and refactoring cyclic code, ~16,000 compiler errors emerged. A workflow looped over each crate, ran cargo check once, grouped errors by file, and had Claude fix them with adversarial reviewers. Claude initially tried stubbing out functions to "compile," so Jared added a rule: if a workaround needs a paragraph-long comment justifying it, the code is wrong.
 
-**[06:10] Running the Full Test Suite**
+### Running the Full Test Suite [06:10](https://www.youtube.com/watch?v=0TSxrzBVEwQ&t=370s)
 After getting CLI commands working, they ran Bun's comprehensive test suite—memory leak tests, integration tests, stress tests exhausting TCP sockets, writing gigabytes to disk, and spawning ~10,000 processes. The machine crashed from disk exhaustion several times. Two days later, failing tests dropped from 972 to 23; a day and a half after that, all six platforms went green on May 14th.
 
-**[07:41] The Cost-Benefit Analysis**
+### The Cost-Benefit Analysis [07:41](https://www.youtube.com/watch?v=0TSxrzBVEwQ&t=461s)
 Total usage: 5.9 billion uncached input tokens, 690 million output tokens, 72 billion cache reads (~$165,000). Jared estimates manual porting would take 3 engineers a full year. The video frames this as the first large-scale break of the "never rewrite" rule.
 
-**[08:46] Concrete Results**
+### Concrete Results [08:46](https://www.youtube.com/watch?v=0TSxrzBVEwQ&t=526s)
 Binary is ~20% smaller, 2–5% faster on HTTP/build benchmarks, memory leaks dramatically reduced (e.g., `bun.build` went from leaking 3MB/call to constant), 128 known bugs fixed, 19 regressions introduced and since fixed. ~4% of Rust code is in `unsafe` blocks, mostly single-line C++ pointer returns. Claude Code runs the Rust port in production with 10% faster Linux startups—nobody noticed the switch.
 
-**[09:17] Andrew Kelly's Response**
+### Andrew Kelly's Response [09:17](https://www.youtube.com/watch?v=0TSxrzBVEwQ&t=557s)
 Zig's creator published "My Thoughts on the Bun Rust Rewrite," calling it a relationship breakdown rather than a technical decision. He says Bun became "hacks on top of hacks," shipped features recklessly, and was seen by the Zig team as a net liability and "the prime example of how not to write Zig code."
 
-**[10:17] Attacks on Management and Culture**
+### Attacks on Management and Culture [10:17](https://www.youtube.com/watch?v=0TSxrzBVEwQ&t=617s)
 Kelly cited a Bun hiring tweet ("If work life balance means a lot of time spent not working, it's probably not a good fit") as hurting recruitment, and called Jared "a stinky manager, poor communication, unrealistic expectations, low empathy, no experience, just a total shitshow."
 
-**[10:47] Disputing Technical Necessity**
+### Disputing Technical Necessity [10:47](https://www.youtube.com/watch?v=0TSxrzBVEwQ&t=647s)
 Kelly argues binary-size wins and LTO were available in Zig all along—Bun just never did the work. He contrasts Bun with Tiger Beetle, which invested engineering resources in bug elimination and maintained a healthy relationship with ZSF. He also calls out the contradiction: if the test suite catches everything in a million lines of "unreed slop," why were there so many bugs in Zig?
 
-**[11:18] Compile Time and Anthropic Accusations**
+### Compile Time and Anthropic Accusations [11:18](https://www.youtube.com/watch?v=0TSxrzBVEwQ&t=678s)
 Kelly claims Bun purposely omitted compile-time comparisons, noting Zig builds in 16 seconds clean / 90ms incremental, implying Rust is far slower. He accuses the blog of being "expertly written" like Anthropic's marketing department, says the Anthropic association brought "drive-by slop contributions and tasteless AI enthusiasts" into the Zig community, and expresses relief the connection is severed.
 
-**[12:20] The Rewritten Conclusion**
+### The Rewritten Conclusion [12:20](https://www.youtube.com/watch?v=0TSxrzBVEwQ&t=740s)
 Kelly updated his post, replacing a mild original ending ("I don't have any personal criticisms of Jared" + shrug emoji) with a section called "Moving On" where he admits resentment, blames Jared for making Bun "an embarrassment for Zig," and stands by his leadership criticism. He apologizes to Zig users worried about being the next target, asking for grace since "a trillion dollar company fired the first shot."
 
-**[13:21] The Video's Verdict**
+### The Video's Verdict [13:21](https://www.youtube.com/watch?v=0TSxrzBVEwQ&t=801s)
 The host concludes both sides hold truth: Kelly is right the rewrite wasn't strictly necessary, but Jared is right that "we could have been more disciplined" isn't a valid strategy after years of use-after-free bugs. The AI angle wasn't magic—it was a well-designed translation pipeline with documentation, lifetime specs, adversarial reviewers, and 1.3 million test assertions. The host notes this is why projects like Cloudflare's Next.js removed public tests, since AI agents are very good at working until tests pass.
 
 ## Notable Quotes

@@ -31,40 +31,40 @@ Anthropic quietly added a new "workflows" feature to Claude Code that enables de
 
 ## Detailed Breakdown
 
-**[00:00] – Introduction & Enabling the Feature**
+### Introduction & Enabling the Feature [00:00](https://www.youtube.com/watch?v=c0gVowvMR-g&t=0s)
 Anthropic quietly shipped a workflow tool for deterministic multi-agent orchestration in Claude Code. It's not yet officially announced. To enable it, you set an environment variable in your terminal before launching Claude, which unlocks a new `/workflows` slash command for browsing running and completed workflows.
 
-**[01:02] – Viewing Workflow History**
+### Viewing Workflow History [01:02](https://www.youtube.com/watch?v=c0gVowvMR-g&t=62s)
 The `/workflows` command shows all workflows run in the current and previous sessions. Selecting a completed workflow reveals its stages, the agents that ran, tool calls, prompts, token usage, and other metadata.
 
-**[01:33] – The Old Approach and Its Problems**
+### The Old Approach and Its Problems [01:33](https://www.youtube.com/watch?v=c0gVowvMR-g&t=93s)
 Previously, users built workflows via skills where the main Claude session acted as orchestrator—spawning a sub-agent, receiving its result back into the main context window, then passing it to the next sub-agent. This incurred a "token tax" as intermediate results accumulated in the orchestrator's context, causing it to degrade, forget, and act sloppily over time—especially with many stages or conditionals.
 
-**[03:06] – The New Code-Driven Approach**
+### The New Code-Driven Approach [03:06](https://www.youtube.com/watch?v=c0gVowvMR-g&t=186s)
 The Claude Code team replaced the LLM orchestrator with a **code wrapper**. A `workflow.js` file defines phases, agents, loops, and conditionals. Results pass directly from one agent to the next via code, never entering the main conversation. This allows dozens or hundreds of agents to run sequentially while the main orchestrator's context stays clean.
 
-**[04:08] – Anatomy of a Workflow File**
+### Anatomy of a Workflow File [04:08](https://www.youtube.com/watch?v=c0gVowvMR-g&t=248s)
 Workflows are JavaScript files with a `meta` block (name, description, phases), schema definitions (e.g., issues, verdicts), argument handling with defaults, and phases containing agents. You can interleave plain JS logic—filtering, conditionals, loops—with agent calls. Schemas ensure structured returns that downstream agents can reference.
 
-**[05:10] – Building the Triage Sentry Workflow (Walkthrough)**
+### Building the Triage Sentry Workflow (Walkthrough) [05:10](https://www.youtube.com/watch?v=c0gVowvMR-g&t=310s)
 The first example workflow triages Sentry issues. It defines an `issues` schema (ID, title, user count) and a `verdict` schema (fixed, notes). An argument sets a minimum affected-user threshold (default 20). Phase one pulls unresolved issues via a Sentry MCP; plain JS filters them by threshold. If none qualify, the workflow ends. Otherwise, a pipeline passes each qualifying issue through a fix stage, then a verify stage, with results logged at the end.
 
-**[07:46] – Running and Monitoring the Workflow**
+### Running and Monitoring the Workflow [07:46](https://www.youtube.com/watch?v=c0gVowvMR-g&t=466s)
 After saving the file, the workflow appears with a workflow tag. Triggering it shows live progress: phases, agent counts, tool calls, and prompts. You can pause/resume with the `P` command, skip agents with `X`, or retry them. The Sentry workflow found 25 issues, spun up three fix agents (only three exceeded the 20-user threshold), and ran verification—all in the background while the main session remained usable.
 
-**[09:17] – Dead Code Sweep Workflow (Loops & Conditionals)**
+### Dead Code Sweep Workflow (Loops & Conditionals) [09:17](https://www.youtube.com/watch?v=c0gVowvMR-g&t=557s)
 A second example finds and removes unused code in rounds. It uses a `while` loop (up to eight rounds): one agent finds dead code per a schema; if found, another agent removes each item; if not, the loop exits. This demonstrates combining loops with conditional exits.
 
-**[10:19] – Personalized Outreach Workflow (Pipelines & Model Tiers)**
+### Personalized Outreach Workflow (Pipelines & Model Tiers) [10:19](https://www.youtube.com/watch?v=c0gVowvMR-g&t=619s)
 A third workflow loads leads from a CSV, researches each in a parallel sub-agent, then drafts personalized messages. A conditional lets it fall back from a cheap model/API to a more expensive one if initial research fails. The pipeline streams items forward as each completes—writing begins for a lead as soon as its research finishes, without waiting for all eight.
 
-**[12:22] – Workflow Creator Skill & Tooling**
+### Workflow Creator Skill & Tooling [12:22](https://www.youtube.com/watch?v=c0gVowvMR-g&t=742s)
 The presenter offers a downloadable "workflow creator skill" on GitHub that teaches Claude Code how to generate workflow files. He notes Anthropic may release an official equivalent once the feature is formally announced.
 
-**[12:53] – Summary of Workflow Primitives**
+### Summary of Workflow Primitives [12:53](https://www.youtube.com/watch?v=c0gVowvMR-g&t=773s)
 The toolkit includes: `agent` (spawn fresh sub-agents), parallel execution (batch agents and wait), `pipeline` (stream items through stages), `schema` (structured returns), phase logs (live view), and arguments. Budgets cap token usage in loops.
 
-**[13:53] – When to Use Workflows**
+### When to Use Workflows [13:53](https://www.youtube.com/watch?v=c0gVowvMR-g&t=833s)
 Reach for workflows when a task is repeatable (done daily), involves fanning out agents based on data/conditionals/loops, or is long enough that it might fail halfway (workflows are auto-resumable with up to three retries per agent). For one-off tasks, let Claude handle them manually—no workflow needed.
 
 ## Notable Quotes

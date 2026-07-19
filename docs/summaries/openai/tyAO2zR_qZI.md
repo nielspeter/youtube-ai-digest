@@ -28,10 +28,10 @@ Virgin Atlantic's head of customer experience describes how ChatGPT transforms o
 - The platform allows teams to deliver products to internal teams faster, which in turn benefits guests.
 
 ## Detailed Breakdown
-**[00:04] — Transforming Customer Experience with ChatGPT**
+### Transforming Customer Experience with ChatGPT [00:04](https://www.youtube.com/watch?v=tyAO2zR_qZI&t=4s)
 The speaker, identified as the head of customer experience, explains that ChatGPT helps them spot what customers need, decide what matters, and act faster. The tool has made the airline more cost-efficient in both time and money, allowing products to be delivered to internal teams more quickly.
 
-**[00:36] — Accelerating the Product Life Cycle**
+### Accelerating the Product Life Cycle [00:36](https://www.youtube.com/watch?v=tyAO2zR_qZI&t=36s)
 The speaker highlights that ChatGPT enables the team to move from idea to feature much more quickly. By compressing the product life cycle, Virgin Atlantic can deliver new features that matter to customers and get them into customers' hands faster.
 
 ## Notable Quotes

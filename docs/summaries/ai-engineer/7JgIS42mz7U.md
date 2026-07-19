@@ -31,37 +31,37 @@ Jack Cable, co-founder and CEO of Corridor, examines how frontier AI models are 
 
 ## Detailed Breakdown
 
-**[00:01] Introduction and the AI Bug Apocalypse**
+### Introduction and the AI Bug Apocalypse [00:01](https://www.youtube.com/watch?v=7JgIS42mz7U&t=1s)
 Jack Cable introduces the "bug apocalypse": frontier AI models are increasingly capable of discovering and exploiting vulnerabilities, especially in open-source libraries that underpin modern software. He frames the talk around understanding the phenomenon and how defenders can get ahead of exploitation.
 
-**[00:31] Speaker Background**
+### Speaker Background [00:31](https://www.youtube.com/watch?v=7JgIS42mz7U&t=31s)
 Cable shares his credentials: co-founder/CEO of Corridor (focused on securing AI coding), former senior technical advisor at CISA where he worked on secure-by-design initiatives, an ethical hacker ranked in the top 100 on HackerOne in high school, and a Stanford computer science graduate.
 
-**[01:04] The Dual Shift: Expanding Attack Surface and Smarter Models**
+### The Dual Shift: Expanding Attack Surface and Smarter Models [01:04](https://www.youtube.com/watch?v=7JgIS42mz7U&t=64s)
 He highlights that AI coding tools (Cursor, Copilot, Claude Code) are scaling faster than any software category in history. This creates a dual problem: models are getting better at finding/exploiting vulnerabilities while AI simultaneously becomes the default code writer, vastly expanding the attack surface. He cites 2024 stats showing 84% of developers and 30–40% of companies using AI coding tools, and notes autonomy has shifted from autocomplete to background agents running in parallel.
 
-**[03:11] Frontier Models and Autonomous Attack Chains**
+### Frontier Models and Autonomous Attack Chains [03:11](https://www.youtube.com/watch?v=7JgIS42mz7U&t=191s)
 Cable references Anthropic's chart comparing their "Mythos" model to others, showing rapid advancement in models' ability to execute autonomous attack chains. He stresses that adversaries will automate every part of the attack process, so defenders must identify points to make systems more resilient.
 
-**[04:14] Secure by Design and the Good News About Vulnerability Classes**
+### Secure by Design and the Good News About Vulnerability Classes [04:14](https://www.youtube.com/watch?v=7JgIS42mz7U&t=254s)
 He revisits his CISA work and the March 2023 secure-by-design paper. The encouraging news: virtually all vulnerabilities AI models find are not novel classes but well-known ones (per MITRE's top exploited vulnerability list). Buffer overflows, for example, were documented 30+ years ago and are preventable with memory-safe languages, yet persist.
 
-**[07:59] Memory Safety Evidence and Systemic Rewrites**
+### Memory Safety Evidence and Systemic Rewrites [07:59](https://www.youtube.com/watch?v=7JgIS42mz7U&t=479s)
 Cable presents data showing 60–70% of vulnerabilities in memory-unsafe languages are preventable with memory-safe alternatives. He highlights Google's Android chart: writing only *new* code in memory-safe languages dropped memory safety vulnerabilities from ~75% (2019) to ~30% (2022). He argues for one-time systemic rewrites of critical libraries into Rust rather than endless whack-a-mole patching, which pays dividends even as models get smarter.
 
-**[10:34] AI-Introduced Vulnerabilities and Contextual Risk**
+### AI-Introduced Vulnerabilities and Contextual Risk [10:34](https://www.youtube.com/watch?v=7JgIS42mz7U&t=634s)
 He notes that even highly capable models introduce vulnerabilities—citing an Opus 46 example where a smart contract bug led to millions stolen. Referencing the "Backsbench" benchmark from ETH Zurich and UC Berkeley, he states the best models introduce vulnerabilities 20–40% of the time. Increasingly these are contextual issues (e.g., authorization bugs) requiring understanding of proprietary business logic that models aren't trained on.
 
-**[12:36] The Path to AI Code Review and Corridor's Approach**
+### The Path to AI Code Review and Corridor's Approach [12:36](https://www.youtube.com/watch?v=7JgIS42mz7U&t=756s)
 Cable describes the autonomy ladder: autocomplete → synchronous agents (Cursor, Claude Code) → long-running autonomous agents → AI code review. He predicts that within 6–12 months, the majority of shipped code will be AI-reviewed, since human review is now the bottleneck. Corridor's approach is preventing vulnerabilities before the pull request and providing visibility into AI coding tool usage, enabling security teams to set guardrails rather than block acceleration.
 
-**[14:50] Policy Perspective: Export Controls and Open-Weight Models**
+### Policy Perspective: Export Controls and Open-Weight Models [14:50](https://www.youtube.com/watch?v=7JgIS42mz7U&t=890s)
 He discusses a letter led by Mikayla Gyalcsamis urging the White House to lift export controls on powerful models like Mythos and Fable. Cable argues the defender benefit far outweighs the risk, noting adversaries already have access to powerful open-weight models via distillation attacks. He believes defenders need rapid access to these capabilities.
 
-**[16:44] Congressional Testimony and Recommendations**
+### Congressional Testimony and Recommendations [16:44](https://www.youtube.com/watch?v=7JgIS42mz7U&t=1004s)
 Cable recounts his recent testimony to Congress with three recommendations: (1) prevent vulnerabilities in new code going forward; (2) harden the open-source foundation systemically—including through rewrites—since open-source is the proving ground for adversaries; and (3) foster an ecosystem of American frontier open-weight models, which are essential for fine-tuning and competitiveness.
 
-**[18:50] Closing**
+### Closing [18:50](https://www.youtube.com/watch?v=7JgIS42mz7U&t=1130s)
 He closes by emphasizing the importance of returning to fundamental controls that protect against vulnerabilities discoverable by both current and future models, using AI to make systems more resilient.
 
 ## Notable Quotes

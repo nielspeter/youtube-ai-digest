@@ -31,46 +31,46 @@ Matthew Berman demonstrates how to quickly install and configure Hermes, an AI a
 
 ## Detailed Breakdown
 
-**[00:00] Quick Install via Hostinger**
+### Quick Install via Hostinger [00:00](https://www.youtube.com/watch?v=TML-0HmxWCE&t=0s)
 Berman begins with a speed-install challenge. He walks through signing up for Hermes Agent Hosting on Hostinger, selecting a plan (defaulting to 24 months for maximum savings), applying the promo code "Matthew B" for an extra 10% off, and paying. He then creates an OpenAI API key at platform.openai.com, names it "Hermes-hostinger," copies it, and pastes it into Hostinger. Hostinger handles the rest of the setup automatically, completing the installation in under two minutes.
 
-**[01:03] Initial Configuration**
+### Initial Configuration [01:03](https://www.youtube.com/watch?v=TML-0HmxWCE&t=63s)
 Berman walks through the Hermes initial setup wizard: skipping provider config (already done), selecting a workspace, and opening Hermes. He tests the agent by switching the default model from GPT-4o to GPT-4 Mini, sends a "hello," and receives a response, confirming everything works.
 
-**[01:34] Preconfigured Skills**
+### Preconfigured Skills [01:34](https://www.youtube.com/watch?v=TML-0HmxWCE&t=94s)
 A major differentiator from OpenClaw is Hermes's large library of pre-enabled skills. Berman shows the Skills tab, which includes skills for Claude Code, codec, Asky Art, Asky Video, and Excalidraw diagramming. Each skill is viewable as markdown, and users can toggle them on or off. He highlights the Excalidraw skill as a personal favorite.
 
-**[02:35] Installing a Custom Skill**
+### Installing a Custom Skill [02:35](https://www.youtube.com/watch?v=TML-0HmxWCE&t=155s)
 Berman demonstrates installing a new skill from GitHub. He finds a "last 30 days" skill, copies the raw `skill.md` file, returns to Hermes, clicks the Skills button, adds a new skill via the plus button, names it, categorizes it as "search," and pastes the markdown. He invokes it in chat using a slash command. When the skill requires additional code that wasn't installed, Hermes self-heals by fetching the skill's repo into a temporary directory and running from there. It also intelligently disambiguates "Hermes" to mean the Hermes agent (not the fashion brand or mythology) based on chat context.
 
-**[04:38] Self-Healing Capability**
+### Self-Healing Capability [04:38](https://www.youtube.com/watch?v=TML-0HmxWCE&t=278s)
 Berman emphasizes that if Hermes encounters an unfamiliar error while using a skill, it will investigate the cause and apply a patch to itself. This is designed to make the platform accessible to non-technical users.
 
-**[05:09] Tasks (Scheduled Automations)**
+### Tasks (Scheduled Automations) [05:09](https://www.youtube.com/watch?v=TML-0HmxWCE&t=309s)
 The Tasks feature allows users to create scheduled automations or loops. Berman creates a "daily brief" job that runs every 24 hours with a prompt to review his calendar and summarize each meeting. Output is delivered to the chat window. Skills can optionally be attached to tasks. Saved jobs are listed and run on schedule.
 
-**[05:40] Memory and Agent Soul**
+### Memory and Agent Soul [05:40](https://www.youtube.com/watch?v=TML-0HmxWCE&t=340s)
 Hermes automatically generates memory about the user over time. Users can also manually add facts. The "agent soul" document—comparable to OpenClaw's `identity.md` or `soul.md`—is editable. Berman adds a pirate-speaking instruction and personal details (name, company, newsletter URL) to the memory, saves it, and the agent adopts that persona immediately.
 
-**[06:43] Profiles**
+### Profiles [06:43](https://www.youtube.com/watch?v=TML-0HmxWCE&t=403s)
 Profiles allow users to maintain multiple specialized agents (e.g., a marketing agent and a development agent) rather than one bloated agent with all skills enabled. This effectively silos capabilities for different use cases.
 
-**[07:15] Insights**
+### Insights [07:15](https://www.youtube.com/watch?v=TML-0HmxWCE&t=435s)
 The Insights tab displays usage metrics including daily token usage, number of messages, and number of sessions. Berman shows his own stats: 73,000 tokens.
 
-**[07:47] Settings and Model Routing**
+### Settings and Model Routing [07:47](https://www.youtube.com/watch?v=TML-0HmxWCE&t=467s)
 Hermes supports a broad range of inference providers: OpenAI, Anthropic, Copilot, Deepseek, Gemini, Kimmy, LM Studio (for local inference), Mistral, Nexos, Nouse Portal, and Nvidia Nims. It offers built-in model routing, allowing users to assign specific models to specific tasks (vision, compression, web extraction, session search, approval). Berman leaves everything on "auto" for simplicity.
 
-**[08:18] Plugins**
+### Plugins [08:18](https://www.youtube.com/watch?v=TML-0HmxWCE&t=498s)
 Plugins are described as end-to-end workflows—more comprehensive than individual skills. Built-in plugins include browser use, Firecrawl (web scraping), Discord, Google Chat, and Google Meet. Users can also build and install their own plugins.
 
-**[08:49] Connecting to Telegram**
+### Connecting to Telegram [08:49](https://www.youtube.com/watch?v=TML-0HmxWCE&t=529s)
 Berman demonstrates connecting Hermes to Telegram via the Hostinger command line. He runs `Hermes gateway setup`, selects Telegram from a list of options (Slack, Matrix, Mattermost, WhatsApp, Signal, Email, etc.), and provides a bot token created through Telegram's BotFather (`/newbot`). He retrieves his user ID via the "user infobot," pastes it as an allowed user, sets it as the home channel, and restarts the gateway. He tests the bot in Telegram and it responds—in pirate speak, retaining the earlier memory context.
 
-**[10:52] Manim Video Demo**
+### Manim Video Demo [10:52](https://www.youtube.com/watch?v=TML-0HmxWCE&t=652s)
 Berman showcases a built-in skill called "man video" (referring to Manim, a language for mathematical motion graphics). He prompts Hermes to create a video explaining how exponentials work. Within a couple of minutes, Hermes generates a 58-second animated MP4, which Berman plays back.
 
-**[11:24] Final Thoughts and Sponsorship Recap**
+### Final Thoughts and Sponsorship Recap [11:24](https://www.youtube.com/watch?v=TML-0HmxWCE&t=684s)
 Berman recaps Hermes's strengths: self-healing, preconfigured skills and plugins, extensive configurability, broad provider support, and a 2-minute install via Hostinger. Because it's hosted on an isolated server, there's no need to maintain a dedicated local machine, and the agent only accesses what the user explicitly provides. He thanks Hostinger for sponsoring the video and directs viewers to links below.
 
 ## Notable Quotes

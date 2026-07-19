@@ -29,40 +29,40 @@ Vercel's new open-source AI agent framework, Eve, introduces a "file-system firs
 
 ## Detailed Breakdown
 
-### [00:00] Introduction to Eve and File-System First Agents
+### Introduction to Eve and File-System First Agents [00:00](https://www.youtube.com/watch?v=m8VC2SV2igM&t=0s)
 Vercel released Eve, an open-source AI agent framework described as "file system first." Traditionally, file-system-based agents were limited to personal use or second-brain applications, not production environments. Eve bridges this gap by combining the ease and flexibility of file-based agents with the reliability needed for production deployment to thousands or millions of users.
 
-### [01:00] The Folder Structure and Core Primitives
+### The Folder Structure and Core Primitives [01:00](https://www.youtube.com/watch?v=m8VC2SV2igM&t=60s)
 An Eve agent is simply a folder containing composable files. Key components include instructions (system prompt), agent definition (model, skills, tools, sandbox), channels (Slack, Discord), connections (MCP servers), sub-agents, and schedules for autonomous tasks. Each primitive is defined in its own subfolder, wrapped by a main parent folder, making the structure simple and modular.
 
-### [02:00] Standardization and the Compilation Step
+### Standardization and the Compilation Step [02:00](https://www.youtube.com/watch?v=m8VC2SV2igM&t=120s)
 Eve provides a standard way to define agent structures, which many organizations have been building internally. The most impressive feature is the compilation step: when running or deploying, Eve automatically traverses the folder, finds all skills and MCP servers, and creates a single manifest with everything hooked together. Developers don't need to manually import or link components in the main agent.ts file.
 
-### [03:30] Production Reliability and Vercel Infrastructure
+### Production Reliability and Vercel Infrastructure [03:30](https://www.youtube.com/watch?v=m8VC2SV2igM&t=210s)
 Eve agents scale to production using Vercel's infrastructure. Features include durable sessions (checkpointed workflows surviving crashes and redeploys), isolated sandboxing for secure code execution, human-in-the-loop approvals for risky steps, and evals as a deploy gate. Vercel handles hosting and scaling, and agents can connect to external platforms like Slack or custom APIs.
 
-### [05:30] Standards, Open Source, and OKF Combination
+### Standards, Open Source, and OKF Combination [05:30](https://www.youtube.com/watch?v=m8VC2SV2igM&t=330s)
 The presenter praises Eve as a standard for file-system-based agents, comparing it to other industry standards like MCP, A2A, and OKF. While Eve standardizes agent structure, OKF standardizes knowledge bases. The two could complement each other, though Eve focuses on scaling agent primitives (skills, MCP servers) rather than knowledge bases of markdown documents.
 
-### [06:50] Building Eve Agents with the Vercel Plugin
+### Building Eve Agents with the Vercel Plugin [06:50](https://www.youtube.com/watch?v=m8VC2SV2igM&t=410s)
 Vercel ships a plugin for coding agents like Claude Code and Cursor, installed via a single command. The plugin includes an MCP server for deployment and skills that teach the coding agent how to structure Eve agents, including channels, skills, schedules, and sandboxes. This allows developers to build production-ready agents without deep expertise in Eve's structure.
 
-### [08:15] Demo: The Eve Analyst Agent
+### Demo: The Eve Analyst Agent [08:15](https://www.youtube.com/watch?v=m8VC2SV2igM&t=495s)
 The presenter demonstrates a cloned "Eve analyst agent" built with Claude Code and the plugin. The agent starts with a simple agent.ts file specifying the model (Claude Sonnet 4.5 via Anthropic API). Running the agent locally requires a single Eve command, and everything else (skills, tools, sub-agents) is optional and added as markdown or TypeScript files in subfolders without manual linking.
 
-### [09:30] Exploring Skills, Tools, and Sub-Agents
+### Exploring Skills, Tools, and Sub-Agents [09:30](https://www.youtube.com/watch?v=m8VC2SV2igM&t=570s)
 Skills are markdown files with descriptions (e.g., "load this before answering revenue questions"). Tools are simple TypeScript files using Zod for input typing, automatically loaded from a tools folder. Sub-agents (e.g., an "investigator" for token-heavy metric analysis) are added similarly. None of these require modifications to the main agent.ts file, unlike other frameworks.
 
-### [10:50] Local Testing and Tool Calls
+### Local Testing and Tool Calls [10:50](https://www.youtube.com/watch?v=m8VC2SV2igM&t=650s)
 Running the agent locally with the Eve command, the presenter asks questions like "What tables are in the warehouse?" The agent uses a database tool (a simple TypeScript file) to list tables. For revenue-related questions, it automatically loads the relevant skill, makes tool calls, runs SQL, and formats the output according to the skill's instructions.
 
-### [12:40] Deployment and Scaffolding from Scratch
+### Deployment and Scaffolding from Scratch [12:40](https://www.youtube.com/watch?v=m8VC2SV2igM&t=760s)
 Deployment is as simple as telling the coding agent, "Deploy this Eve agent," which uses the Vercel MCP server. The presenter also demonstrates scaffolding a new agent from scratch by prompting Claude Code with "Scaffold a new Eve agent called hello agent," which creates the entire folder structure automatically. The deployment process includes a smoke test and optional eval runs.
 
-### [13:40] Slack Integration and Human-in-the-Loop
+### Slack Integration and Human-in-the-Loop [13:40](https://www.youtube.com/watch?v=m8VC2SV2igM&t=820s)
 Once deployed and connected to Slack (requiring some manual setup guided by the coding agent), users can @mention the agent and converse in threads with short-term memory. The presenter demonstrates human-in-the-loop by asking the agent to run a risky SQL query, which triggers an approval button in Slack. After clicking "allow," the agent executes the query and returns the result, balancing power with safety.
 
-### [15:29] Conclusion and Final Thoughts
+### Conclusion and Final Thoughts [15:29](https://www.youtube.com/watch?v=m8VC2SV2igM&t=929s)
 Eve represents a shift in how AI agents are built, reducing them to a single folder of organized markdown and TypeScript without losing production-grade power. The presenter, who collaborated with Vercel on the video, finds the framework incredible and encourages viewers to explore it, linking resources in the description.
 
 ## Notable Quotes

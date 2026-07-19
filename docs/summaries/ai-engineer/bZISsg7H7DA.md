@@ -31,46 +31,46 @@ Hamza Tahir argues that AI agents lack a fundamental capability the software wor
 
 ## Detailed Breakdown
 
-**[00:00] The Missing Save Button for Agents**
+### The Missing Save Button for Agents [00:00](https://www.youtube.com/watch?v=bZISsg7H7DA&t=0s)
 Tahir opens by noting that while document auto-save (Control-S, Command-S) has been standard since the 1980s, agents have no equivalent. The closest thing today is a trace, which captures emitted telemetry (tool calls, inputs, outputs) but is disconnected from the actual runtime—losing variables, file system state, code decisions, and environment context.
 
-**[01:35] Why a Save Button Matters: Replay and What-If**
+### Why a Save Button Matters: Replay and What-If [01:35](https://www.youtube.com/watch?v=bZISsg7H7DA&t=95s)
 A save button enables replay: going back in history to ask what-if questions. Examples include swapping to a cheaper open-source model, mocking a tool's return value, or intentionally degrading a tool to test failure behavior. These questions are only answerable if full state is persisted.
 
-**[02:06] An Emerging Stack Category**
+### An Emerging Stack Category [02:06](https://www.youtube.com/watch?v=bZISsg7H7DA&t=126s)
 A new layer is emerging in the agent stack: durable runtimes that sit below harnesses/frameworks, augment traces with actual code execution and environment state, and complete the picture of the system. Production already has the traces and (ideally) checkpoints needed to ask improvement questions.
 
-**[03:11] Closing the Loop on Evals**
+### Closing the Loop on Evals [03:11](https://www.youtube.com/watch?v=bZISsg7H7DA&t=191s)
 With checkpointed state, you can build cohorts of runs (e.g., expensive, slow, risky), replay a change, diff against the baseline, and decide whether to ship. Tahir frames this as "checkpoint, replay, diff, decide"—closing the loop by evaluating against production checkpoints rather than synthetic data.
 
-**[04:14] DoorDash Case Study**
+### DoorDash Case Study [04:14](https://www.youtube.com/watch?v=bZISsg7H7DA&t=254s)
 DoorDash published a blog post (June 1) describing a simulated environment where they replayed customer bot interactions. They reduced simulation time from hours to 5 minutes, ran hundreds of simulations, cut hallucinations by 90%, and stayed within two points of production results—demonstrating that simulations grounded in real runs are highly representative.
 
-**[05:16] Demo: Kitaru by ZenML**
+### Demo: Kitaru by ZenML [05:16](https://www.youtube.com/watch?v=bZISsg7H7DA&t=316s)
 Tahir introduces Kitaru, a new open-source tool from ZenML (where he is co-founder). Kitaru provides a runtime layer below the harness, connects to traces, and checkpoints state. In the demo, a support agent handles customer requests and escalates to humans when needed. Each checkpoint shows configuration, where it ran, the code, and artifacts in/out, plus the environment (Docker image or sandbox).
 
-**[06:20] Replay Scenario: Swapping the Model**
+### Replay Scenario: Swapping the Model [06:20](https://www.youtube.com/watch?v=bZISsg7H7DA&t=380s)
 Tahir replays an execution from a specific checkpoint, changing the model to GPT-5 Nano (cheaper). Kitaru skips the first three checkpoints (already persisted) and resumes execution from the change point. The replayed run looks similar to the original.
 
-**[07:52] Replay Scenario: Mocking a Tool**
+### Replay Scenario: Mocking a Tool [07:52](https://www.youtube.com/watch?v=bZISsg7H7DA&t=472s)
 Next, he mocks the `lookup_policy` tool with a different function from his codebase, holding the model constant. Because Kitaru is connected to the actual code, modifying tool behavior is straightforward. The replay produces a slightly different artifact and outcome.
 
-**[08:54] Diffing Runs Side by Side**
+### Diffing Runs Side by Side [08:54](https://www.youtube.com/watch?v=bZISsg7H7DA&t=534s)
 Kitaru's diff command generates a URL to a UI comparing the original run and two forks. The baseline checkpoints are identical (skipped), but divergence appears after the change point. In the third replay (changed policy), the final decision shifts from "needs review" to "safe to answer"—a potentially significant behavioral change.
 
-**[10:59] Cohort-Level Replay**
+### Cohort-Level Replay [10:59](https://www.youtube.com/watch?v=bZISsg7H7DA&t=659s)
 Tahir extends the approach from single runs to cohorts—e.g., all expensive runs sorted by cost. He uses the `replay many` command to apply one change (model swap or tool change) across the entire cohort, emitting results to JSON.
 
-**[12:02] Analyzing Cohorts with MCP and LLMs**
+### Analyzing Cohorts with MCP and LLMs [12:02](https://www.youtube.com/watch?v=bZISsg7H7DA&t=722s)
 Manually diffing thousands of runs is impractical. Tahir uses the Kitaru MCP server to have an LLM read the JSON report and analyze the cohort, flagging red flags and recommending whether to ship the change.
 
-**[13:38] The False Economy of Naive Model Swaps**
+### The False Economy of Naive Model Swaps [13:38](https://www.youtube.com/watch?v=bZISsg7H7DA&t=818s)
 Tahir cautions against single-dimensional cost analysis. A BrainTrust study showed that naive model swaps can look cheaper and faster on paper but reduce value if the support bot stops resolving requests. He also cites the tau-bench finding that a model passing 60% of the time is only self-consistent ~25% of the time—meaning a single replay is an anecdote, and cohort analysis is essential.
 
-**[15:10] The Production Playbook**
+### The Production Playbook [15:10](https://www.youtube.com/watch?v=bZISsg7H7DA&t=910s)
 The recommended playbook: start from real production runs (not synthetic), build meaningful cohorts (expensive, long, risky), never ship based on one or two replays, do this at scale, and automate the loop with a human in the loop at the end.
 
-**[16:11] Conclusion and Cohort Verdict**
+### Conclusion and Cohort Verdict [16:11](https://www.youtube.com/watch?v=bZISsg7H7DA&t=971s)
 The cohort analysis concludes "don't ship"—the cheaper model, despite looking good in a single replay, underperformed across the broader set of support cases. Tahir reiterates that modeling agents with a harness on a checkpointing, replayable runtime is the key to answering what-if questions, and points to Kitaru as an open-source tool to do so.
 
 ## Notable Quotes

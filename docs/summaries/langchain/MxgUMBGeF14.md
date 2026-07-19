@@ -29,25 +29,25 @@ This video demonstrates how to use Deep Agents Code (dcode), an open-source, mod
 
 ## Detailed Breakdown
 
-**[00:00] The Case for Open Models and Nemotron 3 Ultra**
+### The Case for Open Models and Nemotron 3 Ultra [00:00](https://www.youtube.com/watch?v=MxgUMBGeF14&t=0s)
 The video opens by highlighting a new era in agent engineering where open models are solving previously out-of-reach problems economically. It introduces Nemotron 3 Ultra, a 550 billion parameter model with strong reasoning performance that runs up to 300 tokens per second at a fraction of the cost of frontier models. On the Artificial Analysis Intelligence Index, Nemotron 3 Ultra sits in a quadrant of its own, displaying comparable intelligence at 3 to 6 times the speed of other open models.
 
-**[00:31] Introducing Deep Agents Code (dcode)**
+### Introducing Deep Agents Code (dcode) [00:31](https://www.youtube.com/watch?v=MxgUMBGeF14&t=31s)
 The presenter explains that a model is only as good as the harness driving it. Tools like Claude Code or Codex are excellent but built for provider-specific models. To maximize Nemotron 3's performance, you need dcode (Deep Agents Code)—an open-source, model-agnostic coding agent with built-in optimizations for Nemotron 3 and other open models. dcode offers a terminal-based experience similar to Claude Code, with skills, sub-agents, and MCP support, plus first-class tracing through LangSmith.
 
-**[01:34] Installation and Setup**
+### Installation and Setup [01:34](https://www.youtube.com/watch?v=MxgUMBGeF14&t=94s)
 The walkthrough begins at the Deep Agents Code docs website, where users copy an install script and paste it into the terminal. After installation, typing `dcode` launches the agent, which runs through an initialization process. Users select their model by typing "Nemotron" to find Baseten Nemotron. The setup prompts for an API key for web search (which the presenter skips) and then installs the Baseten integration, requiring a Baseten API key. Users can obtain a key from Baseten.co by logging in or creating an account.
 
-**[03:09] Running Tasks and Exploring Features**
+### Running Tasks and Exploring Features [03:09](https://www.youtube.com/watch?v=MxgUMBGeF14&t=189s)
 With setup complete, the presenter kicks off a long-running task: building an LLM chat app powered by deep agents. While that runs, a second dcode session is opened to explore features. The presenter authenticates with LangSmith via `/auth` for observability. Other features highlighted include `/threads` to browse and resume prior conversations, `/offload` to free up context, and `/mcp` to configure MCP servers.
 
-**[04:19] The `/goal` Feature**
+### The `/goal` Feature [04:19](https://www.youtube.com/watch?v=MxgUMBGeF14&t=259s)
 A standout feature is `/goal`, which declares an objective for the session. The presenter types "please help me write a song," and dcode drafts acceptance criteria (e.g., topic and theme defined, user confirmed the song's central subject). Users can edit or accept the criteria, after which the agent works toward the goal, asking questions as needed.
 
-**[05:25] Observability with LangSmith**
+### Observability with LangSmith [05:25](https://www.youtube.com/watch?v=MxgUMBGeF14&t=325s)
 The presenter checks the long-running task by visiting localhost:8000, revealing a working chat app. The focus then shifts to LangSmith, the observability platform providing complete visibility into agent behavior. Because LangSmith tracing was enabled earlier, traces from the dcode conversation are visible. Clicking a trace shows a turn-by-turn breakdown from input to output. The "details" view reveals token counts at different granularity levels, including chat invocations and tool calls like `read file`.
 
-**[06:50] Enterprise Deployment with NVIDIA NemoClaw**
+### Enterprise Deployment with NVIDIA NemoClaw [06:50](https://www.youtube.com/watch?v=MxgUMBGeF14&t=410s)
 For enterprise use beyond local testing, the video highlights NVIDIA's newly released NemoClaw Deep Agents Blueprint—an open-source reference stack for building secure, governed agents. This collaboration enables running open models in a secure environment. The presenter notes that with the right harness and stack, open models are a first-class choice for teams wanting control over inference, and invites viewers to request more content on open models and dcode.
 
 ## Notable Quotes

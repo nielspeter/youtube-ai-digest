@@ -25,10 +25,10 @@ The video appears to be a brief promotional clip or teaser from Anthropic titled
 - The clip appears to be a teaser or promotional snippet rather than a full explanatory video.
 
 ## Detailed Breakdown
-**[00:00] Opening Music**
+### Opening Music [00:00](https://www.youtube.com/watch?v=bluAmTHoEow&t=0s)
 The video begins with background music. No speech or narration is present, so no substantive content is conveyed in this segment.
 
-**[00:33] Continued Music and Brief Vocal Reaction**
+### Continued Music and Brief Vocal Reaction [00:33](https://www.youtube.com/watch?v=bluAmTHoEow&t=33s)
 Music continues, accompanied by a single spoken interjection: "Ooh." No further information about Claude's interactive tools is provided in the transcript.
 
 ## Notable Quotes

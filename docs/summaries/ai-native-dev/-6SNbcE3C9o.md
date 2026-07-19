@@ -29,37 +29,37 @@ May Walter, co-founder of Hood, presents a use case for bridging the gap between
 
 ## Detailed Breakdown
 
-**[00:00] Introduction and The Problem with Prioritization**
+### Introduction and The Problem with Prioritization [00:00](https://www.youtube.com/watch?v=-6SNbcE3C9o&t=0s)
 The talk begins with a relatable scenario: a PM reports a slow page, but the engineering manager can't prioritize it because the investigation time is completely unknown ("somewhere between an hour and a week"). This uncertainty creates a "leaky bucket" where issues are ignored until they become crises, because engineers prefer to build features rather than pay an unknown research cost just to understand a problem.
 
-**[06:13] Automating the Investigation**
+### Automating the Investigation [06:13](https://www.youtube.com/watch?v=-6SNbcE3C9o&t=373s)
 The proposed solution is to automate the investigation phase. Instead of manually digging into code, the team wanted to run a weekly report that identifies "sweet spot" opportunities—high ROI performance optimizations that are scored and ready for implementation. This shifts the behavior: instead of asking an engineer to hunt for optimizations, the system delivers verified opportunities to the team lead.
 
-**[07:47] Choosing the Infrastructure**
+### Choosing the Infrastructure [07:47](https://www.youtube.com/watch?v=-6SNbcE3C9o&t=467s)
 The team needed a vendor-neutral, secure, and easy-to-maintain environment for the agents to run. They chose GitHub Actions Workflows because many teams already use and trust them. This reduced friction and allowed them to avoid building new agentic infrastructure from scratch. The workflow uses Claude Code, Hot's MCP server, and reports to Slack, fitting naturally into the team's existing stack.
 
-**[12:27] Initial Failures and the Need for Context**
+### Initial Failures and the Need for Context [12:27](https://www.youtube.com/watch?v=-6SNbcE3C9o&t=747s)
 The initial approach of having the agent analyze code and open pull requests failed. The agent made plausible but unverified suggestions, struggled with complex queries dependent on runtime data, and often suggested "lazy fixes" (like simply catching an exception). The core issue was a language barrier: production context speaks in endpoints and P99 latencies, while agents reason over local functions and class methods.
 
-**[15:04] "Prod to Code" Mapping and Skills**
+### "Prod to Code" Mapping and Skills [15:04](https://www.youtube.com/watch?v=-6SNbcE3C9o&t=904s)
 To solve this, Hood built "prod to code" mapping, connecting production endpoints to the specific functions involved. This provides the agent with function-level context (how often it runs, how long it takes, failure rates) without overwhelming it with gigabytes of logs. On top of this data, they built specific "skills" (methodologies for approaching HTTP 500s, memory leaks, N+1 queries) to guide the agent's investigation rather than letting it wander.
 
-**[21:17] The Pull Request Overload Problem**
+### The Pull Request Overload Problem [21:17](https://www.youtube.com/watch?v=-6SNbcE3C9o&t=1277s)
 When the system started working and finding real issues, the team tried to automatically open pull requests for all high-impact, low-risk changes. This was a mistake. Opening 80 pull requests overwhelmed the team, similar to being flooded with unresolved issues in DataDog or Sentry. The realization was that they needed to convince the *human* the fix was worth their time, not convince the *agent* it was worth the tokens.
 
-**[22:52] Scoring for Business Impact and Risk**
+### Scoring for Business Impact and Risk [22:52](https://www.youtube.com/watch?v=-6SNbcE3C9o&t=1372s)
 The system evolved to map hot paths, business impact (e.g., does this affect payments?), and risk. It now presents human-readable insights, such as: "This endpoint takes 45 seconds occasionally because of a Mongo distinct function; switching to search will improve it 30-40%." This allows engineers to confidently create a ticket or a PR, knowing the potential impact before investing time.
 
-**[24:57] Four Lessons Learned**
+### Four Lessons Learned [24:57](https://www.youtube.com/watch?v=-6SNbcE3C9o&t=1497s)
 1.  **Define what matters:** Engineers will increasingly need to define what is worth tokens and time, providing business context to agents.
 2.  **Automate investigation for prioritization:** Use agents to improve decision-making on what to prioritize based on ROI, not just to do tasks faster.
 3.  **Context over cleverness:** Agents need high-signal production context to be useful, much like a staff engineer needs company-specific knowledge before shipping code.
 4.  **Agent engineering is different:** It requires high confidence. It is better to do fewer things correctly to maintain trust in the workflow.
 
-**[27:32] The Future: Gradual Automation**
+### The Future: Gradual Automation [27:32](https://www.youtube.com/watch?v=-6SNbcE3C9o&t=1652s)
 The ultimate goal is for engineers to confidently click "merge" on agent-generated fixes. The current process provides a net-positive flywheel: teams can measure where the automation gets stuck (bad insights, hard merges, ineffective fixes) and learn from it. As models and context improve, the system moves closer to full automation for routine fixes.
 
-**[29:37] Q&A: Competing with Existing Tools**
+### Q&A: Competing with Existing Tools [29:37](https://www.youtube.com/watch?v=-6SNbcE3C9o&t=1777s)
 When asked how Hood competes with data-heavy tools like DataDog or Sentry, Walter explains they act like an "espresso shop"—focusing on the one thing they do best: function-level context and proactive forensic capture. They integrate with existing tools (like distributed tracing) rather than trying to replace them entirely.
 
 ## Notable Quotes

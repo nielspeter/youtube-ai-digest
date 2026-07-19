@@ -29,17 +29,17 @@ LangSmith is presented as a model-, cloud-, and framework-agnostic agent enginee
 - LangSmith Engine acts as an autonomous tool to help improve agents and accelerate the development cycle.
 
 ## Detailed Breakdown
-**[00:00] The Challenge of Agent Engineering**
+### The Challenge of Agent Engineering [00:00](https://www.youtube.com/watch?v=IoTJ0qMc4Hk&t=0s)
 The video opens by defining AI agents as a "new kind of software" characterized by endless inputs and non-deterministic outputs. It warns that building them using traditional, old-school methods will lead to broken systems. LangSmith is introduced as the solution—the agent engineering platform designed specifically for this new paradigm. It is highlighted as being model-agnostic, cloud-agnostic, and framework-agnostic, making it broadly adaptable.
 
-**[00:30] The Agent Development Life Cycle**
+### The Agent Development Life Cycle [00:30](https://www.youtube.com/watch?v=IoTJ0qMc4Hk&t=30s)
 LangSmith organizes the creation and management of agents into a systematic "agent development life cycle" consisting of four stages: Build, Test, Deploy, and Monitor. 
 - **Build:** Users can build agents using LangChain's open-source frameworks (Deep Agents, LangChain, or LangGraph), or they can use LangSmith Fleet to build agents entirely without code.
 - **Test:** Agents are evaluated using built-in evals and experiments.
 - **Deploy:** Once tested, changes can be deployed with a single click using LangSmith deployment.
 - **Monitor:** After deployment, every agent interaction can be observed from a single, centralized dashboard.
 
-**[01:04] Governance and Autonomous Improvement**
+### Governance and Autonomous Improvement [01:04](https://www.youtube.com/watch?v=IoTJ0qMc4Hk&t=64s)
 The final section covers oversight and optimization. Governance is built directly into every stage of the development life cycle through the LangSmith LLM Gateway. Additionally, the LangSmith Engine is introduced as a tool to help improve agents autonomously, allowing engineering teams to move through the development life cycle more quickly. It is summarized as being "your agent for agent engineering."
 
 ## Notable Quotes

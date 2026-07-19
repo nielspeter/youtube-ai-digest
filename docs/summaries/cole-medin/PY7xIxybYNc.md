@@ -31,31 +31,31 @@ Pydantic AI 2.0 introduces a single new primitive called the "capability" that b
 
 ## Detailed Breakdown
 
-### [00:00] Introduction and the 2.0 Release
+### Introduction and the 2.0 Release [00:00](https://www.youtube.com/watch?v=PY7xIxybYNc&t=0s)
 The author has long considered Pydantic AI the best AI agent framework—superior to LangChain and Crew AI for production-grade agents because it balances ease of use with full customizability. The 2.0 release represents a major evolution centered on a single new primitive: the capability.
 
-### [01:03] What Is a Capability?
+### What Is a Capability? [01:03](https://www.youtube.com/watch?v=PY7xIxybYNc&t=63s)
 A capability bundles an agent's instructions, tools, lifecycle hooks, and model settings into one composable unit. Rather than assembling a "hodgepodge" of tools and prompts, developers now package everything an agent needs for a given responsibility into a capability. Agents become simple collections of these units—like Lego blocks—and capabilities can be reused across agents. Conceptually, capabilities sit above MCP servers: MCP provides shareable tool bundles, but a capability adds instructions, hooks, guardrails, and settings on top.
 
-### [03:07] Why Pydantic AI Was "Falling Behind" and How 2.0 Catches Up
+### Why Pydantic AI Was "Falling Behind" and How 2.0 Catches Up [03:07](https://www.youtube.com/watch?v=PY7xIxybYNc&t=187s)
 The rise of coding-agent SDKs (Claude agent SDK, Codex SDK) made building personal agents extremely easy, shrinking the subset of use cases where a traditional framework like Pydantic AI felt necessary. These SDKs also integrate well with hooks, sub-agents, and MCP servers. With 2.0, Pydantic AI catches up—adding capabilities is as easy or easier than in those SDKs, restoring its lead for production deployments.
 
-### [04:41] Sponsor: Nimble (Open-Source Visual Workspace)
+### Sponsor: Nimble (Open-Source Visual Workspace) [04:41](https://www.youtube.com/watch?v=PY7xIxybYNc&t=281s)
 Nimble is a free, open-source, 100% local visual workspace for Claude Code or Codex. It renders agent changes as red/green diffs across code, markdown, and diagrams; supports revert/accept and annotation; and offers an agent manager to run multiple isolated coding-agent sessions in parallel with a Kanban board. Everything is stored as plain markdown on disk with no lock-in.
 
-### [06:13] Making Capabilities Concrete: GitHub Repo and Documentation
+### Making Capabilities Concrete: GitHub Repo and Documentation [06:13](https://www.youtube.com/watch?v=PY7xIxybYNc&t=373s)
 The author created a GitHub repo showing the same agent built in both Pydantic AI 1.0 and 2.0, usable as a template. He strongly advises against writing Pydantic AI code by hand—instead, point your coding agent at the (very long) capabilities documentation and let it generate the code. The documentation length itself reflects the framework's depth of customizability.
 
-### [07:44] Comparing 1.0 and 2.0 Code
+### Comparing 1.0 and 2.0 Code [07:44](https://www.youtube.com/watch?v=PY7xIxybYNc&t=464s)
 In 1.0, defining an agent meant mixing instructions, tools, and settings together with no clean composability—you couldn't easily extract a subset for another agent. In 2.0, the agent constructor takes a model plus a list of capabilities. Example: a "knowledge base" capability (instructions, a `search_knowledge_base` tool, model settings, and a pre-tool-use hook) can be shared between a support agent (which also has an escalation capability) and a simpler FAQ widget agent. Updating the capability benefits both agents simultaneously.
 
-### [10:19] Progressive Disclosure in Action
+### Progressive Disclosure in Action [10:19](https://www.youtube.com/watch?v=PY7xIxybYNc&t=619s)
 Capabilities support progressive disclosure: the agent sees brief descriptions of all available capabilities but only loads full instructions when it decides a capability is relevant. Demo: asking "Can I connect Orbit to Slack?" triggers the built-in thinking capability and the custom knowledge-base capability, but not the escalation capability. Asking about a billing issue that needs human escalation causes the agent to load the escalation capability and create a support ticket. This keeps conversations focused, fast, and cost-efficient.
 
-### [12:21] Lean Core and the Harness
+### Lean Core and the Harness [12:21](https://www.youtube.com/watch?v=PY7xIxybYNc&t=741s)
 Pydantic AI 2.0 introduces two layers of capabilities. The **lean core** includes capabilities considered critical to most agents—thinking, web search, and tool search (for progressive disclosure). The **harness** wraps the core with capabilities Pydantic AI supports but that aren't universally needed, such as code execution via the Monty sandbox (an open-source lightweight sandbox from the Pydantic parent company). This architecture keeps the core lightweight while offering rich out-of-the-box options.
 
-### [14:26] Closing Thoughts
+### Closing Thoughts [14:26](https://www.youtube.com/watch?v=PY7xIxybYNc&t=866s)
 The capability primitive simplifies agent building without sacrificing power. For production agents used by other people, you need a real framework rather than coding-agent SDKs or tools like Hermes/Open Claw—and Pydantic AI remains the author's go-to. More Pydantic AI content is planned.
 
 ## Notable Quotes

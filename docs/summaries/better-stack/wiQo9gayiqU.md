@@ -31,31 +31,31 @@ Apfel is a tiny open-source CLI that exposes Apple's built-in, on-device ~3-bill
 
 ## Detailed Breakdown
 
-**[00:00] Introduction — A free model already on your Mac**
+### Introduction — A free model already on your Mac [00:00](https://www.youtube.com/watch?v=wiQo9gayiqU&t=0s)
 The video opens by revealing that a free AI language model sits on every eligible Mac as part of macOS, accessible offline with no API keys. Until now, reaching it basically required writing a Swift app. Apfel changes that by exposing Apple's built-in on-device model through the terminal, code, or an OpenAI-style local server. The host promises a quick demo followed by a comparison to Ollama.
 
-**[00:34] What Apfel is and how it works**
+### What Apfel is and how it works [00:34](https://www.youtube.com/watch?v=wiQo9gayiqU&t=34s)
 Macs with Apple Intelligence contain an on-device language model of about 3 billion parameters, hidden behind Apple's Foundation Models framework. Apple aimed it at app developers, not end users. Apfel is a tiny, MIT-licensed, few-megabyte Swift binary that exposes this model in three ways: a CLI, a chat prompt, and — the standout feature — an OpenAI-compatible server running on localhost, all with no API key and no billing.
 
-**[01:05] Installation and first run**
+### Installation and first run [01:05](https://www.youtube.com/watch?v=wiQo9gayiqU&t=65s)
 On an M4 Max Mac, installation is a single command: `brew install apfel`. There's no model to download because it's already part of Apple Intelligence. The host runs `apfel stream` with a prompt ("What can you do as a language model?") and gets an immediate response. He then kills Wi-Fi to prove it works fully offline, asking it to "Teach me the Arabic alphabet," and it streams back token by token with no internet.
 
-**[02:08] Shell workflow integration**
+### Shell workflow integration [02:08](https://www.youtube.com/watch?v=wiQo9gayiqU&t=128s)
 Apfel can be used directly in shell workflows. The host demonstrates asking it to write a function and save the output straight to a file with a redirect. He notes it adds some extra conversational text that has to be cleaned up. He also shows feeding it an existing file (`apfel -f scriptname`) and asking questions about it — useful for quick code feedback.
 
-**[03:12] OpenAI-compatible local server**
+### OpenAI-compatible local server [03:12](https://www.youtube.com/watch?v=wiQo9gayiqU&t=192s)
 The feature the host likes most is Apfel's ability to run as a real OpenAI-compatible server. He takes a standard Python script using the OpenAI SDK, changes the base URL to localhost, drops in a nonsense API key (since none is needed), and runs it. It works identically to calling OpenAI — same SDK, but free and fully offline, with no data leaving the machine.
 
-**[03:42] How Apfel differs from Ollama/MLX**
+### How Apfel differs from Ollama/MLX [03:42](https://www.youtube.com/watch?v=wiQo9gayiqU&t=222s)
 Apfel isn't running a model; it's a translator that hands prompts to Apple's Foundation Models framework and reshapes the output into what the OpenAI SDK expects. That's why there's nothing to download. Ollama and MLX, by contrast, pull down open-weight models (Llama, Qwen, etc.) that you can swap, shrink, and fine-tune. Apfel wraps the one model Apple already installed — no download, almost no disk usage, but no model choice either.
 
-**[04:14] Where Apfel shines**
+### Where Apfel shines [04:14](https://www.youtube.com/watch?v=wiQo9gayiqU&t=254s)
 Apfel is ideal for small, sharp tasks: shell commands, commit messages from a diff, quick tagging, classification, and short summaries — the little things that would otherwise rack up a cloud bill. Because it speaks the OpenAI API, you can build and test an entire app offline against it, then switch to a real cloud provider only when you ship.
 
-**[04:45] The ceiling — limitations and honesty**
+### The ceiling — limitations and honesty [04:45](https://www.youtube.com/watch?v=wiQo9gayiqU&t=285s)
 The host is candid about the limits. The model is ~3B parameters — "not GPT, not Claude, not even in the same league." It nails maybe 75–80% of simple shell one-liners but fails on math, multi-step reasoning, and context retention. The real wall is the context window: under 5,000 tokens total (prompt + answer combined), about one page. You can't feed it log files or use it for coding sub-agents. Apple's safety guardrails are also baked in and can't be switched off, though a "permissive mode" softens them.
 
-**[05:48] Licensing, ownership, and who should use it**
+### Licensing, ownership, and who should use it [05:48](https://www.youtube.com/watch?v=wiQo9gayiqU&t=348s)
 Apfel itself is open-source MIT — take it, ship it. But the model is Apple's, lives inside macOS, can't be downloaded, and can't run anywhere but an Apple machine. So it's "kind of free, kind of." For real reasoning, long documents, or production products, stay on the cloud (Claude, OpenAI) or run a bigger model via Ollama. But for the hundred tiny prompts a day, Apfel is private, offline, and already on your Mac.
 
 ## Notable Quotes

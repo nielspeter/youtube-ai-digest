@@ -29,34 +29,34 @@ The video presents four "upgrades" to Claude Code that address its default habit
 
 ## Detailed Breakdown
 
-### [00:00] Introduction: Claude's Hidden Money Drains
+### Introduction: Claude's Hidden Money Drains [00:00](https://www.youtube.com/watch?v=iTY8Q449YNQ&t=0s)
 The host opens by claiming he tripled his income in 30 days after identifying and fixing four default flaws in Claude Code. He frames income as capped by two things—output quality and production speed—and notes that Claude's design errors cost time and money on things that never work.
 
-### [01:30] Upgrade 1: The "Roast" Skill (Stop Sycophancy)
+### Upgrade 1: The "Roast" Skill (Stop Sycophancy) [01:30](https://www.youtube.com/watch?v=iTY8Q449YNQ&t=90s)
 Claude defaults to agreeing with you—researchers call this "sycophancy," and the "Elephant" study found AI models fail to push back ~88% of the time (vs. ~60% for humans). MIT/Penn State research shows personalization makes it worse over long conversations. The fix is the `/roast` skill, which spins up a council: a contrarian, an expansionist, a first-principles thinker, a deep researcher, a buyer persona, and a judge. The judge returns green-light/reshape/kill plus a cheapest 48-hour test.
 
-### [04:00] Live Roast Demo
+### Live Roast Demo [04:00](https://www.youtube.com/watch?v=iTY8Q449YNQ&t=240s)
 The host tests his idea: a $9/month tool turning YouTube transcripts into a week of LinkedIn posts. The council returns "reshape" with high confidence—kill the $9 commodity version, keep the engine, aim at a narrow niche with provable voice matching and direct scheduled posting as the moat. Scores range from 2/10 (contrarian) to 8/10 (expansionist). A side-by-side with vanilla Claude shows generic advice vs. the council's specific, actionable verdict.
 
-### [07:40] Upgrade 2: Verification Loop (Make Claude Check Its Work)
+### Upgrade 2: Verification Loop (Make Claude Check Its Work) [07:40](https://www.youtube.com/watch?v=iTY8Q449YNQ&t=460s)
 An NYU study found ~40% of GitHub Copilot-generated programs had security vulnerabilities. The host shares a personal story where Claude claimed it sent all outreach emails but had only sent ~25%. The methodology: have Claude verify its work before handing it over—like a car factory testing each part. He demonstrates by having Claude build a waitlist landing page for "Cadence," then run a Playwright CLI verification loop that screenshots every section at desktop and mobile viewports, iterating until zero visible errors remain.
 
-### [14:25] Stress-Testing the Landing Page
+### Stress-Testing the Landing Page [14:25](https://www.youtube.com/watch?v=iTY8Q449YNQ&t=865s)
 Beyond visual verification, the host has Claude open a headed browser and submit the waitlist form with varied inputs—different dropdowns, email formats, phone numbers, even malformed entries with spaces. The test finds edge cases (22 tests: 8 valid, 14 rejected) and surfaces two non-blocking notes: no duplicate-email guard and lenient email validation. This catches issues the host wouldn't have thought to check manually.
 
-### [16:30] Upgrade 3: Context Management (Avoid Context Rot)
+### Upgrade 3: Context Management (Avoid Context Rot) [16:30](https://www.youtube.com/watch?v=iTY8Q449YNQ&t=990s)
 Research on "context rot" tested 18 top models; all degrade as conversations lengthen, well before the context window is full. The host compares context to a cluttered desk. Key commands: `/context` (visualize token usage), `/clear` (reset), and his custom `/session handoff` skill, which writes a structured summary—decisions locked, key files, running state, open questions, where to pick up—so you can clear and paste into a fresh window without losing state. He recommends starting a new session around ~250K tokens.
 
-### [21:00] Upgrade 4: Sub-Agents + `/goal` (Stop Being the Bottleneck)
+### Upgrade 4: Sub-Agents + `/goal` (Stop Being the Bottleneck) [21:00](https://www.youtube.com/watch?v=iTY8Q449YNQ&t=1260s)
 Anthropic's engineering team found a lead-agent coordinating parallel sub-agents outperformed a single agent by over 90%. Sub-agents are separate Claude instances with clean context windows working independently. The `/goal` command sets an objective finish line; a separate evaluator model checks each turn to see if "done = true," so Claude can't self-declare completion. This separates the worker from the judge, directly addressing the sycophancy problem from Upgrade 1.
 
-### [23:40] Live Sub-Agent + Goal Demo
+### Live Sub-Agent + Goal Demo [23:40](https://www.youtube.com/watch?v=iTY8Q449YNQ&t=1420s)
 The host sets a goal: build a complete go-to-market kit for Cadence with six deliverables (positioning, market research, launch plan, outreach templates, personalized drafts, content calendar). Six sub-agents run in parallel, each producing a separate file. The goal definition includes objective completion criteria (all six files exist and are non-empty, market research has 6+ competitors, drafts include 25 personalized entries). It finishes in ~8 minutes. The host notes most of his `/goal` runs take under 20–30 minutes, not hours.
 
-### [25:45] Reviewing the Go-to-Market Output
+### Reviewing the Go-to-Market Output [25:45](https://www.youtube.com/watch?v=iTY8Q449YNQ&t=1545s)
 The generated files include: positioning with ICP segments, pricing tiers ($19/$39/$99), upgrade logic, value props, and objection rebuttals; market research with seven competitors in a comparison table; a 14-day launch plan; outreach templates; and a content calendar. The host emphasizes that all four upgrades stacked together—validated idea, self-verified work, clean context, parallel execution—turned what would take a team of 10 into something achievable in under an hour of demos.
 
-### [27:16] Closing
+### Closing [27:16](https://www.youtube.com/watch?v=iTY8Q449YNQ&t=1636s)
 The four upgrades summarized: stop sycophancy, enforce self-verification, manage context, and use sub-agents + `/goal`. All prompts and skills are free in the host's Skool community; a paid Plus community offers weekly calls.
 
 ## Notable Quotes

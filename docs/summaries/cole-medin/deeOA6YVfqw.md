@@ -31,40 +31,40 @@ Cole Medin demonstrates how Archon, his open-source harness builder originally d
 
 ## Detailed Breakdown
 
-**[00:00] Introduction to Archon and Its Evolution**
+### Introduction to Archon and Its Evolution [00:00](https://www.youtube.com/watch?v=deeOA6YVfqw&t=0s)
 Cole introduces Archon, his open-source project he has been building for eight months. Originally created as a harness builder for AI coding, it lets users connect many coding agents to work on longer tasks autonomously. The project has grown to almost 23,000 stars. Cole notes an emerging trend: people are using Archon for non-coding agentic workflows like research and content creation, which motivates the demo in this video.
 
-**[01:01] The AI Content Factory Concept**
+### The AI Content Factory Concept [01:01](https://www.youtube.com/watch?v=deeOA6YVfqw&t=61s)
 Cole presents the "AI content factory," a system for generating marketing content at scale, driven by Archon workflows and Higsfield, a video generation platform. He shows a product catalog of still images and explains the goal: replace static images with generated videos to make a store feel more alive. He notes that AI video generation has become good enough for practical marketing use, including product renderings and UGC-style ads.
 
-**[02:34] Why Archon Is Needed**
+### Why Archon Is Needed [02:34](https://www.youtube.com/watch?v=deeOA6YVfqw&t=154s)
 Higsfield partnered with Cole for this video, making it an ideal opportunity to showcase Archon doing something beyond AI coding. The core problem: generating videos for a large catalog requires orchestrating many agents working in parallel, because a single coding agent would be overwhelmed. Archon provides the parallel fan-out of agents that drain a queue of products needing videos.
 
-**[03:35] Higsfield CLI Basics**
+### Higsfield CLI Basics [03:35](https://www.youtube.com/watch?v=deeOA6YVfqw&t=215s)
 Cole explains that Higsfield video generation is as simple as sending a detailed prompt. While you can use the Higsfield web platform, they also offer a CLI, which is key for the Archon integration since agents never need to leave the terminal. He shows the repo's README with installation instructions and a "skill" file that instructs the agent on how to use the CLI effectively.
 
-**[04:06] Single Video Generation Demo**
+### Single Video Generation Demo [04:06](https://www.youtube.com/watch?v=deeOA6YVfqw&t=246s)
 Cole demonstrates generating a single 10-second vertical UGC ad by prompting his coding agent to use the Higsfield CLI with a reference product image for branding. The agent loads the Higsfield skill, calls the CLI, and produces a video. Cole plays the result with audio—a man in a kitchen holding a branded Campbell tumbler—and notes it is a good starting point despite minor cheesiness.
 
-**[05:09] The Scaling Problem**
+### The Scaling Problem [05:09](https://www.youtube.com/watch?v=deeOA6YVfqw&t=309s)
 Generating one video with a single prompt is fine, but scaling to dozens of products requires a larger orchestrator. A single coding agent session cannot handle generating many videos at once. Archon solves this by fanning out to parallel workers, each handling one video at a time, with the orchestrator validating results.
 
-**[06:11] Two-Workflow System Design**
+### Two-Workflow System Design [06:11](https://www.youtube.com/watch?v=deeOA6YVfqw&t=371s)
 Cole introduces the two Archon workflows: an "explore" workflow that generates and validates image concepts for each product, and a "render" workflow that turns approved concepts into final videos. The image-first approach saves credits by avoiding expensive video renders for bad ideas. Both workflows are Ralph loops—harnesses originally designed for coding tasks, here repurposed for content creation.
 
-**[07:12] Explore Workflow Details**
+### Explore Workflow Details [07:12](https://www.youtube.com/watch?v=deeOA6YVfqw&t=432s)
 The explore workflow uses five parallel workers, each taking the next item from a product queue. If a worker finds nothing, it outputs "complete" to exit the loop. Workers generate an image concept first, then a Gemini call scores and validates the image. Bad images are automatically scrapped; good ones are presented to the user for approval via a review queue.
 
-**[08:49] Render Workflow Details**
+### Render Workflow Details [08:49](https://www.youtube.com/watch?v=deeOA6YVfqw&t=529s)
 The render workflow is a second Ralph loop with three parallel workers (fewer than explore to conserve rendering credits). Each worker claims one approved concept, renders the video, and stops. Python scripts grab approved concepts from markdown documents. If no concepts remain, the worker ends the loop. This workflow produces the final videos.
 
-**[10:20] Live Demo of Both Workflows**
+### Live Demo of Both Workflows [10:20](https://www.youtube.com/watch?v=deeOA6YVfqw&t=620s)
 Cole runs a live demo with a simplified catalog. The coding agent loads the Archon skill and kicks off the explore workflow. The agent monitors the workflow as it generates image concepts and scores them via Gemini. Cole approves concepts (including showing an off-camera approval), then launches the render workflow. He shows the Archon UI logs and graph view to illustrate the parallel workers in action.
 
-**[11:51] Final Results and Catalog Showcase**
+### Final Results and Catalog Showcase [11:51](https://www.youtube.com/watch?v=deeOA6YVfqw&t=711s)
 Cole displays the updated catalog, now with videos instead of just still images. He plays an Onyx kettle UGC ad with audio—a realistic-looking person praising the gooseneck pour-over kettle. He plays a second, improved version and expresses genuine impressment with Higsfield's output. He clarifies this catalog is an admin-style demo view, not a real product listing.
 
-**[13:24] Built-in Approval UI and Wrap-Up**
+### Built-in Approval UI and Wrap-Up [13:24](https://www.youtube.com/watch?v=deeOA6YVfqw&t=804s)
 Cole shows a built-in UI feature where users can approve vetted image concepts directly, which updates a local markdown document that feeds into the render workflow. He reiterates the entire repo is available for experimentation and encourages viewers interested in harness engineering and AI coding to like and subscribe.
 
 ## Notable Quotes

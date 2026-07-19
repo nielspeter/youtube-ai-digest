@@ -30,25 +30,25 @@ Nate Herk gave GPT 5.6 Soul running on OpenAI's Ultra mode a single, vague promp
 
 ## Detailed Breakdown
 
-**[00:00] — The Premise: A Video Made Entirely by AI**
+### The Premise: A Video Made Entirely by AI [00:00](https://www.youtube.com/watch?v=J_jswzXhYJA&t=0s)
 The video opens with a striking admission: the Nate the viewer sees and hears never actually stood in front of a camera. Instead, GPT 5.6 Soul, running inside Codex on Ultra, controlled the entire workflow — every word, cut, motion graphic, and quality check — from a single prompt. OpenAI released Soul on July 9th after a limited preview, calling it their strongest model yet.
 
-**[00:30] — Ultra Mode and the Multi-Agent Shift**
+### Ultra Mode and the Multi-Agent Shift [00:30](https://www.youtube.com/watch?v=J_jswzXhYJA&t=30s)
 The bigger innovation is Ultra, which coordinates four agents at once. Rather than answering a single question, Soul can run an entire production. Nate wanted to demonstrate exactly what that means, including where external tools — ElevenLabs, HeyGen, and Hyperframes — fit into the chain. Soul excels at long, messy work that crosses multiple tools, and OpenAI calls it their best coding model yet.
 
-**[01:00] — Benchmarks vs. Real-World Execution**
+### Benchmarks vs. Real-World Execution [01:00](https://www.youtube.com/watch?v=J_jswzXhYJA&t=60s)
 Soul scored 91.9% on Terminal Bench 2.1 (up from 85.6% for GPT 5.5) and 92.2% on Browse Comp for agentic browsing. But Nate argues benchmarks only tell part of the story. The real work Soul did included researching the launch, separating verified claims from hype, inspecting Nate's existing production systems, writing in his spoken cadence, triggering paid APIs, waiting for renders, and continuously checking results. In a 13-task test run, Soul earned 97% of available objective points: seven wins, five ties, one loss — strongest on coding and structured execution.
 
-**[01:32] — The Production Pipeline: Voice, Avatar, and Visuals**
+### The Production Pipeline: Voice, Avatar, and Visuals [01:32](https://www.youtube.com/watch?v=J_jswzXhYJA&t=92s)
 Soul broke the script into sections under 60 seconds each to keep Nate's cloned voice consistent, then ran each through Nate's authorized ElevenLabs voice. Audio was uploaded to HeyGen and paired with his avatar. Because the API couldn't reliably lock the newest motion engine, Soul used browser automation to open the HeyGen editor, switch every clip to Avatar V, regenerate, verify the setting, and download finished renders. Hyperframes then handled the final visual edit, mapping every visual to the exact triggering phrase, shifting Nate's avatar rather than covering him, and keeping him visible throughout.
 
-**[02:34] — Self-Verification and Quality Control**
+### Self-Verification and Quality Control [02:34](https://www.youtube.com/watch?v=J_jswzXhYJA&t=154s)
 Soul then tried to break its own work. Separate agents inspected rendered frames, checked every entrance and exit, looked for text outside the frame, verified the avatar never disappeared, and compared factual claims against OpenAI's release notes. Any failed frame triggered another fix, another render, and another review. Nate notes this is a more useful test of OpenAI's claim about Soul's design judgment and self-inspection than any benchmark slide. The entire video started as one instruction and became a finished product — demonstrating Soul's core strength: holding onto the desired outcome while everything between prompt and result keeps changing.
 
-**[03:07] — Token Usage and Cost Analysis**
+### Token Usage and Cost Analysis [03:07](https://www.youtube.com/watch?v=J_jswzXhYJA&t=187s)
 Nate found the run reportedly used 3 million tokens over 2.5 hours, but was suspicious of that figure given Ultra's delegation behavior. He asked Soul to inspect the logs: the actual total was around 450 million tokens across nine sub-agents plus the main session (~86 million tokens). At API rates this would have cost a little over $300. However, Nate notes that in his day-long testing comparing Soul to Fable 5, Soul was consistently cheaper — roughly half Fable 5's cost and similarly priced to Opus 4.8.
 
-**[04:11] — Ultra Overkill and Practical Advice**
+### Ultra Overkill and Practical Advice [04:11](https://www.youtube.com/watch?v=J_jswzXhYJA&t=251s)
 Nate believes Soul could have produced a similar video without Ultra mode. Ultra caused the model to overthink and over-delegate, inflating token usage. He estimates the same prompt on "high" or "very high" effort would yield comparable results at roughly half the cost. His general rule: with highly capable models, he rarely pushes effort above "high." The real lesson is to give capable models vague, emotional prompts with delegation and verification instructions, then get out of the way — iterate, build skills, add feedback, and expand from there.
 
 ## Notable Quotes

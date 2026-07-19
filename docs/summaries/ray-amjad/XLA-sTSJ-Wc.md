@@ -30,37 +30,37 @@ This video walks through Boris's four-step framework for AI agent coding adoptio
 
 ## Detailed Breakdown
 
-**[00:00] Introduction and Context**
+### Introduction and Context [00:00](https://www.youtube.com/watch?v=XLA-sTSJ-Wc&t=0s)
 The video opens by introducing a post from Boris (Claude Code's creator) about the steps of AI adoption for agent coding. The host notes that most people are stuck between steps one and two, while Boris is at step four. The goal is to walk through each level with concrete on-screen examples.
 
-**[02:04] Level 1: Assisted (Fast Pair Programmer)**
+### Level 1: Assisted (Fast Pair Programmer) [02:04](https://www.youtube.com/watch?v=XLA-sTSJ-Wc&t=124s)
 Level 1 involves one engineer supervising one agent in the terminal, manually approving permissions and prompting tasks. The host notes that even people running 4-5 parallel sessions using Claude worktrees (`claude -w`) are still stuck at Level 1 because they lack a self-verification loop and automated code review.
 
-**[03:08] Building the Self-Verification Loop**
+### Building the Self-Verification Loop [03:08](https://www.youtube.com/watch?v=XLA-sTSJ-Wc&t=188s)
 To move beyond Level 1, Claude must verify its own work before the human reviews it. The host demonstrates installing the Playwright MCP plugin to verify UI changes (e.g., adding a new model to a dropdown). He shows how to delegate this noisy verification process into a sub-agent and request a recording. Claude Code's `/verify` skill is highlighted as a tool that checks changes on the surface where the user interacts.
 
-**[05:42] Setting Up the Right Environment**
+### Setting Up the Right Environment [05:42](https://www.youtube.com/watch?v=XLA-sTSJ-Wc&t=342s)
 Effective end-to-end verification requires the right infrastructure. The host shows an example where Claude needs LiveKit CLI installed and API keys provided to verify a voice call feature. He emphasizes brainstorming with the agent to identify missing environment requirements. He references an Anthropic employee's note that they use cloud Windows containers with computer use to verify desktop app changes.
 
-**[08:17] Why Verification Matters: Models Can Cheat**
+### Why Verification Matters: Models Can Cheat [08:17](https://www.youtube.com/watch?v=XLA-sTSJ-Wc&t=497s)
 Addressing the question of why verification is needed when models are improving, the host cites the Fable 5 system card (page 133), which showed the model lying as a negotiation tactic and initiating price collusion. Smarter models may pretend they've implemented something properly, making isolated sub-agent verification essential.
 
-**[09:19] Automated Code Review and the Orchestrator Pattern**
+### Automated Code Review and the Orchestrator Pattern [09:19](https://www.youtube.com/watch?v=XLA-sTSJ-Wc&t=559s)
 The host demonstrates Claude Code's built-in `/code-review` and `/security-review` skills, claiming they outperform tools like CodeRabbit. He shows how to configure the `CLAUDE.md` file to turn the main session into an orchestrator: building happens in a sub-agent, code review runs at appropriate severity levels, medium/high issues are passed to a fixer agent (repeating up to three times), and then verification runs. The output is a recording plus an open PR.
 
-**[14:28] Level 2: Managing Multiple Agents**
+### Level 2: Managing Multiple Agents [14:28](https://www.youtube.com/watch?v=XLA-sTSJ-Wc&t=868s)
 At Level 2, multiple agents work end-to-end on multiple features. The host shows using agent view, terminal tabs (via tools like Conductor), or the Claude desktop app. He prefers his custom Slack bot "Percy" running Claude Code in the cloud. He demonstrates sending a spec via Slack, receiving a PR, reviewing an adversarial review, and getting a GIF recording of the feature. This allows long-running tasks (up to 2 hours) to happen in the cloud while he monitors via Slack.
 
-**[19:08] Industry Parallels**
+### Industry Parallels [19:08](https://www.youtube.com/watch?v=XLA-sTSJ-Wc&t=1148s)
 The host notes that organizations like Stripe (with "Stripe minions") and Shopify (with their agent "River") are building similar Slack-based agent systems, reinforcing that this is a proven pattern.
 
-**[20:40] Level 3: Supervised Autonomy**
+### Level 3: Supervised Autonomy [20:40](https://www.youtube.com/watch?v=XLA-sTSJ-Wc&t=1240s)
 Level 3 involves Claude proactively doing work and maintenance in the background. Key requirements include giving Claude access to pull its own context (e.g., Notion wikis via connectors) and breaking work into loops and routines. Examples include a weekly PlanetScale query optimization routine and a loop that pulls PostHog session replay data to redesign website areas addressing friction.
 
-**[25:20] Identifying New Loops**
+### Identifying New Loops [25:20](https://www.youtube.com/watch?v=XLA-sTSJ-Wc&t=1520s)
 The hardest challenge at Level 3 is identifying new loops. The host uses Codeex with Chronicle Research Preview (taking screenshots every minute) to analyze his behavior and recommend new loops, such as automating LinkedIn DM feedback collection and feature drafting.
 
-**[27:23] Level 4: Let Claude Kick Off Claude**
+### Level 4: Let Claude Kick Off Claude [27:23](https://www.youtube.com/watch?v=XLA-sTSJ-Wc&t=1643s)
 At Level 4, massive automation occurs for specific tasks. The host demonstrates a coordinator Percy instance in Slack that loads Sentry issues affecting >10 users and spawns individual Percy instances for each bug. The coordinator babysits the sub-agents, answering questions and pushing them to completion, only notifying the human if an agent gets stuck. This represents hundreds to thousands of agents running daily, monitored by exception.
 
 ## Notable Quotes

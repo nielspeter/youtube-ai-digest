@@ -30,34 +30,34 @@ With Fable 5 soon reverting to API pricing, Ray Amjad argues against simply burn
 
 ## Detailed Breakdown
 
-**[00:00] The Fable 5 Transition and Avoiding the Backlog Trap**
+### The Fable 5 Transition and Avoiding the Backlog Trap [00:00](https://www.youtube.com/watch?v=B1sYKOWVHR0&t=0s)
 Ray begins by noting that Fable 5 is soon reverting from subscription access to API pricing. He criticizes the current trend of users simply dumping their task backlogs into Fable 5 to maximize the subscription, pointing out that this yields no lasting value once they revert to Opus 4.8. He also briefly mentions his open-source Whisper Flow alternative, "Hyp Whisper," available on macOS and Windows.
 
-**[01:02] Fable 5's True Advantage: Multi-Step Reasoning**
+### Fable 5's True Advantage: Multi-Step Reasoning [01:02](https://www.youtube.com/watch?v=B1sYKOWVHR0&t=62s)
 He explains that Fable 5's special quality is its ability to think many more steps ahead than previous models like Opus 4.8. While Opus 4.8 might think five or six steps ahead and miss some things, Fable 5 can consider 4th, 5th, and 6th order effects. This results in better judgment and smaller, superior architectural decisions. Therefore, the work given to Fable 5 should specifically take advantage of this capability.
 
-**[02:05] Making Architectural Changes for Weaker Models**
+### Making Architectural Changes for Weaker Models [02:05](https://www.youtube.com/watch?v=B1sYKOWVHR0&t=125s)
 Instead of asking Fable 5 to simply fix a backlog of issues, Ray suggests asking it to consider architectural changes that would make it easier for a less powerful model to close those issues. By improving the application's architecture with Fable 5, you can get better output from Opus 4.8 later. He shares that he is using this approach to build a shared core in Rust for his iOS and Android applications.
 
-**[03:07] Geological Layers in Codebases**
+### Geological Layers in Codebases [03:07](https://www.youtube.com/watch?v=B1sYKOWVHR0&t=187s)
 Ray compares codebases built with coding agents over time to geological layers, containing code from Opus 4.1, 4.5, 4.6, and various other models. Because coding agents copy existing patterns, they often replicate bad architectural decisions from older models. While small applications can be rebuilt from scratch, large codebases require identifying the "load-bearing" parts that need Fable 5's attention the most.
 
-**[04:11] Identifying Hotspots: Impact Times Opportunity**
+### Identifying Hotspots: Impact Times Opportunity [04:11](https://www.youtube.com/watch?v=B1sYKOWVHR0&t=251s)
 To find where to apply Fable 5, Ray uses a framework of "impact times opportunity." He defines a metric of "Git churn times complexity" to identify areas with the highest tech debt. He demonstrates by asking Fable 5 to rank his files on these parameters, revealing his chat endpoint and Stripe webhook as the top two targets for architectural fixes.
 
-**[06:45] Rebuilding Frequently Used Skills**
+### Rebuilding Frequently Used Skills [06:45](https://www.youtube.com/watch?v=B1sYKOWVHR0&t=405s)
 Checking his Claude Code usage, Ray identifies his most frequently used skills. Instead of repairing old skills (some dating back to Opus 4.6), he has Fable 5 rebuild them from scratch using the original seed prompts. He stresses doing this in a new folder to prevent Fable 5 from "cheating" by looking at the current skill. He also recommends fine-tuning the new skill for Opus 4.8 by having Opus 4.8 run trial sub-agents with it.
 
-**[09:20] Creating Golden Reference Examples**
+### Creating Golden Reference Examples [09:20](https://www.youtube.com/watch?v=B1sYKOWVHR0&t=560s)
 Because models generate new code better than they edit, Ray uses Fable 5 to create "golden reference" examples of complex, frequently reused logic, such as interfacing with a hosted MCP server or handling web sockets. These golden examples can be pointed at cheaper models in the future to easily copy and adapt for various applications.
 
-**[10:24] Running Daniel's Prompts for Lasting Insights**
+### Running Daniel's Prompts for Lasting Insights [10:24](https://www.youtube.com/watch?v=B1sYKOWVHR0&t=624s)
 Ray recommends running prompts from Daniel (a high-signal voice in the AI space) when Fable 5 is available. Specifically, he runs a prompt based on Richard Sutton's "Bitter Lesson" essay to analyze his coding harness for over-engineering. Fable 5 provided a superior response compared to Opus 4.8, suggesting he add a "revisit if expiration" tag to every workaround in his Claude MD and skills.
 
-**[12:27] Using Fable 5 in Moderation: Orchestrator and Sub-Agents**
+### Using Fable 5 in Moderation: Orchestrator and Sub-Agents [12:27](https://www.youtube.com/watch?v=B1sYKOWVHR0&t=747s)
 For those continuing with API pricing, Ray suggests using Fable 5 as a main orchestrator that delegates to smaller models. Citing a tip from Kat Woo (head of product for Claude Code) via Simon Willison's blog, he recommends letting Fable 5 use its own judgment to pick sub-agents, evaluate their output, and eventually build a static routing table in the Claude MD file for which sub-agent to use for specific tasks.
 
-**[13:58] Reviewing One-Way Doors and Using Dynamic Workflows**
+### Reviewing One-Way Doors and Using Dynamic Workflows [13:58](https://www.youtube.com/watch?v=B1sYKOWVHR0&t=838s)
 Ray notes he will use Fable 5 to review "one-way doors"—irreversible changes like public API announcements—while leaving "two-way doors" (reversible changes like UI copy) to cheaper models. Finally, he emphasizes that a better harness can often beat a bigger model, especially for bug hunting and security. He plans to release a harness engineering class in the future, as dynamic workflows wrapping smaller models like Chimera 2.7 or GLM 5.2 can achieve similar or better performance than larger models.
 
 ## Notable Quotes

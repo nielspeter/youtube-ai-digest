@@ -29,46 +29,46 @@ NeetCode founder Neet Dhiman Singh sits down with The Pragmatic Engineer to disc
 
 ## Detailed Breakdown
 
-**[00:00] The Persistence of Coding Interviews**
+### The Persistence of Coding Interviews [00:00](https://www.youtube.com/watch?v=xafwfGVBxos&t=0s)
 The episode opens with a discussion on why coding interviews haven't died despite AI's ability to write code. Neet explains that DSA interviews are "sticky" because they test *how* someone thinks, and companies have no idea how to evaluate candidates otherwise. Changing the process at Big Tech scale is bureaucratic, requires massive interviewer retraining, and risks making the evaluation worse.
 
-**[06:44] Early Days: From Electrical Engineering to Programming**
+### Early Days: From Electrical Engineering to Programming [06:44](https://www.youtube.com/watch?v=xafwfGVBxos&t=404s)
 Neet shares his origin story. Initially studying electrical engineering, he struggled with an intro to C programming class. However, once he grasped variables, conditions, and loops, the infinite complexity of software captivated him. He notes a love-hate relationship with programming, as the real world forces you to solve business problems rather than exploring the deep, deterministic technical details he loves.
 
-**[08:46] The CAP Theorem and Going Deep**
+### The CAP Theorem and Going Deep [08:46](https://www.youtube.com/watch?v=xafwfGVBxos&t=526s)
 Neet discusses his frustration with the CAP Theorem, finding it hand-wavy and incomplete. He felt validated when he read Martin Kleppmann's blog post critiquing it and prefers the more complete "PACELC" theorem. This highlights Neet's personality trait: he always wants to do a "depth-first search" into technical details, a desire often stifled by business realities.
 
-**[13:27] The Amazon Experience and Quitting After Two Months**
+### The Amazon Experience and Quitting After Two Months [13:27](https://www.youtube.com/watch?v=xafwfGVBxos&t=807s)
 Neet recounts joining Amazon's Alexa org out of Washington State University. The environment was intensely stressful, with engineers committing code at 3:00 a.m. to meet deadlines while 6% unregretted attrition targets loomed. Feeling unprepared for the people skills required and dealing with personal issues, he made an impulsive decision to quit after just two months.
 
-**[18:41] Joining Google and Rapid Promotion**
+### Joining Google and Rapid Promotion [18:41](https://www.youtube.com/watch?v=xafwfGVBxos&t=1121s)
 Google was the opposite of Amazon—supportive and friendly. Suffering from "Amazon PTSD," Neet was afraid to ask questions and worked independently on a difficult project. This perceived independence led to a rapid promotion from L3 to L4 in just one year. He credits this to right place, right time, and working hard on a visible project.
 
-**[22:49] Building NeetCode and Leaving Big Tech**
+### Building NeetCode and Leaving Big Tech [22:49](https://www.youtube.com/watch?v=xafwfGVBxos&t=1369s)
 Neet started making coding tutorial videos for fun after quitting Amazon. When he announced he got into Google, the channel went viral because it proved his methods worked. After getting promoted at Google, he realized he couldn't go as deep into algorithms as he wanted while solving business problems. He left to run NeetCode full-time, despite having a clear path to L5 and beyond.
 
-**[31:05] Business Pragmatism and the Unfixed Memory Leak**
+### Business Pragmatism and the Unfixed Memory Leak [31:05](https://www.youtube.com/watch?v=xafwfGVBxos&t=1865s)
 Neet shares a controversial story about replacing a $3,000/month code execution service. Using AI "vibe coding," he built his own version in three days. It has a memory leak causing occasional instance crashes, but rather than fixing it, he simply runs redundant instances for $200/month. He argues this is a pure business trade-off: the service is faster, cheaper, and has zero user-facing outages.
 
-**[39:53] What DSA Prep Actually Teaches**
+### What DSA Prep Actually Teaches [39:53](https://www.youtube.com/watch?v=xafwfGVBxos&t=2393s)
 Preparing for coding interviews isn't just about memorizing algorithms; it teaches systems thinking, communication, and trade-off analysis. Neet argues that the effort of learning hard, seemingly abstract things compounds over a career, molding how engineers approach problem-solving across any domain.
 
-**[47:35] The Hiring Bar and Cheating Tools**
+### The Hiring Bar and Cheating Tools [47:35](https://www.youtube.com/watch?v=xafwfGVBxos&t=2855s)
 Neet notes that DSA interview formats remain largely unchanged at Big Tech, though they may be getting slightly harder. To combat cheating tools, Google has largely returned to in-person, on-site whiteboard interviews. For smaller companies, Neet prefers trial periods or having candidates do real work and simply discussing their trade-offs.
 
-**[52:40] Working with AI and the Redesign Contest**
+### Working with AI and the Redesign Contest [52:40](https://www.youtube.com/watch?v=xafwfGVBxos&t=3160s)
 Neet admits most of his code is now AI-generated. He recently ran a $2,500 redesign contest for his site, but was disappointed. Almost all submissions were low-effort AI generations. When he asked contestants *why* they made specific design choices, they couldn't articulate a reason, proving that AI cannot replace human intent and understanding of UX.
 
-**[54:45] Moving Fast vs. Building Value**
+### Moving Fast vs. Building Value [54:45](https://www.youtube.com/watch?v=xafwfGVBxos&t=3285s)
 Neet shares a hot take: "In 2026, it's never been easier to build things, but it makes it 10 times harder to actually build value." He points to Anthropic and OpenAI as examples of companies moving so fast they regress and break things. The conversation highlights that focus and deliberate decision-making matter more than raw shipping speed.
 
-**[72:46] Eroding Skills and the "Give Up" Hot Take**
+### Eroding Skills and the "Give Up" Hot Take [72:46](https://www.youtube.com/watch?v=xafwfGVBxos&t=4366s)
 Neet discusses how overhyping AI creates slop and erodes skills, with students and experienced engineers alike losing the ability to code from scratch. He addresses his contentious hot take that "some people should just give up on tech careers." He clarifies he doesn't want to discourage people, but warns that if you aren't willing to put in the effort to learn deeply and adapt, you will struggle in the industry.
 
-**[74:51] Agency as the Ultimate Differentiator**
+### Agency as the Ultimate Differentiator [74:51](https://www.youtube.com/watch?v=xafwfGVBxos&t=4491s)
 When hiring, Neet values personality traits—specifically "agency"—over raw coding skills. He hired a still-graduating student who outperforms experienced engineers because whenever given a task they don't understand, they learn everything about it within a week. Information is cheap via AI, but the drive to ask the right questions and put in the effort is rare.
 
-**[78:57] YouTube, Authenticity, and Human Connection**
+### YouTube, Authenticity, and Human Connection [78:57](https://www.youtube.com/watch?v=xafwfGVBxos&t=4737s)
 Success on YouTube and in startups comes down to authenticity and packaging. Neet notes that companies are increasingly needing a relatable human face (like Boris for Claude Code or Tibo for OpenAI Codex) to build trust. People can "smell the fakeness" of corporate messaging, making personal branding and genuine interaction critical.
 
 ## Notable Quotes

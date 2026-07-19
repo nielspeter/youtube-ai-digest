@@ -30,34 +30,34 @@ Will Brown of Prime Intellect presents the company's fully open-source post-trai
 
 ## Detailed Breakdown
 
-**[00:12] Introduction and the Open Superintelligence Stack**
+### Introduction and the Open Superintelligence Stack [00:12](https://www.youtube.com/watch?v=V-EDrhIhHzQ&t=12s)
 Will Brown introduces Prime Intellect's mission: enabling large-scale, open-source AI research so companies can train and deploy models on their own workflows. He frames their toolkit as the "open superintelligence stack," sitting atop a global compute marketplace of over 10,000 GPUs. The stack includes environments (Verifiers), research workflows (Lab), and training frameworks (Prime RL), all serving frontier model training.
 
-**[04:21] Environments as Evals and the Post-Training Loop**
+### Environments as Evals and the Post-Training Loop [04:21](https://www.youtube.com/watch?v=V-EDrhIhHzQ&t=261s)
 Brown explains that environments are a language for specifying desired model behavior, encapsulating data, interaction logic, and scoring. He emphasizes that environments are not just for RL—they are identical to evals. Building evals is "good product hygiene" that helps teams min-max intelligence vs. cost across frontier models, and these evals unlock a post-training flywheel (SFT, RL, on-policy distillation) for iterative model refinement.
 
-**[09:31] Verifiers V1: Task Sets, Harnesses, and Runtimes**
+### Verifiers V1: Task Sets, Harnesses, and Runtimes [09:31](https://www.youtube.com/watch?v=V-EDrhIhHzQ&t=571s)
 The Verifiers library has been overhauled to separate environments into three composable parts: **Task Sets** (agent-agnostic data/rules, integrating with Hugging Face, Harbor, NeMo Gym), **Harnesses** (execution patterns like CLI agents, recursive LMs, or basic tool loops), and **Runtimes** (execution backends like local, Docker, or Prime sandboxes). This decoupling allows hot-swapping components for fast local prototyping or cloud scaling.
 
-**[17:24] Rewards, Metrics, and Group Rewards**
+### Rewards, Metrics, and Group Rewards [17:24](https://www.youtube.com/watch?v=V-EDrhIhHzQ&t=1044s)
 Rewards and metrics are functions that take rollout records and return numbers. Brown highlights **group rewards** as a first-class feature often missing in other frameworks, enabling pairwise judging or ranking. He gives a practical example: using group rewards to apply a conciseness bonus to the shortest correct answer, counteracting models' tendency toward unnecessarily long chain-of-thought reasoning.
 
-**[20:31] Tools, User Simulators, and the Interception Server**
+### Tools, User Simulators, and the Interception Server [20:31](https://www.youtube.com/watch?v=V-EDrhIhHzQ&t=1231s)
 The framework supports tools and user simulators via MCP (Model Context Protocol), allowing models to interact with simulated users in multi-turn settings. The **interception server** is a key innovation: it gives harnesses a fake base URL, intercepting requests to capture log probs and set temperature for RL, then forwarding to the inference server. This means any real-world harness code runs unmodified in RL.
 
-**[24:07] Trace Graphs and the Renderers Library**
+### Trace Graphs and the Renderers Library [24:07](https://www.youtube.com/watch?v=V-EDrhIhHzQ&t=1447s)
 To handle sub-agents and branching trees, Prime Intellect built a trace graph data structure that maps between message-level logic and token-level sequences. They released **Renderers**, a standalone Python library that rethinks tokenizers and chat templates (replacing painful Jinja debugging) to ensure trainer-inference token alignment, avoiding off-policy mismatches caused by tokenization subtleties.
 
-**[29:14] Prime RL: Async Architecture and Orchestrator**
+### Prime RL: Async Architecture and Orchestrator [29:14](https://www.youtube.com/watch?v=V-EDrhIhHzQ&t=1754s)
 Prime RL is fully async, with inference and training as separate processes that don't share GPUs. The orchestrator manages the run, sending rollout batches to the trainer. Brown argues async is necessary because agentic rollouts have long, variable tails (30 seconds to 3 hours), and async allows forward progress without waiting on the slowest rollout, overlapping non-GPU tasks like grading or sandbox bootup.
 
-**[31:48] Scaling Results and System Optimizations**
+### Scaling Results and System Optimizations [31:48](https://www.youtube.com/watch?v=V-EDrhIhHzQ&t=1908s)
 Recent work on GLM-5 and Kimi K2.5/K2.6 has pushed scale and efficiency. A GLM-5 step on 28 nodes with 131K context takes under 5 minutes, meaning a 1,000-step run costs ~$50K. Optimizations include FP8, wide expert parallelism, disintegrated prefill, and KV offloading. Brown notes they use Torch Titan (not Megatron) for its hackability, maintained by a research team of fewer than 10 people.
 
-**[38:03] Algorithm Flexibility: Losses and Algorithms**
+### Algorithm Flexibility: Losses and Algorithms [38:03](https://www.youtube.com/watch?v=V-EDrhIhHzQ&t=2283s)
 Prime RL decomposes training into loss functions (gradient computation) and algorithms (data preparation). This allows mixing SFT, on-policy distillation (OPD), self-distillation, and RL (like GRPO or the Echo paper's world modeling) by swapping advantage calculations and loss targets. Users can select algorithms via config or add their own to the registry without deep code changes.
 
-**[42:43] Hosted Platform: Multi-Tenant LoRA and Full Fine-Tuning**
+### Hosted Platform: Multi-Tenant LoRA and Full Fine-Tuning [42:43](https://www.youtube.com/watch?v=V-EDrhIhHzQ&t=2563s)
 Prime Intellect offers a hosted training platform. Multi-tenant LoRA (live) allows multiple users to train on a shared base model with hot-swappable adapters, enabling token-based pricing without GPU reservation. Full fine-tuning (coming soon) supports full-parameter training with auto-scaling, magic restarts, and unified billing, letting users develop environments locally on CPU before pushing to the cloud.
 
 ## Notable Quotes

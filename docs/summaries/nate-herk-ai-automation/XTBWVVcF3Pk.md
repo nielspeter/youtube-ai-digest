@@ -29,31 +29,31 @@ The video explains that a powerful AI model like "Fable 5" isn't the true moat f
 
 ## Detailed Breakdown
 
-**[00:00] The Model Isn't the Moat**
+### The Model Isn't the Moat [00:00](https://www.youtube.com/watch?v=XTBWVVcF3Pk&t=0s)
 Nate opens by sharing that after spending thousands of dollars testing "Fable 5," he realized the model itself isn't the main competitive advantage. He compares a beginner using Fable 5 to an expert like Andrej Karpathy using an older, weaker model. Karpathy will always build something better because the way you instruct the model and the loops you build around it are far more important than the model's raw intelligence.
 
-**[01:01] Dynamic Workflows and Model Routing**
+### Dynamic Workflows and Model Routing [01:01](https://www.youtube.com/watch?v=XTBWVVcF3Pk&t=61s)
 Nate discusses testing dynamic workflows in Claude Code, having Fable 5 orchestrate sub-agents. He found that having Fable orchestrate cheaper Opus or Sonnet agents yielded similar results to having Fable orchestrate other Fable agents, despite costing exponentially less. This highlights the concept of model routing: matching the right level of intelligence (and cost) to the specific task at hand.
 
-**[01:32] Treat Top Models Like Senior Engineers**
+### Treat Top Models Like Senior Engineers [01:32](https://www.youtube.com/watch?v=XTBWVVcF3Pk&t=92s)
 Instead of burning through credits by having the smartest model do everything, Nate suggests treating top-tier models like a senior engineer or co-founder. The goal is to have the smart model package up its knowledge and hand it over to a cohort of "junior" (cheaper) models to execute the work.
 
-**[02:33] Lessons from the Fable 5 System Prompt**
+### Lessons from the Fable 5 System Prompt [02:33](https://www.youtube.com/watch?v=XTBWVVcF3Pk&t=153s)
 Nate analyzed the leaked system prompts for Fable 5 and highlighted key behaviors: verifying memory rather than assuming it's correct, checking that files actually exist, addressing ambiguous queries before asking for clarification (answer first, then ask), and adjusting effort levels based on task complexity (1 pass for simple facts, 3-5 for medium tasks, 5-10 for deep research). He also notes that maxing out a model's effort level can cause it to overthink and produce worse results.
 
-**[04:39] Extracting the "Fable Method"**
+### Extracting the "Fable Method" [04:39](https://www.youtube.com/watch?v=XTBWVVcF3Pk&t=279s)
 Nate encourages viewers to take deliverables they loved from Fable 5 and have the model analyze its own session to explain how it achieved the result. This extracted methodology can be turned into a "skill file." He created a "Fable mode" skill that elevates cheaper models like Opus 4.8 by forcing them to pass through five gates: Scoping, Evidence, Attacking, Verifying, and Reporting.
 
-**[05:42] The Importance of Adversarial Planning**
+### The Importance of Adversarial Planning [05:42](https://www.youtube.com/watch?v=XTBWVVcF3Pk&t=342s)
 A major differentiator of top models is their approach to planning. Instead of simply listing steps, Fable plays devil's advocate, exploring unknowns and potential failures. When Fable plans out a dynamic workflow with this level of rigor, cheaper models like Sonnet can handle the execution and report back, resulting in high-quality outputs at a much lower cost.
 
-**[06:43] The Fable Mode Skill File**
+### The Fable Mode Skill File [06:43](https://www.youtube.com/watch?v=XTBWVVcF3Pk&t=403s)
 Nate shows his "Fable mode" skill file, which encodes Fable's working discipline so any model—even open-source ones—can run it. The file enforces the five gates (scoping, evidence before reasoning, adversarial reasoning, verifying before declaring done, and calibrating). He offers this file for free in his online skill community.
 
-**[07:45] Building a Model Routing Table**
+### Building a Model Routing Table [07:45](https://www.youtube.com/watch?v=XTBWVVcF3Pk&t=465s)
 To bolt onto the Fable mode skill, Nate recommends giving your AI orchestrator a table of available models. This table should rank models by cost, intelligence, and "taste" (creativity/UI/UX). This allows the orchestrator to delegate tasks efficiently. In a recent test, an Opus orchestrator using Fable mode and delegating to Haiku "scouts" was three times cheaper than using Opus workers, with the exact same quality result.
 
-**[09:16] Own Your Processes, Not the Models**
+### Own Your Processes, Not the Models [09:16](https://www.youtube.com/watch?v=XTBWVVcF3Pk&t=556s)
 With uncertainty around model access and subscriptions, Nate concludes that we don't own these AI models—we only own our processes, systems, methodologies, and local hardware. He plans to explore local models and process ownership in future videos.
 
 ## Notable Quotes

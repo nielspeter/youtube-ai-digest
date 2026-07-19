@@ -31,34 +31,34 @@ Recursive Language Models (RLM) externalize context management by having a model
 
 ## Detailed Breakdown
 
-### [00:00] Introduction and Context
+### Introduction and Context [00:00](https://www.youtube.com/watch?v=8oyalrfwgjw&t=0s)
 Shashi introduces himself as the founder of Superagentic AI, presenting at the AI Engineer World Fair 2026. He clarifies that the RLM paper was published by MIT and collaborators, and his talk focuses on how to apply RLM concepts practically to your own workflows and harnesses rather than covering the paper itself.
 
-### [01:00] The Problem with Large Codebases
+### The Problem with Large Codebases [01:00](https://www.youtube.com/watch?v=8oyalrfwgjw&t=60s)
 Coding agents work well on smaller repositories, but performance degrades as context grows — a problem that worsens with monorepos. Shashi outlines existing approaches: grep-based file system search, semantic/local search, long-context compression/summarization, and memory solutions. Each attempts to curate or persist context but has limitations.
 
-### [02:05] The RLM Core Idea
+### The RLM Core Idea [02:05](https://www.youtube.com/watch?v=8oyalrfwgjw&t=125s)
 The central thesis of RLM is to externalize context management into a programmable execution environment. Instead of loading everything into the model's context, you create a separate environment where the model writes code to inspect, slice, and compute relevant chunks, then feeds those into the main context window. This can also serve as a memory layer for coding agents.
 
-### [03:10] The Lead Engineer Analogy
+### The Lead Engineer Analogy [03:10](https://www.youtube.com/watch?v=8oyalrfwgjw&t=190s)
 Shashi compares RLM to a lead engineer joining a new project with a huge codebase. Rather than reading every line, the engineer inspects the codebase, makes notes, checks dependencies and structure, writes scripts to search, and consults specialists when stuck. In RLM, the programmable REPL is the engineer's notebook, and the LLM query is consulting another specialist — this is where recursion enters the picture.
 
-### [04:46] The Recursion Loop Explained
+### The Recursion Loop Explained [04:46](https://www.youtube.com/watch?v=8oyalrfwgjw&t=286s)
 The loop works as follows: the repository serves as context, the model writes REPL code to extract relevant context and returns bounded observations. If more information is needed, it issues an LLM query to another model or system, gets a response, and continues. The loop terminates when a final result is produced. Shashi emphasizes that codebases are structured data (directories, tests, imports, dependencies, configs), not just text, which is why RLM is particularly suited for this scenario.
 
-### [06:19] Introducing RLM Code
+### Introducing RLM Code [06:19](https://www.youtube.com/watch?v=8oyalrfwgjw&t=379s)
 Shashi introduces RLM Code, Superagentic AI's open-source research playground for experimenting with RLM concepts. It includes documentation and a GitHub repository. He clarifies that RLM is a pattern, not a framework — the official authors (including Omar, who also created DSPy) have their own implementations (RLM, RLM minimal, DSPy.RLM), but RLM Code is an independent harness using the same recursive REPL execution concepts, runnable with local or cloud models and pluggable into any observability framework.
 
-### [09:55] Live Demo: CLI Path
+### Live Demo: CLI Path [09:55](https://www.youtube.com/watch?v=8oyalrfwgjw&t=595s)
 Shashi demonstrates RLM Code on a checked-out repository. Using Docker as a sandbox and Gemini as the model, the execution completes in steps: the model writes REPL code, builds evidence, makes LLM query calls with prompts, and returns a final answer. Traces show tool calls, token usage, and step-by-step results, all exportable in JSONL format for observability platforms.
 
-### [12:29] Live Demo: Terminal UI Harness
+### Live Demo: Terminal UI Harness [12:29](https://www.youtube.com/watch?v=8oyalrfwgjw&t=749s)
 Shashi shows an experimental coding-agent-style terminal interface. After connecting to the Gemini model and running a doctor command (which shows a non-critical warning related to Deep Agent ADK), he submits a prompt with a specified budget. The run completes within a maximum recursion depth, and the research lab view shows rewards, trajectory (REPL code, observations, final output), and event timelines.
 
-### [15:06] Practical Applications for AI Engineers
+### Practical Applications for AI Engineers [15:06](https://www.youtube.com/watch?v=8oyalrfwgjw&t=906s)
 Shashi outlines real-world use cases: root cause analysis, repository onboarding, and navigating unfamiliar large codebases. He advises designing custom harnesses that capture the full trajectory — planning, coding, observation, sub-call budget, and final output — tailored to specific needs.
 
-### [16:08] Industry Adoption of RLM Concepts
+### Industry Adoption of RLM Concepts [16:08](https://www.youtube.com/watch?v=8oyalrfwgjw&t=968s)
 Shashi notes growing evidence of RLM concepts in proprietary systems: managed agent dynamic workflows, CodeEx writing Python code in a REPL to curate context, and Claude/Gemini managed agents using sandboxed harnesses. He mentions that Anthropic's cloud code engineers have acknowledged on X that they use RLM concepts, and speculates that software factory approaches may also be leveraging RLM ideas.
 
 ## Notable Quotes

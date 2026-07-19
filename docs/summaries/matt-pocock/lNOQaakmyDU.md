@@ -29,28 +29,28 @@ Anthropic announced that starting June 15th, paid Claude plans will receive a "d
 
 ## Detailed Breakdown
 
-**[00:00] The Announcement and Initial Confusion**
+### The Announcement and Initial Confusion [00:00](https://www.youtube.com/watch?v=lNOQaakmyDU&t=0s)
 The video opens by recapping an announcement from Anthropic regarding programmatic Claude usage. Starting June 15th, paid plans will receive a dedicated monthly credit for AFK (away-from-keyboard) use cases. The host notes that the announcement was met with a baffled response because, while it sounds like a bonus, it actually represents a significant change to how subscriptions can be used.
 
-**[01:02] Defining the AFK Tools**
+### Defining the AFK Tools [01:02](https://www.youtube.com/watch?v=lNOQaakmyDU&t=62s)
 The host breaks down the three specific tools mentioned in the announcement. First is the Claude Agent SDK (TypeScript/Python), which powers Claude Code and allows scripts to run autonomously. Second is Claude-P, a CLI tool that runs an invisible Claude Code instance capable of reading/writing files and running bash scripts. The host mentions his own software factory, "Sandcastle," which orchestrates agents using Claude-P. Third is Claude Code GitHub Actions, which allows users to tag issues for Claude to work on.
 
-**[02:39] AFK vs. Human-in-the-Loop**
+### AFK vs. Human-in-the-Loop [02:39](https://www.youtube.com/watch?v=lNOQaakmyDU&t=159s)
 The host draws a clear line between AFK use cases (where Claude works autonomously in the background) and human-in-the-loop use cases (where a user actively converses with the AI). Human-in-the-loop includes Claude.ai, Claude Code in the terminal, and Claude Co-work. Anthropic's new announcement firmly prioritizes human-in-the-loop usage over AFK usage.
 
-**[03:41] Why This is a Huge Cut**
+### Why This is a Huge Cut [03:41](https://www.youtube.com/watch?v=lNOQaakmyDU&t=221s)
 Before this change, a single subscription could fund both human-in-the-loop and AFK workloads. Now, Anthropic is separating them, providing a specific, smaller credit for AFK work. The host argues this is an enormous cut for developers who rely on background agents, even though it is technically a "bonus" since it provides an extra dedicated credit.
 
-**[04:44] The Math Behind the Cut**
+### The Math Behind the Cut [04:44](https://www.youtube.com/watch?v=lNOQaakmyDU&t=284s)
 The host explains that the cut is drastic because subscriptions historically offered a massive multiplier compared to raw API costs—often estimated to be 5x to 10x cheaper. Third-party estimates suggest a 20x Max plan could provide up to $5,000 worth of API tokens a month. By limiting the AFK credit to just $200 for the 20x plan, Anthropic is drastically reducing the compute power available for background agents.
 
-**[05:46] Credit Mechanics and Clarity**
+### Credit Mechanics and Clarity [05:46](https://www.youtube.com/watch?v=lNOQaakmyDU&t=346s)
 The new rules state that programmatic usage draws automatically from the new credit, which resets monthly and cannot be rolled over. While this represents a huge cut, the host notes that the rules are now much clearer. Third-party tools built on the Agent SDK (like Conductor and Open Claw) will officially work with Claude plans but will draw from this AFK credit.
 
-**[07:20] Exploring Greener Pastures**
+### Exploring Greener Pastures [07:20](https://www.youtube.com/watch?v=lNOQaakmyDU&t=440s)
 Because of this drastic cut, the host plans to move away from Claude Code for AFK workloads, though he will keep it for human-in-the-loop planning. He mentions that OpenAI's Codex is starting to look very appealing, specifically because Codex does not currently split its subscription between AFK and human-in-the-loop use cases.
 
-**[08:23] Final Take: Clarity Over Capacity**
+### Final Take: Clarity Over Capacity [08:23](https://www.youtube.com/watch?v=lNOQaakmyDU&t=503s)
 The host concludes by expressing weird happiness about the change. He references a previous tweet where he complained about Anthropic's incredibly confusing rules regarding what was and wasn't allowed under their subscription terms. This announcement cuts through the "Gordian knot" of edge cases. While it is clear Anthropic wants to control compute costs and push users toward human-in-the-loop use cases, the host is simply glad to have clarity. He plans to buy an OpenAI subscription to test Codex for his AFK needs.
 
 ## Notable Quotes

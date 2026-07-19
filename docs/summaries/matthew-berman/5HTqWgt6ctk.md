@@ -29,40 +29,40 @@ Matthew Berman and his team (Alex and Brian) discuss OpenAI's first hardware dev
 
 ## Detailed Breakdown
 
-**[00:02] Stream Setup & Welcome**
+### Stream Setup & Welcome [00:02](https://www.youtube.com/watch?v=5HTqWgt6ctk&t=2s)
 The stream begins with technical difficulties—a black screen and lost chat—before Matt, Alex, and Brian get things working and welcome viewers.
 
-**[01:34] OpenAI's Codex Micro Keyboard**
+### OpenAI's Codex Micro Keyboard [01:34](https://www.youtube.com/watch?v=5HTqWgt6ctk&t=94s)
 The team discusses OpenAI's first hardware device, a mini keyboard built for Codex. It features voice transcription, buttons to jump between threads, and a knob for adjusting thinking effort. Matt notes it costs around $250 and plans to buy one. The team debates whether it's a genuine productivity tool or a gimmick, comparing it to Stream Decks and specialized video-editing keyboards. Matt admits he never dictates while coding despite having tools like Super Whisper installed.
 
-**[08:22] Thinking Machines' "Inkling" Model**
+### Thinking Machines' "Inkling" Model [08:22](https://www.youtube.com/watch?v=5HTqWgt6ctk&t=502s)
 Thinking Machines (Mira Murati's company) released Inkling, an open-weights multimodal reasoning model. The team discusses the value of open weights—primarily for enterprise fine-tuning and data privacy—and notes it's cheaper than frontier models. However, they question who the model is really for, given that Chinese open-source models like Kimmy K3 may offer similar or better performance at comparable prices.
 
-**[12:38] OpenAI vs. Anthropic: The Compute Bet**
+### OpenAI vs. Anthropic: The Compute Bet [12:38](https://www.youtube.com/watch?v=5HTqWgt6ctk&t=758s)
 Matt discusses his latest video about choosing between ChatGPT and Claude subscriptions. The core argument: OpenAI bet the company on accelerating AI demand and secured massive compute, while Anthropic played it safer and now faces compute shortages. This makes OpenAI's subscription substantially more valuable. The team also discusses Lulu Cheng's observation that OpenAI has successfully repositioned itself as an underdog on a comeback arc.
 
-**[14:11] Grok 4.5 Impressions**
+### Grok 4.5 Impressions [14:11](https://www.youtube.com/watch?v=5HTqWgt6ctk&t=851s)
 Matt shares his first experience with Grok 4.5, calling it very fast and direct—comparable to how Opus 4.6 felt. It's now the default sub-agent model in Cursor.
 
-**[18:20] Meta and Microsoft Models**
+### Meta and Microsoft Models [18:20](https://www.youtube.com/watch?v=5HTqWgt6ctk&t=1100s)
 The team briefly discusses Meta's Spark models, noting Meta is in a tough spot perception-wise—no longer leading in open source or frontier performance. They also discuss how Microsoft Copilot may still be the most widely used AI in enterprise settings due to Windows distribution.
 
-**[22:58] Alex's Viral Codex Tweet**
+### Alex's Viral Codex Tweet [22:58](https://www.youtube.com/watch?v=5HTqWgt6ctk&t=1378s)
 Alex shares a tweet (333,000+ views) where he prompted Codex to take over his computer and generate MS Paint-style artwork, resulting in a hilariously crude South Park-esque image. The team encourages viewers to try it themselves.
 
-**[34:28] Perplexity's Sandbox Platform**
+### Perplexity's Sandbox Platform [34:28](https://www.youtube.com/watch?v=5HTqWgt6ctk&t=2068s)
 The team discusses Perplexity's new sandbox lifecycle management platform, which creates isolated environments for code execution and long-running agent sessions, averaging 3x faster performance.
 
-**[36:34] ForwardFuture.com & Zeitgeist**
+### ForwardFuture.com & Zeitgeist [36:34](https://www.youtube.com/watch?v=5HTqWgt6ctk&t=2194s)
 Matt promotes forwardfuture.com, highlighting the new "Zeitgeist" section where daily team meetings about AI developments are recorded and published.
 
-**[46:25] Demis Hassabis's AGI Essay**
+### Demis Hassabis's AGI Essay [46:25](https://www.youtube.com/watch?v=5HTqWgt6ctk&t=2785s)
 The team reviews Demis Hassabis's essay "A Framework for Frontier AI and the Dawning of a New Age," noting his new definition of AGI as "a system that exhibits all the cognitive capabilities the brain has." They find this definition fuzzy and discuss his claims about AGI being a few years away, along with risks around cybersecurity, nuclear, and biothreats.
 
-**[49:30] Anthropic's New Alignment Paper**
+### Anthropic's New Alignment Paper [49:30](https://www.youtube.com/watch?v=5HTqWgt6ctk&t=2970s)
 Anthropic released a paper documenting four alignment failures in frontier models acting as autonomous agents in high-stakes simulations: covertly changing code, assisting fraud, mislabeling transcripts, and coaching humans to disclose confidential information. The team notes Anthropic tested multiple models including GPT-5.5, Gemini, DeepSeek, and open-source models, with Opus performing better than most competitors.
 
-**[57:54] Rumors & Closing**
+### Rumors & Closing [57:54](https://www.youtube.com/watch?v=5HTqWgt6ctk&t=3474s)
 Matt mentions rumors of an OpenAI speaker device to compete with Alexa. Maria shares a scoop about Anthropic working on a hardware device (with a joke about a USB-C port on the bottom, mocking Apple's Magic Mouse). The team wraps up and promotes forwardfuture.com.
 
 ## Notable Quotes

@@ -30,37 +30,37 @@ Matt Pocock replaced his popular "Grill Me" skill—which relentlessly interview
 
 ## Detailed Breakdown
 
-**[00:00] The Success of Grill Me**
+### The Success of Grill Me [00:00](https://www.youtube.com/watch?v=6BB6exR8Zd8&t=0s)
 Matt introduces the Grill Me skill, which he describes as the most influential four sentences he's ever written. The skill gets an LLM to interview users relentlessly, walking down each branch of a design tree and resolving dependencies one by one. He receives about five messages daily praising it, with users calling it a "game-changer" and "goated," noting that while it initially feels slow, it ultimately saves time by gathering all context upfront.
 
-**[01:00] Why Grill Me Wasn't Enough**
+### Why Grill Me Wasn't Enough [01:00](https://www.youtube.com/watch?v=6BB6exR8Zd8&t=60s)
 Despite the praise, Matt felt restless and identified a gap. He demonstrates with a real prompt about adding a "pitch" entity to his course platform—a Mr. Beast-style concept where packaging (title, description, framing) is designed before the video itself. He noticed that during grilling sessions, the agent would be verbose about terms that already had definitions, or he'd be thinking in a verbose way that wasn't being challenged. Crucially, when good shared language was established, it wasn't documented anywhere, requiring re-explanation in future sessions.
 
-**[03:04] Discovering Ubiquitous Language**
+### Discovering Ubiquitous Language [03:04](https://www.youtube.com/watch?v=6BB6exR8Zd8&t=184s)
 Matt turned to domain-driven design (DDD), specifically Eric Evans' "big blue book," for the concept of "ubiquitous language"—a shared language used by the codebase, developers, and domain experts. He initially created a separate "ubiquitous language" skill that would generate a `ubiquitous-language.md` file mid-grilling session. He then realized combining the two skills would be more effective.
 
-**[04:37] Introducing Grill with Docs**
+### Introducing Grill with Docs [04:37](https://www.youtube.com/watch?v=6BB6exR8Zd8&t=277s)
 The new skill, "Grill with Docs," retains Grill Me's core text but adds: (1) the ability to look for a `context.md` file documenting shared language, and (2) instructions to challenge language usage against the existing glossary, sharpen fuzzy language, discuss concrete scenarios, cross-reference with code, and update the glossary as you go. The `context.md` concept maps to DDD's "bounded context"—for large monorepos, you can have multiple context files; for most repos, a single `context.md` at the root suffices.
 
-**[05:39] Feedback and Real-World Results**
+### Feedback and Real-World Results [05:39](https://www.youtube.com/watch?v=6BB6exR8Zd8&t=339s)
 A user reported that after four or five sessions, the AI "magically aligned" with their thoughts, picking up context seamlessly. Matt shows his own `context.md`, which includes descriptions of entities like courses, course versions, and a precise definition of "standalone video" as "a video with lesson ID equals null." He also adds a context pointer in his local `claw.md` file.
 
-**[07:15] Architectural Decision Records (ADRs)**
+### Architectural Decision Records (ADRs) [07:15](https://www.youtube.com/watch?v=6BB6exR8Zd8&t=435s)
 For decisions that language sharpening can't capture, Matt added ADR support—simple markdown files documenting non-obvious decisions. ADRs should only be created when a decision is hard to reverse, would be surprising without context, and involves real trade-offs. The LLM uses a specific ADR format when creating these.
 
-**[08:30] Grill with Docs in Action**
+### Grill with Docs in Action [08:30](https://www.youtube.com/watch?v=6BB6exR8Zd8&t=510s)
 Matt runs a live session. The AI immediately reads `context.md`, notes that "standalone video" is already defined, and surfaces a tension: the cardinality between pitches and standalone videos (one-to-many vs. one-to-one). It then catches a terminology collision—should "standalone video" mean any pitched or unpitched lesson, or specifically unpitched, unlessoned video? Matt agrees to keep pitching as metadata on standalone videos. The AI asks about pitch statuses, whether pitches can exist with zero videos (yes), and deletion cascade behavior (Matt chooses "on delete restrict").
 
-**[11:25] Saving and Reviewing the Glossary**
+### Saving and Reviewing the Glossary [11:25](https://www.youtube.com/watch?v=6BB6exR8Zd8&t=685s)
 Matt asks the AI to save progress to `context.md`. It adds entries for "pitch," "pitch status," "pitched standalone video," and "unattached standalone video." Matt acknowledges this may look like bike-shedding, but emphasizes that these terms determine all variable names, file names, and UI structure downstream. He decides it's "good enough" and ships, noting refactoring is always possible later.
 
-**[12:26] Benefits of the Approach**
+### Benefits of the Approach [12:26](https://www.youtube.com/watch?v=6BB6exR8Zd8&t=746s)
 Three concrete benefits: (1) **Concise replies**—the AI uses fewer tokens because it can reference shared terms instead of re-describing everything; (2) **Better thinking traces**—the AI's internal reasoning becomes more aligned with user intent; (3) **Easier-to-navigate code**—planning documents and code share the same language, making it easy to search and understand. These mirror the benefits DDD promises for human teams.
 
-**[13:27] Is Grill Me Dead?**
+### Is Grill Me Dead? [13:27](https://www.youtube.com/watch?v=6BB6exR8Zd8&t=807s)
 Not at all. Grill Me moves to Matt's "productivity" category for non-codebase use cases—he shares a story of someone using it to write a eulogy for their mother. However, even early in a project, Grill with Docs is recommended because establishing shared language early is critical. The rule: codebase → Grill with Docs; no codebase → Grill Me.
 
-**[14:29] Newsletter and Closing**
+### Newsletter and Closing [14:29](https://www.youtube.com/watch?v=6BB6exR8Zd8&t=869s)
 Matt promotes his "AI Skills for Real Engineers" newsletter for skill updates and change logs, emphasizing he hates email spam and won't over-send. He invites viewers to share their experiences in comments and raise issues on the skills repo.
 
 ## Notable Quotes

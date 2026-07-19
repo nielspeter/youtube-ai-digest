@@ -29,28 +29,28 @@ This video demonstrates how to run LangChain Deep Agents Code (dcode), a termina
 
 ## Detailed Breakdown
 
-**[00:00] Overview of the NemoClaw + dcode Workflow**
+### Overview of the NemoClaw + dcode Workflow [00:00](https://www.youtube.com/watch?v=_iGxqQ2J2hc&t=0s)
 The presenter introduces the integration: dcode (a terminal-based coding agent) uses Nemotron 3 Ultra served from Baseten via an OpenAI-compatible endpoint, and runs inside a NemoClaw-managed OpenShell sandbox. The goal is to give developers their familiar coding agent workflow while providing organizations auditability and control over the environment.
 
-**[00:35] Installing NemoClaw and Starting Onboarding**
+### Installing NemoClaw and Starting Onboarding [00:35](https://www.youtube.com/watch?v=_iGxqQ2J2hc&t=35s)
 The presenter installs NemoClaw using the public installer from the NVIDIA docs. The installer sets up the CLI and launches an onboarding menu. From the menu, the presenter selects option three, "LangChain Deep Agents Code," which is the dcode integration.
 
-**[01:07] Configuring the Inference Provider and Model**
+### Configuring the Inference Provider and Model [01:07](https://www.youtube.com/watch?v=_iGxqQ2J2hc&t=67s)
 NemoClaw prompts for an inference provider. The presenter selects option three, "Other OpenAI compatible endpoint," since Baseten exposes an OpenAI-compatible model API. He pastes the Baseten base URL, his Baseten API key, and the Nemotron 3 Ultra model slug from the Baseten documentation. This configures the model route so dcode's model calls go to Nemotron 3 Ultra through Baseten.
 
-**[01:39] Sandbox Configuration and Provisioning**
+### Sandbox Configuration and Provisioning [01:39](https://www.youtube.com/watch?v=_iGxqQ2J2hc&t=99s)
 The presenter names the sandbox "dcode demo" and reviews the configuration shown by NemoClaw. For resource profile, he selects option six, OpenShell defaults, which are sufficient for an average demo workload. For policy tier, he chooses "balanced" because it provides a practical default for coding agent work while keeping the sandbox governed. NemoClaw then provisions the OpenShell sandbox and prepares the dcode runtime.
 
-**[02:40] Connecting to the Sandbox and Setting Up the Workspace**
+### Connecting to the Sandbox and Setting Up the Workspace [02:40](https://www.youtube.com/watch?v=_iGxqQ2J2hc&t=160s)
 The presenter verifies the sandbox is live with `NemoClaw dcode status`, then connects using `NemoClaw dcode demo connect`. Inside the terminal environment, he confirms dcode is installed, creates a new folder, and builds a tiny Python project with a basic `add` function and unit tests that expect a `subtract` function that does not yet exist. Running the tests shows a failure, which gives dcode a real task to fix.
 
-**[03:44] Running dcode to Fix the Failing Test**
+### Running dcode to Fix the Failing Test [03:44](https://www.youtube.com/watch?v=_iGxqQ2J2hc&t=224s)
 The presenter starts dcode by typing `dcode` and skips setup steps. He pastes a natural-language task: inspect the project, fix the failing test with the smallest reasonable change, run the tests, and summarize what changed. dcode proposes creating a `subtract` function, which the presenter approves. dcode then runs the tests, which the presenter also approves. Both tests pass. The presenter exits dcode, runs the same Python unit test command himself, and confirms both tests pass. He verifies the subtraction function is now in the file.
 
-**[05:26] Exploring NemoClaw's Governance and Auditing Features**
+### Exploring NemoClaw's Governance and Auditing Features [05:26](https://www.youtube.com/watch?v=_iGxqQ2J2hc&t=326s)
 The presenter emphasizes that this is not just a coding agent running directly on a laptop—NemoClaw provides a governed OpenShell sandbox around the dcode runtime. He exits the sandbox terminal and demonstrates three governance commands. `NemoClaw dcode demo policy explain` shows the policy context, including active presets, approval and remediation behavior, and support boundaries. `policy list` shows which policy presets are configured. `logs tail 80` displays the last 80 log lines, giving teams a more auditable environment for running coding agents.
 
-**[06:29] Summary and Closing**
+### Summary and Closing [06:29](https://www.youtube.com/watch?v=_iGxqQ2J2hc&t=389s)
 The presenter wraps up by summarizing the full workflow: dcode running inside a NemoClaw OpenShell sandbox with Baseten inference. Developers get a familiar terminal coding agent experience, while teams get a governed, auditable environment around it.
 
 ## Notable Quotes

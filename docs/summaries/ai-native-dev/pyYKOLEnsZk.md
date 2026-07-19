@@ -31,55 +31,55 @@ Hannah Foxwell argues that agentic software development has finally delivered th
 
 ## Detailed Breakdown
 
-### [00:00] Introduction and Welcome
+### Introduction and Welcome [00:00](https://www.youtube.com/watch?v=pyYKOLEnsZk&t=0s)
 The session opens with thanks to the event's tech crew and volunteers. The host introduces Hannah Foxwell, founder of "AI for the Rest of Us," who clarifies her talk is about agentic software development's impact on teams and organization—not the tools themselves.
 
-### [01:34] The Velocity We Always Wanted Is Here
+### The Velocity We Always Wanted Is Here [01:34](https://www.youtube.com/watch?v=pyYKOLEnsZk&t=94s)
 Foxwell reflects on how every engineering leader she has worked with fixated on developer velocity. Through cloud and DevOps transformations, incremental velocity gains arrived, but agentic development represents a massive next step. She notes the dialogue around "developer experience" and "developer productivity" has quieted because the long-sought velocity is finally here—teams just don't yet know what to do with it.
 
-### [03:08] Levels of Agentic Coding Maturity
+### Levels of Agentic Coding Maturity [03:08](https://www.youtube.com/watch?v=pyYKOLEnsZk&t=188s)
 Referencing Steve Yegge's maturity model (which Luke Marsden also used), Foxwell describes the spectrum from narrow IDE agents to full agent orchestrators. She reassures the audience that being at level two or three is normal, and that she doesn't know anyone credibly operating at level eight safely. Cursor's blog post about the "third era of software development"—where agentic tasks supersede tab completes—signals where the industry is heading regardless of where any individual team currently sits.
 
-### [05:10] Anchor One: Build Something Worth Building
+### Anchor One: Build Something Worth Building [05:10](https://www.youtube.com/watch?v=pyYKOLEnsZk&t=310s)
 Foxwell lays out her first guiding belief: always pursue the outcome, not the task. She describes the traditional flow from user problem to product, noting that product managers filter and prioritize. What has changed is the pace at which problems can be solved. Development velocity now creates "back pressure" in product, where decision-making and analysis can't keep up. The answer isn't simply building more faster—"enshittification" is real—but it is now cheap to test ideas with real prototypes.
 
-### [08:16] New Patterns: Vibe Coding PMs, Forward-Deployed Engineers, Product Engineers
+### New Patterns: Vibe Coding PMs, Forward-Deployed Engineers, Product Engineers [08:16](https://www.youtube.com/watch?v=pyYKOLEnsZk&t=496s)
 Several emerging patterns address the product-engineering imbalance. "Vibe coding" product managers build and test prototypes themselves before funneling validated work to dev teams. Forward-deployed engineers sit alongside users and are empowered to fix gaps directly, shrinking the feedback loop—Google recently announced building this capability. Product engineers (as written about by incident.io) don't need PM permission to improve the product, a pattern especially effective when building for developers who have native user empathy.
 
-### [10:49] Rethinking Team Ratios
+### Rethinking Team Ratios [10:49](https://www.youtube.com/watch?v=pyYKOLEnsZk&t=649s)
 Foxwell shares an anecdote about a startup that hired six engineers and quickly ran out of well-qualified work. The traditional six-to-eight engineers per PM model feels imbalanced. She cites experiments by MBIM with a 2:1 developer-to-PM ratio and Andrew Ng's Davos proposal of two product people per single developer. A consultancy CTO told her most teams aren't shrinking but expect far more output; only a few intentionally reduced headcount. The focus is on putting people in the right places.
 
-### [13:23] Building Bimp: A Lived Experience
+### Building Bimp: A Lived Experience [13:23](https://www.youtube.com/watch?v=pyYKOLEnsZk&t=803s)
 Foxwell describes her own product, Bimp, a container base image management platform. As a two-person team (one developer, one product person), they aimed for a two-week MVP. On day one, they finished by lunchtime; on day two, the developer texted "Done" at 11 a.m. The velocity forced her to discard her toolkit of ruthless prioritization and think much bigger. They tested the idea at KubeCon, received positive reception, and decided to invest further—all without needing VC funding to validate the concept.
 
-### [16:29] Keeping, Trashing, and Trying (Anchor One)
+### Keeping, Trashing, and Trying (Anchor One) [16:29](https://www.youtube.com/watch?v=pyYKOLEnsZk&t=989s)
 For building worth building, she keeps: empowered product teams, fast user feedback, deep problem understanding, and focus on UX/usability as differentiators. She trashes the "two-pizza team" and six-month roadmaps (suggesting "tapas teams" instead). She's trying: forward-deployed engineers, product engineers, rapid prototyping, and smaller teams with rethought PM-to-developer ratios.
 
-### [17:30] Anchor Two: Speed Requires Safety
+### Anchor Two: Speed Requires Safety [17:30](https://www.youtube.com/watch?v=pyYKOLEnsZk&t=1050s)
 The second pillar is that velocity must be balanced with safety. The path to production is critical: any manual step—code reviews, testing—becomes a bottleneck when code volume surges. She references an AWS blog post about rethinking their path to production to handle AI-driven volume. The good news is AI is excellent at writing tests, citing JP Morgan's continuous component testing as a case study. She suggests splitting teams so some focus on pipeline and test coverage rather than all on features.
 
-### [21:09] The Cost of Day Two and Reliability
+### The Cost of Day Two and Reliability [21:09](https://www.youtube.com/watch?v=pyYKOLEnsZk&t=1269s)
 Foxwell emphasizes that scaling and maintaining an application with real users costs far more than shipping version one. Users expect reliability and security invisibly—they won't request it, but its absence is a reputation killer. AI velocity means teams no longer have to trade off between features and invisible reliability/security work; they can pursue both. Progressive delivery practices—feature flags, blue/green deployments—make it safe to ship large volumes of change.
 
-### [23:48] SRE and Platform Engineering Become More Important
+### SRE and Platform Engineering Become More Important [23:48](https://www.youtube.com/watch?v=pyYKOLEnsZk&t=1428s)
 Foxwell advocates strongly for SRE practices: SLIs, SLOs, and error budgets provide the language to reason about balancing velocity and stability. She sees a future where platform engineering and SRE grow in importance because they unlock feature teams' velocity safely. In her Bimp experience, after the two-week MVP, the work looked like platform and reliability engineering—scalability, security, doing it right. She anticipates the balance shifting from feature-heavy teams toward more platform and SRE capacity.
 
-### [26:54] Keeping, Trashing, and Trying (Anchor Two)
+### Keeping, Trashing, and Trying (Anchor Two) [26:54](https://www.youtube.com/watch?v=pyYKOLEnsZk&t=1614s)
 She keeps SRE practices, progressive delivery, and internal platforms. She trashes anything manual on the critical path to production. She's trying AI for tech debt, test coverage, migrations, refactors, and bringing back SRE teams as internal consultants for reliability investment.
 
-### [27:56] Anchor Three: People Matter
+### Anchor Three: People Matter [27:56](https://www.youtube.com/watch?v=pyYKOLEnsZk&t=1676s)
 Foxwell's third and most important anchor is people. She controversially states that reviewing thousands of lines of AI-authored code is not fun and is unsustainable. Some organizations have dropped mandatory code reviews or shifted peer review left to the spec-writing stage. She quotes Joseph Ruscio: treating unread code as a discipline failure rather than a signal that the discipline must change is the mistake.
 
-### [29:28] On-Call and Minimum Viable Team Size
+### On-Call and Minimum Viable Team Size [29:28](https://www.youtube.com/watch?v=pyYKOLEnsZk&t=1768s)
 An agent cannot hold the pager—on-call remains a human responsibility. Sustainable on-call requires a minimum of about four people (primary and secondary, no more than 50% on-call). This sets a practical floor on team size regardless of how fast development becomes.
 
-### [31:00] Rethinking Ceremony and Management
+### Rethinking Ceremony and Management [31:00](https://www.youtube.com/watch?v=pyYKOLEnsZk&t=1860s)
 Much of the ceremony around dev teams—like two-week sprint planning—may no longer add value or match the new pace. Foxwell acknowledges it's a tough time to manage engineering teams. She recommends Sophie Weston's QCon talk on the "broken comb" profile (multiple areas of depth) as a replacement for T-shaped thinking, urging managers to coach engineers toward product-leaning or platform-leaning skills.
 
-### [32:31] User Empathy as the Essential Skill
+### User Empathy as the Essential Skill [32:31](https://www.youtube.com/watch?v=pyYKOLEnsZk&t=1951s)
 Foxwell insists user empathy is now critical: anyone who can't sit with a user, understand their problem, and design a solution will become a bottleneck. The practice of spoon-feeding engineers requirements needs to end.
 
-### [33:34] Keeping, Trashing, and Trying (Anchor Three) and Closing
+### Keeping, Trashing, and Trying (Anchor Three) and Closing [33:34](https://www.youtube.com/watch?v=pyYKOLEnsZk&t=2014s)
 She keeps sustainable on-call, error budget language, and realistic career planning. She trashes heavy planning processes, two-week sprints, and mandatory code reviews. She's trying spec-driven development, shifting peer review left, and developing broken-comb people. She closes by urging the audience to experiment with empathy, share learnings, and always build organizations focused on users, safety, and people—creating teams that are joyful to work in and careers worth pursuing.
 
 ## Notable Quotes

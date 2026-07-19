@@ -31,25 +31,25 @@ Matt Palmer argues that code is becoming the primary medium for technical commun
 
 ## Detailed Breakdown
 
-**[00:00] The Medium Problem and Code as Communication**
+### The Medium Problem and Code as Communication [00:00](https://www.youtube.com/watch?v=yv6xovSsB1U&t=0s)
 Matt opens by acknowledging the classic challenge of content creation: choosing the right medium. People default to what they already know. His central thesis is that code is increasingly becoming the way we communicate, something that would have seemed wild just a few years ago when only professional software engineers wrote code for content.
 
-**[01:00] What "Content" Means in Technical Communication**
+### What "Content" Means in Technical Communication [01:00](https://www.youtube.com/watch?v=yv6xovSsB1U&t=60s)
 He defines content broadly as technical communication—documentation, change logs, product update emails, product tours, video overlays, and more. He emphasizes that accurate change logs require an accurate diff of the product, which is genuinely hard without either strong tooling or someone manually combing through PRs. Content is the act of communicating what a product solves and how it has changed.
 
-**[02:04] A Live Example: Product Tour Built in React and Remotion**
+### A Live Example: Product Tour Built in React and Remotion [02:04](https://www.youtube.com/watch?v=yv6xovSsB1U&t=124s)
 Matt shows a product tour for Conductor built entirely with React and Remotion. He recreated the product surface and walked through a sample user flow in a Remotion scene. He admits it is still a bit buggy and the flows aren't perfect, but sees it as a preview of a coming norm where entire product surfaces and videos are generated via code.
 
-**[03:05] Three Eras of Content Creation**
+### Three Eras of Content Creation [03:05](https://www.youtube.com/watch?v=yv6xovSsB1U&t=185s)
 Matt frames the evolution in three eras. **Era one** is the handcrafted era—everything is manual, and your only levers are time, money, and skill; you either do it yourself or hire an expert or agency. **Era two** is the era of expensive code—cloud and code are mature, but engineering is the bottleneck and engineers are costly, so content is deprioritized. Frameworks like Remotion didn't proliferate because few had the time or incentive to invest in "content engineering." **Era three** is today: code is cheap because of AI. You can generate videos, documentation, websites, and motion graphics with tools like Claude—but quality varies, and you need an engineering mindset to get good results.
 
-**[05:37] Code as the Fastest Way to Build Anything**
+### Code as the Fastest Way to Build Anything [05:37](https://www.youtube.com/watch?v=yv6xovSsB1U&t=337s)
 Matt reflects on preparing this presentation and realizing his favorite medium is TypeScript. Every ancillary asset—slides, images, videos—is React or TypeScript. Coming from a Python/data engineering background, he finds it remarkable that he now leans on React, TypeScript, CSS, and HTML as the best path to high-fidelity assets.
 
-**[07:12] Structure Is the Expensive Thing**
+### Structure Is the Expensive Thing [07:12](https://www.youtube.com/watch?v=yv6xovSsB1U&t=432s)
 With code being cheap, the scarce resource is structure: maintaining a clean codebase, enforcing brand guidelines, keeping design tokens consistent, separating frontend from backend code, writing clean PRs with proper descriptions and tags, and maintaining accurate internal documentation. Without these, even good AI agents cannot produce polished results. The difference between generic AI "purple gradient slop" and professional output comes down to structural discipline.
 
-**[08:13] AI Rewards Conscientiousness**
+### AI Rewards Conscientiousness [08:13](https://www.youtube.com/watch?v=yv6xovSsB1U&t=493s)
 Matt argues that AI rewards conscientiousness—being meticulous, careful, and guided by professional duty—over raw engineering skill. The highest-performing teams will be those that instill discipline and rigor into their software process and then shift content creation left toward code. He predicts 2026 was the year of the "creative technologist" in DevRel, and 2027 will be the year of the "content engineer," when declarative content pipelines produce walkthroughs, documentation, screenshots, and product updates from code.
 
 ## Notable Quotes

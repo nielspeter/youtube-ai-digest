@@ -29,28 +29,28 @@ Birgitta Böckeler provides a comprehensive retrospective on the evolution of AI
 
 ## Detailed Breakdown
 
-### [00:00] Introduction and Context
+### Introduction and Context [00:00](https://www.youtube.com/watch?v=tFffUnSq7VA&t=0s)
 The session opens with a host introducing Birgitta Böckeler, a Distinguished Engineer at ThoughtWorks, referencing her viral post on Martin Fowler's site comparing spec-driven tools like Spec Kit, Tessel, and Kiro. Böckeler explains her role: three years ago she was given a full-time position to immerse herself in AI coding and help colleagues and clients navigate the space.
 
-### [02:09] The Model Layer
+### The Model Layer [02:09](https://www.youtube.com/watch?v=tFffUnSq7VA&t=129s)
 Böckeler begins her recap with the foundational layer—models—noting that there was surprisingly little model discussion at the conference, which she finds appropriate since the ecosystem around models is more interesting. She references the "Opus 4.5 moment" as a key inflection point that drew lapsed users back to AI coding. She outlines a learning map for models: they are not magic but impressive math; they are stateless (every turn resends conversation history); context window size trades off with attention quality; and engineers must match model power to task complexity (autocomplete vs. targeted changes vs. large refactors vs. planning/debugging). She demonstrates a small model (Qwen 3.6) running locally on an Apple M3, noting that speed has improved dramatically but tool calling still struggles on smaller models.
 
-### [09:24] The Coding Harness
+### The Coding Harness [09:24](https://www.youtube.com/watch?v=tFffUnSq7VA&t=564s)
 Moving beyond the model, Böckeler introduces the "coding harness"—the layer that helps leverage the model for coding tasks. Harnesses include system prompts (often invisible in closed-source tools), tool integrations (file operations, code search), orchestration (sub-agents, tool call batching), user interfaces (terminal vs. IDE), and varying levels of extensibility and observability. She notes early "bloat" concerns with Claude Code and emphasizes that engineers must understand harness features rather than conflating UI choices (terminal vs. IDE) with capability. For example, Cursor's terminal-based appeal isn't why it's good—its underlying harness features are what matter.
 
-### [13:01] Harness Engineering and Context Regulation
+### Harness Engineering and Context Regulation [13:01](https://www.youtube.com/watch?v=tFffUnSq7VA&t=781s)
 Böckeler traces the evolution of context regulation from simple rules files (agents.md, claude.md) to today's sophisticated features: skills, MCP servers, sub-agents, extensions, plugins, and hooks. She adopts the term "harness engineering" (acknowledging it's still clunky) to describe context engineering for coding agents. She presents a mental model with two sides: **guides** (feed-forward—conventions, product context, instructions, code mods) and **sensors** (feedback—review agents, static analysis, log inspection, browser verification). Guides and sensors can be either **computational** (CPU-based, deterministic) or **inferential** (GPU-based, LLM-driven). She cites Amazon's Java upgrade savings as an example of code mods made available to AI, and recommends strategically placing sensors along the path to production—cheaper computational sensors in the coding session, inferential sensors in PR reviews, and periodic "garbage collection" drift detection for accumulated technical debt.
 
-### [24:22] The Push Toward Autonomy
+### The Push Toward Autonomy [24:22](https://www.youtube.com/watch?v=tFffUnSq7VA&t=1462s)
 Böckeler charts the industry's trajectory toward less human supervision, noting that background/unsupervised agents have become mainstream, with most harness products offering cloud-based execution. She describes extreme experiments like "swarms" (Gastown, Cloud Flow) where many agents are deployed in parallel, even having agents decide how many agents they need. She then provides a timeline of the AI coding journey: autocomplete → IDE integration → Claude 3.5 Sonnet as an early model milestone → agentic coding modes → "vibe coding" (coined by Andrej Karpathy) → background agents (Codex, Claude Code GA) → context engineering as a term → Opus moment → skills → Gastown/swarms → harness engineering as the current buzzword.
 
-### [29:01] The Costs of AI Coding
+### The Costs of AI Coding [29:01](https://www.youtube.com/watch?v=tFffUnSq7VA&t=1741s)
 Moving beyond benefits, Böckeler catalogs the mounting costs. **Security**: secrets leakage and ecosystem attacks require renewed focus on dependency management and sandboxing. **Stability**: the DORA report flagged worsening stability trends. **Changeability**: she shares an anecdote of a change touching 41 files in a new AI-generated codebase—a smell of accumulated technical debt. **Token costs**: she contrasts a 2024 keynote claiming 100 lines of code costs 12 cents with reports of developers spending $500/day. **Cognitive load and burnout**: referencing Steve Yegge's "energy vampire" analogy, she notes people can only sustain AI coding sessions for about three hours. **Review crisis**: higher coding throughput has not been matched by faster review, testing, or shipping. **Flow crisis**: she describes organizations where product managers churn out prototypes while developers churn out code, creating a convergence bottleneck, and references colleague James Lewis's prediction (a bet with Gene Kim) about impending "congestion collapse."
 
-### [34:13] Risk Assessment for Agent Autonomy
+### Risk Assessment for Agent Autonomy [34:13](https://www.youtube.com/watch?v=tFffUnSq7VA&t=2053s)
 Böckeler frames the supervision decision as a risk assessment with three dimensions: **probability** (will AI get it wrong?—depends on context quality and requirement clarity), **impact** (how critical is the use case?—2 a.m. on-call vs. low-stakes), and **detectability** (will I notice if it's wrong?—depends on feedback loops). She emphasizes that autonomy will always be situation-dependent and that engineers must be "tall enough to ride the roller coaster"—meaning they need sufficient feedback loops, context engineering, and codebase health before reducing supervision.
 
-### [37:19] Cognitive Surrender and Call to Action
+### Cognitive Surrender and Call to Action [37:19](https://www.youtube.com/watch?v=tFffUnSq7VA&t=2239s)
 Böckeler introduces "cognitive surrender," a term from a paper contextualized by Addy Osmani in the System 1/System 2 framework (referencing Kahneman's "Thinking Fast and Slow"), describing the displacement of active System 2 thinking with AI. She lists surrender patterns: doing tasks yourself instead of teaching, defaulting to the biggest model, assuming models will improve and tokens will get cheaper, working more for the same compensation, skipping sandboxing, and losing the ability to work without AI. She urges people of influence to create environments that don't lead to surrender, and encourages those feeling powerless to find collaborators, share observations, and act within their sphere of influence. She closes by noting that leadership should treat this as a Horizon 2 investment—ROI is unclear, and engineers need time to build proper setups for sustainable delivery.
 
 ## Notable Quotes

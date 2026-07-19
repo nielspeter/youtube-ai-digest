@@ -29,22 +29,22 @@ The "Shai Hulud" NPM worm, which self-replicates by stealing tokens and publishi
 
 ## Detailed Breakdown
 
-**[00:00] Introduction and Overview**
+### Introduction and Overview [00:00](https://www.youtube.com/watch?v=lNsSxWQDqaU&t=0s)
 The video opens by announcing that the NPM worm that caused chaos last year has done something unprecedented: it has jumped ecosystems and is now appearing in Go packages. The host outlines three topics to be covered: a recap of the worm, what changed in this new wave, and actionable steps to stay secure.
 
-**[00:30] What Is Shai Hulud?**
+### What Is Shai Hulud? [00:30](https://www.youtube.com/watch?v=lNsSxWQDqaU&t=30s)
 Shai Hulud is described as a self-replicating worm that lives in package registries. When a victim installs a poisoned package, it runs on install and scans the machine for secrets, including NPM tokens, GitHub tokens, AWS/GCP/Azure keys, and SSH keys. It even runs TruffleHog, a tool normally used defensively to find exposed keys, but here it's used maliciously to steal credentials. The worm then uses stolen NPM tokens to publish poisoned versions of the victim's packages, infecting the next user automatically with no attacker in the loop. It first hit in September 2025, returned larger in November, and in 2026 a group called Team PCP open-sourced the entire worm and ran a contest for the biggest attack, leading to constant copycat waves.
 
-**[02:00] The New Wave: Cross-Ecosystem Jump**
+### The New Wave: Cross-Ecosystem Jump [02:00](https://www.youtube.com/watch?v=lNsSxWQDqaU&t=120s)
 Security firm socket.dev flagged a new wave at the end of June with two major differences. First, it jumped ecosystems, appearing in a Go module called the Verana blockchain project. However, it doesn't infect Go packages directly, and nothing in Go's tooling runs it. Instead, the shipped source archive contained hidden JavaScript files with a `.cloud` folder and a `.vscode` folder designed to execute code as hooks when commands are run. Specifically, a `settings.json` file contains a Cloud Code session-start hook, and a `tasks.json` file has a VS Code folder-open task that runs `node cloud.setup.mjs`. This means the malware fires the moment you open a folder or start a coding session.
 
-**[02:32] Why Traditional Defenses Fail**
+### Why Traditional Defenses Fail [02:32](https://www.youtube.com/watch?v=lNsSxWQDqaU&t=152s)
 From there, the payload decodes and stages through Bun, grabs your `.npm` file and every credential it can find, and even checks for security tools like CrowdStrike, Defender, and SentinelOne before going to work. The host emphasizes that the `--ignore-scripts` flag no longer works because no install scripts run, and `npm uninstall` doesn't help because the malicious code doesn't live in `node_modules` — it lives in your project config. The target has moved from app dependencies to the dev environment itself, and victims could unknowingly push malicious code to production or CI environments like GitHub workflows.
 
-**[03:03] Five Things You Can Do Today**
+### Five Things You Can Do Today [03:03](https://www.youtube.com/watch?v=lNsSxWQDqaU&t=183s)
 The host provides five actionable security measures. First, don't rely solely on the `--ignore-scripts` flag, as this new attack sidesteps it completely. Second, treat Cloud, VS Code, and GitHub workflows as executable code, and inspect those files before opening a cloned repo or pulled dependency source in your editor. Third, keep VS Code automatic tasks turned off via the "Manage Automatic Tasks" command so folder-open tasks can't run without your approval. Fourth, use short-lived, least-privileged tokens and rely on OIDC rather than long-lived tokens, preventing the worm from replicating through you. Fifth, apply egress filtering on CI runners with a whitelist so that even if malicious code executes, it can't send stolen credentials to the attacker.
 
-**[04:35] Closing Thoughts**
+### Closing Thoughts [04:35](https://www.youtube.com/watch?v=lNsSxWQDqaU&t=275s)
 The host acknowledges the situation is frightening but stresses that following best practices — setting a minimum release age in `.npmrc`, using short-lived tokens, disabling automatic hooks, and storing sensitive data in password managers — greatly reduces risk. The video closes with a recommendation for a related video about a free alternative to Burp Suite.
 
 ## Notable Quotes

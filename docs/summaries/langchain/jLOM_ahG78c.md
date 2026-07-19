@@ -31,19 +31,19 @@ Amy from the LangChain product team demonstrates how to integrate tracing for Cl
 
 ## Detailed Breakdown
 
-**[00:00] Introduction and Problem Statement**
+### Introduction and Problem Statement [00:00](https://www.youtube.com/watch?v=jLOM_ahG78c&t=0s)
 Amy introduces herself as a member of the LangChain product team and frames the core problem: developers building agents with Claude Code often encounter unexpected behavior with no visibility into why it happened. She notes that without tracing, it's difficult to determine which tool call triggered an issue or what a sub-agent actually returned. She promises to show how to trace every Claude Code session into LangSmith, capturing every message, tool call, and sub-agent run with minimal setup. She lists three prerequisites: the Claude Code CLI, Node.js, and a LangSmith API key (available from LangSmith settings).
 
-**[00:31] Plugin Installation**
+### Plugin Installation [00:31](https://www.youtube.com/watch?v=jLOM_ahG78c&t=31s)
 Amy walks through the installation process. Inside Claude Code, the user runs three commands: adding the marketplace plugin, installing the tracing plugin, and reloading plugins so Claude Code picks it up. She notes that for future upgrades, the process is similarly straightforward—run `/plugin marketplace update LangSmith ClaudeCode` followed by `/reload plugins` again.
 
-**[01:01] Configuration via Project Settings**
+### Configuration via Project Settings [01:01](https://www.youtube.com/watch?v=jLOM_ahG78c&t=61s)
 The cleanest way to direct traces to LangSmith is through a project settings file. Amy instructs viewers to create `.claude/settings.local.json` in their project directory. This file contains three fields: `traceToLangSmith` (a boolean that turns tracing on or off for the project), `CC-LangSmith-APIKey` (your LangSmith API key), and `CC-LangSmith-Project` (the LangSmith project name under which traces will appear). Once configured, users simply interact with Claude Code as normal.
 
-**[01:38] Viewing Traces in LangSmith**
+### Viewing Traces in LangSmith [01:38](https://www.youtube.com/watch?v=jLOM_ahG78c&t=98s)
 Amy explains the LangSmith trace view. Every message sent to Claude Code shows up as its own individual trace. Inside each trace, users can see the user message, every tool call Claude makes, token usage, any sub-agent runs, and the final response. She then highlights the Threads tab, which groups every turn from the same Claude Code session under a single thread, allowing users to follow an entire conversation rather than just isolated messages.
 
-**[02:09] Wrap-Up and What's Next**
+### Wrap-Up and What's Next [02:09](https://www.youtube.com/watch?v=jLOM_ahG78c&t=129s)
 Amy summarizes the entire setup as "three commands and one JSON block," after which every Claude Code session becomes a debuggable trace in LangSmith. She points viewers to pinned troubleshooting steps (primarily checking the API key) and a link to the full docs in the description. She closes by mentioning that she will film the same setup for Codex and Cursor in upcoming videos.
 
 ## Notable Quotes

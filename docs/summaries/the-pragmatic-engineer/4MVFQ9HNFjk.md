@@ -28,10 +28,10 @@ The current tech job market is less brutal than 2023, with many companies active
 - Recommended actions: browse job openings, talk with your network, and don't fully ignore recruiters.
 
 ## Detailed Breakdown
-**[00:00] Market Context and the Case for Looking Around**
+### Market Context and the Case for Looking Around [00:00](https://www.youtube.com/watch?v=4MVFQ9HNFjk&t=0s)
 The speaker opens by acknowledging the volatility and uncertainty of the current job market, noting that staying put can be a sensible strategy. However, they contrast today's market with 2023, which they describe as "brutal" due to pervasive layoffs and a hiring freeze. The speaker points out that while some layoffs are still occurring, many companies are currently hiring. This presents a unique opportunity for engineers to move up a tier, transition into startups, work on product building, and gain more autonomy. They specifically highlight the chance to work with new AI tools, warning that staying at a slow-moving company might mean missing out on these valuable opportunities.
 
-**[00:31] The Value of AI Experience and Being Opportunistic**
+### The Value of AI Experience and Being Opportunistic [00:31](https://www.youtube.com/watch?v=4MVFQ9HNFjk&t=31s)
 The speaker emphasizes that engineers who accumulate a few years of hands-on experience with AI tools will be highly sought after in the future. Conversely, those who stay stagnant with zero such experience risk being left behind. The advice is to remain opportunistic: keep an eye on job openings, engage with your professional network, and don't completely dismiss recruiters. The goal is to stay aware of what's available in the market without necessarily abandoning your current role.
 
 ## Notable Quotes

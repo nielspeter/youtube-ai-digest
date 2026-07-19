@@ -31,31 +31,31 @@ Dotta, creator of Paperclip, argues that "done" is not a Boolean checkbox but a 
 
 ## Detailed Breakdown
 
-**[00:00] The Problem with "Done"**
+### The Problem with "Done" [00:00](https://www.youtube.com/watch?v=7P0elyLIxXo&t=0s)
 Dotta opens with a scenario: an agent opens a PR, passes tests, updates docs, closes the issue, and declares "Looks done to me." But done enough to merge? To deploy? To announce to customers? These are fundamentally different operational claims, yet most agent systems flatten them to a single green checkmark. Dotta introduces himself as the creator of Paperclip and frames the talk around lessons learned building Paperclip's liveness model.
 
-**[00:30] A New Failure Mode**
+### A New Failure Mode [00:30](https://www.youtube.com/watch?v=7P0elyLIxXo&t=30s)
 Programming is effectively solved in the sense that agents can now produce code and documentation faster than any human can verify. This creates a new failure mode: agents generating more work than humans have time to review. Simply letting an agent check a box is insufficient. Saying something is "done" is actually a bundle of claims—an artifact was produced, there is evidence the task is complete, and there is a rubric to verify against.
 
-**[01:02] Levels of Done**
+### Levels of Done [01:02](https://www.youtube.com/watch?v=7P0elyLIxXo&t=62s)
 Dotta enumerates progressive levels of doneness: the producer claims completion; a separate reviewer finds no obvious issues; evidence is verified against a specified standard; an authorized person approves the work; someone stands behind the decision; and ideally, the outcome survives real-world conditions. Exhaustive human verification fails at high volume—if humans must sign off on every task, you get verification theater rather than real assurance.
 
-**[02:05] The Need for a Protocol and Control Plane**
+### The Need for a Protocol and Control Plane [02:05](https://www.youtube.com/watch?v=7P0elyLIxXo&t=125s)
 What is needed is a protocol for how tasks progress through a system, keeping work moving without allowing tasks to enter invalid states. A control plane must tie task execution to specific contracts and constraints, governing what the system will do and which agents receive the next task. The core tension is between keeping work moving (liveness) and keeping it verified.
 
-**[02:36] Liveness vs. Verification**
+### Liveness vs. Verification [02:36](https://www.youtube.com/watch?v=7P0elyLIxXo&t=156s)
 Liveness means work continues with no blockers. When a human reviews a task, you get correctness assurance, but the task is dead in its tracks. Balancing these two forces is the central challenge. All liveness and no approval produces classic AI slop—high-volume, low-quality output that is worse than creating nothing. But all peer review creates an enormous review queue that humans cannot keep up with. The solution is to tease apart the bundle of claims embedded in "done."
 
-**[03:39] Why a Simple Loop Falls Apart**
+### Why a Simple Loop Falls Apart [03:39](https://www.youtube.com/watch?v=7P0elyLIxXo&t=219s)
 You might think you can just write a for loop over your task manager and let agents work, but this quickly falls apart when you introduce task dependency trees, blockers, multiple agents, idempotent checkouts, and checkout locks. The liveness-verification tension becomes quite complicated. Dotta identifies three critical invariants for a control plane: ensure productive work continues, ensure only real blockers stop work, and ensure infinite loops are bounded.
 
-**[04:09] Paperclip's Mechanisms**
+### Paperclip's Mechanisms [04:09](https://www.youtube.com/watch?v=7P0elyLIxXo&t=249s)
 Paperclip addresses these challenges with several mechanisms: clear state transitions for tasks; first-class blockers enforced by the control plane; interactive human approval moments that leave audit trails; explicit reviewers and approvers on tasks; and watchdogs. Watchdogs operate in a "maximizer mode"—another agent is given a goal and enforces that all agents continue working until that goal is achieved. Crucially, watchdogs are harness-agnostic, working with any framework (Pi, OpenGL, Hermes, Claude Code, Codex) through one consistent interface.
 
-**[05:13] Treat Done as an Object, Not a Boolean**
+### Treat Done as an Object, Not a Boolean [05:13](https://www.youtube.com/watch?v=7P0elyLIxXo&t=313s)
 Dotta's key advice: stop treating "done" as a Boolean and treat it as an object. Humans automatically paper over the details, but agentic systems require agents to distinguish between the different claims involved: the artifact, the scope, the rubric or standard, the evidence, who verified the work, who has authority to sign off, what risk remains, and what the next action will be.
 
-**[05:45] The Checklist for 100x More Work**
+### The Checklist for 100x More Work [05:45](https://www.youtube.com/watch?v=7P0elyLIxXo&t=345s)
 Dotta offers a concrete checklist: define exactly what "done" means for each task; separate the verifier from the author (ideally using a different model—code with Claude, verify with Codex); require agents to provide evidence rather than just asserting completion; give agents the tools to verify—custom browser harnesses, screenshots, button-clicking, custom agent hooks; and maintain a clear chain of custody so every agent knows who receives the work next. For serious, accountable work, define "done" in maximum detail and structure your agents so all claims of completion are actually met.
 
 ## Notable Quotes

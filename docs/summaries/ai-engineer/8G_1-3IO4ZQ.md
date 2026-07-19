@@ -29,28 +29,28 @@ Prukalpa Sankar, founder of Atlan, argues that while AI models have become expon
 
 ## Detailed Breakdown
 
-**[00:12] Introduction and the Context Moment**
+### Introduction and the Context Moment [00:12](https://www.youtube.com/watch?v=8G_1-3IO4ZQ&t=12s)
 Prukalpa Sankar introduces himself as the founder of Atlan, a company that fixes the problem of "AI not knowing your business." He references Bill Gates' famous "content is king" blog post, suggesting that in the agentic era, "context will be king." He notes that 2026 feels like the year of context, with concepts like context graphs appearing frequently.
 
-**[01:59] The Intelligence vs. Context Gap**
+### The Intelligence vs. Context Gap [01:59](https://www.youtube.com/watch?v=8G_1-3IO4ZQ&t=119s)
 Sankar highlights a "reality distortion field" in AI: models are getting exponentially smarter (passing the bar exam in the top 1%), but they aren't exponentially more useful. Only 1 in 5 AI use cases make it to production, and 56% of CEOs report zero financial benefit from AI. He attributes this to the difference between cognitive intelligence (IQ) and real-world performance, noting that only 10% of job performance variance is explained by IQ. The rest is context—knowledge and skills learned on the job. While intelligence has "thousandxed," context has barely moved.
 
-**[04:07] The "Maya" Analogy: How Humans Learn**
+### The "Maya" Analogy: How Humans Learn [04:07](https://www.youtube.com/watch?v=8G_1-3IO4ZQ&t=247s)
 To illustrate what AI needs, Sankar walks through the life of "Maya," a data analyst at "Mech Context Burgers." When asked why drive-thru times are up, Maya needs to know the facts (what drive-thru time means, time zones), expertise (seasonal patterns, recent product launches), and norms (who is asking and how to answer). Maya learned this not through initial training, but by shadowing teammates, making mistakes, and receiving feedback. The question becomes: how do we build "agent Maya"?
 
-**[07:14] Era 1: Siloed Agents and Context Sprawl**
+### Era 1: Siloed Agents and Context Sprawl [07:14](https://www.youtube.com/watch?v=8G_1-3IO4ZQ&t=434s)
 About 18 months ago, Atlan began bootstrapping individual agents for specific jobs (e.g., documentation, meeting prep). They created themed agents like "Hermione" (health intelligence) and "Money Penny" (financial risk). However, this approach failed in production. Building agents was easy, but context engineering took forever. Agents lived on islands—the marketing agent would update positioning, but the SDR agent would still pitch the old version. Context sprawl became a major issue as agents had separate memory systems, and switching agentic frameworks (Relevance, Google ADK, Glean, Claude, Codex) trapped context in silos.
 
-**[11:26] Era 2: The Shared Company Brain**
+### Era 2: The Shared Company Brain [11:26](https://www.youtube.com/watch?v=8G_1-3IO4ZQ&t=686s)
 Realizing that human dream teams work on shared context, Atlan pivoted to a new mental model: a "company brain." They built a context layer where domain experts (e.g., the best SEO person) build skills into a common repository. This layer includes a data graph, a library of skills, semantics, and metrics. Over 6 months, they created 300 skills and 40 agents. The context layer connects to various systems (social, ad platforms, analytics) and supports multiple agents (Claude, Codex, custom Slack bots).
 
-**[15:01] Context Needs to Be Managed Like Code**
+### Context Needs to Be Managed Like Code [15:01](https://www.youtube.com/watch?v=8G_1-3IO4ZQ&t=901s)
 Even with the context layer, challenges emerged. Skills have dependencies (e.g., competitive intelligence feeds category positioning, which feeds sales battle cards), and when one skill evolves, it breaks downstream skills. Context needs lifecycle management, versioning, and dependency management—just like code. Security was also a nightmare, with secrets hardcoded in ENV files. Sankar asks, "What does the GitHub for context look like?" suggesting context needs approvers, maintainers, and contributors.
 
-**[17:05] Compounding Learning Loops and Getting Started**
+### Compounding Learning Loops and Getting Started [17:05](https://www.youtube.com/watch?v=8G_1-3IO4ZQ&t=1025s)
 Every AI interaction creates more context. Sankar advocates for deploying a harness that reads through AI traces and feeds them back into a maintainer loop for continuous improvement. For companies wondering how to start, he recommends reverse-constructing the connections between business systems (e.g., Salesforce, HubSpot, data warehouses) to build the first version of the company brain.
 
-**[18:38] Context is IP**
+### Context is IP [18:38](https://www.youtube.com/watch?v=8G_1-3IO4ZQ&t=1118s)
 Sankar concludes by defining the context layer as a system that turns human knowledge into machine-usable context. He warns against hard-coding context, which is unsustainable and dangerous (leading to autonomous systems giving different answers for the same metric). He ends with a strong statement: in a world where everyone has the same models, context is your intellectual property. It is how you encode your culture and norms into autonomous frontier firms.
 
 ## Notable Quotes

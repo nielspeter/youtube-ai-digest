@@ -29,16 +29,16 @@ Antimicrobial resistance is a growing "silent pandemic" in which bacteria contin
 
 ## Detailed Breakdown
 
-**[00:04] The Silent Pandemic of Antimicrobial Resistance**
+### The Silent Pandemic of Antimicrobial Resistance [00:04](https://www.youtube.com/watch?v=Cnuj24PjWrQ&t=4s)
 The video opens by framing antimicrobial resistance as an internationally recognized "silent pandemic." The core problem is biological and inherent: any effective antibiotic therapy requires continuously finding new variations, because bacteria inevitably evolve resistance. When patients don't respond to existing antibiotics, they face life-threatening infections. Researchers generate new antimicrobial agents, but resistance arises almost as soon as those agents are introduced, leaving scientists constantly chasing to solve the problem.
 
-**[00:35] AI as a Powerful New Tool**
+### AI as a Powerful New Tool [00:35](https://www.youtube.com/watch?v=Cnuj24PjWrQ&t=35s)
 The narrative shifts to where AI tools become "very powerful" in addressing this challenge. A researcher reflects on how, earlier in their career, elucidating an experimental structure could take years. Now, with AI tools, comparable tasks can be completed in roughly six minutes—a dramatic acceleration that changes what is possible in antimicrobial research.
 
-**[01:06] DeepMind and Gemini: Transformative and Creative AI**
+### DeepMind and Gemini: Transformative and Creative AI [01:06](https://www.youtube.com/watch?v=Cnuj24PjWrQ&t=66s)
 DeepMind's tools are described as "absolutely transformative," allowing researchers to accomplish things they previously could not do on their own. The researchers highlight using AI programs like Gemini, which goes beyond answering direct questions by offering unexpected, out-of-the-box ideas that shift their perspective. Gemini connects dots from previous questions and generates ideas the researchers didn't even ask for—behavior they find remarkable and intellectually generative.
 
-**[01:36] Pattern Recognition and New Biological Principles**
+### Pattern Recognition and New Biological Principles [01:36](https://www.youtube.com/watch?v=Cnuj24PjWrQ&t=96s)
 The video closes by emphasizing the rapid progress AI enables in understanding new biology and biological principles. What surprised the researchers most is the power of neural networks to identify patterns and correlations that are not intuitively obvious to the human eye. By making these hidden matches, AI helps uncover new ways of treating threatening, drug-resistant infections.
 
 ## Notable Quotes

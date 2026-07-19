@@ -30,19 +30,19 @@ Stampli's director of product marketing uses a GPT-powered system built with Cha
 - The core value is time reclaimed for higher-level strategic thinking.
 
 ## Detailed Breakdown
-**[00:04] From accountant to marketing superstar**
+### From accountant to marketing superstar [00:04](https://www.youtube.com/watch?v=yATno77Uo6A&t=4s)
 The speaker introduces themselves as the director of product marketing at Stampli, a company that is "AI-centric everything." They credit ChatGPT with transforming a humble accountant into a marketing and strategic superstar.
 
-**[00:15] Automating product information extraction**
+### Automating product information extraction [00:15](https://www.youtube.com/watch?v=yATno77Uo6A&t=15s)
 The director describes a powerful use case: automating the process of extracting information from the product side and ensuring all marketing assets stay up-to-date. Historically, this was a manual effort involving interviewing product managers, reading Jira tickets, and going through GitHub to gather relevant details.
 
-**[00:35] A GPT-powered content engine**
+### A GPT-powered content engine [00:35](https://www.youtube.com/watch?v=yATno77Uo6A&t=35s)
 Stampli built a GPT-powered system that automatically extracts information from Jira and transcribes and extracts context from meeting notes. This has enabled a one-person team to produce hundreds of pieces of content weekly, effectively doing the work of a team of four or five.
 
-**[00:50] Live data extraction with Codex**
+### Live data extraction with Codex [00:50](https://www.youtube.com/watch?v=yATno77Uo6A&t=50s)
 The speaker recounts a moment where someone had Codex connected to multiple systems via API and was able to extract all data and reporting live on a call, providing answers in real time.
 
-**[01:07] From manual work to strategic advising**
+### From manual work to strategic advising [01:07](https://www.youtube.com/watch?v=yATno77Uo6A&t=67s)
 The ultimate impact of ChatGPT has been giving the team time back. Instead of manually processing and writing content, they now function as advisors and strategic levers within the company.
 
 ## Notable Quotes

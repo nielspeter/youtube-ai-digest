@@ -31,46 +31,46 @@ Project Nanda, an MIT Media Lab research initiative, is building open infrastruc
 
 ## Detailed Breakdown
 
-### [00:01] Welcome and Framing
+### Welcome and Framing [00:01](https://www.youtube.com/watch?v=sum9DgexFRQ&t=1s)
 Ramesh Raskar introduces the talk as a walkthrough of open infrastructure for a "web of agents," originating from Project Nanda at MIT. By the end, viewers should know how to put their own agent on the open web independently.
 
-### [00:36] What Is Nanda and Why It Needs to Exist
+### What Is Nanda and Why It Needs to Exist [00:36](https://www.youtube.com/watch?v=sum9DgexFRQ&t=36s)
 Nanda stands for "Network AI Agents in a Decentralized Architecture." It addresses a concrete gap: agents lack a shared way to find each other across vendors, portable identity/trust not owned by one platform, and an open method to transact across organizations. Nanda ships the index, registries, protocol, and the Nanda Town Simulator.
 
-### [01:39] The Scale Problem: Trillions of Agents
+### The Scale Problem: Trillions of Agents [01:39](https://www.youtube.com/watch?v=sum9DgexFRQ&t=99s)
 The internet will eventually host trillions of autonomous agents that negotiate, delegate, and migrate between hosts in milliseconds. This load is fundamentally different from the human web and strains document-era systems like DNS.
 
-### [02:10] The AOL Analogy and the Coming Open Agent Web
+### The AOL Analogy and the Coming Open Agent Web [02:10](https://www.youtube.com/watch?v=sum9DgexFRQ&t=130s)
 Today's agent ecosystem resembles the late-'90s AOL era: closed networks, gated directories, proprietary stores. Just as AOL gave way to the open web—where any website could talk to any browser—the agent world needs the same transition to permissionless, cross-organizational discovery and coordination. Raskar names three layers to keep in mind: discovery, commerce, and the bazaar.
 
-### [03:44] What Is an Agent? (Maria)
+### What Is an Agent? (Maria) [03:44](https://www.youtube.com/watch?v=sum9DgexFRQ&t=224s)
 Maria defines an agent as a model that uses tools in a loop: given a goal, it decides what to do, calls a tool, inspects the result, and continues until the task is done. Memory, orchestration, and multi-agent systems build on this core loop.
 
-### [04:16] Open Claw: Self-Hosted Agent Gateway
+### Open Claw: Self-Hosted Agent Gateway [04:16](https://www.youtube.com/watch?v=sum9DgexFRQ&t=256s)
 Open Claw is a self-hosted agent gateway that connects to real apps and tools. Because agents doing real work need real tool access, who controls the agent, where it runs, and how transparent it is matters—making open-source, self-hosted agents important for user control.
 
-### [04:47] The Nanda Index: Discovery Layer
+### The Nanda Index: Discovery Layer [04:47](https://www.youtube.com/watch?v=sum9DgexFRQ&t=287s)
 With agents running in many places, the problem becomes mutual discovery. The Nanda Index is the discovery layer for the agentic web—analogous to DNS but richer. Where DNS maps a name to an address, the index returns an "agent card" describing what an agent does, its tools, rules, and how to reach it. Messages go to a "message box" first, which checks sender identity, handles access, filters spam, and holds messages until the agent is ready.
 
-### [05:48] Agent Facts Record and Adaptive Resolution
+### Agent Facts Record and Adaptive Resolution [05:48](https://www.youtube.com/watch?v=sum9DgexFRQ&t=348s)
 The "agent facts record" is a signed record stating who the agent is, what it can do, what it is allowed to touch, who built it, and where to reach it—enabling trust before connection. The index is not a static lookup: it can return updated facts based on the request, support multiple endpoints per agent, route traffic to the best endpoint, and hide private details. Resolution is adaptive to location, requester identity, and permissions.
 
-### [06:49] How to Get on the Index
+### How to Get on the Index [06:49](https://www.youtube.com/watch?v=sum9DgexFRQ&t=409s)
 Onboarding paths: enterprises run their own catalog and register their gateway from their own domain; existing websites use DNS AID to attach agents to domains they own; small businesses and individuals use host39.org to fill out an agent facts form and get a hosted agent URL without their own domain. The goal is universal onboarding, from large companies to solo developers.
 
-### [07:52] Where Agents Run: Local vs. Cloud Hosting
+### Where Agents Run: Local vs. Cloud Hosting [07:52](https://www.youtube.com/watch?v=sum9DgexFRQ&t=472s)
 Agents must stay online and be reachable. Local hosting gives full control but puts uptime responsibility on the owner. Cloud options include general clouds like AWS (enterprise-ready) and agent-specific platforms like Maritime, which offers sleep/wake architecture so idle agents don't keep burning compute—key for running many agents affordably.
 
-### [09:24] Nanda Town: Simulating the Agentic Web
+### Nanda Town: Simulating the Agentic Web [09:24](https://www.youtube.com/watch?v=sum9DgexFRQ&t=564s)
 The hard problems live between agents at scale: discovery, identity, trust, and coordination with no central authority. Nanda Town is an open-source simulation sandbox that models the full agentic economy—discovery, identity, registries, messaging, coordination. It is small enough to run on a laptop and lets you watch agents on a map, see messages move in real time, compare protocol results, and replay runs step by step.
 
-### [10:28] Real Experiments in Nanda Town
+### Real Experiments in Nanda Town [10:28](https://www.youtube.com/watch?v=sum9DgexFRQ&t=628s)
 Nanda Town already runs experiments: a marketplace with price negotiation, auctions with bidding, voting tests with ballot submission and counting, plus consensus and supply-chain tests. The goal is to study real coordination problems—deal-making, decision agreement, message passing, and recovery from failures.
 
-### [10:58] The 12 Layers and Modular Participation
+### The 12 Layers and Modular Participation [10:58](https://www.youtube.com/watch?v=sum9DgexFRQ&t=658s)
 Nanda Town decomposes the agentic web into 12 parts: transport, communication, identity, registry, auth, trust, payments, coordination, negotiation, memory, privacy, and data effects. Contributors can take one layer, add their own version, and test it within the full network. The simulator runs as a discrete-event simulation driven by a short YAML scenario file, with tier one using scripted agents and tier two swapping in real AI models.
 
-### [11:30] Summary and Resources
+### Summary and Resources [11:30](https://www.youtube.com/watch?v=sum9DgexFRQ&t=690s)
 Project Nanda provides open infrastructure for an internet of AI agents: discovery via the index, commerce via portable identity and trust, and coordination via open protocols—all tested in Nanda Town. More information, papers, and projects are available at projectnanda.org.
 
 ## Notable Quotes

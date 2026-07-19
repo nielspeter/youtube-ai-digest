@@ -30,13 +30,13 @@ Laura Modiano highlights the vibrant AI innovation happening across Europe, from
 
 ## Detailed Breakdown
 
-**[00:00] — Innovation Across Europe**
+### Innovation Across Europe [00:00](https://www.youtube.com/watch?v=K9_G-v8AE_s&t=0s)
 Modiano opens by praising the event and the breadth of innovation visible across Europe. She points to examples from both ends of the spectrum: a four-person startup team that built an impressive product delivering continuous AI-powered innovation, and a major enterprise like Sephora, which is creating real AI agents that assist customers every day. She notes that the common thread uniting these diverse innovators is that they are building on top of OpenAI.
 
-**[00:32] — What Great Founders Do Differently**
+### What Great Founders Do Differently [00:32](https://www.youtube.com/watch?v=K9_G-v8AE_s&t=32s)
 Modiano describes the qualities that make a great AI founder. The "complete package" includes always testing, always listening to customers, and moving fast while keeping their own taste and judgment central. She advises founders to ship quickly and often, doing many small releases rather than waiting for everything to be perfect. Crucially, she urges founders to treat AI not as a separate strategy but as the very heart of what they do—building both on top of and with AI.
 
-**[01:03] — Focus on the Problem, Not the Technology**
+### Focus on the Problem, Not the Technology [01:03](https://www.youtube.com/watch?v=K9_G-v8AE_s&t=63s)
 Modiano cautions founders against spending too much time thinking about what the AI is. Instead, they should focus on what they are solving for; the technology will follow. She closes by celebrating the driven, ambitious, and hard-working founders across Europe who are building generational companies with far-reaching impact, and reaffirms OpenAI's commitment to meeting and supporting them.
 
 ## Notable Quotes

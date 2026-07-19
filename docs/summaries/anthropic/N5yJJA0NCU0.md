@@ -31,67 +31,67 @@ Four university students from different institutions share their firsthand exper
 
 ## Detailed Breakdown
 
-**[00:00] Introduction and Student Introductions**
+### Introduction and Student Introductions [00:00](https://www.youtube.com/watch?v=N5yJJA0NCU0&t=0s)
 Greg from Anthropic introduces the premise: exploring how AI is changing education by asking actual students. Four students introduce themselves — Zain (LSE, accounting and finance), Chloe (Princeton, psychology and computer science), Marcus (UC Berkeley, econ and data science), and Tino (Arizona State University, master's in digital transformation).
 
-**[01:03] Campus Vibes and AI Adoption**
+### Campus Vibes and AI Adoption [01:03](https://www.youtube.com/watch?v=N5yJJA0NCU0&t=63s)
 Zain shares survey data showing roughly 90% of students use AI in daily workflows — summarizing lectures, answering problem sets, and getting feedback on assignments. Universities are scrambling to respond with changing rules, creating a "gray zone" where students are unsure how to use AI appropriately. Marcus echoes this, noting the energy at Berkeley amplified by proximity to the Bay Area AI scene, while also acknowledging confusion on the administrative side.
 
-**[02:39] Business Students and the Bad Side of AI**
+### Business Students and the Bad Side of AI [02:39](https://www.youtube.com/watch?v=N5yJJA0NCU0&t=159s)
 Tino describes how business students use AI for analyzing cases, market research, and financial research, but also to quickly complete quizzes when time is short due to multiple jobs. He flags this as the "bad side" — grad school should be about expanding critical thinking, and bypassing that process undermines the purpose.
 
-**[03:41] Chaos, Polarization, and Hesitancy**
+### Chaos, Polarization, and Hesitancy [03:41](https://www.youtube.com/watch?v=N5yJJA0NCU0&t=221s)
 Chloe describes the vibe as "really chaotic" in both good and bad ways. The good: exploration and cool projects. The bad: the gray area makes it difficult to stay resilient and accountable. She observes a growing identity polarization — some students heavily integrate AI into all workflows, while humanities and social science friends are more hesitant. Some pure humanities students have "completely opted out" due to the close-reading nature of their work, while social science students are slowly experimenting.
 
-**[05:13] AI in Computer Science Classes**
+### AI in Computer Science Classes [05:13](https://www.youtube.com/watch?v=N5yJJA0NCU0&t=313s)
 Chloe notes it's still taboo to use AI in CS and engineering classrooms, with professors discouraging it and IDEs blocking AI features. However, outside the classroom, students are using AI coding assistants heavily. Stanford is beginning to offer courses on using AI tools in software development, suggesting a coming shift.
 
-**[05:44] Lowered Barriers to Building**
+### Lowered Barriers to Building [05:44](https://www.youtube.com/watch?v=N5yJJA0NCU0&t=344s)
 Marcus highlights the number one breakthrough: the barrier to building projects has dropped dramatically. With tools like Claude and developer docs, students without CS backgrounds — in political science, psychology, or math — can go from ideation to a working prototype in days. Zain agrees, noting that students who previously lacked confidence now use the terminal, and LSE student societies are building full websites with Claude Code.
 
-**[07:18] Claude Campus Ambassadors and Builder Clubs**
+### Claude Campus Ambassadors and Builder Clubs [07:18](https://www.youtube.com/watch?v=N5yJJA0NCU0&t=438s)
 Greg notes all four students are Claude campus ambassadors leading Claude Builder Clubs. Marcus explains the role: being the point of contact between Anthropic/Claude and students, facilitating engagement on campus.
 
-**[07:51] What Students Are Building**
+### What Students Are Building [07:51](https://www.youtube.com/watch?v=N5yJJA0NCU0&t=471s)
 Chloe describes a "Vibe-a-thon" where the winning project was Princeton Prospect — a gamified bucket list of things to do before graduation, built by freshmen roommates. Zain shares a tool he built that takes lecture slides and adds professor-style annotations down the side, preempting his questions for exam revision. Marcus describes Courseer, an app that alerts students the moment a seat opens in a sought-after class. Tino mentions a tool that scans classroom availability data to direct students to free rooms when the library is full. Marcus also notes healthcare hackathon projects combining computer vision with Claude's API to detect signs of stroke or dementia.
 
-**[11:33] Learning With AI: Tool vs. Crutch**
+### Learning With AI: Tool vs. Crutch [11:33](https://www.youtube.com/watch?v=N5yJJA0NCU0&t=693s)
 Greg raises the tension between AI as a learning aid and AI as a crutch. Zain observes that attitudes have shifted — initially students submitted whatever AI produced, but now group projects require more effort since pasting four AI outputs together doesn't produce good work. He frames AI usage as revealing students' motivations: those who want to learn use AI proactively, while those who want to save time use it to complete work on their behalf. He argues the responsibility lies with students, not regulations, because rules can't fundamentally change how students use AI.
 
-**[14:11] Intentionality and Evolving Workflows**
+### Intentionality and Evolving Workflows [14:11](https://www.youtube.com/watch?v=N5yJJA0NCU0&t=851s)
 Chloe emphasizes intention — before prompting, she asks herself whether she's delegating a task or brainstorming. Marcus describes the evolution from asking a chatbot 50-100 disconnected questions to having extended, intentional conversations. He now creates separate Claude projects for each class, uploading syllabi and course content. He notes that some CS professors allow AI use with disclaimers, but there's no integrated curricular framework yet.
 
-**[16:44] Are Professors Behind Students?**
+### Are Professors Behind Students? [16:44](https://www.youtube.com/watch?v=N5yJJA0NCU0&t=1004s)
 Greg asks if professors and administration lag behind students in AI literacy. Marcus says students are faster adopters because they're internet-native. Zain shares a positive example: LSE 100, a required first-year course, has been redesigned to guide students on using Claude with personas, requesting conversation logs to evaluate the quality of student-AI interactions, and replacing essays with video submissions to prevent irresponsible AI use. Marcus notes some classes build their own chatbots for student questions, but calls this a "band-aid approach" since students can still use external tools. Tino adds that ASU is "super pro-AI," with a career management center prompt bank, professor-built bots, and a new course on AI chip strategy and the future of work.
 
-**[20:29] Cheating, Ownership Shame, and Concerns**
+### Cheating, Ownership Shame, and Concerns [20:29](https://www.youtube.com/watch?v=N5yJJA0NCU0&t=1229s)
 Marcus identifies cheating as a top-three use case. Zain notes the interface practically invites it — the university gives you the question, and the chatbot gives you the answer. Chloe introduces the concept of "ownership shame" — at the Vibe-a-thon, winners who had clearly brainstormed and iterated with Claude defaulted to saying "Claude did everything." She attributes this to a lack of vocabulary and frameworks for describing AI collaboration, which fuels polarization and bans. She worries students are now required to be the resilient, skeptical ones without institutional guidance.
 
-**[23:06] Evolving Sentiment and AI's Telltale Signs**
+### Evolving Sentiment and AI's Telltale Signs [23:06](https://www.youtube.com/watch?v=N5yJJA0NCU0&t=1386s)
 Marcus observes that students naturally want to use their brains and are shifting toward taking more ownership. He also notes AI is "pretty bad at cheating in context" — patterns like excessive em dashes, a recognizable voice, and a lack of class-specific understanding make AI-generated submissions identifiable. Zain agrees, noting students are becoming more intentional with longer, better-directed prompts, and that after hundreds of hours with Claude, interactions improve. Tino points out that in grad school, the "final boss" is presenting and defending your position — AI can't speak for you.
 
-**[26:13] The Job Market and AI**
+### The Job Market and AI [26:13](https://www.youtube.com/watch?v=N5yJJA0NCU0&t=1573s)
 Chloe gives a "thumbs middle" on job prospects. Upsides: AI helps with interview practice, brainstorming, and resume tailoring. Downsides: companies use AI for screening, and she's spent the recruiting cycle talking to a screen via HireVue, which feels less human and more random. Tino echoes the pain of AI-generated rejection emails arriving 15 minutes after submission. On the positive side, he notes top consulting firms now seek MBAs with AI fluency. Marcus shares he had an AI interviewer that was surprisingly pleasant, giving encouraging feedback between questions.
 
-**[29:06] AI Slop**
+### AI Slop [29:06](https://www.youtube.com/watch?v=N5yJJA0NCU0&t=1746s)
 Zain defines AI slop as output he knows he could have produced better himself — like a generic cover letter that won't stand out. Chloe notes AI responses have become so generic they constitute their own recognizable voice, full of em dashes and formulaic structures. Tino and others point to the telltale signs — "Let me think about that," the two-sentence structure, and the infamous "Claude can make mistakes. Retry." footer that students accidentally paste into submissions.
 
-**[30:55] Group Projects and AI Slackers**
+### Group Projects and AI Slackers [30:55](https://www.youtube.com/watch?v=N5yJJA0NCU0&t=1855s)
 Greg asks about group dynamics. Tino describes his team's approach: use AI to generate an outline, then divide sections among members. Chloe describes her personal workflow — thought-dumping bullet points into Claude, structuring them into outlines and paragraphs, manually editing for her voice, then asking Claude to rate her work against criteria as if it were a professor or recruiter. She notes newer models like Sonnet and Opus 4.5 will eventually tell her "it's ready to ship" if she over-evaluates. Chloe also stresses the importance of face-to-face group time to counter the temptation of letting AI do everything.
 
-**[34:34] Rapid-Fire Tips for Students**
+### Rapid-Fire Tips for Students [34:34](https://www.youtube.com/watch?v=N5yJJA0NCU0&t=2074s)
 - Tino: "Learn it. Learn how to use it" — understanding AI optimization is an advantage whether for career or entrepreneurship.
 - Marcus: Start a Claude project for every class, paste in relevant files, set writing style to concise mode for efficient exam revision.
 - Chloe: Soak up Substack and open-source materials from people sharing the newest AI techniques, then apply them to your own projects.
 - Zain: Use Claude's learning mode, which asks you questions back — be confident in your replies and you'll get better output than leaning on Claude alone.
 
-**[36:08] Drawing the Line Between Tool and Crutch**
+### Drawing the Line Between Tool and Crutch [36:08](https://www.youtube.com/watch?v=N5yJJA0NCU0&t=2168s)
 - Chloe: If you can't explain or defend what you've built to a critical questioner, you've crossed the line.
 - Marcus: It's about ownership and intentionality — you should be able to articulate both your work and AI's role in it.
 - Tino: You should be able to explain it to a fifth grader and also present it at a graduate level.
 - Zain: You need to feel ownership of the content. He admits submitting fully AI work and realizing it wasn't beneficial, and argues universities need to trust that students will learn this through experience.
 
-**[38:14] Closing Reflections**
+### Closing Reflections [38:14](https://www.youtube.com/watch?v=N5yJJA0NCU0&t=2294s)
 Greg notes he expected the conversation to drift into doomerism but it never did. He praises the students' thoughtfully positive outlook and thanks them for their honesty.
 
 ## Notable Quotes

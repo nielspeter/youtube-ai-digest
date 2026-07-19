@@ -26,13 +26,13 @@ This video is a live AI news discussion featuring Matthew Berman and the "Future
 - Only the very beginning of the stream is captured in the provided transcript.
 
 ## Detailed Breakdown
-**[00:00] — Stream Setup and Casual Banter**
+### Stream Setup and Casual Banter [00:00](https://www.youtube.com/watch?v=WMiylHobhBM&t=0s)
 The video opens with unscripted, pre-roll-style conversation. The hosts realize they are live and fumble with muting and audio. There is laughter and confusion about whether viewers can hear them, with one participant noting eCamm reports three viewers—possibly just the hosts themselves.
 
-**[00:30] — Welcoming Viewers**
+### Welcoming Viewers [00:30](https://www.youtube.com/watch?v=WMiylHobhBM&t=30s)
 One host confirms people are "pouring in," and they greet the audience with "What's up, everybody?" They identify themselves as "live with the full Future team," signaling a collaborative discussion format.
 
-**[01:01] — Technical Adjustments and Topic Introduction**
+### Technical Adjustments and Topic Introduction [01:01](https://www.youtube.com/watch?v=WMiylHobhBM&t=61s)
 A host mentions trying to open the stream on YouTube to see chat and comments. The conversation then pivots to the agenda, with the first item being "the first hardware device from OpenAI." The transcript cuts off at this point.
 
 ## Notable Quotes

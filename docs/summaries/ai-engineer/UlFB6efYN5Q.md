@@ -31,40 +31,40 @@ Roberto Stagi argues that TypeScript is displacing Python as the dominant langua
 
 ## Detailed Breakdown
 
-**[00:02] Introduction: A Song of Types and Agents**
+### Introduction: A Song of Types and Agents [00:02](https://www.youtube.com/watch?v=UlFB6efYN5Q&t=2s)
 Roberto introduces the talk as a "song of types and agents," framing it as a story of languages competing for dominance in the AI realm, with TypeScript emerging as the likely winner.
 
-**[00:33] Python's Dominance and the ChatGPT Inflection Point**
+### Python's Dominance and the ChatGPT Inflection Point [00:33](https://www.youtube.com/watch?v=UlFB6efYN5Q&t=33s)
 For years, Python was the unquestioned language of AI. The release of ChatGPT in 2022 expanded AI beyond its niche, and in 2024 GitHub named Python the most popular language, attributing the rise to AI.
 
-**[02:07] Speaker Background**
+### Speaker Background [02:07](https://www.youtube.com/watch?v=UlFB6efYN5Q&t=127s)
 Roberto introduces himself as CTO and co-founder of Ratel, a context layer for AI agents, and EU ambassador for AI Tinkerers, a global community of AI builders. He is a long-time JavaScript and TypeScript developer.
 
-**[02:38] AI Moves Up the Stack**
+### AI Moves Up the Stack [02:38](https://www.youtube.com/watch?v=UlFB6efYN5Q&t=158s)
 AI shifted from the infrastructure layer (training, ML ecosystem) to the application layer—AI is now something you ship inside applications. The application layer has been TypeScript's domain for a long time.
 
-**[03:41] Python Keeps the Brain; TypeScript Takes the Application Layer**
+### Python Keeps the Brain; TypeScript Takes the Application Layer [03:41](https://www.youtube.com/watch?v=UlFB6efYN5Q&t=221s)
 Roberto clarifies that Python still owns training, research, and GPU serving—the "brain" of AI. What changed is the application layer: a few years ago you had to use Python to build AI into an app, but no longer. TypeScript now owns the agentic layer too.
 
-**[04:46] TypeScript Passes Python on GitHub**
+### TypeScript Passes Python on GitHub [04:46](https://www.youtube.com/watch?v=UlFB6efYN5Q&t=286s)
 In August 2025, TypeScript passed Python as the most used language on GitHub. GitHub's reports gave the same reason both years—AI drove the language to the top. By 2025, one new developer joined GitHub every second.
 
-**[05:18] What Changed: Coding Agents**
+### What Changed: Coding Agents [05:18](https://www.youtube.com/watch?v=UlFB6efYN5Q&t=318s)
 The difference between 2024 and 2025 was the rise of coding agents like Cursor, Codex, and Lava Cloud Code. They became the default way to build applications, and they defaulted to TypeScript. Since nearly every new app is now an agent, the demand for AI integrations falls on TypeScript, not Python. Anthropic's acquisition of the Bun JavaScript runtime is cited as further evidence.
 
-**[07:20] Should You Build AI Agents in TypeScript?**
+### Should You Build AI Agents in TypeScript? [07:20](https://www.youtube.com/watch?v=UlFB6efYN5Q&t=440s)
 Roberto argues yes. First, coding agents will keep improving at TypeScript because more TypeScript code feeds their training. Second, NPM is the richest package manager, covering everything needed for application integration. Third, TypeScript enables a single language across the entire codebase—agent loop, tools, backend, and UI—whereas Python forces a split (e.g., FastAPI + Pydantic AI backend and a separate React frontend) with contracts to maintain.
 
-**[10:01] Consistent Typing with Zod**
+### Consistent Typing with Zod [10:01](https://www.youtube.com/watch?v=UlFB6efYN5Q&t=601s)
 TypeScript allows one consistent type system across the whole application using Zod. You define a type once and use it in the backend, the model, and the UI. With Python, you hit a boundary where the frontend has its own typing that must be synchronized.
 
-**[11:03] The TypeScript AI Ecosystem Is Surging**
+### The TypeScript AI Ecosystem Is Surging [11:03](https://www.youtube.com/watch?v=UlFB6efYN5Q&t=663s)
 The Vercel AI SDK grew from 1.6M to 15.1M weekly downloads in one year, roughly a 9–10x increase, showing the ecosystem's rapid expansion.
 
-**[11:34] Summary of Reasons and Atwood's Law**
+### Summary of Reasons and Atwood's Law [11:34](https://www.youtube.com/watch?v=UlFB6efYN5Q&t=694s)
 Roberto summarizes the five reasons to build agents in TypeScript: default language for coding agents, single language across the codebase, fast-growing AI ecosystem, consistent typing, and the richest package manager. He invokes Jeff Atwood's 20-year-old prediction that any application writable in JavaScript will eventually be written in JavaScript, extending it as a corollary to TypeScript.
 
-**[13:08] Recommendation and Closing**
+### Recommendation and Closing [13:08](https://www.youtube.com/watch?v=UlFB6efYN5Q&t=788s)
 The model and inference layer stays Python (pip), but the agent and application layer ships on NPM. Roberto recommends keeping training in Python but building agents and applications in TypeScript—those who overlook TypeScript risk falling behind. He closes by inviting feedback and sharing a QR code for slides.
 
 ## Notable Quotes

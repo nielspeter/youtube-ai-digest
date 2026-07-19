@@ -31,16 +31,16 @@ Three Wishes, a family-run better-for-you cereal brand, uses OpenAI's Codex (pow
 
 ## Detailed Breakdown
 
-**[00:01] — Introducing Three Wishes and the Family Behind It**
+### Introducing Three Wishes and the Family Behind It [00:01](https://www.youtube.com/watch?v=q571PxpsdoA&t=1s)
 The video opens with a voice-driven prompt to build a sell-in timeline tracker with retailer-specific deadlines and contacts for a pumpkin spice launch. The founders introduce Three Wishes as a better-for-you breakfast cereal—higher in protein, lower in sugar, and gluten- and grain-free. The inspiration came from their own household. A child chimes in, claiming credit for thinking up a "cotton candy" flavor, which he calls his personal favorite. The family emphasizes they operate as a true team, but acknowledge the limits of what two people can do alone.
 
-**[00:32] — The Need for a Technical Co-Founder and the Codex Solution**
+### The Need for a Technical Co-Founder and the Codex Solution [00:32](https://www.youtube.com/watch?v=q571PxpsdoA&t=32s)
 As the brand grows, the stakes of mistakes get higher. One founder recalls having many tech ideas in the past but always feeling blocked by the absence of a technical co-founder. Codex is described as filling that exact role. The specific use case highlighted is seasonal product launches, which had become an "operational nightmare." They tasked Codex with building a command center and dashboard to manage these launches.
 
-**[01:02] — Prompting Codex and the Quality of GPT-5.6's Output**
+### Prompting Codex and the Quality of GPT-5.6's Output [01:02](https://www.youtube.com/watch?v=q571PxpsdoA&t=62s)
 The founder describes the prompting process: asking Codex to work end-to-end, use historical launches to inform the dashboard, and apply Three Wishes' new branding and box designs. The other founder laughs at how disorganized the input thought stream appears, contrasted with the "incredibly amazing output." With GPT-5.6, the founder directed brand guidelines to the model and asked it to match the brand's look and feel—something 5.5 could never do. With about five minutes of spoken input, 5.6 output all the data slices the team needed.
 
-**[01:33] — Enterprise-Grade Tools for a Small Family Business**
+### Enterprise-Grade Tools for a Small Family Business [01:33](https://www.youtube.com/watch?v=q571PxpsdoA&t=93s)
 The founders reflect on how the output feels like something a billion-dollar company would build, yet they now have their own bespoke software system. It makes them feel "real and enterprisey." The ultimate value is time: the tool frees them to choose where to invest—whether in building the brand or spending time with their kids. The founder calls that reclaimed time something they'll never get back, and says the technology "feels like you gave us wings."
 
 ## Notable Quotes

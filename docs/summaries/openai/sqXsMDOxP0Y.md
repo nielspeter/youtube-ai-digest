@@ -30,10 +30,10 @@ A Zapier team member describes building a ChatGPT with Codex-powered system over
 
 ## Detailed Breakdown
 
-**[00:04] — The Problem: Manual Lead Review at Zapier**
+### The Problem: Manual Lead Review at Zapier [00:04](https://www.youtube.com/watch?v=sqXsMDOxP0Y&t=4s)
 The speaker opens by expressing enthusiasm for ChatGPT with Codex, calling it their favorite part of the job over the past few months since the Codex app launched. They then describe Zapier's "no lead left behind" initiative, which aimed to reduce the number of dropped inbound leads and ensure each one was progressed toward a meeting. The scale of the challenge is significant—Zapier receives thousands of inbound leads. A single person manually investigating just one lead would take 35 to 45 minutes to understand what was going wrong.
 
-**[00:35] — The Solution: A Weekend-Built Codex System and Its Impact**
+### The Solution: A Weekend-Built Codex System and Its Impact [00:35](https://www.youtube.com/watch?v=sqXsMDOxP0Y&t=35s)
 The speaker recounts spending a weekend diving into the problem and building a system with ChatGPT and Codex. The system performs QA/QC (quality assurance/quality control) using all the same steps a human reviewer would take. The speaker quantified the impact of this project as generating seven figures in pipeline every single month, which was then handed off to the sales team. They close by noting that the tool has transformed how the team works and what they are able to achieve.
 
 ## Notable Quotes

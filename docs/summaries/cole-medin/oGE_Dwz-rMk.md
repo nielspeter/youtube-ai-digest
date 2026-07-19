@@ -31,37 +31,37 @@ OmniAgent is a new open-source meta-harness from Databricks that orchestrates mu
 
 ## Detailed Breakdown
 
-**[00:00] Introduction to OmniAgent and Meta Harnesses**
+### Introduction to OmniAgent and Meta Harnesses [00:00](https://www.youtube.com/watch?v=oGE_Dwz-rMk&t=0s)
 The video opens by introducing OmniAgent, a newly released open-source meta harness. A meta harness is defined as a tool that orchestrates longer AI coding workflows by mixing different AI coding assistants—such as using Claude Code for implementation and Codex for review. The host emphasizes that top engineers no longer rely on a single model or harness, instead leveraging different assistants' strengths and optimizing context and token usage across sessions.
 
-**[01:00] Why Meta Harnesses Matter Now**
+### Why Meta Harnesses Matter Now [01:00](https://www.youtube.com/watch?v=oGE_Dwz-rMk&t=60s)
 The host argues that the harness—system prompts, tools, skills, workflows, rules—matters as much as or more than the underlying model, especially given recent disruptions like the "Fable 5" ban that make relying solely on LLM improvements risky. Meta harnesses represent the next evolution: instead of improving one coding agent, you orchestrate many. The host mentions his own tool, Archon, and notes he is borrowing ideas from OmniAgent.
 
-**[02:32] OmniAgent Overview and Capabilities**
+### OmniAgent Overview and Capabilities [02:32](https://www.youtube.com/watch?v=oGE_Dwz-rMk&t=152s)
 OmniAgent is presented as easy to run out of the box, with setup possible in minutes. Key capabilities highlighted: cross-device work in the same environment, connecting popular assistants (Claude Code, Codex, Pi) with various models, session sharing with others, and built-in policies, guardrails, and sandboxing for production use. It is open source from Databricks, driven by their CTO, and dogfooded internally.
 
-**[03:33] Setup and Example Orchestrators**
+### Setup and Example Orchestrators [03:33](https://www.youtube.com/watch?v=oGE_Dwz-rMk&t=213s)
 Setup is trivial: give the GitHub repo link to your AI coding assistant or run a single command. No re-authentication is needed because OmniAgent runs locally and reuses existing CLI credentials. It ships with two example orchestrators—Polly and Debbie—demonstrating cross-agent workflows.
 
-**[04:34] Architecture and Access Methods**
+### Architecture and Access Methods [04:34](https://www.youtube.com/watch?v=oGE_Dwz-rMk&t=274s)
 The AI customization layer (history, policies, MCP servers, skills) lives at the server/orchestrator level and applies to any underlying coding assistant, avoiding per-assistant setup duplication. Access is available via a native app, REST API, terminal, and a web UI reminiscent of the Codex app.
 
-**[05:35] Web UI Demo and Polly Workflow**
+### Web UI Demo and Polly Workflow [05:35](https://www.youtube.com/watch?v=oGE_Dwz-rMk&t=335s)
 The host demonstrates the web UI, showing how to select an orchestrator (Polly), pick a harness (e.g., Pi with Ollama for local dev), set a working directory, and use work trees for parallel development. In a pre-completed conversation, Polly is given a request to delegate implementation to Claude Code and review to Codex. Polly loads relevant skills, runs Claude Code in a subprocess (sandboxed or not), monitors completion, then sends the work to Codex for review—all using existing credentials. The host stresses the importance of separating implementation and review sessions to reduce LLM bias.
 
-**[08:10] Building Custom Agents and Orchestrators**
+### Building Custom Agents and Orchestrators [08:10](https://www.youtube.com/watch?v=oGE_Dwz-rMk&t=490s)
 Custom orchestrators comprise three parts: configuration, skills, and agents. Configuration includes the executor (the coding assistant used when not delegating), system prompt, sandboxing config, guardrails, and tools. Skills define repeatable workflows. Each individual agent has the same configurable structure, allowing per-agent customization of system prompts, executors, tools, and guardrails. The host notes that AI coding assistants can help build these custom configs by referencing examples like Polly and Debbie.
 
-**[10:17] Policies, Guardrails, and Human-in-the-Loop**
+### Policies, Guardrails, and Human-in-the-Loop [10:17](https://www.youtube.com/watch?v=oGE_Dwz-rMk&t=617s)
 The host shows a custom agent with a simple system prompt but a Python-based guardrail that blocks autonomous `git push --force` commands, requiring human approval. He demonstrates the human-in-the-loop approval flow in the web UI. Unlike hooks in a single tool like Claude Code, OmniAgent's policies apply universally across any orchestrated agent.
 
-**[12:00] Debbie: Debate Orchestrator and Non-Coding Uses**
+### Debbie: Debate Orchestrator and Non-Coding Uses [12:00](https://www.youtube.com/watch?v=oGE_Dwz-rMk&t=720s)
 Debbie is showcased as an orchestrator that has two coding agents (e.g., Claude and GPT) argue opposing perspectives on a question over two rounds, then synthesizes a conclusion. The host highlights this as an example of using OmniAgent beyond pure coding tasks and suggests the possibilities for custom multi-agent workflows are vast.
 
-**[13:26] Cross-Device Collaboration**
+### Cross-Device Collaboration [13:26](https://www.youtube.com/watch?v=oGE_Dwz-rMk&t=806s)
 The host demonstrates session sharing across devices on the same Wi-Fi, sending a message from his phone that instantly appears on his desktop. He notes the README includes instructions for deploying to a server for internet-based collaboration with others.
 
-**[14:29] Conclusion and Call to Action**
+### Conclusion and Call to Action [14:29](https://www.youtube.com/watch?v=oGE_Dwz-rMk&t=869s)
 The host reiterates that being locked into a single model or provider is suboptimal, encourages viewers to try OmniAgent, and asks for likes and subscriptions for more content on harness engineering and AI coding.
 
 ## Notable Quotes

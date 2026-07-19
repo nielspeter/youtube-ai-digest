@@ -31,46 +31,46 @@ Matthew Berman argues that Anthropic's fear-based marketing campaign successfull
 
 ## Detailed Breakdown
 
-**[00:00] Opening Frustration and the GPT-5.6 Preview**
+### Opening Frustration and the GPT-5.6 Preview [00:00](https://www.youtube.com/watch?v=eEdOqSmkZy0&t=0s)
 Berman opens by expressing deep disappointment that GPT-5.6 is only available to a select group of companies while the general public waits. He frames this as a negative turning point for the AI industry and blames Dario Amodei and Anthropic for winning a fear-based marketing campaign that led to regulatory capture.
 
-**[01:03] Anthropic's Fear-Based Marketing Campaign**
+### Anthropic's Fear-Based Marketing Campaign [01:03](https://www.youtube.com/watch?v=eEdOqSmkZy0&t=63s)
 Berman explains that Anthropic spent months campaigning about the dangers of powerful AI models, telling the government the models were too dangerous for general release. He describes how Anthropic released Fable only to select partners, setting a precedent that the government then applied more broadly.
 
-**[02:05] The China Distillation Hacking Narrative**
+### The China Distillation Hacking Narrative [02:05](https://www.youtube.com/watch?v=eEdOqSmkZy0&t=125s)
 Anthropic accused Alibaba of illicitly extracting AI capabilities from Claude models through distillation attacks. Berman acknowledges the argument is somewhat flimsy but notes it was effective in alarming the US government. He points out that prompt hacking is inherent to large language models and no model can be 100% protected.
 
-**[03:05] Government Intervention and the Fable Rollback**
+### Government Intervention and the Fable Rollback [03:05](https://www.youtube.com/watch?v=eEdOqSmkZy0&t=185s)
 The US government told Anthropic not to give the Fable model to non-US citizens, leading Anthropic to simply turn off access after a couple of days. Berman notes that OpenAI had GPT-5.6 ready but could not release it, given what happened to Fable. The government then required staggered releases.
 
-**[04:09] The Staggered Release of GPT-5.6**
+### The Staggered Release of GPT-5.6 [04:09](https://www.youtube.com/watch?v=eEdOqSmkZy0&t=249s)
 The Information reported that the US government asked OpenAI to stagger GPT-5.6's release—first to trusted partners, then eventually to the public. Berman calls this effectively AI regulation, noting that Anthropic followed a similar course with Mythos in April. He ties this to Anthropic's broader narrative about cybersecurity dangers and the "white-collar bloodbath" of job loss.
 
-**[05:41] Regulatory Capture and Concentration of Power**
+### Regulatory Capture and Concentration of Power [05:41](https://www.youtube.com/watch?v=eEdOqSmkZy0&t=341s)
 Berman argues that regulatory capture means startups, builders, and tinkerers no longer get frontier intelligence at the same time as large companies. He predicts this will cause concentration of power, as the two frontier labs—OpenAI and Anthropic—use their best models to build the next generation internally while everyone else falls behind.
 
-**[07:13] OpenAI's IPO Delay**
+### OpenAI's IPO Delay [07:13](https://www.youtube.com/watch?v=eEdOqSmkZy0&t=433s)
 OpenAI is reportedly leaning toward pushing its IPO to 2027. Berman rejects the stated reasons about choppy markets and retail enthusiasm, arguing the real cause is regulatory uncertainty. This means ordinary investors must wait longer to participate in OpenAI's value creation.
 
-**[08:17] The China Competitive Gap**
+### The China Competitive Gap [08:17](https://www.youtube.com/watch?v=eEdOqSmkZy0&t=497s)
 While the US slows AI deployment domestically, China is not slowing down. Berman emphasizes that every minute counts in the AI race with China and reiterates his blame of Anthropic for self-inflicted harm—rolling back Fable despite user demand and then complaining about it.
 
-**[09:19] Open Source as the Countermeasure**
+### Open Source as the Countermeasure [09:19](https://www.youtube.com/watch?v=eEdOqSmkZy0&t=559s)
 Berman declares open source more important than ever but acknowledges it trails the frontier. He warns that frontier labs continue accelerating internally with their best models, so the gap may widen. He pledges to promote open-source labs regardless of their country of origin.
 
-**[10:23] Aaron Levy's Analysis**
+### Aaron Levy's Analysis [10:23](https://www.youtube.com/watch?v=eEdOqSmkZy0&t=623s)
 Berman shares Aaron Levy's observation that de facto AI regulation now exists, where models of certain capability or compute size may require government review before release. Levy outlines implications: the US controls who gets frontier intelligence, releases may backlog and slow competitive iteration, and other countries will hedge with sovereign AI strategies built on open weights.
 
-**[13:31] Sovereign AI and Open Weights**
+### Sovereign AI and Open Weights [13:31](https://www.youtube.com/watch?v=eEdOqSmkZy0&t=811s)
 Levy notes open weights become a big winner as countries build sovereign AI to avoid dependence on US AI access. Berman agrees this is a positive for open source but worries that if open source catches up, Dario will push to regulate it too—potentially locking down GPUs or restricting who can access compute.
 
-**[15:35] Bill Gurley and Peter Diamandis Weigh In**
+### Bill Gurley and Peter Diamandis Weigh In [15:35](https://www.youtube.com/watch?v=eEdOqSmkZy0&t=935s)
 Berman cites Bill Gurley's argument that Anthropic sought government protection against competition rather than suing over distillation attacks in court. Gurley also questions why Anthropic's supposedly AGI-level models cannot detect illicit distillation in real time. Peter Diamandis summarizes the situation bluntly: someone is deciding what level of intelligence you and your company are allowed to access.
 
-**[17:10] OpenAI's Reluctance and Safety Posture**
+### OpenAI's Reluctance and Safety Posture [17:10](https://www.youtube.com/watch?v=eEdOqSmkZy0&t=1030s)
 Berman clarifies that OpenAI does not want this arrangement. He cites Noam Brown's statement that GPT-5.6 is strong and fast for coding and that OpenAI hopes to make it available to everyone soon. OpenAI's blog post emphasized safety, cybersecurity, and alignment, and noted they previewed plans with the US government at its request. OpenAI explicitly states this government access process should not become the long-term default.
 
-**[18:46] Call to Action**
+### Call to Action [18:46](https://www.youtube.com/watch?v=eEdOqSmkZy0&t=1126s)
 Berman concludes with two recommendations: support open source by testing and running models locally, and contact government representatives to oppose these restrictions. He acknowledges this is a different type of video for him but stresses the severity of the situation and its potential long-term consequences.
 
 ## Notable Quotes

@@ -30,31 +30,31 @@ After attending a "Code with Claude" event in Tokyo, Ray Amjad shares that Anthr
 
 ## Detailed Breakdown
 
-**[00:00] The Anthropic Event and Diverse Workflows**
+### The Anthropic Event and Diverse Workflows [00:00](https://www.youtube.com/watch?v=hMgB1bjkI7o&t=0s)
 Ray Amjad attended a "Code with Claude" event in Tokyo shortly after the release of Fable 5, speaking with over 20 Anthropic engineers. He expected to uncover a hidden, perfect workflow but learned that Anthropic employees are essentially living in "4 different futures." Everyone is experimenting with different methods—ranging from complex multi-agent stacks to vanilla terminal work. While some best practices exist (like separating the reviewer agent from the builder agent), there is no single unified strategy.
 
-**[02:06] Central Transcript Vaults and Session Preservation**
+### Central Transcript Vaults and Session Preservation [02:06](https://www.youtube.com/watch?v=hMgB1bjkI7o&t=126s)
 Anthropic flows session transcripts back into a central system for analysis, allowing employees to study what works. They also run internal Slack experiments where employees run prompts and share results. Ray advises viewers to preserve their own Claude Code transcripts by editing their `settings.json` file, changing the `cleanup period days` from the default 30 days to a much larger number to spot long-term patterns.
 
-**[03:40] Moving Away from Rigid Spec-Driven Development**
+### Moving Away from Rigid Spec-Driven Development [03:40](https://www.youtube.com/watch?v=hMgB1bjkI7o&t=220s)
 None of the Anthropic engineers Ray spoke with used popular spec-driven frameworks like OpenSpec, SpecKit, or BMAD. Instead, they describe a feature, set constraints, let the model interview them, create a mockup, and execute. An Anthropic engineer noted that "the map is not the territory"—meaning overly strict specs force the agent to follow a predetermined path instead of adapting to obstacles in the real codebase, leading to worse results.
 
-**[05:48] The Fuzzy Idea Approach and Model Autonomy**
+### The Fuzzy Idea Approach and Model Autonomy [05:48](https://www.youtube.com/watch?v=hMgB1bjkI7o&t=348s)
 With newer models like Fable 5, Ray found that deleting his `Claude MD` files, memory files, and skills actually yielded 95% accurate results simply by describing what he wanted. He recommends an A/B test: apply a task using your current heavy workflow, then try it again with a simple prompt and no skills. The focus should shift to a plan-execute-verify flow rather than micromanaging the model.
 
-**[06:18] The Importance of Automated Verification Environments**
+### The Importance of Automated Verification Environments [06:18](https://www.youtube.com/watch?v=hMgB1bjkI7o&t=378s)
 Ray highlights that Anthropic automatically verifies changes in cloud containers using computer use. He stresses the need to verify changes exactly where the user meets them—using Playwright or Chrome for browser changes, API requests for backend changes, and terminal agents for CLI tools. He implemented this for his app, AgentStack, where Claude automatically verifies PRs via browser use and sends him a GIF of the recording on Slack.
 
-**[09:00] The Core Workflow: Fuzzy Plan to Code Review**
+### The Core Workflow: Fuzzy Plan to Code Review [09:00](https://www.youtube.com/watch?v=hMgB1bjkI7o&t=540s)
 The general Anthropic workflow involves describing a change, setting constraints, planning, executing, and verifying. Ray concludes that a fuzzy idea that navigates the real codebase is better than a strict spec. He relies heavily on Claude Code's built-in `/code-review` command (set to max reasoning) to catch edge cases at the end of the process rather than trying to anticipate them at the beginning.
 
-**[10:39] Loopifying Code Reviews and Issue Backlogs**
+### Loopifying Code Reviews and Issue Backlogs [10:39](https://www.youtube.com/watch?v=hMgB1bjkI7o&t=639s)
 Ray runs multiple rounds of code reviews, often using Codex to leave comments on PRs until all issues are resolved. He has "loopified" his work by setting up automated systems that find issues, create a backlog, and automatically open and review PRs on a dedicated server. He batch-merges small, low-risk PRs automatically, and uses Codex's Chronicle Research Preview to identify new automated loops based on his screen activity.
 
-**[15:56] Junior vs. Senior Engineers in the AI Era**
+### Junior vs. Senior Engineers in the AI Era [15:56](https://www.youtube.com/watch?v=hMgB1bjkI7o&t=956s)
 When asking Anthropic employees about the difference between junior and senior engineers using AI, Ray learned the gap is closing but remains. Seniors don't prompt differently; rather, their lived experience allows them to read model output and recognize hidden assumptions or wrong conclusions. Juniors tend to accept model output at face value. Eventually, models may improve to the point of replacing both.
 
-**[17:28] Generating Ideas with "Seed" Insights**
+### Generating Ideas with "Seed" Insights [17:28](https://www.youtube.com/watch?v=hMgB1bjkI7o&t=1048s)
 Ray discusses using a single, high-quality insight as the very first message in a fresh Claude chat to "seed" the model's state—similar to a Minecraft seed generating a diamond-rich world. He asks Claude for 30-50 variations, acknowledging that while most output is garbage, a few hidden gems emerge. He stresses starting a brand-new chat for each insight to avoid pollution and relying on human lived experience to identify the truly valuable ideas.
 
 ## Notable Quotes

@@ -30,31 +30,31 @@ Google has released LiteRT.js, a WebAssembly-based JavaScript binding for its on
 - Pose animations can be exported as JSON or Biovision (.bvh) motion capture files for use in tools like Blender.
 
 ## Detailed Breakdown
-**[00:00] Introduction**
+### Introduction [00:00](https://www.youtube.com/watch?v=8c68vFpT9Tk&t=0s)
 The video opens by announcing Google's release of LiteRT.js, a runtime library for running ML/AI models in the browser at near-native speeds. The host promises a hands-on test building a real-time 3D motion capture application that runs entirely client-side.
 
-**[00:31] What is LiteRT.js?**
+### What is LiteRT.js? [00:31](https://www.youtube.com/watch?v=8c68vFpT9Tk&t=31s)
 LiteRT.js is a JavaScript binding for Google's LiteRT on-device inference runtime, which has powered Android, iOS, and embedded inference for years. It is brought into the browser via WebAssembly through the `lirtrt.js-core` NPM package, delivering the actual native runtime rather than a web abstraction.
 
-**[01:02] Why it beats TensorFlow.js**
+### Why it beats TensorFlow.js [01:02](https://www.youtube.com/watch?v=8c68vFpT9Tk&t=62s)
 TensorFlow.js has existed for years but relies on JavaScript-based kernels that can't fully exploit CPU or GPU hardware. LiteRT.js instead compiles the same native runtime used on mobile devices to WASM and exposes it to JS, providing a truly optimized engine rather than a JavaScript-flavored layer.
 
-**[01:33] Backend architecture (CPU, GPU, NPU)**
+### Backend architecture (CPU, GPU, NPU) [01:33](https://www.youtube.com/watch?v=8c68vFpT9Tk&t=93s)
 LiteRT.js supports three tiers. CPU uses XNNPACK with multi-threading and relaxed SIMD as a universal fallback. GPU uses ML Drift over WebGPU for native GPU kernels without JS shader orchestration. NPU targets WebNN (experimental in Chrome/Edge) for power-efficient inference on dedicated neural hardware.
 
-**[02:34] Benchmarks and compatibility**
+### Benchmarks and compatibility [02:34](https://www.youtube.com/watch?v=8c68vFpT9Tk&t=154s)
 Google's benchmarks on a 2024 M4 MacBook Pro show ~3× faster inference than other web runtimes on CPU/GPU for vision/audio models, and 5×–60× speedups for GPU/NPU workloads. Results vary by hardware, thermals, and drivers. Existing TFLite files run directly; PyTorch models convert via LiteRT Torch; the AI Edge Quantizer shrinks models without full rewrites, easing migration from TensorFlow.js.
 
-**[04:06] Demos and what's next**
+### Demos and what's next [04:06](https://www.youtube.com/watch?v=8c68vFpT9Tk&t=246s)
 Google showcases real-time YOLO object detection, monocular depth estimation with Depth Anything (webcam to 3D point cloud), and image upscaling with Real-ESRGAN—all client-side. They've also announced LiteRT LM.js for running full language models locally in the browser, expanding beyond computer vision.
 
-**[05:10] Live demo: 3D motion capture app**
+### Live demo: 3D motion capture app [05:10](https://www.youtube.com/watch?v=8c68vFpT9Tk&t=310s)
 The host built a real-time pose-estimation motion capture app using Cloud Code and the Fable 5 model. It uses LiteRT.js with the BlazePose model (33 body landmarks) to drive a 3D character via Three.js, entirely offline with no backend. The repo is linked in the description.
 
-**[05:44] Performance comparison: CPU vs WebGPU**
+### Performance comparison: CPU vs WebGPU [05:44](https://www.youtube.com/watch?v=8c68vFpT9Tk&t=344s)
 On CPU, the app averaged ~38 FPS with 23.3 ms inference, with noticeable pose-estimation lag. Switching to WebGPU yielded ~120 FPS at 8.4 ms inference—a ~3× frame-rate jump and ~2.8× latency drop, matching the modest end of Google's published numbers. BlazePose is a small model, limiting the GPU's headroom, but moving tensor math to WebGPU still cut latency significantly.
 
-**[06:16] Export and closing thoughts**
+### Export and closing thoughts [06:16](https://www.youtube.com/watch?v=8c68vFpT9Tk&t=376s)
 The app can record pose captures and export them as JSON or Biovision motion capture (.bvh) files for retargeting in Blender. The host notes the animation is rough but emphasizes the app was built in just 10 minutes. He closes praising WebAssembly's impact, noting LiteRT.js proves JavaScript can be a bottleneck for near-native performance, and expresses excitement for the upcoming LiteRT LM.js.
 
 ## Notable Quotes

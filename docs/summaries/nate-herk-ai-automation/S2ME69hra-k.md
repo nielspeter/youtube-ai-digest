@@ -29,19 +29,19 @@ Watching YouTube content alone won't make an AI agency work because crucial oper
 - The Montenegro mastermind (July 29–31) is an in-person networking event featuring notable AI entrepreneurs like Liam Ottley, Dave Abelar, and Jack Roberts.
 
 ## Detailed Breakdown
-**[00:00] The Gap in YouTube AI Content**
+### The Gap in YouTube AI Content [00:00](https://www.youtube.com/watch?v=S2ME69hra-k&t=0s)
 Nate opens by acknowledging that while YouTube offers abundant technical tutorials and client-landing advice, it deliberately leaves out the operational "secret sauce" of running an AI agency—specifically how to scope projects, what to charge, and how to deliver without things falling apart. He notes that this gap leaves many aspiring agency owners with imposter syndrome and confusion. Part of the reason, he explains, is that every person's situation is different, making the space unsuitable for one-size-fits-all advice. Success ultimately comes from putting in the reps and applying knowledge to personal experience.
 
-**[00:31] Free Resources as a Starting Point**
+### Free Resources as a Starting Point [00:31](https://www.youtube.com/watch?v=S2ME69hra-k&t=31s)
 Before pitching his paid events, Nate points viewers to his free "Monetizing AI Automation" playlist on YouTube. He describes it as a great starting point that includes real agents he has sold, a real sales call recording, guidance on signing your first client, pricing workflows, and delivery strategies, along with plenty of proof. However, he contrasts this with where his clients actually get fast results: being in the room with the right people, where they can explain their specific situation, ask tailored questions, and hear from people one or three steps ahead of them.
 
-**[01:02] AIS Live Virtual Event (July 11–12)**
+### AIS Live Virtual Event (July 11–12) [01:02](https://www.youtube.com/watch?v=S2ME69hra-k&t=62s)
 Nate introduces AIS Live, a virtual event spanning two days. Day one is "build day," featuring live builds, demonstrations of what projects are currently selling, and live calls with real AI agency owners breaking down builds they've deployed. Day two focuses on the business side: niche selection, outreach, positioning, scoping, pricing, and delivery. Nate emphasizes that he hand-picked real AI agency owners for these live calls. He also mentions that Airtable's Hyper Agent is a main sponsor, and directs interested viewers to the first link in the description.
 
-**[02:03] Montenegro In-Person Mastermind (July 29–31)**
+### Montenegro In-Person Mastermind (July 29–31) [02:03](https://www.youtube.com/watch?v=S2ME69hra-k&t=123s)
 Nate then shifts to the in-person event in Montenegro from July 29–31, which he will attend himself. He references a similar event in February in Cape Town that was "absolutely incredible." The Montenegro event will feature speakers and networking opportunities with notable names like Liam Ottley, Dave Abelar, Jack Roberts, and others. Attendees will include AI business owners, aspiring entrepreneurs, and practitioners at various stages—some behind you, some ahead, some exactly where you are. Nate stresses how powerful it is to be in a room with such a diverse group of people in the AI space.
 
-**[02:34] Closing Call to Action**
+### Closing Call to Action [02:34](https://www.youtube.com/watch?v=S2ME69hra-k&t=154s)
 Nate wraps up the short video by reiterating that if viewers are serious about building something real with AI this year, the links for both events are in the description. He encourages people to check them out, attend if it's a fit, and notes he'll see them at a future event if not.
 
 ## Notable Quotes

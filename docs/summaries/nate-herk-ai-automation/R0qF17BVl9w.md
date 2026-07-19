@@ -30,25 +30,25 @@ Nate Herk demonstrates how a single, carefully structured "slash goal" prompt gi
 
 ## Detailed Breakdown
 
-**[00:00] The Result: A Complete Business from One Prompt**
+### The Result: A Complete Business from One Prompt [00:00](https://www.youtube.com/watch?v=R0qF17BVl9w&t=0s)
 Nate introduces the video by showing the end result: a fully built company called Counter Brief, generated from a single prompt. He showcases the landing page, a viral-style launch video with synced music and motion graphics, and the actual product dashboard where users can manage Shopify chargeback disputes. Fable even recorded or screenshotted the dashboard in action to create the demo video.
 
-**[02:03] The Founder Video and API Integration**
+### The Founder Video and API Integration [02:03](https://www.youtube.com/watch?v=R0qF17BVl9w&t=123s)
 Nate highlights a "note from the founder" video on the landing page. Fable autonomously found his HeyGen avatar and 11 Labs voice clone in his `.env` file and used them to create a personalized video message explaining the product's mission. A second, slower voiceover-style launch video was also generated, emphasizing the product's value proposition: building real evidence packets for chargeback disputes instead of using templates.
 
-**[03:04] The Master Prompt Structure**
+### The Master Prompt Structure [03:04](https://www.youtube.com/watch?v=R0qF17BVl9w&t=184s)
 Nate reveals the prompt: "read this file... execute everything below the divider line as your goal." This approach bypasses Fable's 4,000-character limit by pointing to a detailed instruction file. The file's mission: "Build me a complete company from scratch... find a real painful underserved problem... design a business around it." Guardrails included no new spending, using only existing API keys, publishing nothing locally, inventing nothing (requiring verification), and never asking Nate questions mid-run.
 
-**[04:35] Orchestration and Cost Efficiency**
+### Orchestration and Cost Efficiency [04:35](https://www.youtube.com/watch?v=R0qF17BVl9w&t=275s)
 A key paragraph in the prompt instructed Fable to "use multi-agent workflows aggressively"—fanning out parallel researchers, running tournaments for competing ideas, and using skeptic agents to adversarially verify claims. Nate notes this approach was highly token-efficient: Fable itself barely used its weekly budget (about 500,000 tokens) because all sub-agents ran on Opus or Sonnet. It consumed 30-40% of his 5-hour Fable limit on the $200/month plan, but the orchestration model kept costs manageable.
 
-**[06:38] The Nine-Phase Workflow**
+### The Nine-Phase Workflow [06:38](https://www.youtube.com/watch?v=R0qF17BVl9w&t=398s)
 Nate breaks down what Fable did: (1) Pain Hunt—10 agents swept Reddit, Hacker News, G2; found 35 problems, merged to 18, all verified. (2) Tournament—5 judge personas scored opportunities; top 4 got advocates and skeptics; "chargeback evidence" won 3-0. (3) Design—researched competitors, Visa rules, APIs. (4) Brand—checked domain availability, generated logos through critique loops. (5) Build—landing page and product. (6) Videos—launch and founder videos. (7) Red Team—6 skeptic agents attacked market size and viability; 38 attacks ruled on, zero kills, all fixes applied. (8) Package—everything linked in an HTML recap. (9) Verification.
 
-**[09:12] Deliverables and File Structure**
+### Deliverables and File Structure [09:12](https://www.youtube.com/watch?v=R0qF17BVl9w&t=552s)
 Nate shows the file explorer containing all outputs: brand assets (voiceovers, scripts, logos, guidelines), research (candidates, tournament, red team), and business documents (business plan, market research, launch plan). He opens the business plan to show its depth: problem, ICP, product, pricing, unit economics, channels, moat, and risks.
 
-**[10:44] Reflections and Lessons Learned**
+### Reflections and Lessons Learned [10:44](https://www.youtube.com/watch?v=R0qF17BVl9w&t=644s)
 Nate reflects that the process took 3-4 hours versus weeks manually. He would emphasize upfront idea validation more in future runs. He praises Fable's creativity and thoroughness in navigating an ambiguous goal and definition of done. He acknowledges the design needs work but sees this as a V1 to iterate on, suggesting a "run two" with feedback to improve the package.
 
 ## Notable Quotes

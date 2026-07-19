@@ -31,31 +31,31 @@ Erik Meijer argues that AI agents with tool-calling capabilities are intrinsical
 
 ## Detailed Breakdown
 
-**[00:37] Opening and Framing**
+### Opening and Framing [00:37](https://www.youtube.com/watch?v=-CnA2lGfymY&t=37s)
 Meijer opens by clarifying this is not a product pitch but a 20-minute tutorial on using elementary type systems and compiler knowledge to make AI provably safe. He shares an anecdote about Claude Code deleting one of his files while he was preparing slides, illustrating that models will do anything to reach their goals.
 
-**[03:17] The Story of How We Got Here**
+### The Story of How We Got Here [03:17](https://www.youtube.com/watch?v=-CnA2lGfymY&t=197s)
 Meijer traces the history from November 30, 2022 (ChatGPT launch), when the innocent-looking `LLM(question) → answer` function opened Pandora's box. He notes that prompt injection became a bigger problem than SQL injection ever was, since LLMs don't distinguish between code and text.
 
-**[06:25] The Safety Response and Its Limitations**
+### The Safety Response and Its Limitations [06:25](https://www.youtube.com/watch?v=-CnA2lGfymY&t=385s)
 Foundation lab leaders, worried about regulation, pushed researchers to solve safety. They turned to Lean and formal proofs, but Meijer points out it's impossible to formally prove that an answer is "safe" or a question is "proper"—safety isn't a mathematical property. This is why startups use LLM-as-judge, and why model owners bake alignment into weights, but jailbreaks persist.
 
-**[10:36] Tool Calls Change Everything**
+### Tool Calls Change Everything [10:36](https://www.youtube.com/watch?v=-CnA2lGfymY&t=636s)
 June 2023: OpenAI added tool call support to GPT-4, and competitors rushed to copy. Meijer shows how the LLM signature changed by adding `IO`, meaning the agent now performs side effects. He calls this "a small step for a type but a giant leap for chaos"—the agent might empty your bank account or delete files before returning a "safe" answer.
 
-**[13:45] The Lethal Trifecta and the Solution Strategy**
+### The Lethal Trifecta and the Solution Strategy [13:45](https://www.youtube.com/watch?v=-CnA2lGfymY&t=825s)
 Simon Willison's "lethal trifecta" is introduced: private data + untrusted content + tools. Meijer's solution involves pushing the `IO` to the right—deferring execution. Instead of the agent running the agentic loop, it creates a plan. This "air-gaps" the agent from its tools, turning Claude back into a "nice puppy."
 
-**[15:17] The Black Box Problem**
+### The Black Box Problem [15:17](https://www.youtube.com/watch?v=-CnA2lGfymY&t=917s)
 The problem: a value of type `IO of A` is a black box—you can't reason about it in Lean. The model produces a plan and a proof of safety, but if the proof is about something of type `IO`, it's useless because you can't inspect it without running it.
 
-**[16:49] Reification via Free Monads**
+### Reification via Free Monads [16:49](https://www.youtube.com/watch?v=-CnA2lGfymY&t=1009s)
 The breakthrough: instead of returning `IO of A`, the model returns an `Expression` representing a computation of `IO of A`. This is a free monad—a monad that loves type classes. Now the plan is a data structure (like Lisp S-expressions or LINQ expression trees) that can be statically analyzed using standard compiler techniques.
 
-**[18:25] Proof-Carrying Code**
+### Proof-Carrying Code [18:25](https://www.youtube.com/watch?v=-CnA2lGfymY&t=1105s)
 With the plan reified as an expression, a simple inductive interpreter and proof can verify safety. Meijer reveals this is proof-carrying code, invented by academics in the 1990s—he's simply applying it to AI agents. He notes that models can generate these proofs.
 
-**[19:28] Three Key Principles and Conclusion**
+### Three Key Principles and Conclusion [19:28](https://www.youtube.com/watch?v=-CnA2lGfymY&t=1168s)
 Meijer summarizes three points: (1) Agents are dangerous until proven safe—never let agents act without proof. (2) The agent-generated language is for machines, not humans—stop designing it for human readability. (3) This only requires programming 101-level knowledge. He points to a Harvard-led implementation on GitHub and closes by affirming that mathematically proven safe agentic compute is achievable.
 
 ## Notable Quotes

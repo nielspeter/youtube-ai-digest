@@ -31,40 +31,40 @@ Moonshot AI released Kimi K3, a 2.8-trillion-parameter open-weights model that t
 
 ## Detailed Breakdown
 
-**[00:00] Introduction and the "DeepSeek Moment" Claim**
+### Introduction and the "DeepSeek Moment" Claim [00:00](https://www.youtube.com/watch?v=JrVPIy9AdfQ&t=0s)
 Berman opens by calling Kimi K3's release potentially "the next DeepSeek moment," positioning it as the best open-source/open-weights model available and competitive with Fable 5 and GPT 5.6 on certain metrics. He teases a Rubik's Cube simulator test running in the background.
 
-**[00:31] The Arena AI Front-End Development Benchmark**
+### The Arena AI Front-End Development Benchmark [00:31](https://www.youtube.com/watch?v=JrVPIy9AdfQ&t=31s)
 The headline result: Kimi K3 tops Arena AI's front-end development benchmark at 76%, beating Fable 5 (63%) and GPT 5.6. Berman emphasizes the margin is not small and calls it remarkable that an open-source model leads the world in this category.
 
-**[01:33] Model Specs and Context Window**
+### Model Specs and Context Window [01:33](https://www.youtube.com/watch?v=JrVPIy9AdfQ&t=93s)
 Kimi K3 is a 2.8-trillion-parameter model—the largest open-source model to date—requiring data-center-grade hardware to run. It features a one-million-token context window and is designed for long-horizon coding, knowledge work, and reasoning. Berman contrasts it with Thinking Machines' 975-billion-parameter model, noting Kimi K3 is both larger and more intelligent.
 
-**[02:37] Demo Video and 3D Asset Creation**
+### Demo Video and 3D Asset Creation [02:37](https://www.youtube.com/watch?v=JrVPIy9AdfQ&t=157s)
 Berman shows a one-minute demo that Kimi K3 itself edited. The demo features real-time reflections, dynamic daylight cycles, and a Red Dead Redemption-style simulated world, highlighting the model's strength in 3D asset creation and design.
 
-**[03:08] Pricing and the Intelligence-Density Question**
+### Pricing and the Intelligence-Density Question [03:08](https://www.youtube.com/watch?v=JrVPIy9AdfQ&t=188s)
 At $3/M input and $15/M output, Kimi K3 is roughly half the price of GPT 5.6 Soul. But Berman introduces the concept of "intelligence density"—cost per unit of intelligence—warning that if a model uses twice the tokens for the same output, the effective price is identical.
 
-**[03:39] Deep Suite Cost-vs-Performance Analysis**
+### Deep Suite Cost-vs-Performance Analysis [03:39](https://www.youtube.com/watch?v=JrVPIy9AdfQ&t=219s)
 On Deep Suite's scatter plot (cost per task vs. completion success rate), Kimi K3 Max sits just below GPT 5.6 Soul at roughly the same ~$4.70 per-task cost. This confirms that Kimi K3's lower per-token price is offset by higher token consumption. GPT 5.6 Soul Max remains #1 overall but at roughly double the price.
 
-**[05:13] David Sacks and the Geopolitical Angle**
+### David Sacks and the Geopolitical Angle [05:13](https://www.youtube.com/watch?v=JrVPIy9AdfQ&t=313s)
 US AI czar David Sacks flagged Kimi K3's #1 ranking as a concerning first for a Chinese model. Berman tempers the alarm, noting GPT 5.6 and Fable 5 remain more generalized models that perform better across the board. He also argues that US regulatory patchwork slows domestic frontier labs, while Chinese labs face fewer such constraints.
 
-**[06:45] Verscell's Next.js Evals and Writing Benchmark**
+### Verscell's Next.js Evals and Writing Benchmark [06:45](https://www.youtube.com/watch?v=JrVPIy9AdfQ&t=405s)
 Verscell CEO Guo Lush reports Kimi K3 is the best-performing model on Next.js.org evals at 92% success, the first time an open model has beaten all proprietary ones on that web-engineering benchmark. Separately, an internal writing benchmark places Kimi K3 #1 at 2840 ELO, jumping from place 21 over its predecessor Kimi K2.6, and five times cheaper than the model it displaced.
 
-**[07:47] Caveats: Benchmark Saturation and Distillation Allegations**
+### Caveats: Benchmark Saturation and Distillation Allegations [07:47](https://www.youtube.com/watch?v=JrVPIy9AdfQ&t=467s)
 Berman adds significant caveats: many benchmarks are saturated, and Anthropic previously accused Moonshot of distillation attacks—training Kimi K3 on data derived from Anthropic's models. He notes the model is genuinely open-source with revealed algorithmic unlocks, but real validation requires production-environment testing.
 
-**[08:49] Why US Closed-Source Labs Are Still Ahead**
+### Why US Closed-Source Labs Are Still Ahead [08:49](https://www.youtube.com/watch?v=JrVPIy9AdfQ&t=529s)
 Berman argues Chinese open-source labs release models the moment they're baked, whereas US labs like Anthropic and OpenAI hold finished models for months of safety evaluation and post-training (citing Mythos, which Anthropic had in January before public release). He estimates US closed-source labs remain 8–10 months ahead internally.
 
-**[10:23] Who Wins When Open Source Gets Better**
+### Who Wins When Open Source Gets Better [10:23](https://www.youtube.com/watch?v=JrVPIy9AdfQ&t=623s)
 Berman frames the release as broadly positive: cheaper, better models trigger Jevons' paradox (more tokens consumed), better applications get built, inference providers earn more, and Nvidia sells more chips. The one risk is strategic dependency on Chinese chips if US enterprise standardizes on Chinese open-source models optimized for that hardware.
 
-**[10:53] The Rubik's Cube Test Result**
+### The Rubik's Cube Test Result [10:53](https://www.youtube.com/watch?v=JrVPIy9AdfQ&t=653s)
 After roughly 30 minutes of generation—slower than expected and a noted criticism of Kimi K3—the simulator completed successfully. The 3D cube featured side reflections, correct scrambling, and a perfect solve, confirming Kimi K3 can handle complex interactive 3D tasks.
 
 ## Notable Quotes

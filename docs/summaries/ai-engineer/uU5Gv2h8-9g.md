@@ -31,70 +31,70 @@ Simon Willison talks with Anthropic's Thariq Shihipar and Cat Wu about how Claud
 
 ## Detailed Breakdown
 
-### [00:12] Opening and Fable's Return
+### Opening and Fable's Return [00:12](https://www.youtube.com/watch?v=uU5Gv2h8-9g&t=12s)
 Simon opens the fireside chat noting that Fable (a new model) literally just became available again moments ago. He introduces Thariq Shihipar and Cat Wu from Anthropic and frames the conversation around Claude Code, which launched in February of the prior year as a bullet point in the Sonnet 3.7 release.
 
-### [01:13] How Day-to-Day Work Has Changed
+### How Day-to-Day Work Has Changed [01:13](https://www.youtube.com/watch?v=uU5Gv2h8-9g&t=73s)
 Cat recalls the early days of Claude Code when every permission prompt had to be scrutinized carefully. With each model generation, engineers have been able to delegate more menial implementation and focus on creative, product-level thinking. Fable represents another step change, enabling one-shot completion of many features. Thariq notes the collective "amnesia" about how recently auto mode arrived and stresses that the bar is now doing the best work faster than ever. Simon observes that software engineering is getting *harder* because ambition levels have risen.
 
-### [03:49] What Conventional Wisdom No Longer Holds
+### What Conventional Wisdom No Longer Holds [03:49](https://www.youtube.com/watch?v=uU5Gv2h8-9g&t=229s)
 Cat describes a fundamental inversion: two years ago, PMs spent months aligning on PRDs before any code was written; now the idea-to-implementation timeline has collapsed to potentially a week. Engineers need stronger product taste and business sense. Thariq provocatively declares that "rewrites are now good"—the old admonition against rewrites no longer applies if you have a solid test suite. A codebase *is* the spec, and agents can distill or recreate it. He mentions Bun being rewritten in Rust as an example. Simon notes he now prototypes on his phone during conferences.
 
-### [06:22] Claude Tag: Multiplayer, Proactive AI in Slack
+### Claude Tag: Multiplayer, Proactive AI in Slack [06:22](https://www.youtube.com/watch?v=uU5Gv2h8-9g&t=382s)
 Claude Tag launched the prior week as a Claude instance living in Slack channels. Three key differentiators: it is **multiplayer by default** (teammates can chime in), **proactive** (it can monitor channels and file PRs without being tagged), and it has **team memory** (preferences expressed in natural language persist for everyone). Internally, Claude Tag is seen as the evolution of Claude Code. Cat reveals that the internal version lands **65% of product engineering PRs** at Anthropic. Claude Code remains best for complex, interactively iterated tasks; Claude Tag handles proactive, background work like bug fixes.
 
-### [08:56] Non-Engineering Uses of Claude Tag
+### Non-Engineering Uses of Claude Tag [08:56](https://www.youtube.com/watch?v=uU5Gv2h8-9g&t=536s)
 Thariq shares that non-programmers use Claude Tag as a company search engine, asking it about release timing, metrics, or feature details. Marketing teams ask it to clone a codebase and explain features. It serves as a general-purpose, context-aware assistant across roles. Simon highlights the "Claude Code to build Claude Code" dogfooding story and frames Claude Tag as the team collaborative layer.
 
-### [10:28] Multiplayer Session Dynamics
+### Multiplayer Session Dynamics [10:28](https://www.youtube.com/watch?v=uU5Gv2h8-9g&t=628s)
 Cat describes a fluid workflow: she tags Claude Tag for a first pass, asks it to share a recording, then tags design to review, then passes it to an engineer to finish. Social norms for steering shared sessions are still emerging but people learn by observing others. Thariq notes that public usage creates a leveling effect—people do higher-quality work when peers are watching.
 
-### [11:57] Prioritization in a World of Cheap Implementation
+### Prioritization in a World of Cheap Implementation [11:57](https://www.youtube.com/watch?v=uU5Gv2h8-9g&t=717s)
 Cat explains Anthropic's heavy dogfooding culture: if they want to do something their product can't do, they fix the product rather than working around it. Features must hit clear internal bars for active users and retention before external release. This clarity helps engineers know what to aim for and naturally enforces polish.
 
-### [13:04] Surprising Feature: Remote Control
+### Surprising Feature: Remote Control [13:04](https://www.youtube.com/watch?v=uU5Gv2h8-9g&t=784s)
 Cat shares that remote control—using a phone or browser to connect to a local CLI session—was a feature she didn't initially understand, since she kicks off cloud sessions directly. But many users love the flow of plugging in a laptop, closing the lid, and controlling Claude Code from their couch. Simon admits he now does exactly this.
 
-### [14:35] Code Review Practices
+### Code Review Practices [14:35](https://www.youtube.com/watch?v=uU5Gv2h8-9g&t=875s)
 Thariq describes a multi-pronged approach: code owners for critical areas, automated code review on every PR, artifacts to explain complex PRs, and heavy investment in CI/CD and verification environments. Cat adds that Anthropic is moving toward removing humans from the review loop for outer-layer changes, with Claude Code Review fully handling those. This was built over six-plus months: starting with full human review, then progressively trusting automated review for file categories where it caught 100% of issues. Incident reviews feed back into both the code review system and eval sets to prevent regressions.
 
-### [17:11] Building Trust in New Models
+### Building Trust in New Models [17:11](https://www.youtube.com/watch?v=uU5Gv2h8-9g&t=1031s)
 Simon asks how to build trust in a new model like Fable. Cat explains that the accumulated eval base allows new models to serve as drop-in replacements—they run the full eval set to confirm Fable is strictly better than Opus 4.8 before deploying. Anthropic has both team-specific and company-wide evals, plus external red teaming for features like auto mode.
 
-### [18:44] System Prompt and Behavioral Evals
+### System Prompt and Behavioral Evals [18:44](https://www.youtube.com/watch?v=uU5Gv2h8-9g&t=1124s)
 Cat describes a layered approach: external evals they trust, complemented by larger internal evals. They optimize first for capability (does Claude make the right decisions and pass tests?), then build behavioral evals for user experience issues—like Claude saying "time to go to sleep" or asking "should I continue?" after completing 2 of 5 parts. User feedback is prioritized and turned into evals one by one.
 
-### [20:17] Collaboration with Model Training Teams
+### Collaboration with Model Training Teams [20:17](https://www.youtube.com/watch?v=uU5Gv2h8-9g&t=1217s)
 Cat describes close collaboration with research teams on what next-generation models should do, referencing public blog posts about targeting longer-horizon work and training Claude to be honest, harmless, helpful, and aligned with intent even when expressed fuzzily.
 
-### [21:20] The 80% System Prompt Reduction
+### The 80% System Prompt Reduction [21:20](https://www.youtube.com/watch?v=uU5Gv2h8-9g&t=1280s)
 Thariq explains that with Opus 4.8 and Fable, they found they were over-constraining Claude. Removing examples actually *helped*—the model was more creative without them. They also shifted from hard "do not do this" constraints toward providing more context, because hard constraints could conflict with user instructions and confuse the model. Different system prompts are now used per model; only frontier models get the lean 80%-reduced prompt, while older models retain the full version. Cat adds that they reviewed every instruction for edge cases—for example, changing "always verify front-end changes" to softer, more nuanced guidance that accounts for trivial changes.
 
-### [25:31] Can Frontier Models Prompt Smaller Models?
+### Can Frontier Models Prompt Smaller Models? [25:31](https://www.youtube.com/watch?v=uU5Gv2h8-9g&t=1531s)
 Simon asks whether Opus/Fable could prompt Haiku with extra detail, knowing Haiku has less judgment. Thariq notes they lack hard data but observes that larger models can sometimes be more token-efficient on hard problems than smaller ones, making frontier intelligence the default choice. He and Simon discuss how models are now excellent at writing prompts for other models—sub-agents and workflows are essentially Claude prompting Claude. Thariq mentions using Claude to prompt Gemini for image generation. Simon requests that Anthropic publish the Claude Code tool prompts publicly, as they function as documentation.
 
-### [28:07] Tool Design Philosophy
+### Tool Design Philosophy [28:07](https://www.youtube.com/watch?v=uU5Gv2h8-9g&t=1687s)
 Thariq introduced the "ask user question" tool, noting that user-facing tools are hard to eval because they involve preference. The trend is toward **fewer, more general tools**—recent additions like the task tool, and removal of grep/glob search tools in favor of native bash. He calls tool design "more of a biology than a physics." Cat adds that they keep tool cardinality low and ensure each tool has a distinct function. The file edit tool persists primarily because it enables a nice approval UI for new users, though on auto mode it arguably isn't necessary.
 
-### [31:14] Auto Mode and Security
+### Auto Mode and Security [31:14](https://www.youtube.com/watch?v=uU5Gv2h8-9g&t=1874s)
 Cat states that nearly everyone at Anthropic uses auto mode, which has been hardened since January with thousands of evals and external red teaming. They've mitigated every identified attack category and plan to publish evals soon. She clarifies it doesn't catch 100% of things, but risks for prompt injection and data exfiltration are lower than the average human reviewer. Thariq explains the mechanism: a **Sonnet classifier** judges each tool call against the conversation context and user instructions, enabling dynamic permissions (e.g., allowing git push only when the user asked for it). Auto mode also integrates with sandboxing, evaluating network requests that need to escape the sandbox.
 
-### [35:55] Additional Security Measures
+### Additional Security Measures [35:55](https://www.youtube.com/watch?v=uU5Gv2h8-9g&t=2155s)
 Thariq mentions Claude Tag can be provisioned with its own credentials (rather than acting on a user's behalf), enabling better auditing. He connects this to Anthropic's identity as an AI safety company. Cat notes they've launched **trusted devices** for remote control and **credential injection** for remote environments—agents can use credentials (e.g., Datadog API keys) without ever holding them, via a proxy that injects tokens on the fly. Simon enthusiastically recognizes this as the token proxying pattern.
 
-### [37:59] The Human Element and Ambition
+### The Human Element and Ambition [37:59](https://www.youtube.com/watch?v=uU5Gv2h8-9g&t=2279s)
 Thariq acknowledges the real sense of loss some engineers feel, but argues the antidote is greater ambition. He cites Jared (who hand-wrote Bun in Zig, then rewrote it in Rust with Claude) as someone who offsets the loss by taking on bigger challenges. Success is fun, and being more ambitious is the way forward. Cat describes the PM role as constantly shifting—plugging gaps wherever they exist, whether that means building prototypes, doing first-pass design, or automating launch calendars and status updates.
 
-### [41:39] Surprising Claude Moments
+### Surprising Claude Moments [41:39](https://www.youtube.com/watch?v=uU5Gv2h8-9g&t=2499s)
 Thariq describes using Fable to edit a conference talk video: it transcribed the video, noticed the deck recording had a popup, switched to using the HTML source for slides, dynamically cropped and tracked him as he paced on stage, and added animations—all from a one-shot prompt using ffmpeg and Remotion. Cat's wish for future models is better **design and UX taste**—current output is functional but not delightful, and frontier AI products need new interaction paradigms. Thariq adds he wants Claude to interact more with the real world and solve science problems.
 
-### [45:16] Cultural Hacks to Steal
+### Cultural Hacks to Steal [45:16](https://www.youtube.com/watch?v=uU5Gv2h8-9g&t=2716s)
 Cat recommends making Slack channels public so Claude Tag can search broadly for context. Thariq shares Anthropic's co-founder principle: **"we don't negotiate against ourselves"**—don't talk yourself out of ambitious bets; make trade-offs prove themselves with evidence rather than defaulting to "no." Simon reflects that this inverts 25 years of software engineering instinct where the default answer is always "no."
 
-### [46:49] Absurd Things Built with Claude
+### Absurd Things Built with Claude [46:49](https://www.youtube.com/watch?v=uU5Gv2h8-9g&t=2809s)
 Thariq is building a **2D Street Fighter fighting game** with himself and friends as characters, using Claude Code to prompt Gemini's video model for sprite animations, verify frames, and generate JSON hitboxes. Cat built a **rock climbing project app** that uses workflows for deep research—finding climbing destinations with direct flights, filtering climbs by grade on Mountain Project, locating Airbnbs, and mapping short approaches from parking to rock, all customized to her group's preferences. Simon dubs it "vibe coding Jira for mountain climbing."
 
-### [49:24] Audience Questions
+### Audience Questions [49:24](https://www.youtube.com/watch?v=uU5Gv2h8-9g&t=2964s)
 - **Eval tooling**: Cat says the constraint is less about tooling and more about the skill of building high-quality evals; Anthropic plans to invest internally and share best practices externally.
 - **Memory design**: Thariq explains Claude Tag currently uses a markdown file per channel as shared memory, with sessions contributing back. They are actively running memory experiments but have nothing more specific to share.
 

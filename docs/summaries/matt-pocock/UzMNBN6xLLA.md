@@ -31,40 +31,40 @@ Matt Pocock explains nine common mistakes people make when using his "Grill Me" 
 
 ## Detailed Breakdown
 
-**[00:00] Introduction and Purpose of Grilling Skills**
+### Introduction and Purpose of Grilling Skills [00:00](https://www.youtube.com/watch?v=UzMNBN6xLLA&t=0s)
 Matt introduces his Grill Me and Grill with Docs skills, which people worldwide use as replacements for plan mode in agents. He notes that some users complain about agents asking too many questions (e.g., "200 questions"), which makes him wince. The skills are designed to relentlessly question users until reaching shared understanding, but their effectiveness depends on the user's own planning skills—understanding scope and question fidelity. Matt wants to help users get better at these skills since they're meant to aid, not replace, engineers.
 
-**[01:01] Course Promotion**
+### Course Promotion [01:01](https://www.youtube.com/watch?v=UzMNBN6xLLA&t=61s)
 Matt promotes his AI coding cohort for real engineers, starting June 1st, with a 30% discount available for a limited time.
 
-**[01:32] Question Fidelity: Low vs. High**
+### Question Fidelity: Low vs. High [01:32](https://www.youtube.com/watch?v=UzMNBN6xLLA&t=92s)
 Drawing from Ryan Singer's book *Shape Up*, Matt explains that questions come at different fidelity levels. High-fidelity questions require detailed, zoomed-in understanding—like how UI will feel or whether to split form fields across pages—and can only be answered through prototypes or actual building. Low-fidelity questions, such as what URL a route should live on, can be answered directly in conversation.
 
-**[02:34] Failure Mode: Answering High-Fidelity Questions During Grilling**
+### Failure Mode: Answering High-Fidelity Questions During Grilling [02:34](https://www.youtube.com/watch?v=UzMNBN6xLLA&t=154s)
 The first failure mode is trying to answer ungrillable (high-fidelity) questions during a grilling session. Matt's solution is a "prototyping handoff"—when hitting an ungrillable question, he uses a handoff skill to switch to a prototyping session, explores the question at higher fidelity there, then hands off back to the original grilling session to continue with grillable questions.
 
-**[03:43] Lens: Scope Management**
+### Lens: Scope Management [03:43](https://www.youtube.com/watch?v=UzMNBN6xLLA&t=223s)
 Grilling too large a scope causes two problems: hidden high-fidelity questions that are hard to answer without seeing the full system, and building on an unaligned foundation rather than something solid. Matt recommends asking the agent to break down large scopes into smaller ones that can be grilled individually.
 
-**[04:40] The Dumb Zone and Context Window Management**
+### The Dumb Zone and Context Window Management [04:40](https://www.youtube.com/watch?v=UzMNBN6xLLA&t=280s)
 Matt estimates that state-of-the-art models hit their "dumb zone" around 120k tokens, where attention relationships strain and decisions worsen. Grilling too large a scope risks hitting this zone before answering all questions. He advises keeping scope small enough to stay within the "smart zone" and monitoring context window usage carefully.
 
-**[05:43] Active vs. Passive Engagement**
+### Active vs. Passive Engagement [05:43](https://www.youtube.com/watch?v=UzMNBN6xLLA&t=343s)
 Matt worries users are too passive during grilling sessions, letting agents drive the conversation. Grilling is a conversation, not an interview—the user must lead, manage scope, and keep things on track. However, being too active is also a failure mode: grilling endlessly on low-fidelity questions when you actually need to build something to see it in action.
 
-**[07:15] Preserving Grilling Session Value**
+### Preserving Grilling Session Value [07:15](https://www.youtube.com/watch?v=UzMNBN6xLLA&t=435s)
 Decisions made during grilling sessions are incredibly valuable. If context budget remains, users can proceed directly to implementation. If not, they should create a handoff document (Matt mentions his "two PRD" skill). A crazy mistake he's seen: users clear context and start fresh before creating a PRD, throwing away valuable design decisions. Every decision should be recorded as code or in a handoff artifact.
 
-**[08:46] Using a Smart Enough Model**
+### Using a Smart Enough Model [08:46](https://www.youtube.com/watch?v=UzMNBN6xLLA&t=526s)
 Grilling relies on the model's parametric knowledge—its trained understanding of systems—to suggest off-the-wall ideas and prompt users about things they haven't considered. This requires a large frontier model. In contrast, implementation can use dumber models because most information passed is contextual (implementation plans, relevant files, codebase context).
 
-**[10:20] Parallel Grilling Sessions**
+### Parallel Grilling Sessions [10:20](https://www.youtube.com/watch?v=UzMNBN6xLLA&t=620s)
 Matt recommends grilling multiple sessions in parallel—typically two, sometimes three if one is doing long-running research. He bounces between sessions, answering questions in each like managing two Slack threads. This doubles throughput and is the only way he's found to get more planning done in less time. He notes that grilling is a skill that improves, allowing more parallelism over time.
 
-**[11:21] Summary of Lessons**
+### Summary of Lessons [11:21](https://www.youtube.com/watch?v=UzMNBN6xLLA&t=681s)
 Matt recaps: distinguish low-fidelity (grillable) from high-fidelity (ungrillable) questions; use prototyping handoffs for the latter; manage scope to avoid context window exhaustion; balance active and passive engagement; use smart models for parametric knowledge; and run parallel sessions to increase throughput.
 
-**[12:54] Closing and Channel Update**
+### Closing and Channel Update [12:54](https://www.youtube.com/watch?v=UzMNBN6xLLA&t=774s)
 Matt closes by promoting his cohort again, thanking viewers for his YouTube channel's growth, noting his skills just surpassed Gary Tan's G Stack in GitHub stars, and inviting video suggestions from viewers.
 
 ## Notable Quotes

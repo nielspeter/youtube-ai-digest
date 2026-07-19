@@ -31,31 +31,31 @@ OpenAI has unified Codex and ChatGPT into a single application, introducing the 
 
 ## Detailed Breakdown
 
-**[00:00] Codex and ChatGPT Unification**
+### Codex and ChatGPT Unification [00:00](https://www.youtube.com/watch?v=eiQgljOrkWU&t=0s)
 The presenter opens by celebrating that over 6 million developers use Codex weekly. The major announcement is that Codex and ChatGPT are merging into one application. For developers, Codex retains its familiar interface and capabilities but now occupies a dedicated space within ChatGPT, positioned next to the new work agent. OpenAI has shipped more than 150 updates over the past two months.
 
-**[00:31] GPT-5.6 Sol and Ultra Mode**
+### GPT-5.6 Sol and Ultra Mode [00:31](https://www.youtube.com/watch?v=eiQgljOrkWU&t=31s)
 GPT-5.6 Sol is introduced as the new frontier model, available to everyone. It excels at working through hard problems for extended periods. The Ultra mode, combined with the Goal command, lets developers assign their most challenging, long-deferred projects. Ultra gives Sol a much larger reasoning budget, though it consumes token limits faster. A key behavior is that Codex automatically splits work across subagents without being asked—developers can track individual subagents or view the entire team working in parallel from a single goal.
 
-**[01:32] Appshots and Autonomous Simulator/Browser Use**
+### Appshots and Autonomous Simulator/Browser Use [01:32](https://www.youtube.com/watch?v=eiQgljOrkWU&t=92s)
 The presenter highlights computer and browser use as possibly the most exciting feature of the release, now significantly faster with GPT-5.6. Using an iPhone app as an example, the presenter takes an "appshot" by pressing Cmd-Cmd on Mac. Unlike a regular screenshot, an appshot captures both the screen and the underlying app context. Codex can then autonomously operate the Simulator—clicking, navigating, and capturing App Store screenshots in multiple languages—all in the background while the developer continues using their computer.
 
-**[02:34] In-App Browser, Visual Annotations, and Inline Diff Editing**
+### In-App Browser, Visual Annotations, and Inline Diff Editing [02:34](https://www.youtube.com/watch?v=eiQgljOrkWU&t=154s)
 The in-app browser lets developers run and interact with what Codex builds, such as a simple paper plane game. Developers can point and click to annotate specific visual elements, giving Codex the context it needs to make targeted changes. The browser now supports login-protected applications via passkeys. On the code side, the diff view has been enhanced: developers can make precise inline edits directly when they know exactly what they want, or ask Codex to work from a desired behavior when the code change is unclear. The presenter describes this as feeling much closer to pair programming.
 
-**[03:05] Sites: One-Click Full-Stack Deployment**
+### Sites: One-Click Full-Stack Deployment [03:05](https://www.youtube.com/watch?v=eiQgljOrkWU&t=185s)
 Previously available only for Enterprise, Sites is now open to everyone. It works for any web application built with Codex. A simple "publish this to Sites" command deploys the app with built-in hosting, authentication, a persistent database, and file storage. This lets developers go from idea to a real full-stack application without thinking about infrastructure. The presenter demonstrates an instant deployment.
 
-**[04:09] Task Management and Linear Integration**
+### Task Management and Linear Integration [04:09](https://www.youtube.com/watch?v=eiQgljOrkWU&t=249s)
 Codex can manage its own tasks. The presenter demonstrates asking Codex to find five bugs from Linear, create a separate task and isolated worktree for each, and pin the most critical ones. A coordinating thread shows all tasks being kicked off and progressing. Tasks can reference one another, and work can originate outside Codex—ideas explored in ChatGPT or via deep research can be @mentioned into Codex, bringing full context without copy-pasting.
 
-**[05:10] Mobile Upgrades**
+### Mobile Upgrades [05:10](https://www.youtube.com/watch?v=eiQgljOrkWU&t=310s)
 ChatGPT on mobile receives three major upgrades. First, developers can create, search, open, and manage tasks directly from a phone conversation. Second, change review is improved with filters for staged, unstaged, branch, or branch-comparison views. Third, developers can connect directly to an SSH host (like a dev box) and start new tasks from their phone. The presenter emphasizes the workflow of starting something at a desk, keeping it moving from a phone, and jumping in when Codex needs input.
 
-**[05:41] Integrated Pull Request Workflow**
+### Integrated Pull Request Workflow [05:41](https://www.youtube.com/watch?v=eiQgljOrkWU&t=341s)
 Codex now handles pull requests in-context, knowing which branch each task is on. When a branch has an open PR, the summary pane surfaces it automatically. Developers can follow progress, address issues, and merge from within Codex. If a CI check fails or a comment arrives, Codex can fix it with full context. The new Pull Requests tab supports exploring every code change, leaving inline comments, completing full reviews, marking PRs as ready, and merging—all without visiting GitHub.com.
 
-**[06:45] Build Week and Closing**
+### Build Week and Closing [06:45](https://www.youtube.com/watch?v=eiQgljOrkWU&t=405s)
 The presenter invites developers to OpenAI Build Week, available online or in-person at nearly 30 events worldwide. The video closes with the presenter handing off to Codex itself to wrap up, reinforcing the collaborative vision: developers bring their hardest bugs, boldest ideas, and seemingly impossible work.
 
 ## Notable Quotes

@@ -28,16 +28,16 @@ Google's WeatherNext AI model demonstrated superior hurricane forecasting by pre
 - AI weather models like WeatherNext are expected to become part of the routine forecasting toolkit at the Hurricane Center.
 
 ## Detailed Breakdown
-**[00:01] The Challenge of Hurricane Forecasting and WeatherNext's Role**
+### The Challenge of Hurricane Forecasting and WeatherNext's Role [00:01](https://www.youtube.com/watch?v=wd5ZZV8if54&t=1s)
 The video opens by explaining that tropical storms and hurricanes are inherently volatile, with structure and intensity that can shift quickly, making them harder to predict than other weather systems. Google developed WeatherNext, a global AI weather forecasting model designed to address this challenge by predicting both where hurricanes will travel and how strong they will become.
 
-**[00:22] Hurricane Melissa: Two Possible Scenarios**
+### Hurricane Melissa: Two Possible Scenarios [00:22](https://www.youtube.com/watch?v=wd5ZZV8if54&t=22s)
 Forecasters confronted a difficult 2025 case, Hurricane Melissa, with two divergent possibilities: a weak storm affecting Haiti or a catastrophic Category 5 hurricane striking Jamaica. Three days before the event, WeatherNext correctly predicted Melissa's rapid intensification and its landfall in Jamaica, outperforming earlier forecasting models.
 
-**[00:32] Early Warnings and Life-Saving Action**
+### Early Warnings and Life-Saving Action [00:32](https://www.youtube.com/watch?v=wd5ZZV8if54&t=32s)
 Using WeatherNext's high-confidence signals, forecasters issued urgent warnings about catastrophic, life-threatening weather hazards days before the hurricane reached Jamaica. These early alerts gave the public advance notice to evacuate certain areas. Officials emphasized that this reduction in harm made a real difference—saving both lives and the livelihoods people sought to protect.
 
-**[01:04] WeatherNext's Value and the Future of AI in Forecasting**
+### WeatherNext's Value and the Future of AI in Forecasting [01:04](https://www.youtube.com/watch?v=wd5ZZV8if54&t=64s)
 The Hurricane Center found WeatherNext to be a valuable tool that enabled more accurate and aggressive forecasts for Melissa. Looking ahead, forecasters expect WeatherNext and other AI models to become a standard part of their routine forecasting toolkit, signaling a broader shift toward AI-assisted meteorology.
 
 ## Notable Quotes

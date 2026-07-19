@@ -30,37 +30,37 @@ Benoit Schillings, VP Research at Google DeepMind, traces the evolution of AI-as
 
 ## Detailed Breakdown
 
-**[00:49] Introduction and Role at DeepMind**
+### Introduction and Role at DeepMind [00:49](https://www.youtube.com/watch?v=1P1hJ36rxM0&t=49s)
 Schillings introduces himself as a relative newcomer to machine learning, having spent years at Google X working on projects like Waymo and Glass. His team at DeepMind focuses on developing technology needed to make Gemini "incredible" within a one-month to one-year horizon—short enough to be relevant, long enough to avoid the unpredictability of multi-year research. The team's work spans code, reasoning evolution, network topology, and fundamental reinforcement learning science.
 
-**[02:21] The Pitchfork Origin Story and Early Resistance**
+### The Pitchfork Origin Story and Early Resistance [02:21](https://www.youtube.com/watch?v=1P1hJ36rxM0&t=141s)
 In 2018, Schillings' team launched "Pitchfork" at X, exploring how ML could improve code writing. At the time, Google internally dismissed the idea—nobody saw why ML would be needed for code. He admits he personally dismissed "vibe coding" (writing code in English), insisting English wasn't a programming language—an admission he now concedes he was wrong about. The resistance mirrored his own career-long skepticism of abstraction layers, from distrusting compilers as an assembly programmer to viewing garbage-collected languages as "not real programming."
 
-**[04:55] Three Eras of Software and the Shift to AI**
+### Three Eras of Software and the Shift to AI [04:55](https://www.youtube.com/watch?v=1P1hJ36rxM0&t=295s)
 Schillings frames software history in three eras. In the first, the machine was the bottleneck—assembly language squeezed out every ounce of performance. In the second (the cloud era), compute became cheap and the limiting factor became the human brain's capacity to hold roughly seven to nine "tokens" of context, driving modular design, libraries, and reusable functions. In the current AI frontier, writing code is no longer the challenge; the bottleneck has moved to specification—ensuring the code does what you actually need—and architecture, where humans still hold an edge in inductive thinking and pattern detection across wide system contexts.
 
-**[07:34] Superhuman Syntax, but Multi-Step Codebases Remain Hard**
+### Superhuman Syntax, but Multi-Step Codebases Remain Hard [07:34](https://www.youtube.com/watch?v=1P1hJ36rxM0&t=454s)
 Frontier models have achieved superhuman syntax generation—Schillings says he can no longer look at a Gemini-generated function and confidently claim he could do better. However, real software engineering involves navigating massive existing codebases (e.g., 35 million lines of PHP on your first day at a company). Managing that extreme complexity, decomposing it into manageable pieces, and making sound architectural decisions—where someone like Jeff Dean's work on Google's architecture stands as an example—remains the active frontier.
 
-**[08:48] Why Code Was the Perfect ML Problem—and What Changed**
+### Why Code Was the Perfect ML Problem—and What Changed [08:48](https://www.youtube.com/watch?v=1P1hJ36rxM0&t=528s)
 Code was uniquely suited to ML: vast training data was available on GitHub, and verification was straightforward (compile, run, unit test). But the landscape has shifted—Schillings estimates 80% of new code added to GitHub today is machine-generated, meaning the supply of genuinely human-written training data is drying up. The solution is self-play, inspired by Alpha Zero's superhuman Go and chess mastery through self-play alone. Frontier code models can now create their own challenges, verify answers, and even judge architecture, enabling hundreds of millions of hours of self-play coding.
 
-**[11:13] The Inverting Economics of Code**
+### The Inverting Economics of Code [11:13](https://www.youtube.com/watch?v=1P1hJ36rxM0&t=673s)
 The software industry—its culture, infrastructure, and companies—was built on the assumption that writing code was the expensive part. Now it's nearly free, and code volume will explode. This raises critical questions about design adequacy and reliability. Schillings predicts that within a year, no one will actually read AI-generated code, likening it to how nobody checks compiler assembly output anymore. This necessitates new processes and guardrails.
 
-**[12:47] Security: From Detection to Correct-by-Construction**
+### Security: From Detection to Correct-by-Construction [12:47](https://www.youtube.com/watch?v=1P1hJ36rxM0&t=767s)
 Models are already detecting large numbers of code vulnerabilities, but Schillings sees this as a never-ending arms race—models find vulnerabilities, we patch them, models get smarter and find subtler ones. The holy grail his team is actively pursuing is teaching models to write correct, secure code from the start, rather than detecting and suggesting fixes. This is extremely difficult because correctness is deeply context-dependent.
 
-**[14:19] Evaluation, Planning, and Open-Ended Problems**
+### Evaluation, Planning, and Open-Ended Problems [14:19](https://www.youtube.com/watch?v=1P1hJ36rxM0&t=859s)
 Current benchmarks like SWE-bench are insufficient because they only verify that code runs and produces correct output—a small fraction of real software engineering. Schillings advocates for open-ended benchmark problems, citing lossless text compression as an example: give a model 10 MB of data and ask it to write the best compressor, with the loss function being compressed file size plus source code size. Such problems are never-ending and force models to invent entirely new algorithms. He also stresses the need to teach models correct planning and problem decomposition.
 
-**[15:54] Beyond Token Chains: Multimodal and Visual Reasoning**
+### Beyond Token Chains: Multimodal and Visual Reasoning [15:54](https://www.youtube.com/watch?v=1P1hJ36rxM0&t=954s)
 Current reasoning models think as chains of tokens (or chains of code), which has been successful but is limited. Schillings argues that code writing is inherently a visual activity—block diagrams, data flow—and that code as a linear token sequence only goes so far. Gemini's multimodal design from the outset positions it to think in spatial and dynamic representations, which he sees becoming a must-have capability.
 
-**[16:54] New Languages for Models, Not Humans**
+### New Languages for Models, Not Humans [16:54](https://www.youtube.com/watch?v=1P1hJ36rxM0&t=1014s)
 Existing programming languages (Python, etc.) were designed for human ergonomics, not for writing safe or reliable code. Since the pain of writing code is disappearing, Schillings proposes making writing harder by using strongly typed languages or drawing inspiration from Lean and program proof to put the burden of correctness on the model. Crucially, these languages may not need to be human-readable at all.
 
-**[17:58] Spillover into Science: Chemistry, Biology, and Unseen Solutions**
+### Spillover into Science: Chemistry, Biology, and Unseen Solutions [17:58](https://www.youtube.com/watch?v=1P1hJ36rxM0&t=1078s)
 Code is a universal problem-solving language, and the ability to experiment in code for free is rapidly impacting other domains. Schillings highlights chemistry—humans understand very little beyond ~20 atoms, and assembling 10,000 atoms approaches the territory of life—and biology, where nature engineered brilliantly but documented terribly. Beyond these, he points to "the gold we cannot see": humans are evolutionarily biased toward jungle survival, not quantum computing, meaning ML may uncover solutions and breakthroughs that human perception simply cannot reach.
 
 ## Notable Quotes

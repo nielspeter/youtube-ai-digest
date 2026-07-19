@@ -30,37 +30,37 @@ Alejandro Vidal argues that LLM benchmarking should adopt psychometrics—the sc
 
 ## Detailed Breakdown
 
-**[00:02] Borrowing from Psychometrics**
+### Borrowing from Psychometrics [00:02](https://www.youtube.com/watch?v=EfcfUB2uprc&t=2s)
 Vidal introduces the core idea: psychometrics, the psychological field that models how human intelligence and traits are measured, can be directly applied to evaluating LLMs. He positions this as a promising framework for benchmark creators and model users alike, and commits to sharing all related tools and datasets.
 
-**[01:05] The Problem with Single Scores**
+### The Problem with Single Scores [01:05](https://www.youtube.com/watch?v=EfcfUB2uprc&t=65s)
 Standard benchmarks output one number—accuracy—per model. This relies on a massive assumption: that every item (question) carries equal weight. Vidal points out that items might be correlated, pure noise, or vastly more important than others, none of which is captured by a simple score.
 
-**[02:06] Introducing IRT: Difficulty (B) and Ability (Theta)**
+### Introducing IRT: Difficulty (B) and Ability (Theta) [02:06](https://www.youtube.com/watch?v=EfcfUB2uprc&t=126s)
 Instead of summing scores, Vidal proposes keeping the entire response matrix and estimating two parameters. For each item, **B** represents its difficulty, shaping a curve that maps a model's intelligence to its probability of answering correctly. For each model, **theta** represents its ability on the same scale as B, normally distributed around zero. Two models might have the same raw score but vastly different thetas because IRT accounts for *which* specific questions they got right.
 
-**[03:07] The Discrimination Parameter (A)**
+### The Discrimination Parameter (A) [03:07](https://www.youtube.com/watch?v=EfcfUB2uprc&t=187s)
 Vidal introduces the slope or "discrimination" of an item's curve. Steeper curves are preferred because they are highly informative. Flat lines indicate noise unrelated to intelligence, and negative slopes indicate items that actively penalize good models—a major red flag.
 
-**[04:42] Auditing Benchmarks for Bad Items**
+### Auditing Benchmarks for Bad Items [04:42](https://www.youtube.com/watch?v=EfcfUB2uprc&t=282s)
 Using the A parameter, benchmark creators can audit their datasets. Negative A values often indicate mislabeled or erroneous questions. Vidal shows real examples where the "gold answer" in a dataset was actually wrong, causing the best models to fail—a problem IRT surfaces automatically.
 
-**[08:20] Tiny Benchmarks: Reducing Evaluation Cost**
+### Tiny Benchmarks: Reducing Evaluation Cost [08:20](https://www.youtube.com/watch?v=EfcfUB2uprc&t=500s)
 Companies often run large private benchmarks repeatedly across models, harnesses, and fine-tunings. Vidal explains how IRT can rank items by informativeness and select a small subset that achieves a 0.99 correlation with the full benchmark's results, drastically cutting evaluation time and cost.
 
-**[10:24] Detecting Leaked Items with Residuals**
+### Detecting Leaked Items with Residuals [10:24](https://www.youtube.com/watch?v=EfcfUB2uprc&t=624s)
 By ordering the response matrix by model ability and item difficulty, Vidal spots anomalies—e.g., a model with low overall ability getting a very hard question right. These residuals (outlier errors) can flag items that have been leaked to the internet and memorized by models, invalidating the benchmark.
 
-**[13:01] Adaptive Testing and Fingerprinting Organizations**
+### Adaptive Testing and Fingerprinting Organizations [13:01](https://www.youtube.com/watch?v=EfcfUB2uprc&t=781s)
 Vidal proposes adaptive testing: giving different items to different organizations to control benchmark exposure. He suggests using a shared "anchor set" for common scaling alongside unique, organization-specific "fingerprint sets" of difficult questions. If an organization leaks its fingerprint items, their future models will show anomalously high performance on those specific questions—detectable via residual analysis.
 
-**[16:44] Fairness and Differential Item Functioning**
+### Fairness and Differential Item Functioning [16:44](https://www.youtube.com/watch?v=EfcfUB2uprc&t=1004s)
 In psychometrics, tests must be fair across groups. Vidal adapts this to LLMs by splitting models by provider (Anthropic vs. OpenAI) and plotting separate item curves. Large, systematic gaps for the same ability level reveal that certain items favor one model family over another, offering insight into the specific strengths of different models.
 
-**[18:51] Detecting Distillation and Model Lineage**
+### Detecting Distillation and Model Lineage [18:51](https://www.youtube.com/watch?v=EfcfUB2uprc&t=1131s)
 By correlating the residual error vectors of different models, Vidal creates a correlation matrix and projection. Models from the same family or sharing the same base checkpoint (e.g., DeepSeek R1 distillations) cluster together. This method can even detect if one model was distilled from another—a signal he argues is stronger than trying to trick models with prompts.
 
-**[21:59] Future Directions**
+### Future Directions [21:59](https://www.youtube.com/watch?v=EfcfUB2uprc&t=1319s)
 Vidal closes by outlining future applications: merging multiple benchmarks to improve overall quality, incorporating secondary signals like token latency, and researching multi-dimensionality. He notes that LLMs and humans appear to share a remarkably similar structure of intelligence.
 
 ## Notable Quotes

@@ -31,25 +31,25 @@ Strix is an open-source AI security tool that deploys a team of AI agents to act
 
 ## Detailed Breakdown
 
-**[00:00] Introduction to Strix**
+### Introduction to Strix [00:00](https://www.youtube.com/watch?v=vRTliPb8fjg&t=0s)
 The video opens with the common scenario of shipping clean code that passes tests, only to have a hidden bug cause a database breach. The host introduces Strix, an open-source, free tool with nearly 38,000 GitHub stars, designed to show exactly how a break-in could occur.
 
-**[00:30] What Strix Does**
+### What Strix Does [00:30](https://www.youtube.com/watch?v=vRTliPb8fjg&t=30s)
 Strix spins up a team of AI agents that act like hackers. One agent performs reconnaissance and maps the app, while others target OWASP Top 10 vulnerabilities, APIs, SQL injection, cross-site scripting, and broken access control. The host emphasizes its value for teams without the budget for a professional penetration test, noting that unlike traditional scanners that generate a pile of "what-ifs," Strix actually breaks in, proves the exploit, and hands you a pull request.
 
-**[01:00] Setup and Demo App**
+### Setup and Demo App [01:00](https://www.youtube.com/watch?v=vRTliPb8fjg&t=60s)
 Setting up Strix is done via a single curl command. The host demonstrates using a simple FastAPI expenses app running on a live UI. To run a scan, a single command is used: `Strix target`, pointing to the code path and live UI, with the scan mode set to "quick." The tool requires an API key from a provider like Anthropic, but it also supports Gemini or local Llama models. A key requirement is that Docker must be running, as Strix pulls a sandbox container on the first run to safely execute agent actions.
 
-**[02:30] Reviewing the Results**
+### Reviewing the Results [02:30](https://www.youtube.com/watch?v=vRTliPb8fjg&t=150s)
 A quick scan takes about 10 minutes. The host shows that instead of just suggesting a vulnerability might exist, Strix found the endpoint, wrote a working exploit, ran it, extracted data, and provided the exact steps and the fix. The host notes that while you can change the scan mode, deeper scans take longer and consume more tokens.
 
-**[03:05] How Strix Compares**
+### How Strix Compares [03:05](https://www.youtube.com/watch?v=vRTliPb8fjg&t=185s)
 Strix is compared to manual penetration testing (accurate but slow and expensive) and static scanners (fast and cheap but don't run code). Strix differentiates itself by having agents communicate in chain attacks, running in a sandbox, and closing the loop with auto-fix pull requests. It boasts a 96% solve rate on the X bin exploitation benchmark, taking about 19 minutes per challenge on real break-in tasks.
 
-**[03:37] Practical Usage and CI Integration**
+### Practical Usage and CI Integration [03:37](https://www.youtube.com/watch?v=vRTliPb8fjg&t=217s)
 Strix is a command-line tool with native GitHub Actions support, working on both open-source code and live apps. Its biggest strength is validated findings—every real bug comes with working proof, eliminating the "400 maybes" problem. It exits with an error code when it finds an issue, allowing it to block bad merges in a CI pipeline before they land.
 
-**[04:07] Limitations and Final Thoughts**
+### Limitations and Final Thoughts [04:07](https://www.youtube.com/watch?v=vRTliPb8fjg&t=247s)
 Strix is open-source under the Apache 2.0 license with no model lock-in, but it has limitations. Its performance depends heavily on the model used; weak local models yield weak findings, while strong models cost significant tokens. Deep scans can take hours, Docker adds friction, and it struggles with complex logic and long chain attacks. The host recommends using it for pre-merge checks, side projects, and staging environments to catch obvious issues before production. It should be viewed as one layer in a multi-layered security strategy, sitting alongside existing scanners and human review.
 
 ## Notable Quotes

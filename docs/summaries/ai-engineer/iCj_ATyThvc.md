@@ -31,43 +31,43 @@ Zhengyao Jiang, co-founder and CEO of Weco, presents Aiden, an autonomous AI res
 
 ## Detailed Breakdown
 
-**[00:12] — Aiden's Dominance in Parameter Golf**
+### Aiden's Dominance in Parameter Golf [00:12](https://www.youtube.com/watch?v=iCj_ATyThvc&t=12s)
 OpenAI ran a hiring challenge called Parameter Golf in April, where ~1,000 ML engineers and researchers competed to train the best language model under size and compute constraints. The top contributor was not a human but Aiden, an AI agent built by Weco. Of the 2,000 submissions fired, only 47 passed open review to reach the leaderboard—and 7 of those were Aiden's, more than twice what any human contributed.
 
-**[01:14] — Beyond Benchmark Scores: Community Recognition**
+### Beyond Benchmark Scores: Community Recognition [01:14](https://www.youtube.com/watch?v=iCj_ATyThvc&t=74s)
 Jiang frames the key question not as whether agents can climb benchmarks, but whether an auto-research agent can produce work that a human community genuinely recognizes—work that others can merge, fork, and build upon. Aiden was designed to publish its own work, not just optimize locally.
 
-**[01:47] — Weco and Aiden's Background**
+### Weco and Aiden's Background [01:47](https://www.youtube.com/watch?v=iCj_ATyThvc&t=107s)
 Weco is an auto-research company founded ~2.5 years ago. Jiang, co-founder and CEO, got his PhD at UCR on reinforcement learning. About two years ago, Weco built an agent independently evaluated by OpenAI in their MLE bench paper. Aiden is the next step: a multi-agent, self-improving system that reads public information (papers, PRs), runs experiments, and submits PRs once findings pass a quality gate.
 
-**[02:52] — Aiden's Competition Results**
+### Aiden's Competition Results [02:52](https://www.youtube.com/watch?v=iCj_ATyThvc&t=172s)
 Aiden ran for ~22 days in the competition and set 7 leaderboard records—each a new best, stamped by OpenAI—while the best human made only 3. Beyond passing host review, Aiden's work had the highest community impact, measured by an H-index computed over PRs: Aiden scored 10, the next human 7. The entire community was building on the AI system's work, including other leaderboard entries.
 
-**[03:55] — Why the Autonomous System Is Powerful**
+### Why the Autonomous System Is Powerful [03:55](https://www.youtube.com/watch?v=iCj_ATyThvc&t=235s)
 The obvious advantage is tirelessness: ~1,300 experiments over 22 days on a single H100 node. But throughput isn't the whole story—a well-tuned AI system also maintains high output quality. Aiden used at most 4% of the competition's total compute and made ~15% of the records. 28% of its submissions made the leaderboard, roughly 6x the community average hit rate, effectively lifting the signal-to-noise ratio in the community's public PR channel.
 
-**[05:29] — Humans and AI Contribute Differently**
+### Humans and AI Contribute Differently [05:29](https://www.youtube.com/watch?v=iCj_ATyThvc&t=329s)
 Despite the numbers, auto-research doesn't simply dominate human experts. When tracing ideas, nearly all of Aiden's record PRs came from human research papers, other participants, or similar communities like nanoGPT. Sometimes ideas were abandoned notes—human researchers who gave up on implementation difficulties—and the agent was good at finding and actually implementing them. A very small fraction of original ideas emerged from Aiden's own efforts to navigate file-size constraints.
 
-**[06:36] — Concrete Example: Gated Attention**
+### Concrete Example: Gated Attention [06:36](https://www.youtube.com/watch?v=iCj_ATyThvc&t=396s)
 Aiden picked up "gated attention" from a Qwen paper; it worked but broke the 16MB file-size limit. Aiden figured out a quantization mechanism to bring file size down, but the combined score barely moved. Then another contributor posted a tokenizer improvement. Aiden recognized the idea, combined it with the architectural work, and after ~5 days of iteration, the three ideas produced a huge synergy—a big performance jump that became one of Aiden's leaderboard records.
 
-**[08:07] — Interpreting Auto-Research Effectiveness**
+### Interpreting Auto-Research Effectiveness [08:07](https://www.youtube.com/watch?v=iCj_ATyThvc&t=487s)
 Aiden is very strong at finding and implementing ideas: bringing an idea from a recent paper into actual competition implementation, digging promising ingredients out of a noisy public channel, and coming up with logically straightforward ideas (e.g., quantization to fix file size). It is fast and efficient at finding the right combinations across a huge search space. Jiang acknowledges this is mostly good execution, not glamorous innovation—but execution is usually the real bottleneck. What moves the frontier is typically belief in existing ideas plus tons of good execution.
 
-**[09:13] — Human-AI Collaboration and the Value of Design**
+### Human-AI Collaboration and the Value of Design [09:13](https://www.youtube.com/watch?v=iCj_ATyThvc&t=553s)
 The current state of collaboration: humans collectively provide creative ideas; the agent executes to solve concrete challenges. Does a single human's marginal contribution shrink? Not necessarily—the competition's design itself is tremendously important. Bad design can make the whole community effort useless, and thoughtful design work will have huge leverage in the auto-research era.
 
-**[10:15] — The Gradient Descent Metaphor**
+### The Gradient Descent Metaphor [10:15](https://www.youtube.com/watch?v=iCj_ATyThvc&t=615s)
 Jiang recalls Andrej Karpathy's tweet from ~10 years ago: "gradient descent can write code better than you." Back then, deep learning was eating conventional coding work, and Karpathy argued against people who thought they could hand-write better code than a trained model. Today, no one hand-writes code to beat a model, yet software engineering jobs still exist—and training models is one of the best-paid work. Jiang sees this as a metaphor: auto-research will commoditize certain execution skills while making higher-level skills far more valuable.
 
-**[11:19] — Auto-Research Is Like Training a Model**
+### Auto-Research Is Like Training a Model [11:19](https://www.youtube.com/watch?v=iCj_ATyThvc&t=679s)
 Doing auto-research is a lot like training a model. The codebase abstraction is the architecture—it sets constraints and priorities for what the agent can explore. The eval is the loss function and data—it sets what the agent optimizes for, like an environment in reinforcement learning. No one argues data or environments don't matter, and this is where vertical moats can be built: proprietary evaluation data or unique domain understanding of what matters and how to measure it.
 
-**[12:53] — Codebase Abstraction as Architecture**
+### Codebase Abstraction as Architecture [12:53](https://www.youtube.com/watch?v=iCj_ATyThvc&t=773s)
 Codebase abstraction is underrated. It provides the framework the agent iterates on and biases the whole search direction—like neural network architecture design. Different architectures can theoretically represent the same function, but architecture systematically makes some functions easier to learn and biases optimization toward solutions that generalize better. Jiang gives an example: in a fraud detection pipeline, a loose API that processed training and testing data in the same function led to test-set leakage. Tightening the abstraction to a stricter API where test data couldn't reach training data dropped the leakage rate to zero—even though the agent could theoretically reward-hack.
 
-**[14:58] — A New Craft and What Skills Matter**
+### A New Craft and What Skills Matter [14:58](https://www.youtube.com/watch?v=iCj_ATyThvc&t=898s)
 Using auto-research is a new craft: designing the hill for the agent to climb. Creativity and judgment in designing good evals and abstractions will soon become exponentially more important. Driving these systems is a new skill that barely existed 1–2 years ago. The search is automated; humans move up the stack, not out of it. Jiang encourages following Weco's blog and his posts on X for ongoing learnings.
 
 ## Notable Quotes

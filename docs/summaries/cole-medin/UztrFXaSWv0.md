@@ -31,25 +31,25 @@ thumbnail: https://i.ytimg.com/vi/UztrFXaSWv0/hqdefault.jpg
 
 ## Detailed Breakdown
 
-**[00:00] The Loop Engineering Buzzword**
+### The Loop Engineering Buzzword [00:00](https://www.youtube.com/watch?v=UztrFXaSWv0&t=0s)
 The video opens by introducing "loop engineering," a concept being pushed by major AI figures like Peter Steinberger (OpenClaw) and Boris Cherney (Claude Code). The host expresses skepticism, noting that while loops can be powerful, they are often unreliable and extremely token-hungry, making them impractical unless you have an unlimited budget. The video promises a practical, honest look at how to run loops, their trade-offs, and solutions.
 
-**[02:05] Loop Engineering Basics in Claude Code**
+### Loop Engineering Basics in Claude Code [02:05](https://www.youtube.com/watch?v=UztrFXaSWv0&t=125s)
 The host simplifies loop engineering, showing that it boils down to combining features already present in Claude Code. He demonstrates `/loop` (waking the agent on an interval to check external systems like GitHub), `/goal` (forcing the agent to work until completion criteria are met), and `/routines` (scheduled jobs based on spec documents). He shows a live demo where Claude Code acts as both orchestrator and worker, loading a "loop skill" to autonomously set up a `/loop` that knocks out tasks in a `plan.md` file one by one.
 
-**[05:43] The Three Major Problems with Loop Engineering**
+### The Three Major Problems with Loop Engineering [05:43](https://www.youtube.com/watch?v=UztrFXaSWv0&t=343s)
 The host outlines three core issues. First, he questions whether loop engineering truly yields the best results, expressing doubt about Boris Cherney's claim of managing tens of thousands of agents at once. Second, he highlights the exorbitant cost, showing a dashboard where a single loop-driven app build consumed over a million tokens due to orchestrator reasoning and context passing. Third, he notes that running loops in a single Claude Code session bloats the context window, overwhelming the LLM.
 
-**[08:48] Solving Loops with Arkon Workflows**
+### Solving Loops with Arkon Workflows [08:48](https://www.youtube.com/watch?v=UztrFXaSWv0&t=528s)
 To address these issues, the host introduces his tool, Arkon. Arkon builds deterministic workflows that orchestrate multiple coding agent sessions. Unlike pure loop engineering, Arkon takes decision-making away from the agent where possible, enforcing a structured process (e.g., planning, implementation, review). Each step runs in its own isolated session, and users can mix models—using cheap models like Haiku or Kimmy K2.7 for classification, and Claude Code or Codex only for heavy implementation. State is stored durably in a Neon Postgres database.
 
-**[13:26] Parallel GitHub Issue Fixing**
+### Parallel GitHub Issue Fixing [13:26](https://www.youtube.com/watch?v=UztrFXaSWv0&t=806s)
 The host demonstrates a classic Arkon workflow: fixing GitHub issues in parallel. A primary Claude Code orchestrator dispatches workflows to fix and review multiple issues simultaneously using work trees for isolation. He emphasizes the importance of human-in-the-loop validation, noting that letting loops run autonomously for days often results in garbage output. The system remains lean by distributing work across many isolated sessions rather than bloating one.
 
-**[17:30] A Pure Loop Engineering Dashboard**
+### A Pure Loop Engineering Dashboard [17:30](https://www.youtube.com/watch?v=UztrFXaSWv0&t=1050s)
 For those interested in pure loop engineering, the host shows an open-sourced dashboard he built to solve the concept's inherent problems. The dashboard manages state externally in Neon, allowing an orchestrator to read state, dispatch workers, and update the database in a continuous loop. It uses affordable models (Kimmy K2.7 via Pi) and provides deep observability into token usage and orchestrator decisions, allowing users to analyze and improve their harness over time.
 
-**[21:10] Deploying the Dashboard with Retool**
+### Deploying the Dashboard with Retool [21:10](https://www.youtube.com/watch?v=UztrFXaSWv0&t=1270s)
 The host explains how he deployed the loop engineering dashboard to the cloud using Retool. He imported a React front-end built by Claude Code into Retool, connected it to his Neon database and Pi backend, and deployed it to a shareable URL. Retool also allows him to add permission groups and human-in-the-loop approval gates for actions like pausing and resuming workflows, making it a practical tool for team collaboration.
 
 ## Notable Quotes

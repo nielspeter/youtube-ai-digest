@@ -31,31 +31,31 @@ The video presents a three-layer "interactive artifacts" workflow for Claude Cod
 
 ## Detailed Breakdown
 
-**[00:00] Introduction to Interactive Artifacts**
+### Introduction to Interactive Artifacts [00:00](https://www.youtube.com/watch?v=ASAaKhK1B5w&t=0s)
 Ray introduces the concept of "interactive artifacts" as a powerful workflow he teaches in his Claude Code consulting. He outlines three layers of increasing sophistication that the video will cover.
 
-**[00:33] Layer 1: Static Artifacts for Design Variations**
+### Layer 1: Static Artifacts for Design Variations [00:33](https://www.youtube.com/watch?v=ASAaKhK1B5w&t=33s)
 The first layer involves generating a single HTML file with Claude Code for brainstorming and exploration. Ray's primary use case is design variations — when a page looks fine but could be better, and he can't articulate what "better" means. He prompts Claude to generate 10 distinct variations in one HTML file, reviews them, picks the one he likes, and tells Claude to integrate it back into the application. He shows an example of 10 variations for his HyperWhisper iOS settings page, noting this approach works because "I know it when I see it."
 
-**[01:36] Beyond Design: Skills with HTML Output**
+### Beyond Design: Skills with HTML Output [01:36](https://www.youtube.com/watch?v=ASAaKhK1B5w&t=96s)
 Ray extends static artifacts beyond design to skills like LinkedIn post writing. Instead of reading output in the Claude UI, an HTML artifact renders the post as it would appear on LinkedIn, making it easier to review, tweak, and copy. He recommends adding HTML artifact output to any skill where you're choosing between variations, especially design-related ones. He created a `/design-variations` skill that lets him reference any component and specify a number of variations (e.g., 20).
 
-**[03:16] Layer 2: Interactive Artifacts with Bun**
+### Layer 2: Interactive Artifacts with Bun [03:16](https://www.youtube.com/watch?v=ASAaKhK1B5w&t=196s)
 Layer 2 upgrades static artifacts into interactive ones using Bun, a lightweight JavaScript runtime. Bun creates a mini local server that hot-reloads the HTML artifact. Claude Code adds click-to-comment functionality and an "export to JSON" button. Feedback is exported to the clipboard, pasted back into Claude Code, and the artifact hot-reloads with the changes — no manual page refresh needed.
 
-**[04:51] Using Interactive Artifacts for Learning**
+### Using Interactive Artifacts for Learning [04:51](https://www.youtube.com/watch?v=ASAaKhK1B5w&t=291s)
 Ray demonstrates using interactive artifacts to understand complex technical concepts. When Claude Code adds something unfamiliar like row-level security, he asks for an interactive HTML explainer with buttons and multiple levels of depth. He also shows a PgBouncer explainer with diagrams and animations, noting that visualizing the process makes it much easier to understand what's happening behind the scenes.
 
-**[06:31] Layer 3: Claude Code Channels for Real-Time Communication**
+### Layer 3: Claude Code Channels for Real-Time Communication [06:31](https://www.youtube.com/watch?v=ASAaKhK1B5w&t=391s)
 The most advanced layer connects artifacts directly to Claude Code using the built-in channels feature (the same mechanism used for Telegram, Discord, iMessage). This eliminates the manual export-to-JSON-and-paste step — comments left on the artifact automatically flow back to Claude Code, which processes them and updates the artifact dynamically.
 
-**[07:03] Building a Customer Journey Dashboard**
+### Building a Customer Journey Dashboard [07:03](https://www.youtube.com/watch?v=ASAaKhK1B5w&t=423s)
 Ray demonstrates Layer 3 with a real example: mapping the customer journey for his Claude Code Masterclass using PostHog and Stripe data via MCP servers. He tags the `@claude-code-guide` agent and asks for an interactive artifact with pinned comments that route questions directly back to Claude Code via the channel. Claude Code generates a custom channel plugin and provides a command (`claude --dangerously-load-development-channels server:customer-journey`) to run it.
 
-**[08:43] The Artifact as a Mini App**
+### The Artifact as a Mini App [08:43](https://www.youtube.com/watch?v=ASAaKhK1B5w&t=523s)
 Once running, the artifact functions like a custom app with Claude Code as the backend. Ray demonstrates pinning comments (e.g., "can you expand on this?" or "remove the revenue card") that automatically trigger Claude Code to query MCP servers, update data, and hot-reload the artifact. He describes the artifact as doing two things simultaneously: capturing decisions (e.g., noticing few people view the pricing section) and serving as a conversational surface to edit the tool itself.
 
-**[10:57] Evolving Artifacts into Products**
+### Evolving Artifacts into Products [10:57](https://www.youtube.com/watch?v=ASAaKhK1B5w&t=657s)
 Ray notes that you can iteratively refine the artifact's form factor (e.g., requesting tabs instead of a long page), and if you find a layout you like, it can become a product or internal dashboard. He mentions a free video in his Claude Code Masterclass that covers Layer 3 setup, including a downloadable skill, and promotes the lifetime plan sale ending April 23rd.
 
 ## Notable Quotes

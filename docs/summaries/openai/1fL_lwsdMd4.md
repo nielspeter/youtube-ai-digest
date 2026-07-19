@@ -29,13 +29,13 @@ Katia Gil Guzman, who works with developers and builders globally at OpenAI, hig
 
 ## Detailed Breakdown
 
-**[00:00] — The Expanding World of AI Builders**
+### The Expanding World of AI Builders [00:00](https://www.youtube.com/watch?v=1fL_lwsdMd4&t=0s)
 Katia introduces her role at OpenAI, working with developers globally to help them leverage the company's technology. She notes a significant shift: the term "developer" has broadened to "builder," reflecting the reality that AI tools are now accessible enough that anyone can create with them. She expresses amazement at the pace of change, noting that developments over just the past few weeks have been remarkable, and highlights that these capabilities are now coming to the EU.
 
-**[00:30] — Customer Inspiration and Builder Communities**
+### Customer Inspiration and Builder Communities [00:30](https://www.youtube.com/watch?v=1fL_lwsdMd4&t=30s)
 Katia references Verso, a customer she knows well, as an inspiring example of a company built around Codex. She hopes their story sparks ideas for others. She expresses a general love for builder communities, calling them the most innovative people she interacts with — the early adopters. She specifically calls out France, praising the way French builders are leveraging AI agents as "super advanced."
 
-**[01:05] — The Shift from Prompting to Goal-Setting**
+### The Shift from Prompting to Goal-Setting [01:05](https://www.youtube.com/watch?v=1fL_lwsdMd4&t=65s)
 The core message of the talk emerges here: the concept of `/goal`. Katia describes a transition from prompting Codex with specific instructions to simply giving it a goal and letting it decide how to achieve it. She emphasizes that users no longer need to think about the "how" — they can trust the model to figure it out. She characterizes current OpenAI models as "high agency," meaning they will do whatever it takes to reach the objective, regardless of what tools or methods they use along the way.
 
 ## Notable Quotes

@@ -23,10 +23,10 @@ The video discusses the challenges of scaling AI agent experiences from individu
 - Enterprise-grade AI architecture must account for identity, security, and governance from the ground up.
 
 ## Detailed Breakdown
-**[00:00] The Challenge of Scaling AI Agents to the Enterprise**
+### The Challenge of Scaling AI Agents to the Enterprise [00:00](https://www.youtube.com/watch?v=BkJCF2yV53w&t=0s)
 The speaker opens by highlighting a common pitfall in AI product design: experiences that seem like amazing ideas and feel great for individual users can become fundamentally different— and far more complex— when organizations try to scale them. The "shape of the problems" changes at the enterprise level, implying that architecture and design decisions that work for single-player scenarios break down or prove insufficient in larger, collaborative environments.
 
-**[00:00] Introducing Agent Identities**
+### Introducing Agent Identities [00:00](https://www.youtube.com/watch?v=BkJCF2yV53w&t=0s)
 To address these scaling challenges, the team developed the concept of "agent identities." Rather than having an AI agent operate under the credentials or authority of a single user, the agent is given its own identity, complete with its own permissions and keys. This architectural choice allows the agent to work autonomously on tasks while representing the team or organization as a whole, rather than any one individual. A key benefit highlighted is that this approach makes the agent's actions much easier to audit, since the agent operates as a distinct, identifiable actor within the system.
 
 ## Notable Quotes

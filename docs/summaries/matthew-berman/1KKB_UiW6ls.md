@@ -31,44 +31,44 @@ Model routing—using a frontier model for planning and a cheaper model for exec
 
 ## Detailed Breakdown
 
-**[00:00] The core idea: model routing**
+### The core idea: model routing [00:00](https://www.youtube.com/watch?v=1KKB_UiW6ls&t=0s)
 The video opens by framing AI as expensive and introduces model routing—using the right model for the right task—as a simple way to save over 90% on AI bills.
 
-**[00:31] Planning vs. execution**
+### Planning vs. execution [00:31](https://www.youtube.com/watch?v=1KKB_UiW6ls&t=31s)
 The central concept is separating planning from execution. Planning (architecture, design, understanding the codebase) needs the best model available. Execution (actually writing the code from a plan) does not; a good, cheap model can handle it well. Example: use "Fable" for planning, GPT 5.5 or Composer 2.5 for coding.
 
-**[02:03] The workflow overview**
+### The workflow overview [02:03](https://www.youtube.com/watch?v=1KKB_UiW6ls&t=123s)
 The presenter walks through his workflow: use a frontier model for research and spec writing, hand the spec to a cheaper coding model, have it create a pull request, then optionally bring the frontier model back to review the PR. Feedback from the review is pasted back into the cheap model for fixes before deployment.
 
-**[04:38] Subscription strategy**
+### Subscription strategy [04:38](https://www.youtube.com/watch?v=1KKB_UiW6ls&t=278s)
 Even with two $20 or $100/month subscriptions (e.g., OpenAI and Claude), this approach stretches quotas significantly. It helps regardless of subscription tier, including the $200/month plans.
 
-**[05:09] Sponsor segment: GenSpark**
+### Sponsor segment: GenSpark [05:09](https://www.youtube.com/watch?v=1KKB_UiW6ls&t=309s)
 A sponsored pitch for GenSpark, an all-in-one AI workspace offering AI slides, designer, code, and video tools. New users get free credits and unlimited AI chat/image through 2026 on paid plans.
 
-**[06:30] The cost math**
+### The cost math [06:30](https://www.youtube.com/watch?v=1KKB_UiW6ls&t=390s)
 Frontier model "Fable" costs $10/M input and $50/M output tokens. A cheaper model costs $2/M input and $6/M output. The key insight: output tokens are 5× more expensive than input on the frontier model, and coding generates far more output tokens than planning.
 
-**[07:16] Detailed cost comparison**
+### Detailed cost comparison [07:16](https://www.youtube.com/watch?v=1KKB_UiW6ls&t=436s)
 - Planning with Fable: 100K input + 20K output = $2.00
 - Coding with Fable: 150K input + 120K output = $7.50
 - Total with Fable throughout: $9.50
 - Coding with cheap model instead: 150K input + 120K output = $1.02
 - Total with routing: $3.02 → **68% savings**
 
-**[09:53] Manual implementation**
+### Manual implementation [09:53](https://www.youtube.com/watch?v=1KKB_UiW6ls&t=593s)
 The easiest but most manual method: go back and forth with Fable to create a spec, copy it, paste it into GPT 5.5 with "build this," let it create a PR, then paste the PR back into Fable for review. Copy any feedback back to the cheap model for fixes and deployment. This alone saved ~60% of quota usage.
 
-**[11:56] Automated implementation via Claude + Codex**
+### Automated implementation via Claude + Codex [11:56](https://www.youtube.com/watch?v=1KKB_UiW6ls&t=716s)
 Claude Code can call Codex via its CLI, and vice versa. The presenter built a simple skill that automates the cycle: Fable plans, GPT 5.5 Codex writes, Claude verifies. You just type the feature request and the system handles the rest.
 
-**[13:00] Third-party model-agnostic harnesses**
+### Third-party model-agnostic harnesses [13:00](https://www.youtube.com/watch?v=1KKB_UiW6ls&t=780s)
 Tools like Cursor, Factory, and Devin are model-agnostic and have invested heavily in model routing as a differentiator. Cursor's auto mode routes tasks automatically; even when you select a frontier model, it delegates easier sub-tasks to Composer 2.5 fast. Not Diamond (in which the presenter is a small investor) does model routing as its core product, especially for enterprise.
 
-**[15:06] Beyond coding: choosing models and effort levels**
+### Beyond coding: choosing models and effort levels [15:06](https://www.youtube.com/watch?v=1KKB_UiW6ls&t=906s)
 For knowledge work in tools like Claude Co-work, don't accept the default model. Learn the strengths of Haiku 4.5 (fast, cheap), Sonnet 5 (good, slightly cheaper), Opus 4.8 (capable, well-priced), and Fable (best, most expensive). Also adjust the thinking/effort level—use low thinking for simple tasks like "deploy this code" and reserve max thinking for hard problems.
 
-**[17:12] Enterprise scale: Coinbase example**
+### Enterprise scale: Coinbase example [17:12](https://www.youtube.com/watch?v=1KKB_UiW6ls&t=1032s)
 Brian Armstrong of Coinbase shared that while total token usage keeps rising, costs have stayed flat or decreased. They achieved this through model routing, integrating cheap open-source models like GLM 5.2 for most coding, reserving frontier models for planning, and adding better caching, context management, and aggressive default thinking settings.
 
 ## Notable Quotes

@@ -31,43 +31,43 @@ Lee Robinson, ML engineer at Cursor, explains how Cursor trains AI models throug
 
 ## Detailed Breakdown
 
-**[00:01] Introduction**
+### Introduction [00:01](https://www.youtube.com/watch?v=q4Tr-DknG2M&t=1s)
 Lee Robinson is introduced as the machine learning engineer focused on model behavior at Cursor.
 
-**[00:36] The Core Loop and Two-Loop System**
+### The Core Loop and Two-Loop System [00:36](https://www.youtube.com/watch?v=q4Tr-DknG2M&t=36s)
 Robinson frames the talk around the simple equation "more compute in, better model out" but emphasizes the need to go deeper. He describes a loop: deploy a model, collect user feedback, scale data, increase compute, and train a new model. He then refines this into two loops—an outer loop (feedback, online metrics, A/B tests) and an inner loop (high-quality evals, difficult training tasks, reward shaping). The outer loop is slow and serial; the inner loop is where massive speedups are possible.
 
-**[02:39] Progress So Far: Composer 2.5**
+### Progress So Far: Composer 2.5 [02:39](https://www.youtube.com/watch?v=q4Tr-DknG2M&t=159s)
 Cursor released Composer 2.5 in May, now the most popular model in Cursor. They scaled up RL environments, tried new learning methods, and created more ambitious problems. Robinson notes Cursor has been training specialized models (like tab autocomplete) since the start, but only in the past year built a team to train state-of-the-art models. Composer 2.5 serves a niche for fast, smart, cost-effective models alongside the most intelligent models in the world. Public evals (e.g., Artificial Analysis) showed a modest jump, but many behaviors needed improvement for the next version.
 
-**[04:12] Goals for the Next Model**
+### Goals for the Next Model [04:12](https://www.youtube.com/watch?v=q4Tr-DknG2M&t=252s)
 For the next model, Cursor wants: a bigger, smarter model; full control over training (pre-training from scratch instead of using the open-source Kimmy base); infusing new data for general capabilities beyond coding; and scaling up every part of training—more data, more compute, pushing RL further.
 
-**[04:43] Improving the Outer Loop**
+### Improving the Outer Loop [04:43](https://www.youtube.com/watch?v=q4Tr-DknG2M&t=283s)
 Most of Cursor's revenue now comes from agent usage, which means the training data also comes from agent usage. Feedback falls into two buckets: external (thumbs up/down from users) and internal (heavy dogfooding, manual and automated reports). This outer loop, repeated over and over, produces better models—but the real speedup comes from the inner loop.
 
-**[05:45] High-Quality Evals**
+### High-Quality Evals [05:45](https://www.youtube.com/watch?v=q4Tr-DknG2M&t=345s)
 Robinson describes evals that model what it feels like to be a software engineer: understanding intent when 50 files are included, deciding when to push back vs. trust the user's judgment, and ambitious tasks like reading DataDog logs, Slack, and Notion to diagnose a sev incident. As models get smarter, they find creative ways to hack evals—digging through Git history for solutions or finding forks of public evals online. Cursor countered this by deleting Git history at the start of eval runs and using network allowlists. Robinson argues public benchmarks aren't a true test of model capability since real users have internet and Git access.
 
-**[08:18] Cursor Bench and Difficult Problems**
+### Cursor Bench and Difficult Problems [08:18](https://www.youtube.com/watch?v=q4Tr-DknG2M&t=498s)
 Cursor maintains Cursor Bench, a private eval set based on real-world engineering tasks from their own codebase, held out from training. As models improve, evals scoring ~90% need to be retired. Creating harder problems requires research, taste, and compute. One method: generate a complex application, delete a feature or files so tests fail, then ask the model to re-implement the feature with the verifiable goal of passing all tests.
 
-**[09:51] Textual Feedback as a Learning Method**
+### Textual Feedback as a Learning Method [09:51](https://www.youtube.com/watch?v=q4Tr-DknG2M&t=591s)
 Robinson introduces "textual feedback," a method for improving credit assignment in long RL rollouts (hundreds of thousands of tokens with tool calls and thinking blocks). Instead of grading the entire rollout, they zoom into a specific part, provide a hint to a "teacher" version of the model (e.g., "you have all these tools available"), and upweight or downweight probabilities accordingly. This works for tool-calling adherence, style changes, and any behavior they want to influence during RL.
 
-**[11:25] Scaling Compute with SpaceX**
+### Scaling Compute with SpaceX [11:25](https://www.youtube.com/watch?v=q4Tr-DknG2M&t=685s)
 Cursor partnered with SpaceX for compute, enabling training of large models from scratch. The partnership spans the full stack: product, models, supercomputers (Colossus), and chips (Terafab). Colossus was built in 122 days with 100k GPUs, then another 100k in 92 days. Robinson emphasizes the speed of standing up data centers. Terafab is building custom chips at massive physical scale.
 
-**[13:28] Where Compute Actually Goes**
+### Where Compute Actually Goes [13:28](https://www.youtube.com/watch?v=q4Tr-DknG2M&t=808s)
 Robinson breaks down the compute budget: serving models to end users; serving internal checkpoints and A/B tests; the training process itself (pre-training, mid-training, RL); training derivative models; data and reward generation; continuous evals; and research experimentation. The goal is a state where multiple large training runs happen simultaneously, researchers are unblocked, and everything contributes to the core flywheel.
 
-**[15:01] Recursive Model Improvement and Automation**
+### Recursive Model Improvement and Automation [15:01](https://www.youtube.com/watch?v=q4Tr-DknG2M&t=901s)
 With multiple runs in parallel, improvement accelerates toward something like recursive self-improvement (RSI). The bottleneck shifts to scaling the human researchers—automating monotonous ML work. Robinson uses a Mario metaphor: tools make the model "Super Mario," and rich context (MCPs, Slack, Notion, DataDog, codebase) makes it "Fire Mario." He highlights emerging tool needs: models controlling full computers, subscribing to Slack threads to monitor updates, and having a "Dropbox for themselves" to store artifacts.
 
-**[17:06] Agent Systems for Research Automation**
+### Agent Systems for Research Automation [17:06](https://www.youtube.com/watch?v=q4Tr-DknG2M&t=1026s)
 Cursor has built systems where researchers run experiments directly from Slack. An entire team is dedicated to automating every non-research part of ML work. Each ML team member gets a fleet of agents that can create difficult problems, generate new evals, and train models. If infrastructure goes down, agents page researchers directly. Robinson sees human-to-agent coordination as a major trend in the next six months, including agents working with other agents.
 
-**[18:37] The Model Trains the Next Model**
+### The Model Trains the Next Model [18:37](https://www.youtube.com/watch?v=q4Tr-DknG2M&t=1117s)
 Each new model generation can be distilled into derivative models used for judging, reward modeling, and other parts of the training pipeline. Improving the top-level model raises the intelligence floor across all loops, making every loop better. This is how Cursor approaches recursive self-improvement. Robinson concludes by thanking the Cursor team and hinting at a new model release very soon.
 
 ## Notable Quotes

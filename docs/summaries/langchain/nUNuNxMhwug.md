@@ -29,31 +29,31 @@ Toyota's enterprise AI team built "ToyotaGPT," an internal platform that compres
 
 ## Detailed Breakdown
 
-**[00:05] The Problem: Enterprise AI Chaos**
+### The Problem: Enterprise AI Chaos [00:05](https://www.youtube.com/watch?v=nUNuNxMhwug&t=5s)
 Ravi, head of Agent AI and product research at Toyota, introduces the context. When generative AI emerged in 2023, Toyota's 65,000-person organization saw every team rushing to build duplicate chatbots with no security or architecture standards. The enterprise AI team's mandate was to become the single platform for all AI agents — one standard, no duplication.
 
-**[01:40] From Six Months to Four Days**
+### From Six Months to Four Days [01:40](https://www.youtube.com/watch?v=nUNuNxMhwug&t=100s)
 A single RAG app at Toyota used to require six engineers and six months — not because AI was hard, but because everything around it (security reviews, architecture sign-offs, ingestion plumbing) was hard. The team built a dynamic graph creation approach on LangGraph: provide the use case and data connectors, and the graph builds itself. The architecture and security are constant, so only a config file changes per agent. Six months became four days; six engineers became one.
 
-**[02:43] Conquering Brutal Data Extraction**
+### Conquering Brutal Data Extraction [02:43](https://www.youtube.com/watch?v=nUNuNxMhwug&t=163s)
 Toyota's data is exceptionally difficult: PDFs, Word, Excel, CAD/AutoCAD files, scanned manuals from the 1990s, nested tables inside images, and multilingual content (Japanese and English). The team built custom extractors with layout-aware parsing, OCR with vision, and schema mapping to create one unified index — all built in-house to cut enterprise license costs. LangGraph routes dynamically by source type end-to-end.
 
-**[04:22] Skills: The Core Concept**
+### Skills: The Core Concept [04:22](https://www.youtube.com/watch?v=nUNuNxMhwug&t=262s)
 A "skill" is defined as a unit of intelligence. Toyota does two things at scale: shares enterprise-grade skills across every agent from one library (no drift, no duplication), and auto-generates skills from terabytes of unstructured data without engineers writing them by hand. A unified, MCP-compatible tool layer sits on top, with every tool pre-secured for any agent.
 
-**[05:26] Production Agents in the Wild**
+### Production Agents in the Wild [05:26](https://www.youtube.com/watch?v=nUNuNxMhwug&t=326s)
 Over 50 agents are in production. GearPull, born from a hackathon idea by Braden Buffard, lets manufacturing engineers type a problem and get a solution in 10 seconds — replacing manual bookshelf searches that took hours or days, with production line downtime costing millions. R&D GPT makes decades of paint and materials research searchable in seconds, compressing what took years. KadyaGPT lives inside the designer's canvas, querying best practices and identifying patterns with zero context switching.
 
-**[08:37] The TPS–LangChain Parallel**
+### The TPS–LangChain Parallel [08:37](https://www.youtube.com/watch?v=nUNuNxMhwug&t=517s)
 Kordel, head of AI engineering, takes over to explain the Toyota Production System (TPS): a philosophy for building things quickly with minimal resources, formalized in the 1980s to help Japan compete with fewer resources. He argues LangChain is the modern equivalent — the backbone for manufacturing next-generation software and agent workflows.
 
-**[10:43] TPS Principles Mapped to LangChain**
+### TPS Principles Mapped to LangChain [10:43](https://www.youtube.com/watch?v=nUNuNxMhwug&t=643s)
 - **Andon board → LangSmith**: Real-time observability showing what's broken, what needs attention, and what's going well across all agents.
 - **Kaizen → Continuous improvement**: Both at the macro level (LangChain shipping new features) and micro level (ReAct agents self-monitoring output quality).
 - **Jidoka → LangGraph**: "Automation with a human touch" — LangGraph abstracts monotony while keeping engineers in the loop, a handshake between AI automation and human guidance.
 - **Genchi Gembutsu → LangSmith traces**: "Go to the source" — traces let engineers see the exact route to a solution and pinpoint root causes without sifting through logs.
 
-**[15:30] The LangChain Production System**
+### The LangChain Production System [15:30](https://www.youtube.com/watch?v=nUNuNxMhwug&t=930s)
 Kordel concludes that LangChain carries TPS legacy forward into software and agentic manufacturing. He predicts the AI industry will look to LangChain as "the LangChain Production System" — the bedrock for all SaaS services and companies, just as TPS became the bedrock for all hardware manufacturing.
 
 ## Notable Quotes

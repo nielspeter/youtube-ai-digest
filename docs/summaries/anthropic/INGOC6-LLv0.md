@@ -31,34 +31,34 @@ Anthropic has developed a new, highly capable code-and-cybersecurity model, Clau
 
 ## Detailed Breakdown
 
-**[00:00] The hidden reality of software bugs**
+### The hidden reality of software bugs [00:00](https://www.youtube.com/watch?v=INGOC6-LLv0&t=0s)
 The video opens by contrasting the average person's experience of software—largely oblivious to bugs—with the daily reality of developers who must constantly manage flaws and vulnerabilities. Most bugs are minor and quietly fixed, but occasionally a single vulnerability in widely shared software can magnify out and cause severe global impact.
 
-**[00:30] The historical cost of vulnerability discovery**
+### The historical cost of vulnerability discovery [00:30](https://www.youtube.com/watch?v=INGOC6-LLv0&t=30s)
 Finding and patching vulnerabilities has traditionally been a slow, expensive, and labor-intensive process. The video then pivots to the transformative potential of large language models (LLMs): if they can write code at a world-class level, they can also find bugs and exploit software with comparable effectiveness, raising the bar for both defenders and adversaries.
 
-**[01:02] Introducing Claude Mythos Preview**
+### Introducing Claude Mythos Preview [01:02](https://www.youtube.com/watch?v=INGOC6-LLv0&t=62s)
 Anthropic developed a new model, Claude Mythos Preview, which showed early on that it was meaningfully better at cybersecurity tasks. The model was not specifically trained for cyber work; rather, its cyber capabilities emerged as a side effect of being trained to be good at code. Anthropic describes this as a significant jump along an accelerating exponential curve of capability.
 
-**[01:33] Professional-level bug finding and vulnerability chaining**
+### Professional-level bug finding and vulnerability chaining [01:33](https://www.youtube.com/watch?v=INGOC6-LLv0&t=93s)
 The model is described as being roughly as good as a professional human at identifying bugs. A standout capability is its ability to chain together multiple vulnerabilities—sometimes three to five—that individually do little, but in sequence produce sophisticated exploit outcomes. This is attributed to the model's autonomy and its ability to pursue long-range tasks similar to a human security researcher's daily workflow.
 
-**[02:35] Why the model won't be released widely**
+### Why the model won't be released widely [02:35](https://www.youtube.com/watch?v=INGOC6-LLv0&t=155s)
 Because these capabilities could cause harm in the wrong hands, Anthropic has decided not to release the model publicly. Acknowledging that even more powerful models will come from Anthropic and others, the company argues that a proactive plan is needed to respond to the emerging cybersecurity landscape.
 
-**[03:07] Launch of Project Glasswing**
+### Launch of Project Glasswing [03:07](https://www.youtube.com/watch?v=INGOC6-LLv0&t=187s)
 To address the risks, Anthropic is launching Project Glasswing, partnering with organizations that maintain some of the world's most critical code. By giving these developers advanced tools before anyone else, Anthropic aims to provide a collective head start—finding and fixing vulnerabilities faster than would otherwise be possible.
 
-**[03:39] Early results: bugs across major platforms**
+### Early results: bugs across major platforms [03:39](https://www.youtube.com/watch?v=INGOC6-LLv0&t=219s)
 Working with partners, the model has found vulnerabilities across essentially every major platform. One Anthropic researcher reports finding more bugs in a couple of weeks than in the rest of their life combined. The team first scanned open-source operating systems—the code underlying internet infrastructure—and found a 27-year-old bug in OpenBSD that could crash any server, plus privilege escalation vulnerabilities in Linux allowing a user with no permissions to become an administrator.
 
-**[04:13] Responsible disclosure and patching**
+### Responsible disclosure and patching [04:13](https://www.youtube.com/watch?v=INGOC6-LLv0&t=253s)
 For each bug found, Anthropic notified the maintainers, who fixed the issues and deployed patches so that users are no longer vulnerable. The video emphasizes how invaluable such a tool is for developers who tirelessly maintain software, allowing them to discover and fix vulnerabilities before exploitation.
 
-**[04:47] Government collaboration and societal stakes**
+### Government collaboration and societal stakes [04:47](https://www.youtube.com/watch?v=INGOC6-LLv0&t=287s)
 Anthropic has spoken with officials across the U.S. government, offering to collaborate on assessing the risks of these models and defending against them. The video underscores that software now underpins nearly every aspect of daily life—"Software ate the world"—making cybersecurity essential to the security of society itself.
 
-**[05:18] A long-term, cross-industry effort**
+### A long-term, cross-industry effort [05:18](https://www.youtube.com/watch?v=INGOC6-LLv0&t=318s)
 No single organization can see the whole picture or tackle the problem alone. The effort will span months or years, not weeks. Anthropic's hope is that, through collective action, the world's software, customer data, financial transactions, and critical infrastructure will ultimately be safer than before.
 
 ## Notable Quotes

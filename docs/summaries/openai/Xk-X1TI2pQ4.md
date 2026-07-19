@@ -28,13 +28,13 @@ Peter Steinberger, who works on Open Claw and secret projects at OpenAI, argues 
 
 ## Detailed Breakdown
 
-**[00:00] — A future more exciting than people realize**
+### A future more exciting than people realize [00:00](https://www.youtube.com/watch?v=Xk-X1TI2pQ4&t=0s)
 Steinberger opens by noting that many people are already enthusiastic about the future of AI, but insiders have a perspective that would amplify that excitement. He hints that the developments he and others at OpenAI are working on—including public work on Open Claw and unspecified "secret things"—represent a significant leap forward.
 
-**[00:00] — Hiring "cracked" AI talent**
+### Hiring "cracked" AI talent [00:00](https://www.youtube.com/watch?v=Xk-X1TI2pQ4&t=0s)
 He offers direct, practical advice to teams building for the AI era: secure at least one or two genuinely exceptional AI specialists. He uses the term "cracked" to describe people with standout ability, implying that ordinary familiarity with AI tools is not enough. He also suggests that companies may need to modify their interview processes to properly identify and assess this kind of talent.
 
-**[00:00] — A new talent profile for an agent-driven world**
+### A new talent profile for an agent-driven world [00:00](https://www.youtube.com/watch?v=Xk-X1TI2pQ4&t=0s)
 Steinberger highlights a key shift in what makes someone successful today. In the new AI-assisted world, people with less traditional backgrounds but strong creativity are thriving—particularly when working with AI agents. He closes by emphasizing that this represents a meaningful departure from the profiles companies have historically hired, and that organizations need to adapt accordingly.
 
 ## Notable Quotes

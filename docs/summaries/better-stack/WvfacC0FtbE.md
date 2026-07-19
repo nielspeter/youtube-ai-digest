@@ -31,34 +31,34 @@ PGRust is a Rust rewrite of PostgreSQL that passes all 46,000 official Postgres 
 
 ## Detailed Breakdown
 
-**[00:00] Introduction: A Postgres Rewrite That Passes Every Test**
+### Introduction: A Postgres Rewrite That Passes Every Test [00:00](https://www.youtube.com/watch?v=WvfacC0FtbE&t=0s)
 The video opens by introducing PGRust, a Rust rewrite of PostgreSQL that passes all 46,000 Postgres regression queries, works with standard PSQL, and can even boot an existing Postgres 18.3 data directory. While this sounds production-ready, it is not—but the most exciting version remains unreleased.
 
-**[00:32] The Problem With Postgres**
+### The Problem With Postgres [00:32](https://www.youtube.com/watch?v=WvfacC0FtbE&t=32s)
 Postgres is one of the best databases ever built, but it carries nearly four decades of architecture and roughly a million lines of C. Its process-per-connection model provides useful isolation but introduces memory overhead, connection pooling pressure, and difficulty sharing state across parallel work. PGRust takes a different approach: keep the behavior, client experience, and disk formats, but replace the engine with Rust.
 
-**[01:35] Testing PGRust in Practice**
+### Testing PGRust in Practice [01:35](https://www.youtube.com/watch?v=WvfacC0FtbE&t=95s)
 The presenter runs the official Docker image and connects with a standard PSQL client. PGRust reports itself as a distinct version, but from the outside it is indistinguishable from Postgres—same SQL, same output, real query plans with index scans and execution stats. A 100,000-row insert demonstrates it is a functional database server, not a partial implementation.
 
-**[02:38] What This Actually Proves**
+### What This Actually Proves [02:38](https://www.youtube.com/watch?v=WvfacC0FtbE&t=158s)
 The released version does not show dramatic speed improvements. The bigger performance claims come from an unreleased development version. However, the current release proves this is a real, complete implementation: it passes the full regression suite, speaks the real wire protocol, and has working query planning and storage engines.
 
-**[03:10] Why Not an Extension or Fork?**
+### Why Not an Extension or Fork? [03:10](https://www.youtube.com/watch?v=WvfacC0FtbE&t=190s)
 Extensions sit on top of the existing Postgres core and cannot change it. Forks can modify the core but inherit the same architecture and the burden of tracking upstream. Distributed databases like CockroachDB and Yugabyte are independent systems where exact drop-in compatibility is not the primary goal. PGRust uses actual Postgres behavior as its specification, targeting Postgres 18.3 compatibility.
 
-**[03:41] The Thread-per-Connection Experiment**
+### The Thread-per-Connection Experiment [03:41](https://www.youtube.com/watch?v=WvfacC0FtbE&t=221s)
 The unpublished version replaces Postgres's process-per-connection model with thread-per-connection. Threads reduce per-connection overhead and make state sharing easier, but they also remove the fault isolation that separate processes provide—a memory bug or unsafe extension could affect more of the server. This trade-off opens new doors but may remove safety rails.
 
-**[04:43] The Role of AI in the Rewrite**
+### The Role of AI in the Rewrite [04:43](https://www.youtube.com/watch?v=WvfacC0FtbE&t=283s)
 Michael Malis and Jason Seebol used AI coding agents heavily. The published version intentionally mirrors original Postgres structure, while the unpublished version explores larger architectural changes. The real experiment is whether AI can make a rewrite of this scale affordable enough that developers can rethink foundational architecture rather than just asking whether Rust makes Postgres faster.
 
-**[05:14] Performance Claims and Skepticism**
+### Performance Claims and Skepticism [05:14](https://www.youtube.com/watch?v=WvfacC0FtbE&t=314s)
 Developers claim roughly 50% better transactional performance and 300x better analytical performance, but the code behind these numbers is not publicly available for inspection or benchmarking. The community is split, with reasonable questions raised on GitHub. The presenter advises treating the numbers as promising claims, not settled facts, while noting that the exact multiplier may matter less than the freedom to experiment.
 
-**[06:17] Community Reaction: Two Sides**
+### Community Reaction: Two Sides [06:17](https://www.youtube.com/watch?v=WvfacC0FtbE&t=377s)
 The Hacker News discussion drew hundreds of comments, with both sides making valid points. Supporters note that passing every regression query is a serious, measurable achievement in a space where "Postgres compatible" can mean almost anything, and that AI-assisted rewrites may make previously prohibitively expensive infrastructure experiments viable. Critics argue that regression tests do not replace years of crash recovery, replication, and long-running stability testing, and that extension compatibility remains a major gap.
 
-**[07:52] Should You Use PGRust?**
+### Should You Use PGRust? [07:52](https://www.youtube.com/watch?v=WvfacC0FtbE&t=472s)
 The project itself states it is not production-ready, not fully optimized, and has unfinished extension compatibility. However, developers working with databases, Rust, query execution, compatibility testing, or AI development are encouraged to try it—run the Docker image, test client libraries, and read the source code.
 
 ## Notable Quotes

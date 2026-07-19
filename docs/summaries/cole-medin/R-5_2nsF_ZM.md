@@ -30,25 +30,25 @@ Personal AI agents built on local markdown knowledge bases (like the Karpathy LL
 
 ## Detailed Breakdown
 
-**[00:00] Personal Agents vs. Production Agents**
+### Personal Agents vs. Production Agents [00:00](https://www.youtube.com/watch?v=R-5_2nsF_ZM&t=0s)
 The video opens by distinguishing between personal AI agents (like a Karpathy LLM Wiki managed via Claude Code or Hermes) and production agents shipped to other users. Personal agents manage interconnected markdown documents locally, which is powerful but doesn't scale beyond a single user.
 
-**[01:32] Why Markdown Second Brains Don't Scale**
+### Why Markdown Second Brains Don't Scale [01:32](https://www.youtube.com/watch?v=R-5_2nsF_ZM&t=92s)
 Personal agents are markdown-driven because it's the simplest, most flexible format for building a knowledge base over time. However, once multiple users are involved, markdown fails. Databases are needed for organization, search, and file management at scale. Additionally, coding agent SDKs used for personal agents rely on personal subscriptions and are too token-expensive and slow for production use.
 
-**[03:04] The Production Agent Architecture**
+### The Production Agent Architecture [03:04](https://www.youtube.com/watch?v=R-5_2nsF_ZM&t=184s)
 Shipping an agent requires a database-driven architecture with two core components: a context retriever (for business data access) and agent memory (for short/long-term user memory). Redis Iris is introduced as the demonstration platform, providing both capabilities as a wrapper over the Redis database.
 
-**[06:10] Demo: Context Retriever and Agent Memory in Tandem**
+### Demo: Context Retriever and Agent Memory in Tandem [06:10](https://www.youtube.com/watch?v=R-5_2nsF_ZM&t=370s)
 Using a mock e-commerce database and a Pydantic AI agent, the video demonstrates a user asking about a delayed order and requesting handling per past preferences. The agent successfully queries business data (orders, shipments) via the context retriever and recalls a user preference ("prefers reshipments over refunds") from agent memory, all efficiently and without excessive token usage.
 
-**[09:49] How the Context Retriever Works**
+### How the Context Retriever Works [09:49](https://www.youtube.com/watch?v=R-5_2nsF_ZM&t=589s)
 The context retriever sits atop unstructured Redis key-value data and provides structure by defining entities (e.g., customers, products). It auto-generates an MCP server with tools for filtering and searching by each entity's attributes. This allows the agent to make single, efficient tool calls (e.g., filtering orders by status or searching tickets by text) instead of parsing schemas or reading index documents.
 
-**[14:56] How Agent Memory Works**
+### How Agent Memory Works [14:56](https://www.youtube.com/watch?v=R-5_2nsF_ZM&t=896s)
 Agent memory stores short-term session memory and automatically runs a background process to extract key information ("golden nuggets") into long-term memory. Long-term memories are stored as vectors for scalable semantic search. The video shows a user explicitly stating a preference, which is later recalled in a fresh session, demonstrating how the system builds user intelligence over time without manual memory management.
 
-**[18:02] Final Thoughts and Recommendation**
+### Final Thoughts and Recommendation [18:02](https://www.youtube.com/watch?v=R-5_2nsF_ZM&t=1082s)
 The video concludes by reiterating that markdown wikis are ideal for personal agents, but database-backed context and memory layers are essential for production. Redis Iris is highlighted as a strong example platform, though the architectural concepts apply broadly. The creator plans to continue covering both personal and production agent topics.
 
 ## Notable Quotes

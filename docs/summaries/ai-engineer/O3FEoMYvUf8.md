@@ -31,43 +31,43 @@ Alejandro Vidal argues that the standard practice of evaluating LLMs by counting
 
 ## Detailed Breakdown
 
-**[00:02] From Psychology to LLM Evaluation**
+### From Psychology to LLM Evaluation [00:02](https://www.youtube.com/watch?v=O3FEoMYvUf8&t=2s)
 Alejandro introduces his background in psychology and computer science, framing it as uniquely suited to the problem of LLM evaluation. He notes that the industry standard—counting correct answers—is essentially "classical test theory," a decades-old approach that psychometrics has since superseded. He proposes borrowing tools from IQ testing and modern psychometrics to improve how we benchmark models.
 
-**[00:34] The Problem with Equal Weighting**
+### The Problem with Equal Weighting [00:34](https://www.youtube.com/watch?v=O3FEoMYvUf8&t=34s)
 Using real benchmark data from epoch.ai, he shows a bar chart of model accuracies. Breaking each bar into individual questions (items), he highlights a critical assumption: summing scores treats every question as equally important. This ignores differences in question difficulty, quality, and potential mislabeling—flaws that better psychometric tools can address.
 
-**[02:07] Introducing Item Response Theory (IRT)**
+### Introducing Item Response Theory (IRT) [02:07](https://www.youtube.com/watch?v=O3FEoMYvUf8&t=127s)
 He explains the core IRT model: each item gets a difficulty parameter (B), and each model gets an intelligence parameter (theta). A logistic function maps theta to the probability of a correct answer, with B marking the 50% crossover point. Both B and theta follow normal distributions, making them interpretable relative to a population. This framework is called Item Response Theory, the evolution of classical test theory.
 
-**[04:46] The Discrimination Parameter (A)**
+### The Discrimination Parameter (A) [04:46](https://www.youtube.com/watch?v=O3FEoMYvUf8&t=286s)
 Beyond difficulty (B), each item has a discrimination slope (A). High-A items sharply distinguish strong from weak models. Low-A items carry little signal, and negatively discriminating items—where better models answer incorrectly—are especially problematic. Together, B and A give each question a rich, two-dimensional characterization.
 
-**[05:47] Estimating Model Intelligence via Likelihood**
+### Estimating Model Intelligence via Likelihood [05:47](https://www.youtube.com/watch?v=O3FEoMYvUf8&t=347s)
 He walks through how theta is estimated: each item contributes a likelihood curve, and combining all curves yields a posterior distribution for the model's intelligence. This distribution provides likelihood intervals—something classical test theory struggles to offer—giving a measure of uncertainty around the estimate.
 
-**[06:48] A Real-World Comparison: Claude Opus vs. Gemini 3 Pro**
+### A Real-World Comparison: Claude Opus vs. Gemini 3 Pro [06:48](https://www.youtube.com/watch?v=O3FEoMYvUf8&t=408s)
 He presents a striking example: Claude Opus 4.1 scored 245/337 and Gemini 3 Pro scored 247/337—a near-tie by raw counting. But IRT reveals the difference is nearly one standard deviation in theta, meaning Gemini is substantially more intelligent. This demonstrates how unweighted scoring can mask meaningful capability gaps, especially if one model answers harder questions.
 
-**[08:22] Application 1: Benchmark Auditing**
+### Application 1: Benchmark Auditing [08:22](https://www.youtube.com/watch?v=O3FEoMYvUf8&t=502s)
 Using the A and B parameters, he plots items by discrimination. Items near zero are noisy; negative items correlate inversely with intelligence. He flags these and uses another LLM to inspect them, finding two real issues: one where the gold answer was outright wrong, and another where the question asked for "passengers" but the gold answer included crew. IRT makes finding mislabeled or bad items cheap and systematic.
 
-**[10:56] Application 2: Benchmark Reduction**
+### Application 2: Benchmark Reduction [10:56](https://www.youtube.com/watch?v=O3FEoMYvUf8&t=656s)
 Organizations often build custom benchmarks, and reducing their size saves time and money. By selecting items with the highest discrimination (A), he reduced a 484-item benchmark to ~97 items while maintaining 99% correlation with the original ranking—a 5x reduction. Random selection performed far worse. He cautions that well-designed benchmarks like GPQA, where all items are highly discriminative and non-overlapping, don't benefit as much from reduction.
 
-**[14:04] Application 3: Detecting Contamination and Inference Issues**
+### Application 3: Detecting Contamination and Inference Issues [14:04](https://www.youtube.com/watch?v=O3FEoMYvUf8&t=844s)
 Because IRT predicts the probability of each answer, residuals (observed minus expected) reveal outliers. A strong model unexpectedly failing an easy item—or a weak model unexpectedly succeeding—can signal data leakage, overfitting, or inference problems (e.g., broken quantization). He shows a consistency matrix where O4Minnie displayed erratic behavior, suggesting possible infrastructure issues.
 
-**[16:41] Application 4: Adaptive Testing for Benchmark Protection**
+### Application 4: Adaptive Testing for Benchmark Protection [16:41](https://www.youtube.com/watch?v=O3FEoMYvUf8&t=1001s)
 To prevent benchmark leakage, he proposes an "anchor set" (shared across all organizations) plus organization-specific "fingerprint sets" of very hard questions. Months later, residuals on fingerprint sets can reveal if an organization's new models suspiciously overperform on those specific items—evidence of training on leaked data. He shows synthetic data where one organization's average residual was highly unlikely.
 
-**[18:47] Application 5: Bias Detection Across Model Groups**
+### Application 5: Bias Detection Across Model Groups [18:47](https://www.youtube.com/watch?v=O3FEoMYvUf8&t=1127s)
 Borrowing from psychometric bias research, he splits models into groups (e.g., open vs. closed weights) and generates separate item curves for each. If curves overlap, the item is unbiased; gaps indicate bias. Applying this across a benchmark, he found items systematically favoring one group, hinting at differences in training approaches between open and closed labs.
 
-**[20:22] Application 6: Model DNA and Lineage Detection**
+### Application 6: Model DNA and Lineage Detection [20:22](https://www.youtube.com/watch?v=O3FEoMYvUf8&t=1222s)
 Residuals across items create a behavioral fingerprint. Correlating these fingerprints across models reveals clusters: models from the same lab, different versions of the same model, and distillations of a shared base all show high residual correlation. This opens research into detecting unauthorized distillation and mapping model relationships.
 
-**[22:27] Future Directions and Closing**
+### Future Directions and Closing [22:27](https://www.youtube.com/watch?v=O3FEoMYvUf8&t=1347s)
 He outlines unexplored areas: multidimensional and hierarchical IRT to capture different skill domains; merging multiple benchmarks (referencing the "Meta-Benchmark" paper); adding signals like latency or token counts; and using psychometric models to measure alignment and aid mechanistic interpretability. He shares all materials, skills, and benchmarks for further experimentation.
 
 ## Notable Quotes

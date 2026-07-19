@@ -3074,13 +3074,22 @@
       "generated": "2026-07-18T23:06:32+00:00"
     },
     "3ySF0I5iE_0": {
-      "video_id": "3ySF0I5iE_0",
+      "status": "done",
       "title": "A Practitioner's Guide to Graphs - Tim Ainge, Good Collective",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-18T21:30:06+00:00",
       "url": "https://www.youtube.com/watch?v=3ySF0I5iE_0",
+      "generated": "2026-07-19T03:48:35+00:00"
+    },
+    "XLEYtv3cMlw": {
+      "status": "done",
+      "title": "Autonomous Agents for Scientific Tasks - Sina Shahandeh, Radicait",
+      "channel": "AI Engineer",
       "channel_slug": "ai-engineer",
-      "status": "blocked"
+      "published": "2026-07-18T23:30:06+00:00",
+      "url": "https://www.youtube.com/watch?v=XLEYtv3cMlw",
+      "generated": "2026-07-19T03:47:22+00:00"
     }
   }
 }

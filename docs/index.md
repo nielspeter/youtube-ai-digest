@@ -4,11 +4,13 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **205** videos summarized.
+Auto-generated summaries of subscribed channels. **207** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/XLEYtv3cMlw"><img loading="lazy" src="https://i.ytimg.com/vi/XLEYtv3cMlw/hqdefault.jpg" alt=""><span class="video-title">Autonomous Agents for Scientific Tasks - Sina Shahandeh, Radicait</span><span class="video-date">2026-07-18</span></a>
+<a class="video-card" href="summaries/ai-engineer/3ySF0I5iE_0"><img loading="lazy" src="https://i.ytimg.com/vi/3ySF0I5iE_0/hqdefault.jpg" alt=""><span class="video-title">A Practitioner&#x27;s Guide to Graphs - Tim Ainge, Good Collective</span><span class="video-date">2026-07-18</span></a>
 <a class="video-card" href="summaries/ai-engineer/L3RuP_q8Bwc"><img loading="lazy" src="https://i.ytimg.com/vi/L3RuP_q8Bwc/hqdefault.jpg" alt=""><span class="video-title">The UX of AI: Making AI-Powered Apps Your Users Don&#x27;t Hate - Kathryn Grayson Nanz, Progress Software</span><span class="video-date">2026-07-18</span></a>
 <a class="video-card" href="summaries/ai-engineer/eAXxdtNlK04"><img loading="lazy" src="https://i.ytimg.com/vi/eAXxdtNlK04/hqdefault.jpg" alt=""><span class="video-title">Stop Burning Tokens: Why self-improvement needs domain expertise first - Annabell Schäfer, Langfuse</span><span class="video-date">2026-07-18</span></a>
 <a class="video-card" href="summaries/ai-engineer/Bck7ABCZRZI"><img loading="lazy" src="https://i.ytimg.com/vi/Bck7ABCZRZI/hqdefault.jpg" alt=""><span class="video-title">Stop Renting Your Cognitive Infrastructure - Thiyagarajan Maruthavanan, Kalmantic Labs</span><span class="video-date">2026-07-18</span></a>

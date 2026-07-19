@@ -61,14 +61,13 @@ The ultimate impact of ChatGPT has been giving the team time back. Instead of ma
 ## Who Should Watch
 Product marketing leaders and small teams looking to scale content output without growing headcount. Anyone interested in practical examples of using ChatGPT and API-connected AI systems to automate research and content workflows will find this relevant.
 
+## Transcript
 
 <details class="transcript">
 <summary>Full transcript</summary>
 
-<p>ChatGPT has made a humble accountant into a marketing and strategic superstar. I&#x27;m the director of product marketing at Stampley, and we&#x27;re AI-centric everything. A really powerful use case is the ability to automate the process of extracting information from product and making sure that all of our assets are up-to-date.</p>
-<p>Historically, this was a process that was manually done. We had to interview product managers, extract information, read Jira, go through GitHub, and try to extract everything that we could. We have basically a GPT-powered</p>
-<p>have basically a GPT-powered system that extracts the information from Jira, that transcribes and extracts context from meeting notes. What it&#x27;s allowed basically a one-person team to do the work of a team of four or five, putting out hundreds of pieces of content on a weekly basis.</p>
-<p>The person in the meeting actually had Codex connected to multiple systems via API, and was able to actually extract all of the data and reporting, and give us the answers right there live on the call. It&#x27;s really given us time back to become advisors and strategic levers, as opposed to just</p>
-<p>and strategic levers, as opposed to just manually processing and writing.</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=yATno77Uo6A&amp;t=4s">00:04</a></span> ChatGPT has made a humble accountant into a marketing and strategic superstar. I&#x27;m the director of product marketing at Stampley, and we&#x27;re AI-centric everything. A really powerful use case is the ability to automate the process of extracting information from product and making sure that all of our assets are up-to-date. Historically, this was a process that was manually done. We had to interview product managers, extract information, read Jira, go through GitHub, and try to extract everything that we could. We have basically a GPT-powered</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=yATno77Uo6A&amp;t=35s">00:35</a></span> have basically a GPT-powered system that extracts the information from Jira, that transcribes and extracts context from meeting notes. What it&#x27;s allowed basically a one-person team to do the work of a team of four or five, putting out hundreds of pieces of content on a weekly basis. The person in the meeting actually had Codex connected to multiple systems via API, and was able to actually extract all of the data and reporting, and give us the answers right there live on the call. It&#x27;s really given us time back to become advisors and strategic levers, as opposed to just</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=yATno77Uo6A&amp;t=67s">01:07</a></span> and strategic levers, as opposed to just manually processing and writing.</p>
 
 </details>

@@ -52,30 +52,13 @@ A host mentions trying to open the stream on YouTube to see chat and comments. T
 ## Who Should Watch
 Viewers interested in live, conversational AI news coverage with a casual, collaborative format. The stream appears geared toward audiences who enjoy unfiltered discussion of current AI developments, starting with OpenAI's hardware ambitions.
 
+## Transcript
 
 <details class="transcript">
 <summary>Full transcript</summary>
 
-<p>I think it&#x27;s Alex.</p>
-<p>Probably [snorts] Alex.</p>
-<p>What the heck?</p>
-<p>Mute Mute yourself. We are live, yeah. Can you put a thumbnail up?</p>
-<p>You&#x27;re live right now? Okay.</p>
-<p>[laughter]</p>
-<p>I wish we could see Can they hear us right now?</p>
-<p>Probably, yeah.</p>
-<p>Apparently. I think you have three viewers. That&#x27;s what eCamm is telling me.</p>
-<p>Yeah. Well, it might be us three.</p>
-<p>Yeah. Well, it might be us three.</p>
-<p>No, no, no, no. There&#x27;s people pouring in.</p>
-<p>Oh, yeah. There we go. What&#x27;s up, everybody?</p>
-<p>Hello.</p>
-<p>We&#x27;re live with the full Future team.</p>
-<p>Yeah. All right, we got a lot We got a a bunch of cool stuff to talk about. Let&#x27;s see.</p>
-<p>see chat yet.</p>
-<p>Uh you You Can you see comments and reaction Oh, no, cuz you&#x27;re connected here.</p>
-<p>here.</p>
-<p>Well, I&#x27;m trying to open it on YouTube.</p>
-<p>All right, that&#x27;s cool. So, um we have the first hardware device from OpenAI.</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=WMiylHobhBM&amp;t=0s">00:00</a></span> I think it&#x27;s Alex. Probably [snorts] Alex. What the heck? Mute Mute yourself. We are live, yeah. Can you put a thumbnail up? You&#x27;re live right now? Okay. [laughter] I wish we could see Can they hear us right now? Probably, yeah. Apparently. I think you have three viewers. That&#x27;s what eCamm is telling me. Yeah. Well, it might be us three.</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=WMiylHobhBM&amp;t=30s">00:30</a></span> Yeah. Well, it might be us three. No, no, no, no. There&#x27;s people pouring in. Oh, yeah. There we go. What&#x27;s up, everybody? Hello. We&#x27;re live with the full Future team. Yeah. All right, we got a lot We got a a bunch of cool stuff to talk about. Let&#x27;s see. see chat yet. Uh you You Can you see comments and reaction Oh, no, cuz you&#x27;re connected here.</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=WMiylHobhBM&amp;t=61s">01:01</a></span> here. Well, I&#x27;m trying to open it on YouTube. All right, that&#x27;s cool. So, um we have the first hardware device from OpenAI.</p>
 
 </details>

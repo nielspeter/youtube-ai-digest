@@ -48,12 +48,12 @@ The speaker explains how their team used ChatGPT to process thousands of data po
 ## Who Should Watch
 This video is ideal for individual contributors, go-to-market professionals, and operations team members looking for practical examples of how to use ChatGPT to automate manual data analysis and scale workflows across a global organization.
 
+## Transcript
 
 <details class="transcript">
 <summary>Full transcript</summary>
 
-<p>I&#x27;m an individual contributor at Nvidia and ChatGPT has really been a force multiplier for me personally. With ChatGPT, I think the real key is that I&#x27;m able to take a workflow I&#x27;ve already developed and I&#x27;m able to automate it event over event with little to no overhead. I&#x27;d say like 40% of my time was reserved for kind of manual number crunching analysis. I mean now that&#x27;s gone, too. It&#x27;s an automated process that just runs twice a week in ChatGPT. So that was a real quality of life improvement. I really like like that one a lot. This</p>
-<p>I really like like that one a lot. This year we were able to use ChatGPT to synthesize, you know, thousands of data points, transcripts,</p>
-<p>notes from customer meetings, and we&#x27;re able to pretty simply synthesize, you know, how did we do against our goals? You build the building block yourself and then it can scale to your global team pretty easily.</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=xYVfknDQHU4&amp;t=4s">00:04</a></span> I&#x27;m an individual contributor at Nvidia and ChatGPT has really been a force multiplier for me personally. With ChatGPT, I think the real key is that I&#x27;m able to take a workflow I&#x27;ve already developed and I&#x27;m able to automate it event over event with little to no overhead. I&#x27;d say like 40% of my time was reserved for kind of manual number crunching analysis. I mean now that&#x27;s gone, too. It&#x27;s an automated process that just runs twice a week in ChatGPT. So that was a real quality of life improvement. I really like like that one a lot. This</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=xYVfknDQHU4&amp;t=35s">00:35</a></span> I really like like that one a lot. This year we were able to use ChatGPT to synthesize, you know, thousands of data points, transcripts, notes from customer meetings, and we&#x27;re able to pretty simply synthesize, you know, how did we do against our goals? You build the building block yourself and then it can scale to your global team pretty easily.</p>
 
 </details>

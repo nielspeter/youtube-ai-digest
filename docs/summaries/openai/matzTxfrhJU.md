@@ -62,32 +62,14 @@ The presenters note that a model with this level of background robustness greatl
 ## Who Should Watch
 Developers, product designers, and anyone interested in voice AI interfaces who wants to see how far real-time voice models have come in handling noisy, multi-speaker environments and natural conversational dynamics.
 
+## Transcript
 
 <details class="transcript">
 <summary>Full transcript</summary>
 
-<p>Voice models are new interface for</p>
-<p>lots of new things and they&#x27;re only super useful if they understand context well and let you interact with them in a very natural way.</p>
-<p>Our new voice model chooses from the context whom or what to focus on and provides response directly to that.</p>
-<p>The model actually acquires a proper understanding of what a human conversation is.</p>
-<p>So, one of the big challenges with voice models in the past has been their ability to understand who is talking with them and who is not.</p>
-<p>who is talking with them and who is not. It&#x27;s often referred to as the cocktail party problem where at a party you have trouble focusing on a single person talking because of all the noise of the other voices.</p>
-<p>Do you want to give this this a try for a demo?</p>
-<p>Yeah, definitely.</p>
-<p>Let&#x27;s do it.</p>
-<p>Hey Chat, where are some good places in the city to view fireworks?</p>
-<p>Sure, if you mean San Francisco.</p>
-<p>Awesome. I actually live in Noe Valley and don&#x27;t want to go that far. Are there good places to view fireworks that are</p>
-<p>good places to view fireworks that are closer to Noe Valley, maybe walkable?</p>
-<p>If you stay near Noe Valley, you&#x27;ve got a couple solid nearby options. Twin Peaks is</p>
-<p>Oh, I love Twin Peaks. That&#x27;s That&#x27;s close enough. I&#x27;ll I&#x27;ll go ahead out there. Thanks, Chat.</p>
-<p>Okay.</p>
-<p>Great. Have a good one.</p>
-<p>One of the really nice things here is like how close we&#x27;re standing to you and the model understands it.</p>
-<p>I think it&#x27;s particularly apparent with being able to interrupt the model even in this loud environment and it adjusts to the new things you&#x27;re saying to it very quickly.</p>
-<p>The back and forth dynamics are really good.</p>
-<p>With a new model like this, the number</p>
-<p>With a new model like this, the number of use cases, the places where you can apply it, the number of situations where it can function is like greatly increased.</p>
-<p>Yeah, super excited for this to get out there in the world.</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=matzTxfrhJU&amp;t=0s">00:00</a></span> Voice models are new interface for lots of new things and they&#x27;re only super useful if they understand context well and let you interact with them in a very natural way. Our new voice model chooses from the context whom or what to focus on and provides response directly to that. The model actually acquires a proper understanding of what a human conversation is. So, one of the big challenges with voice models in the past has been their ability to understand who is talking with them and who is not.</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=matzTxfrhJU&amp;t=31s">00:31</a></span> who is talking with them and who is not. It&#x27;s often referred to as the cocktail party problem where at a party you have trouble focusing on a single person talking because of all the noise of the other voices. Do you want to give this this a try for a demo? Yeah, definitely. Let&#x27;s do it. Hey Chat, where are some good places in the city to view fireworks? Sure, if you mean San Francisco. Awesome. I actually live in Noe Valley and don&#x27;t want to go that far. Are there good places to view fireworks that are</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=matzTxfrhJU&amp;t=62s">01:02</a></span> good places to view fireworks that are closer to Noe Valley, maybe walkable? If you stay near Noe Valley, you&#x27;ve got a couple solid nearby options. Twin Peaks is Oh, I love Twin Peaks. That&#x27;s That&#x27;s close enough. I&#x27;ll I&#x27;ll go ahead out there. Thanks, Chat. Okay. Great. Have a good one. One of the really nice things here is like how close we&#x27;re standing to you and the model understands it. I think it&#x27;s particularly apparent with being able to interrupt the model even in this loud environment and it adjusts to the new things you&#x27;re saying to it very quickly. The back and forth dynamics are really good. With a new model like this, the number</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=matzTxfrhJU&amp;t=93s">01:33</a></span> With a new model like this, the number of use cases, the places where you can apply it, the number of situations where it can function is like greatly increased. Yeah, super excited for this to get out there in the world.</p>
 
 </details>

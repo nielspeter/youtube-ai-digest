@@ -58,17 +58,14 @@ The video closes by emphasizing the rapid progress AI enables in understanding n
 ## Who Should Watch
 This video is ideal for biomedical researchers, clinicians, and anyone interested in how AI is accelerating drug discovery and addressing the urgent global health crisis of antibiotic resistance. It offers a concise, accessible look at how tools like Gemini are changing the pace and creativity of antimicrobial science.
 
+## Transcript
 
 <details class="transcript">
 <summary>Full transcript</summary>
 
-<p>It&#x27;s recognized internationally that there is a silent pandemic of antimicrobial resistance, and we need some new way of thinking.</p>
-<p>If you want an effective therapy, you have to continuously find new variations of antibiotics. This will always be the problem. It&#x27;s inherent to biological systems. If patients don&#x27;t respond to the antibiotics, they can have life-threatening infections. We generate new antimicrobial agents, but pretty much as soon as we generate</p>
-<p>but pretty much as soon as we generate those new antimicrobial agents, resistance arises. You&#x27;re constantly chasing to try and solve a problem.</p>
-<p>This is where we&#x27;re finding that AI tools are very powerful.</p>
-<p>When I started many years ago, it could take years to elucidate experimental structure. Yeah, it&#x27;s 6 minutes with tools I got for four.</p>
-<p>for four.</p>
-<p>DeepMind tools have been absolutely transformative. We can accomplish things that we couldn&#x27;t independently before. We&#x27;ve been using AI programs like Gemini as I understand, and it does come up with things that are a bit out of the box and change our perspective. It often generated ideas that I didn&#x27;t even necessarily ask it for. It just connected certain dots which were there in previous questions, which I find remarkable. We&#x27;re making such rapid progress into</p>
-<p>We&#x27;re making such rapid progress into understanding that new biology and understanding new biological principles. What I hadn&#x27;t anticipated is the power of networks to pick up on patterns that are not always intuitively apparent to the human eye. It makes the matches and correlations that allows us to find new ways of treating threatening infections.</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=Cnuj24PjWrQ&amp;t=4s">00:04</a></span> It&#x27;s recognized internationally that there is a silent pandemic of antimicrobial resistance, and we need some new way of thinking. If you want an effective therapy, you have to continuously find new variations of antibiotics. This will always be the problem. It&#x27;s inherent to biological systems. If patients don&#x27;t respond to the antibiotics, they can have life-threatening infections. We generate new antimicrobial agents, but pretty much as soon as we generate</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=Cnuj24PjWrQ&amp;t=35s">00:35</a></span> but pretty much as soon as we generate those new antimicrobial agents, resistance arises. You&#x27;re constantly chasing to try and solve a problem. This is where we&#x27;re finding that AI tools are very powerful. When I started many years ago, it could take years to elucidate experimental structure. Yeah, it&#x27;s 6 minutes with tools I got for four.</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=Cnuj24PjWrQ&amp;t=66s">01:06</a></span> for four. DeepMind tools have been absolutely transformative. We can accomplish things that we couldn&#x27;t independently before. We&#x27;ve been using AI programs like Gemini as I understand, and it does come up with things that are a bit out of the box and change our perspective. It often generated ideas that I didn&#x27;t even necessarily ask it for. It just connected certain dots which were there in previous questions, which I find remarkable. We&#x27;re making such rapid progress into</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=Cnuj24PjWrQ&amp;t=96s">01:36</a></span> We&#x27;re making such rapid progress into understanding that new biology and understanding new biological principles. What I hadn&#x27;t anticipated is the power of networks to pick up on patterns that are not always intuitively apparent to the human eye. It makes the matches and correlations that allows us to find new ways of treating threatening infections.</p>
 
 </details>

@@ -41,10 +41,11 @@ Music continues, accompanied by a single spoken interjection: "Ooh." No further 
 ## Who Should Watch
 This clip appears best suited as a brief teaser for those already following Anthropic's updates, though viewers seeking substantive information about Claude's interactive tools will likely need to watch a fuller video or read accompanying documentation.
 
+## Transcript
 
 <details class="transcript">
 <summary>Full transcript</summary>
 
-<p>Ooh.</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=bluAmTHoEow&amp;t=33s">00:33</a></span> Ooh.</p>
 
 </details>

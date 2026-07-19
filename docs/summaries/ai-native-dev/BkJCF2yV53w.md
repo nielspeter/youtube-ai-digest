@@ -39,3 +39,12 @@ To address these scaling challenges, the team developed the concept of "agent id
 
 ## Who Should Watch
 This short video is ideal for engineering leaders, AI architects, and platform teams who are thinking about how to deploy AI agents in enterprise environments and need to understand the identity, permissions, and auditing challenges involved in moving beyond single-user prototypes.
+
+## Transcript
+
+<details class="transcript">
+<summary>Full transcript</summary>
+
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=BkJCF2yV53w&amp;t=0s">00:00</a></span> There&#x27;s things that on the surface look like an amazing idea and feel like an amazing experience like single player, but when you really think about what it takes to scale that thing to the enterprise, it&#x27;s a really different shape of problems. We came up with this concept of agent identities. We actually give that agent its own permissions and its own keys, etc. So that it can go off and like work autonomously on these things. It&#x27;s not working on behalf of one individual, it&#x27;s working on behalf of the team and it&#x27;s much easier to kind of audit that.</p>
+
+</details>

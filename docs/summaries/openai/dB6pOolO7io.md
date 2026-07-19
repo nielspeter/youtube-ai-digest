@@ -50,12 +50,13 @@ The video closes with a brief wrap-up encouraging users to try the new ChatGPT c
 ## Who Should Watch
 Professionals, administrators, and anyone who regularly performs repetitive desktop or browser-based tasks (like data entry or report compilation) and is looking to automate their daily workflows using AI.
 
+## Transcript
 
 <details class="transcript">
 <summary>Full transcript</summary>
 
-<p>With the new ChatGPT app, you can get a range of real work done by using it to control the websites and apps you already use. For example, I want to analyze recent posts from our community forum to identify top issues causing user frustration in the past month. ChatGPT can use the in-app browser to scan the forum and compile a friction report. The in-app browser also has a built-in annotation tool. I can use it to provide more targeted feedback or ask a question on a specific page without the need to write overly verbose instructions.</p>
-<p>If you need to use your existing browser&#x27;s context instead, you can connect it to ChatGPT using the Chrome extension. ChatGPT can use tabs you already have open or create new ones in the background without disturbing you. This is great for tasks like filing expense reports or long data entry workflows. And if the tool you need to use is not a website but an app on your desktop, you can use Computer Use to control any app on your Windows or macOS computer. On macOS, ChatGPT has its own cursor so it can even work in the background so you can continue to do other things.</p>
-<p>With the new ChatGPT, you can now get more done by connecting it directly to the apps and tools that you use daily. Give it a try.</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=dB6pOolO7io&amp;t=5s">00:05</a></span> With the new ChatGPT app, you can get a range of real work done by using it to control the websites and apps you already use. For example, I want to analyze recent posts from our community forum to identify top issues causing user frustration in the past month. ChatGPT can use the in-app browser to scan the forum and compile a friction report. The in-app browser also has a built-in annotation tool. I can use it to provide more targeted feedback or ask a question on a specific page without the need to write overly verbose instructions.</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=dB6pOolO7io&amp;t=36s">00:36</a></span> If you need to use your existing browser&#x27;s context instead, you can connect it to ChatGPT using the Chrome extension. ChatGPT can use tabs you already have open or create new ones in the background without disturbing you. This is great for tasks like filing expense reports or long data entry workflows. And if the tool you need to use is not a website but an app on your desktop, you can use Computer Use to control any app on your Windows or macOS computer. On macOS, ChatGPT has its own cursor so it can even work in the background so you can continue to do other things.</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=dB6pOolO7io&amp;t=66s">01:06</a></span> With the new ChatGPT, you can now get more done by connecting it directly to the apps and tools that you use daily. Give it a try.</p>
 
 </details>

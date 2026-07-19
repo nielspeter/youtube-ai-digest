@@ -52,12 +52,12 @@ The speaker recounts spending a weekend diving into the problem and building a s
 ## Who Should Watch
 Sales operations and revenue operations professionals, as well as anyone interested in practical, high-impact applications of ChatGPT with Codex for automating complex business workflows. It is especially relevant for those looking to understand how AI tools can be applied to lead management and pipeline generation at scale.
 
+## Transcript
 
 <details class="transcript">
 <summary>Full transcript</summary>
 
-<p>ChatGPT with Codex has been my favorite part of my job over the last 3 months, 4 months since the Codex app launched. At Zapier, we have a no lead left behind initiative that was targeted at minimizing the dropped inbound leads to make sure all of them we could get to a meeting. A single person</p>
-<p>doing one lead, mind you Zapier has thousands of these. One lead would take like 35 to 45 minutes to get a picture of what was going wrong. I spent a weekend diving in and building with ChatGPT with Codex a system that</p>
-<p>ChatGPT with Codex a system that would basically QA/QC for us using all of the steps that a human would do and quantified the impact of this project to the tune of seven figures in pipeline every single month that we were then able to hand off to sales. It has just transformed how we do work and what we&#x27;re able to do.</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=sqXsMDOxP0Y&amp;t=4s">00:04</a></span> ChatGPT with Codex has been my favorite part of my job over the last 3 months, 4 months since the Codex app launched. At Zapier, we have a no lead left behind initiative that was targeted at minimizing the dropped inbound leads to make sure all of them we could get to a meeting. A single person doing one lead, mind you Zapier has thousands of these. One lead would take like 35 to 45 minutes to get a picture of what was going wrong. I spent a weekend diving in and building with ChatGPT with Codex a system that</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=sqXsMDOxP0Y&amp;t=35s">00:35</a></span> ChatGPT with Codex a system that would basically QA/QC for us using all of the steps that a human would do and quantified the impact of this project to the tune of seven figures in pipeline every single month that we were then able to hand off to sales. It has just transformed how we do work and what we&#x27;re able to do.</p>
 
 </details>

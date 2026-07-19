@@ -3119,13 +3119,13 @@
       "generated": "2026-07-19T15:11:06+00:00"
     },
     "lMCxVorb9wM": {
-      "video_id": "lMCxVorb9wM",
+      "status": "done",
       "title": "You Didn't Ship a Bug. You Just Wrote It for a Human. - Ravi Madabhushi, Scalekit",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-19T16:00:06+00:00",
       "url": "https://www.youtube.com/watch?v=lMCxVorb9wM",
-      "channel_slug": "ai-engineer",
-      "status": "blocked"
+      "generated": "2026-07-19T19:22:21+00:00"
     },
     "xhplGdHRf_M": {
       "video_id": "xhplGdHRf_M",
@@ -3135,6 +3135,16 @@
       "url": "https://www.youtube.com/watch?v=xhplGdHRf_M",
       "channel_slug": "the-pragmatic-engineer",
       "status": "short"
+    },
+    "AopewjYV1Ho": {
+      "video_id": "AopewjYV1Ho",
+      "title": "Celebrating 2 million with you!",
+      "channel": "OpenAI",
+      "published": "2026-07-19T18:46:37+00:00",
+      "url": "https://www.youtube.com/watch?v=AopewjYV1Ho",
+      "channel_slug": "openai",
+      "status": "no_transcript",
+      "attempts": 1
     }
   }
 }

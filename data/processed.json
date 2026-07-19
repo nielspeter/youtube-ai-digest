@@ -3117,6 +3117,24 @@
       "published": "2026-07-19T13:45:06+00:00",
       "url": "https://www.youtube.com/watch?v=JJGbw4ggaFs",
       "generated": "2026-07-19T15:11:06+00:00"
+    },
+    "lMCxVorb9wM": {
+      "video_id": "lMCxVorb9wM",
+      "title": "You Didn't Ship a Bug. You Just Wrote It for a Human. - Ravi Madabhushi, Scalekit",
+      "channel": "AI Engineer",
+      "published": "2026-07-19T16:00:06+00:00",
+      "url": "https://www.youtube.com/watch?v=lMCxVorb9wM",
+      "channel_slug": "ai-engineer",
+      "status": "blocked"
+    },
+    "xhplGdHRf_M": {
+      "video_id": "xhplGdHRf_M",
+      "title": "JUnit was built on a plane",
+      "channel": "The Pragmatic Engineer",
+      "published": "2026-07-19T16:00:04+00:00",
+      "url": "https://www.youtube.com/watch?v=xhplGdHRf_M",
+      "channel_slug": "the-pragmatic-engineer",
+      "status": "short"
     }
   }
 }

@@ -31,55 +31,55 @@ Matt Pocock reviews Cursor's "thermonuclear code quality review" skill, testing 
 
 ## Detailed Breakdown
 
-**[00:00] Introduction and Motivation**
+### Introduction and Motivation [00:00](https://www.youtube.com/watch?v=mh5XZ-L5SFQ&t=0s)
 Matt introduces automated code review as one of the most impactful ways to improve agent-generated code quality. He has his own review skill in a popular repo (109K stars) but isn't satisfied with it, so he's looking for inspiration elsewhere.
 
-**[00:30] Discovering Cursor's Thermonuclear Review Skill**
+### Discovering Cursor's Thermonuclear Review Skill [00:30](https://www.youtube.com/watch?v=mh5XZ-L5SFQ&t=30s)
 He found a skill from the Cursor team called "thermonuclear code quality review," designed for unusually strict reviews focused on implementation quality, maintainability, abstraction quality, and codebase health. What stands out immediately is how ambitious it asks the reviewer to be, specifically looking for "code judo moves."
 
-**[01:02] Setting Up the Test**
+### Setting Up the Test [01:02](https://www.youtube.com/watch?v=mh5XZ-L5SFQ&t=62s)
 The skill is a single `skill.md` file. Matt copies it locally and tests it against the last five PRs merged to main in Sandcastle, his open-source software factory. He runs it on auto mode and begins reading the skill while it works.
 
-**[01:32] The Baseline Prompt**
+### The Baseline Prompt [01:32](https://www.youtube.com/watch?v=mh5XZ-L5SFQ&t=92s)
 The skill opens by instructing a deep code quality audit: rethink structure, improve abstractions, modularity, reduce spaghetti code, improve succinctness and legibility. Matt notes that most review prompts fail because the agent treats the diff as its boundary. This one explicitly tells the agent to look throughout the entire codebase.
 
-**[02:34] The 1K-Line File Rule**
+### The 1K-Line File Rule [02:34](https://www.youtube.com/watch?v=mh5XZ-L5SFQ&t=154s)
 The skill prohibits pushing a file past 1,000 lines without strong justification. Matt agrees: large files are hard for agents because they must ingest the entire file into context. Splitting files lets filenames serve as context pointers. He personally splits files over 5K tokens.
 
-**[03:04] Anti-Spaghetti and Anti-Nesting Rules**
+### Anti-Spaghetti and Anti-Nesting Rules [03:04](https://www.youtube.com/watch?v=mh5XZ-L5SFQ&t=184s)
 Random if-statements scattered in existing code are treated as design problems, not style nits. The skill prefers pushing logic into dedicated abstractions, helpers, state machines, or separate modules. Matt is somewhat ambivalent but accepts it as generally good practice.
 
-**[03:35] Boring Code Over Magical Code**
+### Boring Code Over Magical Code [03:35](https://www.youtube.com/watch?v=mh5XZ-L5SFQ&t=215s)
 The skill prefers direct, boring, maintainable code over hacky and magical solutions. Matt recognizes this as a classic prompt pattern, similar to Claude Code's "simplify" philosophy.
 
-**[04:07] Type and Boundary Cleanliness**
+### Type and Boundary Cleanliness [04:07](https://www.youtube.com/watch?v=mh5XZ-L5SFQ&t=247s)
 The skill pushes hard on types: question unnecessary optionality, `unknown`, `any`, and cast-heavy code. Matt strongly resonates with the optionality point—agents always add props as optional even when required, which he finds frustrating.
 
-**[05:09] Canonical Helpers and Parallel Execution**
+### Canonical Helpers and Parallel Execution [05:09](https://www.youtube.com/watch?v=mh5XZ-L5SFQ&t=309s)
 The skill prefers existing utilities over bespoke one-offs and treats unnecessary sequential orchestration as a design smell. Matt finds the parallelism point valid but thinks the wording is "word salad" and would rewrite it more directly.
 
-**[05:40] Primary Review Questions**
+### Primary Review Questions [05:40](https://www.youtube.com/watch?v=mh5XZ-L5SFQ&t=340s)
 Key questions include: Is there a code judo move that would make this dramatically simpler? Can this be reframed to need fewer concepts? Matt loves the first two but criticizes "Does this improve or worsen the local architecture?" because without defining what good and bad look like, the agent can't meaningfully answer.
 
-**[06:10] Escalation and Repetition Concerns**
+### Escalation and Repetition Concerns [06:10](https://www.youtube.com/watch?v=mh5XZ-L5SFQ&t=370s)
 The skill lists escalation triggers and examples of perverse suggestions (delete a whole layer of indirection, split large files). Matt grows concerned that the prompt is a "huge ball of mud"—too many instructions with unclear priorities for the agent. He also notes significant duplication throughout.
 
-**[07:12] Review Tone and Output Expectations**
+### Review Tone and Output Expectations [07:12](https://www.youtube.com/watch?v=mh5XZ-L5SFQ&t=432s)
 The skill includes a tone section (be direct, serious, demanding; don't be rude), which Matt finds bizarre and unnecessary. However, he appreciates the output expectations section, which prioritizes findings—structural regressions at the top, legibility concerns at the bottom—and requires an explicit approve/reject decision.
 
-**[08:14] The Missing Piece: Testing**
+### The Missing Piece: Testing [08:14](https://www.youtube.com/watch?v=mh5XZ-L5SFQ&t=494s)
 Matt's biggest criticism: there's no mention of testing, seams, or feedback loops. He believes the entire point of a maintainable, modular codebase is to make future changes easier, and testing is central to that. All of the skill's focus is on source code, none on tests.
 
-**[08:46] Reviewing the Results: Blocker Issues**
+### Reviewing the Results: Blocker Issues [08:46](https://www.youtube.com/watch?v=mh5XZ-L5SFQ&t=526s)
 The skill found that an init service file exceeded 1,000 lines and proposed a split. It also suggested a generic `make registry` function to eliminate 20 lines of duplicated boilerplate. Matt rates both suggestions as good—2 for 2.
 
-**[09:17] Scattered Conditionals and Type Boundaries**
+### Scattered Conditionals and Type Boundaries [09:17](https://www.youtube.com/watch?v=mh5XZ-L5SFQ&t=557s)
 The skill identified feature-specific if-statements scattered across three layers and suggested pushing custom tracker variations into a type. Matt approves. A third suggestion about discriminated unions for template args was a false positive from incomplete system understanding, but Matt accepts this as normal. Score: 2 out of 3.
 
-**[10:18] Strong Code Quality Issues**
+### Strong Code Quality Issues [10:18](https://www.youtube.com/watch?v=mh5XZ-L5SFQ&t=618s)
 The skill found a weird hardcoded Zod dependency path, swallowed errors in `execSync`, and a half-finished file decomposition. Matt rates these positively—roughly 5 out of 7 valid suggestions so far. A prompt duplication suggestion was rejected; Matt prefers prompts to be independently changeable.
 
-**[11:53] Final Verdict and Reflections**
+### Final Verdict and Reflections [11:53](https://www.youtube.com/watch?v=mh5XZ-L5SFQ&t=713s)
 Under the skill's bar, a couple of PRs shouldn't have landed in their current shape—behavior was correct but the codebase got messier. Matt concludes that ambition produces more false positives, but those are easy to reject. The dangerous misses are the improvement opportunities you never see. He would make the skill more DRY and add testing focus, but overall finds it worth experimenting with.
 
 ## Notable Quotes

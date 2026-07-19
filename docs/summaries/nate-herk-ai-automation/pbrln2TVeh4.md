@@ -29,32 +29,32 @@ Claude, Anthropic's AI, is enabling a new wave of entrepreneurs to build million
 
 ## Detailed Breakdown
 
-**[00:00] The AI Millionaire Phenomenon**
+### The AI Millionaire Phenomenon [00:00](https://www.youtube.com/watch?v=pbrln2TVeh4&t=0s)
 The video opens by highlighting how AI is currently generating a new class of millionaires. The narrator points to Vulcan, a software company operating inside government agencies, whose team—despite mostly not knowing how to code—built their entire product simply by describing what they wanted to Claude.
 
-**[00:30] Context on Claude and Anthropic**
+### Context on Claude and Anthropic [00:30](https://www.youtube.com/watch?v=pbrln2TVeh4&t=30s)
 Claude is an AI built by Anthropic. While it may look like a ChatGPT competitor, its financial backing and growth are staggering. Anthropic recently raised $6.5 billion, achieving a $965 billion valuation and passing OpenAI. Its revenue run rate hit $47 billion, up from $1 billion at the end of 2024—a 47x growth in roughly 18 months.
 
-**[01:32] The Vulcan Case Study**
+### The Vulcan Case Study [01:32](https://www.youtube.com/watch?v=pbrln2TVeh4&t=92s)
 The narrator contrasts the traditional software startup model—which required expensive engineers and upfront capital—with Vulcan's story. Vulcan's three founders included two who couldn't code and one (Tanner Jones) who hadn't coded since a high school JavaScript class. They built their initial prototype by copying and pasting code from the regular Claude chat. This prototype won a Virginia state contract at about 10% of the cost of established consulting firms. The governor later signed an executive order mandating the AI regulatory review Vulcan built, reportedly saving Virginians over a billion dollars a year.
 
-**[03:04] What Makes Claude Code Different**
+### What Makes Claude Code Different [03:04](https://www.youtube.com/watch?v=pbrln2TVeh4&t=184s)
 Claude Code is differentiated by four main capabilities: it builds complete apps from plain-English descriptions in minutes; it is agentic (meaning it tests, finds bugs, and fixes them autonomously); it works in parallel (running multiple agents simultaneously, even while you sleep); and it remembers your business context, priorities, and past failures, effectively acting as a long-term operational memory.
 
-**[04:05] The Y Combinator Shift and the AI Window**
+### The Y Combinator Shift and the AI Window [04:05](https://www.youtube.com/watch?v=pbrln2TVeh4&t=245s)
 Y Combinator, the famous startup accelerator, has seen over half of its newest batch of startups building with Claude, shifting dominance away from OpenAI. The narrator draws a parallel to the early internet, noting that early adopters of AI will gain a compounding head start, just as early internet marketers did over newspaper advertisers. Being AI-native is a temporary advantage that will soon become the baseline.
 
-**[05:06] Four Steps to Start Building with Claude**
+### Four Steps to Start Building with Claude [05:06](https://www.youtube.com/watch?v=pbrln2TVeh4&t=306s)
 The narrator outlines a four-step actionable guide:
 1. **Get a paid Claude plan ($20/month):** Treat it as the cheapest employee you will ever hire.
 2. **Pick one real task:** Choose a single repetitive task you keep putting off or would normally outsource, such as organizing receipts or sorting emails.
 3. **Describe the task and "roast" it:** Before letting Claude build, make it argue with you. The narrator uses a pattern called "the roast," where Claude spins up a council of sub-agents to argue for the idea, point out flaws, and provide objective research before delivering a final verdict.
 4. **Build in baby steps and verify:** Break big projects into small, functional pieces. When Claude finishes, make it prove the work by running it on real examples, just as you would verify a human employee's work.
 
-**[07:41] Iteration and Learning**
+### Iteration and Learning [07:41](https://www.youtube.com/watch?v=pbrln2TVeh4&t=461s)
 Initial outputs from Claude will likely be 60-70% correct, which is completely normal. Users should treat these misses as "golden data" and feedback rather than failures. By explaining what was wrong in plain English, the AI fixes its own work and improves over time. If you don't understand something, you simply ask Claude to explain it, treating the AI like a mentor.
 
-**[08:43] Free Resources and Conclusion**
+### Free Resources and Conclusion [08:43](https://www.youtube.com/watch?v=pbrln2TVeh4&t=523s)
 The narrator concludes by emphasizing that the barrier to entry is just $20 and one task, which will put users ahead of 95% of people. He offers a free Skool community containing a 7-day challenge for beginners, the "roast" skill file to drop into Claude, and a free non-technical course on building an "AI operating system" to run businesses entirely through Claude Code.
 
 ## Notable Quotes

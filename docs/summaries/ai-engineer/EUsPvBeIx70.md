@@ -29,37 +29,37 @@ Phaidra engineers Raahul Singh and Vanč Levstik describe "semantic blindness"�
 
 ## Detailed Breakdown
 
-**[00:00] Introduction and the Problem of Semantic Blindness**
+### Introduction and the Problem of Semantic Blindness [00:00](https://www.youtube.com/watch?v=EUsPvBeIx70&t=0s)
 Raahul Singh and Vanč Levstik introduce themselves as Phaidra engineers building AI agents for AI factories. They define "semantic blindness" as the confusion an LLM experiences when given 500,000 sensor names. User queries range from specific equipment ("is Chiller 6 running hot?") to groups ("analyze temperatures across data halls" or "are any GPUs having problems?"). The industry lacks a common naming convention—names range from descriptive ("racks with GPUs in data halls") to cryptic ("CH3...6"), making LLM comprehension difficult at scale.
 
-**[01:33] Why Demo Systems Work but Production Fails**
+### Why Demo Systems Work but Production Fails [01:33](https://www.youtube.com/watch?v=EUsPvBeIx70&t=93s)
 At small scale, an LLM can simply read all equipment names and figure out what the user means. But at 1-gigawatt factory scale, there are 400,000+ GPUs plus supporting power meters, chillers, and other equipment, quickly saturating finite context windows. Singh distinguishes a demo (works for one scenario) from a product (works for all scenarios without failing silently). Vector embeddings/RAG also fail because names differing by a single character produce nearly identical vectors, yielding poor recall.
 
-**[02:36] LLM Frequency Penalties and Naive Solutions**
+### LLM Frequency Penalties and Naive Solutions [02:36](https://www.youtube.com/watch?v=EUsPvBeIx70&t=156s)
 LLMs suffer from internal frequency penalties: when outputting many similar tokens (e.g., listing 100 GPU names), the model's guardrails interpret it as spiraling and shut down output. Sharding equipment across parallel LLM calls—a divide-and-conquer approach—produced horrible recall and hallucinations, including phantom equipment that doesn't exist and silent drops of equipment that does. For mission-critical systems, these errors erode user trust and can cause cascading problems.
 
-**[04:10] The Hierarchical Insight: Scale with Tree Depth, Not Instance Count**
+### The Hierarchical Insight: Scale with Tree Depth, Not Instance Count [04:10](https://www.youtube.com/watch?v=EUsPvBeIx70&t=250s)
 Singh explains that AI factories have an inherent tree structure: data centers contain data halls, which contain aisles, rows, racks, and GPUs; chiller plants contain rooms, pumps, and cooling towers. Tree depth grows slowly (typically ~4 layers) while width grows extremely fast. The solution must scale sub-linearly with equipment count—growing with tree depth rather than the number of individual instances.
 
-**[05:14] Four Insights: Linearizer and Summarized Representations**
+### Four Insights: Linearizer and Summarized Representations [05:14](https://www.youtube.com/watch?v=EUsPvBeIx70&t=314s)
 The first insight is the "linearizer"—a summarized representation of the system's graph. Although a 1 GW factory can have over a million nodes, describing all root-to-leaf paths produces a small, finite list (roughly four layers to reach any equipment type). A 64-GPU system and a 460,000-GPU system produce similarly sized summaries, giving the LLM consolidated context about plant arrangement without enumerating every node.
 
-**[06:46] Insight Two: LLMs Plan, They Don't Search**
+### Insight Two: LLMs Plan, They Don't Search [06:46](https://www.youtube.com/watch?v=EUsPvBeIx70&t=406s)
 The second insight is that LLMs excel at planning but not searching. Instead of making the LLM sift through fuzzy names, Phaidra asks it to produce structured outputs describing how to look for equipment. For "give me all GPUs running hot in data hall 11," the LLM outputs: collect GPUs, scope to the data hall 11 subtree, apply a "running hot" filter. The LLM never needs to see individual GPU names.
 
-**[07:47] Insight Three: Deterministic Back-End with Pre-Indexed Trees**
+### Insight Three: Deterministic Back-End with Pre-Indexed Trees [07:47](https://www.youtube.com/watch?v=EUsPvBeIx70&t=467s)
 The third insight is that once structured outputs exist, the back-end is straightforward. Phaidra pre-indexes subtrees by location and equipment interaction. To answer a query, the system retrieves the relevant pre-indexed subset (e.g., all GPUs in data hall 11) and runs deterministic queries (e.g., "running hot"), taking set intersections. Set operations guarantee perfect recall and accuracy regardless of query fuzziness.
 
-**[08:48] Insight Four: Pattern-Based Resolution for Vague Queries**
+### Insight Four: Pattern-Based Resolution for Vague Queries [08:48](https://www.youtube.com/watch?v=EUsPvBeIx70&t=528s)
 For very vague queries, instead of passing entire name lists to the LLM, the system asks the LLM to generate patterns—either in data or naming conventions—that the back-end then executes. This keeps the LLM's token consumption relatively constant rather than scaling linearly with equipment count, which itself grows exponentially with facility size.
 
-**[09:49] End-to-End Query Pipeline**
+### End-to-End Query Pipeline [09:49](https://www.youtube.com/watch?v=EUsPvBeIx70&t=589s)
 The full pipeline goes from user query → planner LLM (determines intent, emits search pattern) → deterministic resolver (indexes, performs set operations, creates result set). This is a two-to-three-step process, not a multi-step agentic loop, keeping total cost flat and predictable.
 
-**[10:52] Production Readiness and Benchmarking Results**
+### Production Readiness and Benchmarking Results [10:52](https://www.youtube.com/watch?v=EUsPvBeIx70&t=652s)
 Vanč Levstik describes extensive head-to-head testing against the old approach using the same LLM model and data, with three runs per case. The old approach degraded from 80% correctness at 64 GPUs to 30% at 460,000 GPUs. The new approach maintained 100% accuracy across all tests, including 66 cases on six real production systems with zero failures. Token usage dropped from 116 million to 390,000 per validation pass (a ~300x reduction), and per-query cost stayed flat at ~9,000 tokens regardless of system size.
 
-**[12:57] The Karpathy Inversion: Software 1.0 vs. 3.0**
+### The Karpathy Inversion: Software 1.0 vs. 3.0 [12:57](https://www.youtube.com/watch?v=EUsPvBeIx70&t=777s)
 Levstik frames the lesson using Karpathy's software taxonomy. Software 1.0 is deterministic code (predictable, exact, inflexible); Software 3.0 is LLM-prompted behavior (flexible, smart, fuzzy). While legacy software drifts from 1.0 toward 3.0, AI-native systems should run this trend backwards: start at 3.0 for rapid prototyping, then move structured, rule-based work into 1.0 deterministic code as the system scales. The LLM should retain hard judgment tasks—parsing ambiguous requests, determining where to look, handling novel phrasing, and synthesizing final answers—but everything that can be data-modeled (retrieval, set logic, counting, dedup, reproducible operations) belongs in code. The guiding heuristic: if you can write down the structure or rules, it's a 1.0 job.
 
 ## Notable Quotes

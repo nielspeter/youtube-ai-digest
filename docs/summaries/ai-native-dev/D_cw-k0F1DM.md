@@ -31,52 +31,52 @@ Dru Knox, Head of Product and Design at Tessl, introduces "harness engineering" 
 
 ## Detailed Breakdown
 
-### [00:00] Introduction and Session Overview
+### Introduction and Session Overview [00:00](https://www.youtube.com/watch?v=D_cw-k0F1DM&t=0s)
 The conversation opens with a preview of Dru Knox's talk at AI Engineer in San Francisco. The session targets teams already using agents interactively—running multiple sessions, one-shotting simple to medium tasks—and explores how to advance toward a software factory where agents deliver most end-product code and engineers focus on improving the agent system.
 
-### [02:11] Defining the Software Factory Journey
+### Defining the Software Factory Journey [02:11](https://www.youtube.com/watch?v=D_cw-k0F1DM&t=131s)
 Knox clarifies that Tessl views the software factory not as a monolithic endgame but as incremental steps. As teams delegate more to agents, everyone is already on the factory journey. He introduces three pillars: **autonomy** (fewer human corrections), **automation** (running without human oversight, requiring trust), and **quality** (product excellence). Autonomy and automation are distinct—you can have high autonomy but low automation if you still manually review everything.
 
-### [03:47] The Three Loops of Harness Engineering
+### The Three Loops of Harness Engineering [03:47](https://www.youtube.com/watch?v=D_cw-k0F1DM&t=227s)
 The **inner loop** consists of fast, iterative checks the agent runs while coding—plugins, skills, test suites. Everything in the repo should be shared and checked in so improvements compound for the whole team. The **outer loop** runs at the PR boundary: slower, more expensive checks like agent QA, deep code review, and Tessl verifiers that replace human review time. The **meta loop** sits outside both, observing the process and automatically suggesting improvements to the inner and outer loops so mistakes are corrected only once. As bottlenecks move—from agent quality to code review to task complexity—teams push further out into the loops.
 
-### [09:31] Tessl's Own Factory Journey and the Control Plane
+### Tessl's Own Factory Journey and the Control Plane [09:31](https://www.youtube.com/watch?v=D_cw-k0F1DM&t=571s)
 Knox shares how Tessl dogfooded its own software factory. They set two ground rules: no more human-written code and no more interactive coding agent sessions. Instead, work flows from Linear tickets to headless agents that produce PRs for human review. This makes all feedback legible and durable. They hit practical issues around identity and webhooks—Maria, a research teammate, briefly topped the contribution leaderboard because all PRs came from her GitHub credentials—leading Tessl to build the Tessl Linear App and Tessl GitHub App to handle wiring and identity.
 
-### [14:50] Modular and Open by Design
+### Modular and Open by Design [14:50](https://www.youtube.com/watch?v=D_cw-k0F1DM&t=890s)
 Tessl committed to an open, modular architecture after finding off-the-shelf orchestrators good for getting from 0 to 0.5 but inadequate for production. Every component has defaults but can be swapped out. Tessl Launch Skill is a CLI command that codifies a workflow and runs it in a cloud container suited for long-running tasks, with proper GitHub credentials and identity.
 
-### [17:29] Incremental Adoption Strategy
+### Incremental Adoption Strategy [17:29](https://www.youtube.com/watch?v=D_cw-k0F1DM&t=1049s)
 Knox and the interviewer emphasize starting simple and iterating—like living in a house before arranging furniture. Successful customers adopt one workflow at a time rather than attempting a monolithic lift-and-shift. Over months, teams often discover significant portions of work are automated without ever requiring a massive, team-wide alignment effort. If a piece doesn't work, it's easy to roll back.
 
-### [20:05] Tessl Change Review
+### Tessl Change Review [20:05](https://www.youtube.com/watch?v=D_cw-k0F1DM&t=1205s)
 Once the control plane was set, code review became the next bottleneck. Tessl Change Review provides agentic review with pre-built "lenses" covering security, readability, platform reuse (e.g., flagging use of the standard logger instead of a company's custom one), and more. These lenses are powered by skills, so teams can add custom review criteria. Knox argues that as models improve, good engineering principles stated plainly outperform elaborate prompt engineering.
 
-### [23:24] The Quality Argument: Higher, Not Lower
+### The Quality Argument: Higher, Not Lower [23:24](https://www.youtube.com/watch?v=D_cw-k0F1DM&t=1404s)
 Knox challenges the narrative that software factories trade quality for speed. When Tessl applied its five review lenses to human-authored PRs, engineers complained the feedback was too pedantic. But when agents receive the same feedback, they simply fix everything—there's no backlog. This dynamic leads Knox to believe agent-written code will ultimately be higher quality, not lower.
 
-### [25:00] Tessl Verifiers
+### Tessl Verifiers [25:00](https://www.youtube.com/watch?v=D_cw-k0F1DM&t=1500s)
 Verifiers address the 5% of cases where agents forget specific invariants. They are small, fast, cheap LLM-powered linting rules—each scoped to glob patterns and a single black-and-white check (e.g., "does this file contain a logger call that isn't our custom logger?"). Run in parallel during linting, they achieve near-100% reliability. General code review catches unanticipated problems; verifiers ensure known mistakes never recur.
 
-### [28:37] Transition to the Live Talk
+### Transition to the Live Talk [28:37](https://www.youtube.com/watch?v=D_cw-k0F1DM&t=1717s)
 The conversation shifts to Knox's actual session at AI Engineer. He introduces himself as Head of Product and Design at Tessl, an agent enablement platform. The talk assumes attendees are already using coding agents with multiple sessions and frequent successful one-shots.
 
-### [30:15] Software Factory Definition and Metrics
+### Software Factory Definition and Metrics [30:15](https://www.youtube.com/watch?v=D_cw-k0F1DM&t=1815s)
 Knox formally defines a software factory: all end-product code is created by agents, and engineers focus on building the factory. Three metrics matter—autonomy, automation, and quality—improved roughly in that order. The ultimate payoff isn't just velocity; with no backlog, teams gain capacity for test quality, architectural refactors, and exploration. Non-technical roles can contribute more easily.
 
-### [34:57] Harness Engineering: The Core Discipline
+### Harness Engineering: The Core Discipline [34:57](https://www.youtube.com/watch?v=D_cw-k0F1DM&t=2097s)
 Harness engineering (also called loop engineering) is the practice of building the loops that automate and improve the factory. The inner loop drives autonomy, the outer loop builds trust and replaces human review, and the meta loop drives quality by observing failures and feeding fixes back into the other loops. Investing in the meta loop is how teams increase their "AI nativeness."
 
-### [37:37] Why Harness Engineering Is Hard
+### Why Harness Engineering Is Hard [37:37](https://www.youtube.com/watch?v=D_cw-k0F1DM&t=2257s)
 Three challenges: (1) the discipline is new and changing so fast that teams effectively become AI researchers just to keep up; (2) it's fundamentally unplanned work that competes with shipping deadlines, so it gets deprioritized; (3) the signals needed to improve agents are often hidden in local logs or people's heads, requiring deliberate work to surface them.
 
-### [39:48] Three Layers of Harness Engineering
+### Three Layers of Harness Engineering [39:48](https://www.youtube.com/watch?v=D_cw-k0F1DM&t=2388s)
 **Layer 1: Control Plane** — move workflows to legible surfaces (issue tracker → headless agent → PR with comments). Requires issue tracking, GitHub PR review, and a skills registry. **Layer 2: Agent IT** — the painful grab bag of giving agents access to CLIs, APIs, production logs, execution environments, and internal services, with all the governance and compliance that entails. **Layer 3: Improvement Loops** — repo maintenance sweeps, playbooks for common tasks, identifying repeated tasks to automate, and feeding learnings back into skills.
 
-### [44:04] How Tessl Helps
+### How Tessl Helps [44:04](https://www.youtube.com/watch?v=D_cw-k0F1DM&t=2644s)
 Tessl focuses on iterative, sustainable adoption: batteries-included defaults, modular and open architecture, and automated loops. The skills registry includes governance controls. Connectors link Linear to GitHub. Tessl Agent mines PRs and issues to find repeated tasks (e.g., flaky test hunts) and automates them. Out-of-the-box maintenance tasks cover architecture quality, code duplication, test suite quality, and security. Tessl Launch turns any skill into an automated workflow running in a sandbox with appropriate permissions, supporting Codex, Claude Code, and Gemini.
 
-### [48:16] Success Metrics
+### Success Metrics [48:16](https://www.youtube.com/watch?v=D_cw-k0F1DM&t=2896s)
 Teams should track: declining manual takeovers, declining human PR comments, and increasing PRs initiated without human input. Hold quality constant first, then drive it up.
 
 ## Notable Quotes

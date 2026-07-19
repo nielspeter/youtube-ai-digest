@@ -28,16 +28,16 @@ The video demonstrates how to build and deploy fully functional web apps directl
 - No separate hosting service or external setup is required — everything happens within ChatGPT.
 
 ## Detailed Breakdown
-**[00:02] Introduction to the Sites Plugin**
+### Introduction to the Sites Plugin [00:02](https://www.youtube.com/watch?v=8zH_O74hZBw&t=2s)
 The presenter introduces the concept of building and deploying web apps directly from ChatGPT using a new plugin called Sites. The plugin includes built-in hosting and storage, meaning apps can be published immediately without setting up any external service. The workflow begins in the chat window by simply describing what you want to build.
 
-**[00:34] Building and Refining a Design Conference Site**
+### Building and Refining a Design Conference Site [00:34](https://www.youtube.com/watch?v=8zH_O74hZBw&t=34s)
 The presenter's first example is a launch site for a design conference, requesting speaker cards, a filterable agenda, and a clean minimalist editorial style. ChatGPT works behind the scenes to set up the project, write the code, and produce a first version. The presenter then requests refinements — making the schedule layout easier to scan and emphasizing the keynote as the main event. Feedback is given in plain language, and ChatGPT handles the implementation. The presenter also demonstrates the in-app browser's annotation tool, which lets users drop targeted comments directly on the site to indicate exactly what should be updated. Once satisfied, the app is ready to publish.
 
-**[01:05] Publishing and Combining with Build Web Apps**
+### Publishing and Combining with Build Web Apps [01:05](https://www.youtube.com/watch?v=8zH_O74hZBw&t=65s)
 The presenter explains that publishing can be done by clicking a "publish" button or simply instructing ChatGPT to deploy the site. The video then introduces another plugin, **Build Web Apps**, which enhances site quality with skills for design, implementation, and testing. As a second example, the presenter asks it to build a colorful early-2000s 2D side-scrolling game featuring a cartoon hero, animated environments, vibrant pixel art, responsive controls, and playful effects. The result is generated successfully, demonstrating the range of apps that can be built.
 
-**[01:37] Conclusion**
+### Conclusion [01:37](https://www.youtube.com/watch?v=8zH_O74hZBw&t=97s)
 The video wraps up by emphasizing the end-to-end workflow: from an initial idea to a working, published web app — all inside ChatGPT.
 
 ## Notable Quotes

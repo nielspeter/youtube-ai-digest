@@ -30,61 +30,61 @@ Anthropic's Lamis discusses the newly released Claude Tag, a proactive Slack-bas
 
 ## Detailed Breakdown
 
-**[00:00] Introduction and Claude Tag Announcement**
+### Introduction and Claude Tag Announcement [00:00](https://www.youtube.com/watch?v=7Ue0yM4J-B8&t=0s)
 The episode opens with a teaser about Claude Tag being a proactive teammate with the connectors and context of Claude Code, driving 65% of internal product team PRs. Host Simon Maple introduces the AI Native Dev podcast and announces the upcoming AI Native DevCon in New York City on November 3-4, offering Super Blind Bird tickets for $100.
 
-**[02:10] Meet Lamis from Anthropic**
+### Meet Lamis from Anthropic [02:10](https://www.youtube.com/watch?v=7Ue0yM4J-B8&t=130s)
 Simon welcomes Lamis, a member of technical staff at Anthropic on the applied AI team. Lamis explains her role sits between product research and go-to-market, working directly with startup founders and on internal projects.
 
-**[02:43] What is Claude Tag?**
+### What is Claude Tag? [02:43](https://www.youtube.com/watch?v=7Ue0yM4J-B8&t=163s)
 Lamis defines Claude Tag as a proactive teammate that lives where you work—in Slack. It has the tools and context of Claude Code but adds proactivity and persistence to see tasks through over long periods. It can collaborate with multiple teammates simultaneously.
 
-**[03:46] Claude Tag vs. Claude in Slack**
+### Claude Tag vs. Claude in Slack [03:46](https://www.youtube.com/watch?v=7Ue0yM4J-B8&t=226s)
 Simon asks how Claude Tag differs from simply tagging Claude in Slack. Lamis explains three key differences: Claude Tag is highly proactive (it can find you and tell you something needs attention), it has cross-channel memory and context, and it can initiate conversations rather than just responding to prompts.
 
-**[05:17] End-to-End Workflow Orchestration**
+### End-to-End Workflow Orchestration [05:17](https://www.youtube.com/watch?v=7Ue0yM4J-B8&t=317s)
 Lamis describes how Claude Tag can handle entire workflows: picking up customer feedback, tagging responsible parties, automatically raising Linear tickets, spinning up sandboxes, writing code, and pinging for PR reviews. Simon notes Claude Tag acts as an orchestrator, letting him focus on the feature rather than the workflow mechanics.
 
-**[08:32] Configurable Gates and Permissions**
+### Configurable Gates and Permissions [08:32](https://www.youtube.com/watch?v=7Ue0yM4J-B8&t=512s)
 Lamis explains that teams can configure strict gates for where Claude Tag needs permission or human input. It builds memory over time and adjusts to team workflows. She also highlights the multi-player ability to loop in account executives, engineers, and product folks across cross-functional workflows.
 
-**[10:04] Workflow Changes: From IDE to Chat**
+### Workflow Changes: From IDE to Chat [10:04](https://www.youtube.com/watch?v=7Ue0yM4J-B8&t=604s)
 Simon asks how the flow changes when living more in Slack versus the IDE. Lamis shares the 65% PR statistic and explains that Claude Code is single-player and session-focused, while Claude Tag is multi-player, asynchronous, and less session-bound. Work happens publicly, giving all stakeholders visibility.
 
-**[13:16] Is Slack the New IDE?**
+### Is Slack the New IDE? [13:16](https://www.youtube.com/watch?v=7Ue0yM4J-B8&t=796s)
 Simon reflects on the evolution from IDEs to copilots to Cursor to Claude Code in the terminal, and now to Slack. He asks if Slack is becoming the new IDE and notes this shift requires significant trust. Lamis references the METR chart showing autonomous agent task-completion time doubling every four months, and notes models are getting better at verifying their own work.
 
-**[17:40] Defining What "Good" Looks Like**
+### Defining What "Good" Looks Like [17:40](https://www.youtube.com/watch?v=7Ue0yM4J-B8&t=1060s)
 Lamis explains that developer behavior is shifting toward defining success criteria and handing it to the model. Simon adds that while the IDE is great for defining "good" through tests, chat is the natural place for collaboratively defining what good looks like, making it the right place to tag in an agent.
 
-**[20:51] External Industry Adoption of Claude Code**
+### External Industry Adoption of Claude Code [20:51](https://www.youtube.com/watch?v=7Ue0yM4J-B8&t=1251s)
 Lamis shares examples of external Claude Code adoption: Stripe doing codebase rewrites in days that would have taken months, teams shipping millions of lines of code in a month, and organizations pursuing moonshot projects they previously lacked resources for. She notes the build-vs-buy question becomes interesting as building becomes cheaper.
 
-**[23:33] FOMO and Keeping Up with AI**
+### FOMO and Keeping Up with AI [23:33](https://www.youtube.com/watch?v=7Ue0yM4J-B8&t=1413s)
 Lamis recounts asking European founder communities who has FOMO about not using AI enough—everyone raises their hand, including Anthropic employees. She references Karpathy's tweet about feeling out of touch. She emphasizes that translating raw intelligence into actual impact requires infrastructure: harnesses, context management, tools, secure permissions, hosting, and inference.
 
-**[26:10] The Origin Story of Claude Code**
+### The Origin Story of Claude Code [26:10](https://www.youtube.com/watch?v=7Ue0yM4J-B8&t=1570s)
 Lamis tells the story of Boris building Claude Code as a side project. His initial Slack post got only six reactions, but adoption grew rapidly to half the company using it weekly. She emphasizes a key principle: build for where models are going, not where they are today.
 
-**[28:44] Dogfooding and Internal PMF**
+### Dogfooding and Internal PMF [28:44](https://www.youtube.com/watch?v=7Ue0yM4J-B8&t=1724s)
 Lamis explains that internal product-market fit (half the team using Claude Code weekly) signaled it was time to release it broadly. The same pattern happened with Claude Tag at 65% of PRs. She shares a story of a marketing team member who learned what a terminal was in the morning and had automated a 30-minute workflow down to 30 seconds by day's end.
 
-**[31:50] Product Direction and Enterprise Scaling**
+### Product Direction and Enterprise Scaling [31:50](https://www.youtube.com/watch?v=7Ue0yM4J-B8&t=1910s)
 Lamis discusses how internal feedback drives product direction but emphasizes the hard work of scaling to enterprise. She explains the concept of agent identities—Claude Tag gets its own permissions and API keys rather than assuming an individual's, making it easier to audit and enabling true multi-player behavior.
 
-**[35:28] Learnings and Simplification**
+### Learnings and Simplification [35:28](https://www.youtube.com/watch?v=7Ue0yM4J-B8&t=2128s)
 Lamis shares key learnings: build for future model capabilities, simplify harnesses over time (less is more as models improve), and don't be too opinionated about memory structures. Anthropic moved from indexed memory stores to a simple file system because models are better at managing memory with native bash and grep tools. Simon highlights the need to continuously re-evaluate context, prompts, and harnesses with each model change.
 
-**[40:39] Non-Engineering Teams Using Claude**
+### Non-Engineering Teams Using Claude [40:39](https://www.youtube.com/watch?v=7Ue0yM4J-B8&t=2439s)
 Lamis shares that the amount of work Anthropic is comfortable delegating to Claude has doubled from 30% to 60% in the past year. Examples include marketing ad generation pipelines, incident response triage, sales team weekly briefs, and scheduled reports. She explains how proactivity is a spectrum that can be tuned—Claude can respond only when tagged, run on schedules, or proactively jump into threads.
 
-**[43:50] Incident Response and Trust**
+### Incident Response and Trust [43:50](https://www.youtube.com/watch?v=7Ue0yM4J-B8&t=2630s)
 Simon and Lamis discuss the vision of Claude Tag handling incident response—raising incidents, diagnosing issues, and proposing fixes. Lamis emphasizes the importance of designing human-agent interaction gates and building trust over time, suggesting teams start by running Claude alongside traditional processes before delegating more. She notes she'd rather be woken up with a proposed PR and test results than a raw incident alert.
 
-**[48:03] Dreaming: Automated Memory Optimization**
+### Dreaming: Automated Memory Optimization [48:03](https://www.youtube.com/watch?v=7Ue0yM4J-B8&t=2883s)
 Lamis introduces "dreaming," a research preview feature on Anthropic's Managed Agents product. Dreaming runs jobs at a chosen cadence, feeding agent session transcripts and memory stores to another agent that reviews them for discrepancies—missing information, misleading content, or reorganization opportunities. It proposes changes with hypotheses and evidence attachments, enabling continual learning where agents demonstrably improve day over day.
 
-**[52:15] Practical Advice for Listeners**
+### Practical Advice for Listeners [52:15](https://www.youtube.com/watch?v=7Ue0yM4J-B8&t=3135s)
 Lamis encourages listeners to set up Claude Tag in Slack (just needs a Slack admin to enable it). She recommends starting with: a daily briefing summarizing the last 24 hours, urgent ping notifications for relevant channel activity, weekly team learning reports, and asking Claude Tag to build custom software deployable to Claude Code artifacts. Simon shares his own similar setup reviewing Slack, email, Todoist, and Granola notes, and mentions feeding annual feedback into his agent for personal development tracking.
 
 ## Notable Quotes

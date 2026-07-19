@@ -29,16 +29,16 @@ Patrick Debois joins the AI Native Dev podcast to discuss the organizational, pr
 
 ## Detailed Breakdown
 
-**[02:13] The Grip of AI and the Organizational Impact**
+### The Grip of AI and the Organizational Impact [02:13](https://www.youtube.com/watch?v=UvhmYntrLMI&t=133s)
 Patrick Debois explains his history of adopting emerging technologies—from the internet to cloud and DevOps—and how AI has captivated him because of the way it automates and blows open traditional ways of working. He notes that while the technical layers of AI (context, harness, loops) are starting to settle, the organizational impact is lagging behind. Teams and VPs of engineering are struggling with questions like what happens when a team becomes so performant they run dry on requirements, and how downstream departments like marketing handle a sudden influx of 100 features a day.
 
-**[06:28] Navigating the Maturity Curve**
+### Navigating the Maturity Curve [06:28](https://www.youtube.com/watch?v=UvhmYntrLMI&t=388s)
 Simon Maple asks if the industry is in a state of perpetual exploration or if we are reaching a maturity curve. Debois believes the stack is building cumulatively (prompts, then specs, then harnesses, then loops), and while the rate of change is astounding, it follows a predictable path toward agent loops and loops of agents. However, average enterprises are slower to adopt this due to organizational friction, stakeholders, and existing processes. He compares it to early DevOps, noting that saying "continuous delivery doesn't work for us" usually meant the organization wasn't ready, not that the technology was impossible.
 
-**[11:19] The AI Patterns Research Project**
+### The AI Patterns Research Project [11:19](https://www.youtube.com/watch?v=UvhmYntrLMI&t=679s)
 Debois introduces his project at tessl.io/patterns. He built it to combat the fragmentation of news and the slow pace of traditional surveys. By listening to social signals and using a research chain (referencing the Karpathy Wiki), he curated an index of emerging patterns. The site is hand-curated to normalize the varying terminology used across social media and is divided into five categories.
 
-**[14:27] The Five Categories of AI Patterns**
+### The Five Categories of AI Patterns [14:27](https://www.youtube.com/watch?v=UvhmYntrLMI&t=867s)
 Debois walks through the five sections of the patterns site:
 1. **Agentic Development:** The solid developer's journey from vibe coding and spec coding up to a factory model.
 2. **Platform:** The shift toward reusable components (context, harnesses, centralized pipelines) managed by platform or developer experience teams to enable scaling across an org.
@@ -46,19 +46,19 @@ Debois walks through the five sections of the patterns site:
 4. **Changing Roles:** How developers shift from writing code to writing specs, building harnesses, and acting as system thinkers.
 5. **Scaling the Org:** Driving adoption and managing the cost/ROI of AI initiatives.
 
-**[20:45] The Evolution of the IDE and Verification**
+### The Evolution of the IDE and Verification [20:45](https://www.youtube.com/watch?v=UvhmYntrLMI&t=1245s)
 Discussing the quality section, Debois predicts that the IDE's role will shift from writing code to acting as a review interface. Because agents will generate the code, humans will need situational awareness—such as screenshots, API feature verification, and recordings of agent actions—to quickly verify the agent's work, rather than just reviewing a checklist in a terminal.
 
-**[22:20] Changing Roles and Hiring in the AI Era**
+### Changing Roles and Hiring in the AI Era [22:20](https://www.youtube.com/watch?v=UvhmYntrLMI&t=1340s)
 Debois notes that harness and loop engineering provide a technical outlet for developers who don't want to just be "glorified prompters." When hiring today, he looks for system thinkers and architects who care about the whole system, not just writing elegant code. Adaptability, collaboration skills, and a willingness to continuously learn across different stacks are more important than rigid loyalty to a single programming language.
 
-**[30:41] Scaling the Org and Driving Adoption**
+### Scaling the Org and Driving Adoption [30:41](https://www.youtube.com/watch?v=UvhmYntrLMI&t=1841s)
 To speed up AI adoption, Debois advises against spending time on the "negatives" (resistant teams) initially. Instead, organizations should find a success story—a fast-moving, bleeding-edge team—and empower them. Their success will create a pull effect, attracting other teams who want the same benefits. Once adoption is underway, leaders can then address the remaining resistance.
 
-**[36:24] Meaningful Metrics: Beyond Token Billionaires**
+### Meaningful Metrics: Beyond Token Billionaires [36:24](https://www.youtube.com/watch?v=UvhmYntrLMI&t=2184s)
 Debois argues that measuring adoption by tool usage or token consumption ("token billionaires") is a poor proxy. Instead, the most effective metric is how much people contribute to shared components and context. The goal is reducing the number of human touches required for an agent to do the right thing. If someone fixes the context for one team, it improves the metrics for all teams, creating a compounding knowledge moat.
 
-**[40:09] Continuous Learning and Cost Management**
+### Continuous Learning and Cost Management [40:09](https://www.youtube.com/watch?v=UvhmYntrLMI&t=2409s)
 Drawing a parallel to DevOps observability, Debois emphasizes that continuous learning—driven by feedback loops that optimize context and harnesses over time—is becoming the competitive moat for companies. Regarding budgets, he warns against simply cutting AI spend, as it halts the learning journey. Instead, budget constraints should drive observability and FinOps for coding agents, forcing teams to optimize their habits, use smaller models, and improve context rather than blindly spending tokens.
 
 ## Notable Quotes

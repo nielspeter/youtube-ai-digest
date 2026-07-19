@@ -30,31 +30,31 @@ Thiyagarajan Maruthavanan shares his journey from ballooning inference costs on 
 
 ## Detailed Breakdown
 
-**[00:00] The Cost of Rented Intelligence**
+### The Cost of Rented Intelligence [00:00](https://www.youtube.com/watch?v=Bck7ABCZRZI&t=0s)
 Maruthavanan opens with cautionary tales: a major retailer spent $200 million on Anthropic inference, and Uber's CTO saw a year's token budget consumed in four months. He notes that while inference feels inexpensive per call, the prepaid credit model makes it dangerously easy to overspend—likening it to loading credits in a casino.
 
-**[01:01] Personal Experience: UltraSuno**
+### Personal Experience: UltraSuno [01:01](https://www.youtube.com/watch?v=Bck7ABCZRZI&t=61s)
 He built **UltraSuno**, an app that reverses Suno.com's text-to-music pipeline by deducing prompts from songs. After going viral with hundreds of thousands of users, his inference costs ballooned to hundreds of thousands of dollars. He attributes this to poor context management, lack of input token compression, and wasteful agent loops.
 
-**[02:02] Security Incident**
+### Security Incident [02:02](https://www.youtube.com/watch?v=Bck7ABCZRZI&t=122s)
 Three weeks prior, his API key was stolen by someone in China, draining his endpoint. Costs rose rapidly from $7,000 toward a potential $100,000, but his co-founder arrested the breach at $10,000.
 
-**[02:34] The Token Factory Alternative**
+### The Token Factory Alternative [02:34](https://www.youtube.com/watch?v=Bck7ABCZRZI&t=154s)
 He explores "token factories"—using open-source models on neo-clouds or building local GPU rigs, as promoted by AI Twitter influencers. He bought a DGX box and migrated UltraSuno off Anthropic. It worked, but memory became a bottleneck. He then ran research lab agents on it successfully, but found the setup insufficient for enterprise needs.
 
-**[04:08] Enterprise Barriers to Renting and Leasing**
+### Enterprise Barriers to Renting and Leasing [04:08](https://www.youtube.com/watch?v=Bck7ABCZRZI&t=248s)
 Three enterprises approached him: an investment fund, a hospital, and a tax practice. Each hit distinct walls:
 - **Investment fund:** Needed control over rate limits; token factories dictated consumption caps.
 - **Hospital:** Passed the use case but failed a third-party audit due to vendor dependency.
 - **Tax practice:** Required reproducibility of AI-generated recommendations, impossible without access to the model's internals.
 
-**[05:08] When to Stop Renting**
+### When to Stop Renting [05:08](https://www.youtube.com/watch?v=Bck7ABCZRZI&t=308s)
 Maruthavanan draws an analogy: you Airbnb and rent when exploring a new city, but eventually you buy a house—you can't raise a family in an Airbnb. Similarly, pre-PMF founders can rent, but post-PMF startups and enterprises with budgeted projects must build their own infrastructure.
 
-**[06:09] JustTokenMax and Peak Inference**
+### JustTokenMax and Peak Inference [06:09](https://www.youtube.com/watch?v=Bck7ABCZRZI&t=369s)
 He introduces **JustTokenMax**, an open-source optimization project addressing input cost, token management, and context management across renting and owning layers. It is benchmarked against Netflix's Headroom and performs superiorly on many parameters. He also mentions his book, *Peak Inference: Infraeconomics of AI Inference*.
 
-**[06:42] A Noisy Market and Final Philosophy**
+### A Noisy Market and Final Philosophy [06:42](https://www.youtube.com/watch?v=Bck7ABCZRZI&t=402s)
 The AI market shifts every three to six months, with conflicting narratives from industry leaders. Jensen Huang champions token factories; Satya Nadella predicts unmetered local intelligence; neo-clouds claim endpoint providers will capture value. Maruthavanan distills his experience into one sentence: **"Rent to learn, own to earn."** He invites further conversation at the AI Engineer conference.
 
 ## Notable Quotes

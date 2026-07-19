@@ -31,40 +31,40 @@ A new, high-paying AI career—the in-house AI consultant—is emerging as compa
 
 ## Detailed Breakdown
 
-**[00:00] The Next AI Gold Rush**
+### The Next AI Gold Rush [00:00](https://www.youtube.com/watch?v=eFOTQpbGcy8&t=0s)
 The video opens by highlighting a new, largely unspoken opportunity for corporate employees: the in-house AI consultant. Nate explains that this role, which didn't exist a year ago, has the potential to turn everyday employees into "career millionaires" if they get in early.
 
-**[00:30] The Chegg Example and the Layoff Misconception**
+### The Chegg Example and the Layoff Misconception [00:30](https://www.youtube.com/watch?v=eFOTQpbGcy8&t=30s)
 Nate uses the story of Chegg—a homework help service whose business model was gutted by ChatGPT in late 2022—to illustrate AI's disruptive power. While many point to AI-related layoffs as evidence of AI replacing humans, Nate argues the real reason is that one person using AI can now do the work of three to five people. The advantage goes to those who know how to use AI.
 
-**[02:03] The Shift from AI Agencies to In-House Solutions**
+### The Shift from AI Agencies to In-House Solutions [02:03](https://www.youtube.com/watch?v=eFOTQpbGcy8&t=123s)
 Over the past few years, companies hired expensive AI agencies because they knew they had problems but didn't know how to solve them. Now, AI is so accessible that even busy CEOs use tools like ChatGPT. Because the cost and barrier to development have dropped, companies want to solve these problems in-house rather than outsourcing them.
 
-**[03:06] Judgment Over Building**
+### Judgment Over Building [03:06](https://www.youtube.com/watch?v=eFOTQpbGcy8&t=186s)
 While knowing how to build AI solutions is helpful, it is a small piece of the puzzle. AI models are becoming so advanced that the real human value lies in judgment, taste, and solving ambiguity. Nate compares an AI builder to a pharmacist (who simply hands you what you asked for) and an in-house AI consultant to a doctor (who diagnoses what you actually need). The doctor is the one who gets paid the real money.
 
-**[04:37] Day-to-Day of the In-House AI Consultant**
+### Day-to-Day of the In-House AI Consultant [04:37](https://www.youtube.com/watch?v=eFOTQpbGcy8&t=277s)
 The daily work of this role involves auditing team workflows, identifying time-consuming tasks, building automations, and managing the change/adoption process across the team. Nate notes that while this role doesn't formally exist as a standardized position yet, that is exactly why it's such a massive opportunity.
 
-**[05:08] Step 1: Audit Your Own Job**
+### Step 1: Audit Your Own Job [05:08](https://www.youtube.com/watch?v=eFOTQpbGcy8&t=308s)
 The roadmap begins at home. Employees should write down their day-to-day tasks and identify ones that meet two criteria: they eat up real hours every week, and they are low-risk (if the AI makes a small mistake, nobody gets hurt). Examples include weekly status reports, meeting notes, and inbox sorting.
 
-**[06:09] Step 2: Automate and Prove It Works**
+### Step 2: Automate and Prove It Works [06:09](https://www.youtube.com/watch?v=eFOTQpbGcy8&t=369s)
 Take the top tasks from the audit and automate them. The key here is documenting the exact numbers—proving a task that took two hours now takes ten minutes. Like a personal trainer getting in shape before taking clients, you need to prove you can get results on yourself before selling the idea to others.
 
-**[07:13] Step 3: Make Your Wins Visible**
+### Step 3: Make Your Wins Visible [07:13](https://www.youtube.com/watch?v=eFOTQpbGcy8&t=433s)
 Start demonstrating your automations in team meetings and offer to help coworkers with their annoying tasks. Document everything and create shared internal docs with your best prompts. Crucially, frame your wins in business terms (e.g., "This saved us 8 hours before the quarterly report") rather than technical terms ("I used ChatGPT").
 
-**[07:44] Step 4: Graduate from Annoyances to Constraints**
+### Step 4: Graduate from Annoyances to Constraints [07:44](https://www.youtube.com/watch?v=eFOTQpbGcy8&t=464s)
 Once you have proven your value, shift your focus from simple annoyances to actual business constraints. Run an audit on the entire business and ask: "If we doubled our customers tomorrow, what process would break first?" Removing a company-wide bottleneck makes the company real money and elevates your value far beyond simply saving a few hours of team time.
 
-**[08:15] Formalize the Position**
+### Formalize the Position [08:15](https://www.youtube.com/watch?v=eFOTQpbGcy8&t=495s)
 Add up all the time and money saved by your automations and turn it into a single business metric (e.g., "I'm giving the team back the equivalent of a full-time hire every year"). Take this math to your manager and propose a formal role and title. You aren't asking for a favor; you are proposing a budget for a position you've already been doing.
 
-**[08:46] Market Data and Regulated Industries**
+### Market Data and Regulated Industries [08:46](https://www.youtube.com/watch?v=eFOTQpbGcy8&t=526s)
 Nate cites an IBM survey of 2,000 CEOs showing that 76% of companies now have a Chief AI Officer, up from 26% a year ago. Additionally, workers with AI skills earn about 56% more than peers. For those in regulated industries with strict AI policies, Nate advises being smart: use dummy data to build out projects and prove your value without violating company rules.
 
-**[09:49] Next Steps and Free Resources**
+### Next Steps and Free Resources [09:49](https://www.youtube.com/watch?v=eFOTQpbGcy8&t=589s)
 Nate concludes by emphasizing that the roadmap is useless if you can't actually build the AI solutions. He directs viewers to his free community, which contains full courses, GitHub repos, and resource guides to learn the necessary technical skills.
 
 ## Notable Quotes

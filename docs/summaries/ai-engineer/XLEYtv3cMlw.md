@@ -30,28 +30,28 @@ Sina Shahandeh explores how autonomous coding agents can be applied to long-hori
 - As future models become better natively at compartmentalizing problems, these manual hierarchical tricks will likely become less necessary.
 
 ## Detailed Breakdown
-**[00:00] The Limitation of Auto-Research Agents**
+### The Limitation of Auto-Research Agents [00:00](https://www.youtube.com/watch?v=XLEYtv3cMlw&t=0s)
 Sina Shahandeh introduces the concept of autonomous research agents, referencing Andrej Karpathy's original auto-researcher GitHub repo. While coding agents are effective at implementing code, running experiments, and performing hill-climb optimizations to minimize errors, they struggle with open-ended, long-horizon scientific tasks. The core issue is that these agents saturate quickly; they run out of novel ideas or "research taste," whereas top-tier human researchers continue to generate new hypotheses and improve over time.
 
-**[03:07] The Scientific Problem: In-Silico PET**
+### The Scientific Problem: In-Silico PET [03:07](https://www.youtube.com/watch?v=XLEYtv3cMlw&t=187s)
 To illustrate the challenge, Sina describes his work at Radicait building an "in-silico PET" model. The goal is to use machine learning to translate CT scans into synthetic PET scans, which are normally time-consuming and difficult to acquire. This image translation task requires a GAN-like encoder/decoder architecture to infer tissue metabolic activity (such as cancerous lung nodules absorbing radioactive tracers). Like most scientific tasks, this is a long-term research process that must be broken down into iterative loops.
 
-**[04:44] The Saturation Point and the Need for Radical Ideas**
+### The Saturation Point and the Need for Radical Ideas [04:44](https://www.youtube.com/watch?v=XLEYtv3cMlw&t=284s)
 During the training loop, the agent optimizes the model, but eventually plateaus. Sina shares a real-world example where the initial model treated CT slices as 2.5D (stacking 2D convolutions over channels). A standard ML coding agent would typically just tune hyperparameters at this stage. It would not independently conceive of a radical architectural shift, such as moving to 3D convolutions. To induce this kind of paradigm-shifting hypothesis, Sina had to manually intervene and suggest ideas or point the agent to relevant research papers.
 
-**[06:49] The Solution: Explicit Hierarchical Decomposition**
+### The Solution: Explicit Hierarchical Decomposition [06:49](https://www.youtube.com/watch?v=XLEYtv3cMlw&t=409s)
 To automate hypothesis generation, Sina applies a trick similar to chain-of-thought prompting: explicitly decomposing the problem into a hierarchy of subcomponents. By prompting the coding agent to scan the codebase and generate linked documentation, the system creates a tree structure (visualized in Obsidian) spanning from the top-level problem statement down through data, architecture, training loss, metrics, and operational scripts, ultimately linking directly to the code itself.
 
-**[09:58] Comprehensive Search and Radical Changes**
+### Comprehensive Search and Radical Changes [09:58](https://www.youtube.com/watch?v=XLEYtv3cMlw&t=598s)
 With this hierarchy established, the agent is tasked with generating ideas to improve each specific component. This structured scaffold allows the reasoning LLM to make decisions across the entire system, enabling a much more comprehensive search. Instead of making minor tweaks, the agent can now propose radical changes—like shifting the model from a 2.5D to a fully 3D structure. These generated plans can also be reviewed adversarially or collaboratively by other agents to refine the ideas before implementation.
 
-**[12:00] Adding Multimodal Skills: Image Registration**
+### Adding Multimodal Skills: Image Registration [12:00](https://www.youtube.com/watch?v=XLEYtv3cMlw&t=720s)
 Sina provides a second example regarding image registration—the process of aligning CT and PET scans taken at different times. This optimization loop involves many qualitative and quantitative metrics that can fail in complex ways (e.g., patient movement, respiration). To evaluate these qualitative aspects, a human scientist would visually inspect the images. To replicate this, Sina equips the agentic loop with specialized skills, invoking a multimodal model (like Gemini) to review the generated images and determine if masks are applied correctly or if scans are properly aligned.
 
-**[15:13] Closing the Loop with Advanced Reasoners**
+### Closing the Loop with Advanced Reasoners [15:13](https://www.youtube.com/watch?v=XLEYtv3cMlw&t=913s)
 To further strengthen the loop, Sina integrates more powerful reasoning models (like Claude 3.5 Sonnet) to critique the implementations and generate the next hypotheses. He highlights the use of Peter Spinberger's Oracle CLI, which packages code and data to send to the Claude API. By continuously feeding the outcome of each loop back into a strong reasoner that asks, "Does this make sense, and what would you do next?", the system achieves significantly better hypothesis generation and continuous improvement.
 
-**[16:48] Future Bottlenecks and Conclusion**
+### Future Bottlenecks and Conclusion [16:48](https://www.youtube.com/watch?v=XLEYtv3cMlw&t=1008s)
 Sina concludes that while implementation in simulated environments is largely a solved problem, the major bottleneck for fully autonomous scientific agents is observation. Current multimodal models lack the training to understand fine-grained scientific data, such as identifying tiny lung nodules. Until models can be fine-tuned to observe like trained scientists, fully autonomous "scientists in a data center" remain out of reach. However, the hierarchical decomposition trick serves as a powerful interim method to scale test-time compute and force better reasoning out of current models, a step that may become less necessary as future models natively improve at problem compartmentalization.
 
 ## Notable Quotes

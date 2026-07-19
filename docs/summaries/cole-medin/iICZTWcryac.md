@@ -30,31 +30,31 @@ Cole Medin demonstrates a multi-provider AI coding workflow that combines Anthro
 
 ## Detailed Breakdown
 
-**[00:00] The Case for Mixing Providers**
+### The Case for Mixing Providers [00:00](https://www.youtube.com/watch?v=iICZTWcryac&t=0s)
 The video opens by highlighting recent AI model releases: Google's Gemini 3.5 Flash, known for speed and beautiful UI generation, and Anthropic's Claude Opus 4.8, a reasoning powerhouse. The host proposes combining both into a single workflow to leverage their respective strengths rather than choosing one.
 
-**[01:01] Inspiration and Demonstration**
+### Inspiration and Demonstration [01:01](https://www.youtube.com/watch?v=iICZTWcryac&t=61s)
 The host's inspiration came from testing Gemini 3.5 Flash in tools like Anti-Gravity and Roo Code (Pi). While Gemini excelled at UI design, producing impressive one-shot results, it often hallucinated page copy. Opus, however, is better at reasoning and factual accuracy. A deep space catalog web app is shown as an example of what the workflow can produce: beautiful UI with accurate, non-hallucinated content and a working back end.
 
-**[02:34] Cost Efficiency and Workflow Overview**
+### Cost Efficiency and Workflow Overview [02:34](https://www.youtube.com/watch?v=iICZTWcryac&t=154s)
 Beyond quality, mixing providers offers cost benefits. Gemini 3.5 Flash is significantly cheaper ($1.50 per 1M input tokens) than Opus, allowing developers to spend heavily on UI generation while saving Opus for targeted reasoning tasks. The host provides a GitHub repository (linked in the description) containing the workflow skills and an Archon workflow for autonomous execution.
 
-**[04:36] Workflow Architecture: Handoff Documents**
+### Workflow Architecture: Handoff Documents [04:36](https://www.youtube.com/watch?v=iICZTWcryac&t=276s)
 The core design principle is that every step is a separate coding agent session. Steps communicate by passing markdown "handoff documents." This architecture solves the technical limitation of mixing providers and allows developers to easily experiment with different models for each step. It also prevents LLMs from becoming overwhelmed by keeping each session focused on a single task.
 
-**[07:12] Sponsor Segment: SonarQube Advanced Security**
+### Sponsor Segment: SonarQube Advanced Security [07:12](https://www.youtube.com/watch?v=iICZTWcryac&t=432s)
 The video shifts to a sponsor message for SonarQube Advanced Security. The host discusses the need for machine-speed verification to match machine-speed AI code generation, highlighting features like dependency vulnerability scanning, SAST, and secrets detection to prevent issues like malicious NPM packages.
 
-**[08:55] Step 1: Exploration with Sonnet**
+### Step 1: Exploration with Sonnet [08:55](https://www.youtube.com/watch?v=iICZTWcryac&t=535s)
 The first workflow step is exploration, using Claude Sonnet for token efficiency. The input is a spec document (e.g., `spec.md`). The skill `/frontend_mix_explore` surveys the repo and spec, outputting a `context.md` file containing framework recommendations, brand assets, and environment variables, which prepares a foundation for the planning step.
 
-**[11:50] Step 2: Planning with Opus**
+### Step 2: Planning with Opus [11:50](https://www.youtube.com/watch?v=iICZTWcryac&t=710s)
 A new Claude Code session is started to run the `/frontend_mix_plan` skill using Opus. This step reads `context.md` and produces a three-section `plan.md`: (A) site content and intent, (B) integration scope, and (C) deployment plan. Crucially, Opus is instructed not to describe site structure, leaving UI design freedom to Gemini.
 
-**[14:25] Step 3: UI Design with Gemini**
+### Step 3: UI Design with Gemini [14:25](https://www.youtube.com/watch?v=iICZTWcryac&t=865s)
 The workflow switches to Gemini 3.5 Flash via Roo Code (Pi) and OpenRouter. The `/frontend_mix_design` skill is invoked, passing `plan.md` as input. Gemini focuses only on Section A of the plan to build the UI, outputting a UI summary for the next steps. The host notes that skills can also be used in tools like Anti-Gravity by simply asking the agent to read and execute the skill file.
 
-**[16:30] Final Steps: Integrations, Validation, and Smoke Testing**
+### Final Steps: Integrations, Validation, and Smoke Testing [16:30](https://www.youtube.com/watch?v=iICZTWcryac&t=990s)
 The process repeats back in Claude Code with Opus for back-end integrations, reading the UI summary and `plan.md`. Subsequent steps include validation (unit tests, linting), fixing issues, deployment, and a final smoke test using a browser automation skill to verify the app as a user would. The host encourages viewers to try the workflow themselves and adapt the concepts to their own harnesses.
 
 ## Notable Quotes

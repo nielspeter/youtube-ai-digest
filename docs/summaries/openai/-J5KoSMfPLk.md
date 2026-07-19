@@ -28,19 +28,19 @@ This short video showcases how Fast Campus and OpenAI are partnering to make AI 
 
 ## Detailed Breakdown
 
-**[00:11] — Bridging the Technology Gap in Education**
+### Bridging the Technology Gap in Education [00:11](https://www.youtube.com/watch?v=-J5KoSMfPLk&t=11s)
 The speaker notes that while bridging the technology gap has always been a goal, the difficulty of the technology itself was the main obstacle. After partnering with OpenAI and tools like ChatGPT ("Chappy") and Codex, that barrier has been substantially lowered. Fast Campus is now conducting personalized assessments and feedback for students in collaboration with Codex, creating a more resonant, growth-oriented learning experience. There are plans to further develop these educational systems.
 
-**[00:43] — Helping Korea's Unprepared Retirees**
+### Helping Korea's Unprepared Retirees [00:43](https://www.youtube.com/watch?v=-J5KoSMfPLk&t=43s)
 The speaker shares a personal motivation: their father retired without preparation and struggled afterward. This inspired a desire to help others in similar situations. Unprepared retirement is described as a growing problem in Korea, and the initiative aims to give retirees tools to continue contributing and living better.
 
-**[01:26] — Empowering Retirees to Reuse Lifelong Knowledge**
+### Empowering Retirees to Reuse Lifelong Knowledge [01:26](https://www.youtube.com/watch?v=-J5KoSMfPLk&t=86s)
 Participants were able to create their own results in Codex within an hour, realizing that producing complex outputs is not difficult when using Codex and ChatGPT. The speaker encourages retirees not to let decades of accumulated knowledge go to waste, but instead to use OpenAI's tools to improve their lives and continue creating value.
 
-**[01:56] — An Older Entrepreneur Discovers AI Through Family**
+### An Older Entrepreneur Discovers AI Through Family [01:56](https://www.youtube.com/watch?v=-J5KoSMfPLk&t=116s)
 An older participant, a mother running her own business, admits she and her peers feel weak when it comes to AI and computers. Her daughter told her about the program, and after seeing its potential, she joined. She paints traditional flower-and-bird and flower-and-butterfly artworks and wants to learn how to animate her drawings—something younger people commonly do—so her art can look even better in video form.
 
-**[02:27] — Launching a One-Person Business with AI**
+### Launching a One-Person Business with AI [02:27](https://www.youtube.com/watch?v=-J5KoSMfPLk&t=147s)
 A participant explains she started her business to launch her own personal brand rather than a company's. Running a one-person business typically requires significant human resources, but she believes AI can help her manage the entire process—creating product detail pages, packaging design, and photography—allowing her to launch a product on her own.
 
 ## Notable Quotes

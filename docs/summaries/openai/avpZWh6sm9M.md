@@ -31,16 +31,16 @@ OpenAI showcases its new GPT voice model, demonstrating how it acts as a natural
 
 ## Detailed Breakdown
 
-**[00:00] — Introducing the Voice Model Concept**
+### Introducing the Voice Model Concept [00:00](https://www.youtube.com/watch?v=avpZWh6sm9M&t=0s)
 The video opens with a description of the new voice model as being like a "superhuman friend" that possesses vast knowledge but interacts in a natural, human-like way. Speakers highlight its ability to multitask—answering questions while simultaneously working on background tasks. The example given is searching for restaurants while continuing to hold a conversation, demonstrating that the model maintains an ongoing conversational thread even while processing other requests.
 
-**[00:30] — The Travel Planning Challenge**
+### The Travel Planning Challenge [00:30](https://www.youtube.com/watch?v=avpZWh6sm9M&t=30s)
 A speaker introduces a personal pain point: they love travel but hate travel planning. They propose a challenge: breakfast in Tokyo, lunch in Dubai, and an evening/dinner in Hawaii, all in the same day. The model responds by immediately beginning to scan and cross-check flights and time zones for all three locations, showing its ability to handle complex, multi-variable planning in real time.
 
-**[01:01] — Cultural Food Recommendations and Ongoing Processing**
+### Cultural Food Recommendations and Ongoing Processing [01:01](https://www.youtube.com/watch?v=avpZWh6sm9M&t=61s)
 While the model is still working on the timing logistics, the user asks about typical breakfast foods in Japan. The model recommends grilled fish, rice, miso soup, and tamagoyaki for Tokyo. When asked about Dubai, it suggests machboos, a spiced rice dish, while noting it is still crunching the timing. For Hawaii, it recommends poke or garlic shrimp for a relaxed late landing. This section highlights the model's ability to interleave helpful answers with ongoing background computation.
 
-**[01:33] — The Verdict: Doable but Tight**
+### The Verdict: Doable but Tight [01:33](https://www.youtube.com/watch?v=avpZWh6sm9M&t=93s)
 The model confirms that the ambitious itinerary is "barely possible on paper," explaining the time zone differences (Hawaii is 19 hours behind Tokyo and 14 behind Dubai). The user expresses pleasant surprise, and the model notes that while doable, it would be a strict itinerary. The user praises the model, calling it "amazing," and the speakers reflect on how impressive it is that such complex planning can be accomplished through a simple voice conversation in seconds.
 
 ## Notable Quotes

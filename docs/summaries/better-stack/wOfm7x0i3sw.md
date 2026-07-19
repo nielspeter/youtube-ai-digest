@@ -31,25 +31,25 @@ Open Code is a free, open-source terminal coding agent that rivals Claude Code w
 
 ## Detailed Breakdown
 
-**[00:00] Introduction and Overview**
+### Introduction and Overview [00:00](https://www.youtube.com/watch?v=wOfm7x0i3sw&t=0s)
 The video introduces Open Code, an open-source coding agent that has crossed 180,000 GitHub stars. It's positioned as a direct replacement for Claude Code, offering access to hundreds of models including free and local options, avoiding vendor lock-in. The host promises a comparison with paid alternatives and a test of whether free and open source holds up for production use.
 
-**[00:31] Terminal UI and Model Flexibility**
+### Terminal UI and Model Flexibility [00:31](https://www.youtube.com/watch?v=wOfm7x0i3sw&t=31s)
 Open Code lives in the terminal and includes tools like bash, edit, grep, web fetch, and web search—the same capabilities that made Claude Code useful. The UI is described as clean, demonstrated using the Ghostty terminal. A major differentiator is the ability to bring your own models; by default it uses a free model called "Big Pickle," but users can switch models via the `/models` command or a model picker (Ctrl+I) pulling from models.dev, including GLM 5.2 and DeepSeek 4.
 
-**[01:32] Cost Advantages and Model Performance**
+### Cost Advantages and Model Performance [01:32](https://www.youtube.com/watch?v=wOfm7x0i3sw&t=92s)
 Even with paid models, Open Code can be significantly cheaper than Anthropic's API-only pricing. GLM 5.2 is highlighted as much cheaper than comparable models like "Fable 5" (likely Claude 3.5 Sonnet) and even beat it at web design according to Design Arena. However, there's no auto mode to select models based on task type, a feature found in harnesses like Copilot. Instead, users can configure custom sub-agents to use specific models for specific tasks.
 
-**[02:04] Agent Types: Primary and Sub-Agents**
+### Agent Types: Primary and Sub-Agents [02:04](https://www.youtube.com/watch?v=wOfm7x0i3sw&t=124s)
 Open Code features two agent types. Primary agents are top-level and include "build" and "plan," similar to Claude Code or Copilot. Plan mode is for planning large features without making changes; build mode implements them. Sub-agents handle specialist tasks and are invoked automatically based on prompts or manually via the `@` character. Default sub-agents include "general" (for research and multi-step tasks) and "explore" (read-only, for navigating large codebases).
 
-**[03:05] Configuring Custom Agents**
+### Configuring Custom Agents [03:05](https://www.youtube.com/watch?v=wOfm7x0i3sw&t=185s)
 Custom agents can be configured in two ways. The first is via a central JSON config file, where default agents can be modified and new ones added (e.g., a "code review" agent using Claude Sonnet 4). The second method uses a `.opencode/agents` folder with individual markdown files per agent, such as `ui-engineer.md` or `review.md`. These markdown files specify the model, temperature, permissions, mode (sub-agent), and detailed instructions. More detailed instructions reduce hallucinations and improve task accuracy.
 
-**[05:11] Quality-of-Life Features**
+### Quality-of-Life Features [05:11](https://www.youtube.com/watch?v=wOfm7x0i3sw&t=311s)
 Several features improve the Open Code experience. Enabling LSP in the config auto-starts the correct language server per file, giving the model real-time errors rather than just raw text. The `@` character provides fuzzy file search to pull files into context. Undo/redo can reverse agent changes and they stack. The `share` command generates a link to the entire session for debugging or handoff. The `inits` command writes an `agents.md` file (similar to Claude Code's `CLAUDE.md`) that teaches agents project conventions.
 
-**[06:13] Final Verdict and Cost Comparison**
+### Final Verdict and Cost Comparison [06:13](https://www.youtube.com/watch?v=wOfm7x0i3sw&t=373s)
 The host's verdict is that Open Code's UI is considerably better than Claude Code's, with the same tools plus model flexibility and custom agent configuration. On cost, it's not black and white: for API-only users, Open Code wins due to access to cheaper models. However, Anthropic subscription holders (Pro or Max plans) cannot use third-party harnesses like Open Code, and Claude Code bundles significant discounts compared to raw API rates. The recommendation is to use Open Code if on API-only pricing, but stick with Claude Code if you have an Anthropic subscription.
 
 ## Notable Quotes

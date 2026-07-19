@@ -27,13 +27,13 @@ OpenAI's new ChatGPT app can directly control websites and desktop applications 
 - On macOS, ChatGPT uses its own cursor, allowing it to work in the background while the user continues doing other things.
 
 ## Detailed Breakdown
-**[00:05] Using the In-App Browser and Annotation Tool**
+### Using the In-App Browser and Annotation Tool [00:05](https://www.youtube.com/watch?v=dB6pOolO7io&t=5s)
 The video begins by introducing the new ChatGPT app's ability to control websites and apps to get real work done. The presenter gives an example of analyzing a community forum to identify top user frustrations over the past month. ChatGPT uses an in-app browser to scan the forum and compile a "friction report." Additionally, the browser features a built-in annotation tool, allowing users to highlight specific elements or ask questions directly on a page, eliminating the need for overly verbose text instructions.
 
-**[00:36] Chrome Extension and Desktop Computer Use**
+### Chrome Extension and Desktop Computer Use [00:36](https://www.youtube.com/watch?v=dB6pOolO7io&t=36s)
 For users who need to leverage their existing browser context, ChatGPT offers a Chrome extension. This allows the AI to read tabs the user already has open or create new tabs in the background without interrupting the user's workflow. The presenter notes this is particularly useful for tedious tasks like filing expense reports or long data entry. If the required tool is a native desktop app rather than a website, ChatGPT's "Computer Use" feature can control any application on Windows or macOS. On macOS specifically, ChatGPT operates with its own dedicated cursor, enabling it to work in the background while the user continues with other tasks.
 
-**[01:06] Conclusion**
+### Conclusion [01:06](https://www.youtube.com/watch?v=dB6pOolO7io&t=66s)
 The video closes with a brief wrap-up encouraging users to try the new ChatGPT capabilities. It reiterates the core value proposition: users can now get more done by connecting ChatGPT directly to the apps and tools they use on a daily basis.
 
 ## Notable Quotes

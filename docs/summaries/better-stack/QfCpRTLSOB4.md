@@ -31,28 +31,28 @@ Kimi K3 is a massive 2.8 trillion parameter open AI model that has shocked the i
 
 ## Detailed Breakdown
 
-**[00:00] Announcement and Specifications**
+### Announcement and Specifications [00:00](https://www.youtube.com/watch?v=QfCpRTLSOB4&t=0s)
 The video introduces Kimi K3, a 2.8 trillion parameter open model built on Kimi Delta retention and attention residuals. It features native vision capabilities and a 1 million token context window. Billed as the world's first open 3 trillion class model, it is designed for frontier intelligence across long-horizon coding, knowledge work, and reasoning.
 
-**[00:30] Benchmark Performance**
+### Benchmark Performance [00:30](https://www.youtube.com/watch?v=QfCpRTLSOB4&t=30s)
 The host reviews Kimi K3's performance on the lab's official benchmarks, noting that it either trails slightly behind or beats top closed models like Fable and GPT 5.6. Moving to third-party benchmarks, the results hold up: Kimi K3 scores a 76.2 on the Coding Index (just 0.3 points behind Fable 5), and takes third place on both the Agentic and Intelligence indices, losing only to Fable and GPT 5.6 Soul. The host notes a massive leap in performance from Kimi's previous models.
 
-**[01:30] Pricing and Cost Efficiency**
+### Pricing and Cost Efficiency [01:30](https://www.youtube.com/watch?v=QfCpRTLSOB4&t=90s)
 The main downside identified is the cost. Running the model locally requires a supercomputer, and the API is priced at $3 per million input tokens and $15 per million output tokens. While this is a step up from Kimi 2.6 and pricier than GLM 5.2, it is cheaper than Fable 5, Opus, and GPT 5.6. In terms of cost-per-task, it is similar to GPT 5.6 Soul and about half the price of Opus 4.8.
 
-**[02:33] Test 1: 3.js Formula 1 Racing Game**
+### Test 1: 3.js Formula 1 Racing Game [02:33](https://www.youtube.com/watch?v=QfCpRTLSOB4&t=153s)
 The first practical test asks the models to build a 3.js Formula 1 racing game in a single HTML file. Using Open Router, Kimi K3 thought for 14 minutes, took 35 minutes total, and cost $1.24 in API tokens. The resulting game was highly functional, with working AI racers, barriers, position tracking, and lap counting. Tested again via Kimi CLI, the model produced a nicer-looking game with better handling, though controls were inverted—a common issue across the 3.js models tested. 
 
-**[04:07] Test 1 Comparisons**
+### Test 1 Comparisons [04:07](https://www.youtube.com/watch?v=QfCpRTLSOB4&t=247s)
 The host compares Kimi K3's game to those built by frontier models. Fable 5 (via Claude Code) took 44 minutes and produced a comparable game with non-inverted controls and a camera wobble style. GPT 5.6 Soul took 18 minutes but failed to render the road properly and created a jumbled track, making it the only model that didn't produce a fully working track. GLM 5.2 required a second prompt to fix bugs, lacked a proper track, and looked significantly worse.
 
-**[05:09] Test 2: Personal Finance Dashboard**
+### Test 2: Personal Finance Dashboard [05:09](https://www.youtube.com/watch?v=QfCpRTLSOB4&t=309s)
 The second test involves building a full-stack personal finance dashboard without authentication. Via Open Router, Kimi K3 took 56 minutes, cost $1.30, and delivered a multi-page app with working features (adding/sending funds). Unprompted, it chose React for the frontend but built its own view system instead of using a router, and used Express.js with a JSON file for the database instead of SQLite. Using Kimi Code, the model built a simpler single-page app but made a better backend choice by utilizing Node SQLite.
 
-**[07:13] Test 2 Comparisons**
+### Test 2 Comparisons [07:13](https://www.youtube.com/watch?v=QfCpRTLSOB4&t=433s)
 Fable 5 took 56 minutes and produced a similar dashboard with a distinct new font style, using React and Node SQLite. GPT 5.6 Soul took 31 minutes and yielded the host's favorite design and the most complete codebase, utilizing Next.js and Drizzle. However, it unexpectedly tried to host the app on Cloudflare and Vercel, which the host disliked. GLM 5.2 took 15 minutes, cost $1.11, and used Next.js, but stored data in memory rather than using a real database.
 
-**[09:46] Official Examples and Conclusion**
+### Official Examples and Conclusion [09:46](https://www.youtube.com/watch?v=QfCpRTLSOB4&t=586s)
 The host highlights impressive examples from Kimi K3's tech blog, including a 3.js game and a chip design proof-of-concept. In a 48-hour autonomous run, K3 built, optimized, and verified a chip to serve a nano model using open-source tools. The host concludes that Kimi K3 lives up to the hype and poses a real threat to closed labs, though the weights have not been released yet.
 
 ## Notable Quotes

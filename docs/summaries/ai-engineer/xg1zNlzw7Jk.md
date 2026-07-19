@@ -31,28 +31,28 @@ Nick Taylor, a developer advocate at Pomerium, discusses his contribution to Ope
 
 ## Detailed Breakdown
 
-**[00:07] Introduction & Background**
+### Introduction & Background [00:07](https://www.youtube.com/watch?v=xg1zNlzw7Jk&t=7s)
 Nick Taylor introduces himself as a developer advocate at Pomerium (noting people often mispronounce the name, so they made Pomeranian stickers). He's from Montreal, a GitHub Star, Microsoft MVP, and AWS Community Builder. He expresses excitement at seeing a sizable on-prem OpenClaw instance at the venue.
 
-**[01:08] The Trusted Proxy Auth Mode Feature**
+### The Trusted Proxy Auth Mode Feature [01:08](https://www.youtube.com/watch?v=xg1zNlzw7Jk&t=68s)
 Nick explains the feature he contributed to OpenClaw back in February. He describes his frustration at still needing to paste an auth token for WebSocket connections and pair devices even when behind a proxy. He proposed an issue on the OpenClaw repo; another Caddy user agreed, and maintainer Peter Stipe laid out criteria for the feature. Nick implemented it and got it merged—his first contribution to the project.
 
-**[03:48] Configuring Trusted Proxy Mode**
+### Configuring Trusted Proxy Mode [03:48](https://www.youtube.com/watch?v=xg1zNlzw7Jk&t=228s)
 Nick walks through the config changes: the mode is set to "trusted proxy," you specify trusted proxy IP addresses, and add a trusted proxy section with a user header (in his case a JWT), required headers, and optionally allowed users. Because Pomerium's identity-aware proxy handles policy enforcement, Nick doesn't need the allowed users field. The change can be applied during onboarding or via the TUI. The result: no more token for WebSocket connections and no device pairing required—both a security and UX improvement.
 
-**[05:20] Community Contributions & Project Growth**
+### Community Contributions & Project Growth [05:20](https://www.youtube.com/watch?v=xg1zNlzw7Jk&t=320s)
 Nick gives a shout-out to contributors Anthony and Sid, who found and fixed a bug Nick missed (he was testing with an already-paired device). He notes the project's explosive growth: his issue was #1560, and within two weeks the numbers jumped to nearly #16,000, meaning his PR needed significant rebasing before merging.
 
-**[06:55] Personal OpenClaw Usage & Claw Space**
+### Personal OpenClaw Usage & Claw Space [06:55](https://www.youtube.com/watch?v=xg1zNlzw7Jk&t=415s)
 Nick shows a photo of his OpenClaw device ("McClaw") on his desk in Montreal. He uses it mainly through Discord, having abandoned Telegram due to unencrypted channels at his CEO's recommendation. He recounts accidentally giving the GitHub CLI full access, causing an premature PR, but otherwise enjoys building on his phone. He introduces "Claw Space," a side project for reading and editing workspace files without SSH.
 
-**[08:57] Live Demo: Building an MCP Server**
+### Live Demo: Building an MCP Server [08:57](https://www.youtube.com/watch?v=xg1zNlzw7Jk&t=537s)
 Nick begins a live coding demo, registering an MCP server in ChatGPT using a template. The MCP server includes an echo tool and a search speakers tool. He demonstrates how MCP apps in ChatGPT can render UI components, and then uses OpenClaw (via Discord) to instruct McClaw to modify the echo widget's message text live.
 
-**[11:36] How the Workflow Operates**
+### How the Workflow Operates [11:36](https://www.youtube.com/watch?v=xg1zNlzw7Jk&t=696s)
 Nick explains the architecture: trusted proxy mode is off for this demo, but he's using Pomerium to gate a public URL for the MCP server, enabling ChatGPT to reach it. He's editing workspace files through OpenClaw in Discord while the MCP server auto-refreshes using React Fast Refresh and Vite hot module reloading. He then asks McClaw to build a search-speakers widget using a `speakers.json` file from the AI Engineer website.
 
-**[13:41] Extending the Demo & Reflections**
+### Extending the Demo & Reflections [13:41](https://www.youtube.com/watch?v=xg1zNlzw7Jk&t=821s)
 Once the search widget is working—allowing filtering of conference speakers—Nick asks McClaw to add a "more" button that uses MCP's `send message` function to trigger an LLM call summarizing why a speaker's talk is worth attending. He reflects on how satisfying this workflow is, comparing it to his earlier skepticism about building on phones (joking that "phone killed" his doubt). He notes the approach works with other proxies like Caddy with OAuth, and encourages attendees to have fun building personal tools while being mindful of security.
 
 ## Notable Quotes

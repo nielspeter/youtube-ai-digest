@@ -31,40 +31,40 @@ Matt Maher demonstrates how to go from a design concept to a polished, playable 
 
 ## Detailed Breakdown
 
-**[00:00] Introduction and Goal**
+### Introduction and Goal [00:00](https://www.youtube.com/watch?v=DVQ-Y6poojY&t=0s)
 Matt introduces the video: he wants to take a design concept all the way to a finished product using Fable and Claude Code. He's optimistic about achieving a one- or two-shot build to a very high polish.
 
-**[01:01] Claude Design Overview**
+### Claude Design Overview [01:01](https://www.youtube.com/watch?v=DVQ-Y6poojY&t=61s)
 He shows the Claude desktop application and the Claude Design panel (also available at claude.ai/design). This tool generates real design assets and wireframes that can be shared directly back to Claude Code for building.
 
-**[02:03] The Spades Game Design**
+### The Spades Game Design [02:03](https://www.youtube.com/watch?v=DVQ-Y6poojY&t=123s)
 Matt walks through the generated design for a mobile Spades card game. The design includes multiple screens—dealing, bidding, playing, opponents, landscape mode, communication/emotes, win/lose screens, scores, and settings. He emphasizes that he didn't manually specify every screen; the agent filled in the gaps based on the objective-level prompt.
 
-**[03:35] The Design Prompt**
+### The Design Prompt [03:35](https://www.youtube.com/watch?v=DVQ-Y6poojY&t=215s)
 He reveals the prompt used to generate the design. It was short and straightforward, asking for a high-fidelity, graphically intense, animated, fun (not childish, not smoky backroom) multiplayer Spades game with 1–4 human players, bidding, real characters, emotes, portrait/landscape support, and a share URL for invitations.
 
-**[04:36] Sharing Design Assets to Claude Code**
+### Sharing Design Assets to Claude Code [04:36](https://www.youtube.com/watch?v=DVQ-Y6poojY&t=276s)
 From Claude Design, he uses the Share menu to download a ZIP of the design assets (rather than a PDF). He places this ZIP into a `docs/designs` folder in his project. He then copies the accompanying prompt to give to Claude Code, pointing it to the design files.
 
-**[05:38] Kicking Off the Build with `/goal` and Fable**
+### Kicking Off the Build with `/goal` and Fable [05:38](https://www.youtube.com/watch?v=DVQ-Y6poojY&t=338s)
 In Claude Code, he uses the `/goal` command and sets Fable to "extra." He asks it to build a "builds request" file to completion, with the loose goal of "we want to win awards with this." He explains that `/goal` is best for open-ended, objective-level builds where the agent must evaluate whether it has truly hit the mark.
 
-**[07:44] Deconstructing the Design Prompt**
+### Deconstructing the Design Prompt [07:44](https://www.youtube.com/watch?v=DVQ-Y6poojY&t=464s)
 Matt breaks down what made the design prompt effective: requests for extreme graphical fidelity, a fun and playful vibe (not a poker backroom feel), support for 1–4 players, bidding mechanics, real characters in every seat, emotes, portrait/landscape modes, and an easy share URL. He notes his original prompt was even less formal—just voice notes with repeated desires.
 
-**[10:20] The Build Requirements**
+### The Build Requirements [10:20](https://www.youtube.com/watch?v=DVQ-Y6poojY&t=620s)
 He outlines the separate instructions given to Claude Code for the build itself: a mobile HTML game (phone-only), use of an open-source game engine (don't build your own), behave like a game not a browser (no pinch/zoom), pixel-perfect fidelity to the design with tests, multi-user from the start (no accounts or friend lists—just a join code), AI opponents with personalities (not just difficulty levels), full audio (music and sound effects), and a soft goal of being faultless and app-store-ready.
 
-**[13:56] First Build Results and Defects**
+### First Build Results and Defects [13:56](https://www.youtube.com/watch?v=DVQ-Y6poojY&t=836s)
 After roughly 2+ hours, the build finishes. Matt demos the app: it has play/join options, table hosting, AI selection, card dealing, and gameplay. However, there are visible bugs (e.g., a missing background, cards hard to see in portrait). He explains his fix process: screenshot each defect, annotate with notes, and place them in a "build notes" folder.
 
-**[16:00] Sending Defects Back for Fixes**
+### Sending Defects Back for Fixes [16:00](https://www.youtube.com/watch?v=DVQ-Y6poojY&t=960s)
 He instructs Claude Code to look at the screenshot folder, plan all fixes in one pass, implement them, and validate with tests. He mentions he did a couple more small push-backs for alignment after this.
 
-**[17:02] Final Demo: Multiplayer Gameplay**
+### Final Demo: Multiplayer Gameplay [17:02](https://www.youtube.com/watch?v=DVQ-Y6poojY&t=1022s)
 Matt demonstrates the finished Spades game using two browsers (simulating an iPad and a phone). He hosts a table, joins with a code from the other device, deals cards, bids, and plays through a hand. The cross-device multiplayer works, and he calls it a smashing success.
 
-**[18:57] Token Usage and Build Stats**
+### Token Usage and Build Stats [18:57](https://www.youtube.com/watch?v=DVQ-Y6poojY&t=1137s)
 He reveals the build consumed 628 million tokens, but 96.8% were cache hits. New (non-cached) output tokens were 1.72 million. The build took 3.5 hours (excluding design time), produced 24,000 lines of code, 64 files, 83 tests, and 6 commits. He closes by encouraging viewers that this shows what it takes to go from zero to app-store-ready.
 
 ## Notable Quotes

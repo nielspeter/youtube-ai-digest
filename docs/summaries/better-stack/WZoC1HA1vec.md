@@ -31,37 +31,37 @@ PocketBase is an open-source, single-file Go binary with SQLite embedded that se
 
 ## Detailed Breakdown
 
-**[00:00] Introduction to PocketBase**
+### Introduction to PocketBase [00:00](https://www.youtube.com/watch?v=WZoC1HA1vec&t=0s)
 PocketBase is introduced as an open-source alternative to Supabase and Firebase, and possibly the simplest backend you could ever run. It's a single Go binary with SQLite embedded, providing realtime database, authentication, and file storage. The video aims to test whether this simple architecture holds up beyond basic apps.
 
-**[00:32] Architecture and Admin UI**
+### Architecture and Admin UI [00:32](https://www.youtube.com/watch?v=WZoC1HA1vec&t=32s)
 PocketBase is a single Go binary, but coding in Go is optional since the backend can be extended with JavaScript and TypeScript. It includes a basic admin UI for configuring collections, similar to how Supabase works. Front-end connection is done via the JavaScript SDK, allowing direct database access from the client — a design pattern shared with Firebase and Supabase. API rules and auth keep access secure.
 
-**[01:02] Demo App Overview**
+### Demo App Overview [01:02](https://www.youtube.com/watch?v=WZoC1HA1vec&t=62s)
 The demo application is a bug tracker built with a React front-end and PocketBase backend. The key file is `pb.ts`, which imports the PocketBase class, creates an instance, and connects to the backend. This instance (`PB`) is then used throughout the application.
 
-**[01:33] Authentication and State Management**
+### Authentication and State Management [01:33](https://www.youtube.com/watch?v=WZoC1HA1vec&t=93s)
 The logged-in user hook initializes state with `PB.authStore.model`, grabbing the currently authenticated user. A listener is set up via the `onChange` event so that when the auth store changes, the new user is set into state. This allows accessing and subscribing to auth state simply.
 
-**[02:05] Realtime Data Subscriptions**
+### Realtime Data Subscriptions [02:05](https://www.youtube.com/watch?v=WZoC1HA1vec&t=125s)
 The `useIssues` hook initializes empty state, then uses a `useEffect` to fetch all issues via `getFullList` and populate state. Realtime subscriptions are set up with `pb.collection('issues').subscribe`, so when records are created, updated, or deleted (e.g., dragging cards between columns), state is automatically updated.
 
-**[03:07] File Storage and Issue Creation**
+### File Storage and Issue Creation [03:07](https://www.youtube.com/watch?v=WZoC1HA1vec&t=187s)
 Creating a new issue supports attaching a screenshot. The submit function appends form data and calls `pb.collection('issues').create()` with the data. On the backend, collection API rules prevent misuse. The admin interface shows the `users` and `issues` collections, and API rules can be configured per collection — for example, requiring `@request.auth.id` to match the user ID for updates or deletes.
 
-**[04:08] Extending with Hooks**
+### Extending with Hooks [04:08](https://www.youtube.com/watch?v=WZoC1HA1vec&t=248s)
 PocketBase can be extended via hooks in Go, JavaScript, or TypeScript. There are 82 unique hooks available at the time of filming, covering events like `onBootstrap` (app start) and `onRecordCreate` (database record creation). The presenter's hooks are written in TypeScript and compiled into JavaScript in the `pb_hooks` folder, since PocketBase only natively supports JavaScript.
 
-**[05:10] Hook Example: Sending Emails**
+### Hook Example: Sending Emails [05:10](https://www.youtube.com/watch?v=WZoC1HA1vec&t=310s)
 The main hook file demonstrates an `onRecordCreate` hook targeting issue creation. Every time a record is created, an email is sent to the user via `e.app.newMailClient().send()` with a constructed message object. This illustrates how custom functionality is supported through the extensive hook system.
 
-**[05:41] Deployment and Storage Considerations**
+### Deployment and Storage Considerations [05:41](https://www.youtube.com/watch?v=WZoC1HA1vec&t=341s)
 Because PocketBase uses SQLite, it requires persistent storage. Platforms with ephemeral filesystems (Heroku, Render, Railway) would lose data on redeploy. A VPS is the recommended and cheaper option. Data lives in the `pb_data` folder, which contains a `storage` folder for uploaded files and a `db` file for the SQLite database. Deleting the db file would lose all application data, so a backup strategy is essential.
 
-**[06:12] Cost Comparison and Production Features**
+### Cost Comparison and Production Features [06:12](https://www.youtube.com/watch?v=WZoC1HA1vec&t=372s)
 Compared to Supabase (starting at $25/month for the basic tier), PocketBase is essentially free — you only pay VPS costs (as little as $4/month) and can run unlimited projects. It includes production features like migrations, job scheduling, and logging. Static files can be served directly from the `pb_public` folder (useful for React front-ends), and dynamic routes with template rendering are supported (useful for email templates).
 
-**[07:14] Production Readiness and Pre-v1 Caveat**
+### Production Readiness and Pre-v1 Caveat [07:14](https://www.youtube.com/watch?v=WZoC1HA1vec&t=434s)
 PocketBase includes all features needed for a modern SaaS app and is fully extensible. However, it is pre-v1, meaning you must be comfortable reading changelogs and running manual migrations occasionally. If that's acceptable, it's a viable option for building a production app.
 
 ## Notable Quotes

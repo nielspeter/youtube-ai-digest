@@ -28,31 +28,31 @@ Google's open-source Agent CLI, combined with AI coding assistant "skills," lets
 - The entire process of building, evaluating, and deploying an agent can be driven by natural language via an AI coding assistant like Claude Code, without the developer typing a single command.
 
 ## Detailed Breakdown
-**[00:00] Introduction and Easier Agent Building**
+### Introduction and Easier Agent Building [00:00](https://www.youtube.com/watch?v=1wfY7GCVvh0&t=0s)
 The host introduces Google's Agent CLI, an open-source tool that simplifies building and shipping AI agents to production. He notes that while agents can still be complex (involving memory systems and RAG), tools like this have made the process significantly easier compared to just six months ago.
 
-**[01:03] A Walk Down Memory Lane**
+### A Walk Down Memory Lane [01:03](https://www.youtube.com/watch?v=1wfY7GCVvh0&t=63s)
 Reflecting on the past, the host recalls building agents line-by-line in VS Code using LangChain. Later, when AI coding assistants emerged, developers still had to manually pull documentation pages to provide context. Now, in 2026, all necessary documentation is baked directly into the coding agent via skills, requiring just a single command to install.
 
-**[02:36] How the Agent CLI Works**
+### How the Agent CLI Works [02:36](https://www.youtube.com/watch?v=1wfY7GCVvh0&t=156s)
 The CLI offers commands to scaffold projects, evaluate agents, run prompts, and optimize prompts based on eval data. The host emphasizes that developers don't run these commands themselves; instead, the coding agent runs them. The CLI acts as the capability, and the skills act as the instructions, covering every stage from building to production observability.
 
-**[04:39] The Live Build Challenge**
+### The Live Build Challenge [04:39](https://www.youtube.com/watch?v=1wfY7GCVvh0&t=279s)
 To demonstrate the tool's ease of use, the host challenges himself to build and deploy an agent without running a single terminal command himself. He uses Claude Code, asking it via speech-to-text to search the web, find the installation instructions for the Google Agent CLI, and install it. Within 30 seconds, the CLI and skills are installed.
 
-**[06:00] Building an "Ask Your Data" Agent**
+### Building an "Ask Your Data" Agent [06:00](https://www.youtube.com/watch?v=1wfY7GCVvh0&t=360s)
 Using a natural language prompt, the host asks Claude Code to build an agent that accepts a CSV and a question, then writes and executes Python code to answer it. He chooses code execution because it is challenging to make reliable in production, and Google ADK handles it securely in a sandbox. The coding agent loads the appropriate skills and begins scaffolding and writing the code.
 
-**[07:45] Frameworks vs. Coding Agent SDKs**
+### Frameworks vs. Coding Agent SDKs [07:45](https://www.youtube.com/watch?v=1wfY7GCVvh0&t=465s)
 The host addresses a common question: why use traditional frameworks like ADK instead of coding agent SDKs? He explains that SDKs are powerful but token-inefficient and slow, making them great for personal "second brain" workflows. However, for production platforms where users expect a response within 4 seconds, minimalistic frameworks like ADK are necessary for speed and token efficiency.
 
-**[10:21] Testing the Local Agent**
+### Testing the Local Agent [10:21](https://www.youtube.com/watch?v=1wfY7GCVvh0&t=621s)
 After about 5-10 minutes, the agent is built. The host has Claude Code create a simple Streamlit UI to test it. He uploads a sample CSV and asks for the median revenue per order and the biggest outlier. The agent successfully generates and executes the Pandas code, displaying the answer and the exact code it wrote.
 
-**[11:23] Evaluating and Deploying to Production**
+### Evaluating and Deploying to Production [11:23](https://www.youtube.com/watch?v=1wfY7GCVvh0&t=683s)
 In a new Claude Code session (to prove no prior context is needed), the host asks the assistant to evaluate the agent. The coding agent loads the eval skill, runs a three-test-case set, and all pass. Then, with a simple "deploy this agent" prompt, the coding agent handles the entire deployment process to Google Cloud Platform (GCP), taking about 6 minutes.
 
-**[13:26] Production Features and Final Testing**
+### Production Features and Final Testing [13:26](https://www.youtube.com/watch?v=1wfY7GCVvh0&t=806s)
 The deployed agent runs in GCP with a console playground URL, memories, evaluation, auditability via traces, secure sandboxed code execution, and a specific identity for permissions. The host tests the deployed agent through the Streamlit UI with a new question about regional revenue growth, confirming it works perfectly in production.
 
 ## Notable Quotes

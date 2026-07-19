@@ -31,43 +31,43 @@ Podium's AI journey evolved from early GPT-3 experiments into a fleet of custome
 
 ## Detailed Breakdown
 
-**[00:00] Introduction and the Story of "Jerry"**
+### Introduction and the Story of "Jerry" [00:00](https://www.youtube.com/watch?v=J77ro1AJGa0&t=0s)
 The conversation opens with an anecdote about Podium's default agent name, Jerry. Customers were so impressed by Jerry's service quality that they would visit dealerships and ask for him by name, even bringing cookies, unaware that Jerry was an AI. This sets the stage for a discussion on Podium's AI efforts and rapid growth.
 
-**[00:32] Podium's Business and the Shift to AI**
+### Podium's Business and the Shift to AI [00:32](https://www.youtube.com/watch?v=J77ro1AJGa0&t=32s)
 Podium has been building a communications platform for over a decade. The founders' early connection with Sam Altman at Y Combinator in 2016 led to early access to GPT-3 in 2020. By 2023, the opportunity to use AI for "speed to lead"—being the first business to respond to an inbound consumer lead—became the obvious focus, eventually driving over $100 million in AI revenue.
 
-**[02:39] The First Agent and Early Prompt Engineering**
+### The First Agent and Early Prompt Engineering [02:39](https://www.youtube.com/watch?v=J77ro1AJGa0&t=159s)
 Podium's agent journey began by combining information about a car dealership's inventory with business playbooks to schedule test drives. In those early days, prompt engineering was primarily about preventing the model from outputting gibberish. The evolution from those brittle beginnings to models that can follow complex directives has been central to Podium's belief in the future of agents.
 
-**[03:41] Early Evaluation and Quality Assurance**
+### Early Evaluation and Quality Assurance [03:41](https://www.youtube.com/watch?v=J77ro1AJGa0&t=221s)
 Building reliable agents for diverse industries like automotive, home services, and elective medical required extensive red teaming. Early evals were crude: the team would print 50 "golden" inputs and outputs and manually review each one to see the effect of prompt changes. This focus on model outputs, while evolving into more robust systems, has always been key to achieving quality.
 
-**[05:52] Proof That AI Was Changing the Trajectory**
+### Proof That AI Was Changing the Trajectory [05:52](https://www.youtube.com/watch?v=J77ro1AJGa0&t=352s)
 The major signal that AI was transforming Podium came from customers reporting that they were closing more leads and making more money. The quality of the AI sometimes exceeded human performance, leading to a strong willingness to pay. The "Jerry" stories reinforced that the AI was providing genuinely useful responses that helped consumers make decisions faster.
 
-**[06:57] Scaling to a Fleet of Agents**
+### Scaling to a Fleet of Agents [06:57](https://www.youtube.com/watch?v=J77ro1AJGa0&t=417s)
 Podium now has about a half-dozen agents serving different roles. They discovered the need for a shared platform and pattern because while the underlying architecture is common across roles, each business has specific requirements. The primitives exposed to users—playbooks, tools, and preferences—allow them to define behavior and scale a single pattern into a fleet of agents.
 
-**[08:34] Why Podium Sought Out LangSmith**
+### Why Podium Sought Out LangSmith [08:34](https://www.youtube.com/watch?v=J77ro1AJGa0&t=514s)
 When agents were live in the wild, Podium needed to understand their chain of thought. The speaker notes that when an agent fails, examining the context usually reveals the agent was behaving rationally based on its instructions. LangSmith provided visibility into this behavioral reasoning, turning what seemed like a black box into a transparent process from beginning to end.
 
-**[10:41] Moving from a Hand-Rolled Runtime to LangSmith Deployments**
+### Moving from a Hand-Rolled Runtime to LangSmith Deployments [10:41](https://www.youtube.com/watch?v=J77ro1AJGa0&t=641s)
 Initially, no product existed that could serve as a runtime for Podium's agents, so they hand-rolled their own. Over time, as they refactored and encountered numerous edge cases, it became clear that maintaining a runtime was not where they delivered unique value. The temptation to hand-roll everything is strong today, but Podium realized that a runtime is a general-purpose abstraction not worth reinventing, leading them to migrate to LangSmith Deployments.
 
-**[12:50] The Practice of Agent Engineering at Podium**
+### The Practice of Agent Engineering at Podium [12:50](https://www.youtube.com/watch?v=J77ro1AJGa0&t=770s)
 The easiest part of agent engineering is building a magical demo in a controlled environment. Podium's lifecycle prioritizes getting a proof of concept out the door quickly to start banging against real-world edges. They identify edge cases through user feedback stored in both their system and LangSmith, and by talking to customers to understand their expectations based on decades of experience.
 
-**[15:27] Codifying Learnings into Evals**
+### Codifying Learnings into Evals [15:27](https://www.youtube.com/watch?v=J77ro1AJGa0&t=927s)
 Podium translates individual trace fixes into broader evaluation cases to stop playing "whack-a-mole" with bugs. They build datasets in LangSmith, and the ability to take a trace and convert it directly into an eval case is a major efficiency. LangSmith's observability, combined with the state machine checkpoints of LangGraph, provides a deep picture of what programmatically happened during an agent's execution.
 
-**[16:57] LangSmith as a Shared Organizational Platform**
+### LangSmith as a Shared Organizational Platform [16:57](https://www.youtube.com/watch?v=J77ro1AJGa0&t=1017s)
 LangSmith serves as a sanctioned, go-to platform across Podium. This allows teams new to agent building to trivially instrument their agents and follow established patterns for observability and deployment. Even if a new team doesn't initially understand the importance of an online eval system, the shared platform ensures they adopt best practices, providing a huge tailwind for organizational growth.
 
-**[18:41] The Future of Podium**
+### The Future of Podium [18:41](https://www.youtube.com/watch?v=J77ro1AJGa0&t=1121s)
 Podium's future is moving beyond perfecting simple chat interactions toward helping local business owners build bespoke agents that automate their operations. The focus is on curating the models, domains, and entities that represent how people think about their jobs, unlocking the automation of decision-making processes that run their businesses.
 
-**[20:23] Advice for New Agent Engineers**
+### Advice for New Agent Engineers [20:23](https://www.youtube.com/watch?v=J77ro1AJGa0&t=1223s)
 For those starting today, the advice is to figure out what makes your agent differentiated and focus on that. The ecosystem has matured, with established patterns and platforms like LangSmith serving as go-tos for running agents. New builders should lean into these existing tools and focus their innovation capital on what will make their agent disruptive.
 
 ## Notable Quotes

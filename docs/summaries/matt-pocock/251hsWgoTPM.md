@@ -31,103 +31,103 @@ Matt Pocock live-demos **Wayfinder**, an AI orchestration skill that evolves his
 
 ## Detailed Breakdown
 
-**[00:01] Intro and what Wayfinder is**
+### Intro and what Wayfinder is [00:01](https://www.youtube.com/watch?v=251hsWgoTPM&t=1s)
 Matt introduces the stream, noting he has about an hour. He calls Wayfinder "an absolute banger" and an evolution of his "grill me" skill—a tool for figuring out large chunks of work in one piece by charting a map from the current state to the destination.
 
-**[01:03] The feature: TikTok creator inside CVM**
+### The feature: TikTok creator inside CVM [01:03](https://www.youtube.com/watch?v=251hsWgoTPM&t=63s)
 He dictates his initial requirement: extend his existing course video manager (CVM) app to support a TikTok/short-form creator. Key ideas: reuse the normal videos table, investigate the TikTok API for uploading, and also support YouTube Shorts. He clarifies the goal is a **spec**, not implementation.
 
-**[02:36] How Wayfinder works**
+### How Wayfinder works [02:36](https://www.youtube.com/watch?v=251hsWgoTPM&t=156s)
 Matt explains Wayfinder first explores the codebase, then starts "quizzing" him. It charts the map and finds the way through open decisions. He notes Wayfinder infrastructure lives on GitHub and that he's using Opus 4.8 (not Fable) for grilling.
 
-**[04:09] Grilling begins: what is a TikTok video?**
+### Grilling begins: what is a TikTok video? [04:09](https://www.youtube.com/watch?v=251hsWgoTPM&t=249s)
 The agent starts asking questions. Matt references his `schema.ts` videos table (id, lessonId, pitchId). He decides a TikTok video should be an existing video with a different attribute, not a new entity. He wants low friction—no required pitch relationship—because TikToks should be "okay, I've got an idea, let's go."
 
-**[06:47] Pitches vs standalone TikToks**
+### Pitches vs standalone TikToks [06:47](https://www.youtube.com/watch?v=251hsWgoTPM&t=407s)
 He clarifies that pitches are for longer-form, more expensive videos needing planning. TikToks should bypass that machinery entirely. He also mentions TikTok plus YouTube Shorts as target platforms and notes he has no Instagram following.
 
-**[09:58] Prior art in the Total TypeScript monorepo**
+### Prior art in the Total TypeScript monorepo [09:58](https://www.youtube.com/watch?v=251hsWgoTPM&t=598s)
 Matt remembers a previous CLI workflow that took the latest OBS video and added subtitles via Remotion. He suggests this Remotion project may need extraction into its own repo. He highlights how much "fog" remains—Wayfinder's job is to clear it.
 
-**[11:00] The full workflow: Wayfinder → to-spec → to-tickets → implement → review**
+### The full workflow: Wayfinder → to-spec → to-tickets → implement → review [11:00](https://www.youtube.com/watch?v=251hsWgoTPM&t=660s)
 He pulls up a diagram showing the pipeline. Wayfinder (or grill-with-docs) feeds into to-spec, then to-tickets, then implement, then code review. He's running Opus 4.8, Claude Code, medium effort.
 
-**[13:04] The proposed map**
+### The proposed map [13:04](https://www.youtube.com/watch?v=251hsWgoTPM&t=784s)
 Wayfinder proposes a 9-ticket map: a decision-complete spec for a TikTok creator in CVM, with a subtitle vertical render pipeline using Remotion prior art, posting to TikTok and YouTube Shorts. Execution is out of scope. Matt approves and asks it to create GitHub issues.
 
-**[14:09] Model vs harness vs environment**
+### Model vs harness vs environment [14:09](https://www.youtube.com/watch?v=251hsWgoTPM&t=849s)
 Matt shares his mental model: the model (Opus, GPT) is the core, wrapped by a harness (Claude Code, ChatGPT), wrapped by an environment (filesystem, codebase). People over-focus on swapping models; improving the harness and environment is free and often more impactful.
 
-**[15:10] GitHub issues created**
+### GitHub issues created [15:10](https://www.youtube.com/watch?v=251hsWgoTPM&t=910s)
 Wayfinder creates real GitHub issues on his public repo. The map delegates to subtasks and decision tickets. Matt notes you don't have to use GitHub—any tracker works.
 
-**[16:43] Ticket breakdown and parallel sessions**
+### Ticket breakdown and parallel sessions [16:43](https://www.youtube.com/watch?v=251hsWgoTPM&t=1003s)
 The nine tickets include grilling sessions, a prototype, and research tasks. Wayfinder auto-spawns agents for research. Matt manually opens four parallel Claude Code sessions for different grilling topics (short-form attribute, portrait creator view, TikTok creation flow, etc.).
 
-**[21:00] Grilling: the format attribute**
+### Grilling: the format attribute [21:00](https://www.youtube.com/watch?v=251hsWgoTPM&t=1260s)
 An agent challenges the attribute naming: "short" vs "lesson" aren't opposites. Matt agrees it should be a `format` enum (`standard` vs `short`), not a boolean, because booleans don't scale if a third type is added later. He prefers enums for extensible categories.
 
-**[25:12] Grilling: creation flow**
+### Grilling: creation flow [25:12](https://www.youtube.com/watch?v=251hsWgoTPM&t=1512s)
 Another session asks whether TikTok creation should be "footage first, shell first, or both." Matt wants a press-to-talk button, then AI-generated metadata from the transcript. He shows his actual content creator platform UI for context.
 
-**[26:45] First prototype**
+### First prototype [26:45](https://www.youtube.com/watch?v=251hsWgoTPM&t=1605s)
 A prototype ticket completes on a worktree. Matt has to fiddle with environment variables and npm install. The prototype skill generates UI variants to raise fidelity of the discussion. He doesn't love the first batch of mockups but finds variant B ("Studio") promising.
 
-**[33:11] Redirecting the prototype**
+### Redirecting the prototype [33:11](https://www.youtube.com/watch?v=251hsWgoTPM&t=1991s)
 Matt tells the agent to explore the real video editing code, reuse the existing reducer and UI components, and componentize shared code rather than building something divorced from the current app.
 
-**[34:13] Research tickets return**
+### Research tickets return [34:13](https://www.youtube.com/watch?v=251hsWgoTPM&t=2053s)
 All four research tickets close automatically with findings committed to docs pages on separate branches. The map updates to show resolved decisions. Research covered platform upload APIs, caption rendering, and more.
 
-**[36:23] Format surfacing in UI**
+### Format surfacing in UI [36:23](https://www.youtube.com/watch?v=251hsWgoTPM&t=2183s)
 Matt decides format should surface as both a filter and a visual marker in video lists, possibly tabs. When a question needs visual exploration, Wayfinder can schedule a new prototype ticket from within a grilling session.
 
-**[38:01] Second prototype: TikTok list view**
+### Second prototype: TikTok list view [38:01](https://www.youtube.com/watch?v=251hsWgoTPM&t=2281s)
 Matt navigates to a prototype on a new route. After environment setup struggles (worktrees, symlinks, npm install), he sees two variants. Variant B—a friendly grid with a "new TikTok" button—delights him. He picks B and gives detailed feedback (remove duplicate header button, consider how rendered-vs-posted state hits the schema).
 
-**[44:22] Grilling: editor panel layout**
+### Grilling: editor panel layout [44:22](https://www.youtube.com/watch?v=251hsWgoTPM&t=2662s)
 The agent asks what lives in the new editor panel. Matt wants a separate right column replacing the player-heavy side. He requests another prototype because he can't picture it from words alone.
 
-**[46:28] Sidebar decision**
+### Sidebar decision [46:28](https://www.youtube.com/watch?v=251hsWgoTPM&t=2788s)
 Matt agrees to a dedicated TikToks sidebar item in CVM. He notes the current sidebar is sparse enough to accommodate it.
 
-**[48:10] Render pipeline location**
+### Render pipeline location [48:10](https://www.youtube.com/watch?v=251hsWgoTPM&t=2890s)
 He decides to keep the Remotion project at arm's length in its own repo for now, invoked via local shell-out, rather than pulling it into CVM. The old dependencies and non-monorepo setup make integration premature.
 
-**[50:14] Third prototype: studio editor**
+### Third prototype: studio editor [50:14](https://www.youtube.com/watch?v=251hsWgoTPM&t=3014s)
 A new studio prototype loads. Matt is impressed—it closely resembles his actual editor. He reviews variants, likes the full-screen player on the right, and requests an action menu matching the existing editor. He notes he doesn't need caption editing because Remotion handles captioning.
 
-**[53:21] Attachment to Remotion caption look**
+### Attachment to Remotion caption look [53:21](https://www.youtube.com/watch?v=251hsWgoTPM&t=3201s)
 When asked how attached he is to the Remotion caption styling, Matt says "very"—it took a long time to get right and looks great. He emphasizes that AI misalignment often stems from agents not understanding your values and priorities.
 
-**[54:30] Map progress: 6 of 9**
+### Map progress: 6 of 9 [54:30](https://www.youtube.com/watch?v=251hsWgoTPM&t=3270s)
 Six tickets are closed. He grabs the posting lifecycle ticket. He explains that parallel sessions rarely conflict because blocking relationships are well-tracked, and when they do conflict you point sessions at each other.
 
-**[55:33] Render contract crystallizes**
+### Render contract crystallizes [55:33](https://www.youtube.com/watch?v=251hsWgoTPM&t=3333s)
 The decision: extract the Remotion project into a clean standalone repo, CVM invokes it via local shell-out, CVM owns the surrounding glue (transcribe audio, etc.), and pulling it into CVM is deferred. Matt loves this.
 
-**[57:08] Fourth prototype: post actions**
+### Fourth prototype: post actions [57:08](https://www.youtube.com/watch?v=251hsWgoTPM&t=3428s)
 A prototype shows post-action placement options. Matt picks "above the video" for the action menu. He notes the video is slightly too long vertically (CSS adjustment needed) and that the post button behavior should be a grilling ticket, not a design ticket.
 
-**[58:43] Posting lifecycle: tracking platform state**
+### Posting lifecycle: tracking platform state [58:43](https://www.youtube.com/watch?v=251hsWgoTPM&t=3523s)
 Matt wants to track which platforms a video has been posted to, derivable from file system status. He prefers a per-platform record (remote ID, remote URL) over a simple boolean.
 
-**[60:51] Vibe coding within prototypes**
+### Vibe coding within prototypes [60:51](https://www.youtube.com/watch?v=251hsWgoTPM&t=3651s)
 He clarifies they're "vibe coding within prototypes"—the prototypes feed into a spec, and the spec is what gets shipped. This keeps exploration fast and disposable.
 
-**[64:01] TikTok API blocker discovered**
+### TikTok API blocker discovered [64:01](https://www.youtube.com/watch?v=251hsWgoTPM&t=3841s)
 Research reveals TikTok treats every app as "unaudited" until reviewed. The audit requires building TikTok's full mandated content-sharing guidelines UX inside CVM before approval—privacy dropdowns with no defaults, disabled states, etc. Matt calls this "brutal."
 
-**[65:02] Pivot to Buffer**
+### Pivot to Buffer [65:02](https://www.youtube.com/watch?v=251hsWgoTPM&t=3902s)
 To avoid the TikTok API audit nightmare, Matt proposes routing through Buffer (which he's used before via Dropbox + Zapier + Buffer). He opens a decision ticket to evaluate this alternative, noting paying for Buffer is a small price compared to the TikTok compliance overhead.
 
-**[66:43] Wrapping up**
+### Wrapping up [66:43](https://www.youtube.com/watch?v=251hsWgoTPM&t=4003s)
 With about five minutes left, Matt wraps up. Eight of nine tasks are done. He refreshes the map to show all decisions recorded with links to sub-issues and research. He expresses love for the feeling of control Wayfinder gives him.
 
-**[68:20] Post-Wayfinder workflow**
+### Post-Wayfinder workflow [68:20](https://www.youtube.com/watch?v=251hsWgoTPM&t=4100s)
 He explains the full pipeline: complete the Wayfinder map → run `to-spec` to produce a detailed spec → close the map → run `to-tickets` to create implementation tickets → implement each in a separate context window (often AFK) → code review the diff → human review. He shows a past example PR of ~5,000 lines produced this way.
 
-**[71:38] Final notes**
+### Final notes [71:38](https://www.youtube.com/watch?v=251hsWgoTPM&t=4298s)
 Matt mentions he's on WSL, uses Sand Castle for implementation, and has no fixed content schedule. He invites questions via his "ask Matt" skill and directs people to AI Hero to subscribe to his skills. He signs off to go fix his son's car.
 
 ## Notable Quotes

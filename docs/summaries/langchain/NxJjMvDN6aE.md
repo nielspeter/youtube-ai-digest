@@ -30,19 +30,19 @@ OpenWiki 0.2 is officially adopting Google's Open Knowledge Format (OKF) specifi
 - OpenWiki is free and open source; users can log in with ChatGPT or an API key, and contributions via issues and PRs are encouraged.
 
 ## Detailed Breakdown
-**[00:00] — Announcement and OKF Overview**
+### Announcement and OKF Overview [00:00](https://www.youtube.com/watch?v=NxJjMvDN6aE&t=0s)
 Brace from LangChain announces that OpenWiki is officially adopting the Open Knowledge Format (OKF) spec from Google. Going forward, every OpenWiki generated or updated will conform to OKF. At a high level, the spec is simple: it involves adding YAML front matter to wiki documents, an `index.md` file listing all markdown files in the directory, and a `log.md` serving as a changelog.
 
-**[00:32] — YAML Front Matter in Practice**
+### YAML Front Matter in Practice [00:32](https://www.youtube.com/watch?v=NxJjMvDN6aE&t=32s)
 Brace demonstrates the OpenSwee project's OpenWiki docs, showing the new YAML front matter at the top of each document. This metadata block is the key difference between old and new OpenWiki. OKF requires fields including `type`, `title`, `description`, `resource`, and `tags`, which enable more accurate search and retrieval capabilities.
 
-**[01:03] — From Agentic Search to Deterministic Filtering**
+### From Agentic Search to Deterministic Filtering [01:03](https://www.youtube.com/watch?v=NxJjMvDN6aE&t=63s)
 Previously, agents discovered documentation through pure agentic search—navigating the file system, iterating through files, and reading contents to find the best match. With YAML front matter, agents can now use deterministic search tools, such as filtering by `type` or `tags`. For example, an agent can request all docs with a type of "BigQuery tables" and instantly retrieve matching documents without reading every file.
 
-**[02:05] — Simplicity and the Open Source Ecosystem**
+### Simplicity and the Open Source Ecosystem [02:05](https://www.youtube.com/watch?v=NxJjMvDN6aE&t=125s)
 The OKF spec is easy to add—it's just YAML front matter—yet it unlocks faster, more efficient search tools. Beyond search improvements, a second major motivation is the emerging open-source ecosystem around OKF. Brace shows a Google-built open-source visualizer that lets users explore wiki docs, see how they connect, and click into individual docs to view metadata and content.
 
-**[03:06] — OpenWiki 0.2 and Call to Action**
+### OpenWiki 0.2 and Call to Action [03:06](https://www.youtube.com/watch?v=NxJjMvDN6aE&t=186s)
 OpenWiki 0.2 ships with official OKF support, with more features coming soon including better search retrieval tools and UI for visualizing docs. Brace encourages viewers to try OpenWiki, which is free and open source, accessible via ChatGPT login or API key. He invites users to file issues for feedback or bugs and to submit PRs for new features.
 
 ## Notable Quotes

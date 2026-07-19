@@ -31,49 +31,49 @@ E No Reyes, co-founder and CTO of Factory, explains how the "software factory" c
 
 ## Detailed Breakdown
 
-### [01:31] **What Is a Software Factory?**
+### **What Is a Software Factory?** [01:31](https://www.youtube.com/watch?v=HbUznYhKFOc&t=91s)
 Reyes explains that Factory's name reflects the vision of a 24/7 autonomous system that produces software. The concept centers on "signals" — internal conversations, customer reports, bugs, telemetry — that humans traditionally absorb, prioritize, and turn into plans and code changes. Factory instruments this entire feedback loop so signals can flow all the way to deployed changes, raising questions about what automation looks like and what humans do (maintain and evolve the factory itself).
 
-### [03:37] **Product and Engineering Roles Are Converging**
+### **Product and Engineering Roles Are Converging** [03:37](https://www.youtube.com/watch?v=HbUznYhKFOc&t=217s)
 The traditional product manager role is being "unbundled." Because the software factory compresses signal-to-change time, one person can both decide what to build and monitor its creation. Factory uses "product owners" with engineering backgrounds who also have product taste. Reyes notes a bifurcation: product-oriented people and performance/architecture-oriented people, analogous to "process engineers" in physical factories. He cites an engineer named Alvin who spends nearly all his time building increasingly elaborate lint and type-check rules to prevent agents from making complex mistakes — strong evidence for humans in the loop long-term.
 
-### [07:53] **How the Software Factory Works in Practice**
+### **How the Software Factory Works in Practice** [07:53](https://www.youtube.com/watch?v=HbUznYhKFOc&t=473s)
 Factory instruments every customer Slack channel, GitHub issue, Twitter feed, internal Slack conversation, and telemetry tool (e.g., Sentry) as signals. These feed into a central pipeline where agents triage them based on a prioritization document — roughly 2,000 lines of opinionated guidance per product. Humans intervene heavily: observing proposed changes, rejecting unwanted ones, and correcting specs. Agents then run QA, code review, and security analysis. The system is clearly human-in-the-loop but with significant automation. The opinion doc started agent-written; humans now maintain it because they spot creative syntheses faster, though agents occasionally surprise them by collapsing ten rules into one elegant statement.
 
-### [11:21] **Incremental Adoption, Not "Epcot"**
+### **Incremental Adoption, Not "Epcot"** [11:21](https://www.youtube.com/watch?v=HbUznYhKFOc&t=681s)
 Reyes uses Disney's Epcot as a cautionary analogy — you can't build one futuristic city and expect everyone to copy it. Similarly, building a single ultra-futuristic example inside a company doesn't work. Instead, Factory advocates incremental transformation: start with basic SDLC automations like code review, security analysis, and documentation. Aggregating four to five of these gets a company 75% of the way there. Large organizations aren't yet ready to fully automate signal triage.
 
-### [13:25] **One Harness, Many Workflows**
+### **One Harness, Many Workflows** [13:25](https://www.youtube.com/watch?v=HbUznYhKFOc&t=805s)
 All Factory functions (code review, incident response, documentation) run on the same underlying harness; only the workflow differs. Workflows are essentially baked-in skills invoked via their headless CLI ("Droid Exec"). The harness provides primitives — looping, tool calling, sub-agent spawning with tunable parameters (reasoning level, model properties) — enabling patterns like creator-verifier with context walls between sub-agents. Factory has consolidated from separate agents for coding, docs, and review into a unified agent core, arguing that the best general agent for all knowledge work is effectively what we call a coding agent today.
 
-### [18:05] **Model-Agnostic Harness vs. Provider Harnesses**
+### **Model-Agnostic Harness vs. Provider Harnesses** [18:05](https://www.youtube.com/watch?v=HbUznYhKFOc&t=1085s)
 Reyes argues that model providers are at a structural disadvantage: they can only optimize for their own model, while a model-agnostic harness can discover the best workflows across all models and apply them universally. Post-training bakes in a "gravity" toward certain workflows, but a good harness can replicate those workflows for any model. He gives a concrete example: GPT-5.5 does code review for ~$1.70 in Factory's harness vs. $5–6 for Opus 4.8; by applying a more "Codexy" workflow to Opus, they bring it down to ~$3 with near-comparable quality. In the enterprise, where subsidies don't apply and frontier models are extremely expensive, this performance-plus-cost advantage is decisive.
 
-### [25:51] **The Platonic Representation Hypothesis and Regulatory Capture**
+### **The Platonic Representation Hypothesis and Regulatory Capture** [25:51](https://www.youtube.com/watch?v=HbUznYhKFOc&t=1551s)
 Reyes introduces the platonic representation hypothesis: models trained on the same data distribution converge toward shared representations, differing mainly in compute efficiency. At the limit, everyone is building toward a platonic representation of all human knowledge — discovering it rather than creating it. This implies distillation is unpreventable: once you've found the shape of intelligence, anyone can replicate it. He suspects model providers know this and are pursuing regulatory capture to delay the inevitable commoditization.
 
-### [27:23] **Model Differences Are Shrinking**
+### **Model Differences Are Shrinking** [27:23](https://www.youtube.com/watch?v=HbUznYhKFOc&t=1643s)
 Reyes and the host note that 18 months ago, tiny prompt changes (a single sentence, a comma in a tool description) could swing benchmark performance by 10–30%. Today, those small perturbations matter less; differences are now about "spikiness" — some models excel at certain tasks while others can't do them at all. He analogizes: models used to be like people trained on different input devices (keyboard vs. mouse vs. touchpad); now they're all competent with all tools but differ in specialization (bio PhD vs. math PhD). Over time, convergence means model choice matters less than harness quality.
 
-### [36:10] **Hill-Climbing on Harness Peculiarities**
+### **Hill-Climbing on Harness Peculiarities** [36:10](https://www.youtube.com/watch?v=HbUznYhKFOc&t=2170s)
 Factory built an early "signals" system: a lightweight model observed agent activity in real environments, self-assessing mistakes, user corrections, and tool misuse. Aggregating these insights revealed patterns — e.g., an open model consistently ignoring system-environment injections, indicating it wasn't post-trained that way. Factory shares these findings with model providers. Much of the work is also finding API bugs: inconsistent thinking traces, ordering errors, and other inference provider issues. Reyes emphasizes this is "straight-up engineering," not arcane whispering, and requires a dedicated full-time team.
 
-### [39:50] **Server-Side vs. Client-Side Implementation**
+### **Server-Side vs. Client-Side Implementation** [39:50](https://www.youtube.com/watch?v=HbUznYhKFOc&t=2390s)
 Factory implements most server-side API features (tool search, auto-compaction) on their own client side to get universal model coverage. Their entire agent loop lives in a binary they ship, making the process transparent (you could decompile it). Provider-side implementations create lock-in; client-side implementations preserve flexibility. The only scenario where providers could make a harness truly model-exclusive is through active combativeness — silently degrading performance for non-native harnesses or requiring harness tags — but this signals abandonment of the platform business model and would be economically self-destructive. Memory via learned LoRA heads is the one area that could create meaningful lock-in, but Reyes thinks this would push the market toward open models instead.
 
-### [46:36] **Auto Wiki: Knowledge for Humans, Not Agents**
+### **Auto Wiki: Knowledge for Humans, Not Agents** [46:36](https://www.youtube.com/watch?v=HbUznYhKFOc&t=2796s)
 Auto Wiki generates dense, structured knowledge representations of a codebase — canonical structures tailored to repo type (microservice monorepo, web app, FFmpeg, etc.). Surprisingly, Reyes says Auto Wiki is primarily for humans, not agents; agents are already good enough at finding context themselves. Factory adds a "lore" section annotating the codebase's history (e.g., "Stepan made the first commit of agent core") and even generates 4–6 minute video walkthroughs with motion graphics and text-to-speech. The host notes their similar "open wiki" product is more agent-oriented, and Reyes acknowledges these may be different products serving different needs.
 
-### [55:54] **Agent Readiness and Deterministic Feedback**
+### **Agent Readiness and Deterministic Feedback** [55:54](https://www.youtube.com/watch?v=HbUznYhKFOc&t=3354s)
 Agents succeed when they have non-human deterministic feedback. Reyes lists hundreds of sources: unit/integration/end-to-end/fuzzy tests, test coverage gates, dev environment reproducibility, flakiness detection, standardized metrics and logging rules, AST parsers, file-name linting, code ownership structures. If you can define a problem clearly, define the outcome, and measure whether the outcome is achieved, agents can accomplish it — if you're willing to pay the inference cost.
 
-### [57:28] **Missions: A Universal Meta-Workflow**
+### **Missions: A Universal Meta-Workflow** [57:28](https://www.youtube.com/watch?v=HbUznYhKFOc&t=3448s)
 Missions represent a meta-workflow where the agent discovers the right workflow for any knowledge-work problem. Users define an extremely structured data object representing every testable hypothesis about the software (can I do this action? is this flow supported?) along with how to deterministically verify each one — or, if that's impossible, how an LLM judge will assess success. An orchestrator defines skills; workers pick up tasks with fresh context; validators check results. The system doesn't let agents finish until every validation is confirmed. This can take a long time and cost $100–$1,000 per mission, but Reyes sees true ROI for large-scale tasks like multi-million-line code migrations. The approach is "turtles all the down" — validators validate the validators — but agents operate in good faith, and milestone-based validation limits gaming.
 
-### [64:44] **Tokenomics and Model Routing**
+### **Tokenomics and Model Routing** [64:44](https://www.youtube.com/watch?v=HbUznYhKFOc&t=3884s)
 Token costs are the number-one topic for everyone. The biggest waste isn't agent inefficiency — it's giving 10,000 employees unrestricted access to frontier models. Factory's auto model routing learns each company's unique task distribution and routes to the optimal model along the cost-quality Pareto frontier, cutting costs 30–50%. An admin sets a savings slider trading quality for cost. Reyes notes a psychological bias: if users know which model they're using, they prefer frontier models; if the model is hidden, they're satisfied with cheaper ones. Cache-aware routing is a harness problem, not a gateway problem — the harness must know when to upgrade or downgrade based on how close it is to solving the problem and whether breaking the cache is worth it.
 
-### [71:27] **Open Models and the Future**
+### **Open Models and the Future** [71:27](https://www.youtube.com/watch?v=HbUznYhKFOc&t=4287s)
 Factory is very bullish on open models, viewing them as a global good and near-national-security imperative for the US. Reyes argues intelligence is becoming a commodity, and everyone should have access. On "fusion" approaches (routing to multiple models simultaneously and synthesizing), Factory has experimented with parallelization — running two agents with the same prompt on different models and picking the winner — but it's unpopular with users due to cost and unclear gains. On benchmarks, Factory has many (including "bench bench," which tests Droid's ability to create benchmarks), but shelf life is 3–6 months. Legacy bench (COBOL/Fortran migrations) and terminal bench serve as regression testers. Reyes warns that the dominant code review benchmark is a fork shared across the industry and may be actively hurting code review products by over-optimizing for the wrong metrics.
 
 ## Notable Quotes

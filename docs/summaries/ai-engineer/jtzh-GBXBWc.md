@@ -33,46 +33,46 @@ Rushabh Doshi runs Machinecraft, a 100-person thermoforming factory in India wit
 
 ## Detailed Breakdown
 
-### [00:00] — Introduction: A Factory That Remembers
+### Introduction: A Factory That Remembers [00:00](https://www.youtube.com/watch?v=jtzh-GBXBWc&t=0s)
 Rushabh introduces himself as the operator of Machinecraft, a 100-person factory in India with no data science team or ML budget. Despite this, the company built a system of 36 AI agents (he initially says 39 in the title but clarifies 36 in the talk) that runs their entire go-to-market operation. He frames the story as both ridiculous and replicable.
 
-### [00:32] — The Real Company Is Knowledge, Not Machines
+### The Real Company Is Knowledge, Not Machines [00:32](https://www.youtube.com/watch?v=jtzh-GBXBWc&t=32s)
 From the outside, Machinecraft looks like machines and metal, but the actual company is the knowledge: who the customer is, what was quoted in 2019, why a machine needed a custom tweak. For three generations, all of that lived in exactly three brains—his grandfather's, his father's, and now his. He describes this as "a genuinely terrifying way to run a company."
 
-### [01:02] — The Fear of Forgetting
+### The Fear of Forgetting [01:02](https://www.youtube.com/watch?v=jtzh-GBXBWc&t=62s)
 People joined and left constantly, and every departure meant a chunk of the company's brain walked out the door. The fear wasn't competitors—it was forgetting, or waking up to find the entire company existed only inside "two increasingly tired heads." This motivated the idea of growing a brain that held the knowledge, not just writing documents nobody reads.
 
-### [01:32] — The Messy Reality of the Business
+### The Messy Reality of the Business [01:32](https://www.youtube.com/watch?v=jtzh-GBXBWc&t=92s)
 Machinecraft makes thermoforming machines that heat and shape plastic sheets. The same core machine serves seven completely different worlds: hydroponic farm trays, spa bathtubs, EV car panels, medical casings, packaging, and more. Each world has totally different buyers, so the brain couldn't just memorize a brochure—it had to understand which universe a given customer lives in.
 
-### [02:03] — Step One: Feed It Everything
+### Step One: Feed It Everything [02:03](https://www.youtube.com/watch?v=jtzh-GBXBWc&t=123s)
 They fed the system everything—years of quotes, drawings, payment schedules, timelines, email threads, hundreds of gigabytes of private company history. Not the public internet, but "our internet." The key plot twist: they never trained a model. No GPUs, no fine-tuning. They chunked the history and let off-the-shelf models read it and extract facts, storing meaning as vectors and relationships in a graph. The brain isn't a smarter model; it's "a really, really well-organized memory."
 
-### [03:05] — Biological Metaphor for the Architecture
+### Biological Metaphor for the Architecture [03:05](https://www.youtube.com/watch?v=jtzh-GBXBWc&t=185s)
 They stopped thinking of Eira as software and started thinking of it as something they were raising. They modeled it on biology: senses to identify who it's talking to, a gut to digest documents into facts, memory, a dream cycle, and an immune system to fight off bad information. The rationale: evolution spent a billion years solving how to stay coherent over time, so they "copied the homework."
 
-### [04:08] — Why 36 Agents Instead of One Mega-Prompt
+### Why 36 Agents Instead of One Mega-Prompt [04:08](https://www.youtube.com/watch?v=jtzh-GBXBWc&t=248s)
 One prompt that does everything ends up doing everything badly. Eira is a "pantheon" of specialist agents, each with one job: Athena runs the room, Prometheus owns the sale, Plutus does pricing, Hephaestus knows machine specs, Vera fact-checks everything, and Memnon guards corrections so that once a human fixes something, it stays fixed forever. The agents hold meetings, argue, and produce a single answer—"a board room that never sleeps, never gets tired, and somehow has no ego."
 
-### [05:09] — Nine Concrete Jobs Eira Runs Daily
+### Nine Concrete Jobs Eira Runs Daily [05:09](https://www.youtube.com/watch?v=jtzh-GBXBWc&t=309s)
 Eira handles the entire front-of-business: outbound emails referencing the real world, account briefs from cross-checked truths, quotations, a "swipe left, swipe right" outreach mode, reviving dead leads ("blast from the past"), inbound replies, and qualifying whether a company is even a fit before wasting time. Nine jobs, one operator that never sleeps.
 
-### [06:11] — The Stack: One Cursor Tab, Real Infrastructure
+### The Stack: One Cursor Tab, Real Infrastructure [06:11](https://www.youtube.com/watch?v=jtzh-GBXBWc&t=371s)
 Everything runs in one Cursor tab. Under the hood it's a genuine stack: databases for vectors, relationship graphs, and CRM; three different model providers chosen by job; tools for Google, document ingestion, communication channels, and monitoring. All capabilities are exposed as 213 tools over one protocol. The golden rule never broken: "Eira drafts, human sends."
 
-### [06:41] — Engineered Memory in Layers
+### Engineered Memory in Layers [06:41](https://www.youtube.com/watch?v=jtzh-GBXBWc&t=401s)
 Raw language models are "goldfish"—brilliant for 30 seconds, then they forget. Eira's memory is engineered in layers: working memory for the last few minutes, pinned facts about individuals, episodic memories stored as little stories, relationships with warmth that grows from stranger to trusted, and a salience gate acting as a bouncer that decides what's worth remembering. When two facts disagree, corrections win, ensuring continuity without fabrication.
 
-### [07:43] — The Dream Cycle
+### The Dream Cycle [07:43](https://www.youtube.com/watch?v=jtzh-GBXBWc&t=463s)
 Every night, Eira runs a sleep cycle: it replays the day, locks in useful information, hunts for contradictions, gently forgets stale junk, and turns the day's work into reusable skills. A morning "dream report" summarizes what was consolidated, what was let go, and what was figured out overnight. "The thing literally gets smarter overnight."
 
-### [08:13] — Every Agent Has a Conscience: The Soul File
+### Every Agent Has a Conscience: The Soul File [08:13](https://www.youtube.com/watch?v=jtzh-GBXBWc&t=493s)
 Each agent has a "soul file" based on Jain family-business principles from three generations. Five old ideas became engineering rules: no single source has the whole truth (cross-check before speaking), never say things absolutely (cite the document and date), do your own job, report the truth even when ugly, and nobody works alone. "Ancient philosophy running as guardrails in production."
 
-### [08:44] — Money and the Uncomfortable Truth
+### Money and the Uncomfortable Truth [08:44](https://www.youtube.com/watch?v=jtzh-GBXBWc&t=524s)
 There was zero training bill. The expensive part was never compute—it was teaching a company to remember itself. An agency quoted $230K to build this; they built it for around $30K ("cheaper than a nice watch"), running on a couple thousand dollars a month.
 
-### [09:14] — Brain OS: A Forkable Architecture
+### Brain OS: A Forkable Architecture [09:14](https://www.youtube.com/watch?v=jtzh-GBXBWc&t=554s)
 They extracted the architecture into "Brain OS," which ships as an empty nervous system—agents, memory, dream cycle, soul file, all blank. Companies pour their own truth into it. The core message: only you can build your company's brain; it can't be outsourced. "We are not selling ours to you. We are helping you build your own." The project lives at forkmybrain.org.
 
 ## Notable Quotes

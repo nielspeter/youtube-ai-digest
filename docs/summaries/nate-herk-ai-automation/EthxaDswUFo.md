@@ -31,28 +31,28 @@ Nate Herk compares GPT 5.6 Soul (via Codex) against Fable 5 (via Claude Code) ac
 
 ## Detailed Breakdown
 
-### [00:00] Introduction and Benchmark Context
+### Introduction and Benchmark Context [00:00](https://www.youtube.com/watch?v=EthxaDswUFo&t=0s)
 Nate opens by noting that GPT 5.6 Soul, Terra, and Luna have been released, with benchmarks suggesting Soul significantly outperforms Opus and Fable at a much lower cost. He briefly shows benchmark figures but says he prefers hands-on comparison over discussing numbers, having spent the day running both Soul (via Codex) and Fable 5 (via Claude Code) side by side on real workloads.
 
-### [00:30] Test 1: Open-World Bike Game
+### Test 1: Open-World Bike Game [00:30](https://www.youtube.com/watch?v=EthxaDswUFo&t=30s)
 Nate gave both models the same prompt: build a playable, open-world bike game in the browser with creative freedom. The first game he tested featured a top-down bird's-eye view with working coins, bunny hops, and air tricks — functional but hard to control. The second used a 3D POV style with a GTA-like open-world feel and a much larger map, which Nate clearly preferred. The winner was Fable 5. Timing was similar (Fable ~21.5 min, Soul ~23 min), but cost differed dramatically: Fable cost ~$14.22 with ~90,000 output tokens, while Soul cost ~$4.50 with ~31,000 tokens. Nate notes Soul is consistently more token-efficient, but Fable's output was significantly better here.
 
-### [03:35] Test 2: Interactive Scroll-Stopping Website
+### Test 2: Interactive Scroll-Stopping Website [03:35](https://www.youtube.com/watch?v=EthxaDswUFo&t=215s)
 Both models were told to build the most impressive interactive website they could imagine. The first output was a 3D, immersive journey through cosmic history — from clouds and collapse to supernovas and "you" — with sound and mouse interactivity. The second, "Vesper Archive," told a story with similar 3D interactivity but less wow factor. Fable produced the first, more immersive version. Fable took 23 minutes (~$19.24, 80,000 tokens); Soul took ~7 minutes (~$1, 20,000 tokens). Nate wonders whether Soul could match Fable's quality if given a comparable budget, but awards this round to Fable on quality alone.
 
-### [06:09] Test 3: Five Fundamentally Different Visual Elements
+### Test 3: Five Fundamentally Different Visual Elements [06:09](https://www.youtube.com/watch?v=EthxaDswUFo&t=369s)
 Nate asked each model to design five distinct visual elements — games, simulations, presentations, etc. Fable produced: "Singularity" (a confusing detonation toy), "Terra" (a flight simulator with adjustable time of day), "Orbit" (an arcade coin collector with a menu bug), "Ink Flow" (a generative art board), and "The Descent" (an underwater scrolling story). Soul produced: "Aurora Orchestra" (a northern lights toy with some broken controls), "Atlas of Lost Echoes" (a map-based echo recovery experience), "Glyph Heist" (a typing game with unclear feedback), a well-designed slide deck, and a tide pool ecosystem simulation. Nate found Soul's outputs more diverse and aesthetically polished, awarding it the win. Soul was also faster (7 min vs. 15 min) and far cheaper (~$1 vs. ~$15).
 
-### [12:24] Direct API One-Shot Tests
+### Direct API One-Shot Tests [12:24](https://www.youtube.com/watch?v=EthxaDswUFo&t=744s)
 Beyond agentic builds, Nate tested both models directly via API with quick, stateless one-shot questions. Soul won 24 of 27 tasks, largely because Fable refused to answer many calls due to security guardrails. When both answered, quality was nearly identical (Soul 0.98 vs. Fable 0.966). Soul cost ~$16 total vs. Fable's ~$63. Nate frames this as a unit-economics lesson: if a task is a "5," you don't need a "10" model. He also notes Soul's token costs are roughly half of Fable's on both input and output, and comparable to Opus 4.8.
 
-### [14:28] Model Tiering and the "5.6" Versioning Question
+### Model Tiering and the "5.6" Versioning Question [14:28](https://www.youtube.com/watch?v=EthxaDswUFo&t=868s)
 Nate questions why OpenAI labeled their most capable model "Soul 5.6" rather than a full version step up, suggesting this implies something bigger (a true GPT-6) may be coming. He argues Soul 5.6 is more comparable to Opus 4.8 than to Fable 5, and that a true head-to-head comparison would be Soul 5.6 vs. Opus 4.8. He notes the cost gap between Soul and Fable is much wider in agentic builds than in direct API calls, partly because Codex is inherently more token-efficient than Claude Code.
 
-### [16:31] Speed and Latency Observations
+### Speed and Latency Observations [16:31](https://www.youtube.com/watch?v=EthxaDswUFo&t=991s)
 Over the API, Soul's median latency was lower than Fable's, but its mean was higher — meaning Soul had some very fast and some very slow runs, while Fable was more consistent (~20 seconds). In agentic builds, Fable was almost always slower. Nate finds this pattern interesting but notes pros and cons to both profiles.
 
-### [17:01] Final Verdict: Manager vs. Worker
+### Final Verdict: Manager vs. Worker [17:01](https://www.youtube.com/watch?v=EthxaDswUFo&t=1021s)
 Nate summarizes his overall impression: Fable 5 is a "manager" or "co-founder" — strategic, creative, good at writing, brainstorming, advising, and making videos, but expensive and sometimes "sassy" or pushback-oriented. Soul 5.6 is a "worker" — cheaper, faster, better at computer use, verification, and playing devil's advocate, but prone to over-engineering and running excessive tests. He envisions Fable orchestrating multiple Soul agents as an ideal workflow. He ranks the top four models as: Fable 5 clearly on top, Soul 5.6 a solid tier below but above GPT-5.5 and Opus 4.8, which are closely matched. He closes by emphasizing that real-world feel and use case matter more than benchmarks.
 
 ## Notable Quotes

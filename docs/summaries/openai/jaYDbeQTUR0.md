@@ -28,10 +28,10 @@ Romain Huet of OpenAI France encourages builders to bring their long-shelved "cr
 - The pace of change in AI is amazing, and people get used to new models within just a few days.
 
 ## Detailed Breakdown
-**[00:00] Bring your crazy ideas to AI**
+### Bring your crazy ideas to AI [00:00](https://www.youtube.com/watch?v=jaYDbeQTUR0&t=0s)
 Romain Huet opens by encouraging people to take their best "crazy ideas" and long-delayed passion projects and give them to "Kodak" (likely a transcription error for Codex, the AI coding tool). He emphasizes that the biggest takeaway from the current moment is the energy in the Paris tech scene, describing it as magical. He expresses enthusiasm for hearing from founders who are building their companies with AI and OpenAI's models. His main advice to builders is to be curious and pursue things they've always wanted to try.
 
-**[00:30] Models are smarter than we are—be bolder**
+### Models are smarter than we are—be bolder [00:30](https://www.youtube.com/watch?v=jaYDbeQTUR0&t=30s)
 Huet continues by noting that the models are already incredibly smart—in many ways smarter than humans—but feels people are still too shy with them. He suggests that the models "want to hear more from us," implying users should push boundaries and share more ambitious ideas. He also touches on the community's curiosity about best practices for building further and their eagerness to know when the next model will ship. He marvels at the pace of change, noting that OpenAI ships models every 6 weeks, yet users become so accustomed to them within days that they are already hungry for what's next.
 
 ## Notable Quotes

@@ -31,34 +31,34 @@ Anthropic has added a new `/advisor` command to Claude Code that lets a primary 
 
 ## Detailed Breakdown
 
-**[00:00] — Introducing the `/advisor` Command**
+### Introducing the `/advisor` Command [00:00](https://www.youtube.com/watch?v=rj7xi-s4Ssg&t=0s)
 The video opens with the new `/advisor` slash command in Claude Code, which the presenter suggests is preparation for the upcoming "Myphos" model release. When invoked, `/advisor` lets you configure an advisor tool. Currently the available advisor models are Sonnet and Opus. The recommended setup is to run Sonnet as your main model and use Opus as the advisor.
 
-**[00:31] — How Advisor Works with Sonnet and Opus**
+### How Advisor Works with Sonnet and Opus [00:31](https://www.youtube.com/watch?v=rj7xi-s4Ssg&t=31s)
 The presenter explains the workflow: you code with Sonnet, and when Sonnet gets stuck, it calls the advisor tool to ask Opus a question. This is compared to the existing `/model opusplan` approach, where Sonnet handles execution but Opus handles planning. Combining both would give you an Opus-generated plan upfront, Sonnet execution, and Opus advisor intervention when needed.
 
-**[01:01] — Current Model Options and Future Myphos Integration**
+### Current Model Options and Future Myphos Integration [01:01](https://www.youtube.com/watch?v=rj7xi-s4Ssg&t=61s)
 Right now `/advisor` only shows Opus 4.6 and Sonnet 4.6. If you're already on Opus, using Opus as advisor offers little benefit over a subagent. If you're on Haiku, Sonnet 4.6 as advisor makes sense. The presenter predicts that Myphos will eventually appear here, and because it's expected to be expensive, most users will keep a cheaper model as the main executor and call Myphos as the advisor for hard problems.
 
-**[01:38] — Behind the Scenes: How the Advisor Tool Works**
+### Behind the Scenes: How the Advisor Tool Works [01:38](https://www.youtube.com/watch?v=rj7xi-s4Ssg&t=98s)
 The tool description says the advisor acts as a "stronger reviewer" who sees your full conversation transcript. There are no parameters—calling `advisor()` automatically forwards the entire history: task, tool calls, results, and reasoning. The advisor is called before substantive work (writing, committing to an interpretation, building assumptions) and when the model believes the task is complete. It's also called when stuck, when errors recur, when approaches aren't converging, or when considering a change of approach.
 
-**[02:08] — When the Advisor Is and Isn't Called**
+### When the Advisor Is and Isn't Called [02:08](https://www.youtube.com/watch?v=rj7xi-s4Ssg&t=128s)
 On tasks longer than a few steps, the advisor is called at least once before committing to an approach and once when declaring the task done. On short reactive tasks—like changing some colors—the advisor is skipped because the task is too simple.
 
-**[02:41] — How to Weigh Advisor Advice**
+### How to Weigh Advisor Advice [02:41](https://www.youtube.com/watch?v=rj7xi-s4Ssg&t=161s)
 The tool instructs the model to give advisor feedback serious weight. If empirical results contradict the advisor's advice, the model should surface the conflict with another advisor call rather than silently switching approaches. A passing self-test alone is not considered evidence that the advisor's advice was wrong. The full tool description is available in the pinned comment.
 
-**[03:14] — Live Demo of Calling the Advisor**
+### Live Demo of Calling the Advisor [03:14](https://www.youtube.com/watch?v=rj7xi-s4Ssg&t=194s)
 The presenter demonstrates the feature using a previous session involving a billing logic bug. He asks Claude Code to call the advisor to verify the proposed solution. The interface shows "advising using Opus 4.6," and the advisor flags two things for the Sonnet model to consider. A key limitation is noted: the advisor can't consult extra files on your machine—it only sees the chat history.
 
-**[03:46] — Shared Context and How Advisor Feedback Accumulates**
+### Shared Context and How Advisor Feedback Accumulates [03:46](https://www.youtube.com/watch?v=rj7xi-s4Ssg&t=226s)
 A diagram from Twitter illustrates the architecture: Sonnet is the main executor, shared context accumulates the conversation and tool history, and the executor can call the advisor on demand. The advisor's feedback is added back into shared context, meaning future advisor calls can see previous advice given.
 
-**[04:17] — Benchmarking, Cost, and the Presenter's Personal Take**
+### Benchmarking, Cost, and the Presenter's Personal Take [04:17](https://www.youtube.com/watch?v=rj7xi-s4Ssg&t=257s)
 Benchmarking shows the advisor approach is slightly cheaper in raw API tokens and consumes less of your Claude Code plan usage limits, with slightly better performance on some benchmarks. The presenter says he won't use it much right now because he already runs Opus full-time and sees more value in subagents with independent context. However, he envisions using it once Myphos launches—running Opus as the main executor and consulting Myphos as the advisor.
 
-**[04:47] — Channel Plug and Newsletter**
+### Channel Plug and Newsletter [04:47](https://www.youtube.com/watch?v=rj7xi-s4Ssg&t=287s)
 The presenter closes by encouraging subscriptions, noting he makes comprehensive Claude Code videos. He also promotes a Claude Code newsletter where he shares strategies and techniques, and mentions that signing up provides access to free videos from his masterclass.
 
 ## Notable Quotes

@@ -29,25 +29,25 @@ Google released a 51-page masterclass on AI-driven software development that dis
 - **Token Economics:** Vibe coding has low upfront cost (CapEx) but high ongoing token burn (OpEx). Agentic engineering requires upfront investment but quickly becomes 3–10x cheaper and more reliable.
 
 ## Detailed Breakdown
-**[01:00] The AI-Driven SDLC**
+### The AI-Driven SDLC [01:00](https://www.youtube.com/watch?v=zbmuiaPuiNM&t=60s)
 The Software Development Life Cycle (SDLC) covers the entire process from idea to production. In a traditional SDLC, implementation (writing code) takes weeks. In the AI-driven SDLC, implementation is reduced to minutes or hours. The new bottlenecks are at the beginning (requirement gathering and specification) and the end (validation and review). The speaker predicts the next billion-dollar companies will build tools to speed up these remaining human-driven bottlenecks.
 
-**[04:05] AI Coding is a Spectrum**
+### AI Coding is a Spectrum [04:05](https://www.youtube.com/watch?v=zbmuiaPuiNM&t=245s)
 Google emphasizes that AI coding isn't binary. It's a spectrum: *Vibe coding* uses casual prompts and "does it seem to work?" validation, suitable for disposible MVPs. *Structured AI-assisted coding* adds more detailed prompts and manual spot-checking. *Agentic engineering* uses engineered specs, automated evals, CI gates, and LLM judges to create highly reliable code. You choose the level based on the risk profile of the task.
 
-**[06:43] The Harness Matters More Than the Model**
+### The Harness Matters More Than the Model [06:43](https://www.youtube.com/watch?v=zbmuiaPuiNM&t=403s)
 The "harness" is the layer you control—your context, rules, tools, and workflows. Google claims the underlying LLM is only 10% of the system; the harness makes up the other 90%. This is highly advantageous because the model is the one thing you don't control. By investing in the harness (rules, MCP servers, guardrails, testing infrastructure), you can make a cheaper model perform like a more expensive one.
 
-**[11:25] The Factory Model and System Evolution**
+### The Factory Model and System Evolution [11:25](https://www.youtube.com/watch?v=zbmuiaPuiNM&t=685s)
 Agentic engineering operates like a factory: you design the system, and the agent produces the code. A key workflow is separating the planning agent from the coding agent to prevent context rot. The human acts as a reviewer, approving the agent's output before deployment. Crucially, when the agent makes an error, you should have it retrospectively analyze how to improve the harness rules so the error doesn't repeat—a mindset of continuous system evolution.
 
-**[15:03] Static vs. Dynamic Context**
+### Static vs. Dynamic Context [15:03](https://www.youtube.com/watch?v=zbmuiaPuiNM&t=903s)
 Context management is your most precious resource. *Static context* (system prompts, core rules) is loaded every time but fills the context window. *Dynamic context* (agent skills, on-demand codebase searches) is loaded only when needed. The industry is moving toward keeping the agent a lightweight generalist that flexes into specialist roles via dynamic skills, meaning you usually only need one agent rather than a complex multi-agent system.
 
-**[18:07] Conductor vs. Orchestrator Modes**
+### Conductor vs. Orchestrator Modes [18:07](https://www.youtube.com/watch?v=zbmuiaPuiNM&t=1087s)
 Google suggests engineers move between two modes: the *Conductor* (micromanaging the AI at the single-file level, like traditional tab-complete) and the *Orchestrator* (managing large tasks across whole codebases). While Google suggests moving between both, the speaker disagrees, arguing that once you build a reliable enough harness, you generally graduate to staying mostly in the Orchestrator mode.
 
-**[19:41] Token Economics**
+### Token Economics [19:41](https://www.youtube.com/watch?v=zbmuiaPuiNM&t=1181s)
 Vibe coding has low capital expenditure (CapEx) because it requires no upfront system design, but it has extremely high operational expenditure (OpEx) because you burn millions of tokens iterating on sloppy code. Agentic engineering has high CapEx (requiring upfront time to build the harness) but very low OpEx, quickly crossing over to become 3–10x cheaper and more reliable than vibe coding.
 
 ## Notable Quotes

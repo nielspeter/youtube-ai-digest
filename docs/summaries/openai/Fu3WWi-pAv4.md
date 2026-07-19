@@ -29,13 +29,13 @@ Emmanuel Marill discusses the importance of building AI-native companies from th
 
 ## Detailed Breakdown
 
-**[00:00] — AI-First Thinking and Accessibility**
+### AI-First Thinking and Accessibility [00:00](https://www.youtube.com/watch?v=Fu3WWi-pAv4&t=0s)
 Marill opens by emphasizing that building with AI no longer requires being a developer. He describes the excitement around the Station F ecosystem in Paris, where people are empowered to build. The key distinction he draws is between companies that genuinely "think AI first"—starting from what AI can natively do and building on that foundation—versus those that attempt to sprinkle AI onto something that isn't working and hope it fixes itself.
 
-**[00:30] — Laser Focus and Deep Workflow Integration**
+### Laser Focus and Deep Workflow Integration [00:30](https://www.youtube.com/watch?v=Fu3WWi-pAv4&t=30s)
 Marill advises companies to be laser-focused, identifying the specific problems they want to solve—perhaps two or three at most. He advocates going deep, step by step, into the workflow and at every stage asking what AI can do to improve it. He references Verso as a concrete example of an AI-native company that built its entire business model around AI, calling the core piece a "brain," which makes it both efficient and genuinely AI-native rather than AI-enhanced.
 
-**[01:02] — The Strength of the French AI Ecosystem**
+### The Strength of the French AI Ecosystem [01:02](https://www.youtube.com/watch?v=Fu3WWi-pAv4&t=62s)
 Marill broadens the discussion to the French tech landscape, noting its unusual breadth and depth. He points out that France has strong research, amazing startups, and very large globally known companies—making it not just one part of an ecosystem but an entire, robust ecosystem. He closes with a note of personal national pride, saying "vive la France."
 
 ## Notable Quotes

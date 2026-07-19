@@ -30,16 +30,16 @@ Anthropic introduces Claude Fable 5, their most capable publicly released model 
 - Anthropic frames the launch as both safe and accessible, inviting users to direct the model at meaningful, hard problems.
 
 ## Detailed Breakdown
-**[00:00] — Launching Claude Fable 5 and the Mythos preview decision**
+### Launching Claude Fable 5 and the Mythos preview decision [00:00](https://www.youtube.com/watch?v=Y9Wz2PV404E&t=0s)
 Anthropic announces Claude Fable 5 as the most capable model they've ever released publicly. It is described as a "Mythos class" model with safeguards making it suitable for general use. The narrator explains that a previous model at a similar capability level—referred to as "Claude Mythos preview"—was not broadly released after testing revealed it could find thousands of cybersecurity vulnerabilities. Because that same capability could be used to exploit flaws, Anthropic instead gave the model to teams protecting critical software so vulnerabilities could be patched before being exploited.
 
-**[00:30] — Why safety and accessibility drove the creation of Fable 5**
+### Why safety and accessibility drove the creation of Fable 5 [00:30](https://www.youtube.com/watch?v=Y9Wz2PV404E&t=30s)
 Anthropic states that withholding the earlier model was the right decision at the time but was never the long-term goal. Their stated belief is that powerful AI should be both safe and accessible, which motivated the development of Claude Fable 5. The video emphasizes that every Claude model has safeguards, but Fable required more cautious ones than anything previously built.
 
-**[01:02] — Safeguards: automatic review and redirection to Opus 4.8**
+### Safeguards: automatic review and redirection to Opus 4.8 [01:02](https://www.youtube.com/watch?v=Y9Wz2PV404E&t=62s)
 Fable 5's safety systems automatically review requests that touch on high-risk areas such as cybersecurity or biology. Those requests are then redirected to Opus 4.8, intentionally separating the powerful capabilities of Fable from the cyber and biology risks. Anthropic acknowledges the safeguards are broad today and commits to refining them so that safe requests are more readily allowed over time.
 
-**[01:34] — Ambitious, long-duration, autonomous work**
+### Ambitious, long-duration, autonomous work [01:34](https://www.youtube.com/watch?v=Y9Wz2PV404E&t=94s)
 Fable 5 is positioned as a model for users' most ambitious work. It can stay with a problem far longer than any prior model and is highly autonomous, capable of operating for days without intervention. Its use cases extend beyond coding to finance, research, economics, law, and other complicated tasks that previously required constant supervision. The video closes by inviting users to direct the model at meaningful problems and reflecting that the most interesting outcomes will be what users do with it.
 
 ## Notable Quotes

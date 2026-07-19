@@ -31,37 +31,37 @@ OpenWiki introduces "Personal Brains," a new mode for generating and maintaining
 
 ## Detailed Breakdown
 
-**[00:00] Introduction and Announcement**
+### Introduction and Announcement [00:00](https://www.youtube.com/watch?v=sBg90v2qfas&t=0s)
 Brace from LangChain announces OpenWiki Personal Brains, a new way to generate and maintain general-purpose agent memory. It connects to services you already use and is as easy to set up as the existing codebase memory. The demo begins with running `openwiki personal init`.
 
-**[00:30] Onboarding Flow and Wiki Brief**
+### Onboarding Flow and Wiki Brief [00:30](https://www.youtube.com/watch?v=sBg90v2qfas&t=30s)
 The onboarding flow mirrors codebase memory but adds extra steps. You pick a model provider (e.g., OpenAI GPT), set a LangSmith API key for tracing, and then accept or edit a "wiki brief"—essentially a system prompt that tells the agent what to focus on, what to ignore, and context about you.
 
-**[01:00] Local Cron Scheduling and Mac Wake**
+### Local Cron Scheduling and Mac Wake [01:00](https://www.youtube.com/watch?v=sBg90v2qfas&t=60s)
 Personal Brains runs locally via cron (default 2 a.m.) since it's not tied to a specific repo. You can optionally configure your Mac to wake before the cron fires, ensuring updates run even if your computer was asleep.
 
-**[02:02] Connecting Data Sources**
+### Connecting Data Sources [02:02](https://www.youtube.com/watch?v=sBg90v2qfas&t=122s)
 The key difference from Code Brains is connecting to everyday systems. Supported sources include Git repos, Notion, Gmail, web search, Hacker News, and X/Twitter, with Slack and others coming soon. Feature requests can be filed on the OpenWiki GitHub repo.
 
-**[02:34] Configuring Notion and X Connectors**
+### Configuring Notion and X Connectors [02:34](https://www.youtube.com/watch?v=sBg90v2qfas&t=154s)
 Notion setup is straightforward—hit enter, authenticate in the browser, and set a prompt (e.g., "prioritize pages related to applied AI and customer feedback"). X/Twitter requires a developer account and OAuth client app; you paste your client ID, authorize in-browser, and set a prompt like "track my timeline and bookmarks." Multiple connections per source are supported.
 
-**[04:05] Running Ingestion**
+### Running Ingestion [04:05](https://www.youtube.com/watch?v=sBg90v2qfas&t=245s)
 After configuration, you can run ingestion immediately or wait for the scheduled cron. Running now triggers the agent to ingest from each source sequentially, starting with the first configured source (Notion in the demo).
 
-**[04:35] How It Works: Proactive Memory vs. Reactive Memory**
+### How It Works: Proactive Memory vs. Reactive Memory [04:35](https://www.youtube.com/watch?v=sBg90v2qfas&t=275s)
 OpenWiki memory is contrasted with ChatGPT/Claude memory, which is reactive—only storing context from messages you send. OpenWiki is proactive: it goes out to connected sources, discovers information, stores it, and makes it accessible to agents going forward.
 
-**[05:06] Sequential Connector Ingestion**
+### Sequential Connector Ingestion [05:06](https://www.youtube.com/watch?v=sBg90v2qfas&t=306s)
 Each connector is processed one at a time. For Notion, the agent uses agentic search with a query tool since there's no simple "get all changes" API. For X, it fetches recent tweets, bookmarks, and a feed snapshot. Sequential processing reduces context load and avoids conflicting data across domains.
 
-**[07:09] Open Questions File**
+### Open Questions File [07:09](https://www.youtube.com/watch?v=sBg90v2qfas&t=429s)
 A new feature where the agent logs questions it can't yet answer (e.g., unidentified initials in Notion). At the start of each run, the agent inspects this file; at the end, it adds new questions or answers existing ones. Humans can also manually edit the file to answer or add questions.
 
-**[08:10] OpenWiki Directory Structure**
+### OpenWiki Directory Structure [08:10](https://www.youtube.com/watch?v=sBg90v2qfas&t=490s)
 The wiki directory is placed at the root of your computer for global access. It contains the wiki itself, logs, connector data, backups, `onboarding.json`, `instructions.md` (the wiki brief), and a secrets file. The wiki includes sections like sources, commitments, open questions, personal logistics, quick start, index, and themes—fully agent-generated and maintained.
 
-**[09:40] Closing and Call to Action**
+### Closing and Call to Action [09:40](https://www.youtube.com/watch?v=sBg90v2qfas&t=580s)
 Personal Brains is available now for free via the open-source OpenWiki agent. The existing Code Brain mode remains unchanged. Users are encouraged to try it, file issues for feedback or bugs, and contribute via PRs.
 
 ## Notable Quotes

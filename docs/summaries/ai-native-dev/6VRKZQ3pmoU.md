@@ -31,58 +31,58 @@ James Moss addresses the growing pains teams face when adopting AI coding skills
 
 ## Detailed Breakdown
 
-**[00:00] Introduction**
+### Introduction [00:00](https://www.youtube.com/watch?v=6VRKZQ3pmoU&t=0s)
 Macy introduces James Moss, a "member of technical staff" at Tessell, framing the talk around a common pain point: team members using AI agents differently and the friction that arises when disparate workflows converge on the same codebase.
 
-**[01:04] About the Speaker and Talk Scope**
+### About the Speaker and Talk Scope [01:04](https://www.youtube.com/watch?v=6VRKZQ3pmoU&t=64s)
 James introduces himself as a software engineer with over two decades of experience, currently working on Tessell's registry product. He clarifies the talk is about enterprise adoption and management of skills, not a "get rich quick scheme." The talk covers three areas: skill sprawl, skills as software, and the context development life cycle.
 
-**[02:38] Skill Sprawl**
+### Skill Sprawl [02:38](https://www.youtube.com/watch?v=6VRKZQ3pmoU&t=158s)
 James defines skill sprawl as the uncontrolled proliferation of skills across GitHub, cloud marketplaces, and local machines. The low barrier to entry—skills are mostly text files—combined with their power makes them easy to create but hard to track. He cites the 2 million+ public skills across 44,000 repos as evidence of scale, noting the problem is worse internally.
 
-**[04:15] Customer Quotes and Audience Confirmation**
+### Customer Quotes and Audience Confirmation [04:15](https://www.youtube.com/watch?v=6VRKZQ3pmoU&t=255s)
 James shares anonymous quotes from experienced engineers describing the current state as a "free-for-all" and "wild west." A show of hands confirms most attendees lack visibility into every skill in use across their teams.
 
-**[05:20] Failure Modes of Sprawl**
+### Failure Modes of Sprawl [05:20](https://www.youtube.com/watch?v=6VRKZQ3pmoU&t=320s)
 James enumerates six failure modes: overlap (duplicate skills built in isolation), drift (teams not updating to newer versions, e.g., Matt Pocock's "grill me" vs. "grill with docs"), activation issues (no visibility into whether skills are used), rot (skills out of sync with code or processes), and overloading (too many skills in one repo truncating context windows and preventing activation).
 
-**[07:57] Tessell's Skills Inventory**
+### Tessell's Skills Inventory [07:57](https://www.youtube.com/watch?v=6VRKZQ3pmoU&t=477s)
 James introduces Tessell's skills inventory tool, currently in private beta. It connects to GitHub orgs, pulls in all skills, and surfaces the failure modes described. It breaks down usage by repo and skill, shows token usage, and leverages Tessell's public registry for reviews, eval scores, and security scans on third-party skills.
 
-**[09:00] Skills as Software: The Agentic Equation**
+### Skills as Software: The Agentic Equation [09:00](https://www.youtube.com/watch?v=6VRKZQ3pmoU&t=540s)
 James frames the agent as a function of model, harness, and context. Since changing models or harnesses is often impractical, context—especially skills—is the most effective lever. Skills encode business and domain logic the model wasn't trained on.
 
-**[10:33] Decompose, Extend, Single Responsibility**
+### Decompose, Extend, Single Responsibility [10:33](https://www.youtube.com/watch?v=6VRKZQ3pmoU&t=633s)
 James advises against monolithic skills, recommending decomposition into smaller pieces grouped as plugins. He gives an example of a UI skill at Tessell that breaks Figma designs into components, handing off to sub-skills for buttons, forms, and pages. He also urges extending third-party skills via first-party wrappers rather than editing them directly, and applying the single responsibility principle.
 
-**[13:37] Avoid Global Skills**
+### Avoid Global Skills [13:37](https://www.youtube.com/watch?v=6VRKZQ3pmoU&t=817s)
 James warns against skills living in developer home directories rather than repos. This creates agent behavior dependent on who runs it, with no paper trail in diffs or CI. He recommends version-controlling skills alongside the code they affect, citing Boris Chernyak (creator of Claude Code) who bans local setup and requires all agent workflow improvements to be checked into the repo.
 
-**[15:10] Automated Skill Reviews**
+### Automated Skill Reviews [15:10](https://www.youtube.com/watch?v=6VRKZQ3pmoU&t=910s)
 James advocates for skill reviews analogous to linting and unit tests. Tessell's review checks validity, line count, and front matter, and uses an LLM as a judge for quality gating. He shows a screenshot where a skill scores 20% and is flagged for "inherently dangerous financial operations," preventing publication.
 
-**[16:11] Publish to a Registry**
+### Publish to a Registry [16:11](https://www.youtube.com/watch?v=6VRKZQ3pmoU&t=971s)
 James argues registries provide a single source of truth, prevent fork confusion, enable safe updates with diff review and rollback, improve discoverability, and serve as a governance enforcement point. He notes a customer pain point: non-technical users needing GitHub seats just to access skills in private repos, which a registry avoids. He highlights security features like Snyk scanning, approved-skills-only policies, and minimum release ages.
 
-**[18:46] Supply Chain Attacks and Minimum Release Age**
+### Supply Chain Attacks and Minimum Release Age [18:46](https://www.youtube.com/watch?v=6VRKZQ3pmoU&t=1126s)
 James recounts the "mini Sha Loot" attack from weeks prior, notable for adding a global Claude Code hook for persistence. Tessell was unaffected due to a minimum release age policy in their package manager. He references Guy's keynote stat that 20% of skills on one registry are malicious, predicting supply-chain issues will spread.
 
-**[20:19] Don't Lock Skills to One Agent**
+### Don't Lock Skills to One Agent [20:19](https://www.youtube.com/watch?v=6VRKZQ3pmoU&t=1219s)
 James shows a screenshot of a skills repo with project paths for many different agents, arguing this is unsustainable. Since agents may look completely different in six months, skills should be portable and agent-agnostic. A package manager can abstract away installation differences across agents.
 
-**[21:20] Context as a Team Asset**
+### Context as a Team Asset [21:20](https://www.youtube.com/watch?v=6VRKZQ3pmoU&t=1280s)
 James emphasizes making context a shared, team-owned asset: one source of truth (DRY), shared ownership to avoid bus factor, and safe contribution environments with CI gating so people feel comfortable editing skills without breaking the ecosystem.
 
-**[22:23] Measuring with Evals**
+### Measuring with Evals [22:23](https://www.youtube.com/watch?v=6VRKZQ3pmoU&t=1343s)
 James shows humorous Reddit and LinkedIn posts claiming dramatic improvements from skills and prompts, using them to underscore the need for measurement. He quotes Adam Savage: "The difference between screwing around and science is writing it down." Evals let teams change any part of the agentic equation and measure impact, answering questions like whether a skill is still needed or if the model has simply improved.
 
-**[24:28] The Context Development Life Cycle (CDLC)**
+### The Context Development Life Cycle (CDLC) [24:28](https://www.youtube.com/watch?v=6VRKZQ3pmoU&t=1468s)
 James introduces the CDLC as the context-era equivalent of the SDLC. Skill reviews map to linting and unit tests; evals to end-to-end tests; context registries to code registries. The same reflexes—composition, avoiding global state, shared ownership—apply to skills as to code.
 
-**[25:30] The 2005 PHP Story**
+### The 2005 PHP Story [25:30](https://www.youtube.com/watch?v=6VRKZQ3pmoU&t=1530s)
 James recalls his first job in 2005 writing PHP with no package manager—downloading zips from SourceForge, no security review, no SemVer, deploying via SFTP. It took the industry about 10 years to invent Composer, lock files, CI, dependency scanning, and signed releases. He argues we're repeating those early mistakes with skills today, but we already know how the story ends: we can apply SDLC lessons to the CDLC without rediscovering them.
 
-**[27:35] Q&A**
+### Q&A [27:35](https://www.youtube.com/watch?v=6VRKZQ3pmoU&t=1655s)
 A audience member asks about packaging skills into plugins vs. keeping them separate; James says it depends on the use case and Tessell plans to support both. Another asks about sharing skills with non-technical users; James acknowledges this is a hard, unsolved problem, speculating a GUI wrapper may be needed. He praises APM (a Microsoft-originated package manager) as a good option. On expressing dependencies between skills, James suggests peer dependencies or letting the agent infer dependencies by reading skill content.
 
 ## Notable Quotes

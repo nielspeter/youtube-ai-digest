@@ -31,37 +31,37 @@ Google DeepMind introduces **Co-Scientist**, a multi-agent AI system designed to
 
 ## Detailed Breakdown
 
-**[00:00] The Spirit of Scientific Discovery**
+### The Spirit of Scientific Discovery [00:00](https://www.youtube.com/watch?v=aSY_vFFmkW0&t=0s)
 The video opens with several researchers reflecting on why science matters. They describe the scientific method as arguably humanity's greatest idea and frame the desire to explore and understand the world as a core part of being human. One scientist says the reason to do science is "to create new knowledge," and another notes that "any new knowledge is good knowledge." This section sets an aspirational tone about the intrinsic motivation behind scientific work.
 
-**[00:37] The Overwhelming Flood of Scientific Data**
+### The Overwhelming Flood of Scientific Data [00:37](https://www.youtube.com/watch?v=aSY_vFFmkW0&t=37s)
 The narrative shifts to a central pain point: the explosion of scientific information. One researcher admits to having hundreds of Chrome tabs of papers open; another says the knowledge required to stay at the frontier doubles every two months. The flow of information is compared to "ocean waves" that keep coming. A recurring fear is missing something important in the literature or public databases. Even constant reading would be insufficient to keep up, making the problem fundamentally unsolvable by human effort alone.
 
-**[01:09] The Stakes: Slow Biology and Rare Diseases**
+### The Stakes: Slow Biology and Rare Diseases [01:09](https://www.youtube.com/watch?v=aSY_vFFmkW0&t=69s)
 Here the human cost of slow science is emphasized. There are roughly 17,080 known rare diseases, and only about 5% have a treatment. A scientist notes that for patients, time is a precious commodity, and the slowness of biology is one of the most challenging aspects of the work. Researchers may fail hundreds or thousands of times over years, and they only get "a few shots on goal" for big questions—so wasting time is unacceptable. The "clock speed of science" is framed as the real driver of societal progress.
 
-**[02:11] Introducing Co-Scientist**
+### Introducing Co-Scientist [02:11](https://www.youtube.com/watch?v=aSY_vFFmkW0&t=131s)
 Co-Scientist is described as "an engine for the discovery of new insights into the world that we live in." It uses global scientific knowledge to propose solutions to grand scientific challenges and performs the rigorous, structured thinking that characterizes real science. Crucially, it is "built by scientists for scientists" and is not just a language model.
 
-**[02:42] A Multi-Agent System Mimicking a Research Team**
+### A Multi-Agent System Mimicking a Research Team [02:42](https://www.youtube.com/watch?v=aSY_vFFmkW0&t=162s)
 The technical concept is explained: Co-Scientist is a team of AI agents with specialized roles. Some agents take a scientist's goal, scour the literature, generate hypotheses, and evolve those ideas. Others extract new information learned during idea comparison. Another agent ranks or compares different hypotheses. A key strength is the system's ability to connect facts from completely separate fields, potentially yielding creative breakthroughs. DeepMind positions this as a natural continuation of its long history of scientific AI work.
 
-**[03:44] A Skeptic Converted: The Liver Fibrosis Test**
+### A Skeptic Converted: The Liver Fibrosis Test [03:44](https://www.youtube.com/watch?v=aSY_vFFmkW0&t=224s)
 A researcher describes being initially skeptical and giving Co-Scientist a prompt about epigenomic aspects of liver fibrosis and potential drug treatments. The output was startling enough that they "fell off my chair." The system's ability to look across the entire breadth of literature and draw concepts was described as "incredibly powerful."
 
-**[04:15] Speed, Rigor, and the Urge to Run to the Lab**
+### Speed, Rigor, and the Urge to Run to the Lab [04:15](https://www.youtube.com/watch?v=aSY_vFFmkW0&t=255s)
 Co-Scientist can run for days or weeks, testing thousands of hypotheses and reading tens of thousands of papers. What once took months is reduced to a day or two. The generated hypotheses were rigorous enough that the researcher couldn't find a way to disprove them, prompting an eagerness to immediately test them in the lab. Another scientist noted being surprised by the rigor of each idea and by the system surfacing proteins they hadn't considered.
 
-**[04:45] Democratizing Expert Teams**
+### Democratizing Expert Teams [04:45](https://www.youtube.com/watch?v=aSY_vFFmkW0&t=285s)
 The tool is compared to deploying 50 scientists in a single day from a simple prompt. Anyone, from anywhere in the world, can effectively control a team of experts—an empowering and democratizing capability. One researcher says they are "uncontainable" in their excitement.
 
-**[05:16] Real-World Impact and Published Findings**
+### Real-World Impact and Published Findings [05:16](https://www.youtube.com/watch?v=aSY_vFFmkW0&t=316s)
 The ideas produced by Co-Scientist have already led to new, published findings, with many more on the way. The system is described as powering the whole scientific community toward major advances across different areas. A participant notes that we have yet to see even a small percent of the eventual impact.
 
-**[05:47] From Moonshots to Mission**
+### From Moonshots to Mission [05:47](https://www.youtube.com/watch?v=aSY_vFFmkW0&t=347s)
 The potential of Co-Scientist is framed as moving from "moonshots to mission" and "from code to clinic." Doing the best science at the fastest pace would help everybody to an incredible degree. The closing reflection asks how many more discoveries might be possible and how radically this could accelerate science—potentially enabling discoveries that were previously impossible or unimagined.
 
-**[06:17] The Best Scientist Augmented**
+### The Best Scientist Augmented [06:17](https://www.youtube.com/watch?v=aSY_vFFmkW0&t=377s)
 The video closes with a concise thesis: the best scientist paired with these kinds of tools will be able to do incredible things.
 
 ## Notable Quotes

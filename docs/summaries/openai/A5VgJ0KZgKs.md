@@ -30,16 +30,16 @@ A husband-and-wife team running the better-for-you cereal brand Three Wishes use
 
 ## Detailed Breakdown
 
-**[00:01] — Introducing Three Wishes and the family behind it**
+### Introducing Three Wishes and the family behind it [00:01](https://www.youtube.com/watch?v=A5VgJ0KZgKs&t=1s)
 The video opens with a voice prompt asking for a "sell-in timeline tracker" with retailer-specific deadlines and contacts for a pumpkin spice launch. The founders then introduce Three Wishes, their better-for-you cereal: higher in protein, lower in sugar, and gluten- and grain-free. The inspiration came from their own home and family. One of the children notes they came up with the "cotton candy" flavor, which they call a personal favorite. The parents emphasize they are "a true team in all the things that we do."
 
-**[00:32] — The strain of growth and the search for a technical co-founder**
+### The strain of growth and the search for a technical co-founder [00:32](https://www.youtube.com/watch?v=A5VgJ0KZgKs&t=32s)
 The founders acknowledge that "there's only so much two people can do," and that as the brand grows, mistakes carry more weight. One founder explains that they had many tech ideas in the past but always felt blocked, saying, "I need a technical co-founder." Codex is presented as the solution to that gap. They describe seasonal launches as recurring "operational nightmares" and explain they had Codex build a "really beautiful command center and dashboard" to manage them.
 
-**[01:03] — Prompting Codex and the leap from 5.5 to 5.6**
+### Prompting Codex and the leap from 5.5 to 5.6 [01:03](https://www.youtube.com/watch?v=A5VgJ0KZgKs&t=63s)
 The founder describes the prompting approach: asking Codex to set a goal for itself, use historical launches to inform the dashboard, and apply Three Wishes' new branding and box designs. They laugh at the contrast between the "most disorganized thought stream" of the input and the "incredibly amazing output." They credit GPT-5.6 specifically, noting that 5.5 was "never capable of doing something along these lines." With 5.6, about five minutes of spoken direction yielded all the data slices the team needed, matched to brand guidelines.
 
-**[01:34] — Enterprise-grade software and reclaimed family time**
+### Enterprise-grade software and reclaimed family time [01:34](https://www.youtube.com/watch?v=A5VgJ0KZgKs&t=94s)
 The founders reflect on the result, saying it feels like the kind of bespoke software system a billion-dollar company would build—yet they get it as a small family business. The tool makes them feel "real and enterprisey." Most importantly, it frees up time the founders can choose to spend on building the brand or being with their kids. They describe that reclaimed time as something they'll "never get back," and say the experience feels like being given "wings."
 
 ## Notable Quotes

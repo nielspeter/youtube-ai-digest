@@ -31,16 +31,16 @@ A mathematician describes using Codex (referred to as GPT-5.6 / Codex 5.6) to ta
 
 ## Detailed Breakdown
 
-**[00:02] — Finding clarity in the garden, then letting Codex explore**
+### Finding clarity in the garden, then letting Codex explore [00:02](https://www.youtube.com/watch?v=5X5CALvYvp0&t=2s)
 The mathematician describes his habit of stepping away from hard problems by going into the garden, relaxing, and immersing himself in his own thoughts. When he returns, he runs Codex to perform large-scale exploration and technical computation that would otherwise take weeks. He notes that he has been coding since around age five and can barely remember a time when he couldn't program — it has always felt like it was "in his blood."
 
-**[00:34] — A three-year algebraic surfaces problem and a breakthrough with Codex 5.6**
+### A three-year algebraic surfaces problem and a breakthrough with Codex 5.6 [00:34](https://www.youtube.com/watch?v=5X5CALvYvp0&t=34s)
 He explains that for three years his team worked on a remarkably difficult question about algebraic surfaces. They tried programming approaches, pen-and-paper reasoning, and previous AI models, but nothing worked well. He then decided to try the new Codex 5.6, which came up with a completely new idea. This idea helped them disprove the very conjecture they had spent three years trying to prove.
 
-**[01:04] — The counterexample: 14/5 vs. 8/3, and the excitement of being wrong**
+### The counterexample: 14/5 vs. 8/3, and the excitement of being wrong [01:04](https://www.youtube.com/watch?v=5X5CALvYvp0&t=64s)
 The breakthrough hinged on recognizing that 14/5 is bigger than 8/3, which meant the conjecture was essentially false. He expresses genuine excitement at the discovery, laughing that this is why they do science — even a negative result is part of the fun. He describes Codex 5.6 as feeling "natural" to use: you set up the task, and the model recognizes when heavy computation is required and automatically spawns subagents to handle it, without the user needing to ask.
 
-**[01:34] — AI as empowerment: focusing on hard ideas, family, and mowing**
+### AI as empowerment: focusing on hard ideas, family, and mowing [01:34](https://www.youtube.com/watch?v=5X5CALvYvp0&t=94s)
 He frames AI tools as meant to empower people. With Codex handling tedious technical exploration, he can concentrate on what he values most: deep mathematical ideas, spending time with his family and kids, and even mowing the lawn. He encourages anyone with the audacity to attempt something big not to be frightened by the sheer volume of computation involved, because the model can help organize it. He closes on an optimistic note, predicting many new discoveries and a lot of fun ahead.
 
 ## Notable Quotes

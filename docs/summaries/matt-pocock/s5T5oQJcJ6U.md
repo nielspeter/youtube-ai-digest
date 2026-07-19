@@ -31,55 +31,55 @@ Matt Pocock introduces a custom "teach skill" for AI coding agents that acts as 
 
 ## Detailed Breakdown
 
-**[00:00] Origin and Motivation**
+### Origin and Motivation [00:00](https://www.youtube.com/watch?v=s5T5oQJcJ6U&t=0s)
 Pocock reflects on his decade of teaching—six years as a voice coach and four years teaching developers. On a long bus ride to London, he wrote a "teach skill" and found it effective enough to teach him how to solve a Rubik's Cube, something he'd always wanted to learn but never prioritized.
 
-**[00:30] Stateful vs. Stateless Skills**
+### Stateful vs. Stateless Skills [00:30](https://www.youtube.com/watch?v=s5T5oQJcJ6U&t=30s)
 He introduces the core design distinction: stateless skills retain no memory between runs, while stateful skills save state to the file system or MCP servers. Initially he imagined teach as stateless—just fetch resources and output a lesson—but realized effective teaching is inherently stateful: a good teacher remembers where the student is and what comes next.
 
-**[01:32] Examples from His Skills Repo**
+### Examples from His Skills Repo [01:32](https://www.youtube.com/watch?v=s5T5oQJcJ6U&t=92s)
 He contrasts two existing skills: "Grill Me" (stateless, just quizzes you) and "Grill with Docs" (stateful, saves ADRs and glossaries to the repo, improving over time). Neither approach is inherently better; the choice depends on the use case. Teach needed to be stateful.
 
-**[02:04] Installation and First Run**
+### Installation and First Run [02:04](https://www.youtube.com/watch?v=s5T5oQJcJ6U&t=124s)
 Users install the skill from his skills repo (`mapper.got skills`) via a `skills.sh` installer, then run `teach` inside their coding agent in an empty directory. His demo directory is for learning the Rubik's Cube.
 
-**[02:35] The Mission File**
+### The Mission File [02:35](https://www.youtube.com/watch?v=s5T5oQJcJ6U&t=155s)
 The first file the skill creates is a **mission.md** capturing the learner's intent. For Pocock, it recorded that he wants to solve a scrambled 3×3 cube unaided at least once, with the goal being achievement—not speed or theory. Understanding *why* someone wants to learn is essential for effective teaching.
 
-**[03:06] Resources and First Lesson**
+### Resources and First Lesson [03:06](https://www.youtube.com/watch?v=s5T5oQJcJ6U&t=186s)
 The skill searches the web for high-trust primary sources, stores them as resources, and then generates the first lesson. Lessons are saved as numbered HTML files in a lessons folder. HTML is chosen over markdown for its richness and interactivity.
 
-**[03:37] Anatomy of a Lesson**
+### Anatomy of a Lesson [03:37](https://www.youtube.com/watch?v=s5T5oQJcJ6U&t=217s)
 The first lesson—"Anatomy, Notation and the White Cross"—includes diagrams, simple explainers, callouts, quizzes, notation guides, traps, and a first skill to practice. Pocock emphasizes the importance of feedback loops, with quizzes as a baseline when richer ones aren't available. The skill distinguishes between giving *knowledge* and developing *skills*.
 
-**[04:09] Learning Records**
+### Learning Records [04:09](https://www.youtube.com/watch?v=s5T5oQJcJ6U&t=249s)
 When Pocock reports completing a lesson (e.g., "Yes, I can make the white cross"), the skill records this in a learning record file. This lets it track progress and tailor the next lesson, effectively building a personalized course as it goes.
 
-**[04:40] Evolving Lessons and Community Links**
+### Evolving Lessons and Community Links [04:40](https://www.youtube.com/watch?v=s5T5oQJcJ6U&t=280s)
 Later lessons add citations and more quizzes. Pocock added a feature at the bottom of lessons that links to communities where learners can ask questions, because true *wisdom* comes from interacting with real-world practitioners, not just acquiring knowledge and skills in isolation.
 
-**[05:10] Reference Material: Glossary and Cheat Sheets**
+### Reference Material: Glossary and Cheat Sheets [05:10](https://www.youtube.com/watch?v=s5T5oQJcJ6U&t=310s)
 The skill maintains a glossary for jargon (anatomy, notation, "daisy," etc.), which also lets future lessons be more concise by referencing defined terms. It creates cheat sheets—like a "solve card" containing the entire solve in one place.
 
-**[06:11] Resuming a Session**
+### Resuming a Session [06:11](https://www.youtube.com/watch?v=s5T5oQJcJ6U&t=371s)
 Pocock demonstrates starting a fresh session by simply saying "teach" and reporting his status: he can solve the cube except for the corner cycle. The agent checks the workspace state, diagnoses that the concept is solid but the algorithm hasn't reached muscle memory, and prepares a targeted lesson.
 
-**[07:13] Zone of Proximal Development**
+### Zone of Proximal Development [07:13](https://www.youtube.com/watch?v=s5T5oQJcJ6U&t=433s)
 The skill applies the pedagogical concept of the **zone of proximal development**—teaching where the learner is perfectly challenged but not intimidated. Every lesson must be concise and framed at that zone so the student is neither bored nor overwhelmed. He notes he's using Opus 4.8 with medium effort.
 
-**[07:44] The Corner Cycle Lesson**
+### The Corner Cycle Lesson [07:44](https://www.youtube.com/watch?v=s5T5oQJcJ6U&t=464s)
 The generated lesson breaks down the corner cycle algorithm, offers new mental models (e.g., "one four-move phrase played twice"), and includes an interactive tap-through widget for practicing the move sequence (U R U' L' U R' U' L) with a guided mode. Pocock marvels at what HTML enables compared to markdown.
 
-**[08:45] Inside the Skill Definition**
+### Inside the Skill Definition [08:45](https://www.youtube.com/watch?v=s5T5oQJcJ6U&t=525s)
 He walks through the skill's prompt structure: it declares the request as stateful and intended for multiple sessions, defines the teaching workspace shape, and lays out a sectional philosophy around knowledge (high-quality resources), skills (interactive lessons), and wisdom (community interaction). The goal is to eventually send the learner out into the world, not keep them dependent on the agent.
 
-**[09:48] Engineering and Personal Applications**
+### Engineering and Personal Applications [09:48](https://www.youtube.com/watch?v=s5T5oQJcJ6U&t=588s)
 Pocock imagines the skill being useful for onboarding developers to a codebase—learners work independently in their own workspace, and the skill adapts to their existing knowledge. Personally, he's excited to use it for side projects, the Rubik's Cube, and possibly chess openings.
 
-**[10:49] Developers as AI First Movers**
+### Developers as AI First Movers [10:49](https://www.youtube.com/watch?v=s5T5oQJcJ6U&t=649s)
 He closes with a broader reflection: developers are among the first people to experience AI in a domain where it's genuinely strong (writing code). The instincts and skills developers build now can be turned into transferable skills and brought to non-coding domains, making this expertise valuable regardless of how work evolves.
 
-**[12:21] Newsletter and Sign-Off**
+### Newsletter and Sign-Off [12:21](https://www.youtube.com/watch?v=s5T5oQJcJ6U&t=741s)
 Pocock directs interested viewers to AI Hero / skills and his newsletter for updates, and mentions wanting to use the skill to learn vocal harmonies. He thanks viewers and expresses excitement about seeing how others use it.
 
 ## Notable Quotes

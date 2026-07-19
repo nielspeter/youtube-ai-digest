@@ -31,25 +31,25 @@ Claude Code's new monitor tool enables real-time, event-driven streaming from ba
 
 ## Detailed Breakdown
 
-**[00:00] Introduction to the Monitor Tool**
+### Introduction to the Monitor Tool [00:00](https://www.youtube.com/watch?v=MpSf7EN5dhc&t=0s)
 The video opens by introducing a new tool in Claude Code called the monitor tool. Its core purpose is real-time event streaming from background processes into the main Claude Code session. The key efficiency gain is that tokens are only used when events you care about actually happen, rather than continuously polling.
 
-**[00:32] Live Demo: Dev Server Monitoring**
+### Live Demo: Dev Server Monitoring [00:32](https://www.youtube.com/watch?v=MpSf7EN5dhc&t=32s)
 The presenter demonstrates by telling Claude Code to start a dev server and watch for errors while working on an auth feature. Claude Code sets up a monitor in the background. The monitor details show it's filtering for terms like "error," "warn," "failed," "ready," and others, running `npm run dev`. When the presenter opens the local server, a warning appears in the monitor and flows back into the main session. If an error is triggered in the browser, Claude Code is immediately notified without the user having to manually report it.
 
-**[01:39] Comparison with Foreground and Background Commands**
+### Comparison with Foreground and Background Commands [01:39](https://www.youtube.com/watch?v=MpSf7EN5dhc&t=99s)
 Three approaches are compared. Foreground commands block the session—no other commands can run until they finish. Background commands run concurrently but only notify the main session once the entire command exits (e.g., after all 47 tests complete), meaning you learn about failures only at the end. Monitors solve this by streaming matching events as they happen—for example, only failed tests get passed back, so Claude Code can start diagnosing each failure immediately rather than waiting for the full suite to finish.
 
-**[03:18] How Monitors Work Behind the Scenes**
+### How Monitors Work Behind the Scenes [03:18](https://www.youtube.com/watch?v=MpSf7EN5dhc&t=198s)
 Monitors accept four parameters: a description of what to watch, the command itself, a timeout, and a persistence flag. Claude Code writes the command with the appropriate filter. Each line the monitor detects and filters for counts as one event, and each matching print is a notification Claude Code can react to. The presenter likens this to a security camera that only alerts on motion. This is more efficient than the old approach of polling every 30–60 seconds, which consumed tokens on every check.
 
-**[04:24] Monitor vs. `/loop`**
+### Monitor vs. `/loop` [04:24](https://www.youtube.com/watch?v=MpSf7EN5dhc&t=264s)
 `/loop` is time-driven, firing a prompt every N minutes with each iteration being a full API call. Monitors are event-driven instead—the script Claude Code writes only filters for relevant events, meaning near-zero cost when nothing is happening. Two command types are identified: stream filters (real-time log tailing, like `npm run dev`) and poll & diff filters (checking an API endpoint at intervals and triggering events only when a threshold is met).
 
-**[04:54] Practical Use Cases**
+### Practical Use Cases [04:54](https://www.youtube.com/watch?v=MpSf7EN5dhc&t=294s)
 Several examples are walked through. A file drop watcher monitors a shared folder and wakes Claude Code when a new file arrives. An API monitor could poll a stock price endpoint and only notify when the price drops below a threshold—useful for people using Claude Code to trade stocks. Business workflow monitoring could poll during a product launch or sale and only deliver events when something unusual happens, like a spike in activity or errors.
 
-**[06:30] Post-Deployment and Production Monitoring**
+### Post-Deployment and Production Monitoring [06:30](https://www.youtube.com/watch?v=MpSf7EN5dhc&t=390s)
 Monitors are well-suited for watching production after a critical change. You can ask Claude Code to monitor logs for 2–3 hours and notify you if error rates exceed a defined threshold (e.g., 10 errors per second). If you're away from your desk, Claude Code can begin diagnosing automatically. The presenter says he'll personally use it for Vercel deploys, test suites, and client server monitoring after critical changes. The video closes with a plug for the presenter's Claude Code Masterclass, noting lifetime access is being removed soon and a coupon code is available.
 
 ## Notable Quotes

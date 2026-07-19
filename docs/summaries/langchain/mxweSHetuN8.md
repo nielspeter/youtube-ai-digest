@@ -31,43 +31,43 @@ Janie, VP of Product at Abridge, explains how the clinical intelligence platform
 
 ## Detailed Breakdown
 
-**[00:07] Company Context and Mission**
+### Company Context and Mission [00:07](https://www.youtube.com/watch?v=mxweSHetuN8&t=7s)
 Abridge is a clinical intelligence platform focused on the patient-clinician conversation, which Janie calls one of the most important workflows in healthcare. With over 2 billion such conversations annually in the US and roughly 20% of GDP tied to healthcare, much of the downstream data—notes, billing codes, claims, prior authorizations, medications—derives from these conversations. Abridge's first product captures this historically unstructured data and turns it into a clinically useful chart or note, saving doctors from 10–20 hours of weekly "pajama time" documentation. Now at scale with 250 large health systems (Mayo, Kaiser, Johns Hopkins), they are building toward a second and third act: helping health systems save and make money, and ultimately helping save lives.
 
-**[02:44] Data Network Effects**
+### Data Network Effects [02:44](https://www.youtube.com/watch?v=mxweSHetuN8&t=164s)
 With over 100 million conversations on the platform annually and explicit data rights from customers, Abridge de-identifies data and continuously learns from clinician edits and queries to its Bridge AI agent. This feeds LLM and human evaluation loops, compounding model and product improvements over time.
 
-**[03:17] Why High-Stakes AI Is Different**
+### Why High-Stakes AI Is Different [03:17](https://www.youtube.com/watch?v=mxweSHetuN8&t=197s)
 Three forces shape every decision: the shipping bar is extremely high (errors have patient-safety implications), HIPAA and PHI governance constrain every choice, and enterprise buyers filter vendors on security and trust first. Janie shares the internal mantra: "trust is earned in drops, but lost in buckets."
 
-**[04:47] Case Study 1: The Core Notes Product**
+### Case Study 1: The Core Notes Product [04:47](https://www.youtube.com/watch?v=mxweSHetuN8&t=287s)
 Doctors record a consented conversation; Abridge generates a chart note that flows into the electronic health record. Notes are not mere summaries—they become the basis for billing and part of the patient's longitudinal record. Misattribution (e.g., assigning a patient-reported symptom to a doctor's diagnosis) can trigger upcoding or downcoding penalties; confabulation (e.g., ordering an un-prescribed medication or wrong dosage) is a direct safety risk.
 
-**[06:21] Fixing the Release Process**
+### Fixing the Release Process [06:21](https://www.youtube.com/watch?v=mxweSHetuN8&t=381s)
 Releases used to take 1–2 months, hampered by disconnected custom tools and generic hill-climbing. Abridge migrated to LangGraph for unified datasets, annotation, tracing, and evaluation, with self-hosting and the access controls and auditability enterprise security requires. LangSmith became their evals platform, customizable enough for both single-encounter debugging and cross-release performance monitoring.
 
-**[07:55] Building and Calibrating LLM Judges**
+### Building and Calibrating LLM Judges [07:55](https://www.youtube.com/watch?v=mxweSHetuN8&t=475s)
 They prioritized model issues by prevalence and severity, then organized them into pillars such as accuracy, compliance, style, and completeness. Originally, clinicians wrote annotation guides, encounters were labeled, and engineers iterated prompts to match clinician labels—slow and manual. Moving to an APO framework, the annotation guide and labeled encounters now auto-generate a calibrated judge, dramatically reducing turnaround time.
 
-**[08:57] Data Quality Safeguards**
+### Data Quality Safeguards [08:57](https://www.youtube.com/watch?v=mxweSHetuN8&t=537s)
 Janie calls underlying data quality the thing that keeps her up at night. They verify that annotations match expected LLM-judge outputs, collect free-text explanations from annotators even when things aren't broken (to catch click-through inattention), and explicitly decide upfront whether a task needs a board-certified physician or a specialist.
 
-**[09:59] Reference-Free vs. Reference-Based Judges**
+### Reference-Free vs. Reference-Based Judges [09:59](https://www.youtube.com/watch?v=mxweSHetuN8&t=599s)
 Reference-free judges generalize across encounters, scoring notes against the conversation without a gold standard, enabling continuous online monitoring. Because notes are subjective and encounter-specific, they supplement these with reference-based judges calibrated to specialty-level nuance, giving high confidence in shipped output.
 
-**[11:01] Release Pipeline and A/B Testing**
+### Release Pipeline and A/B Testing [11:01](https://www.youtube.com/watch?v=mxweSHetuN8&t=661s)
 Even with fast offline evals and backtesting against historical encounters, they still A/B test. A trusted subset of customers—willing to receive silent releases in the first 10–15%—provides instant signal via edit rates, ratings, and qualitative feedback. This compressed the release cycle from 1–2 months to days, and clinicians report feeling improvements immediately.
 
-**[12:43] Case Study 2: The Abridge Assistant Agent**
+### Case Study 2: The Abridge Assistant Agent [12:43](https://www.youtube.com/watch?v=mxweSHetuN8&t=763s)
 Most clinical tools fail on adoption because doctors in back-to-back 15-minute visits can't context-switch, and existing tools force trade-offs around security. Abridge built a single, composable agent that persists across pre-visit, in-visit, and post-visit workflows, folding in patient-context search across systems of record, actions like editing notes or placing orders, and evidence-based clinical decision support.
 
-**[14:39] Product Principles for the Agent**
+### Product Principles for the Agent [14:39](https://www.youtube.com/watch?v=mxweSHetuN8&t=879s)
 Three principles guide the agent: be "like air conditioning"—on in the background and only foregrounded when something is important; preserve clinician agency so the human is always in control of decisions; and be responsive, both to explicit feedback and to implicit signals like repeated edits that can be learned and auto-applied.
 
-**[16:12] Agent Evaluation Complexity**
+### Agent Evaluation Complexity [16:12](https://www.youtube.com/watch?v=mxweSHetuN8&t=972s)
 Eval machinery is similar to the notes product, but complexity rises by a magnitude because the system is multi-step. Criteria include clinical quality (accuracy), safety (no harmful recommendations), boundary and adversary testing (the agent must not answer outside its trained scope), and tool selection (picking the right tool and behaving as a clinician would).
 
-**[16:45] Closing Takeaways**
+### Closing Takeaways [16:45](https://www.youtube.com/watch?v=mxweSHetuN8&t=1005s)
 Janie leaves two messages: first, you don't have to trade velocity for quality—if you invest in the right eval infrastructure and are specific about what your product must get right, you can ship quickly and know your outputs more deeply. Second, she hopes to inspire more builders to enter healthcare, arguing it is where the hardest AI problems, the largest businesses, and the most universal impact will be found.
 
 ## Notable Quotes

@@ -31,37 +31,37 @@ Cole Medin breaks down Dan Shapiro's five levels of AI coding autonomy—from "s
 
 ## Detailed Breakdown
 
-**[00:00] Introduction: The Spectrum of AI Coding**
+### Introduction: The Spectrum of AI Coding [00:00](https://www.youtube.com/watch?v=muwRbfuKbR4&t=0s)
 Cole opens by noting the wide spectrum of how companies use AI coding assistants, referencing Dan Shapiro's blog post outlining five levels of AI coding, from "spicy autocomplete" to the "dark factory." He stresses the importance of understanding your current level and what you should aim for, noting that the ideal level shifts as your AI coding system matures. He previews that he'll share honest thoughts on the dark factory, which many companies are chasing but which carries significant downsides.
 
-**[01:00] Levels 0–2: From Spicy Autocomplete to Junior Developer**
+### Levels 0–2: From Spicy Autocomplete to Junior Developer [01:00](https://www.youtube.com/watch?v=muwRbfuKbR4&t=60s)
 Using a driving automation analogy from 2013, Cole maps AI coding levels to vehicle autonomy. Level 0 is "spicy autocomplete"—you write every line, using the AI only as a smarter Stack Overflow. Level 1 is the "coding intern" (like cruise control), where the agent handles boilerplate, package installation, and simple refactors. Level 2 is the "junior developer" (highway autopilot), involving heavy pair programming where you delegate boring work but still manually drive complex tasks. Cole suggests most viewers are likely at Level 2 and encourages them to push beyond it.
 
-**[03:05] Level 3: The Developer (The Sweet Spot)**
+### Level 3: The Developer (The Sweet Spot) [03:05](https://www.youtube.com/watch?v=muwRbfuKbR4&t=185s)
 Level 3 is where Cole wants you to be. Here, you delegate all coding to the agent—he hasn't written code himself in over a year. It's compared to a Waymo with a safety driver: the agent does the work, but you remain attentive in the driver's seat. The key is sandwiching implementation with heavy planning and validation. This is the sweet spot of reliability and autonomy, and it requires a structured system to build the trust needed to get there.
 
-**[05:09] Level 4: The Engineering Team**
+### Level 4: The Engineering Team [05:09](https://www.youtube.com/watch?v=muwRbfuKbR4&t=309s)
 At Level 4, you hand off larger sets of work based on epics, PRDs, or specs, then validate at the end via pull requests. You're still at the helm but "sleeping for long periods." Reliability drops significantly at this level unless you have a well-established, trusted workflow. Cole recommends staying at Level 3 for a long time to build your system before attempting Level 4.
 
-**[06:40] Level 5: The Dark Factory**
+### Level 5: The Dark Factory [06:40](https://www.youtube.com/watch?v=muwRbfuKbR4&t=400s)
 Level 5 has no driver's wheel—there's no way to grab control. You input a large spec and get shipped code to production. This is the dream but also dangerous: one wrong spec detail or bad assumption can lead to dozens of botched deployments. Cole notes it's becoming realistic with current tooling and mentions StrongDM as an example of a company reportedly running a dark factory, even in banking. However, he strongly warns against rushing here.
 
-**[09:19] Sponsor Segment: Sonar and GitClear**
+### Sponsor Segment: Sonar and GitClear [09:19](https://www.youtube.com/watch?v=muwRbfuKbR4&t=559s)
 Cole introduces Sonar's acquisition of GitClear, an AI code review tool that not only reviews but fixes code automatically. It connects to GitHub/GitLab, runs reviews on pull requests, and validates fixes against CI. It fits Sonar's "guide, verify, solve" framework, and teams using Sonar are 44% less likely to hit production outages from AI-generated code.
 
-**[11:23] Building the System: The AI Layer**
+### Building the System: The AI Layer [11:23](https://www.youtube.com/watch?v=muwRbfuKbR4&t=683s)
 Cole explains what a "system" for AI coding looks like, pulling from his Dynamis Agentic Coding Course. It starts at Layer 0 (the coding agent tool itself, which wraps the LLM), then builds an AI layer on top with six components: rules, sub-agents, skills, and others that teach the agent your conventions and workflows. These components are composed together to create your full workflow.
 
-**[13:28] The R Piv Loop: Research, Plan, Implement, Validate**
+### The R Piv Loop: Research, Plan, Implement, Validate [13:28](https://www.youtube.com/watch?v=muwRbfuKbR4&t=808s)
 He outlines the flow: for greenfield or brownfield projects, you build rules and workflows, then converge into the "R Piv Loop"—Research, structured Planning (with validation strategies and task lists), Implementation, and Validation (unit tests, end-to-end tests, human checks). At Level 3, you're actively involved in planning conversations, grilling the agent to remove assumptions before implementation.
 
-**[15:01] System Evolution**
+### System Evolution [15:01](https://www.youtube.com/watch?v=muwRbfuKbR4&t=901s)
 Every time the agent makes a mistake, don't just patch it—have a conversation to improve your AI layer so the issue is less likely to recur. Over time, as you refine rules and workflows, you'll build confidence that the agent can "knock it out of the park" without heavy iteration, signaling readiness for Levels 4 and 5.
 
-**[16:33] What It Takes to Build a Dark Factory**
+### What It Takes to Build a Dark Factory [16:33](https://www.youtube.com/watch?v=muwRbfuKbR4&t=993s)
 Cole references an article detailing dark factory components: a planning agent to create structured plans per task, a code generation agent to execute plans and create PRs, a validation layer (in a separate context window to avoid bias), a deployment system for production shipping, and an orchestration layer to manage handoffs and prevent duplicate work or stalls. He notes he experimented with building one live using Arkon, his open-source harness builder.
 
-**[19:36] Complexities and Future of Dark Factories**
+### Complexities and Future of Dark Factories [19:36](https://www.youtube.com/watch?v=muwRbfuKbR4&t=1176s)
 Building the orchestration layer is an engineering effort of its own. Cole discusses deterministic vs. agentic nodes (not every step needs LLM reasoning—some can be handled with plain code for reliability). He mentions failure modes like cascading failures and evaluation gaming, and references Stripe's work with Stripe Minions. While daunting, he sees this as the future of AI coding and plans more content on building dark factories.
 
 ## Notable Quotes

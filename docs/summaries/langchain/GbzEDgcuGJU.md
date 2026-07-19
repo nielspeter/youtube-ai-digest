@@ -31,68 +31,68 @@ Deep Agents is a batteries-included, open-source harness from LangChain designed
 
 ## Detailed Breakdown
 
-**[00:00] Introduction and Defining Deep Agents**
+### Introduction and Defining Deep Agents [00:00](https://www.youtube.com/watch?v=GbzEDgcuGJU&t=0s)
 Jake, a deployed engineer at LangChain, introduces the discussion alongside Sydney, a core maintainer of LangChain's open-source tooling. Jake notes that while typical agents excel at simple tool-calling loops, they struggle with long-running tasks involving research, file writing, or delegated planning. Sydney defines Deep Agents as a batteries-included harness for building agents that excel at complex and long-running tasks.
 
-**[01:33] What is an Agent Harness?**
+### What is an Agent Harness? [01:33](https://www.youtube.com/watch?v=GbzEDgcuGJU&t=93s)
 Sydney explains that a harness is the surrounding support added to the core model and tool-calling loop. While the basic loop involves a model, tools, and a prompt running until completion, a harness adds the complex engineering needed across all stages of that loop to handle advanced workflows.
 
-**[02:37] Common Use Cases for Deep Agents**
+### Common Use Cases for Deep Agents [02:37](https://www.youtube.com/watch?v=GbzEDgcuGJU&t=157s)
 The most common applications are coding agents (like Claude Code) and deep research. Both require managing large amounts of context over long horizons and accessing various data sources.
 
-**[03:39] Core Components of the Deep Agents Harness**
+### Core Components of the Deep Agents Harness [03:39](https://www.youtube.com/watch?v=GbzEDgcuGJU&t=219s)
 Sydney breaks down the harness into four main extensions of the ReAct framework: 
 1. **Planning tools**: Helping agents keep track of tasks like humans do.
 2. **Sub-agents**: Delegating work to specialized assistants.
 3. **File systems/Backends**: Abstractions to keep track of files, memories, and skills, including sandboxes.
 4. **Summarization**: Built-in compaction that triggers when context windows (e.g., at 80% capacity) are reached to prevent hitting limits.
 
-**[05:44] File Systems and Context Engineering**
+### File Systems and Context Engineering [05:44](https://www.youtube.com/watch?v=GbzEDgcuGJU&t=344s)
 File systems are key to context engineering and progressive disclosure. Instead of squeezing all information into a prompt, agents are given enough info to access relevant files when needed. This prevents overwhelming the model, similar to how humans process information better when it's organized.
 
-**[07:17] Productionizing File Systems and Backends**
+### Productionizing File Systems and Backends [07:17](https://www.youtube.com/watch?v=GbzEDgcuGJU&t=437s)
 Beyond local file systems, Deep Agents supports abstract backends like databases, Notion, and GitHub. It offers a composite back-end option, allowing agents to combine multiple data sources (e.g., Notion for docs and a separate database for customer info) into a single interface.
 
-**[08:51] Offloading Large Tool Calls**
+### Offloading Large Tool Calls [08:51](https://www.youtube.com/watch?v=GbzEDgcuGJU&t=531s)
 File systems are used to offload large tool call results (e.g., huge data analysis files). By storing a reference instead of the full result in the context, agents reduce context size, minimizing the need for summarization—which inherently loses information—and preventing slower LLM calls.
 
-**[11:28] Skills and Progressive Disclosure**
+### Skills and Progressive Disclosure [11:28](https://www.youtube.com/watch?v=GbzEDgcuGJU&t=688s)
 Skills are easily shareable, specialized prompts. Using progressive disclosure, an agent is told it has access to a skill (e.g., "write PowerPoint"), and loads the specific instructions only when needed. This standardization makes sharing skills across teams highly productive.
 
-**[14:06] Execution Environments and Sandboxes**
+### Execution Environments and Sandboxes [14:06](https://www.youtube.com/watch?v=GbzEDgcuGJU&t=846s)
 Sandboxes are isolated, safe environments for agents to write and execute code. Sydney highlights that agents writing code to automate work is the avenue to bringing agentic AI to non-developer industries. Jake adds that companies are building data analysis agents that safely execute SQL in sandboxes.
 
-**[17:11] Flexibility and Avoiding Vendor Lock-in**
+### Flexibility and Avoiding Vendor Lock-in [17:11](https://www.youtube.com/watch?v=GbzEDgcuGJU&t=1031s)
 Deep Agents remains model and provider agnostic, a core LangChain value. This flexibility allows developers to avoid vendor lock-in and swap sandbox providers or models as the fast-moving space evolves.
 
-**[18:43] Deploying Deep Agents**
+### Deploying Deep Agents [18:43](https://www.youtube.com/watch?v=GbzEDgcuGJU&t=1123s)
 Deployment introduces the need for human-in-the-loop oversight (e.g., approving an email or a credit card charge) and durable execution (observing, documenting, and rolling back steps). LangGraph treats streaming as a first-class primitive to reduce latency for long-running tasks.
 
-**[20:47] Observability and Evaluation with LangSmith**
+### Observability and Evaluation with LangSmith [20:47](https://www.youtube.com/watch?v=GbzEDgcuGJU&t=1247s)
 Long-running agents generate hundreds of tool calls, making traces hard to debug. LangSmith addresses this with AI insights, allowing developers to ask an AI assistant questions about single traces, threads, or aggregate failure statistics across runs.
 
-**[23:22] Quick Unlocks for Teams**
+### Quick Unlocks for Teams [23:22](https://www.youtube.com/watch?v=GbzEDgcuGJU&t=1402s)
 Sydney recommends two quick wins: 
 1. **Write a really good, specific prompt**: Deep Agents makes it easy to start with five lines of code, so prompt complexity is the main lever.
 2. **Set up quantitative evals early**: Using LangSmith to create a self-improving feedback cycle.
 Jake adds that the Deep Agent CLI, powered by the SDK, supports any model and automatically connects to LangSmith tracing.
 
-**[27:31] Audience Q&A: Prompt Engineering**
+### Audience Q&A: Prompt Engineering [27:31](https://www.youtube.com/watch?v=GbzEDgcuGJU&t=1651s)
 Sydney advises keeping prompts organized with good and bad examples. She also stresses not forgetting tool descriptions, as docstrings and arg types are part of the prompt and dictate how well the agent takes action.
 
-**[29:03] Audience Q&A: Multi-Agent Hierarchies**
+### Audience Q&A: Multi-Agent Hierarchies [29:03](https://www.youtube.com/watch?v=GbzEDgcuGJU&t=1743s)
 When asked about recursive sub-agent trees, Sydney notes that Deep Agents uses the sub-agent architecture based on successful harnesses. While recursive patterns are popular and effective, they can be very slow. Jake adds that sub-agents are essentially an abstraction of tool calling, and there's a trade-off in accuracy when deciding how many tools or sub-agents to provide to a model.
 
-**[32:38] Audience Q&A: Multi-Provider Support**
+### Audience Q&A: Multi-Provider Support [32:38](https://www.youtube.com/watch?v=GbzEDgcuGJU&t=1958s)
 Sydney confirms that LangChain V1 released standard content blocks to enable multimodal communication between different providers, allowing, for example, a sub-agent to specialize in image generation while the supervisor uses a different provider.
 
-**[34:12] Audience Q&A: Sandboxes and Production Costs**
+### Audience Q&A: Sandboxes and Production Costs [34:12](https://www.youtube.com/watch?v=GbzEDgcuGJU&t=2052s)
 Jake addresses costs, stating that long-running agents are being deployed in production and people are willing to pay for powerful reasoning over unstructured data, especially as API prices trend downward. Sydney clarifies that sandboxes isolate resources and handle auth/permission control. Jake adds there are trade-offs between running the entire agent in a sandbox (exposing API keys) versus just executing tool calls (adding latency).
 
-**[38:18] Audience Q&A: Deep Agents vs. Workflows**
+### Audience Q&A: Deep Agents vs. Workflows [38:18](https://www.youtube.com/watch?v=GbzEDgcuGJU&t=2298s)
 Sydney states that while Deep Agents is the future, workflows still have a place for deterministic compliance steps. Deep Agents supports custom middleware as an escape hatch for deterministic logic. Jake notes that `create_agent` (the ReAct equivalent) is still suitable for simpler use cases, and the tools are composable.
 
-**[41:23] Audience Q&A: MCP and A2A Standards**
+### Audience Q&A: MCP and A2A Standards [41:23](https://www.youtube.com/watch?v=GbzEDgcuGJU&t=2483s)
 Sydney believes that while programmatic tool calling in REPLs and sandboxes might make MCP slightly less central for execution, standard specs like MCP and A2A (Agent-to-Agent) are still valuable for enterprise collaboration. LangSmith deployments support both A2A endpoints and MCP endpoints.
 
 ## Notable Quotes

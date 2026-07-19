@@ -29,25 +29,25 @@ Fluid Voice is a free, open-source Mac dictation app that runs entirely locally,
 - The recommended setup is to use Fluid Voice as your everyday Mac dictation tool and keep a cross-platform option around for when you're not on Mac.
 
 ## Detailed Breakdown
-**[00:00] The Problem with Existing Dictation Tools**
+### The Problem with Existing Dictation Tools [00:00](https://www.youtube.com/watch?v=mIL4sZa8M0E&t=0s)
 The video opens by acknowledging the appeal of talking to your computer instead of typing, but notes that existing solutions often fall short. Apple's built-in Mac dictation is free but not good enough for serious use, while paid options like Whisper Flow add yet another monthly subscription to your stack.
 
-**[00:32] Introducing Fluid Voice and Its Local-First Approach**
+### Introducing Fluid Voice and Its Local-First Approach [00:32](https://www.youtube.com/watch?v=mIL4sZa8M0E&t=32s)
 Fluid Voice is presented as a free, open-source Mac app that handles all voice-to-text processing on your own machine. The presenter highlights two key benefits: privacy (your voice and dictated content—potentially code—never leave your Mac) and cost (no subscription fees).
 
-**[01:05] How It Works: Two Local Models**
+### How It Works: Two Local Models [01:05](https://www.youtube.com/watch?v=mIL4sZa8M0E&t=65s)
 Fluid Voice uses a model called Parakeet to transcribe speech, then a second local model called Fluid Intelligence acts as an editor, fixing capitalization, punctuation, and structure. You set a hotkey, speak, and the cleaned-up text is inserted wherever your cursor currently is—whether that's Cursor, Claude, or a notes app.
 
-**[01:36] Quick Demo and Setup**
+### Quick Demo and Setup [01:36](https://www.youtube.com/watch?v=mIL4sZa8M0E&t=96s)
 Setup is a one-line install, after which you grant mic and accessibility permissions (standard for Mac apps). You can choose a custom hotkey or use the built-in one. In the demo, the presenter holds the key and speaks a code-review request; the app instantly produces properly capitalized, punctuated, and formatted text with no spinner or cloud delay.
 
-**[02:07] How It Compares to the Competition**
+### How It Compares to the Competition [02:07](https://www.youtube.com/watch?v=mIL4sZa8M0E&t=127s)
 Fluid Voice is described as four times faster than other options. The free Mac dictation is fine for text messages but not for commit messages or docs. Whisper Flow is paid and cloud-based, which is a dealbreaker for many before price is even considered. Super Whisper and similar tools are good but still cost money and don't match Fluid Voice's local cleanup quality. Fluid Voice stands out as the only free, open-source option that does smart formatting on-device.
 
-**[03:09] Limitations and Caveats**
+### Limitations and Caveats [03:09](https://www.youtube.com/watch?v=mIL4sZa8M0E&t=189s)
 Before recommending it, the presenter lists drawbacks: it's Mac-only (Windows and iOS are waitlisted), the editor model is a ~3.5 GB download, it's best on Apple Silicon (slower on Intel), and non-English dictation may need tuning. These are framed as things to know upfront rather than after a frustrating download.
 
-**[03:40] Final Verdict and Practical Advice**
+### Final Verdict and Practical Advice [03:40](https://www.youtube.com/watch?v=mIL4sZa8M0E&t=220s)
 For most Mac developers, Fluid Voice is worth trying—especially if you want to avoid another monthly payment. It's great for emails, docs, code comments, Slack messages, and even talking to Claude. On an M4 Pro Mac, it's fast and fully local. If you need Windows or iOS support, it's not ready yet. The practical recommendation: use Fluid Voice as your everyday Mac tool and keep a cross-platform option for when you're off Mac. Links and the brew command are in the video description.
 
 ## Notable Quotes

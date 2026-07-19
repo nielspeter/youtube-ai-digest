@@ -30,34 +30,34 @@ Ollama is a popular headless LLM server that lets you run open-source models thr
 
 ## Detailed Breakdown
 
-**[00:00] What Is Ollama and Why It Matters**
+### What Is Ollama and Why It Matters [00:00](https://www.youtube.com/watch?v=LPDWUWP9SCk&t=0s)
 Ollama is introduced as a headless LLM server with over 176,000 GitHub stars. It lets you run open models through any app or agent — including Claude Code, CodeX, and Open Claw. You can point your existing tools at an Ollama server, which manages local models or routes traffic to hosted models. In Claude Code's case, you simply change the base URL environment variable to point to your Ollama server, and everything works the same — but you unlock access to hundreds of models instead of just four.
 
-**[00:31] Available Models and the Big Unlock**
+### Available Models and the Big Unlock [00:31](https://www.youtube.com/watch?v=LPDWUWP9SCk&t=31s)
 The video highlights models like GLM, DeepSeek, Gemma, and Qwen as examples of what becomes available. The core value proposition is that you can keep using all the tools you already like, in exactly the same way, but now with access to virtually any model you can think of. The host notes they'll test Ollama against competitors like vLLM and LM Studio.
 
-**[01:03] Launching via the Ollama CLI and Environment Variables**
+### Launching via the Ollama CLI and Environment Variables [01:03](https://www.youtube.com/watch?v=LPDWUWP9SCk&t=63s)
 The Ollama CLI offers options to launch other CLI tools like Claude Code or OpenCode, then select your preferred model. The demo shows OpenCode running Gemma 4 via Ollama. Alternatively, you don't need to go through the Ollama CLI at all — with Claude Code, you can just set environment variables (base URL and auth token) and run Claude Code directly, pointing at whichever model you like.
 
-**[01:35] Running Models Directly and Entering the Harness**
+### Running Models Directly and Entering the Harness [01:35](https://www.youtube.com/watch?v=LPDWUWP9SCk&t=95s)
 Ollama also lets you run models directly — for example, running Gemma 4 (a multimodal model) and asking it to identify contents of an image. You can even enter Ollama's own harness to chat with models directly, no third-party tool required. The host demonstrates typing `ollama` in the terminal to see a menu of agents/harnesses, then selects Claude Code with Gemma 4 as the default model.
 
-**[02:05] Demo: Claude Code Running Gemma 4**
+### Demo: Claude Code Running Gemma 4 [02:05](https://www.youtube.com/watch?v=LPDWUWP9SCk&t=125s)
 Inside Claude Code, the interface shows Gemma 4 at high effort. Although it says "API usage billing," because it's a local model it costs nothing. The host types "Hello," and the model responds, "Hello, I'm Claude Code, your assistant for all things software engineering." This demonstrates that Claude Code still thinks it's Claude Code, but is actually running a local open-source model behind the scenes.
 
-**[02:35] Browsing Available Models**
+### Browsing Available Models [02:35](https://www.youtube.com/watch?v=LPDWUWP9SCk&t=155s)
 The host visits `ollama.com/search`, showing many available models including Qwen 3.6, MiniMax, and the DeepSeek family. Running a new model is as simple as typing a command like `ollama run qwen 3.6`, which downloads the model if it isn't already available, then runs it locally.
 
-**[03:07] Image Detection Demo**
+### Image Detection Demo [03:07](https://www.youtube.com/watch?v=LPDWUWP9SCk&t=187s)
 The host demonstrates multimodal capability by running `ollama run gemma 4` with a prompt asking "What's inside this image?" pointed at an image in the downloads folder. The model quickly responds correctly, identifying a tabby cat lying down. The host confirms the analysis is accurate by showing the source image.
 
-**[03:38] VRAM, Context Windows, and macOS Performance**
+### VRAM, Context Windows, and macOS Performance [03:38](https://www.youtube.com/watch?v=LPDWUWP9SCk&t=218s)
 Available memory and system performance matter significantly for local models. Less than 24 GB VRAM gives 4K context; 28–48 GB gives 32K context; 48+ GB gives 256K context. In March, Ollama ported to MLX for Apple Silicon, Apple's machine learning framework, allowing models to use unified memory and GPU neural accelerators for faster time-to-first-token and generation speed.
 
-**[04:10] Docker Deployment and API**
+### Docker Deployment and API [04:10](https://www.youtube.com/watch?v=LPDWUWP9SCk&t=250s)
 Ollama can also run inside Docker, enabling self-hosted services that rely on local models. The docs cover CPU-only, Nvidia GPU, and AMD GPU setups. You can launch models inside Docker and curl requests directly to the API, which includes several other callable endpoints.
 
-**[04:42] Comparison with vLLM and LM Studio**
+### Comparison with vLLM and LM Studio [04:42](https://www.youtube.com/watch?v=LPDWUWP9SCk&t=282s)
 vLLM is better suited for running models as services rather than as a local CLI tool, offering state-of-the-art serving throughput, efficient memory management, and quantization — making it significantly faster for server deployments. LM Studio is closer to Ollama in local workflow focus and includes a beautiful GUI, though Ollama has its own official GUI as well. Other tools in the space include Everything LLM. The host closes as Warren from Better Stack.
 
 ## Notable Quotes

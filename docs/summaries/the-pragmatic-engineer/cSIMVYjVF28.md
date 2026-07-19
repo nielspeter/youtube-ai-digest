@@ -31,22 +31,22 @@ In a role-reversed AMA, Gergely Orosz of The Pragmatic Engineer answers question
 
 ## Detailed Breakdown
 
-**[01:32] From Uber IC to Content Creator**
+### From Uber IC to Content Creator [01:32](https://www.youtube.com/watch?v=cSIMVYjVF28&t=92s)
 Giggs asks about Orosz's career switch. Orosz explains that after ~10 years as an IC and a stint as a manager at Uber, COVID-era layoffs and the politics of middle management left him demotivated. Having saved enough from Uber stock, he planned to finish a book in six months, then start a startup. The book took far longer than expected. He realized his startup ideas (like productizing Uber's internal RFC system) weren't exciting enough for a 10-year commitment, and that if a startup succeeded, he'd just want to write anyway. Inspired by Lenny Rachitsky's paid product management newsletter, Orosz saw an untapped market for software engineering content and launched The Pragmatic Engineer on Substack.
 
-**[09:18] AI Native SDLC and Big Tech Collaboration**
+### AI Native SDLC and Big Tech Collaboration [09:18](https://www.youtube.com/watch?v=cSIMVYjVF28&t=558s)
 Orosz contextualizes SDLC by noting that big tech's "waterfall-like" planning (design docs, RFCs) is often misunderstood by rigid scrum-adopting enterprises. For AI-native development, Anthropic (with Claude Code) is the closest example of a large, successful company operating fluidly via prototypes rather than design docs—but Orosz questions its replicability. Most companies are building internal AI infrastructure (agents, RAG systems) rather than overhauling their entire SDLC. He notes that business pace (e.g., Uber's driver logistics) often can't accelerate just because coding speeds up, and warns that moving too fast can compromise reliability, citing Spotify outages.
 
-**[13:59] AI's Impact on Hiring**
+### AI's Impact on Hiring [13:59](https://www.youtube.com/watch?v=cSIMVYjVF28&t=839s)
 Giggs shares that Wordsmith now expects candidates to use AI on take-home tasks, then conducts deep interviews to verify the candidate understands and can course-correct AI-generated decisions. Orosz places this in historical context: Google's algorithmic interview selected for CS basics, pressure-handling, and corporate compliance; startups used trial weeks. AI breaks remote algorithmic interviews and easy take-homes. He predicts a hybrid future: AI-permitted take-homes for filtering, but in-person whiteboard interviews at big tech and trial weeks at select startups (like Linear). The result: more friction, more subjectivity, and more time investment for candidates.
 
-**[18:40] Which Engineers Are Thriving**
+### Which Engineers Are Thriving [18:40](https://www.youtube.com/watch?v=cSIMVYjVF28&t=1120s)
 Engineers in high demand are product-minded, work at modern companies, and have woven themselves into AI infrastructure projects—knowing when to use RAG vs. fine-tuning, how to manage inference costs, etc. Engineers struggling are those without AI exposure at their current jobs and without pedigree from a recognized modern tech company. Orosz describes a company tier model (consulting → product → venture-funded → AI labs) and notes it's hard to jump tiers. For low-level/systems engineers (C++, assembly), the market is less saturated and AI tools are less dominant, making those skills valuable.
 
-**[24:53] Meta's Layoffs and Wartime Mode**
+### Meta's Layoffs and Wartime Mode [24:53](https://www.youtube.com/watch?v=cSIMVYjVF28&t=1493s)
 Orosz addresses Meta's layoffs and reassignments, noting that internal leaders see the morale damage but that Mark Zuckerberg appears to be operating in "wartime mode"—similar to Meta's existential fear of Google+ in the 2010s. The difference is that no one internally understands the current existential threat, given record revenue. Orosz speculates Zuckerberg is desperate to own a platform layer (AI) since Meta remains an application layer company, but acknowledges this is speculation.
 
-**[28:00] Big Tech AI Adoption Assessment**
+### Big Tech AI Adoption Assessment [28:00](https://www.youtube.com/watch?v=cSIMVYjVF28&t=1680s)
 - **Google:** Leading internally; chaotic but prolific AI tool building; Gemini is the only product eating into ChatGPT market share.
 - **Meta:** Bogged down by training its own models; morale declining; engineers reassigned to data labeling.
 - **Microsoft:** Very political; GitHub's mandate unclear; Azure capacity-constrained; more focused on politics than AI.
@@ -54,37 +54,37 @@ Orosz addresses Meta's layoffs and reassignments, noting that internal leaders s
 - **Amazon:** Struggling to retrofit innovation; internal tools (Kira) are subpar; employees prefer Claude Code.
 - **Smaller public companies (Uber, Ramp, Intercom):** Moving fastest because they have no identity crisis—they use best-in-class external models rather than trying to own the whole stack.
 
-**[31:39] Can Anthropic's Model Be Copied?**
+### Can Anthropic's Model Be Copied? [31:39](https://www.youtube.com/watch?v=cSIMVYjVF28&t=1899s)
 Orosz argues Anthropic's AI-native development is nearly impossible to copy because their product is the model (Claude), not the tooling (Claude Code)—everything is a beehive around model training. He's skeptical of "AI native" as a strategy for startups, suggesting that traction and business model matter more than how AI-native your engineering process is. Giggs agrees, advocating for problem-driven AI adoption over copying Anthropic.
 
-**[35:15] Antithesis Sponsor Spotlight**
+### Antithesis Sponsor Spotlight [35:15](https://www.youtube.com/watch?v=cSIMVYjVF28&t=2115s)
 Orosz sneaks in a question to showcase Antithesis (the sponsor), highlighting their unique debugging UI: a casualty analysis timeline showing bug probability, a log explorer visualizing error frequency, and a "multiverse debugger" allowing time-travel replay with injected bash commands.
 
-**[36:46] Code Quality vs. Speed with AI**
+### Code Quality vs. Speed with AI [36:46](https://www.youtube.com/watch?v=cSIMVYjVF28&t=2206s)
 Orosz questions whether ignoring code quality for speed is harmful long-term. He draws on Uber's history (a hacky polling architecture that unblocked growth) and Kent Beck's "explore, expand, extend" framework to argue that tech debt is acceptable in early exploration and even during scaling, but must be addressed in mature products. He notes AI also enables faster refactoring, reducing excuses for poor quality. Giggs agrees it's a false dichotomy—quality and speed can be segmented by codebase area (infrastructure vs. product).
 
-**[40:59] AI Standards and Engineering Manager Roles**
+### AI Standards and Engineering Manager Roles [40:59](https://www.youtube.com/watch?v=cSIMVYjVF28&t=2459s)
 Orosz believes AI standards will emerge accidentally (citing MCP from a small, non-threatening Anthropic), not through planning. On engineering managers coding: he sees the pendulum swinging toward technical EMs who code but neglect people management and systemic fixes. He predicts this will swing back, but for now, EMs who excel at people work will feel underappreciated.
 
-**[43:33] AI Adoption Theater and Productivity Measurement**
+### AI Adoption Theater and Productivity Measurement [43:33](https://www.youtube.com/watch?v=cSIMVYjVF28&t=2613s)
 Orosz thinks mandatory AI usage metrics (token leaderboards, code volume) are becoming moot as strong models make adoption universal. On measuring real AI productivity gains, he applies a capitalist lens: true gains mean either incremental new revenue or cost savings. He suspects AI's biggest impact is cost savings (like cloud), not creating new markets (like mobile).
 
-**[48:11] Misconceptions About AI and Degrees**
+### Misconceptions About AI and Degrees [48:11](https://www.youtube.com/watch?v=cSIMVYjVF28&t=2891s)
 The biggest misconception is that AI makes work easier—Orosz finds it makes work harder. On degrees, he believes CS is becoming a prestige field again as the bootcamp era ends, with top universities still placing well but mid-level and self-taught engineers struggling. Degrees remain important for visa/immigration and as corporate filters.
 
-**[51:18] Personal AI Workflow and Skill Atrophy**
+### Personal AI Workflow and Skill Atrophy [51:18](https://www.youtube.com/watch?v=cSIMVYjVF28&t=3078s)
 Orosz doesn't use AI for writing (he loves the thinking process and finds AI output artificial), but uses deep research tools and coding assistants (Codex, Claude Code, Cursor, Factory) for his business backend. He acknowledges his manual coding and web-search skills are degrading but is comfortable with the tradeoff. AI hasn't tempted him back to full-time software because he loves the human connection of his current work, though it makes him more ambitious with side projects.
 
-**[56:27] Advice for Engineers and Students**
+### Advice for Engineers and Students [56:27](https://www.youtube.com/watch?v=cSIMVYjVF28&t=3387s)
 For a QA engineer worried about relevance: start an AI project at your current job—companies are receptive, and hands-on experience beats a part-time degree. For students lacking motivated peers: find online communities or change companies. For a aspiring game developer: start building games now, as professionals will still be needed (parallel to construction professionals despite DIY tools). For EU engineers: be opportunistic about jumping tiers, but staying put is valid in a volatile market.
 
-**[64:07] The Pragmatic Engineer as a Business**
+### The Pragmatic Engineer as a Business [64:07](https://www.youtube.com/watch?v=cSIMVYjVF28&t=3847s)
 Orosz shares that the newsletter has grown beyond 10,000 paying customers (up from 2,700 in year one). In his best year at Uber, he made ~€288,000 (~$320-330k). Within 4-5 months of launching, his annual run rate exceeded that. He avoids sharing specific current numbers to prevent being flooded with coaching requests. He loves the autonomy and keeps important content free when it serves the community. Future plans include regular Pragmatic Summits (US and Europe) and slowly growing his team for deeper research, including into "boring" but important industries like utilities.
 
-**[69:50] Getting in Trouble Over Articles**
+### Getting in Trouble Over Articles [69:50](https://www.youtube.com/watch?v=cSIMVYjVF28&t=4190s)
 Orosz recalls two incidents: (1) An unpublished hit piece on Neo4j/Bunq in the Netherlands—he decided it had zero positive value and deleted it after learning the company had helped an immigrant engineer reach Facebook. (2) A Peloton investigative article where the company threatened legal action ("this is libel"), forcing him to self-censor. He helped the BBC with their subsequent documentary but concluded investigative journalism is too stressful for him.
 
-**[73:59] Favorite Books, Products, and the Future of Craft**
+### Favorite Books, Products, and the Future of Craft [73:59](https://www.youtube.com/watch?v=cSIMVYjVF28&t=4439s)
 Orosz's favorite technical books: *A Philosophy of Software Design* (for its module architecture comparisons) and Kent Beck's *Tidy First* (for crisp thinking). Favorite AI products: Granola (meeting notes) and Perplexity (deep research search). On what won't change in 5 years: demand for true software professionals who care about craft, know their tools' trade-offs, have no ego, and choose the right tool for the job—like building architects who see structural details others ignore.
 
 ## Notable Quotes

@@ -30,19 +30,19 @@ OpenAI demonstrates a new voice model that solves the "cocktail party problem" b
 
 ## Detailed Breakdown
 
-**[00:00] — Introduction to Voice Models and Context**
+### Introduction to Voice Models and Context [00:00](https://www.youtube.com/watch?v=matzTxfrhJU&t=0s)
 The video opens with the premise that voice models represent a new interface for many applications, but they are only truly useful if they understand context well and allow natural interaction. The new voice model is designed to choose from the context whom or what to focus on and respond directly to that target. A key challenge is introduced: past voice models have struggled to distinguish who is talking to them versus who is not, a difficulty often called the "cocktail party problem," analogous to trying to focus on one voice at a noisy party.
 
-**[00:31] — The Cocktail Party Problem and Demo Setup**
+### The Cocktail Party Problem and Demo Setup [00:31](https://www.youtube.com/watch?v=matzTxfrhJU&t=31s)
 The concept of the cocktail party problem is elaborated — at a party, background voices make it hard to focus on a single speaker. The presenters then transition into a live demo to show how the new model handles this challenge.
 
-**[00:55] — Live Demo: Fireworks in San Francisco**
+### Live Demo: Fireworks in San Francisco [00:55](https://www.youtube.com/watch?v=matzTxfrhJU&t=55s)
 A user asks ChatGPT for good places in the city to view fireworks. The model responds with San Francisco suggestions. The user then refines the request, mentioning they live in Noe Valley and want somewhere closer, ideally walkable. The model suggests nearby options including Twin Peaks. The user expresses enthusiasm, says Twin Peaks is close enough, thanks the model, and ends the conversation.
 
-**[01:20] — Observations on Background Robustness and Interruption**
+### Observations on Background Robustness and Interruption [01:20](https://www.youtube.com/watch?v=matzTxfrhJU&t=80s)
 After the demo, the presenters highlight how impressive it is that the model understood the user despite people standing very close together in a loud environment. They specifically call out the ability to interrupt the model mid-response and its quick adjustment to new input, praising the natural back-and-forth dynamics.
 
-**[01:33] — Expanded Use Cases and Closing**
+### Expanded Use Cases and Closing [01:33](https://www.youtube.com/watch?v=matzTxfrhJU&t=93s)
 The presenters note that a model with this level of background robustness greatly increases the number of use cases and situations where it can function. They express excitement about getting the technology out into the world.
 
 ## Notable Quotes

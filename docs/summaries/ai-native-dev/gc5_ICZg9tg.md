@@ -31,49 +31,49 @@ Joseph Katsioloudes, a senior developer advocate from GitHub Security Lab, explo
 
 ## Detailed Breakdown
 
-**[00:00] Introduction and Speaker Background**
+### Introduction and Speaker Background [00:00](https://www.youtube.com/watch?v=gc5_ICZg9tg&t=0s)
 The session opens with an introduction praising Joseph Katsioloudes's experience: over 25 countries spoken in, 2.8 million video views, and his role as a senior developer advocate at GitHub. He introduces his talk, "Code Security Reinvented: Navigating the Era of Artificial Intelligence," with the goal of showing practical AI security use cases applicable across tools like Cloud Code, Codex, and GitHub Copilot.
 
-**[01:04] GitHub Security Lab and the Security Gap**
+### GitHub Security Lab and the Security Gap [01:04](https://www.youtube.com/watch?v=gc5_ICZg9tg&t=64s)
 Joseph explains that GitHub hosts 180+ million developers and that his team, the GitHub Security Lab, focuses on securing open source software through research and education. He cites recent research including bypassing Ruby SAML and a 7-Zip heap buffer overflow exploit. The lab has found and helped fix over 1,000 vulnerabilities. He frames the central problem: one application security specialist exists for every 100 developers—a gap AI can help close, but only if practitioners understand AI's drawbacks and use it responsibly with a human-in-the-loop approach.
 
-**[02:37] Starting Left and Early AI Demos**
+### Starting Left and Early AI Demos [02:37](https://www.youtube.com/watch?v=gc5_ICZg9tg&t=157s)
 Joseph emphasizes "starting left" rather than "shifting left," meaning security should be integrated from the moment code is written. He shows an early Copilot demo analyzing vulnerable code with a SQL injection on line 23. The AI correctly identifies the injection and lack of input validation but hallucinates a "passwords in plain text" issue that does not exist. He stresses that zero hallucinations will never be achievable.
 
-**[05:13] Nondeterminism and the Limits of Models**
+### Nondeterminism and the Limits of Models [05:13](https://www.youtube.com/watch?v=gc5_ICZg9tg&t=313s)
 In another demo, Joseph loads a codebase with 10 known vulnerabilities and asks the AI to find them. It returns 8 results, but one—prototype pollution in JavaScript—disappears when he reduces the context to the specific affected file. Changing models does not help. He concludes that the issue is not just about models but about better scaffolding around AI. He also notes that cybersecurity has a fixing problem, not a detection problem, and suggests using deterministic tools for detection and AI as a reasoning layer for fixes.
 
-**[07:48] Model Context Protocol (MCP) and Security Hygiene**
+### Model Context Protocol (MCP) and Security Hygiene [07:48](https://www.youtube.com/watch?v=gc5_ICZg9tg&t=468s)
 Joseph introduces MCP, designed by Anthropic, which allows AI models to access server-side information beyond their training data. He cautions users to install MCP servers only from trusted sources and avoid overly broad scopes. MCPs can pull scanner results, security advisories, and secret protection findings into the developer's CLI or IDE, extending the AI's context for better reasoning.
 
-**[10:54] Skills: Giving AI Agents Structure and Process**
+### Skills: Giving AI Agents Structure and Process [10:54](https://www.youtube.com/watch?v=gc5_ICZg9tg&t=654s)
 He explains the relationship between MCPs and skills. MCPs provide capability (access to scanner results, issues, CI functionality), while skills provide process (structured, auditable, maintainable instructions). Without skills, agents have capability but no process; without MCPs, agents have process but no power. A practical use case: code scanning finds an issue, an issue is created, Copilot proposes a fix in a PR, and a human reviews it.
 
-**[12:58] Find and Fix in the Pull Request**
+### Find and Fix in the Pull Request [12:58](https://www.youtube.com/watch?v=gc5_ICZg9tg&t=778s)
 Joseph contrasts the old way—developers visiting dashboards like CodeQL to see static, generic explanations of vulnerabilities—with the new AI-powered approach. Copilot Autofix provides code-specific explanations and proposed fixes directly in the PR. He shares a key learning from 4.5 years at GitHub: developers should work in one place—the pull request. Forcing them to log into multiple tools creates friction. Bringing fixes to the PR made developers 3× faster; GitHub fixed 600 vulnerabilities in 2 weeks this way.
 
-**[15:34] Agentic Workflows and Tailoring**
+### Agentic Workflows and Tailoring [15:34](https://www.youtube.com/watch?v=gc5_ICZg9tg&t=934s)
 Agentic workflows offer tailored security scripts that follow company-specific rules about scope and priorities. Joseph shows a security agent setup and notes that users can modify scripts to deterministically guide the AI. He warns against bloating AI context by putting all instructions in one script—some belong in agents.md, some in skills files, and some in tooling configuration.
 
-**[17:37] GitHub Agentic Workflows in Practice**
+### GitHub Agentic Workflows in Practice [17:37](https://www.youtube.com/watch?v=gc5_ICZg9tg&t=1057s)
 These workflows can run on a schedule or trigger automatically, operating on the same VMs as GitHub Actions. Joseph shows examples from GitHub's free agentic workflow library: one for automatic code review and another for triaging issues. He mentions that his team uses powerful models (referencing "Mitos" from Marcelo Pig) steered by security researchers to find vulnerabilities, and they have open-sourced this knowledge as "task flows" at gh.io/taskflows.
 
-**[20:12] Supply Chain Decisions and Security Guidance**
+### Supply Chain Decisions and Security Guidance [20:12](https://www.youtube.com/watch?v=gc5_ICZg9tg&t=1212s)
 Joseph addresses supply chain security, noting most developers spend less than 3 minutes deciding whether to introduce a dependency. He shares four free, open-source instruction files (gh.io/aidevrisk) that generate executive summaries with emoji indicators for risk areas. He also demonstrates asking AI about the Bootstrap project: "How can somebody hack me?" The AI provides consistent, practical security guidance across different models, saving developers from reviewing all the code themselves.
 
-**[22:17] Fuzzing and Privacy**
+### Fuzzing and Privacy [22:17](https://www.youtube.com/watch?v=gc5_ICZg9tg&t=1337s)
 AI excels at fuzzing by generating millions of inputs and boilerplate code that normally slow down security engagements. Even with nondeterminism and hallucinations, AI-driven fuzzing produces valuable findings. Joseph reminds the audience that privacy matters and points to the GitHub Copilot Trust Center for answers about certificates and context leakage.
 
-**[23:20] Free Playground and Educational Resource**
+### Free Playground and Educational Resource [23:20](https://www.youtube.com/watch?v=gc5_ICZg9tg&t=1400s)
 Joseph introduces a free playground at gh.io/scg, accessible in 2 minutes from a browser via GitHub Codespaces. It includes a CLI bot, simulated internet, agentic workflows, multi-agent capabilities, and pre-training scenarios where users can try to leak secrets using natural language. He notes it uses real OpenAI models behind the scenes and includes the latest protections—simple prompt injection like "forget all previous instructions" does not work. Over 10,000 players and enterprises use it.
 
-**[24:53] Recap and Closing**
+### Recap and Closing [24:53](https://www.youtube.com/watch?v=gc5_ICZg9tg&t=1493s)
 Joseph recaps the session: starting from the 1:100 specialist-to-developer ratio, he covered writing safer code, using MCPs and skills, finding and fixing bugs in PRs, supply chain decisions, security guidance, and tailored AI answers. He invites the audience to connect and chat further at the conference.
 
-**[26:24] Q&A: False Positives and Organizational Time Burn**
+### Q&A: False Positives and Organizational Time Burn [26:24](https://www.youtube.com/watch?v=gc5_ICZg9tg&t=1584s)
 An audience member asks about the time cost of AI false positives in organizations with serious security processes. Joseph recommends multiple approaches: using different models and aggregating results, running models multiple times to find common results, or trusting companies (GitHub, Semgrep, Snyk) to combine static and AI testing behind the scenes. He also advocates for educating developers through hands-on training rather than videos or multiple-choice quizzes, and suggests CSOs set service-level objectives tying security outcomes to developer performance.
 
-**[32:07] Q&A: LLM as a Judge**
+### Q&A: LLM as a Judge [32:07](https://www.youtube.com/watch?v=gc5_ICZg9tg&t=1927s)
 Asked about using AI as a judge (dual LLM or LLM-as-a-jury pattern), Joseph confirms he uses it and that Microsoft uses it in Azure for policy enforcement. A second LLM judges the first's output for issues like data leakage. He notes it works but is not perfect—attackers can bypass it with social engineering prompts, and an attacker only needs to succeed once. He recommends: apply least privilege (AI should not touch sensitive data), use containers, implement output filtering, and treat LLM-as-a-judge as a mitigation rather than a complete solution.
 
 ## Notable Quotes

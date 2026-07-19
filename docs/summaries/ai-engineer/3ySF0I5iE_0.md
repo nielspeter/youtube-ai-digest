@@ -31,37 +31,37 @@ Tim Ainge presents a practitioner-oriented overview of graph data structures and
 
 ## Detailed Breakdown
 
-**[00:00] Introduction & Motivation**
+### Introduction & Motivation [00:00](https://www.youtube.com/watch?v=3ySF0I5iE_0&t=0s)
 Tim introduces himself from The Good Collective and frames the talk around making AI applications "smarter, cheaper, and more reliable" using graphs. He acknowledges the common experience of being mesmerized by graph visualizations but then falling into a "valley of despair and disillusionment" when GraphRAG or graph databases don't deliver instant payoff. The talk aims to help practitioners get to the other side of that valley by focusing on fundamentals. He explicitly scopes out GraphRAG and agent memory graphs, instead targeting underlying patterns AI builders can use.
 
-**[02:04] Speed-Running Graph Basics**
+### Speed-Running Graph Basics [02:04](https://www.youtube.com/watch?v=3ySF0I5iE_0&t=124s)
 A graph consists of nodes (vertices) and edges (relationships) connecting them. Nodes and edges can have types, labels, properties, and direction. This minimal definition is the foundation for everything that follows.
 
-**[02:35] Extracting Graphs from Unstructured Text**
+### Extracting Graphs from Unstructured Text [02:35](https://www.youtube.com/watch?v=3ySF0I5iE_0&t=155s)
 Tim demonstrates extracting a graph from a wrap pancake recipe using a basic subject-predicate-object triple structure. The agent does an "all right" job, but the resulting graph has problems—it's too unstructured to be genuinely useful.
 
-**[03:38] Building Better Graphs: Give the Extractor a Schema**
+### Building Better Graphs: Give the Extractor a Schema [03:38](https://www.youtube.com/watch?v=3ySF0I5iE_0&t=218s)
 The key improvement is replacing generic triples with a typed schema: a recipe has ingredients, and ingredients have quantities. Using structured outputs, the agent returns a far tidier, more meaningful graph. Extending the schema so recipes also have steps (each step applying a cooking technique) produces an even richer structure. Consistent node and edge types make relationships interrogable.
 
-**[04:43] Adding Ontology Detail**
+### Adding Ontology Detail [04:43](https://www.youtube.com/watch?v=3ySF0I5iE_0&t=283s)
 Beyond the schema, the ontology specifies extraction instructions—e.g., standardize ingredient names to lowercase and convert units to the metric system. These instructions are as critical to the model as the schema itself, ensuring consistency for downstream matching and conversion.
 
-**[05:16] Entity Matching: The "Potato, Potato" Problem**
+### Entity Matching: The "Potato, Potato" Problem [05:16](https://www.youtube.com/watch?v=3ySF0I5iE_0&t=316s)
 Tim shows duplicate-ish nodes like "garlic cloves," "minced garlic," "cumin," "cumin seeds," and "oil" vs. "vegetable oil." A naive retrospective mapping can unify these, strengthening cross-recipe relationships, but requires knowing all ingredients ahead of time. Embedding models solve this by enabling flexible matching on terms not known in advance—a good example of hybrid graph + AI techniques working together.
 
-**[06:49] Simple Graph Queries vs. SQL**
+### Simple Graph Queries vs. SQL [06:49](https://www.youtube.com/watch?v=3ySF0I5iE_0&t=409s)
 A basic query finds all recipes containing garlic. The Cypher graph query is shown alongside a relational SQL equivalent. Tim highlights that SQL quickly becomes unwieldy for multi-hop traversals (5, 10, 20 edges), whereas graph queries handle relationship traversal inherently and more naturally.
 
-**[07:40] Personalized PageRank (PPR)**
+### Personalized PageRank (PPR) [07:40](https://www.youtube.com/watch?v=3ySF0I5iE_0&t=460s)
 Tim explains PPR via an analogy: a "little dude" runs around the graph marking nodes, teleporting back to the starting node (the "personalized" part), and repeating until worn out. Nodes with more marks have stronger relationships to the start. References include the Pinterest Pixie paper and HippoRAG. PPR shines in dense clusters where importance isn't obvious. A real-world example: finding Miranda v. Arizona as an authoritative landmark case for a Supreme Court case that doesn't directly cite it—discovered purely through the citation graph.
 
-**[09:57] Shortest Path Algorithms**
+### Shortest Path Algorithms [09:57](https://www.youtube.com/watch?v=3ySF0I5iE_0&t=597s)
 When you know two nodes but not the relationships between them, shortest path finds the most direct route. Example: "the checkout code broke after we changed the basket constructor"—the algorithm traverses code-graph edges to return relevant symbols, text, or summaries as context. Variants include K shortest paths, paths through a particular node, and cheapest weighted paths. Tim reports a 40% reduction in tool calls for code search on a .NET codebase using these techniques to identify needed context. Intermediate nodes found this way wouldn't surface via vector search or individual lookups.
 
-**[10:50] Subgraph Matching: Querying by Shape**
+### Subgraph Matching: Querying by Shape [10:50](https://www.youtube.com/watch?v=3ySF0I5iE_0&t=650s)
 Tim shifts to querying purely on relationships—searching for a structural pattern rather than specific nodes. The example finds a decorator pattern in an eShop codebase: a class that wraps a target class, both implementing the same interface. The query finds a catalog view model service and a cached version. This is powerful for finding patterns, anti-patterns, security issues, malicious transaction shapes, or legal arguments without knowing specific instances up front. Tim calls subgraph matching a "big enabling algorithm" that's hard to replicate with other tools.
 
-**[13:02] Wrap-Up & Further Reading**
+### Wrap-Up & Further Reading [13:02](https://www.youtube.com/watch?v=3ySF0I5iE_0&t=782s)
 Tim recaps the three main areas covered: navigating paths, ranking importance, and finding patterns. He notes that traditional flow, cost, and search algorithms (common in dependency/network modeling) were skipped as more run-of-the-mill. The presentation pack includes references for prediction, similarity, and clustering—topics edging into GraphRAG and schema-less graph territory that were deliberately excluded but are "where things get super interesting." He closes by hoping the concepts inspire smarter, cheaper, more reliable AI applications.
 
 ## Notable Quotes

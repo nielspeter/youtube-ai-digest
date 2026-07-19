@@ -31,48 +31,48 @@ Pablo Castro explores how AI knowledge falls into three categories—intrinsic (
 
 ## Detailed Breakdown
 
-**[00:01] Introduction and the Nature of AI Knowledge**
+### Introduction and the Nature of AI Knowledge [00:01](https://www.youtube.com/watch?v=RGSFUqzqErE&t=1s)
 Pablo Castro introduces his role connecting AI and knowledge at Microsoft, framing the talk around what it means for agents to "know" something and how knowledge representation, extraction, and search drive agent capabilities.
 
-**[01:09] Intrinsic Knowledge and the Coding Exponential**
+### Intrinsic Knowledge and the Coding Exponential [01:09](https://www.youtube.com/watch?v=RGSFUqzqErE&t=69s)
 Castro splits knowledge into three categories—intrinsic, extrinsic, and learned—starting with intrinsic: the parametric memory baked into models during training. He illustrates the exponential curve of progress in coding assistance, beginning with IntelliSense in 1996, ML-ranked IntelliSense options 22 years later, GitHub Copilot in 2021 (before ChatGPT), then Cursor and Copilot X, through to Opus 4.5 and Open Claw—software built with no hand-written code. He argues intrinsic model knowledge and reasoning capability fueled this trajectory.
 
-**[04:13] Microsoft's Agent Platform and Model Catalog**
+### Microsoft's Agent Platform and Model Catalog [04:13](https://www.youtube.com/watch?v=RGSFUqzqErE&t=253s)
 Microsoft exposes its agent platform starting in GitHub for building, with contextualization for grounding, and Foundry for hosting, observability, and management. Foundry's model catalog offers thousands of models, and Castro announces that Claude is now generally available in Foundry, combining Claude's capabilities with Foundry's unified experience.
 
-**[04:43] Extrinsic Knowledge and the Evolution of RAG**
+### Extrinsic Knowledge and the Evolution of RAG [04:43](https://www.youtube.com/watch?v=RGSFUqzqErE&t=283s)
 Intrinsic knowledge alone is insufficient for agents operating within organizations. The industry recognized this early, giving rise to RAG, which evolved from a low-tech starting point into sophisticated context engineering. Castro highlights two dimensions of complexity: the shift from isolated datasets to company-wide grounding, and the evolution from simple vector search to complex retrieval systems.
 
-**[05:46] Microsoft IQ for Company-Wide Grounding**
+### Microsoft IQ for Company-Wide Grounding [05:46](https://www.youtube.com/watch?v=RGSFUqzqErE&t=346s)
 Microsoft IQ provides a single entry point for ambient organizational data. It encompasses Work IQ (SharePoint documents, emails, calendar, chats, people connections), Fabric IQ (data warehouses, data lakes, Power BI reports), Foundry IQ (custom data pushed for agent grounding), and Web IQ (public web data to complete the picture).
 
-**[07:18] Retrieval System Evolution and Combined Methods**
+### Retrieval System Evolution and Combined Methods [07:18](https://www.youtube.com/watch?v=RGSFUqzqErE&t=438s)
 Early RAG adoption leaned heavily on vector databases and cosine similarity, but evaluations consistently show that combining retrieval methods yields better results than any single approach. Foundry IQ was designed with layered abstraction: users can start at the top with zero-config ingestion of PDFs and images, or drill down to control vector quantization, indexing algorithms, and lexical retrieval—all within the same stack.
 
-**[09:21] Agentic Retrieval**
+### Agentic Retrieval [09:21](https://www.youtube.com/watch?v=RGSFUqzqErE&t=561s)
 On top of the core retrieval system, Foundry introduced an agentic retrieval stack that can reflect on the dataset and assess whether the information need has been satisfied before returning results. Evaluations show agentic retrieval outperforms simple single-shot retrieval on difficult cases across metrics like evidence recall and answer completeness.
 
-**[10:23] Demo: Foundry Knowledge Bases**
+### Demo: Foundry Knowledge Bases [10:23](https://www.youtube.com/watch?v=RGSFUqzqErE&t=623s)
 Castro demonstrates creating a knowledge base in Foundry using a movie dataset, configuring an agentic retrieval model, and setting effort level as a latency-quality trade-off. He grounds the knowledge base on unstructured PDFs in blob storage, structured parquet tables, and web data. The knowledge base connects to a Foundry agent and is also a standalone MCP server, requiring no glue code for external integration. Switching to Azure, he shows how users can inspect backing indexes, control quantization and indexing algorithms, and explore chunked data.
 
-**[12:57] Token Efficiency**
+### Token Efficiency [12:57](https://www.youtube.com/watch?v=RGSFUqzqErE&t=777s)
 Foundry's retrieval systems are carefully evaluated to deliver the most information-dense answers with the fewest tokens, maximizing the value of token consumption across retrieval tasks.
 
-**[13:28] Learned Knowledge and the Agent Optimizer**
+### Learned Knowledge and the Agent Optimizer [13:28](https://www.youtube.com/watch?v=RGSFUqzqErE&t=808s)
 The third category—learned knowledge—reflects the idea that organizations can observe processes and improve by capturing what is unique about how they work. Satya Nadella has written about people and agents compounding through learning loops. Foundry materializes this as the agent optimizer, which evaluates a baseline agent, generates candidate configurations, evaluates them, and deploys improved versions.
 
-**[14:30] Demo: Agent Optimizer in VS Code**
+### Demo: Agent Optimizer in VS Code [14:30](https://www.youtube.com/watch?v=RGSFUqzqErE&t=870s)
 Castro shows the Foundry toolkit in VS Code with a simple agent whose instructions, tool definitions, and skills are externalized. The optimizer can auto-generate a task-adherence evaluation from traces and instructions, then run an optimization loop (~45 minutes) that hill-climbs the evaluation metric. The output shows a baseline and iterated candidates using a design-of-experiments-style loop. Applying the optimized configuration swaps in improved instructions that emerged from the process—not hand-written—reflecting actual usage traces.
 
-**[17:05] Closing**
+### Closing [17:05](https://www.youtube.com/watch?v=RGSFUqzqErE&t=1025s)
 Castro directs listeners to ai.azure.com to try the tools and wraps up the talk.
 
 ## Notable Quotes
-- "Thinking about agents and knowledge really invites to reflect on what it means to know something." — [00:33]
-- "For a hot second as an industry, we thought that if we could get really, really good at computing cosine similarity between vectors, we were all set for retrieval. It turns out things never are that easy." — [07:18]
-- "You can start at the top and say 'Hey, I have a bunch of PDFs or pictures over there. Just deal with them.' And then we'll do everything under the covers." — [08:20]
-- "Every knowledge base is an MCP server, so you can just connect to it without having to write any glue code in the middle." — [11:24]
-- "These are instructions that are not handwritten but that emerged out of the hill climbing process to make this particular agent better." — [16:02]
+- "Thinking about agents and knowledge really invites to reflect on what it means to know something." — [00:33](https://www.youtube.com/watch?v=RGSFUqzqErE&t=33s)
+- "For a hot second as an industry, we thought that if we could get really, really good at computing cosine similarity between vectors, we were all set for retrieval. It turns out things never are that easy." — [07:18](https://www.youtube.com/watch?v=RGSFUqzqErE&t=438s)
+- "You can start at the top and say 'Hey, I have a bunch of PDFs or pictures over there. Just deal with them.' And then we'll do everything under the covers." — [08:20](https://www.youtube.com/watch?v=RGSFUqzqErE&t=500s)
+- "Every knowledge base is an MCP server, so you can just connect to it without having to write any glue code in the middle." — [11:24](https://www.youtube.com/watch?v=RGSFUqzqErE&t=684s)
+- "These are instructions that are not handwritten but that emerged out of the hill climbing process to make this particular agent better." — [16:02](https://www.youtube.com/watch?v=RGSFUqzqErE&t=962s)
 
 ## People, Tools & References Mentioned
 - **Pablo Castro** — Distinguished Engineer & CVP for AI Knowledge, Microsoft

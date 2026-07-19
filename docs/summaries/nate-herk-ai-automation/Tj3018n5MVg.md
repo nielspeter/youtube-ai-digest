@@ -30,34 +30,34 @@ Stanford's STORM research method uses multiple AI agent perspectives to produce 
 
 ## Detailed Breakdown
 
-**[00:00] — Introduction to STORM and the Free Claude Skill**
+### Introduction to STORM and the Free Claude Skill [00:00](https://www.youtube.com/watch?v=Tj3018n5MVg&t=0s)
 The video opens with an explanation of Stanford's STORM research method, which peer-reviewed testing showed produces articles 25% more organized than the next best method. The host has packaged STORM principles into a free Claude skill that generates an HTML briefing assembled by five different agent perspectives, with built-in verification. Sources at the bottom of the report are marked as confirmed, corrected, or demoted, meaning the V2 output has already filtered out incorrect information from the first pass.
 
-**[00:32] — Why Multiple Perspectives Matter**
+### Why Multiple Perspectives Matter [00:32](https://www.youtube.com/watch?v=Tj3018n5MVg&t=32s)
 STORM's core idea is that a single prompt to Claude will have blind spots. By deploying five perspectives—a practitioner, an academic, a skeptic, an economist, and a historian—each angle finds holes the others miss. The host relates this to his previous videos on agent councils and the "roast skill," emphasizing that role-playing different expertise areas produces more holistic research.
 
-**[01:33] — Comparison with Claude's Native Deep Research**
+### Comparison with Claude's Native Deep Research [01:33](https://www.youtube.com/watch?v=Tj3018n5MVg&t=93s)
 Claude Code natively offers a deep research feature that spins up dynamic workflows with many agents (103 in the example). However, the output was a markdown file that was decent but not thorough, with only two confirmed sources and some unconfirmed ones plus open questions. The host ran the exact same prompt through the STORM skill for comparison.
 
-**[02:04] — STORM Skill in Action**
+### STORM Skill in Action [02:04](https://www.youtube.com/watch?v=Tj3018n5MVg&t=124s)
 The STORM skill kicked off its pipeline with the five expert agents, converged their findings, identified disagreements, then ran six additional verification agents. The result was a consistent HTML report with a 60-second summary and key findings ranked by reliability (e.g., 9 out of 10), noting which perspectives supported or challenged each finding. The report also flagged a missing sixth lens—none of the five perspectives considered the customer or frontline employee viewpoint—demonstrating the system's self-awareness of its own gaps.
 
-**[03:06] — Tailoring and Independent Evaluation**
+### Tailoring and Independent Evaluation [03:06](https://www.youtube.com/watch?v=Tj3018n5MVg&t=186s)
 Unlike deep research's stat dump, STORM research can be tailored to the user's business and goals, providing practical takeaways. The host put both reports into Codex (a different AI model) for evaluation, and Codex rated the STORM HTML briefing better across all six categories: evidence quality, source diversity, thesis strength, actionability, risk control, and content/video suitability. STORM was also faster and 100% cheaper, running ~12 agents versus 100+ for deep research, and avoiding the API rate limits that hit the deep research run.
 
-**[04:09] — How the Skill Works: Four-Prompt Pipeline**
+### How the Skill Works: Four-Prompt Pipeline [04:09](https://www.youtube.com/watch?v=Tj3018n5MVg&t=249s)
 The skill chains four prompts: (1) spin up five perspectives on the topic, (2) map contradictions and evidence strength between perspectives, (3) synthesize into a report, and (4) adversarial peer review. The host originally ran these manually, then packaged them into a skill for consistent, hands-off execution with a standardized HTML template.
 
-**[05:11] — Installing and Accessing the Skill**
+### Installing and Accessing the Skill [05:11](https://www.youtube.com/watch?v=Tj3018n5MVg&t=311s)
 The skill lives in the `.claude` folder as a `skill.md` file, accompanied by an HTML report template for consistent formatting. Both files are available for free in the host's School community (linked in the video description) under the classroom's "all YouTube resources" section. To install, users give the markdown and HTML files to Claude and ask it to place them in the `.claude` folder. The skill also works with Codex or other agents by placing files in the appropriate folder (e.g., `.codex` or `.agents`).
 
-**[07:14] — Live Demonstration: Storm Research on Voice AI Agents**
+### Live Demonstration: Storm Research on Voice AI Agents [07:14](https://www.youtube.com/watch?v=Tj3018n5MVg&t=434s)
 The host demonstrates the skill in the Claude desktop app by requesting STORM research on "voice AI agents." Because the topic was vague, the skill asked scoping questions before proceeding. It identified the host as an AI educator deciding whether voice AI agents are worth a video or just hype, then launched the five expert subagents in parallel. The host notes you can observe each subagent browsing the web and conducting research, and that subagents can run on different models (Haiku, Sonnet, or Opus).
 
-**[08:46] — Subagents vs. Agent Teams**
+### Subagents vs. Agent Teams [08:46](https://www.youtube.com/watch?v=Tj3018n5MVg&t=526s)
 An important distinction is clarified: subagents work under one main session and cannot communicate with each other, whereas agent teams or councils can talk to both the main session and each other, enabling debates until consensus. Agent teams are more expensive. The host references his other videos for deeper dives on both subagents and agent teams.
 
-**[09:48] — Final Report and Customization Advice**
+### Final Report and Customization Advice [09:48](https://www.youtube.com/watch?v=Tj3018n5MVg&t=588s)
 The completed V2 report opened in a browser showed verified sources (confirmed, corrected, or demoted), a 60-second summary, and reliability-ranked key findings. The host recommends users grab the skill, test it on a topic they know well, and customize it—perhaps adding a sixth or seventh lens like a "beginner in AI" or "content creator" perspective. The broader takeaway is that the value lies in the theory of using multiple perspectives to kill your own blind spots and borrow subject matter expertise through agents, rather than any single skill being best for everyone.
 
 ## Notable Quotes

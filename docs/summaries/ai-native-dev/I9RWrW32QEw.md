@@ -31,31 +31,31 @@ Patrick Debois argues that scaling agentic coding in organizations mirrors the D
 
 ## Detailed Breakdown
 
-**[00:00] Introduction**
+### Introduction [00:00](https://www.youtube.com/watch?v=I9RWrW32QEw&t=0s)
 The host introduces Patrick Debois as product developer at Tessle, curator of ainativedev.io, father of DevOps, and co-author of the DevOps Handbook. The intro was clearly AI-generated, prompting light audience laughter. Patrick's talk title: "Coding Agents Don't Scale Themselves and Neither Do Your Teams—The Rise of Agent Enablement."
 
-**[01:04] A Brand-New Talk**
+### A Brand-New Talk [01:04](https://www.youtube.com/watch?v=I9RWrW32QEw&t=64s)
 Patrick reveals the talk was created over the weekend because a previous speaker ("Guy") stole his planned content. He asks the audience who struggles with scaling AI/coding in their organizations, then frames the core theme: development is shifting from building the thing to building the thing that builds the thing.
 
-**[02:05] Reinventing the Wheel and Enablement**
+### Reinventing the Wheel and Enablement [02:05](https://www.youtube.com/watch?v=I9RWrW32QEw&t=125s)
 Patrick draws parallels to DevOps and cloud adoption, where everyone initially built their own solutions. Enablement doesn't happen by itself—it requires dedicated people. The encouraging news: practices advocated for years for human engineers (good engineering practices) turn out to be good for agents too, and vice versa.
 
-**[03:38] Enable the Agents**
+### Enable the Agents [03:38](https://www.youtube.com/watch?v=I9RWrW32QEw&t=218s)
 Patrick introduces the emerging role of the "AI product engineer"—a silo-buster blending requirements-setting with implementation. The critical mindset shift: when an agent gets something wrong, don't just fix the code—improve the system that builds the code. He notes that developers are now voluntarily writing documentation (specs, context) because it improves agent performance. Reusability of specs, harnesses, components, and tools is essential. He stresses limiting the "blast radius" of agent actions, similar to access control for human users. The one mindset he wants developers to adopt: every time you do something, think about not repeating it again manually.
 
-**[09:27] Enable the Team**
+### Enable the Team [09:27](https://www.youtube.com/watch?v=I9RWrW32QEw&t=567s)
 Team leads now manage agents as team members. They're accountable not just for developer performance but for agent performance too. Clear goals are essential—vague instructions cause token spend to explode. New team practices include "pair context writing" (collaborating on what context matters), redefining the "definition of done" to include agent performance, and measuring how many turns an agent needs to complete a task correctly. Teams should run retrospectives on how their agents worked, similar to human retros. Education is needed because not everyone is skilled at writing prompts and specs. The "coding rockstar" must be reframed as an "agent whisperer"—an amazing context provider. Skeptics who say "AI can't do what I do" can be challenged to write down what they do so agents can improve. Shared libraries face ownership challenges.
 
-**[14:08] Enable the Platform**
+### Enable the Platform [14:08](https://www.youtube.com/watch?v=I9RWrW32QEw&t=848s)
 Patrick describes the familiar pattern: a new incubation team forms (like Agile or DevOps teams before), experiments, and eventually shared infrastructure emerges. This team builds for the teams that build the thing that builds the thing. He criticizes AI coding vendors for not learning from what agents do in production—observability of agent behavior in the wild is missing. A good platform should be self-serve, with best practices, eval, security scanning, centralized monitoring, and guardrails built in. Registries for skills, MCP components, harnesses, and agent pipelines should follow the same pattern as code registries: discoverable, versioned, reusable. Ownership of shared components remains a challenge—nobody wants to maintain the shared repo. Making eval writing easy and self-serve is a key platform responsibility. Skills need maintenance: testing for security, optimization across model changes, and handling forks when teams want to customize. Patrick bluntly tells teams: "You're special, but the way you work isn't."
 
-**[21:57] Enable the Organization**
+### Enable the Organization [21:57](https://www.youtube.com/watch?v=I9RWrW32QEw&t=1317s)
 At the VP engineering level, the job is building the org that builds for the teams that build the thing. Current struggles: organizations give everyone tools but don't know what comes next. Patrick says VPs must still hire engineers and ship reliably, but also enable the system—unlocking access across groups, aligning team direction, balancing teams that overproduce against those that struggle, and investing in education and pipeline improvement beyond just license costs. Governance includes access control, mandated security scanning, approved skills registries, and KPIs for agent quality. VPs struggle to justify investment because the business wants immediate returns—making pain visible (like with security vulnerabilities) is key to justifying ROI. Patrick warns against "quick wins" and advocates treating enablement as a real investment, like a platform team.
 
-**[27:08] No Playbook and Continuous Learning**
+### No Playbook and Continuous Learning [27:08](https://www.youtube.com/watch?v=I9RWrW32QEw&t=1628s)
 Patrick acknowledges there is no playbook yet—everyone is learning as they go. He uses the metaphor of a barrel: if one side is low, water pours through. You must improve incrementally across all layers (governance, automation, context) rather than automating everything without governance. He reframes continuous integration/delivery as "continuous learning"—the ability to rapidly adopt new technology is now a business edge. He shares that he's building an agent to scan social posts and distill industry patterns, filtering out vendor-driven content and finding multiple independent sources. Surveys are too slow for tracking how the industry is evolving.
 
-**[30:13] Call to Action**
+### Call to Action [30:13](https://www.youtube.com/watch?v=I9RWrW32QEw&t=1813s)
 Patrick invites the audience to share their stories on mindset change, team ceremonies, framing the problem for leadership, and making the case to CFOs. He offers to share slides via LinkedIn in exchange for feedback.
 
 ## Notable Quotes

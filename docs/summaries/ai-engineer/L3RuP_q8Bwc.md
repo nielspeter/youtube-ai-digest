@@ -31,31 +31,31 @@ AI features are being added to everything, but most users don't understand how t
 
 ## Detailed Breakdown
 
-**[00:00] Introduction & The AI UX Problem**
+### Introduction & The AI UX Problem [00:00](https://www.youtube.com/watch?v=L3RuP_q8Bwc&t=0s)
 Kathryn Grayson Nanz introduces her background in the overlap between design and development. She explains that AI, while powerful, carries significant risk due to its non-deterministic nature and the entirely new interaction patterns it requires. She highlights a major issue: developers understand concepts like prompt engineering and hallucinations, but the average user does not. This creates a wide knowledge gap, leading to poorly designed AI features that frustrate users and cause them to disengage.
 
-**[04:00] The Macintosh Metaphor**
+### The Macintosh Metaphor [04:00](https://www.youtube.com/watch?v=L3RuP_q8Bwc&t=240s)
 Nanz compares the current state of AI to the introduction of the Macintosh graphical user interface. Apple succeeded by using familiar real-world vocabulary and visual representations, gradually evolving the UI as users became more literate. She places AI at "System 3" in this metaphor—we don't need to start from scratch, as users have existing mental models of software, but we must adapt familiar patterns (like chat interfaces) to accommodate new AI-specific needs like citations and agentic tools.
 
-**[07:42] Why AI Can't Design Its Own UX**
+### Why AI Can't Design Its Own UX [07:42](https://www.youtube.com/watch?v=L3RuP_q8Bwc&t=462s)
 Addressing the elephant in the room, Nanz explains why we can't just ask AI to design these new interfaces. AI can only remix existing patterns, and since AI interaction patterns are still being rapidly developed, there isn't enough historical data for AI to reference. Furthermore, AI-generated UIs tend to look average, which isn't sufficient for novel interaction modes that require careful UX consideration.
 
-**[09:45] The Five Pillars: Trust**
+### The Five Pillars: Trust [09:45](https://www.youtube.com/watch?v=L3RuP_q8Bwc&t=585s)
 Trust is the biggest hurdle. Users see AI as a black box and have likely witnessed hallucinations. Instead of promising perfection, developers should be honest about limitations and build patterns that let users verify output. This includes providing citations (via tooltips, inline links, or side panels), showing action plans for agentic workflows before execution, and clearly labeling AI-generated content to avoid making users feel deceived.
 
-**[18:35] The Five Pillars: Clarity**
+### The Five Pillars: Clarity [18:35](https://www.youtube.com/watch?v=L3RuP_q8Bwc&t=1115s)
 Clarity means pulling back the curtain and avoiding the framing of AI as "magic" (e.g., the sparkle icon). Nanz recommends streaming text to disguise latency and keep users engaged, having the AI "think out loud" so users can follow its reasoning, and highlighting new or changed content to draw the user's eye, especially when an agent is acting autonomously.
 
-**[23:15] The Five Pillars: Control**
+### The Five Pillars: Control [23:15](https://www.youtube.com/watch?v=L3RuP_q8Bwc&t=1395s)
 Users need to feel like they are still in the driver's seat. This requires a prominent "emergency brake" to stop any AI action immediately. It also requires version history—ranging from simple undo/redo to more complex checkpoints or save states—so users can safely explore and roll back non-deterministic outputs without starting from scratch.
 
-**[27:24] The Five Pillars: Transparency**
+### The Five Pillars: Transparency [27:24](https://www.youtube.com/watch?v=L3RuP_q8Bwc&t=1644s)
 Transparency involves making permissions clear and granular (e.g., read vs. delete access), allowing users to manage what data is remembered and forgotten, and providing estimates of time and cost (tokens/credits) before execution. It also includes visual signals (like banners or outlines) when an AI agent takes control of a browser or process, ensuring the user understands the system's current state.
 
-**[31:30] The Five Pillars: Meaningful Benefit**
+### The Five Pillars: Meaningful Benefit [31:30](https://www.youtube.com/watch?v=L3RuP_q8Bwc&t=1890s)
 Developers often assume users know how to use AI, but most don't know how to provide context or iterate. Nanz suggests offering examples, templates, and guided workflows. Furthermore, developers should provide "next step action buttons" and direct integrations with other tools (like word processors or code repos) so users can easily act on the AI's output, turning it from a novelty into a useful part of their workflow.
 
-**[34:06] Conclusion**
+### Conclusion [34:06](https://www.youtube.com/watch?v=L3RuP_q8Bwc&t=2046s)
 Nanz concludes that the technology and models are already excellent, making UX the true differentiator for AI-powered software. The line between design and development is blurring, and developers must prioritize the user experience for AI to reach its full potential.
 
 ## Notable Quotes

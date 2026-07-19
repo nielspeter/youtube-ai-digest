@@ -29,25 +29,25 @@ Ray Amjad demonstrates how to combine Claude Code (an AI agent that runs on your
 
 ## Detailed Breakdown
 
-**[00:00] Introduction & Setup**
+### Introduction & Setup [00:00](https://www.youtube.com/watch?v=1sMHcJMxYqo&t=0s)
 Ray introduces the two tools that changed his life: Anki (which helped him get into Cambridge for physics) and Claude Code. He explains that Anki combines spaced repetition and active recall. To connect them, viewers must install the "Anki Connect" add-on in Anki via the Tools > Add-ons menu. Once installed, you can ask Claude Code to verify the connection.
 
-**[01:34] Automated Flashcard Generation Examples**
+### Automated Flashcard Generation Examples [01:34](https://www.youtube.com/watch?v=1sMHcJMxYqo&t=94s)
 Ray demonstrates several use cases. First, he asks Claude Code to create 10 interactive chess opening flashcards ranging from beginner to advanced. Next, he takes a YouTube video (Andrej Karpathy's "Introduction to Transformers") and asks Claude Code to download it, extract transcripts and relevant diagrams, and create ordered flashcards. Finally, he shows how to combine multiple local videos on B2B sales into a single deck, asking Claude Code to cross-reference concepts and add timestamps to the original sources.
 
-**[03:39] Reviewing the Generated Decks**
+### Reviewing the Generated Decks [03:39](https://www.youtube.com/watch?v=1sMHcJMxYqo&t=219s)
 Ray reviews the AI-generated decks in Anki. The chess deck features properly rendered interactive elements. The Transformers deck includes relevant screenshots and timestamps linking back to the specific moments in the lecture. He notes that Claude Code used a local tool called "Nano Banana" to generate brand new diagrams, though it could also pull images from Google.
 
-**[05:13] The Philosophy Behind the Workflow**
+### The Philosophy Behind the Workflow [05:13](https://www.youtube.com/watch?v=1sMHcJMxYqo&t=313s)
 Ray explains why he loves this approach: it separates understanding from memorization. When watching educational content (like 3Blue1Brown math videos), he can focus entirely on wrapping his head around the ideas and scribbling notes. He leaves the tedious work of extracting screenshots, writing equations, and building flashcards to Claude Code.
 
-**[06:46] Advanced Anki Management: Japanese Learning**
+### Advanced Anki Management: Japanese Learning [06:46](https://www.youtube.com/watch?v=1sMHcJMxYqo&t=406s)
 Moving beyond simple card creation, Ray shows how Claude Code manages his Japanese learning cycle. Claude Code scans videos he watched daily, extracts unknown words, and creates rich flashcards featuring the sentence, a picture, audio (via text-to-speech), and context. This allows him to study hands-free while walking outside.
 
-**[07:47] Tackling Leeches and Prioritization**
+### Tackling Leeches and Prioritization [07:47](https://www.youtube.com/watch?v=1sMHcJMxYqo&t=467s)
 Ray shows his backlog of 362 overdue cards. He asks Claude Code to analyze his struggling cards, identify patterns, and suggest fixes. Claude Code can also prioritize cards based on upcoming needs (e.g., focusing on AI-related Japanese vocabulary because Ray wants to make AI videos in Japanese).
 
-**[08:50] Advanced Learning Techniques with AI**
+### Advanced Learning Techniques with AI [08:50](https://www.youtube.com/watch?v=1sMHcJMxYqo&t=530s)
 Ray lists several advanced techniques Claude Code can perform:
 - **Leech Surgery**: Diagnosing and rewriting hard cards.
 - **Laddering**: Creating intermediate concept cards to bridge knowledge gaps.
@@ -55,10 +55,10 @@ Ray lists several advanced techniques Claude Code can perform:
 - **Example Diversification**: Adding varied examples so knowledge isn't context-bound.
 - **Closing the Test Loop**: Feeding practice exam results to Claude Code to prioritize and rewrite cards in the examiner's style.
 
-**[10:54] Real-World Application Tracking**
+### Real-World Application Tracking [10:54](https://www.youtube.com/watch?v=1sMHcJMxYqo&t=654s)
 Ray suggests connecting Claude Code to a meeting recording tool like Granola via an MCP server. Claude Code can analyze your recorded meetings to see if you are actually applying the techniques from your flashcards (like B2B sales strategies) in real life, and then re-prioritize your deck accordingly.
 
-**[11:57] Refactoring and Final Analysis**
+### Refactoring and Final Analysis [11:57](https://www.youtube.com/watch?v=1sMHcJMxYqo&t=717s)
 Ray advocates for the "minimum information principle" (breaking knowledge into atomic pieces) and uses Claude Code to split massive text cards into smaller ones. The video cuts back to Claude Code's analysis of Ray's 58 struggling Japanese cards, identifying issues like under-contextualized sentences, clashing synonyms, and rare vocabulary that isn't worth prioritizing. Ray concludes that your imagination is the limit when combining these tools.
 
 ## Notable Quotes

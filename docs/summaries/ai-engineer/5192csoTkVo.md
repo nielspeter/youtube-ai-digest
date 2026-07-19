@@ -31,31 +31,31 @@ Connor Adams presents Remobi, an open-source progressive web app that mirrors yo
 
 ## Detailed Breakdown
 
-**[00:07] Intro and Motivation**
+### Intro and Motivation [00:07](https://www.youtube.com/watch?v=5192csoTkVo&t=7s)
 Connor Adams introduces himself and asks the audience how many people check on their coding agents from their phones. He admits ambivalence about the habit—feeling a compulsion to check on agents while out with family and friends—but notes there's clearly demand for mobile agent monitoring.
 
-**[01:10] Why Build Another Mobile Agent App?**
+### Why Build Another Mobile Agent App? [01:10](https://www.youtube.com/watch?v=5192csoTkVo&t=70s)
 He explains existing options fall short. Happy is a native mobile app but only supports Claude Code and relies on a relay server he doesn't fully trust. Claude's built-in mobile handoff requires a manual step and locks you into Claude Code (no Codex or other tools). Generic terminal apps for phones work but managing SSH keys and integrating with existing tmux workflows is cumbersome.
 
-**[02:11] tmux as the Foundation**
+### tmux as the Foundation [02:11](https://www.youtube.com/watch?v=5192csoTkVo&t=131s)
 Connor surveys the audience for tmux users (finding few) and explains his shift from VS Code to a terminal-based setup. He values the portability: a remote dev machine accessible via SSH with all his tools. He introduces tmux as a terminal window manager supporting panes, tabs/windows, and customization.
 
-**[03:13] Custom tmux Workflows**
+### Custom tmux Workflows [03:13](https://www.youtube.com/watch?v=5192csoTkVo&t=193s)
 He demonstrates running multiple coding agents in separate panes simultaneously. tmux can display system info (CPU usage) and support custom key commands—e.g., pressing a key sequence to spawn a chosen number of agent panes. He admits he vibed these configs with AI assistance rather than learning tmux manually, and mentions alternatives like Conductor but prefers owning his workflow for now.
 
-**[04:14] Reviewing Diffs and Managing Sessions**
+### Reviewing Diffs and Managing Sessions [04:14](https://www.youtube.com/watch?v=5192csoTkVo&t=254s)
 Connor shows how he loads lazygit or "critique" in a tmux window to review diffs before committing. He also describes ad-hoc utilities, like killing a rogue process occupying a port (e.g., an agent browser blocking his dev server). The broader point: tmux lets you build custom tools and workflows tailored to your needs.
 
-**[05:18] Remobi Demo on Phone**
+### Remobi Demo on Phone [05:18](https://www.youtube.com/watch?v=5192csoTkVo&t=318s)
 He switches to his phone and opens Remobi, a progressive web app running on his dev machine's server. The app mirrors the exact tmux session from his desktop. He can scroll through output, toggle plan mode via a shift-tab equivalent, and open tools like git or critique with touch-friendly gestures. He candidly admits the UI "looks like shit" but argues it's functional.
 
-**[06:20] Touch Interactions**
+### Touch Interactions [06:20](https://www.youtube.com/watch?v=5192csoTkVo&t=380s)
 Connor details the touch controls: double-clicking zooms into individual panes, scrolling works within panes, and you can zoom in and out. The emphasis is on minimal but functional mobile interaction with your existing terminal setup.
 
-**[06:51] Setup and Open Source**
+### Setup and Open Source [06:51](https://www.youtube.com/watch?v=5192csoTkVo&t=411s)
 Remobi is open source. Rather than asking users to blindly paste a random shell script, the installer guides you through setup. It installs a skill that helps configure tmux if you don't have it, and generates key bindings optimized for the mobile touch interface. You can also just install the NPM package directly. He asks for GitHub stars regardless of whether people use it.
 
-**[07:54] Q&A: tmux Control and Security**
+### Q&A: tmux Control and Security [07:54](https://www.youtube.com/watch?v=5192csoTkVo&t=474s)
 An audience member asks how Remobi controls tmux remotely—Connor explains it simply calls tmux and logs into your existing session. Another asks about the phone-to-machine communication. Connor clarifies it runs over the internet, with Tailscale as the default secure tunnel (Cloudflare tunnels or ngrok are alternatives). He warns that exposing the server publicly would "pwn your computer," so Tailscale is the default setup path.
 
 ## Notable Quotes

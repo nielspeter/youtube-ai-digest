@@ -29,35 +29,35 @@ Jeffrey Lee-Chan demonstrates how he uses Open Claw to accelerate development at
 
 ## Detailed Breakdown
 
-**[00:01] Workshop Setup and Agenda**
+### Workshop Setup and Agenda [00:01](https://www.youtube.com/watch?v=9arM9b7JgOo&t=1s)
 Jeffrey outlines the workshop structure: helping newcomers install Open Claw, offering advanced users an experimental staging environment for running two Open Claw instances, 10-minute Q&A segments, and periodic discussion breaks every 5 minutes.
 
-**[01:02] Personal Workflow Overview**
+### Personal Workflow Overview [01:02](https://www.youtube.com/watch?v=9arM9b7JgOo&t=62s)
 He describes his setup where, roughly 70% of the time, he briefly describes a task and Open Claw executes it using retained context. Example: saying "fix the skeptic agent" works because Open Claw remembers prior conversations about a custom code review tool. He uses multiple agents with git work trees for parallelization and notes that his own responses to agents are simple enough that "an agent could replace me" — his current goal.
 
-**[03:08] Core Concepts of Open Claw**
+### Core Concepts of Open Claw [03:08](https://www.youtube.com/watch?v=9arM9b7JgOo&t=188s)
 Jeffrey presents two key concepts: **frictionless communication** (easily messaging your AI rather than remote-desktopping in) and the **central axis of control** — a spectrum from "cowboy mode" (giving agents full autonomy) to personal control via tmux terminals. He uses a forked agent orchestrator framework to manage workers, and notes that once Claude Code takes over, it can spawn its own sub-agents, creating a layered managed-agent hierarchy.
 
-**[04:42] Q&A: Why Open Claw Over Direct Claude?**
+### Q&A: Why Open Claw Over Direct Claude? [04:42](https://www.youtube.com/watch?v=9arM9b7JgOo&t=282s)
 A participant asks why use Open Claw instead of Claude directly. Jeffrey explains **specialization**: when Claude opens, it reads CLAUDE.md files, skills, and MCPs — consuming ~25% of context with implementation details. Open Claw keeps context focused on specs, goals, and task history. He also notes browser testing has improved dramatically — agents that struggled with pop-ups and passwords a year ago now handle these reliably.
 
-**[07:53] Demo: AI RPG and Multi-AI Analysis Website**
+### Demo: AI RPG and Multi-AI Analysis Website [07:53](https://www.youtube.com/watch?v=9arM9b7JgOo&t=473s)
 He shows two projects: an AI RPG with a D&D dice-roll system that prevents players from always "winning" (unlike raw ChatGPT/Gemini chats), and a multi-AI analysis site that queries multiple models and synthesizes their answers — yielding better results than single-model queries. The site features vertical tabs and notifications for completed tasks.
 
-**[09:30] Manager-Worker Dynamics and Bias Reduction**
+### Manager-Worker Dynamics and Bias Reduction [09:30](https://www.youtube.com/watch?v=9arM9b7JgOo&t=570s)
 Jeffrey explains that using terminals as a manager rather than a coder reduces bias. A worker agent working on its own PR might declare it "amazing," but a manager agent with different context can objectively assess that another PR should supersede it. He credits tmux for significantly improving his efficiency.
 
-**[11:04] tmux Discussion with Austin**
+### tmux Discussion with Austin [11:04](https://www.youtube.com/watch?v=9arM9b7JgOo&t=664s)
 Austin, a tmux creator, joins briefly to mention new features: Cloud Code Teams integration (auto-spawning terminals), Cmux SSH for remote work, and encourages feedback via email. Jeffrey endorses tmux as a power user.
 
-**[13:07] Sandbox and Model Selection Q&A**
+### Sandbox and Model Selection Q&A [13:07](https://www.youtube.com/watch?v=9arM9b7JgOo&t=787s)
 A participant asks about sandbox usage and token concerns. Jeffrey clarifies two types of "sandbox": Docker isolation vs. his staging environment (running a second Open Claw instance). The latter increases token usage but enables local development with integration testing on staging before production deployment. On models: he uses Codex 53 as the default orchestrator (finding GPT 54 consumes more tokens) and switches to MiniMax when budget runs low — a financial rather than preference-driven choice.
 
 ## Notable Quotes
-- "I actually think an agent could replace me. So that's kind of what I'm working on right now to get things even more autonomous." [02:38]
-- "When Open Claw makes a decision, I want that context to be more about the spec or the goals or the history of what I want in the task rather than the code." [05:14]
-- "As soon as you open up Claude, it reads CLAUDE.md, it reads skills, it reads MCPs. A lot of those things are sort of independent of the actual task." [05:46]
-- "When I code with these directly, I usually feel like there's a bias, where it wants to say things are really working. Versus the manager has a different context than the workers." [10:01]
+- "I actually think an agent could replace me. So that's kind of what I'm working on right now to get things even more autonomous." [02:38](https://www.youtube.com/watch?v=9arM9b7JgOo&t=158s)
+- "When Open Claw makes a decision, I want that context to be more about the spec or the goals or the history of what I want in the task rather than the code." [05:14](https://www.youtube.com/watch?v=9arM9b7JgOo&t=314s)
+- "As soon as you open up Claude, it reads CLAUDE.md, it reads skills, it reads MCPs. A lot of those things are sort of independent of the actual task." [05:46](https://www.youtube.com/watch?v=9arM9b7JgOo&t=346s)
+- "When I code with these directly, I usually feel like there's a bias, where it wants to say things are really working. Versus the manager has a different context than the workers." [10:01](https://www.youtube.com/watch?v=9arM9b7JgOo&t=601s)
 
 ## People, Tools & References Mentioned
 - **Open Claw** — AI agent orchestration framework

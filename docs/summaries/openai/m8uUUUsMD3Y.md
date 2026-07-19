@@ -31,16 +31,16 @@ OpenAI introduces the Codex Micro, a custom keyboard built in collaboration with
 
 ## Detailed Breakdown
 
-**[00:05] Introduction and Voice Dictation Demo**
+### Introduction and Voice Dictation Demo [00:05](https://www.youtube.com/watch?v=m8uUUUsMD3Y&t=5s)
 The presenter introduces the Codex Micro, a keyboard co-developed with Work Louder for Codex. They demonstrate voice dictation by holding a key and speaking a prompt to build a browser game called "One Letter Off," where players change one letter at a time to turn "cold" into "warm."
 
-**[00:36] Configuring Controls: Analog Stick and Dial**
+### Configuring Controls: Analog Stick and Dial [00:36](https://www.youtube.com/watch?v=m8uUUUsMD3Y&t=36s)
 Additional game features—30-second timer, streaks, tile animations—are dictated. The presenter explains the analog stick can map to common skills or, by default, swipe up for Plan mode. The dial controls reasoning effort, enabling quick switches between lightweight and deep reasoning mid-flow.
 
-**[01:07] Task Management and Permissions**
+### Task Management and Permissions [01:07](https://www.youtube.com/watch?v=m8uUUUsMD3Y&t=67s)
 The Micro's keys map to pinned tasks, letting the user switch between concurrent Codex tasks with a click. The user can see what's running or needs attention at a glance; if the app is backgrounded, a double-tap surfaces what needs attention. When Codex requests permission to run something, the user can switch over and press Accept.
 
-**[01:37] Queuing More Tasks and Final Reveal**
+### Queuing More Tasks and Final Reveal [01:37](https://www.youtube.com/watch?v=m8uUUUsMD3Y&t=97s)
 The presenter holds the voice key again to queue another task: "Make the win state punchier and add a streak counter." They note task-jumping is easier than ever and mention the analog stick works as a fidget toy while waiting. The game goes live, all controlled from the Micro. They close by emphasizing full customizability of controls—common skills, pull requests, even a "pet"—and point viewers to openai.com/supply to purchase.
 
 ## Notable Quotes

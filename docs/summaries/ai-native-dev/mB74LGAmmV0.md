@@ -31,49 +31,49 @@ Daniel Jones (consultant at Re-Fync) and Tomasz Maj (AI lead at Odevo) present a
 
 ## Detailed Breakdown
 
-**[00:00] Introduction and speaker backgrounds**
+### Introduction and speaker backgrounds [00:00](https://www.youtube.com/watch?v=mB74LGAmmV0&t=0s)
 The session opens with a packed room and a brief introduction. Daniel Jones ("DJ") from Re-Fync, a boutique consultancy focused on AI-native transformation, and Tomasz Maj from Odevo introduce themselves with some humor about their contrasting appearances and backgrounds. DJ notes Re-Fync's roots in cloud-native transformation and how similar organizational change patterns apply to AI adoption.
 
-**[02:08] Odevo's background and scale**
+### Odevo's background and scale [02:08](https://www.youtube.com/watch?v=mB74LGAmmV0&t=128s)
 Tomasz explains that Odevo is a residential property management company—ranked the third-largest private tech company in Sweden. They own the full value chain of property management services end-to-end. The company has grown explosively: from 50,000 homes under management to 2.5 million, and from 1,000 to 14,000 employees in seven years, acquiring roughly one company per week. This has resulted in a highly heterogeneous tech landscape spanning .NET, legacy systems with no UIs, and even pen-and-paper processes in some markets.
 
-**[06:52] The AI landscape before transformation**
+### The AI landscape before transformation [06:52](https://www.youtube.com/watch?v=mB74LGAmmV0&t=412s)
 When Tomasz joined in 2024, Odevo had GitHub Copilot in use and had built a custom internal chat tool ("Deal GPT") on OpenAI's API to protect sensitive customer data. There were scattered "Claude islands"—individual developers who had independently adopted Claude—but no systematic adoption. Only about 30% of developers were using AI meaningfully. PR sizes were large, merges were infrequent, and most teams didn't realize they were underperforming. Odevo had already spent a year and a half establishing transparency around flow and modern ways of working, which laid the groundwork for the AI transformation.
 
-**[09:27] Selecting a training partner**
+### Selecting a training partner [09:27](https://www.youtube.com/watch?v=mB74LGAmmV0&t=567s)
 Recognizing that AI was going to be disruptive, Odevo issued an RFP for an AI training company. Tomasz received around 80 submissions after posting on LinkedIn, including some dubious claims. They narrowed to 10 finalists, then 3, ultimately selecting Re-Fync (and "the guy with the mustache"). Tomasz emphasizes that the RFP explicitly required a paid discovery session to avoid assumptions and ensure the partner understood Odevo's unique context.
 
-**[11:28] Discovery and fundamentals assessment**
+### Discovery and fundamentals assessment [11:28](https://www.youtube.com/watch?v=mB74LGAmmV0&t=688s)
 DJ explains the discovery process, citing the 2025 DORA report's finding that throwing agentic coding at poor software delivery practices makes things worse—you expose bottlenecks elsewhere. The discovery assessed fundamentals like CI/CD, platforms, automated tests, and coding standards across teams. DJ stresses that if humans can't agree on what good code looks like, agents won't be able to produce it either. He sees this as an industry opportunity to revisit long-neglected fundamentals.
 
-**[15:04] Workshops and psychological preparation**
+### Workshops and psychological preparation [15:04](https://www.youtube.com/watch?v=mB74LGAmmV0&t=904s)
 Before training, Odevo held in-person workshops using Liberating Structures—facilitation formats designed to subvert power dynamics and ensure all voices are heard. They used a TRIZ exercise asking participants to imagine how to make a team of tireless, never-questioning AI developers a "bigger disaster as possible," then identify which of those bad practices already exist at Odevo. This surfaced honest admissions about poor testing across all teams and cultures, reducing resistance and fear before training began. A pilot training on November 11th (Polish Independence Day) helped iron out logistics before the main session with 80 people.
 
-**[18:11] Training techniques and delivery**
+### Training techniques and delivery [18:11](https://www.youtube.com/watch?v=mB74LGAmmV0&t=1091s)
 DJ describes a key pedagogical technique: after each exercise, asking the group "What did we just do?" and drawing the flow live—where the prompt went, how the model chose a tool, where tools execute. This leverages social pressure, visual learning, and humor to cement knowledge. Tomasz emphasizes that making the training in-person in Stockholm was critical: no laptops in the first half, food and fika provided, an after-party afterward. Seeing colleagues face-to-face built connection and engagement that remote training couldn't match.
 
-**[19:50] Syllabus and curriculum**
+### Syllabus and curriculum [19:50](https://www.youtube.com/watch?v=mB74LGAmmV0&t=1190s)
 The training covered context management and maximum effective context windows—teaching that overloading context causes LLMs to degrade. They used old, easily-hallucinated models to demonstrate failure modes and prompt biasing, since the "happy path" doesn't need teaching. They addressed the psychological jump from VS Code Copilot (where humans control visible files) to terminal-based Claude Code (where the agent controls what's shown). The curriculum progressed through MCP, spec-driven development, and multi-agent workflows like Gas City. Training was delivered in weekly half-day modules, with homework between sessions—e.g., installing the Jira MCP and testing it on real tickets. DJ notes the importance of telling IT ops in advance that people would be installing software, after losing 15–20 minutes to Docker installation issues.
 
-**[22:54] Measurable impact**
+### Measurable impact [22:54](https://www.youtube.com/watch?v=mB74LGAmmV0&t=1374s)
 Tomasz reports that by mid-February, after training the core developer group, AI adoption reached 94% (measured by "did you use AI in your last 10 PRs?"), with 50–60% using it in all 10. Only 6% didn't use AI at all, and Odevo is now interviewing those individuals to understand the blockers. PR throughput is constantly increasing, and Odevo built dashboards making every developer's metrics transparent across the organization—even queryable via chat. Tomasz credits the training for making developers more intentional and smarter about tool usage rather than just pumping everything into the most powerful model.
 
-**[25:31] Boldness as the key outcome**
+### Boldness as the key outcome [25:31](https://www.youtube.com/watch?v=mB74LGAmmV0&t=1531s)
 Tomasz argues the biggest impact isn't throughput metrics—it's boldness. Teams are now willing to attempt ambitious experiments. The standout example: a platform built over 8 years by 20 developers was rewritten end-to-end with feature parity in 3 weeks, now maintained by a 4-person team using AI. They also attempted building a mobile app in 3 days (which didn't fully work but was attempted). Odevo is now attempting to build a single platform to serve all international markets—a project that would have been unthinkable before the transformation.
 
-**[27:38] AI-native team process redesign**
+### AI-native team process redesign [27:38](https://www.youtube.com/watch?v=mB74LGAmmV0&t=1658s)
 DJ describes one team that reimagined their entire SDLC. They spent two weeks on product requirements—talking, auto-transcribing, and using agents to generate PRDs with deeply defined domain logic and entity relationships. Agents then split work into task plans. Developers now pick up a couple of epics a day, each using their preferred tool (BMAT, Spec Kit, or even vibe coding). They no longer write code manually and no longer do human code review—instead running 7–8 passes of agentic code review before self-merging PRs. DJ argues that human static analysis of code was always a silly idea, and that traditional Scrum/Kanban methodologies will hit bottlenecks once agentic coding is in place. This team serves as a "lighthouse" for the rest of the organization.
 
-**[29:42] Impact on individual developers**
+### Impact on individual developers [29:42](https://www.youtube.com/watch?v=mB74LGAmmV0&t=1782s)
 Tomasz and DJ highlight three individuals. Dominic Pawlikowski was an AI skeptic who had tried ChatGPT in isolation, found it lacking, and had ethical concerns about training and energy use. After hands-on time with Opus 4.5 in November, he changed his mind and hasn't written code at work in 4–5 months—though he still codes for fun at home, likening it to buying IKEA furniture but doing carpentry as a hobby. Daniel, from the DevX team, increased his performance by 2,000% and builds developer experience tools entirely without writing code. Niklas became a certified internal trainer through a train-the-trainer program, now educating remaining developers across acquired companies with relatable, industry-specific experience.
 
-**[32:47] Future directions: product colleagues and all employees**
+### Future directions: product colleagues and all employees [32:47](https://www.youtube.com/watch?v=mB74LGAmmV0&t=1967s)
 Tomasz explains that Odevo realized it invested in engineers but neglected product managers, designers, and BAs—who are now becoming the next bottleneck. They've adapted the engineering training for product colleagues. Beyond that, they aim to train all 13,000 remaining employees on basic AI usage, noting that financial managers are already using Claude Code to build small local apps for themselves.
 
-**[34:20] Risks: compulsion and overtime**
+### Risks: compulsion and overtime [34:20](https://www.youtube.com/watch?v=mB74LGAmmV0&t=2060s)
 Tomasz shares that some engineers report being unable to stop working—"the dopamine rush is real"—coding until 1 a.m. Odevo is now actively encouraging people to put tools away and enjoy life. DJ adds that Lauren Peate, CEO of Multitudes, published research showing that in many organizations, the perceived pressure of "you've adopted agentic coding, so you should produce more" is driving overtime—a risk Odevo is watching.
 
-**[34:50] Vision: everyone is a builder**
+### Vision: everyone is a builder [34:50](https://www.youtube.com/watch?v=mB74LGAmmV0&t=2090s)
 Tomasz articulates Odevo's ambition to shift from building software *for* users to having users build software *with* Odevo's support—making all 14,000 employees builders. DJ contextualizes this historically: in the 1970s, business users created their own paper processes; then software developers took over; then cloud complexity further disempowered business users. Now, AI tools can re-empower them. DJ argues this won't eliminate developer roles but will lead to more bespoke, usable software solving individual business problems—moving complex Excel models into vibe-coded solutions used by real users. The talk closes with contact information and a rush to lunch.
 
 ## Notable Quotes

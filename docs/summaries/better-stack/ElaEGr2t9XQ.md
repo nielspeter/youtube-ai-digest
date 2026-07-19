@@ -30,49 +30,49 @@ Alex, founder of Hookdeck, joins the Better Stack podcast to discuss how webhook
 
 ## Detailed Breakdown
 
-**[00:00] What is Hookdeck?**
+### What is Hookdeck? [00:00](https://www.youtube.com/watch?v=ElaEGr2t9XQ&t=0s)
 Alex introduces Hookdeck as "the webhook company that's trying to kill webhooks." The company has two main products: an event gateway that serves as an untrusted endpoint to receive, standardize, and queue events from outside vendors, and Outpost, an open-source project for sending events to user-defined destinations like SQS, Kafka, or webhooks.
 
-**[03:40] The Origin Story: Frustration with Webhooks**
+### The Origin Story: Frustration with Webhooks [03:40](https://www.youtube.com/watch?v=ElaEGr2t9XQ&t=220s)
 The idea for Hookdeck was born from Alex's frustration working in e-commerce, where he constantly dealt with missing webhook deliveries and the lack of "batteries-included" tooling. He wrote a Medium article titled "Webhooks suck but there's something you can do about it," which eventually evolved into a prototype. He notes that handling webhooks at scale forces developers into the complexities of event-driven architecture, including dead-letter queues and autoscaling.
 
-**[09:49] Open Source Strategy and AI Contributions**
+### Open Source Strategy and AI Contributions [09:49](https://www.youtube.com/watch?v=ElaEGr2t9XQ&t=589s)
 Alex explains why they open-sourced Outpost: they don't need it to make money directly, as their business focus is on the consumer (receiving) side. They use the exact same Docker build for both the open-source and managed versions, ensuring genuine alignment with the community. He notes that while AI tools like Claude have led to some spam PRs (like one with completely made-up Cloudflare APIs), they have also drastically lowered the barrier for genuine users to contribute features.
 
-**[17:37] The Vercel Connection and AI Agents**
+### The Vercel Connection and AI Agents [17:37](https://www.youtube.com/watch?v=ElaEGr2t9XQ&t=1057s)
 Guillermo Rauch (CEO of Vercel) unexpectedly tweeted about Hookdeck, driving massive signups. Alex shares Guillermo's observation that LLM adoption is driving new webhook use cases. As systems shift from human-triggered to agent-triggered, agents rely heavily on events (webhooks) from customer support, marketing tools, and other systems to take action.
 
-**[19:11] Typical Hookdeck Customers**
+### Typical Hookdeck Customers [19:11](https://www.youtube.com/watch?v=ElaEGr2t9XQ&t=1151s)
 Alex explains that even a small Shopify store uses webhooks indirectly through installed apps (reviews, back-in-stock notifications, 3PL integrations). Hookdeck's direct customers range from app developers in marketplaces (Stripe, Shopify) to large e-commerce brands like Gymshark building custom operational integrations.
 
-**[22:17] Comparing Hookdeck to AWS EventBridge**
+### Comparing Hookdeck to AWS EventBridge [22:17](https://www.youtube.com/watch?v=ElaEGr2t9XQ&t=1337s)
 When asked about AWS EventBridge, Alex argues that Hookdeck provides a better developer experience without vendor lock-in. EventBridge only works natively within the AWS ecosystem and requires vendors to explicitly integrate with it. Hookdeck, conversely, works purely over HTTP—you just swap your webhook URL, and it acts as a push-based queue, requiring no code redeployment.
 
-**[25:55] Vendor Downtime and Latency Challenges**
+### Vendor Downtime and Latency Challenges [25:55](https://www.youtube.com/watch?v=ElaEGr2t9XQ&t=1555s)
 Alex confirms that downtime and latency from major vendors are real issues. Hookdeck monitors this via "Hookdeck Radar," tracking aggregated delivery latencies and uptimes for vendors like Shopify. He highlights that latency creep (e.g., a vendor taking 60 seconds instead of 5 seconds to deliver a webhook) is often harder to diagnose than a complete outage and can introduce nuanced bugs in code that assumes real-time delivery.
 
-**[32:39] The "Catch-Up" DDoS Problem**
+### The "Catch-Up" DDoS Problem [32:39](https://www.youtube.com/watch?v=ElaEGr2t9XQ&t=1959s)
 When a vendor like Shopify goes down and recovers, they often blast through their backlog of events to reduce backpressure, effectively DDoSing their customers' endpoints. Alex notes that this creates a self-reinforcing problem: as the customer's server saturates and slows down, the vendor holds connections longer, eventually disabling the endpoint entirely—which results in lost data.
 
-**[36:45] The Impact of AI on Webhooks**
+### The Impact of AI on Webhooks [36:45](https://www.youtube.com/watch?v=ElaEGr2t9XQ&t=2205s)
 AI agents are increasing the volume of events, as agent outputs often trigger other agents or systems. However, agentic workflows are non-deterministic and can run for long times, making capacity management and scaling much harder. Internally, Alex notes that while AI coding tools are helpful, the "taste" and empathy required to build high-quality products still heavily rely on human engineers, though non-engineers like designers are now coding more than ever.
 
-**[43:32] Team Structure and Remote Work**
+### Team Structure and Remote Work [43:32](https://www.youtube.com/watch?v=ElaEGr2t9XQ&t=2612s)
 Hookdeck is a lean team of 10 people. Built during COVID, the company has always been remote and optimized for highly autonomous, senior engineers. They operate asynchronously, having only one product and infrastructure call every two weeks.
 
-**[44:35] Coining the Term "Event Gateway"**
+### Coining the Term "Event Gateway" [44:35](https://www.youtube.com/watch?v=ElaEGr2t9XQ&t=2675s)
 Alex explains that they coined the term "Event Gateway" to describe a product category that sits between an API gateway and an event bus. Building a product in a category that doesn't exist yet is difficult because you have to invent the semantics while also building a compelling value proposition. He notes that other companies like Kong are now starting to use the term as well.
 
-**[49:14] Understanding Event-Driven Architecture**
+### Understanding Event-Driven Architecture [49:14](https://www.youtube.com/watch?v=ElaEGr2t9XQ&t=2954s)
 Alex defines event-driven architecture (EDA) as a paradigm where producers and consumers are decoupled, communicating only through event contracts (payloads/schemas). While it used to be associated solely with big enterprises, better tooling (like RabbitMQ, BullMQ, Celery) is making it accessible to everyone. He recommends David Boyne's drawing explainers and the Event Catalog open-source project for those wanting to learn more.
 
-**[55:56] The Slow Burn of Startup Growth**
+### The Slow Burn of Startup Growth [55:56](https://www.youtube.com/watch?v=ElaEGr2t9XQ&t=3356s)
 Alex traces Hookdeck's growth from a side project that got five signups from a Medium article to a funded startup. He shares anecdotes about signing up a $300 customer from Hacker News and eventually raising a pre-seed and a round from Matrix Partners, all while staying based in Montreal rather than moving to Silicon Valley.
 
-**[64:07] The Kiwi Mornings Side Hustle**
+### The Kiwi Mornings Side Hustle [64:07](https://www.youtube.com/watch?v=ElaEGr2t9XQ&t=3847s)
 Before Hookdeck, Alex started a zero-waste office breakfast startup called Kiwi Mornings with his wife. They delivered breakfasts ordered via a custom Slack bot. They sold the business in January 2021, just two months before COVID wiped out the office lunch industry.
 
-**[66:11] Hot Take: Push-Based Queues are Superior**
+### Hot Take: Push-Based Queues are Superior [66:11](https://www.youtube.com/watch?v=ElaEGr2t9XQ&t=3971s)
 Alex's burning hot take is that pull-based queuing systems are "dumb" compared to push-based systems. Pull-based systems require a consumer for every queue, creating a multiplexing nightmare as you scale granularly (e.g., a queue per customer). Push-based systems allow all queues to push to a single, scalable API endpoint. He argues push-based queues haven't been adopted because existing tools (like GCP PubSub's push mode) lack fine-grained throughput control, causing them to ramp up traffic until the server crashes and then drop to zero.
 
 ## Notable Quotes

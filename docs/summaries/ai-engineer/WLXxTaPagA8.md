@@ -31,34 +31,34 @@ Solo agent builders inevitably end up reinventing CI/CD controls—regression te
 
 ## Detailed Breakdown
 
-**[00:00] The Inevitable Reinvention of CI/CD**
+### The Inevitable Reinvention of CI/CD [00:00](https://www.youtube.com/watch?v=WLXxTaPagA8&t=0s)
 Sumaiya introduces the core thesis: solo agent builders start out thinking they're building prompts and skills, but eventually end up reconstructing CI/CD infrastructure from scratch—one failure at a time. She runs a 19-skill Claude Code agent system for content production and shares that the most valuable lesson wasn't about better prompts, but recognizing the five operational controls she was rebuilding badly.
 
-**[01:02] The Agent Content System**
+### The Agent Content System [01:02](https://www.youtube.com/watch?v=WLXxTaPagA8&t=62s)
 She presents her open-source agent content system, which runs every other Saturday. The pipeline reads from a knowledge vault, creates a research brief, builds a content plan, produces 12 content pieces, then runs verify passes, reviewer gates, deduplication, and saves output as markdown. Critically, the system has seven handoffs (scheduler→command→research→content plan→production→verifier→reviewer→output folder), and each handoff is a place where the system can lie to the builder.
 
-**[02:04] The Five Reinventions**
+### The Five Reinventions [02:04](https://www.youtube.com/watch?v=WLXxTaPagA8&t=124s)
 Sumaiya walks through the five CI/CD controls that solo builders reinvent, roughly in order: (1) regression testing—when a prompt change breaks downstream output; (2) CI monitoring—when a cron job silently fails and you need alerts; (3) contract testing—when a schema change breaks downstream skills and you add boundary validation; (4) staging environments—when an artifact looks done but shouldn't ship, so you add a checkpoint; (5) audit trails—when you can't trace which prompt, skill, or handoff produced bad output, so you start logging everything. The "worse version" in the title refers to the fact that agent systems need the same operational guarantees as traditional software but provide none by default.
 
-**[03:39] The Dangerous Failure: Polished but Wrong**
+### The Dangerous Failure: Polished but Wrong [03:39](https://www.youtube.com/watch?v=WLXxTaPagA8&t=219s)
 The most dangerous failure isn't a bad output (which is easy to spot and fix). It's a polished artifact that looks great at a glance but fails exit gates: wrong voice pattern, unverified claims, repeated angles, or missing sections—yet gets labeled "ready to publish" anyway. This is the agent equivalent of shipping because code compiled but tests never ran.
 
-**[04:41] The Happy Path Demo**
+### The Happy Path Demo [04:41](https://www.youtube.com/watch?v=WLXxTaPagA8&t=281s)
 Sumaiya demonstrates a privacy-safe distilled version of her content engine. The happy path produces a markdown artifact with caption, pinned comment, visual brief, verification log, vault assets, production notes, and a "ready" status. She notes this is why agent demos are misleading—they always show the happy path, making the system look done when it isn't.
 
-**[05:22] Failure Mode 1: Voice Drift**
+### Failure Mode 1: Voice Drift [05:22](https://www.youtube.com/watch?v=WLXxTaPagA8&t=322s)
 The first failure is voice drift—content that uses generic AI marketing language ("Unlock the power of AI adoption...") instead of the intended voice. In "knife mode" (no gates), the artifact is saved because it has all required sections and a ready status. In "guarded mode," a voice contract gate blocks it before it enters the publish-ready folder. Sumaiya recommends this as the first gate for content systems and asks builders in other domains to define what "wrong voice" looks like for them.
 
-**[06:39] Failure Mode 2: Missing Verification**
+### Failure Mode 2: Missing Verification [06:39](https://www.youtube.com/watch?v=WLXxTaPagA8&t=399s)
 The second failure is a confident-sounding claim ("Teams with a clear semantic ownership model reduce AI rollout rework by 37%") with an empty verification log. The prose is usable and the number sounds plausible, making the failure dangerous. In guarded mode, the system blocks claim-bearing content that lacks a verification trail. Sumaiya emphasizes that shipping unverified assertions in a professional wrapper is a credibility problem, not just an agent problem.
 
-**[07:39] Failure Mode 3: Duplication Hook**
+### Failure Mode 3: Duplication Hook [07:39](https://www.youtube.com/watch?v=WLXxTaPagA8&t=459s)
 The third failure is a near-duplicate hook—an opening angle that's already been used in vault history. Each individual piece looks technically fine, but the system is recycling itself. The audience notices before the builder does. Guarded mode blocks it at the data contract and writes an audit record. Sumaiya notes that audit records are boring but essential when a scheduled run fails at 2:00 a.m. and you need to know which gate failed and why.
 
-**[08:50] The Pattern: Boring Gates**
+### The Pattern: Boring Gates [08:50](https://www.youtube.com/watch?v=WLXxTaPagA8&t=530s)
 Sumaiya distills the solution: you don't need a platform, framework, or ecosystem catch-up. You need a few boring gates: a pre-save output contract (does the artifact have the required shape?), a voice/domain contract (does it match the rules?), a verification contract (can claims be traced to sources?), a deduplication check (is this genuinely new?), and an audit trail (can you reconstruct what happened?). The key lesson from software applies: don't deploy just because code exists; in agent systems, don't ship just because artifacts look complete.
 
-**[09:55] What to Take Away**
+### What to Take Away [09:55](https://www.youtube.com/watch?v=WLXxTaPagA8&t=595s)
 She closes with actionable advice: map your handoffs from input to final output—every arrow between steps is a corruption point. Pick the most expensive handoff (where bad data costs the most), not the most complex. Put your first gate there. Make the gate say "no"—a gate that only logs warnings is a suggestion, not a gate. The difference between an impressive demo and an operable system is boundaries that block artifacts from moving forward. Before adding another agent, add one boundary.
 
 ## Notable Quotes

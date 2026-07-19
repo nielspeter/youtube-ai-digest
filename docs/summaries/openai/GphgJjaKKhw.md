@@ -31,28 +31,28 @@ OpenAI introduces "ChatGPT Work," a new evolution of ChatGPT across web, desktop
 
 ## Detailed Breakdown
 
-**[00:03] From Chat to Work — Connecting Your Tools**
+### From Chat to Work — Connecting Your Tools [00:03](https://www.youtube.com/watch?v=GphgJjaKKhw&t=3s)
 The video opens with the announcement of a new ChatGPT experience available on web, desktop, and mobile. The core shift is from conversational Q&A to actual task execution. By switching from "chat" to "work," users can hand off real tasks, such as asking ChatGPT to review their calendar, Slack, and Drive to prepare for the day. Plugins are introduced as connectors to both everyday apps and role-specific workflows.
 
-**[00:35] Automating Recurring Briefings**
+### Automating Recurring Briefings [00:35](https://www.youtube.com/watch?v=GphgJjaKKhw&t=35s)
 After the initial task completes, the presenter asks ChatGPT to act as a "Chief of Staff," delivering a daily morning briefing on meeting prep and World Cup scores for the German team. ChatGPT sets this up as an automation, meaning the user doesn't have to remember to ask again. The presenter notes the same chat is accessible on mobile, allowing seamless transitions from desk to phone.
 
-**[01:06] Desktop App and Local Project Context**
+### Desktop App and Local Project Context [01:06](https://www.youtube.com/watch?v=GphgJjaKKhw&t=66s)
 The focus moves to the desktop app for working with local files and projects. The left-hand panel shows all active projects and local files. The presenter emphasizes this as a major shift: users can provide context, delegate work, and return later when ChatGPT has something ready or needs input.
 
-**[01:37] Marketing Use Case — Building a Neobank Launch**
+### Marketing Use Case — Building a Neobank Launch [01:37](https://www.youtube.com/watch?v=GphgJjaKKhw&t=97s)
 A fictional neobank called "Hudson" is introduced. ChatGPT generates launch site visuals using only a logo and brand guidelines, maintaining strong brand consistency. The presenter then has ChatGPT create mood boards for an ad campaign, explore multiple directions quickly, and turn a chosen "takeover" concept into a presentation deck ready for a launch review meeting.
 
-**[02:38] Data Analytics — Unifying Metrics and Spotting Anomalies**
+### Data Analytics — Unifying Metrics and Spotting Anomalies [02:38](https://www.youtube.com/watch?v=GphgJjaKKhw&t=158s)
 After the fictional app launch, the presenter uses ChatGPT to analyze how the launch is going by pulling together metrics, user feedback, team conversations, and launch plans from different sources. ChatGPT automatically applies relevant data skills and workflows, producing activation rates, signups, and an onboarding funnel. It flags an anomaly in Mexico, hypothesizing a phone onboarding issue. The presenter notes data could live in spreadsheets, a custom data store, or a data warehouse.
 
-**[03:08] Building and Sharing a Live Dashboard**
+### Building and Sharing a Live Dashboard [03:08](https://www.youtube.com/watch?v=GphgJjaKKhw&t=188s)
 Instead of just building a deck, the presenter asks ChatGPT to create a real dashboard. The dashboard is visualized in an in-app browser, where the presenter can click to annotate and add a one-line summary. Using the "Sites" feature, the dashboard is published as a website, shared to a team channel, and set to update metrics daily.
 
-**[04:10] Engineering Use Case — Codex and Appshots**
+### Engineering Use Case — Codex and Appshots [04:10](https://www.youtube.com/watch?v=GphgJjaKKhw&t=250s)
 Switching to engineering, the presenter uses Codex—now integrated inside ChatGPT—to investigate the Mexico issue. Using a Simulator, they bring the app on screen and take an "appshot" (Cmd-Cmd), a smarter screenshot that gives ChatGPT context to act. ChatGPT triggers background "Computer Use," controlling the app directly to compare phone onboarding in Mexico and Germany. The presenter confirms customers are getting stuck entering valid Mexican phone numbers. ChatGPT can also use a Chrome extension to interact with browsers when no plugin is available.
 
-**[05:11] Fixing the Bug and Shipping a PR**
+### Fixing the Bug and Shipping a PR [05:11](https://www.youtube.com/watch?v=GphgJjaKKhw&t=311s)
 ChatGPT is asked to prepare a fix for the phone number validation bug. The presenter reviews the code diff within Codex and publishes a pull request so a new app version can ship. The video concludes with a summary of the new ChatGPT as a single place to delegate real work across apps, local projects, and even the computer and browser. The presenter ends by asking ChatGPT to play walkout music.
 
 ## Notable Quotes

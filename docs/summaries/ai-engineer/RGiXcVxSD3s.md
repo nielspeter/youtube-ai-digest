@@ -31,43 +31,43 @@ Atul Ramachandran argues that chat interfaces and citations alone are insufficie
 
 ## Detailed Breakdown
 
-### [00:01] The Problem with Chat and Citations
+### The Problem with Chat and Citations [00:01](https://www.youtube.com/watch?v=RGiXcVxSD3s&t=1s)
 Atul opens by stating that many vertical AI products—targeting healthcare, legal, taxes, and similar industries—promise to save customers time and money with agents that "do the work while you sleep." The dominant interfaces are chat for input and citations for output. While chat offers flexibility and citations ground answers in truth (reducing hallucinations), both have fundamental limitations: chat is synchronous, forcing users to wait, and citations place the verification burden back on the user, adding work rather than removing it.
 
-### [01:00] Who Is Atul and Why This Matters
+### Who Is Atul and Why This Matters [01:00](https://www.youtube.com/watch?v=RGiXcVxSD3s&t=60s)
 Atul introduces himself as CTO and co-founder of Filed, a company building products for US tax professionals. Filed has raised over $17 million and has seen rapid growth—last month's revenue exceeded the entire previous year's. He emphasizes that lessons learned building AI agents for taxes are transferable to any vertical AI product.
 
-### [02:00] Why Chat and Citations Fall Short
+### Why Chat and Citations Fall Short [02:00](https://www.youtube.com/watch?v=RGiXcVxSD3s&t=120s)
 Chat is great for fast, flexible interaction but is inherently synchronous—users must stay engaged while the agent processes. Citations, while improving accuracy and reducing hallucinations, require users to manually review outputs one by one. In high-stakes verticals like healthcare, legal, and taxes, this extra verification work contradicts the core promise of saving time. Customers complain that the "agents doing work while I sleep" pitch isn't being fulfilled.
 
-### [03:07] Three Levels of Product Abstraction
+### Three Levels of Product Abstraction [03:07](https://www.youtube.com/watch?v=RGiXcVxSD3s&t=187s)
 Atul frames product evolution using a bank analogy. In the first level (physical branches), the bottleneck was the number of employees. In the second level (digital transformation—mobile/online banking), users performed tasks themselves, shifting the bottleneck to the number of users. Now, in the third level (agentic delegation), users come to delegate long-running work to AI agents, effectively removing the user-count bottleneck since agents can work autonomously after delegation.
 
-### [05:09] The Conveyor Belt Metaphor
+### The Conveyor Belt Metaphor [05:09](https://www.youtube.com/watch?v=RGiXcVxSD3s&t=309s)
 The agentic product should be imagined as a conveyor belt: AI agents are the workers, the product is the belt and surrounding infrastructure, and the user is the supervisor who delegates tasks and monitors progress. This framing helps developers identify what tools and features the product needs so agents can work independently while the supervisor remains confident.
 
-### [06:12] Four Key Components of an Agentic Product
+### Four Key Components of an Agentic Product [06:12](https://www.youtube.com/watch?v=RGiXcVxSD3s&t=372s)
 Atul outlines four essential pieces: (1) finding delegatable tasks, (2) teaching agents through skills, (3) monitoring work, and (4) maintaining control. Each addresses a different requirement for making the conveyor belt function and for keeping user trust intact.
 
-### [06:43] Delegation: Finding Long-Running Tasks
+### Delegation: Finding Long-Running Tasks [06:43](https://www.youtube.com/watch?v=RGiXcVxSD3s&t=403s)
 Developers should identify tasks that take users more than a couple of hours and are repeatable across use cases. At Filed, they found three such tasks in the tax workflow. These become long-running background agents—the core value driver, since they remove hours of manual work from users' plates.
 
-### [08:14] Skills: Capturing the Last 20%
+### Skills: Capturing the Last 20% [08:14](https://www.youtube.com/watch?v=RGiXcVxSD3s&t=494s)
 A background agent might get 80–90% of a task done, but every professional has personal preferences and conventions. Skills capture this remaining 20%. At Filed, skills are captured automatically from product usage rather than requiring a separate manual interface. Atul references a product (likely Cursor) that similarly learns skills automatically as users work.
 
-### [09:50] Monitoring: Building Visibility and Trust
+### Monitoring: Building Visibility and Trust [09:50](https://www.youtube.com/watch?v=RGiXcVxSD3s&t=590s)
 Because agents run long tasks, users need to track multiple in-progress items. Atul recommends task lists for status tracking and detailed traces showing how each value the agent produced was derived. This transparency is where trust is built and where most user complaints can be preemptively addressed.
 
-### [10:53] Control: Pausing, Fixing, Resuming
+### Control: Pausing, Fixing, Resuming [10:53](https://www.youtube.com/watch?v=RGiXcVxSD3s&t=653s)
 Users must feel confident they can take back control when something goes wrong. Atul uses the analogy of taking the wheel rather than abandoning the car. At Filed, the agent pauses when it needs to make an assumption, and users respond via a chat-like interface (similar to Slack) to resolve conflicts. The goal is to pause the belt, fix the issue, and resume—not start over.
 
-### [11:56] Bonus Points: Don't Abandon Earlier Layers and Present Plans
+### Bonus Points: Don't Abandon Earlier Layers and Present Plans [11:56](https://www.youtube.com/watch?v=RGiXcVxSD3s&t=716s)
 Atul notes that physical bank branches didn't vanish with mobile banking, and similarly, level-two (direct user interaction) features must remain available so users trust they can always take control back. Additionally, for irreversible or dangerous actions, the product should present a plan for user approval before execution—like Filed does before overwriting existing data in tax software.
 
-### [13:29] Changing How You Measure Success
+### Changing How You Measure Success [13:29](https://www.youtube.com/watch?v=RGiXcVxSD3s&t=809s)
 Traditional metrics like weekly active users (WAU) don't fit delegation-based products. Atul proposes weekly active sessions (WAS)—counting tasks completed by humans or agents even when the user isn't on the platform. The ideal trajectory is WAU going down while WAS goes up, indicating users trust the platform enough to delegate heavily and let agents work autonomously.
 
-### [14:32] Key Takeaways Recap
+### Key Takeaways Recap [14:32](https://www.youtube.com/watch?v=RGiXcVxSD3s&t=872s)
 Atul summarizes three core principles: design for delegation, not participation; treat the product as a conveyor belt where users are supervisors; and shift measurement from time-on-platform to weekly active sessions. Following these principles leads to a successful vertical AI product.
 
 ## Notable Quotes

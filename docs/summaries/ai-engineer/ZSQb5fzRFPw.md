@@ -31,31 +31,31 @@ Francesco Bonacci and his Cua team present "Computer-Use 2.0," a new paradigm fo
 
 ## Detailed Breakdown
 
-### [00:01] Introduction and Vision
+### Introduction and Vision [00:01](https://www.youtube.com/watch?v=ZSQb5fzRFPw&t=1s)
 Francesco Bonacci, CEO of Cua, opens the talk alongside his co-founders—CTO Dylan and Chief Infra Officer Rob. He gauges audience familiarity with computer-using agents, noting that a year ago many people didn't know what computer use meant. The team's experience traces back to Microsoft, where they worked on GUI agents.
 
-### [01:36] Computer-Use 1.0: The Old-Fashioned Loop
+### Computer-Use 1.0: The Old-Fashioned Loop [01:36](https://www.youtube.com/watch?v=ZSQb5fzRFPw&t=96s)
 Francesco describes the traditional agent loop: take a screenshot, reason and plan, then execute actions (clicking, typing, scrolling). This "Computer-Use 1.0" approach takes over the user's screen, which is the core limitation the team set out to solve.
 
-### [03:14] CU Driver: Background Computer Use
+### CU Driver: Background Computer Use [03:14](https://www.youtube.com/watch?v=ZSQb5fzRFPw&t=194s)
 Released as open source roughly two months ago, CU Driver was motivated by Codex releasing their computer-use model. Built over a weekend, it uses undocumented APIs in Apple's framework to let agents operate without taking over the screen. It spans macOS, Windows, and Linux. Agents get a window state snapshot (accessibility tree + screenshot), attempt background execution via the accessibility tree, and fall back to pixel-level background clicks if needed. Francesco notes cross-platform behavior isn't uniform, so CU Driver does "heavy lifting" to normalize the experience. Eight application harnesses are used for regression testing across releases.
 
-### [06:24] CUA Bench: Measuring Agent Intelligence
+### CUA Bench: Measuring Agent Intelligence [06:24](https://www.youtube.com/watch?v=ZSQb5fzRFPw&t=384s)
 CTO Dylan takes the stage to address trust. CUA Bench tasks consist of three parts: a setup function (initial machine state), an oracle function (golden GUI trajectory), and an evaluator (probes for success). Unlike Terminal Bench, the oracle is GUI actions. The SDK lets anyone author tasks in a single Python file that works across all five targeted desktop platforms. The dataset currently has 130+ verifiable tasks across 42 environments.
 
-### [08:29] CUA Bench Kyad: Electrical Engineering Benchmark
+### CUA Bench Kyad: Electrical Engineering Benchmark [08:29](https://www.youtube.com/watch?v=ZSQb5fzRFPw&t=509s)
 Built in collaboration with Snorkel AI, this dataset tests agents on professional electrical engineering software with evaluators that simulate circuits. Results are humbling: the best agent passed only 6/25 tasks, all involving editing existing schematics. Starting from a blank schematic, success dropped to 0%. No model exceeded 30% reward.
 
-### [09:04] CU Driver Improves Agent Performance
+### CU Driver Improves Agent Performance [09:04](https://www.youtube.com/watch?v=ZSQb5fzRFPw&t=544s)
 On the CUA Bench basic dataset at 4K resolution, switching the agent's computer tool from the built-in one to CU Driver raised the pass rate from 62% to 80% while using 34% fewer tokens. The improvement comes from CU Driver focusing on a window rather than the entire desktop.
 
-### [09:37] Trust Pipeline and World Model Measurement
+### Trust Pipeline and World Model Measurement [09:37](https://www.youtube.com/watch?v=ZSQb5fzRFPw&t=577s)
 Before tasks enter the dataset, a matrix of agents attempts reward hacking and environment-breaking. Surviving tasks get a code-review-style report. Dylan also introduces "world model" measurement: any recorded run can be forked at any point in its trajectory, letting researchers probe the model's prediction of reward, internal state, or observations and compare against the actual forked state.
 
-### [10:47] CUA Fleet: GPU Infrastructure Efficiency
+### CUA Fleet: GPU Infrastructure Efficiency [10:47](https://www.youtube.com/watch?v=ZSQb5fzRFPw&t=647s)
 Rob (Chief Infra Officer) addresses the cost of idle GPUs during RL training. When a sandbox finishes a task, GPUs wait for a new sandbox to spin up or reset—pure wasted cost, especially with large (e.g., 40GB) environments. CUA Fleet solves this with a demand-based autoscaler that maintains a warm pool of sandboxes sized to current GPU demand. The pool size adjusts dynamically over multi-day training runs. Since sandboxes are 2–4x cheaper than GPUs, the redundancy still saves money. Infrastructure absorbs startup latency, keeping GPUs at full utilization. Instant sandboxes are available for Windows, Linux, and Android, with macOS coming.
 
-### [15:18] Q&A: Android Background Computer Use
+### Q&A: Android Background Computer Use [15:18](https://www.youtube.com/watch?v=ZSQb5fzRFPw&t=918s)
 Asked about Android, Francesco explains there's more flexibility than iOS. The team works with the ARM team's harness and can containerize workloads (e.g., Ubuntu or GUI Docker containers) within Android. However, Android background computer use leans more toward tool use than full GUI control, leveraging the activity framework.
 
 ## Notable Quotes

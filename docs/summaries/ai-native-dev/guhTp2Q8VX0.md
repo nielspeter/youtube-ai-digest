@@ -33,46 +33,46 @@ Amit Kushwaha, a solutions architect at NVIDIA, explains that traditional LLM be
 
 ## Detailed Breakdown
 
-**[00:00] Introduction**
+### Introduction [00:00](https://www.youtube.com/watch?v=guhTp2Q8VX0&t=0s)
 The host introduces Amit Kushwaha, a solutions architect at NVIDIA, who will speak on benchmarking in the agent era. Kushwaha frames the talk around NVIDIA's focus on inference performance and the need for benchmarks that represent real-world workloads.
 
-**[01:02] From Chatbots to Agents: What Changed**
+### From Chatbots to Agents: What Changed [01:02](https://www.youtube.com/watch?v=guhTp2Q8VX0&t=62s)
 Kushwaha contrasts the old chatbot era—single-turn, 1k–4k context, small outputs, no tools—with the agentic era: dozens of turns, context lengths exploding to hundreds of thousands, output tokens in the thousands, and heavy tool usage. He argues that benchmarks scoring yesterday's chatbot workloads say nothing about today's real agentic workloads.
 
-**[03:07] Anatomy of an Agentic Workload**
+### Anatomy of an Agentic Workload [03:07](https://www.youtube.com/watch?v=guhTp2Q8VX0&t=187s)
 Using a coding agent example ("fix a flaky test"), Kushwaha walks through a trajectory where the LLM issues tool calls (grep, bash, file reads), feeds results back, and iterates for 20–40 turns. GPU runs the LLM (green); CPU runs tools (purple). Most tokens are input from tool outputs; LLM output tokens are small because they are just tool-call instructions.
 
-**[05:44] Optimization 1: Prefix Caching**
+### Optimization 1: Prefix Caching [05:44](https://www.youtube.com/watch?v=guhTp2Q8VX0&t=344s)
 Because later turns repeat most of the prior context, prefix caching lets the system skip recomputation of already-processed input. By turn 40, the vast majority of input tokens are cached; only newly generated tokens require GPU prefill work. Without caching, TTFT and overall performance suffer significantly.
 
-**[07:18] Optimization 2: KV-Cache-Aware Routing**
+### Optimization 2: KV-Cache-Aware Routing [07:18](https://www.youtube.com/watch?v=guhTp2Q8VX0&t=438s)
 When a model is served on multiple replicas, round-robin routing may send turn 2 to a different replica than turn 1, losing the cached KV state. KV-cache-aware routing (via session ID or cache-aware scheduling) ensures subsequent turns land on the same replica, preserving the cache. An audience question clarifies that KV refers to the key/value matrices used to store LLM conversation history.
 
-**[09:24] Optimization 3: Speculative Decoding**
+### Optimization 3: Speculative Decoding [09:24](https://www.youtube.com/watch?v=guhTp2Q8VX0&t=564s)
 On the decode (output) side, a small draft model predicts multiple tokens (e.g., four) that the large target model verifies in a single pass, producing roughly three tokens per step instead of one—a ~3x speedup. Kushwaha notes that modern models increasingly bundle draft heads (multi-token prediction, MTP) so the optimization works out of the box.
 
-**[12:00] What Current Benchmarks Miss**
+### What Current Benchmarks Miss [12:00](https://www.youtube.com/watch?v=guhTp2Q8VX0&t=720s)
 Existing benchmarks use fixed input/output shapes, no tool calls, single-turn requests, and disable caching, routing, and speculative decoding. This fails to represent agentic reality: trajectories grow dynamically, multi-turn is absent, optimizations are off, and tools are ignored—so measured performance does not reflect real workloads.
 
-**[13:35] Performance as Distributions, Not Averages**
+### Performance as Distributions, Not Averages [13:35](https://www.youtube.com/watch?v=guhTp2Q8VX0&t=815s)
 Kushwaha presents TTFT and token-speed histograms. TTFT: left (fast) is good, right (slow) is bad. Token speed: left (slow) is bad, right (fast) is good. Tail latency (P95) drives user experience; means and medians are insufficient. He stresses the need to think in percentiles and distributions.
 
-**[15:44] Percentile Choice and Speculative Decoding**
+### Percentile Choice and Speculative Decoding [15:44](https://www.youtube.com/watch?v=guhTp2Q8VX0&t=944s)
 Comparing token-speed distributions with speculative decoding on (green) vs. off (blue), the green distribution is generally faster. However, at P5, green looks worse—an artifact of the optimization shifting the distribution. Choosing the wrong percentile can unfairly penalize a beneficial optimization; Kushwaha's team found P25 more appropriate, underscoring the need to deeply analyze how optimizations affect distributions relative to SLO targets.
 
-**[18:17] Tool Calls and Concurrency**
+### Tool Calls and Concurrency [18:17](https://www.youtube.com/watch?v=guhTp2Q8VX0&t=1097s)
 Ignoring tool calls overestimates GPU utilization. In reality, GPUs idle while tools run on CPU. If roughly half the timeline is CPU tool execution, the system can support roughly twice the concurrent users a tool-free benchmark would suggest. Accurate workload representation requires modeling these CPU-side gaps.
 
-**[20:55] Steady-State vs. Transient Metrics**
+### Steady-State vs. Transient Metrics [20:55](https://www.youtube.com/watch?v=guhTp2Q8VX0&t=1255s)
 Agentic metrics evolve while caches warm up. Measuring during the transient state can falsely indicate SLO failure (e.g., TTFT exceeding 10 seconds) and trigger unnecessary GPU additions. Kushwaha advises plotting metrics over time and waiting for flatness (steady state) before evaluating pass/fail.
 
-**[22:32] Artificial Analysis Agent Benchmark**
+### Artificial Analysis Agent Benchmark [22:32](https://www.youtube.com/watch?v=guhTp2Q8VX0&t=1352s)
 Kushwaha highlights a new third-party benchmark from Artificial Analysis that enables KV caching, multi-turn trajectories, speculative decoding, and SLO-based concurrency measurement. Initially covering DeepSeek V4 and GPT-OSS 120B, it asks: for a given SLO (TTFT, token speed), how many users can a given hardware configuration sustain? Per-watt and per-dollar metrics are forthcoming.
 
-**[24:34] What's Still Missing**
+### What's Still Missing [24:34](https://www.youtube.com/watch?v=guhTp2Q8VX0&t=1474s)
 Kushwaha catalogs open challenges: multi-agent orchestration, quality-under-load (coupling accuracy with speed), long-running sessions with continuously growing cache memory, heterogeneous (non-coding) workloads, CPU-GPU coupling dynamics, and task-completion-time metrics. He concludes that benchmarks have caught up to the chatbot world but agentic benchmarking is just beginning.
 
-**[26:43] Q&A**
+### Q&A [26:43](https://www.youtube.com/watch?v=guhTp2Q8VX0&t=1603s)
 An audience member asks whether speculative decoding works with non-zero temperature. Kushwaha confirms it does: the draft model still samples from a distribution that matches the target model, so higher probability of correct prediction holds even with temperature. A second question clarifies that the histograms are drawn from hundreds of trajectories, not a single prompt, and that prefix caching constrains TTFT to only the new uncached tokens even for hard problems with long tool outputs.
 
 ## Notable Quotes

@@ -31,31 +31,31 @@ Matt Pocock introduces two new skills for his popular AI skills repo: `/handoff`
 
 ## Detailed Breakdown
 
-**[00:00] Intro and the `/handoff` Skill**
+### Intro and the `/handoff` Skill [00:00](https://www.youtube.com/watch?v=DNqsMXH6Eog&t=0s)
 Matt opens by celebrating the repo crossing 70k stars and introduces the first new skill: `/handoff`. The skill compacts the current conversation into a temporary handoff document saved to a `mktemp`-generated path. It instructs Claude to read the file before writing (a Claude Code requirement), suggests which skills the next session should use, and avoids duplicating content already captured in other artifacts by referencing them by path or URL instead. The document captures not just content but the "vibe" and intent of the session—for example, continuing a grilling session.
 
-**[01:45] Why `/handoff` Was Created and How to Use It**
+### Why `/handoff` Was Created and How to Use It [01:45](https://www.youtube.com/watch?v=DNqsMXH6Eog&t=105s)
 Matt explains he was manually doing this workflow: when a grilling session needed code work, he didn't want to burn the remaining context window on prototyping. Instead, `/handoff` lets you produce a document, open a new terminal, and pass that document to a fresh agent. He describes two main patterns: "fire and forget" (spinning off a side task like a bug fix) and "DIY sub-agent" (handing off to another agent and then handing back results to the original session). The DIY sub-agent approach gives you full control and an unrestricted context window, unlike built-in sub-agents.
 
-**[04:00] The `/prototype` Skill**
+### The `/prototype` Skill [04:00](https://www.youtube.com/watch?v=DNqsMXH6Eog&t=240s)
 The second new skill lives in the engineering section. Matt frames prototyping as essential in AI engineering for flushing out design decisions via throwaway spikes. While UI prototyping is the obvious use case—generating several radically different variations with a floating toggle button to compare them—the skill also supports logic prototyping. For stateful business logic, it can build a tiny interactive terminal app to push a state machine through hard-to-reason-about cases. The workflow is: build, give feedback, iterate, then hand off to another agent for real implementation.
 
-**[05:40] Prototyping and AFK Agents**
+### Prototyping and AFK Agents [05:40](https://www.youtube.com/watch?v=DNqsMXH6Eog&t=340s)
 Matt addresses a common question: the best way to make AFK agents good at frontend is prototyping. Because UI depends heavily on taste and style—and AI often can't see what it's building—a human needs to sit in the loop, pick preferred variations, and combine elements before the AFK agent implements the final design.
 
-**[06:42] Bug Fix: Grill with Docs XML Tags**
+### Bug Fix: Grill with Docs XML Tags [06:42](https://www.youtube.com/watch?v=DNqsMXH6Eog&t=402s)
 The "Grill with Docs" skill was being too eager to implement. Matt diagnosed the issue as prompt "loudness"—supporting information was competing with the main instruction text. He wrapped the supporting info in XML tags to signal to the LLM (especially Anthropic models) that it was lower priority. Since the fix, users have stopped reporting the premature implementation issue.
 
-**[08:16] Bug Fix: Triage Labels in `/to-prd` and `/to-issues`**
+### Bug Fix: Triage Labels in `/to-prd` and `/to-issues` [08:16](https://www.youtube.com/watch?v=DNqsMXH6Eog&t=496s)
 These skills now apply a "ready for agent triage" label with no need for additional triage, replacing the previous "needs triage" label. Matt notes that PRDs should not be marked as ready for agents to implement directly; agents should only implement actual issues. He suggests explicitly telling your agent not to implement PRDs.
 
-**[09:19] In Progress: `/writing-*` Skills**
+### In Progress: `/writing-*` Skills [09:19](https://www.youtube.com/watch?v=DNqsMXH6Eog&t=559s)
 Matt previews a tripartite writing skill set still in development. The first stage, fragments, uses AI to prompt you into capturing ideas—similar to how authors keep long journals that eventually surface in stories. The second stage, beats, helps you find a path through the fragments by offering three options for where to go next. The third stage, writing shape, is a review pass to remove AI-sounding language and ensure proper structure. Matt is actively testing these but says they need more work.
 
-**[11:23] In Progress: `/review` Code Review Skill**
+### In Progress: `/review` Code Review Skill [11:23](https://www.youtube.com/watch?v=DNqsMXH6Eog&t=683s)
 Matt has been hesitant to write a generic code review skill because it's hard, but he's landed on a two-axis approach: checking diffs against repo coding standards and against the original spec/PRD. The skill will spawn two parallel sub-agents, one per axis. The standards axis is trickier because every repo's standards differ, so he plans a separate skill to extract coding standards from a repository.
 
-**[12:24] Doc Site and Newsletter**
+### Doc Site and Newsletter [12:24](https://www.youtube.com/watch?v=DNqsMXH6Eog&t=744s)
 A new documentation site is in the works, featuring individual videos for each skill and a newsletter. The newsletter will be Matt's main channel for skill updates, with an opt-out for those only interested in skill content. He closes by thanking the community for feedback and for modifying the skills for their own uses.
 
 ## Notable Quotes

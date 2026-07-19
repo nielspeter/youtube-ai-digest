@@ -31,34 +31,34 @@ The video compares four cross-platform desktop app frameworks—Electron (baseli
 
 ## Detailed Breakdown
 
-**[00:00] Introduction and Frameworks Compared**
+### Introduction and Frameworks Compared [00:00](https://www.youtube.com/watch?v=ktkDGQyRx3Y&t=0s)
 The video sets out to compare the three best Electron alternatives for cross-platform desktop apps: Tauri (Rust), Electro Bun (from the Bun team), and Dino Desktop (from Dino), with Electron as the baseline. Four criteria are used: bundle size, startup performance, runtime performance, and developer experience.
 
-**[00:30] The Test App**
+### The Test App [00:30](https://www.youtube.com/watch?v=ktkDGQyRx3Y&t=30s)
 The presenter built the same screen recording tool four times—an app that records the screen, lets you trim the recording on a timeline, and exports to MP4. Video processing was chosen specifically to push the frameworks to their limits.
 
-**[01:02] App Demo**
+### App Demo [01:02](https://www.youtube.com/watch?v=ktkDGQyRx3Y&t=62s)
 A brief demo shows the app: launch, pick a screen, record, stop, trim dead space on a timeline, and export to MP4. Though simple, the app exercises multiple APIs, video processing, and UI rendering, making it a fair stress test.
 
-**[01:34] Bundle Size Results**
+### Bundle Size Results [01:34](https://www.youtube.com/watch?v=ktkDGQyRx3Y&t=94s)
 Electron: 323 MB. Tauri: 57 MB. Electro Bun: 418 MB. Dino: 111 MB. All bundles include FFmpeg (~45 MB). Electro Bun is largest because Chromium had to be shipped—its native web view lacked the screen capture API (`getDisplayMedia`), so Chromium was reintroduced for ~200 MB of extra bloat. Dino implemented the same JavaScript APIs without Chromium. Tauri doesn't record from the web view at all.
 
-**[02:36] Tauri's Native Recording Approach**
+### Tauri's Native Recording Approach [02:36](https://www.youtube.com/watch?v=ktkDGQyRx3Y&t=156s)
 Tauri records via macOS Screen Capture Kit—the same framework QuickTime uses—entirely from the Rust back end. You pass a display, codec, and file path; it writes the file directly. The web view is only for UI and never touches a frame. This also gives you mixed mic/system audio and a proper MP4 for free. FFmpeg was left in for format conversion but is technically optional.
 
-**[03:07] Startup Performance**
+### Startup Performance [03:07](https://www.youtube.com/watch?v=ktkDGQyRx3Y&t=187s)
 A script launched each app 10 times to get the median. Electron: 273 ms. Tauri: 311 ms. Electro Bun: 773 ms. Dino: 242 ms. Dino was fastest, beating even Tauri. The assumption that Rust + system web view would start instantly was wrong—the rendering engine still needs to boot. Electro Bun is slowest because it chains three runtimes: launcher → Bun → Chromium.
 
-**[03:37] Memory Usage After Launch**
+### Memory Usage After Launch [03:37](https://www.youtube.com/watch?v=ktkDGQyRx3Y&t=217s)
 Electron: 128 MB. Tauri: 109 MB. Electro Bun: 208 MB. Dino: 98 MB. Tauri and Dino are close; Electro Bun is roughly double the others. Tauri's runtime memory is nowhere near the "10x improvement" marketing implies—on disk it's smaller, but running memory is comparable. A caveat: Tauri's system web view processes aren't children of the app, so Activity Monitor shows ~36 MB; adding the separate processes brings it to ~109 MB.
 
-**[04:39] Screen Recording Performance**
+### Screen Recording Performance [04:39](https://www.youtube.com/watch?v=ktkDGQyRx3Y&t=279s)
 Tauri showed noticeably better recording performance, likely because it avoids recording in the web view and transferring data over a bridge. For near-60fps recording, Rust + Tauri is the recommended path.
 
-**[05:10] Developer Experience**
+### Developer Experience [05:10](https://www.youtube.com/watch?v=ktkDGQyRx3Y&t=310s)
 Electron and Tauri were easiest to build with. Dino had a bug: starting a recording and hiding the app terminated the entire process (Dino assumes the app is done when no screens are visible). The workaround was to move the view off-screen instead of hiding it. Electro Bun had issues bundling Chromium for screen capture and unexpectedly depended on 3JS and BabylonJS (3D libraries), adding to bloat.
 
-**[06:10] Final Verdict**
+### Final Verdict [06:10](https://www.youtube.com/watch?v=ktkDGQyRx3Y&t=370s)
 The presenter would personally choose Tauri. For teams that don't want Rust, Electron remains the mature, reliable option for TypeScript developers. Dino shows promise but needs more time to mature. Electro Bun was the worst overall experience for this use case.
 
 ## Notable Quotes

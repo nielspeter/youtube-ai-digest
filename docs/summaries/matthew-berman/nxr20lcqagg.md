@@ -31,40 +31,40 @@ Anthropic made a critical mistake two years ago by underinvesting in compute inf
 
 ## Detailed Breakdown
 
-**[00:00] Anthropic's Winning Position and Costly Mistake**
+### Anthropic's Winning Position and Costly Mistake [00:00](https://www.youtube.com/watch?v=nxr20lcqagg&t=0s)
 Anthropic is currently ahead of OpenAI by several measures: revenue has leapfrogged OpenAI, and they have the smartest model on the planet with Fable 5. However, a decision made two years ago—Dario Amodei's refusal to overinvest in compute infrastructure out of fear that AI demand wouldn't keep pace—has left Anthropic capacity-constrained. That miscalculation, combined with being first to build a 10-trillion-parameter model, has created a compounding problem.
 
-**[02:05] The Quota Reset War**
+### The Quota Reset War [02:05](https://www.youtube.com/watch?v=nxr20lcqagg&t=125s)
 OpenAI offers two payment paths: subscriptions ($20–$200/month with quotas) and API pay-per-token. Subscriptions are far cheaper per token, so users prefer them. OpenAI's Tibo and team frequently reset ChatGPT quotas—so often it became a meme. The host created a website tracking this, showing a 94% chance of a reset within 48 hours. Meanwhile, Anthropic's quotas are far less generous, they almost never reset, and they've threatened to remove Fable from subscriptions entirely, pushing users toward the expensive API.
 
-**[04:13] Fable vs. GPT 5.6: Value Comparison**
+### Fable vs. GPT 5.6: Value Comparison [04:13](https://www.youtube.com/watch?v=nxr20lcqagg&t=253s)
 GPT 5.6 is nearly as good as Fable on benchmarks, more efficient, and cheaper per task. If Anthropic removes Fable from subscriptions, users would pay roughly 10x more per token for Fable than for GPT 5.6 via ChatGPT. The host states he would likely cancel his Anthropic subscription if Fable were removed.
 
-**[05:16] Higsfield Sponsor Segment**
+### Higsfield Sponsor Segment [05:16](https://www.youtube.com/watch?v=nxr20lcqagg&t=316s)
 The video is sponsored by Higsfield, a Gen AI platform focused on creators. Their "Supercomputer" product, powered by Hermes, acts as an AI creative agent that plans, creates, and executes content strategy from a single prompt, including audience segmentation, creative strategy, and distribution.
 
-**[06:16] Intelligence vs. Cost Graphs**
+### Intelligence vs. Cost Graphs [06:16](https://www.youtube.com/watch?v=nxr20lcqagg&t=376s)
 On the Artificial Analysis Intelligence Index, Claude Fable 5 scores 60 (first place) and GPT 5.6 Soul Max scores 59 (second)—a one-point difference. But on cost per intelligence task, Fable 5 costs $2.75 while GPT 5.6 costs just over $1. Without Fable in the subscription, Anthropic users are relegated to Opus 4.8 Max ($180) or Claude Sonnet 5, both more expensive than GPT 5.6.
 
-**[07:52] Anthropic's Last-Minute Extensions**
+### Anthropic's Last-Minute Extensions [07:52](https://www.youtube.com/watch?v=nxr20lcqagg&t=472s)
 Anthropic keeps extending Fable access at the eleventh hour. The most recent extension pushes Fable availability through July 9th, with weekly rate limits 50% higher. Despite this, the host burns through his Anthropic quota in about 2.5 tasks, while his ChatGPT quota requires real effort to exhaust. OpenAI simultaneously removed the 5-hour rolling usage window for Plus, Business, and Pro plans, and banked resets last 30 days.
 
-**[09:25] Anthropic Confirms Capacity Constraints**
+### Anthropic Confirms Capacity Constraints [09:25](https://www.youtube.com/watch?v=nxr20lcqagg&t=565s)
 Tar from Anthropic confirmed the issue: Fable will come off subscriptions, but they "aim to restore Fable as a standard part of our subscription as soon as capacity allows." This validates the host's long-standing claim that Anthropic is capacity-constrained, not making a strategic pricing choice.
 
-**[10:28] Sam Altman's "Salty" Jab and Developer Perception**
+### Sam Altman's "Salty" Jab and Developer Perception [10:28](https://www.youtube.com/watch?v=nxr20lcqagg&t=628s)
 Sam Altman posted: "Come for the best model. Stay because we don't treat you with contempt." The host expresses feeling that Anthropic doesn't care about users, while OpenAI is transparent and generous. He also criticizes Anthropic's fear-based marketing—Dario's talk of "white-collar bloodbaths"—which he believes harms the industry.
 
-**[12:01] Veteran vs. Rookie: GPT 5.6 and Fable Compared**
+### Veteran vs. Rookie: GPT 5.6 and Fable Compared [12:01](https://www.youtube.com/watch?v=nxr20lcqagg&t=721s)
 GPT 5.6 is likened to a veteran athlete—the last and best model from the GPT-5 training run, efficient and reliable. Fable is a rookie: technically the smartest model but at the very beginning of its post-training optimization. OpenAI likely has GPT-6 baked and in post-training, but if it's as large as Fable, they may face similar supply issues—mitigated by their earlier overinvestment in GPUs.
 
-**[14:37] Practical Recommendation: Pick OpenAI**
+### Practical Recommendation: Pick OpenAI [14:37](https://www.youtube.com/watch?v=nxr20lcqagg&t=877s)
 For users with budget for only one subscription, the host recommends OpenAI. The value is multiple times larger, quotas are generous, GPT 5.6 is excellent, and there's no uncertainty about model availability. He also urges subscribers to actually use their quotas and resets rather than hoarding them, since the competitive battle benefits users right now.
 
-**[16:42] Anthropic's Wildcard: Recursive Self-Improvement**
+### Anthropic's Wildcard: Recursive Self-Improvement [16:42](https://www.youtube.com/watch?v=nxr20lcqagg&t=1002s)
 Anthropic may not be focused on serving models to customers so much as using revenue to fund research. If Fable—the best model—helps research the next best model, and that cycle continues, recursive self-improvement (RSI) could compound Anthropic's lead regardless of serving constraints. Once RSI begins, whoever is in front tends to stay in front.
 
-**[18:15] Developer Sentiment and Enterprise Outlook**
+### Developer Sentiment and Enterprise Outlook [18:15](https://www.youtube.com/watch?v=nxr20lcqagg&t=1095s)
 Developers are finicky and gravitate toward the best model plus good treatment. Altman is winning the emotional battle. While enterprises have chosen Anthropic over the past six months, those contracts are typically one-year and could flip. Developers are early adopters and early switchers—if they move to OpenAI, enterprises may follow.
 
 ## Notable Quotes

@@ -31,31 +31,31 @@ Matthew Berman shares advanced tips for getting the most out of Codex after over
 
 ## Detailed Breakdown
 
-**[00:00] Intro & Channel Plug**
+### Intro & Channel Plug [00:00](https://www.youtube.com/watch?v=etduwo9Lu3M&t=0s)
 Matthew introduces the video as a collection of everything he's learned about Codex after over a thousand hours of use, promising value for both beginners and advanced users. He requests likes and subscriptions.
 
-**[00:32] Choosing the Right GPT-5.6 Model**
+### Choosing the Right GPT-5.6 Model [00:32](https://www.youtube.com/watch?v=etduwo9Lu3M&t=32s)
 With GPT-5.6, users can choose between three model sizes—Soul (largest), Terra (middle), and Luna (smallest)—plus five thinking-effort levels and fast vs. regular modes. A graph shows that Terra underperforms relative to its cost: Luna Max delivers better performance than Terra High for less money. Matthew's rule of thumb: use Soul at high effort for hard problems, Luna at high or extra-high effort for everything else, and skip Terra. He also recommends avoiding "fast" mode since it costs 2.5x more for only 1.5x speedup.
 
-**[02:34] Thread Delegation & agents.md Rules**
+### Thread Delegation & agents.md Rules [02:34](https://www.youtube.com/watch?v=etduwo9Lu3M&t=154s)
 Codex threads can see and interact with each other, enabling powerful delegation patterns. You can configure `agents.md` rules to automatically spin up new threads with specific models and thinking efforts—for example, launching a deploy task in GPT-5.6 Luna Max whenever the operator says "deploy." A master thread can babysit multiple parallel threads, prompting them to continue if they stall. Matthew also recommends reviewing `agents.md` after every new model release to remove stale rules, since these files are frequently loaded into every agent's context window.
 
-**[05:42] Plugins & Zapier Integration**
+### Plugins & Zapier Integration [05:42](https://www.youtube.com/watch?v=etduwo9Lu3M&t=342s)
 Plugins extend Codex's functionality significantly. Matthew highlights the Zapier MCP plugin, which connects Codex to over 9,000 applications including Gmail, Trello, Asana, and Google Docs. He praises Zapier's decade-plus experience building automations and notes a link is provided in the description (sponsored segment).
 
-**[06:43] The Codex Browser**
+### The Codex Browser [06:43](https://www.youtube.com/watch?v=etduwo9Lu3M&t=403s)
 The built-in Codex browser has become remarkably capable with GPT-5.6, and Matthew predicts it may become his daily driver browser by year's end. Users can import cookies and passwords directly. He demonstrates using it to create an archive folder and move files into it, and notes he has used it for complex tasks like changing DNS records and auto-scaling Supabase instances.
 
-**[08:47] Skills**
+### Skills [08:47](https://www.youtube.com/watch?v=etduwo9Lu3M&t=527s)
 Skills remain underrated. Matthew recommends Matt Pocock's coding skills in particular. Installing is as simple as copying a URL, telling Codex to "install this skill," and pasting the link; Codex handles the rest.
 
-**[09:20] Loops (Goals)**
+### Loops (Goals) [09:20](https://www.youtube.com/watch?v=etduwo9Lu3M&t=560s)
 Loops—called "goals" in Codex—allow agents to work autonomously for hours or even days toward an overarching objective. Matthew shares a loop library featuring contributions from himself, Jason at OpenAI, and Peter Steinberger. He also created a "Loopy" skill to help draft loops based on a codebase. His example loop runs a custom benchmark, examines failures, attempts fixes, and iterates until the score reaches 90%—sometimes running for up to 12 hours straight without further input.
 
-**[11:23] Mobile Remote Control**
+### Mobile Remote Control [11:23](https://www.youtube.com/watch?v=etduwo9Lu3M&t=683s)
 You can control your desktop Codex instance from a mobile phone anywhere in the world. In Settings under Connections, clicking "control this Mac" generates a QR code to scan from the Codex X mobile app. The connection remains local but allows full remote operation of the desktop, useful for coding on the go.
 
-**[12:55] Safety & Security Hooks**
+### Safety & Security Hooks [12:55](https://www.youtube.com/watch?v=etduwo9Lu3M&t=775s)
 After Matt Schumer reported that GPT-5.6 Soul accidentally deleted nearly all his Mac's files, Matthew covers how to prevent catastrophic damage. Following guidance from Am Will, he recommends setting up pre-tool-use hooks that block commands targeting the root file system, home directory, or user directories. A GitHub gist with the hook configuration is provided. He also advises most users to set approvals to "approve for me" rather than full unrestricted access, so a model flags potentially severe commands for human approval before executing them.
 
 ## Notable Quotes

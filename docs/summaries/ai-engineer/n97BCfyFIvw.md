@@ -31,34 +31,34 @@ As AI agents take over more code generation and execution, the engineer's role s
 
 ## Detailed Breakdown
 
-**[00:01] The Engineer of the Future**
+### The Engineer of the Future [00:01](https://www.youtube.com/watch?v=n97BCfyFIvw&t=1s)
 Addy Osmani opens by emphasizing the human side of engineering in an age of increasing automation. He argues that the future engineer will be defined by their ability to choose what is worth doing, owning the evidence, understanding, and verdict around work done by agents. Quality produces evidence, and a verdict assigns responsibility, making "answerability" the core of the profession.
 
-**[02:02] Blurring Craft Boundaries**
+### Blurring Craft Boundaries [02:02](https://www.youtube.com/watch?v=n97BCfyFIvw&t=122s)
 Referencing Boris Cherney's taxonomy, Osmani notes that traditional roles are blurring and re-forming around modes of work like prototype, build, sweep, grow, and maintain. While agents can help with all of these, the scarce skill is knowing which mode a product needs, what quality bar applies, and who owns the result.
 
-**[03:04] From Models to Software Factories**
+### From Models to Software Factories [03:04](https://www.youtube.com/watch?v=n97BCfyFIvw&t=184s)
 The talk traces the evolution from treating the AI model as the whole story to harness engineering (model + context + tools) and then to loop engineering (systems that prompt, check, and remember). This culminates in the "software factory," where agents run inner loops and produce evidence, but humans remain the highest-leverage checkpoint for production decisions.
 
-**[04:04] AI Code, Clean Code, and the Verification Bottleneck**
+### AI Code, Clean Code, and the Verification Bottleneck [04:04](https://www.youtube.com/watch?v=n97BCfyFIvw&t=244s)
 AI-assisted code is becoming the norm, making answerability an engineering requirement rather than a philosophical concept. Citing Sonar research, Osmani points out that clean code helps both humans and agents (using fewer tokens, causing fewer revisits). However, a critical problem has emerged: engineers are skeptical of AI code (96% distrust it), but only about half always verify it. This creates "distrust without bandwidth," making safety dependent on making verification cheaper and harder to skip.
 
-**[06:07] Alpha, Decay, and Taste**
+### Alpha, Decay, and Taste [06:07](https://www.youtube.com/watch?v=n97BCfyFIvw&t=367s)
 Osmani introduces two concepts: "alpha" (the gap between what you can do and what models can do) and "decay" (the clock on that gap). He discusses how capabilities like speed and recall have already decayed as models and harnesses have improved. While "taste"—defined via Mitchell Hashimoto as making high-quality qualitative judgments where no objective metric exists—is important, it is not an eternal moat. It, too, will decay, though more slowly. The best practitioners turn taste into critique, examples, and better judgment for the system to learn from.
 
-**[09:12] What is an Engineer?**
+### What is an Engineer? [09:12](https://www.youtube.com/watch?v=n97BCfyFIvw&t=552s)
 With more people than ever able to make computers do things, the definition of "engineer" must become stricter. An engineer is not just someone who codes; they reason about systems, think about constraints, defend trade-offs, manage risk, and are the point of contact when things break. The key question shifts from "What can the agent do?" to "What can only a human be answerable for?"
 
-**[10:13] Avoiding Cognitive Debt and Surrender**
+### Avoiding Cognitive Debt and Surrender [10:13](https://www.youtube.com/watch?v=n97BCfyFIvw&t=613s)
 Osmani warns against three pitfalls. First, **cognitive debt**: the erosion of understanding as teams defer to AI, leading to a gap between existing code and what the team can actually explain. Second, **cognitive surrender**: blindly accepting AI responses, which leads to "borrowed confidence" (citing a Wharton study where 73% of people adopted a wrong AI answer with high certainty). Third, the **orchestration tax**: running more agents in parallel doesn't increase human cognitive bandwidth; it just creates more decisions to route and verify.
 
-**[12:51] Accountability and the Signature**
+### Accountability and the Signature [12:51](https://www.youtube.com/watch?v=n97BCfyFIvw&t=771s)
 Accountability is not what remains after agents get good; it is what allows the system to scale. Osmani draws a line between execution and responsibility: agents can follow runbooks, but they cannot inherit the consequences of failure. The "half-life of an edge" (a skill) might be one model release, but the "half-life of a signature" (your credibility and expertise) is much longer. Skills earn leverage, but accountability turns that leverage into trust.
 
-**[14:23] The Agency Ladder and the Outer Loop**
+### The Agency Ladder and the Outer Loop [14:23](https://www.youtube.com/watch?v=n97BCfyFIvw&t=863s)
 High agency is not doing everything yourself, but rather taking ownership with judgment attached. Osmani describes an "agency ladder" ranging from flagging problems to executing, diagnosing, and ultimately exercising discernment—deciding which paths deserve attention. In an operating model, agents run the inner loop (investigate, implement, test), but the outer loop (deciding, verifying, approving, owning) remains engineering. The boundary is not "human looks at AI output"; it is evidence and responsibility.
 
-**[16:30] Explain It or Don't Ship It**
+### Explain It or Don't Ship It [16:30](https://www.youtube.com/watch?v=n97BCfyFIvw&t=990s)
 Osmani offers a clear operational rule: "Explain it or don't ship it." Someone must understand the work well enough to defend it, similar to how `OWNERS` files work in large codebases. Automation moves the floor up, shifting engineering work toward loop design, evidence design, and stewardship. Lowering the cost of building software has historically increased demand, and agents will do the same, moving the bottleneck from "can we build this?" to "should this exist and can we answer for it?"
 
 ## Notable Quotes

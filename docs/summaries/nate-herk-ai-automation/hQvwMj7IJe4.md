@@ -31,55 +31,55 @@ The video demonstrates how to build an "LLM wiki" — a personal second brain of
 
 ## Detailed Breakdown
 
-**[00:00] — Intro: A Visual LLM Wiki of YouTube Videos**
+### Intro: A Visual LLM Wiki of YouTube Videos [00:00](https://www.youtube.com/watch?v=hQvwMj7IJe4&t=0s)
 Nate opens by showing his YouTube video transcripts ingested into an LLM wiki inside Obsidian. Nodes represent videos and concepts, connected by relational links. He didn't manually connect anything — he told Claude Code to grab his videos and ingest them, and the wiki continuously grows.
 
-**[00:31] — Navigating the Wiki**
+### Navigating the Wiki [00:31](https://www.youtube.com/watch?v=hQvwMj7IJe4&t=31s)
 He demonstrates clicking through the wiki: opening a video page ("Nano Banana two websites"), scrolling through summaries and key takeaways, then following links to GitHub, then Vercel, then back to Claude Code via backlinks. The mind map grows organically as more videos are added.
 
-**[01:01] — Fable's Strength: Emotionally-Aware, User-Friendly Output**
+### Fable's Strength: Emotionally-Aware, User-Friendly Output [01:01](https://www.youtube.com/watch?v=hQvwMj7IJe4&t=61s)
 The real power isn't just ingestion — it's what Fable does afterward. In one prompt, Nate asked Fable to turn the messy transcript web into a simple, non-overwhelming HTML resource for beginners. Fable produced an interactive, clickable mind map of agentic workflows, routines, deterministic vs. agentic automation, N8N, and Claude Code. He contrasts this with a near-full-day effort alongside Opus 4 that felt overwhelming and confusing despite using the same backend data.
 
-**[02:34] — Comparing the Two Versions**
+### Comparing the Two Versions [02:34](https://www.youtube.com/watch?v=hQvwMj7IJe4&t=154s)
 The Opus 4 version had the same data, same backlinks, same layer framework (orchestrator, models, inputs), but felt more complex. Nate prefers Fable's simpler output. Clicking a concept shows source videos on the right, a description, and connected concepts.
 
-**[03:04] — Multiple Wikis in the AI OS**
+### Multiple Wikis in the AI OS [03:04](https://www.youtube.com/watch?v=hQvwMj7IJe4&t=184s)
 Nate explains he runs several LLM wikis: one for YouTube transcripts, one "Herc Brain" for meeting recordings (internal and external). This lets him track how concepts evolve and informs scripting community posts, LinkedIn posts, and emails because the system knows his business context.
 
-**[03:36] — Fable Generates a Visual Business Journey**
+### Fable Generates a Visual Business Journey [03:36](https://www.youtube.com/watch?v=hQvwMj7IJe4&t=216s)
 He asked Fable to "tell a story about the past 6 months" of 2026. In one shot, Fable pulled his photo, the AIS logo, subscriber stats, highest revenue month (blurred), and visualized his pivot from end-to-end content to Claude Code content — showing how average views and revenue grew. It even pulled a different "thinking" photo of him and mapped the entire business funnel, proving it understands how people enter and move through his ecosystem.
 
-**[05:09] — Karpathy's LLM Wiki Inspiration**
+### Karpathy's LLM Wiki Inspiration [05:09](https://www.youtube.com/watch?v=hQvwMj7IJe4&t=309s)
 Andrej Karpathy tweeted about using LLMs to build personal knowledge bases: index sources, then use Obsidian as the front-end. Nate walks through installing Obsidian from obsidian.md, creating a new vault (he calls his "AI test"), and placing it on the desktop (though he normally nests vaults inside his Herc 2 project).
 
-**[06:11] — Opening the Vault in VS Code + Claude Code**
+### Opening the Vault in VS Code + Claude Code [06:11](https://www.youtube.com/watch?v=hQvwMj7IJe4&t=371s)
 He opens the new vault in VS Code, shows the default `.obsidian` folder and `welcome.md`, then launches Claude Code in the terminal. He notes Fable's July 7th limit and references a tweet from Thor indicating Fable will return to standard subscriptions eventually.
 
-**[07:13] — Pasting Karpathy's Gist into Claude Code**
+### Pasting Karpathy's Gist into Claude Code [07:13](https://www.youtube.com/watch?v=hQvwMj7IJe4&t=433s)
 Nate copies the entire Karpathy LLM wiki gist, pastes it into Claude Code, adds a screenshot, and instructs: "You are now my LLM wiki agent. Implement this exact idea file as my complete second brain. Guide me step by step. Create the Claude.md schema with my full rules. Set up the index, the log, define folder conventions, and show me the first ingest example." He notes Fable is likely overkill for setup — Opus would suffice — but Fable shines after data is ingested.
 
-**[08:15] — Dynamic Folder Structures**
+### Dynamic Folder Structures [08:15](https://www.youtube.com/watch?v=hQvwMj7IJe4&t=495s)
 He shows how the wiki auto-organizes based on content. His YouTube transcript wiki has subfolders: comparisons, concepts, sources, techniques, tools. His Herc Brain (meeting transcripts) stays flat — all recordings in one folder — because sometimes flat is better for AI searchability. The core structure is: `raw` (where you drop inputs), `wiki` (AI-generated pages), `index` (table of contents), and `log` (ingest history).
 
-**[09:18] — Index and Log Walkthrough**
+### Index and Log Walkthrough [09:18](https://www.youtube.com/watch?v=hQvwMj7IJe4&t=558s)
 The index lists all tools, techniques, and backlinks. The log records batch ingests and individual additions. This lets the AI incrementally build and maintain the wiki by crawling the index, logs, and backlinks.
 
-**[10:18] — Ingesting Two Sources: PDF + URL**
+### Ingesting Two Sources: PDF + URL [10:18](https://www.youtube.com/watch?v=hQvwMj7IJe4&t=618s)
 Nate downloads the Claude Fable 5 and Mythos 5 system card as a PDF and drags it into the `raw` folder. He also grabs a URL for an OpenAI article previewing GPT-5.6 Soul. He tells Claude to read the URL and ingest both sources. The system should add index entries, log entries, and new wiki pages.
 
-**[11:23] — Results: 20 Cross-Linked Pages in ~10 Minutes**
+### Results: 20 Cross-Linked Pages in ~10 Minutes [11:23](https://www.youtube.com/watch?v=hQvwMj7IJe4&t=683s)
 The ingest took 10–12 minutes and produced 20 fully cross-linked wiki pages. The key value: the two sources referenced each other under "Frontier Model Cybersecurity." OpenAI benchmarked GPT-5.6 Soul against Mythos Preview (not Mythos 5), and the two labs used different harnesses — a nuance easy to miss when reading sources separately.
 
-**[12:24] — Exploring the Generated Wiki**
+### Exploring the Generated Wiki [12:24](https://www.youtube.com/watch?v=hQvwMj7IJe4&t=744s)
 He opens the wiki full-screen. OpenAI links to Claude Mythos 5 (referenced in the article). The entities folder contains models: Fable, Mythos, Mythos Preview, Opus 4.8, GPT-5.6, plus Anthropic and OpenAI as organizations. The log shows the initial setup plus both ingested sources.
 
-**[12:56] — The Bigger Lesson: Routing Rules = Claude Code's Core Function**
+### The Bigger Lesson: Routing Rules = Claude Code's Core Function [12:56](https://www.youtube.com/watch?v=hQvwMj7IJe4&t=776s)
 Claude Code is essentially a router. The `claude.md` file acts as a router that looks through past projects and business context to find the right data efficiently, minimizing wasted tokens. Once the structure is set, you keep adding data sources and checking if the organization still makes sense.
 
-**[13:26] — Iterate and Customize**
+### Iterate and Customize [13:26](https://www.youtube.com/watch?v=hQvwMj7IJe4&t=806s)
 If a batch ingest produces folders or files you don't like, read through them, click around, and update the ingestion rules. Every wiki Nate has built has a different structure tailored to its data type. Make it make sense to both the AI and to you.
 
-**[13:57] — Portability: It's Just Markdown**
+### Portability: It's Just Markdown [13:57](https://www.youtube.com/watch?v=hQvwMj7IJe4&t=837s)
 Everything in the wiki is plain markdown with routing — no vendor lock-in. You can connect Hermes, Codex, or any agent to it. Nate points viewers to his "levels of building a second brain" video for deeper learning.
 
 ## Notable Quotes

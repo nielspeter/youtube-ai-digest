@@ -29,16 +29,16 @@ The video demonstrates how the ChatGPT desktop app can prioritize workloads and 
 - The approach turns repeatable tasks into agents that work continuously (24/7) for individuals and teams.
 
 ## Detailed Breakdown
-**[00:02] Setting Up a Chief of Staff Chat for Daily Prioritization**
+### Setting Up a Chief of Staff Chat for Daily Prioritization [00:02](https://www.youtube.com/watch?v=roUoucb7jbI&t=2s)
 The presenter introduces the ChatGPT desktop app as a tool for prioritizing workload and scheduling recurring tasks. They demonstrate a chat called "Chief of Staff in Work," which is connected to Slack, email, and calendar. This setup allows ChatGPT to pull together urgent tasks, deadlines, meetings, and other relevant context. The user can ask ChatGPT what to do next and receive guidance based on that aggregated information.
 
-**[00:33] Creating a Scheduled Task for a Daily Brief**
+### Creating a Scheduled Task for a Daily Brief [00:33](https://www.youtube.com/watch?v=roUoucb7jbI&t=33s)
 The presenter explains how they created a scheduled task that sends them a daily brief every weekday. This brief surfaces what needs attention, allowing the user to review priorities while having morning coffee. This demonstrates how scheduled tasks can automate routine information-gathering and planning workflows.
 
-**[01:03] Triaging Weekly Feedback from Multiple Sources**
+### Triaging Weekly Feedback from Multiple Sources [01:03](https://www.youtube.com/watch?v=roUoucb7jbI&t=63s)
 The presenter describes their role around technical onboarding at OpenAI, which generates feedback from internal team members across Slack, Notion, and Drive. They set up another scheduled task to triage this feedback weekly. The task runs in the background in a separate chat called "Feedback Triage," generating a Google Doc that summarizes the week's feedback and posting it to the team's Slack channel.
 
-**[01:35] Converting Scheduled Tasks into Workspace Agents**
+### Converting Scheduled Tasks into Workspace Agents [01:35](https://www.youtube.com/watch?v=roUoucb7jbI&t=95s)
 The presenter notes that while the scheduled task currently runs on their laptop, they can convert it into a Workspace Agent to enable team-wide use. This moves the local workflow into the cloud as a separate agent. The conversion process is straightforward—just ask ChatGPT. Once in the cloud, team members can use the agent directly from ChatGPT or within Slack. The video closes by emphasizing that the new ChatGPT turns repeatable tasks into agents that work 24/7 for users and their teams.
 
 ## Notable Quotes

@@ -31,25 +31,25 @@ Epic Games built Lore, a free, open-source version control system written in Rus
 
 ## Detailed Breakdown
 
-**[00:00] The Problem with Git for Game Development**
+### The Problem with Git for Game Development [00:00](https://www.youtube.com/watch?v=i66Bsnv12ZA&t=0s)
 Git was built for code—mostly text files and small changes. Games are the opposite, relying on massive textures, audio files, videos, and 3D models that can be hundreds of megabytes or gigabytes in size. When these large binary files change, Git repositories grow bloated, clones slow down, and history becomes massive. Git LFS helps but feels like a workaround layered on a system never designed for this data, introducing quotas and bandwidth limits. Perforce is the industry standard for games, but it is expensive, complicated, and often requires a dedicated person to maintain it.
 
-**[01:37] Demo: Running Lore Locally**
+### Demo: Running Lore Locally [01:37](https://www.youtube.com/watch?v=i66Bsnv12ZA&t=97s)
 The presenter runs Lore using a single install command with a demo flag. Within seconds, a Lore server is running locally without needing a cloud account, authentication tokens, or a setup wizard. Hitting a health endpoint confirms the server is alive. The presenter creates a repository folder and generates a 100 MB dummy binary file using the `dd` command.
 
-**[02:38] Chunking and Deduplication**
+### Chunking and Deduplication [02:38](https://www.youtube.com/watch?v=i66Bsnv12ZA&t=158s)
 When the large file is committed, Lore does not treat it as one huge object. Instead, it breaks the file into smaller chunks, hashes them, compresses them with Zstandard, and stores them in a content-addressed Merkle tree. If a file is modified but most of it stays the same, Lore reuses existing chunks and only stores the parts that changed. After committing, a local Lore directory with config and metadata is created on disk.
 
-**[03:09] Local Workflow and Branching**
+### Local Workflow and Branching [03:09](https://www.youtube.com/watch?v=i66Bsnv12ZA&t=189s)
 Lore's workflow feels similar to Git. The presenter creates a branch with `lore branch create`, switches to it, makes a text file, stages it, and commits it. Switching back to the main branch is instant. Crucially, staging, committing, branching, switching, and diffing all happen locally without needing to communicate with a server, allowing for fast, offline work.
 
-**[04:13] Architecture: Centralized with Local Speed**
+### Architecture: Centralized with Local Speed [04:13](https://www.youtube.com/watch?v=i66Bsnv12ZA&t=253s)
 In the demo, data is temporary and disappears when the server stops. In a real setup, you run the server with a config file pointing to persistent storage or object storage. Lore is a centralized system with one server of record, but because operations happen locally, it sits between Perforce and Git, offering central access management with quick, server-independent daily work. It also supports on-demand file hydration, so developers only download the assets they need rather than the entire repository.
 
-**[05:16] Licensing and Realistic Expectations**
+### Licensing and Realistic Expectations [05:16](https://www.youtube.com/watch?v=i66Bsnv12ZA&t=316s)
 Lore is MIT licensed, open source, and has SDKs for multiple languages, making it easy to script around. However, it is not a production replacement for Perforce yet. It is pre-1.0, and APIs may change. There is no Git interoperability, meaning you cannot import existing Git history. It is self-hosted only, with no managed cloud service, and the desktop GUI application is not part of the open-source release. Performance claims come solely from Epic, with no independent benchmarks yet.
 
-**[06:49] Should You Use It?**
+### Should You Use It? [06:49](https://www.youtube.com/watch?v=i66Bsnv12ZA&t=409s)
 Lore is fun to play with and worth trying for new, asset-heavy projects or non-critical tests to evaluate its performance and workflow. The bigger takeaway is that version control is no longer a solved problem once projects ship with huge amounts of binary data. Lore represents a direction for solving this, and whether it wins or not, it is a cool development for the industry.
 
 ## Notable Quotes

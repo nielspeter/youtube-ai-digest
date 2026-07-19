@@ -30,25 +30,25 @@ Amy from the LangChain Product team demonstrates how to trace Codex CLI sessions
 - Similar tracing setups for Claude Code and Cursor are forthcoming.
 
 ## Detailed Breakdown
-**[00:00] Introduction and Prerequisites**
+### Introduction and Prerequisites [00:00](https://www.youtube.com/watch?v=jv91Ruwrl0U&t=0s)
 Amy introduces herself as part of the LangChain Product team and outlines the goal: wiring up Codex so that every session, turn, tool call, model metadata, and token usage lands in LangSmith as a real, inspectable trace. She notes the two prerequisites: Codex CLI version 0.142 or later and a LangSmith API key.
 
-**[00:35] Adding the Tracing Plugin via the Marketplace**
+### Adding the Tracing Plugin via the Marketplace [00:35](https://www.youtube.com/watch?v=jv91Ruwrl0U&t=35s)
 Amy runs a marketplace command from the Codex CLI that pulls in the tracing plugin. She explains that the plugin is not yet active—it still needs to be enabled. She opens her Codex config file at `~/.codex/config.toml` and adds two blocks (`features` and `plugins`) to turn the plugin on.
 
-**[01:15] Enabling Tracing with Environment Variables**
+### Enabling Tracing with Environment Variables [01:15](https://www.youtube.com/watch?v=jv91Ruwrl0U&t=75s)
 Even with the plugin enabled, tracing itself is gated by one more flag. Amy demonstrates setting this up via environment variables in her shell config. She adds three exports: `TRACE_TO_LANGSMITH`, `CODEX_API_KEY` (initially a placeholder), and `LANGSMITH_CODEX_PROJECT`. She then replaces the placeholder with her real API key.
 
-**[01:50] Running a Real Codex Task**
+### Running a Real Codex Task [01:50](https://www.youtube.com/watch?v=jv91Ruwrl0U&t=110s)
 To exercise the tracing, Amy gives Codex a real task: look up the current top five trending GitHub repositories and build a small Python CLI tool that displays them nicely formatted in the terminal. The prompt also instructs Codex to set up the project structure, write the code, add a `requirements.txt` if needed, run the code, and fix anything that fails. This task is designed to trigger tool calls and web searches.
 
-**[02:58] Inspecting the Trace in LangSmith**
+### Inspecting the Trace in LangSmith [02:58](https://www.youtube.com/watch?v=jv91Ruwrl0U&t=178s)
 After the run completes, Amy navigates to LangSmith, where traces land in a default project called "Codex" unless a custom name was set. She walks through the trace: an LLM run shows the full accumulated conversation as input, the assistant's response as output, and metadata including model provider, model name, stop reason, and token usage. Below that, every tool call—function calls, shell calls, web searches, file reads—appears with its actual input and output. Sub-agent invocations show up as nested children under the parent turn, preserving the call hierarchy.
 
-**[03:30] Edge Cases and Troubleshooting**
+### Edge Cases and Troubleshooting [03:30](https://www.youtube.com/watch?v=jv91Ruwrl0U&t=210s)
 Amy notes that even cancelled runs still get uploaded once the session completes. For cases where nothing shows up, she recommends checking that `plugin_hooks` is set to `true` and the tracing plugin is enabled in `config.toml`, confirming `TRACE_TO_LANGSMITH` is `true`, and verifying the API key is set and valid. If traces land in the wrong project, check the `LANGSMITH_CODEX_PROJECT` variable.
 
-**[04:03] Wrap-Up and What's Next**
+### Wrap-Up and What's Next [04:03](https://www.youtube.com/watch?v=jv91Ruwrl0U&t=243s)
 Amy summarizes the setup: two config blocks and one flag turn every Codex session into a real trace with turns, tools, tokens, and sub-agents. She points to full docs linked below and mentions she is filming the same setup for other coding agents like Claude Code and Cursor, encouraging viewers to stay tuned.
 
 ## Notable Quotes

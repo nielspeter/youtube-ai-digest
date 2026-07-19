@@ -31,49 +31,49 @@ Katie Roberts (referred to interchangeably as Casey in the introduction) of Near
 
 ## Detailed Breakdown
 
-**[00:00] Introduction and Context**
+### Introduction and Context [00:00](https://www.youtube.com/watch?v=5SKh-FmjX7U&t=0s)
 Casey Roberts, a technical director at NearForm with prior experience at the BBC, introduces the topic of applying AI-native engineering to brownfield codebases. NearForm is a consulting services organization and sponsor of the event.
 
-**[01:02] AI in Greenfield vs. Brownfield**
+### AI in Greenfield vs. Brownfield [01:02](https://www.youtube.com/watch?v=5SKh-FmjX7U&t=62s)
 AI-native engineering shows undeniable benefits in greenfield codebases: unified specs, faster prototyping, earlier UX feedback, and non-functional considerations (accessibility, security, performance) brought in from day one. NearForm reports 80% faster kickoff, 50% faster time to MVP, and 4x development velocity. However, brownfield codebases—accounting for 60–70% of enterprise software—face accumulated technical debt, tribal knowledge loss, dependency rot, fear-driven development, brittle tests, and tightly coupled systems.
 
-**[05:00] The City Metaphor**
+### The City Metaphor [05:00](https://www.youtube.com/watch?v=5SKh-FmjX7U&t=300s)
 Roberts pushes back against the "ball of mud" label for brownfield systems, comparing them instead to a city like London: successful, evolved over time, with clear well-trodden paths alongside poorly maintained areas and dead ends. The goal is to evolve the architecture incrementally.
 
-**[06:11] Methodology 1: Pseudo Greenfield Development**
+### Methodology 1: Pseudo Greenfield Development [06:11](https://www.youtube.com/watch?v=5SKh-FmjX7U&t=371s)
 When legacy code is too coupled or fragile, teams branch out and treat new features as greenfield. This yields fast initial iteration but creates problems at reintegration: developers become "tourists" who never learn the underlying codebase, shared concerns get duplicated, branches diverge, and without discipline the temporary isolation becomes a permanent fork. Integration testing only happens at the end, often surfacing a huge number of bugs.
 
-**[08:14] Methodology 2: The Strangler Fig Pattern**
+### Methodology 2: The Strangler Fig Pattern [08:14](https://www.youtube.com/watch?v=5SKh-FmjX7U&t=494s)
 Defined by Martin Fowler, this pattern incrementally replaces legacy functionality by intercepting at the edge and routing traffic to new implementations. Used by Uber, Netflix, and the BBC for microservices migrations. Advantages include no downtime, the ability to leave bad patterns behind, natural feature flag boundaries, and visible progress. Disadvantages include running two systems simultaneously, the cost of maintaining dual infrastructure, and the risk of half-finished migrations leaving double maintenance headaches.
 
-**[11:11] Methodology 3: Branch by Abstraction**
+### Methodology 3: Branch by Abstraction [11:11](https://www.youtube.com/watch?v=5SKh-FmjX7U&t=671s)
 Working from inside the codebase, teams insert an interface and branch to a new implementation behind a feature flag. This keeps the trunk releasable, makes the seam between old and new explicit, allows behavior comparison in production, and surfaces hidden dependencies. Downsides include the cognitive overhead of toggle/routing logic, the need to eventually delete the abstraction layer, and the tedium of finding extraction points in large codebases—which is where AI can help.
 
-**[12:40] The Danger of Unleashing AI on Brownfield Code**
+### The Danger of Unleashing AI on Brownfield Code [12:40](https://www.youtube.com/watch?v=5SKh-FmjX7U&t=760s)
 AI will confidently hallucinate about code. Autonomous agents deployed without strict guardrails cause havoc through over-optimization, generating "dark code" that passes tests but undermines implicit architectural constraints. Roberts admits she tried refactoring everything with Cursor immediately and saw the mess it made. As a previous speaker noted, "safety, safety, safety" is essential.
 
-**[14:32] Starting with Developer Knowledge**
+### Starting with Developer Knowledge [14:32](https://www.youtube.com/watch?v=5SKh-FmjX7U&t=872s)
 Rather than starting with code, Roberts starts by listening to developers. Drawing on Adam Thornhill's *Your Code as a Crime Scene*, she treats developers as eyewitnesses. A remote Miro exercise mapped value versus complexity, identifying areas for technical improvement. AI was then focused on those specific problem areas.
 
-**[16:00] AI-Assisted Codebase Investigation**
+### AI-Assisted Codebase Investigation [16:00](https://www.youtube.com/watch?v=5SKh-FmjX7U&t=960s)
 AI was used to find dead code paths, duplication, pattern inconsistencies, and complexity hotspots, supplemented by OWASP-style scanning. Dependency graphs and behavioral maps were generated showing what the code actually does (not what documentation claims). The process was significantly faster but still required human review. A notable side effect: AI-generated objective data encouraged more team members to contribute opinions, breaking the "bikeshedding" bottleneck and reducing over-reliance on the principal engineer's judgment.
 
-**[17:50] Core Principles for Brownfield AI Work**
+### Core Principles for Brownfield AI Work [17:50](https://www.youtube.com/watch?v=5SKh-FmjX7U&t=1070s)
 Don't trust AI blindly; work in small scopes; version control everything; create a findings backlog and prioritize it; produce human-readable docs reviewed by the whole team; and put guardrails in place (tests, logs, static analysis tools like SonarQube). Focus on one area at a time, and maintain skills/rules that prevent repeating bad patterns found in the codebase.
 
-**[19:41] Case Study: Pseudo Greenfield Success**
+### Case Study: Pseudo Greenfield Success [19:41](https://www.youtube.com/watch?v=5SKh-FmjX7U&t=1181s)
 A NearForm project shipped six months' worth of scope in eight weeks—four times faster than a competitor's estimate. AI reverse-engineered product requirements from old documentation (months reduced to a week), performed detailed codebase mapping (two weeks reduced to hours), and automated story mapping and Jira ticket creation. Roberts notes pseudo greenfield isn't right for every project but was ideal here.
 
-**[21:13] Case Study: Branch by Abstraction with AG Grid**
+### Case Study: Branch by Abstraction with AG Grid [21:13](https://www.youtube.com/watch?v=5SKh-FmjX7U&t=1273s)
 A 500,000-line tightly coupled distributed monolith inherited from another supplier needed an AG Grid version upgrade. The first attempt took roughly a month because grids were implemented individually without shared abstraction. The team extended the planning phase to do proper "archaeology," created a plan skill capturing technical and product considerations, broke work down via a Jira component skill, and handed off to a multi-agent developer skill.
 
-**[23:48] The Multi-Agent Developer Skill**
+### The Multi-Agent Developer Skill [23:48](https://www.youtube.com/watch?v=5SKh-FmjX7U&t=1428s)
 The developer skill uses an orchestrator agent that dispatches sub-agents: a dedupe checker, build/test scaffolding builder, implementation agent, static analysis/quality gate agent, and a self-review agent. After AI pre-review, a human reviews and signs off before code enters the main pipeline. The system then updates the master plan. Initial runs were slow but a flywheel effect emerged, with velocity improvements and a reusable library of skills.
 
-**[26:00] Practical Takeaways**
+### Practical Takeaways [26:00](https://www.youtube.com/watch?v=5SKh-FmjX7U&t=1560s)
 Start with a plan, not a migration. Let the spec be the contract. Think in slices, not rewrites. Complexity is the opportunity. Once working this way, results appear very quickly.
 
-**[27:28] Q&A: Dividing Skills Across Feature Teams**
+### Q&A: Dividing Skills Across Feature Teams [27:28](https://www.youtube.com/watch?v=5SKh-FmjX7U&t=1648s)
 Roberts explains that work is sliced at the epic level and distributed to smaller feature teams (one or two people with agents rather than four or five). She cautions against skills diverging across teams and emphasizes the need for collaboration and cross-team review to avoid building silos.
 
 ## Notable Quotes

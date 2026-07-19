@@ -31,37 +31,37 @@ The video distills Anthropic's official best-practices documentation and communi
 
 ## Detailed Breakdown
 
-### [00:00] Introduction and Context
+### Introduction and Context [00:00](https://www.youtube.com/watch?v=vcU85OrwuV0&t=0s)
 The video opens with excitement about Claude Fable 5 returning, which the presenter calls the strongest model he has ever used. He mentions building a "second brain" and an AI operating system with it. He explains that he studied what people said on X, listened to Anthropic engineers, and read through Anthropic's official best-practices documentation to distill six simple, effective prompting habits.
 
-### [00:31] Cost and Availability Warning
+### Cost and Availability Warning [00:31](https://www.youtube.com/watch?v=vcU85OrwuV0&t=31s)
 Fable 5 is not cheap—it costs double Opus at $10 per million input tokens and $50 per million output tokens. The promotional period, during which you can use up to 50% of your weekly limits at no extra cost, ends July 7th. The presenter notes this leaves little time, especially with the 4th of July weekend. The model works across Claude desktop app, VS Code, and Claude Code.
 
-### [01:33] Sponsor Segment: HyperAgent
+### Sponsor Segment: HyperAgent [01:33](https://www.youtube.com/watch?v=vcU85OrwuV0&t=93s)
 The presenter briefly promotes HyperAgent, built by the Airtable team. He describes using it to build a "council of agents," each with its own persona, browser, and tools. These agents provide brutally honest feedback on ideas—one acts as a skeptical investor, one researches competitors, one stress-tests numbers—rather than acting as a yes-man.
 
-### [02:35] Habit 1: Give It the Why
+### Habit 1: Give It the Why [02:35](https://www.youtube.com/watch?v=vcU85OrwuV0&t=155s)
 The first habit, applicable to any model, is to provide context and intent behind your task. Instead of a bare request like "Write me an email to a client about the delay," you should explain the bigger task, who it's for, and what they need. This lets the model connect your task to the right information. If you have a second brain or AI OS set up, this also prompts the model to search specific context files.
 
-### [03:36] Habit 2: Negative Prompting
+### Habit 2: Negative Prompting [03:36](https://www.youtube.com/watch?v=vcU85OrwuV0&t=216s)
 The second habit is to explicitly tell the model what not to do. Because AI models predict the next most likely word, they can get creative and do things you didn't ask for. The presenter references Anthropic's documentation, which is full of "do not" instructions. He compares it to instructing an intern—you tell them specifically what to avoid. He notes that negative prompting has become more effective with newer models.
 
-### [05:10] Habit 3: Let It Act Once It Has Enough
+### Habit 3: Let It Act Once It Has Enough [05:10](https://www.youtube.com/watch?v=vcU85OrwuV0&t=310s)
 This habit is about stopping the model from over-planning. The presenter says he no longer uses plan mode in Claude Code, preferring his own workflow. Instead of telling the model to research everything and make a full plan first, you tell it: "When you have enough information to act, then act." He also discusses effort levels (low, medium, high, extra high), recommending high as the default, extra high for capability-sensitive work, and medium/low for routine tasks. He notes that Fable 5 on low can be similar to Opus 4.8 on extra high/max but cheaper.
 
-### [07:12] Habit 4: Make It Prove It
+### Habit 4: Make It Prove It [07:12](https://www.youtube.com/watch?v=vcU85OrwuV0&t=432s)
 The presenter calls this possibly the most important habit. Models sometimes claim to be done without verifying their work. You should build verification loops into your prompts, skills, and agents. Instead of asking "Is this done?", you say: "Before you tell me something is done, point to the result that proves it. Only report work you can show evidence for. If something isn't verified, say so plainly." This builds trust so you don't feel you have to check everything yourself.
 
-### [08:14] Habit 5: Stop Asking It to Show Its Reasoning
+### Habit 5: Stop Asking It to Show Its Reasoning [08:14](https://www.youtube.com/watch?v=vcU85OrwuV0&t=494s)
 This is a Fable 5-specific tip. A standing "explain your reasoning" line, especially in the system prompt, can trigger a refusal and cause the model to hand your task off to Opus 4.8. This is because Fable 5 has safety guardrails related to jailbreaking concerns (it is a lesser model of "Mythos 5"). Asking it to reveal its reasoning can look like an attempt to expose private model internals, which triggers the safety routing.
 
-### [08:45] Habit 6: Say Less, Not More
+### Habit 6: Say Less, Not More [08:45](https://www.youtube.com/watch?v=vcU85OrwuV0&t=525s)
 This sounds counterintuitive but works because Fable 5 is so intelligent. If you have a good environment with context, tools, and skills, a short instruction can steer the model just as well as spelling out every rule. This is not a contradiction with Habit 1 (giving the "why")—adding context doesn't mean bloating prompts. Instead of listing multiple rules, you can say something like: "Lead with the outcome, keep it simple, and pause only when the work truly needs me."
 
-### [09:17] Silent Routing to Opus 4.8
+### Silent Routing to Opus 4.8 [09:17](https://www.youtube.com/watch?v=vcU85OrwuV0&t=557s)
 The presenter explains that Fable 5 runs a quick safety check before answering. If your request falls into certain buckets—hacking, dangerous biology, or asking the model to reveal its private reasoning—it will silently route to Opus 4.8. You may not notice this unless you're building on the API, where the response indicates which model was used. Fortunately, routing to Opus 4.8 means you're not paying Fable's higher rates. You can avoid this by not asking it to reveal reasoning and not making malicious requests.
 
-### [10:20] Closing and Recommendation
+### Closing and Recommendation [10:20](https://www.youtube.com/watch?v=vcU85OrwuV0&t=620s)
 The presenter encourages viewers to read through Anthropic's official documentation for more golden nuggets. He also points viewers to another video where he explains agent loops and verification techniques in more detail, suggesting that combining those techniques with Fable 5 will be powerful.
 
 ## Notable Quotes

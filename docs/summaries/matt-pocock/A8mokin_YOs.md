@@ -31,34 +31,34 @@ Matt Pocock releases version 1.1 of his AI skills repository, introducing major 
 
 ## Detailed Breakdown
 
-**[00:00] Intro and Merging v1.1**
+### Intro and Merging v1.1 [00:00](https://www.youtube.com/watch?v=A8mokin_YOs&t=0s)
 Matt returns after a hiatus to announce version 1.1 of his skills repo. He notes it contains an enormous amount of new work, including a new grilling approach, renames of existing skills, and multiple new skills. He merges the PR live.
 
-**[00:31] Skill Renames: /to-spec and /to-tickets**
+### Skill Renames: /to-spec and /to-tickets [00:31](https://www.youtube.com/watch?v=A8mokin_YOs&t=31s)
 Two skills have been renamed: `/to-prd` → `/to-spec` and `/to-issues` → `/to-tickets`. Matt explains that the output of the old `/to-prd` was never really a Product Requirements Document—it was a specification, which is a broader term covering technical, non-technical, or blended specs. Similarly, `/to-issues` felt biased toward GitHub and Linear; "tickets" better describes the journey from spec to implementation. He notes users will likely need to delete old skills and re-add them via `npx skills add matt-poc-skills`, then manually clean their skills folder.
 
-**[02:35] Grilling Skill Bug Fixes**
+### Grilling Skill Bug Fixes [02:35](https://www.youtube.com/watch?v=A8mokin_YOs&t=155s)
 Several bugs in `grill-me` and `grill-with-docs` are addressed. The shared grilling reference skill now explicitly explains *why* asking multiple questions at once is bewildering. A confirmation gate was added so the agent won't enact a plan until the user confirms shared understanding. To fix the agent "grilling itself" (especially on Fable), Matt introduced a distinction between "facts" (things found by exploring the codebase) and "decisions" (things the user must decide), reducing weird behavior significantly.
 
-**[04:09] The Main Flow and New /implement Skill**
+### The Main Flow and New /implement Skill [04:09](https://www.youtube.com/watch?v=A8mokin_YOs&t=249s)
 Matt outlines the primary software development lifecycle the skills now support: (1) an agent grills you instead of using plan mode, building a glossary and architectural decision records; (2) the grilling output goes into a spec via `/to-spec`; (3) the spec is broken into tickets via `/to-tickets`; (4) each ticket is implemented in a separate session using the new `/implement` skill. The `/implement` skill is deliberately simple—implement the work, use TDD where possible, run type checks and tests regularly, then call code review and commit. Matt almost didn't make it, but users kept asking for the flow.
 
-**[06:12] Code Review Skill Updates**
+### Code Review Skill Updates [06:12](https://www.youtube.com/watch?v=A8mokin_YOs&t=372s)
 The code review skill (graduated from in-progress in v1) now runs two parallel sub-agents: a "standards axis" (checking against the repo's documented coding standards, ideally in a separate `coding-standards.md`) and a "spec axis" (checking faithful implementation of the originating issue or spec). Inspired by re-reading Martin Fowler's *Refactoring*, Matt added Fowler's named code smells (mysterious name, duplicated code, feature envy, data clumps, primitive obsession, etc.). Because these smells are deep in the agent's priors, simply invoking them leads the agent to identify and fix issues effectively—Matt found this "outrageously useful" over a couple of weeks of testing.
 
-**[07:45] New /wayfinder Skill**
+### New /wayfinder Skill [07:45](https://www.youtube.com/watch?v=A8mokin_YOs&t=465s)
 The headline new skill, `/wayfinder`, is designed for situations where a loose idea is too big for one agent session and "wrapped in fog." It charts a shared map on the repo's issue tracker (e.g., GitHub issues), with sub-issues that have blocking relationships. Each sub-issue is scoped to a single agent session and labeled by type: research (AFK agent investigation), grilling (user decision session), prototype (cheap concrete artifact), or task (config, provisioning, data shaping). Matt shows a real example from the Sandcastle repo exploring pulling in the AI SDK. Once all tickets are closed, the completed map can be turned into a spec via `/to-spec`. Matt advocates defaulting to `/wayfinder` over `/grill-with-docs` for large tasks, especially anything touching front-end code.
 
-**[11:22] New /research Skill**
+### New /research Skill [11:22](https://www.youtube.com/watch?v=A8mokin_YOs&t=682s)
 A small, handy skill that spins up a background agent to investigate a question against primary sources, write findings to a simple markdown file, and save it wherever the repo already keeps such notes, matching existing conventions.
 
-**[11:53] New /prototype Skill**
+### New /prototype Skill [11:53](https://www.youtube.com/watch?v=A8mokin_YOs&t=713s)
 Now modeled so `/wayfinder` can invoke it directly. It offers a choice between a logic prototype or a UI prototype, reacting quite differently depending on the choice. Matt recommends it for raising discussion fidelity before reaching a spec.
 
-**[12:24] TDD Skill Simplified**
+### TDD Skill Simplified [12:24](https://www.youtube.com/watch?v=A8mokin_YOs&t=744s)
 The TDD skill was previously step-heavy and awkward. It's now reference material only—no prescribed steps beyond the order: red before green, one slice at a time. Refactoring has been split out of the red-green-refactor loop and moved to the code review stage to avoid overloading implementation.
 
-**[13:25] Wrap-up and AI Coding Crash Course**
+### Wrap-up and AI Coding Crash Course [13:25](https://www.youtube.com/watch?v=A8mokin_YOs&t=805s)
 Matt recommends clearing out all skills and running `npx skills update` to grab everything fresh. He highlights the renames and `/wayfinder` as the release's standout features, noting he uses `/wayfinder` for everything—even planning his next course. He announces an upcoming self-paced "AI Coding Crash Course" (targeting August), aimed at both senior engineers and newcomers, available at a lower price than his cohorts. He closes by thanking viewers and noting the repo has reached ~160K stars and 7 million downloads on skills.sh.
 
 ## Notable Quotes

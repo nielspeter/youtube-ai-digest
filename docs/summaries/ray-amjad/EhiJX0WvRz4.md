@@ -31,28 +31,28 @@ Anthropic is developing a new "ultra review" feature for Claude Code that deploy
 
 ## Detailed Breakdown
 
-**[00:00] — Introduction and Accessing Ultra Review**
+### Introduction and Accessing Ultra Review [00:00](https://www.youtube.com/watch?v=EhiJX0WvRz4&t=0s)
 The host introduces the upcoming ultra review feature for Claude Code, which he accessed early through reverse engineering. Unlike the existing `/review` command, `/ultra review` runs on the cloud and takes 10-20 minutes. He tests it on PR #16, a complex voice calling feature with roughly 11,000 lines of code added.
 
-**[01:03] — The Four Stages of Ultra Review**
+### The Four Stages of Ultra Review [01:03](https://www.youtube.com/watch?v=EhiJX0WvRz4&t=63s)
 Running the command spins up a web session with four stages: setup, find, verify, and dedupe. The finding stage deploys five independent sub-agents on the "hard version" of Claude Code. These sub-agents start at different positions in the codebase and follow different paths, because the order in which context is loaded can reveal or hide bugs. The host references his Claude Code masterclass, noting these sub-agents likely have distinct personas (e.g., billing, security).
 
-**[02:06] — "Bug Hunter" and Fleet Size**
+### "Bug Hunter" and Fleet Size [02:06](https://www.youtube.com/watch?v=EhiJX0WvRz4&t=126s)
 By inspecting the Claude Code binary, the host discovered the feature is internally called "bug hunter," with a default fleet size of 5 and a maximum of 20 (possibly reserved for enterprise). The fleet size is not currently configurable. The finding stage surfaced 64 candidate bugs, each with a brief description.
 
-**[03:08] — The Verify and Dedupe Stages**
+### The Verify and Dedupe Stages [03:08](https://www.youtube.com/watch?v=EhiJX0WvRz4&t=188s)
 The verify stage uses independent sub-agents to confirm or refute each candidate bug, addressing the common problem of AI review tools producing false positives. At the time of recording, one bug was confirmed and nine were refuted. The final dedupe stage consolidates duplicate findings from different sub-agents into a single unique issue.
 
-**[04:10] — Why Verification Matters**
+### Why Verification Matters [04:10](https://www.youtube.com/watch?v=EhiJX0WvRz4&t=250s)
 The host highlights the verification step as the most valuable innovation. Traditional review tools often flag false positives or miss real issues. By verifying bugs before presenting them, ultra review prevents unnecessary changes. Even if users can't access the feature flag, the host encourages applying this verification-and-synthesis pattern to any multi-agent review workflow, especially for large PRs.
 
-**[05:12] — Comparing Local Review vs. Ultra Review**
+### Comparing Local Review vs. Ultra Review [05:12](https://www.youtube.com/watch?v=EhiJX0WvRz4&t=312s)
 The standard `/review` runs locally in 3-4 minutes, spins up sub-agents to find bugs, and presents a combined list without verification. Ultra review ran for about 17 minutes and was still underway. The host speculates Anthropic may be A/B testing different sub-agent configurations, prompts, and possibly unreleased models (such as "Mythus") in the cloud.
 
-**[06:15] — Custom "Fleet Review" with Claude Code and Codex**
+### Custom "Fleet Review" with Claude Code and Codex [06:15](https://www.youtube.com/watch?v=EhiJX0WvRz4&t=375s)
 Inspired by ultra review, the host built a custom fleet review that spins up three Claude Code sub-agents and three Codex sub-agents (via Codex CLI headless mode), then passes findings through both a Claude verifier and a Codex verifier. Cross-verification is valuable because each model sometimes catches or refutes bugs the other misses.
 
-**[07:17] — Final Comparison and Recommendations**
+### Final Comparison and Recommendations [07:17](https://www.youtube.com/watch?v=EhiJX0WvRz4&t=437s)
 ChatGPT Codex compared the two review outputs. The standard `/review` acts like a quick audit, flagging deviations from the norm. Ultra review behaves like an attacker, finding race conditions and lifecycle bugs by holding many files in context. Given only three free ultra reviews are available, the host recommends using `/review` for quick checks, Codex for a second pass, and `/ultra review` for large or critical features once it is publicly released.
 
 ## Notable Quotes

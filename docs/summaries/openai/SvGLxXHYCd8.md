@@ -31,13 +31,13 @@ Deutsche Telekom is integrating OpenAI's models into its core customer service o
 
 ## Detailed Breakdown
 
-**[00:00] The Scale of the Customer Service Opportunity**
+### The Scale of the Customer Service Opportunity [00:00](https://www.youtube.com/watch?v=SvGLxXHYCd8&t=0s)
 The speaker frames Deutsche Telekom's challenge in terms of scale: 40 million opportunities each year across Europe to either delight or disappoint customers. This establishes the stakes and the rationale for turning to AI. By bringing OpenAI's models into the core of where customers are speaking millions of times daily, the company aims to fundamentally reshape how those interactions are handled. Specific AI capabilities mentioned include live translation, in-call assistance, and post-call summarization.
 
-**[00:31] Early Results and Efficiency Gains**
+### Early Results and Efficiency Gains [00:31](https://www.youtube.com/watch?v=SvGLxXHYCd8&t=31s)
 The company reports containment rates of up to 50%, indicating that a substantial portion of customer interactions are being handled by AI without escalation to human agents. The Net Promoter Score currently stands at about 22, which the speaker candidly acknowledges is "not fantastic yet," suggesting there is room for improvement but also a measurable baseline. A major operational benefit is speed: tasks that previously took hours are now completed in minutes. This delivers savings from an OpEx perspective while also improving the customer experience. The speaker describes OpenAI as providing the "pipe with the intelligence," which Deutsche Telekom then deploys internally.
 
-**[01:03] Partnership Quality and the Path to Outperforming Human Agents**
+### Partnership Quality and the Path to Outperforming Human Agents [01:03](https://www.youtube.com/watch?v=SvGLxXHYCd8&t=63s)
 The speaker praises the collaboration with OpenAI, highlighting the quality of the team and engineering talent. OpenAI's personnel are described as functioning essentially as an extension of Deutsche Telekom's own team. A key benefit of the partnership is knowledge transfer—when OpenAI's people work closely with Deutsche Telekom's people, that learning persists beyond the end of a project and makes the organization more efficient. The video closes with a forward-looking statement: these AI platforms are on a trajectory to ultimately outperform human agents, at least within the customer service context.
 
 ## Notable Quotes

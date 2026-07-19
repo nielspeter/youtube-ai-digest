@@ -31,22 +31,22 @@ Google DeepMind researcher Adrian presents an experimental AI-enabled mouse poin
 
 ## Detailed Breakdown
 
-**[00:00] — Rethinking the pointer as a collaborative anchor**
+### Rethinking the pointer as a collaborative anchor [00:00](https://www.youtube.com/watch?v=pZNzfQLgGsA&t=0s)
 The video opens by framing pointing as fundamental to human collaboration. The narrator notes that the mouse pointer has remained a constant across websites, documents, and workflows for more than half a century. The central question is posed: what if an AI model like Gemini sat behind the pointer, listening and interpreting user intent the way another person would?
 
-**[00:32] — Meet the researcher and the project's goal**
+### Meet the researcher and the project's goal [00:32](https://www.youtube.com/watch?v=pZNzfQLgGsA&t=32s)
 Adrian, a researcher at Google DeepMind, introduces himself and his work, which involves prototyping and user experimentation to build systems that satisfy real human needs. He explains that the research project centers on an experimental AI-enabled pointer capable of understanding not only what the user points at, but also why it matters and how to act on it. The first focus was building a system that can grasp fluid user intent.
 
-**[01:02] — The keyword-based prototype and "this/that" pointing**
+### The keyword-based prototype and "this/that" pointing [01:02](https://www.youtube.com/watch?v=pZNzfQLgGsA&t=62s)
 The initial prototype worked by letting users say keywords like "this," "that," "here," or "there" while hovering over an element. For example, saying "Could you get these two ingredients and also this one and add them to my shopping list here?" triggers the pointer to resolve each reference. Typing or saying "this" while hovering on a note inserts that note's actual text into the AI prompt, grounding the instruction in the pointed-at data.
 
-**[01:33] — Digging through data layers and cross-app actions**
+### Digging through data layers and cross-app actions [01:33](https://www.youtube.com/watch?v=pZNzfQLgGsA&t=93s)
 Adrian explains that the pointer can dig through all layers of data behind the interface — voice, text, and image understanding all come into play. He demonstrates by asking to change a draft time to 8:00 p.m., and the system updates it. Another example involves asking for directions from "this place to that place," and Gemini generates directions between the two hovered locations. The pointer effectively communicates with multiple windows, assembling the prompt on the fly, and Gemini writes code to satisfy the intent as the pointer moves across apps.
 
-**[02:03] — Head tracking, image generation, and multimodal magic**
+### Head tracking, image generation, and multimodal magic [02:03](https://www.youtube.com/watch?v=pZNzfQLgGsA&t=123s)
 Adrian shows a head-tracking interaction and asks Gemini to generate an image based on a hovered menu while using the style from a separate reference image. Gemini combines the menu's content and the bird image's style into a newly generated image. Adrian highlights how mixing voice, pointing, and visual understanding simultaneously feels magical.
 
-**[02:33] — Vision for a new AI-native operating system**
+### Vision for a new AI-native operating system [02:33](https://www.youtube.com/watch?v=pZNzfQLgGsA&t=153s)
 The video closes with Adrian imagining a new type of operating system: the AI surfaces content the user might find useful, the user points back at it, and both share attention and a canvas — as if working with another person. This collaborative, shared-attention model is positioned as the future paradigm for human-computer interaction.
 
 ## Notable Quotes

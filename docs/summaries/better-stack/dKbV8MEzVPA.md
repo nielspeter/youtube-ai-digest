@@ -31,37 +31,37 @@ DuckDB is a free, embedded, single-file analytical database—think SQLite but b
 
 ## Detailed Breakdown
 
-**[00:00] The pitch: a free local database that grew up**
+### The pitch: a free local database that grew up [00:00](https://www.youtube.com/watch?v=dKbV8MEzVPA&t=0s)
 The video opens by challenging the default advice to spin up Snowflake or BigQuery the moment data outgrows a spreadsheet. DuckDB is presented as a tiny, free, laptop-based database that matured quietly while everyone focused on the cloud. It now has real encryption, git-style upserts, and its first long-term support release.
 
-**[00:35] DuckDB explained: SQLite for analytics**
+### DuckDB explained: SQLite for analytics [00:35](https://www.youtube.com/watch?v=dKbV8MEzVPA&t=35s)
 DuckDB is framed as "SQLite but for analytics"—same one-file, no-server, embedded model, but built for scanning and aggregating large row counts rather than transaction processing. A standout feature is direct reading of Parquet, CSV, and JSON files with no import step.
 
-**[01:06] Live demo: SQL on a remote Parquet file**
+### Live demo: SQL on a remote Parquet file [01:06](https://www.youtube.com/watch?v=dKbV8MEzVPA&t=66s)
 The presenter drops into a terminal, types `duckdb`, and immediately runs SQL against a Parquet file hosted at a remote URL. No download, no server, no setup—DuckDB streams the remote file and executes SQL in a single line, illustrating why developers love the tool.
 
-**[01:37] The version confusion: 1.4 vs 1.5**
+### The version confusion: 1.4 vs 1.5 [01:37](https://www.youtube.com/watch?v=dKbV8MEzVPA&t=97s)
 A key correction: the internet keeps blurring two releases together. The marquee features—AES-256 encryption, `MERGE INTO` for git-style upserts, and Apache Iceberg table writes—all shipped in **v1.4** in September, which was also DuckDB's first long-term support release. v1.5 arrived in March as an incremental update on top of 1.4.
 
-**[02:09] v1.5 highlights: CLI, variant type, geometry**
+### v1.5 highlights: CLI, variant type, geometry [02:09](https://www.youtube.com/watch?v=dKbV8MEzVPA&t=129s)
 v1.5 brought a nicer command-line client with colors and a pager, a new `variant` type for messy semi-structured data, and geometry baked into the core. The presenter keeps the earlier Parquet query and begins demonstrating the 1.4-plus-1.5 feature set in practice.
 
-**[02:42] The variant type in action**
+### The variant type in action [02:42](https://www.youtube.com/watch?v=dKbV8MEzVPA&t=162s)
 The new `variant` type is demonstrated by creating a table and inserting mixed types—integers, strings, arrays, and objects—into the same column with no schema and no JSON parsing. It stores typed binary data, which compresses and queries better than plain JSON.
 
-**[03:13] `MERGE INTO` and encryption**
+### `MERGE INTO` and encryption [03:13](https://www.youtube.com/watch?v=dKbV8MEzVPA&t=193s)
 `MERGE INTO` (from v1.4) is shown as a single clean SQL statement for upserts, replacing logic that used to require Spark or custom Python. Encryption is demonstrated next: the file queries normally with the key, but opening it in a new session without the key fails as expected. It's AES-256 at the page level, and DuckDB never stores or manages the key.
 
-**[03:45] Why 1.4 was the milestone**
+### Why 1.4 was the milestone [03:45](https://www.youtube.com/watch?v=dKbV8MEzVPA&t=225s)
 1.4 is called the big update because it turned DuckDB from a query engine into something trustworthy for real data on a single machine: secure files, reliable upserts, and modern lakehouse formats. 1.5 improved the experience with a better CLI and the variant type. The presenter notes some users may prefer the `spatial` extension over core geometry support.
 
-**[04:15] How DuckDB compares to existing tools**
+### How DuckDB compares to existing tools [04:15](https://www.youtube.com/watch?v=dKbV8MEzVPA&t=255s)
 SQLite is a row store for transactions; DuckDB is a column store for analysis. Versus Pandas, DuckDB offers a real SQL optimizer and multi-threaded joins, often faster on big group-bys. Versus Snowflake or BigQuery—cloud warehouses for teams and petabytes—DuckDB is one machine running in your own process, for free.
 
-**[04:46] Limitations and when not to use it**
+### Limitations and when not to use it [04:46](https://www.youtube.com/watch?v=dKbV8MEzVPA&t=286s)
 The number-one complaint is memory: point DuckDB at a billion rows and it can exhaust memory and fail, making it potentially too flaky for some production scenarios. It's also single-writer, not a transactional backend—that's still PostgreSQL's job, or SQLite for small MVPs. Encryption is bring-your-own-key with no rotation or recovery. Iceberg writing lives in a still-new extension.
 
-**[05:19] Final verdict: right tool for the right job**
+### Final verdict: right tool for the right job [05:19](https://www.youtube.com/watch?v=dKbV8MEzVPA&t=319s)
 For analytics—crunching Parquet/CSV, running ELT transforms, exploring data in notebooks, up to single-machine scale—DuckDB is one of the best free (MIT-licensed, no paywall) tools available. But if you need a transactional app backend or routinely query billions of rows without hand-tuning memory, pick a different tool. Right database for the right job.
 
 ## Notable Quotes

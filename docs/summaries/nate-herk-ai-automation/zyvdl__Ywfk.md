@@ -31,40 +31,40 @@ Nate Herk demonstrates how to use Claude Code as a natural-language orchestrator
 
 ## Detailed Breakdown
 
-### [00:00] **Intro & The Problem with Cold Outbound**
+### **Intro & The Problem with Cold Outbound** [00:00](https://www.youtube.com/watch?v=zyvdl__Ywfk&t=0s)
 Nate opens by showing the end result: in minutes, with one prompt, Claude Code found leads, enriched them, wrote personalized subject lines and bodies, and output a CSV ready for campaign import. He frames the core problem—cold outreach is hard because of three things: finding the right business, getting real contact info, and writing outreach that doesn't feel AI-generated. Clay fixes the data problem; Claude Code fixes the tool problem.
 
-### [01:00] **The Workflow at a Glance**
+### **The Workflow at a Glance** [01:00](https://www.youtube.com/watch?v=zyvdl__Ywfk&t=60s)
 The flow is: connect Clay to Claude Code → ask Claude Code in natural language to source leads matching your avatar → Clay scrapes and enriches those leads → Claude Code writes personalized outreach using your business context. Nate stresses that even with great data from Clay, you still need Claude Code to know your business—context files like business profile, case studies, FAQs, proof, offer, and website copy are prerequisites. The final CSV can be uploaded back into Clay to buy domains, warm them up, and launch campaigns.
 
-### [03:05] **Why Clay**
+### **Why Clay** [03:05](https://www.youtube.com/watch?v=zyvdl__Ywfk&t=185s)
 Nate chose Clay because it has the best B2B data—its own dataset plus negotiated access to many other providers via API keys and credits. The waterfall enrichment feature checks provider 1, then provider 2, and so on until it finds a hit, raising email-finding success from ~30% to 80–90%. He emphasizes he doesn't want to learn a new UI; he wants his agent to figure out endpoints and navigation. The Clay team is also making the platform more agent-friendly.
 
-### [04:30] **Setting Up Clay & Installing the Plugin**
+### **Setting Up Clay & Installing the Plugin** [04:30](https://www.youtube.com/watch?v=zyvdl__Ywfk&t=270s)
 Go to clay.com, start a free trial. To install the Clay plugin for Claude Code, you must use the terminal (not the VS Code extension or desktop app directly). Run `claude` in the terminal, type `/marketplace`, select "install a plugin from a marketplace," add the marketplace using a provided link, and reload plugins. Then ask Claude Code to help authenticate—it generates an OAuth link; you authorize a workspace, and you're connected.
 
-### [06:46] **Verifying the Connection & Available Actions**
+### **Verifying the Connection & Available Actions** [06:46](https://www.youtube.com/watch?v=zyvdl__Ywfk&t=406s)
 Nate asks Claude Code to check available Clay actions. The Clay MCP server is connected and authenticated. Available actions include finding emails, enriching people/companies, looking up phone numbers, reading/editing tables, and validating workflows—all of which cost Clay credits.
 
-### [07:30] **The Demo Business & Context Setup**
+### **The Demo Business & Context Setup** [07:30](https://www.youtube.com/watch?v=zyvdl__Ywfk&t=450s)
 Nate's demo business is "Tradewind Automations," an AI automation agency for home service businesses. He's loaded context files: business profile, case studies, FAQs, proof, offer, and website copy. The target avatar is small HVAC businesses, and he wants to reach decision makers.
 
-### [08:22] **The Goal Prompt**
+### **The Goal Prompt** [08:22](https://www.youtube.com/watch?v=zyvdl__Ywfk&t=502s)
 Nate uses a `/goal` prompt to set an end condition: 50 fully enriched HVAC/home-service leads with emails, pain points, recent signals, notable achievements, personalized subject lines, and body copy. The CTA in each email should ask permission to send a 90-second Loom video. He instructs Claude Code to use a dynamic workflow to verify accuracy and deliver a CSV with no blank columns.
 
-### [09:24] **Behind the Scenes: Sub-Agents & Verification**
+### **Behind the Scenes: Sub-Agents & Verification** [09:24](https://www.youtube.com/watch?v=zyvdl__Ywfk&t=564s)
 The goal took about an hour because Claude Code went deep: it launched six sub-agents across Houston, San Antonio, Atlanta, Charlotte, Tampa, and Las Vegas—each looking for 25 shops and enriching them. Afterward, it aggregated, deduplicated, checked yield, and ran multiple verification passes, including debates among agents about whether subject lines and bodies were good. A simpler request ("find me 50 leads in HVAC") took only 5 minutes.
 
-### [10:27] **Reviewing the Output**
+### **Reviewing the Output** [10:27](https://www.youtube.com/watch?v=zyvdl__Ywfk&t=627s)
 The output folder contains a CSV with 51 rows (50 leads + header). Columns include business name, decision maker, title, verified email, phone, website, city, Google rating, review count, business pain points, recent current signal, notable achievement, personalization hook, hook source, email subject, and email body. Nate reads a sample email referencing a specific bad review about call-backs, with a tailored offer and CTA. The run cost 172 Clay credits (~$12).
 
-### [13:36] **Importing the CSV into Clay & Setting Up the Campaign**
+### **Importing the CSV into Clay & Setting Up the Campaign** [13:36](https://www.youtube.com/watch?v=zyvdl__Ywfk&t=816s)
 Back in Clay, Nate imports the CSV into a new blank table. He then creates a campaign, adds the table as a lead list, and sets up the email message using variables (`/` from rows) to pull in the `email_subject` and `email_body` columns. Preview confirms each lead gets its personalized subject and body.
 
-### [15:30] **Buying & Warming Up Sender Accounts**
+### **Buying & Warming Up Sender Accounts** [15:30](https://www.youtube.com/watch?v=zyvdl__Ywfk&t=930s)
 If you don't have sender accounts, Clay lets you buy domains and email accounts (Gmail or Outlook) directly. You search for domains similar to your business name (e.g., "Tradewind" or "Tradewind Automations"), buy up to five accounts per domain, and set first/last names. Clay warms them up and caps sending at 30/day to avoid spam filters. You can also set up follow-up sequences (e.g., 3 days later, then a third follow-up). Clay's MCP server can't yet manage campaigns end-to-end, but that capability is likely coming.
 
-### [17:13] **Closing & Resources**
+### **Closing & Resources** [17:13](https://www.youtube.com/watch?v=zyvdl__Ywfk&t=1033s)
 Nate reiterates the power of connecting Claude Code to Clay and encourages viewers to build their "AI operating system" in Claude Code. He points to his free Skool community (link in description), which has a full course on building an AIOS. He also plans to compile the demo project into a markdown file so viewers can import the exact setup into their own projects.
 
 ## Notable Quotes

@@ -31,55 +31,55 @@ Steve Yegge and Dru Knox (Tessl) discuss the emergence of "software factories"�
 
 ## Detailed Breakdown
 
-**[04:15] What Is a Software Factory?**
+### What Is a Software Factory? [04:15](https://www.youtube.com/watch?v=Rgwu9nF_Xok&t=255s)
 Yegge defines the transition: using an agent directly is pair programming; writing code that makes agents do stuff is factory territory. Knox agrees—factories emerge when you try to get humans out of the loop, driven by the bottleneck that any human-in-the-process creates. Yegge notes the "AI psychosis" moment when you realize agents can work unsupervised, leading to adversarial review pods and mini-factories.
 
-**[06:27] Gastown and the Origins of Factory Thinking**
+### Gastown and the Origins of Factory Thinking [06:27](https://www.youtube.com/watch?v=Rgwu9nF_Xok&t=387s)
 Yegge recounts building Gastown (launched January 1st) after a year of trying to run agents. The key insight was rhythm: swarms generate reports, file bugs, do code review, fix issues, review again—work flows through the factory. Work becomes a first-class entity (tickets, design docs, to-dos) that you manipulate. Gastown could accidentally do the same work twice or lose work entirely, revealing the need for work tracking systems.
 
-**[08:02] Beads and Work Lifecycle Management**
+### Beads and Work Lifecycle Management [08:02](https://www.youtube.com/watch?v=Rgwu9nF_Xok&t=482s)
 Beads emerged from agents getting lost in markdown files. It tracks work in a graph with git and database access, modeling three lifecycle states: future work (public, claimable, debatable), in-progress work (exploded into sub-tasks, private), and finished work (curated, resume-like). Yegge contrasts this with heavyweight issue trackers like GitHub Issues or Linear, which aren't designed for the volume and velocity of factory work.
 
-**[10:09] Bespoke Factories and the "Brain" Component**
+### Bespoke Factories and the "Brain" Component [10:09](https://www.youtube.com/watch?v=Rgwu9nF_Xok&t=609s)
 Yegge emphasizes that factories are bespoke—there's no one-size-fits-all. However, commonalities exist. Every project needs a "brain" for persistent context (Obsidian is a popular default). Factories are about shaping how work flows through agents, including tagging work with intelligence tiers to route appropriately and save tokens. The current urgent factory shape: produce well-specified design and implementation work that current models (like Opus) can execute unsupervised.
 
-**[12:48] Tessl's Factory Implementation**
+### Tessl's Factory Implementation [12:48](https://www.youtube.com/watch?v=Rgwu9nF_Xok&t=768s)
 Knox describes Tessl's approach with two core goals: no human-written code and no interactive coding sessions. The flow: tickets filed in Linear → background orchestrator polls → agent picks up work → creates PR via GitHub CLI → humans review at PR level. A key rule: before leaving comments on a PR, engineers must first try to fix the harness (add tests, update skills, change architecture) so the agent wouldn't repeat the mistake.
 
-**[15:29] Factory Hygiene and Maintenance**
+### Factory Hygiene and Maintenance [15:29](https://www.youtube.com/watch?v=Rgwu9nF_Xok&t=929s)
 Yegge draws the analogy to a mechanic's workshop—tools must be maintained. Skills evolve, systems change, and skills are effectively living documentation that needs updates. Building maintainer roles into the factory process is essential; everyone should leave the factory slightly better than they found it. Knox adds that all agent interactions (tickets, PR comments, commits) become legible, making it easier to build maintenance sweeps.
 
-**[17:33] Sweeps and Code Review**
+### Sweeps and Code Review [17:33](https://www.youtube.com/watch?v=Rgwu9nF_Xok&t=1053s)
 Knox outlines the next factory layer: automated sweeps that scan the codebase on a cadence (daily/weekly) for architecture issues, test quality, documentation gaps, etc. Code review becomes multi-layered: general review (Claude's tool, CodeRabbit, Tessl) plus targeted checks. The philosophy: any mistake found should never recur—build a specific check for it. Knox shares an example of writing a linting rule preventing architectural inversion (the Anthropic module importing from the harness module), something he wouldn't have done pre-agents.
 
-**[20:42] Evals, Forgetting, and the Changing Profession**
+### Evals, Forgetting, and the Changing Profession [20:42](https://www.youtube.com/watch?v=Rgwu9nF_Xok&t=1242s)
 Yegge warns about accumulating rules forever—you need evals to check whether rules are still needed when new models drop. Factories must grow constantly but also forget constantly; forgetting is intrinsic to functioning memory. The job is becoming 24/7 babysitting of autonomous agents performing business processes. Knox asks if factories will ever stabilize; Yegge says the ceiling keeps rising—there's always more ambition.
 
-**[24:33] The Future Engineer's Day**
+### The Future Engineer's Day [24:33](https://www.youtube.com/watch?v=Rgwu9nF_Xok&t=1473s)
 Yegge envisions engineers managing teams of 200 agents, checking in like a manager. Roles are collapsing and generalizing. He distinguishes between companies that want efficiency (they can shrink) and ambitious companies that will realize they can finally tackle their massive backlogs. Yegge shares his personal example: a 30-year video game project with a 100-year bug backlog that's now tractable. The dopamine shifts from writing beautiful code to achieving desired outcomes faster.
 
-**[30:53] Risks: Token Maxing and Training**
+### Risks: Token Maxing and Training [30:53](https://www.youtube.com/watch?v=Rgwu9nF_Xok&t=1853s)
 Yegge identifies the industry's love affair with "token maxing" (January–April) as a lesson learned—people need to be taught to spend tokens, then taught to rein it in. The bigger risk is training: every knowledge worker needs AI literacy within 12 months. Netflix's program (5 hours, manager-blessed, real work, instructor-led, ≤10 people) reliably flips people into the 4-million-tokens-a-day category. Without training, companies face operational train wrecks.
 
-**[34:35] Q&A: Favorite Factory Techniques**
+### Q&A: Favorite Factory Techniques [34:35](https://www.youtube.com/watch?v=Rgwu9nF_Xok&t=2075s)
 Yegge's favorite: lashing together a "sled dog team of Opus"—using smarter models to manage lower-tier models. Knox's favorite: mutation testing on every PR (agent reviews the report) plus weekly whole-codebase sweeps. Mutation testing catches boundary condition gaps (e.g., agents test with 5 and 50 but never check 0) that coverage metrics miss.
 
-**[37:41] Q&A: Determinism vs. Stochastic Swarms**
+### Q&A: Determinism vs. Stochastic Swarms [37:41](https://www.youtube.com/watch?v=Rgwu9nF_Xok&t=2261s)
 Knox shares Tessl's journey from highly deterministic orchestration to leaning on agents. Deterministic code became brittle—every assumption broke for 15% of cases. They ripped out orchestration and gave agents GitHub CLI instead, keeping deterministic checks only at the end (hooks, CI, tests). Yegge distinguishes between Gastown (small deterministic pieces in specific order) and Open Claw (give agents a goal, let them swarm). He argues against fighting the bitter lesson: quality is a dial controlled by how many tokens you spend—multiple passes, adversarial reviews, consensus. Factories must be stochastic.
 
-**[41:55] Q&A: Top-Down vs. Bottoms-Up Factory Design**
+### Q&A: Top-Down vs. Bottoms-Up Factory Design [41:55](https://www.youtube.com/watch?v=Rgwu9nF_Xok&t=2515s)
 Yegge describes his recurring factory shape: a small crew for deep design review plus throwaway ephemeral agents for well-specified parallel work. He emphasizes that discovering your factory's shape is itself stochastic—you run agents, realize the shape is wrong, shut down, restructure, and reboot. Faster setup/teardown cycles lead to better factories. Knox advocates bottoms-up: start with one weekly task, automate it, layer on more. Trying to design the entire SDLC top-down is a recipe for two months of wasted effort.
 
-**[46:08] Q&A: Training People on AI-Native Development**
+### Q&A: Training People on AI-Native Development [46:08](https://www.youtube.com/watch?v=Rgwu9nF_Xok&t=2768s)
 Yegge references his "Flat Curve Society" Medium post about Netflix's training formula: 5 hours, manager + real work + trainer, ≤10 people. This reliably converts people to AI literacy (4M tokens/day usage). Knox adds the key is getting people to an excitement moment—they then self-train. Yegge notes multi-agent literacy is step 2 of a 10-step journey.
 
-**[48:15] Q&A: Common Factory Components**
+### Q&A: Common Factory Components [48:15](https://www.youtube.com/watch?v=Rgwu9nF_Xok&t=2895s)
 Knox lists recurring components: issue tracker ↔ source control connectors, cloud environments for long-running agent tasks (GitHub Actions is suboptimal), and code review tools (general + targeted verifiers). Tessl built six orchestrators—all started with plumbing, ended with no plumbing. The main orchestration that stuck: parent/child task dependencies in the issue tracker as a DAG.
 
-**[52:02] Q&A: Local Models in Factories**
+### Q&A: Local Models in Factories [52:02](https://www.youtube.com/watch?v=Rgwu9nF_Xok&t=3122s)
 Yegge sees a huge market opportunity for a hosted local-model offering as a drop-in Claude Code replacement. The intelligence arbitrage problem (use Claude Max for planning, open-source models for implementation) could be solvable within ~7 months. Knox notes truly local models are limited to smaller parameters for now, but you can compensate with more review passes. Yegge emphasizes factories are why low-tier models will always matter—they're cheap and can do work if kept on rails by higher-tier models.
 
-**[55:13] Q&A: Model Selection Strategy**
+### Q&A: Model Selection Strategy [55:13](https://www.youtube.com/watch?v=Rgwu9nF_Xok&t=3313s)
 Knox advises against model-picking for interactive sessions (hard to anticipate complexity; people default to the best model anyway). Model optimization works best in the factory mindset where tasks are boxed, recurring, and predictable—code review is a prime example where you can gate by complexity/diff size. Yegge uses Opus or Fable for interactive sessions as his default, routing cheaper models for stable automated workflows.
 
 ## Notable Quotes

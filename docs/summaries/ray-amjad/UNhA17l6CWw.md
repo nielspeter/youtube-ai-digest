@@ -31,25 +31,25 @@ Anthropic released a new Claude Code feature called Ultra Plan, triggered via `/
 
 ## Detailed Breakdown
 
-**[00:00] – Introducing Ultra Plan and How to Trigger It**
+### Introducing Ultra Plan and How to Trigger It [00:00](https://www.youtube.com/watch?v=UNhA17l6CWw&t=0s)
 The video opens with the introduction of Ultra Plan, a new planning mode in Claude Code. It is triggered by typing `/ultraplan` followed by a prompt. The creator demonstrates with a real task: upgrading from Qwen 3.5 to Gemma 4 in a macOS application called HypoWhisperer. After pressing enter, Claude Code indicates it will run Ultra Plan on the cloud and provides a session URL.
 
-**[01:03] – The Ultra Plan Web UI Experience**
+### The Ultra Plan Web UI Experience [01:03](https://www.youtube.com/watch?v=UNhA17l6CWw&t=63s)
 Clicking the session URL opens a web version of Claude Code where the plan is displayed in a polished UI. Users can highlight sections, leave thumbs-up reactions, and add inline comments (e.g., "use the recommended sampling parameters"). Comments can be sent back to Claude to refine the plan. Users can then approve the plan and start coding in the cloud, or teleport back to the terminal. The creator notes that Ultra Plan is noticeably faster—up to 2x faster than local planning—and sometimes includes ASCII or Mermaid diagrams, though not consistently.
 
-**[02:08] – Teleporting Back and Implementation Options**
+### Teleporting Back and Implementation Options [02:08](https://www.youtube.com/watch?v=UNhA17l6CWw&t=128s)
 Once the Ultra Plan is ready, the terminal displays options: stop the plan, go back, or review in the web UI. After approving in the web UI, the plan is sent back to the terminal, where the user can implement it in the current session or start a new one. The creator also notes that local plans have a "Refine with Ultra Plan" option, which transports the local plan to the web for a cloud-based validation step.
 
-**[02:42] – Comparing Ultra Plan vs. Local Plan: Testing Methodology**
+### Comparing Ultra Plan vs. Local Plan: Testing Methodology [02:42](https://www.youtube.com/watch?v=UNhA17l6CWw&t=162s)
 The creator ran 10 Ultra Plans and 10 local plans for identical prompts to compare quality. Differences were inconsistent. For dependency upgrades (e.g., tRPC v10→v11), Ultra Plan did a better job auditing the blast radius and flagging risks. The local plan assumed build commands would catch issues. However, for simpler tasks like swapping local models (Qwen 3.5 → Gemma 4), Ultra Plan offered no quality improvement—only a nicer review UI.
 
-**[04:18] – Investigating the Binary: Three Hidden Planning Modes**
+### Investigating the Binary: Three Hidden Planning Modes [04:18](https://www.youtube.com/watch?v=UNhA17l6CWw&t=258s)
 Curious about the inconsistency, the creator had Claude Code inspect the binary's readable strings and discovered three planning modes: simple plan, visual plan (adds ASCII/Mermaid diagrams), and deep plan (multi-agent with critique). The deep plan uses multiple subagents: one to understand relevant code and architecture, one to find files needing modification, one to identify risks/edge cases/dependencies, and one to review the plan for missing steps and mitigations.
 
-**[05:22] – Server-Side A/B/C Testing and the Remote Config**
+### Server-Side A/B/C Testing and the Remote Config [05:22](https://www.youtube.com/watch?v=UNhA17l6CWw&t=322s)
 Anthropic uses a remote config to assign users to one of the three planning modes—entirely server-controlled. The creator realized that good plans came from being assigned "variant free" (the deep plan), while mediocre plans came from the simple or visual modes. The creator concludes that Ultra Plan is effectively an A/B/C test to measure acceptance rates of each variant and determine the best planning prompt. This infrastructure could also be used to test unreleased models for planning quality.
 
-**[06:27] – Practical Verdict and Custom Skill Alternative**
+### Practical Verdict and Custom Skill Alternative [06:27](https://www.youtube.com/watch?v=UNhA17l6CWw&t=387s)
 The creator shares final takeaways: Ultra Plan is consistently faster and better for multitasking, as multiple plans can be spun up and reviewed in the web UI without polluting the main conversation. It's also handy for quick prototyping—plans can be discarded easily. However, due to the unpredictable variant assignment, the creator plans to avoid Ultra Plan and instead use the deep plan prompt directly as a custom skill. The video closes with a plug for the creator's Claude Code masterclass and newsletter.
 
 ## Notable Quotes

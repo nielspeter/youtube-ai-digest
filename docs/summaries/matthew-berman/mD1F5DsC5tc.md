@@ -31,28 +31,28 @@ GPT-5.6 is a massive, under-marketed leap from GPT-5.5, squeezing every drop of 
 
 ## Detailed Breakdown
 
-**[00:00] A Massive Leap in Capability**
+### A Massive Leap in Capability [00:00](https://www.youtube.com/watch?v=mD1F5DsC5tc&t=0s)
 The presenter opens by stressing that GPT-5.6 is a dramatic improvement over GPT-5.5, far beyond what a dot upgrade would suggest. It represents the absolute peak of what the GPT-5 training run can produce.
 
-**[00:31] The Excel Clone Experiment**
+### The Excel Clone Experiment [00:31](https://www.youtube.com/watch?v=mD1F5DsC5tc&t=31s)
 Using Codex, the presenter issued a simple 8-word prompt: "/goal make an Excel clone continue until feature parity." The process ran for over five days before being manually stopped. The resulting single-page HTML app includes sorting, formulas, data validation, conditional formatting, tables, find-and-replace, and functional pivot tables. The presenter notes it used computer use—opening the real desktop Excel to reference features and then recreating them in the clone.
 
-**[03:06] Browser and Computer Use**
+### Browser and Computer Use [03:06](https://www.youtube.com/watch?v=mD1F5DsC5tc&t=186s)
 GPT-5.6's browser and computer use are described as phenomenal. The presenter has adopted Codex's browser as a default driver, using it to sort Gmail and execute complex DNS record changes with a single prompt.
 
-**[03:39] The Minecraft Clone**
+### The Minecraft Clone [03:39](https://www.youtube.com/watch?v=mD1F5DsC5tc&t=219s)
 A similar prompt—"/goal create a clone of Minecraft, feature parity"—ran for about seven days. Within one day it had a recognizable Minecraft-like world; over subsequent days it expanded with mobs, biomes, mining, farming, inventory, seed generation, and 3D animations. The presenter calls it the best AI-generated Minecraft he has ever produced.
 
-**[05:16] Box Enterprise Benchmarks**
+### Box Enterprise Benchmarks [05:16](https://www.youtube.com/watch?v=mD1F5DsC5tc&t=316s)
 Partner Box ran an "AI complex work eval" covering real knowledge tasks like document reading, number reconciliation, due diligence, and expert-output review. GPT-5.6 Sol outperformed GPT-5.5, Terra, and Luna overall, and dominated across public sector, life sciences, and healthcare subsets. Luna matched Terra's accuracy at lower cost and speed. A link to the full Box benchmark is provided.
 
-**[06:19] Pricing and Token Efficiency**
+### Pricing and Token Efficiency [06:19](https://www.youtube.com/watch?v=mD1F5DsC5tc&t=379s)
 GPT-5.6 is cheaper and more token-efficient than the prior model (Fable): $5 vs. $10 per million input tokens and $30 vs. $50 per million output tokens. The presenter notes 5.6 has a more direct line of sight to task completion.
 
-**[06:51] GPT-5.6 vs. Fable**
+### GPT-5.6 vs. Fable [06:51](https://www.youtube.com/watch?v=mD1F5DsC5tc&t=411s)
 Fable is framed as a fundamentally different, next-generation model. The analogy: GPT-5.6 is a fully optimized, souped-up Honda Civic, whereas Fable is an untouched Ferrari with far higher potential. The presenter links to a separate full review with additional demos.
 
-**[07:56] Model Sizes, Reasoning Levels, and Routing**
+### Model Sizes, Reasoning Levels, and Routing [07:56](https://www.youtube.com/watch?v=mD1F5DsC5tc&t=476s)
 GPT-5.6 comes in three sizes—Luna (small), Terra (medium), Sol (large)—each with multiple reasoning levels; Sol reaches "Ultra," described as a quota burner. The presenter advocates model routing: plan with Sol, implement with Terra, deploy with Luna. He wrote a custom Codex skill to automate this delegation and shared a GitHub link.
 
 ## Notable Quotes

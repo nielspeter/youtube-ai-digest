@@ -31,59 +31,59 @@ Mozilla AI's Peter Wilson and Davide Eynard introduce **CQ**, an open-source "St
 
 ## Detailed Breakdown
 
-**[00:01] Introduction and Context**
+### Introduction and Context [00:01](https://www.youtube.com/watch?v=AHIY1XccX_E&t=1s)
 The session opens with a host noting that human contributions to Stack Overflow plummeted after ChatGPT's release, framing the problem CQ aims to address. Davide Eynard and Peter Wilson from Mozilla AI are introduced.
 
-**[00:33] Mozilla AI: Not the Browser Guys**
+### Mozilla AI: Not the Browser Guys [00:33](https://www.youtube.com/watch?v=AHIY1XccX_E&t=33s)
 Davide clarifies that Mozilla AI is separate from the Mozilla Corporation (which builds Firefox). He walks through an exercise: open the Mozilla Manifesto in Firefox via a special URI, then mentally substitute "the internet" with "AI." The manifesto's principles — openness, user agency, security, interoperability — map remarkably well onto AI. Mozilla AI was funded by the Mozilla Foundation to promote open-source AI specifically, not AI in the browser.
 
-**[03:09] The Unfair Comparison: Open Weights vs. Commercial AI**
+### The Unfair Comparison: Open Weights vs. Commercial AI [03:09](https://www.youtube.com/watch?v=AHIY1XccX_E&t=189s)
 Davide argues that people unfairly compare open-weight models to commercial AI services. A commercial service isn't just an LLM — it's an LLM plus agentic code, tools, engineering, and thousands of engineers. This creates a perception gap. Mozilla AI's mandate is to shrink that gap by making open-source AI more accessible and giving users an experience comparable to commercial services.
 
-**[04:09] Context Is King: The Bad and the Good**
+### Context Is King: The Bad and the Good [04:09](https://www.youtube.com/watch?v=AHIY1XccX_E&t=249s)
 Davide shares two examples. In the negative one, a tool called WASM agents running a local LLM via Ollama was asked to check a GitHub repo's star count. The default 4K context size was too small — the downloaded web content filled the context, the model forgot the original question, and just summarized the page. In the positive example, a 0.8B parameter local model was asked Davide's birthday. Initially, commercial models like Claude and GPT-3.5 couldn't answer (GPT-3.5 called him "a nobody"). But with a simple tool to browse directories and read files, the tiny model found a `birthdays.csv` file and answered correctly — demonstrating that proper agentic context can make even very small models effective.
 
-**[07:15] The Missing Piece: Saving and Reusing Solutions**
+### The Missing Piece: Saving and Reusing Solutions [07:15](https://www.youtube.com/watch?v=AHIY1XccX_E&t=435s)
 Davide identifies a gap: when an agent encounters a novel problem, struggles, and finally solves it (often with human intervention), that knowledge is lost. Claude has memories, but Peter takes over to explain why those are insufficient.
 
-**[07:47] Peter's Adventures with Claude**
+### Peter's Adventures with Claude [07:47](https://www.youtube.com/watch?v=AHIY1XccX_E&t=467s)
 Peter shares his experiences with Claude's memory system. Problems include: everything stored locally in `claude.md` files, context bloat, and privacy concerns (Anthropic sees your context). He asked Claude to check its own memory files for duplication — Claude initially said everything was unique because files weren't byte-identical, then after steering, admitted it had been writing the same memory repeatedly and ignoring it. Peter shows slides of Claude not following rules, relapsing into old behaviors, and expressing confusion.
 
-**[10:18] Introducing CQ: Stack Overflow for Agents**
+### Introducing CQ: Stack Overflow for Agents [10:18](https://www.youtube.com/watch?v=AHIY1XccX_E&t=618s)
 Peter introduces CQ, described in a blog post as "Stack Overflow for agents." The concept: when an agent hits an error, struggles, and finally figures out a solution, it proposes that as a "knowledge unit" to CQ. Other agents anywhere can then query CQ and benefit from that knowledge. Peter notes the open-source CQ repo includes a server component runnable locally via Docker, and there's a hosted version called CQ Exchange.
 
-**[10:50] What Is a Knowledge Unit?**
+### What Is a Knowledge Unit? [10:50](https://www.youtube.com/watch?v=AHIY1XccX_E&t=650s)
 A knowledge unit (KU) is a JSON record (displayed as YAML on the slide for readability) containing: the skill/domain, the insight or summary, the action taken, metadata like languages and frameworks, and an optional pattern string. When an agent solves a non-obvious problem, it summarizes the solution and submits it. After human-in-the-loop review, the KU becomes available for any agent querying CQ. The skill instructs agents to query CQ before starting new tasks and to validate any retrieved KUs before applying them.
 
-**[12:22] How the CQ Skill Works**
+### How the CQ Skill Works [12:22](https://www.youtube.com/watch?v=AHIY1XccX_E&t=742s)
 The CQ skill is installed as a plugin running an MCP server. It lets agents query existing KUs, propose new ones, confirm KUs that work (building confidence scores), and flag stale or incorrect ones. There's also a human-triggerable "reflect" mode where, at the end of a session, the agent reviews its trace and suggests summarizable knowledge units for human approval and editing.
 
-**[13:25] Three Levels of CQ**
+### Three Levels of CQ [13:25](https://www.youtube.com/watch?v=AHIY1XccX_E&t=805s)
 By default, CQ runs locally with a SQLite database — nothing leaves your machine, and all agents on that machine see proposed KUs immediately with no review process. You can configure it to connect to a remote server (the open-source CQ server component) for team-level sharing with username/password authentication and a review process. Finally, there's the public commons — CQ Exchange — where KUs can be nominated to "graduate" from private namespaces to the shared commons, mirroring Stack Overflow's public knowledge model.
 
-**[14:56] Risks and Honest Acknowledgments**
+### Risks and Honest Acknowledgments [14:56](https://www.youtube.com/watch?v=AHIY1XccX_E&t=896s)
 Peter is candid about risks: CQ is essentially a social media platform for agents, with all the attendant dangers. KUs could contain malicious instructions or PII. The skill includes front-loaded "vibe checks" and the protocol instructs agents to validate KUs before executing them. Server-side risks include DDoS, identity spoofing, and other standard internet threats. Mozilla AI consulted security experts and created a threat model document, but acknowledges they can't eliminate all risks.
 
-**[16:28] Mitigations and Defense in Depth**
+### Mitigations and Defense in Depth [16:28](https://www.youtube.com/watch?v=AHIY1XccX_E&t=988s)
 Mitigations include: JWT tokens for user authentication with short-lived API keys delegated to agents (agents can't perform control plane operations), potential cryptographic signing of KUs (uploading public keys to verify origin), a guardrails pipeline (PII checks, sandboxing), and human-in-the-loop review before KUs become available to others. Peter notes they may eventually need to move to "human-on-the-loop" to scale, but for now prioritize doing it right. He shows screenshots of the review interface, joking that the open-source version looks like Tinder (swipe left/right).
 
-**[18:33] Davide's Real-World CQ Demo: The Joplin MCP**
+### Davide's Real-World CQ Demo: The Joplin MCP [18:33](https://www.youtube.com/watch?v=AHIY1XccX_E&t=1113s)
 Davide walks through a real use case. He wanted to connect the Joplin note-taking MCP server to Claude. Claude gave installation instructions that didn't work — the config file needed to be in a different path. After extended troubleshooting, Davide suggested Claude check its own documentation online, which led to the fix. He then ran "CQ reflect," and Claude created a knowledge unit from the experience, saved locally. When he wiped everything and restarted from scratch, Claude automatically queried CQ, found the KU, and immediately used the correct config file path — saving time and tokens. Davide emphasizes the value of sharing this across teams or the entire community.
 
-**[21:41] Lessons Learned**
+### Lessons Learned [21:41](https://www.youtube.com/watch?v=AHIY1XccX_E&t=1301s)
 Peter summarizes key learnings from building CQ over April–May:
 - **Skill triggering is a fight for attention** — getting the skill to fire at the right time (task start, not every call) was challenging.
 - **Privacy-first was the right default** but sometimes slows development.
 - **CQ compounds** — even offline, accumulated KUs become genuinely useful. He demos an example where agents kept writing outdated GitHub Actions versions from training data; without CQ saving corrections, they'd repeat the mistake indefinitely.
 - **Platform before protocol** — they initially wanted protocols and schemas first, but realized building a working platform to dogfood was necessary to discover what schemas should contain.
 
-**[24:47] Roadmap**
+### Roadmap [24:47](https://www.youtube.com/watch?v=AHIY1XccX_E&t=1487s)
 Platform-side: tenancy/namespaces for organizations, nomination/graduation pipelines, guardrails pipelines, cryptographic signing, and exportable open schemas. Protocol-side: federation between CQ servers, and a potential working group for inter-server communication.
 
-**[25:49] The Power Law of Participation**
+### The Power Law of Participation [25:49](https://www.youtube.com/watch?v=AHIY1XccX_E&t=1549s)
 Davide closes with a 2006 image about the "power law of participation," showing how platforms progress from low-effort engagement (using a website) to high-effort contribution (submitting PRs, contributing KUs). He invites the audience to engage at whatever level they choose: try CQ Exchange, clone the repo, open issues (harsh comments welcome), submit PRs, or contribute knowledge units. His ultimate desire is for an open project to win in this space, not a single corporation.
 
-**[28:33] Q&A: Domains, Bounded Contexts, and Retrieval**
+### Q&A: Domains, Bounded Contexts, and Retrieval [28:33](https://www.youtube.com/watch?v=AHIY1XccX_E&t=1713s)
 An audience member asks about using CQ in large organizations with multiple repositories and domain-driven design bounded contexts — whether incorrect information could leak and confuse agents. Peter explains the skill asks agents to generalize KUs rather than make them project-specific (unless the project is itself an open-source tool). KUs include domain lists, languages, frameworks, and pattern strings. Guardrails and human review prevent problematic KUs from going upstream. Davide adds this is fundamentally a retrieval problem they're actively improving, and Peter notes a colleague has opened a PR for semantic search, with the scoring and relevance logic visible in the open-source repo.
 
 ## Notable Quotes

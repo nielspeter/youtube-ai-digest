@@ -31,31 +31,31 @@ OpenAI Codex's new `/goal` command enables long-running, autonomous coding tasks
 
 ## Detailed Breakdown
 
-**[00:00] Introduction and Motivation**
+### Introduction and Motivation [00:00](https://www.youtube.com/watch?v=p88mkfPkOZc&t=0s)
 Amjad has switched to OpenAI Codex as his daily driver, partly because Codex has improved significantly and partly because the Claude Code desktop app crashes his computer by consuming more memory than Chrome. The video focuses on Codex's new `/goal` command, which OpenAI calls "the most consequential thing we have shipped in Codex." The feature has generated excitement on Twitter, with one user achieving a 25% FPS improvement in their game. Amjad himself ran a goal for 13 hours asking Codex to ensure feature parity between a Windows and macOS application, with steady progress throughout.
 
-**[01:01] Setup and Configuration**
+### Setup and Configuration [01:01](https://www.youtube.com/watch?v=p88mkfPkOZc&t=61s)
 To enable the feature, navigate to your `.codex` folder and open `config.toml`—either directly in VS Code or via the Codex app's settings. Under the `features` section, add `features.goals=true` and save. Then open a fresh terminal and run the Codex command. The `/goal` feature is currently only available in the terminal version, though desktop support is expected. Typing `/goal` reveals a new command for setting up or viewing a long-running task. You provide a well-defined goal such as "reduce the P95 high post per cloud latency by 20%," and Codex maps the repo, works through the process, and tests itself until the goal is achieved. You can pause with `/goal pause`, resume with `/goal resume`, check token usage with `/goal`, and clear with `/goal clear`. While a goal is running, you can pass in other commands that feed into the next tool call.
 
-**[03:05] Two Kinds of AI Coding Work**
+### Two Kinds of AI Coding Work [03:05](https://www.youtube.com/watch?v=p88mkfPkOZc&t=185s)
 Amjad frames AI coding work as two types: well-defined, pre-decomposable tasks (tickets where you know the solution shape) and exploratory, unfolding work where the plan emerges over time. For the first type, he gives the example of a Notion integration where he and the AI went back and forth in an interview process to settle on a plan, which became a PRD. The second type—like cutting P95 checkout latency by 20%—involves unknown solution shapes where you want the model to explore until it finds a winning approach. He argues `/goal` is most powerful for this exploratory category, since the solution can't be predicted in advance.
 
-**[04:06] How the Goal Prompt Works and Why Verifiability Matters**
+### How the Goal Prompt Works and Why Verifiability Matters [04:06](https://www.youtube.com/watch?v=p88mkfPkOZc&t=246s)
 At the start of every turn, Codex injects a prompt that keeps the model working toward the goal. Two key directives stand out: "do not accept proxy signals" and "treat uncertainty as not achieved." This means your goal must be easily verifiable—either a plan that Codex can check off or a specific metric it must hit. Vague goals like "make this better" will run forever because there's no concrete stopping condition. Amjad recommends brainstorming with Codex upfront to define a good goal, especially since long-running goals consume many tokens. He references the Codex team's statement: "The value of good instructions has never been higher."
 
-**[05:41] Compaction and Thread Quality**
+### Compaction and Thread Quality [05:41](https://www.youtube.com/watch?v=p88mkfPkOZc&t=341s)
 All goal work happens in the same chat thread, raising concerns about compaction degrading performance over time. Amjad notes that many people online find Codex's compaction superior to Claude Code's, allowing many more compaction cycles while maintaining progress. Someone reverse-engineered Codex's compaction, and Amjad recommends reading that analysis. The key insight: bad compaction degrades thread value, but good compaction preserves a high signal-to-noise ratio and actually makes the thread richer over time, because retained detail from previous attempts helps the model make better decisions and waste fewer tokens going forward.
 
-**[06:42] Pointing a Goal: Specs vs. Vague Goals and Resources**
+### Pointing a Goal: Specs vs. Vague Goals and Resources [06:42](https://www.youtube.com/watch?v=p88mkfPkOZc&t=402s)
 You can point a goal at a spec for a new feature or at a vague goal. For vague goals, you must give Codex appropriate resources: real-world logs, staging clusters (ideally globally distributed), cost data, the codebase, flame graphs, and existing metrics. Amjad emphasizes that "a goal is only as effective as the surface it can act on." For dangerous goals, run them in a VPS or cloud environment rather than locally.
 
-**[07:43] The `/side` Command for Non-Distracting Check-Ins**
+### The `/side` Command for Non-Distracting Check-Ins [07:43](https://www.youtube.com/watch?v=p88mkfPkOZc&t=463s)
 Codex's new `/side` command—similar to Claude Code's `/btw`—lets you open a side thread to ask questions like "what are the last couple of things we've done?" without interrupting the main goal thread. It uses the same prompt cache, so it answers quickly. Pressing Escape returns you to the main session. This is a good way to monitor progress without polluting the goal thread with random Q&A.
 
-**[08:45] Codebase Contamination and the Distill-and-Reimplement Pattern**
+### Codebase Contamination and the Distill-and-Reimplement Pattern [08:45](https://www.youtube.com/watch?v=p88mkfPkOZc&t=525s)
 A key risk of goals is codebase contamination: after achieving a result, Codex may leave behind debug prints, hacks, and test artifacts. Amjad's recommended workflow is to treat exploratory goal work as creating a "scrappy branch" first. Once the goal achieves a result, distill the lessons and solutions into a PRD, then re-implement cleanly with a well-defined spec. This avoids long-term "scar tissue" in the codebase. The framing: unfolding work writes a loose spec, which you refine and decompose into a PRD, then ship.
 
-**[09:16] Decision Framework and Closing**
+### Decision Framework and Closing [09:16](https://www.youtube.com/watch?v=p88mkfPkOZc&t=556s)
 Amjad offers a decision framework: if you know what a good solution looks like, use Codex or Claude Code to write a PRD, turn it into issues, and use a goal or loop to complete them. If you don't know the solution shape, set a goal in exploration mode, review the diff, and either discard it or convert it into a better-defined spec. His own 14-hour-running goal (Windows/macOS feature parity) is easily verifiable because it's rebuilding known features. He invites viewers to share their results via comments or email.
 
 ## Notable Quotes

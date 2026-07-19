@@ -31,46 +31,46 @@ Anthropic's newly released Claude Fable 5 model was banned after the US governme
 
 ## Detailed Breakdown
 
-**[00:00] Stream Pivot Due to Fable 5 Ban**
+### Stream Pivot Due to Fable 5 Ban [00:00](https://www.youtube.com/watch?v=CrLMktzEzmM&t=0s)
 Cole opens by announcing that the US government banned Fable 5, forcing him to abandon his planned live coding stream. He had prepped workflows with Archon to test Fable live but decided to pivot to discussing the news and sharing his testing results from the prior days.
 
-**[03:38] The Government Directive and Anthropic's Response**
+### The Government Directive and Anthropic's Response [03:38](https://www.youtube.com/watch?v=CrLMktzEzmM&t=218s)
 The US government sent Anthropic a directive at 5:21 p.m. Eastern time. The government believed a method existed to jailbreak Fable 5, bypassing its guardrails (which block malware development, biological warfare assistance, etc.). Fable 5 is a "nerfed" version of Mythos 5, which was only released to select companies. Anthropic pushed back, stating the demonstrated vulnerabilities were minor and findable by other public models without a jailbreak. Cole is skeptical but acknowledges Anthropic could be saving face.
 
-**[07:17] Why a Total Shutdown**
+### Why a Total Shutdown [07:17](https://www.youtube.com/watch?v=CrLMktzEzmM&t=437s)
 Anthropic couldn't geographically restrict access because VPNs and other workarounds make enforcement impossible. Their only compliance option was to shut Fable down for everyone. Cole agrees this logic makes sense but notes the negative precedent it could set for the entire industry.
 
-**[08:19] Industry-Wide Implications**
+### Industry-Wide Implications [08:19](https://www.youtube.com/watch?v=CrLMktzEzmM&t=499s)
 Anthropic warned that if this standard were applied across the industry, it would halt all new frontier model deployments. Cole reflects that if the government deems Fable too dangerous, we may be stuck at current model levels (Opus 4.8, GPT 5.5, Gemini 3.5) for the foreseeable future. He sees this as a potentially major turning point.
 
-**[11:25] Rumors About Amazon's Involvement**
+### Rumors About Amazon's Involvement [11:25](https://www.youtube.com/watch?v=CrLMktzEzmM&t=685s)
 A chat member mentions Amazon as the whistleblower. Cole's "second brain" research tool found this claim but traced it to a low-quality, LLM-generated blog post with hallucinated information. He also notes Amazon is one of Anthropic's biggest investors, making the claim implausible—though later in the stream he finds a WSJ report corroborating it, leaving him genuinely confused about the incentives.
 
-**[20:44] Fable 5 Pricing and Rate Limits**
+### Fable 5 Pricing and Rate Limits [20:44](https://www.youtube.com/watch?v=CrLMktzEzmM&t=1244s)
 Fable costs $10 per 1M input tokens and $50 per 1M output tokens—exactly double Opus's pricing. Users hit rate limits twice as fast. Cole doesn't expect prices to drop until a competitor matches Fable's quality. Anthropic also built anti-distillation guardrails to prevent Chinese labs from using Fable to train smaller models.
 
-**[23:49] Fable's Return Timeline**
+### Fable's Return Timeline [23:49](https://www.youtube.com/watch?v=CrLMktzEzmM&t=1429s)
 Anthropic stated Fable would be removed from Pro, Max, and Teams subscriptions by June 22nd/23rd and would return to subscription plans only when sufficient hardware capacity allows (tied to their SpaceX partnership). The timeline is vague—could be days or months—and now further complicated by the ban.
 
-**[25:22] Benchmarking: Fable vs. Opus for Bounded Tasks**
+### Benchmarking: Fable vs. Opus for Bounded Tasks [25:22](https://www.youtube.com/watch?v=CrLMktzEzmM&t=1522s)
 Cole tested combinations of Fable and Opus for planning and implementation on real GitHub issues. The winning combination was Fable for planning + Opus for implementation. For simple tasks, even Kimmy 2.6 performed well when guided by a Fable-generated plan. Fable was not dramatically better than Opus for bounded tasks.
 
-**[30:05] Benchmarking: Fable vs. Opus for Open-Ended Tasks**
+### Benchmarking: Fable vs. Opus for Open-Ended Tasks [30:05](https://www.youtube.com/watch?v=CrLMktzEzmM&t=1805s)
 Using a 70-point rubric, Cole had both models build a tower defense game from scratch. Fable scored about six points higher. Fable's game was balanced, visually cohesive, and could beat its own demo. Opus built a functional game but with worse graphics, overlapping HUD, and a demo that lost. Fable excelled at higher-level problem-solving and planning, not raw code quality.
 
-**[35:18] Fable's Internal Harness**
+### Fable's Internal Harness [35:18](https://www.youtube.com/watch?v=CrLMktzEzmM&t=2118s)
 Fable is trained to run its own internal planning and validation loop—checking its own work and writing unit tests without being asked. However, Cole argues this means Fable's better results come from spending more tokens, not from being fundamentally better per token. This reinforces his view that harness engineering, not raw model power, drives real improvement.
 
-**[37:57] The Solution: Harness Engineering**
+### The Solution: Harness Engineering [37:57](https://www.youtube.com/watch?v=CrLMktzEzmM&t=2277s)
 If frontier models plateau or get regulated, the path forward is building better harnesses. Cole references an Anthropic article stating "the harness matters as much as the model." He outlines the six components of the AI layer: rules, skills, MCP servers, sub-agents, LSP, and hooks. He believes he can get better results with Sonnet and a good harness than with Opus and no harness.
 
-**[46:12] The Plenny the Liberator Jailbreak**
+### The Plenny the Liberator Jailbreak [46:12](https://www.youtube.com/watch?v=CrLMktzEzmM&t=2772s)
 Cole discovers a post on X by known jailbreaker "Plenny the Liberator" claiming to have bypassed Fable's guardrails using techniques like decomposition and recomposition. Cole can't fully verify the technical details but notes Plenny's reputation as a legitimate red teamer, making this a plausible alternative explanation for the government's action.
 
-**[59:44] Claude Billing Changes and Archon**
+### Claude Billing Changes and Archon [59:44](https://www.youtube.com/watch?v=CrLMktzEzmM&t=3584s)
 Starting around June 15th, Claude can no longer be used in headless mode or via the Claude Agent SDK with subscriptions—requiring API credits instead. Archon is affected, but Anthropic provides a $200/month credit for SDK usage. Cole has already migrated his autonomous second brain to Codeex with his Codeex subscription and reports getting equally good results. Archon now fully supports Pi as well.
 
-**[53:29] Reassurance for AI Educators**
+### Reassurance for AI Educators [53:29](https://www.youtube.com/watch?v=CrLMktzEzmM&t=3209s)
 A viewer in India worries the ban signals the world is against AI educators. Cole counters that if models stop improving, harness engineering becomes even more critical—and that's exactly what educators can teach. He believes even with current models, AGI-level results are achievable through better harnesses, making the educator's role more important, not less.
 
 ## Notable Quotes

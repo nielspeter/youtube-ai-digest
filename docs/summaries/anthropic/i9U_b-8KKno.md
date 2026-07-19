@@ -30,16 +30,16 @@ Binti is a platform that uses Claude to help social workers license foster and a
 - There is significant potential for Claude to reduce administrative time across other government agencies as well.
 
 ## Detailed Breakdown
-**[00:00] — A Social Worker's Mission and the Paperwork Burden**
+### A Social Worker's Mission and the Paperwork Burden [00:00](https://www.youtube.com/watch?v=i9U_b-8KKno&t=0s)
 A social worker with nearly 11 years of experience describes her genuine love for the job and the opportunity to make a difference for families and children. However, she notes that a tremendous amount of paperwork is required, and reducing that burden is always the goal. She highlights that there are roughly 400,000 children in foster care in the US and that families can fall through the cracks without better systems.
 
-**[00:32] — Building Binti and Choosing Claude for Security**
+### Building Binti and Choosing Claude for Security [00:32](https://www.youtube.com/watch?v=i9U_b-8KKno&t=32s)
 Binti was built as a streamlined way for social workers to license families more quickly for foster care and adoption. The team chose to integrate with Claude because Anthropic takes security and trust incredibly seriously, which is essential for agencies to trust how their data is handled. The core feature shown is that a social worker can record a meeting with a family, and Claude then fills out a draft of the paperwork for them.
 
-**[01:04] — From Weeks to Hours and Better Engagement**
+### From Weeks to Hours and Better Engagement [01:04](https://www.youtube.com/watch?v=i9U_b-8KKno&t=64s)
 The social worker explains that what previously took a couple of weeks now takes a couple of hours. She recalls spending most of her week on paperwork done by hand, which made it harder to engage in conversation because she was constantly looking down and writing. With Binti and Claude, she can focus on the family in front of her. Another speaker notes that timelines have shrunk significantly: the longest approvals used to be around 300 days, but now they are under 100 days, and more families are approved more quickly.
 
-**[01:34] — Supporting Social Workers and Broader Potential**
+### Supporting Social Workers and Broader Potential [01:34](https://www.youtube.com/watch?v=i9U_b-8KKno&t=94s)
 A speaker reflects that social workers do important work helping others but are not used to people coming to help them with their job. By using Claude, Binti can license more foster and adoptive families more quickly for children in need. The speaker sees huge potential for Claude to save administrative time across other government agencies as well, closing with a sentiment of gratitude for technology that makes a real difference.
 
 ## Notable Quotes

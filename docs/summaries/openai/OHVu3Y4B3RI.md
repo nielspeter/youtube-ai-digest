@@ -29,10 +29,10 @@ A Shopify operations professional explains how using ChatGPT as an AI agent has 
 
 ## Detailed Breakdown
 
-**[00:04] Personal Impact and Role**
+### Personal Impact and Role [00:04](https://www.youtube.com/watch?v=OHVu3Y4B3RI&t=4s)
 The speaker opens by describing how ChatGPT enables them to work faster with fewer dependencies and to do things they previously couldn't. They introduce their role: driving effective use and adoption of AI tools for non-R&D disciplines at Shopify. They characterize ChatGPT as a "workhorse" — a powerful, practical application for getting work done.
 
-**[00:34] The Shift to Delegation and Removing Engineering Dependencies**
+### The Shift to Delegation and Removing Engineering Dependencies [00:34](https://www.youtube.com/watch?v=OHVu3Y4B3RI&t=34s)
 The speaker identifies the key cultural and operational shift: learning to work with agents, which is really about becoming comfortable with delegation. They explain that teams can now accomplish things independently because they no longer need to go to an engineering team to request resources for building tools. As a concrete example, the speaker redesigned a triage workflow using agent skills, Codex, and ChatGPT — something that wouldn't have been possible before. They conclude that what once required a large team to support a process now comes down to a single agent running discrete tasks, fundamentally changing how the team works.
 
 ## Notable Quotes

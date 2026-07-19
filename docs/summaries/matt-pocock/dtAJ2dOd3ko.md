@@ -27,25 +27,25 @@ Matt Pocock introduces "handoff," a simple but powerful skill that compresses a 
 - **Tailored context:** For an agent to write a good handoff document, the user must describe the purpose and focus of the next session.
 
 ## Detailed Breakdown
-**[00:00] Introduction to the Handoff Skill**
+### Introduction to the Handoff Skill [00:00](https://www.youtube.com/watch?v=dtAJ2dOd3ko&t=0s)
 Matt Pocock introduces the "handoff" skill, born from a habit he noticed himself doing frequently: compressing a current session's context window into a markdown file to hand off to a fresh agent. He published this simple skill into his popular skills repository (which has nearly 100,000 stars) and found himself using it constantly. He also promotes his upcoming "AI coding for real engineers" cohort course starting June 1st.
 
-**[02:04] The Smart Zone, Dumb Zone, and Compaction**
+### The Smart Zone, Dumb Zone, and Compaction [02:04](https://www.youtube.com/watch?v=dtAJ2dOd3ko&t=124s)
 Matt explains the limitations of context windows. Even though models like Claude advertise huge limits (1 million tokens), performance degrades as the window fills because attention relationships become strained. He notes he personally hits a "dumb zone" around 120k tokens. To deal with this, harnesses have a "compact" feature that summarizes the conversation, resetting the context back to the smart zone. While compact is great for long-running, single-session tasks like debugging, it has limitations.
 
-**[05:10] Why Handoff is Different from Compaction**
+### Why Handoff is Different from Compaction [05:10](https://www.youtube.com/watch?v=dtAJ2dOd3ko&t=310s)
 Matt illustrates a scenario where compact falls short: noticing a refactoring opportunity mid-session. If you address it in the current session, you dilute the context and hit the dumb zone. If you compact, you clobber your current progress. Handoff solves this by letting you extract just the slice of context needed for the side task, allowing the two sessions to run independently.
 
-**[06:30] Pattern 1: Handing Off During Grilling Sessions**
+### Pattern 1: Handing Off During Grilling Sessions [06:30](https://www.youtube.com/watch?v=dtAJ2dOd3ko&t=390s)
 While using a "grilling" session (a Q&A planning session for his software factory, Sandcastle), Matt realizes a feature should be moved to a separate API. He invokes handoff to create a markdown file for a separate agent to handle that specific task. This not only creates the handoff document but also sharpens the current grilling session by officially declaring the out-of-scope work.
 
-**[07:42] Pattern 2: The DIY Sub-Agent (Handing Off to Prototype)**
+### Pattern 2: The DIY Sub-Agent (Handing Off to Prototype) [07:42](https://www.youtube.com/watch?v=dtAJ2dOd3ko&t=462s)
 Matt describes a common pattern where a grilling session hits "unknown unknowns" that require actual code prototyping. He hands off to a prototype session, which uses a massive 169k tokens to build the UI. Once done, the prototype session writes its own handoff document back to the original planner session. This effectively creates a DIY sub-agent, allowing a dedicated context window for prototyping before compressing the learnings back to the parent.
 
-**[09:18] Tool-Agnostic Context Sharing**
+### Tool-Agnostic Context Sharing [09:18](https://www.youtube.com/watch?v=dtAJ2dOd3ko&t=558s)
 Because handoff documents are just markdown files, they aren't tied to a specific AI tool. You can generate a handoff in Claude Code and pass it to Codex or Copilot CLI. This makes it incredibly easy to perform adversarial reviews or use different tools for different specialized tasks.
 
-**[10:00] Design Decisions Inside the Skill**
+### Design Decisions Inside the Skill [10:00](https://www.youtube.com/watch?v=dtAJ2dOd3ko&t=600s)
 Matt walks through the specific instructions baked into the handoff skill:
 - **Suggested skills:** The document can suggest skills for the next agent to invoke (like `grill with docs` or `prototype`).
 - **No duplication:** Use pointers to existing artifacts (like GitHub issues) instead of copying their content.

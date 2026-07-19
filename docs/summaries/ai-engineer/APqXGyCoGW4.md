@@ -31,10 +31,10 @@ Pauline Brunet, Global Lead of Forward Deployed Engineering (FDE) at Cursor, out
 
 ## Detailed Breakdown
 
-### [00:01] Introduction and Context
+### Introduction and Context [00:01](https://www.youtube.com/watch?v=APqXGyCoGW4&t=1s)
 Pauline Brunet introduces herself as the global lead of Forward Deployed Engineering at Cursor, an AI coding platform. She has 10 years of experience in enterprise AI deployments across consulting and multiple tech companies. She frames FDE as potentially "the hottest job of 2026" and sets the focus on lessons learned building the FDE function at Cursor.
 
-### [02:05] The FDE Matrix: When to Use FDE
+### The FDE Matrix: When to Use FDE [02:05](https://www.youtube.com/watch?v=APqXGyCoGW4&t=125s)
 Pauline presents a 2x2 matrix to determine when FDE is appropriate:
 - **Customer digital maturity** (low to high)
 - **Product customizability** (low to high)
@@ -47,7 +47,7 @@ She maps out four quadrants:
 
 She warns against using FDEs for product training workshops or basic configuration, as that wastes expensive engineering talent.
 
-### [05:10] The FDE Profile: The "Magical Unicorn"
+### The FDE Profile: The "Magical Unicorn" [05:10](https://www.youtube.com/watch?v=APqXGyCoGW4&t=310s)
 The ideal FDE is incredibly technical with high IQ and customer-facing skills. The role involves:
 - Working across all organizational levels (CIO, CTO, COO, developers, VPs of AI)
 - Leading discovery sessions to find the right use cases
@@ -55,7 +55,7 @@ The ideal FDE is incredibly technical with high IQ and customer-facing skills. T
 - Staying at the cutting edge of rapid technological advancements
 - Acting as a feedback loop between customers and internal product/engineering teams
 
-### [07:14] How Cursor Structures FDE
+### How Cursor Structures FDE [07:14](https://www.youtube.com/watch?v=APqXGyCoGW4&t=434s)
 Cursor's customers are deeply technical, mature organizations. Key structural choices:
 - **Project-based, high-impact engagements** scoped with economic buyers or senior champions to ensure strategic alignment and resourcing
 - **Co-development in customer code bases**, not staff augmentation
@@ -64,17 +64,17 @@ Cursor's customers are deeply technical, mature organizations. Key structural ch
 - **SMEs by product area** (e.g., long-running cloud agents, Cursor SDK)
 - Hires from companies like Spotify, Rippling, and Palantir; currently requires 5+ years experience, no early-career hires yet
 
-### [10:53] FDE Mission Statement
+### FDE Mission Statement [10:53](https://www.youtube.com/watch?v=APqXGyCoGW4&t=653s)
 Cursor's FDE mission: "We partner with your organization to co-design and co-build your AI software factory. We transform how you design, develop, and maintain software across your entire lifecycle." Pauline strongly recommends having a clear mission to guide scoping decisions and help team members reject inappropriate engagements (e.g., staff augmentation).
 
-### [13:32] Best Practices
+### Best Practices [13:32](https://www.youtube.com/watch?v=APqXGyCoGW4&t=812s)
 - **Learn quickly and pivot:** Try projects, accept failure, iterate rather than over-plan.
 - **Listen to customers:** Cursor is creating a new offering around organizational redesign because customers asked for it 6–7 times.
 - **Partner with system integrators/consultants:** They know the customers, can handle change management, and help scale rollout across industries (Telco, healthcare).
 - **Don't be afraid to say no:** Being honest about where your product isn't the right fit builds trust and prevents failure.
 - **Attract and pay the right talent:** Match hires to your specific needs and keep them motivated.
 
-### [16:07] Tips for Running FDE Projects
+### Tips for Running FDE Projects [16:07](https://www.youtube.com/watch?v=APqXGyCoGW4&t=967s)
 1. **Check you're solving the right problem:** Talk to the person responsible for the process, not just whoever raised the issue.
 2. **Define success from the start:** Establish clear KPIs (e.g., "reduce time from 3 hours to 20 minutes—is that sufficient?").
 3. **Keep scope directional, not fixed:** Set phases and objectives but allow pivots based on learnings. Avoid open-ended time-and-materials engagements.
@@ -82,7 +82,7 @@ Cursor's FDE mission: "We partner with your organization to co-design and co-bui
 5. **Measure success and ROI:** Over-communicate whether you hit targets. ROI always falls into one of three buckets: increasing revenue, decreasing costs, or mitigating risk.
 6. **Leave documentation and artifacts behind.**
 
-### [19:50] Closing Advice
+### Closing Advice [19:50](https://www.youtube.com/watch?v=APqXGyCoGW4&t=1190s)
 Build the right FDE motion for your company, learn and pivot, scale thoughtfully, and create a culture where top talent wants to do their best work. Final reminder: "A players hire A players; B players hire C players"—be intentional about hiring and retention.
 
 ## Notable Quotes

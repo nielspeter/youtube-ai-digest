@@ -29,19 +29,19 @@ A broccoli farmer in Hokkaido with no engineering background uses OpenAI's Codex
 - The video captures the authentic, unpolished reality of farm life, including a noisy chicken disrupting the interview.
 
 ## Detailed Breakdown
-**[00:00] — Starting from Scratch in Hokkaido**
+### Starting from Scratch in Hokkaido [00:00](https://www.youtube.com/watch?v=hWhfrR9WJ_c&t=0s)
 The farmer introduces the setting: a broccoli field where it is easy to lose track of where work has started and finished, creating a need for a digital progress-tracking system. He reflects on his arrival in Hokkaido, noting he initially did not even know how to drive a tractor and had to learn vegetable farming from absolutely nothing, making the early days genuinely difficult.
 
-**[00:30] — Non-Engineer Using Codex for Efficiency**
+### Non-Engineer Using Codex for Efficiency [00:30](https://www.youtube.com/watch?v=hWhfrR9WJ_c&t=30s)
 He clarifies that he is not an engineer but leverages Codex to improve operational efficiency. A long-running manual task—rolling up the plastic sheeting on the sides of greenhouses for ventilation—is highlighted as a prime candidate for automation. By incorporating electric motors, he and Codex were able to automate this previously hands-on chore.
 
-**[01:12] — Remote-Controlled Greenhouse Ventilation**
+### Remote-Controlled Greenhouse Ventilation [01:12](https://www.youtube.com/watch?v=hWhfrR9WJ_c&t=72s)
 The farmer describes the resulting system: electric motors can be controlled to move up and down from anywhere, provided there is an internet connection. He contrasts the older model, which required repeated back-and-forth communication, iterative improvements, and further instructions, with the new model. The new Codex can read its database from a single prompt and autonomously use various tools to think and execute toward the final goal, greatly reducing the need for the farmer to check or manage the process.
 
-**[01:44] — "Like Witnessing Magic" and a Noisy Chicken**
+### "Like Witnessing Magic" and a Noisy Chicken [01:44](https://www.youtube.com/watch?v=hWhfrR9WJ_c&t=104s)
 The farmer expresses genuine astonishment that he was able to create a system usable in a real-world setting, calling it surprising and "like witnessing magic." The video then captures a candid, humorous moment: a chicken making noise—crying "cock-a-doodle-doo"—disrupts the interview. When asked how to quiet a chicken, the farmer laughs and admits it is honestly difficult because chickens basically make noise.
 
-**[02:18] — Closing Laughter and Music**
+### Closing Laughter and Music [02:18](https://www.youtube.com/watch?v=hWhfrR9WJ_c&t=138s)
 The segment closes with laughter and music, underscoring the lighthearted, authentic rural backdrop against which this AI-powered farming innovation is taking place.
 
 ## Notable Quotes

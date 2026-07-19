@@ -31,67 +31,67 @@ Matthew Berman reviews GPT-5.6 Soul, OpenAI's latest and likely final model from
 
 ## Detailed Breakdown
 
-**[03:14] Stream Kickoff and Context**
+### Stream Kickoff and Context [03:14](https://www.youtube.com/watch?v=roGmNXASYOM&t=194s)
 Berman goes live, confirms audio with viewers, and introduces the topic: GPT-5.6 Soul Ultra and the simultaneous release of 17 other models.
 
-**[04:20] GPT-5.6's Delayed Release and Fable**
+### GPT-5.6's Delayed Release and Fable [04:20](https://www.youtube.com/watch?v=roGmNXASYOM&t=260s)
 GPT-5.6 couldn't be released while Fable was banned by the government; releasing it would have either implied inferiority or risked revocation. Once publicly announced, Berman lost early access for about a week before general availability.
 
-**[06:09] GPT-5.6 Relay Skill**
+### GPT-5.6 Relay Skill [06:09](https://www.youtube.com/watch?v=roGmNXASYOM&t=369s)
 Berman introduces an open-source skill on the Forward Future GitHub repo that lets Soul handle planning and orchestration while delegating code writing to cheaper models like Terra and Luna, saving quota. It has 10 stars at the time of recording.
 
-**[08:26] Competitive Landscape and Claude's Response**
+### Competitive Landscape and Claude's Response [08:26](https://www.youtube.com/watch?v=roGmNXASYOM&t=506s)
 Within 24 hours, three major models dropped: Grok, Meta's Spark, and GPT-5.6. Claude responded by resetting 5-hour and weekly rate limits for all users. Berman highlights Tibo's tweet ("I smell fear") and notes the reset helped him since he'd already exhausted his quota.
 
-**[09:32] GPT-5.6 vs. Fable: Veteran vs. Rookie**
+### GPT-5.6 vs. Fable: Veteran vs. Rookie [09:32](https://www.youtube.com/watch?v=roGmNXASYOM&t=572s)
 Berman explains 5.6 is the peak of the GPT-5 training run—a veteran with high game IQ, fewer mistakes, but less raw headroom. Fable is the rookie: incredible raw talent from a new ~10 trillion parameter training run, but needs guidance. He believes 5.6 is the last GPT-5 run model.
 
-**[12:07] The Leap from 5.5 to 5.6**
+### The Leap from 5.5 to 5.6 [12:07](https://www.youtube.com/watch?v=roGmNXASYOM&t=727s)
 After losing 5.6 access, Berman had to use 5.5 and found it significantly degraded—unable to "see around corners" or handle long-horizon tasks as well. He compares it to losing a lead engineer and getting a mid-level replacement.
 
-**[13:46] Ultra Mode and Pricing Tease**
+### Ultra Mode and Pricing Tease [13:46](https://www.youtube.com/watch?v=roGmNXASYOM&t=826s)
 Berman finds Ultra mode overkill for most work, even hard coding. He prefers medium-to-high thinking ranges in Fable and notes he has many thoughts on pricing.
 
-**[14:17] ForwardFuture.com Announcement**
+### ForwardFuture.com Announcement [14:17](https://www.youtube.com/watch?v=roGmNXASYOM&t=857s)
 Berman announces the domain upgrade from .ai to .com (cost ~$2,500 from GoDaddy). The site now features original guest essays, a daily "Zeitgeist" trend report, and tools like the Loop Library and Loopy skill.
 
-**[17:20] Efficiency: Cost Per Task Accomplished**
+### Efficiency: Cost Per Task Accomplished [17:20](https://www.youtube.com/watch?v=roGmNXASYOM&t=1040s)
 OpenAI trained 5.6 to get more useful work per token. Berman noticed it finds the straightest path to a solution—working less but remaining as effective. This makes the "cost per task accomplished" metric very compelling for enterprises facing massive AI bills.
 
-**[18:53] Benchmark Comparisons**
+### Benchmark Comparisons [18:53](https://www.youtube.com/watch?v=roGmNXASYOM&t=1133s)
 On the Artificial Analysis coding agent index, GPT-5.6 scores 80 at ~$2,400 API cost (max effort), beating Opus 4.8's score of 72 at similar cost. Fable scores slightly lower but costs $3,700. Berman notes Fable has significant headroom for improvement through post-training.
 
-**[24:57] Design Aesthetic: The PowerPoint Tendency**
+### Design Aesthetic: The PowerPoint Tendency [24:57](https://www.youtube.com/watch?v=roGmNXASYOM&t=1497s)
 GPT-5.6 defaults to a "PowerPoint slide" design aesthetic—beautiful but generic. With nudging, it becomes highly steerable. Berman shows before/after examples of a Loop Library design.
 
-**[29:13] Pricing Deep Dive**
+### Pricing Deep Dive [29:13](https://www.youtube.com/watch?v=roGmNXASYOM&t=1753s)
 Soul: $5/M input, $30/M output. Terra: $2.50/M input, $15/M output. Luna: cheapest. Fable is $10/M input, $50/M output. Soul is roughly half the price of Fable and uses fewer tokens because it doesn't go on "side quests." GPT-5.5 is also $5/M input—same as 5.6 Soul—making 5.5 obsolete.
 
-**[33:39] Demo: BlockCraft (Minecraft Clone)**
+### Demo: BlockCraft (Minecraft Clone) [33:39](https://www.youtube.com/watch?v=roGmNXASYOM&t=2019s)
 Built with a single prompt ("clone Minecraft full feature parity") running in a loop for ~6 days. After day one, it had a working game; subsequent days added biomes, NPCs, and enemies. Fully playable in-browser with inventory, sneaking, digging, and lava.
 
-**[37:17] Demo: Excel Clone**
+### Demo: Excel Clone [37:17](https://www.youtube.com/watch?v=roGmNXASYOM&t=2237s)
 Built with a 6-word prompt using Codeex's computer-use capability—GPT-5.6 opened real Excel, clicked around to discover features, and recreated them. Features include formulas (=SUM with tooltip), pivot tables, multiple sheets, charts, data analysis, goal seeking, and sorting. Ran for ~6 days.
 
-**[41:26] The Power of Loops and Loopy Tool**
+### The Power of Loops and Loopy Tool [41:26](https://www.youtube.com/watch?v=roGmNXASYOM&t=2486s)
 Berman emphasizes loops are conceptually simple ("keep working until you meet these checks") but extremely powerful. He introduces Loopy, an open-source skill with ~2,500 stars that helps create, find, review, and monitor loops. Works in Codeex, Cursor, and Claude Code.
 
-**[44:10] Browser Control in Codeex**
+### Browser Control in Codeex [44:10](https://www.youtube.com/watch?v=roGmNXASYOM&t=2650s)
 Berman's standout feature: Codeex's browser is fast and accurate. He used it for DNS updates across Vercel, Digital Ocean, and GoDaddy with a 10-word prompt. It also auto-scaled a Supabase instance during a massive data import, monitoring and adjusting capacity autonomously.
 
-**[48:55] GPT-5.6 vs. Fable: Personality and Approach**
+### GPT-5.6 vs. Fable: Personality and Approach [48:55](https://www.youtube.com/watch?v=roGmNXASYOM&t=2935s)
 5.6 is bland but efficient—a "straight shot" to completion. Fable has more personality and says interesting things, but goes on side quests and burns more tokens. Both are excellent for planning; Berman often runs both and compares notes.
 
-**[50:27] Demo: Astra OS**
+### Demo: Astra OS [50:27](https://www.youtube.com/watch?v=roGmNXASYOM&t=3027s)
 A full operating system built by GPT-5.6. Berman acknowledges it's ugly but functional, with settings, a terminal, and a browser (which didn't work). He contrasts its default PowerPoint aesthetic with a cleaner flat design achieved through iteration.
 
-**[53:48] Demo: Rube Goldberg Machine and Rubik's Cube**
+### Demo: Rube Goldberg Machine and Rubik's Cube [53:48](https://www.youtube.com/watch?v=roGmNXASYOM&t=3228s)
 A physics-based Rube Goldberg machine game built over a couple of days, with editable elements. Berman also shows a Rubik's cube simulation with scramble/solve functionality and orbit controls, comparing it favorably to Gemini 2.5 Pro's earlier achievement. He later shows Fable's version, which he and a viewer consider better.
 
-**[56:57] SaaS Discussion**
+### SaaS Discussion [56:57](https://www.youtube.com/watch?v=roGmNXASYOM&t=3417s)
 Berman revisits his "SaaS is dead" take, now more uncertain. Incumbents investing in headless/agent-friendly architectures (Box, Salesforce) will be okay. Mid-tier SaaS companies will struggle. He pushes back on the idea that enterprises can simply rebuild software with AI—maintenance, security, and compliance make this impractical.
 
-**[65:14] Codeex Reset and Closing**
+### Codeex Reset and Closing [65:14](https://www.youtube.com/watch?v=roGmNXASYOM&t=3914s)
 Tibo confirms Codeex rate limit resets are coming. Berman encourages viewers to burn through tokens. He mentions Matt Schumer's one-shot voxel-based Manhattan demo, attempts to show a clip from an MTS appearance (audio issues prevent it), and closes by promoting forwardfuture.com and promising more frequent live streams with the team.
 
 ## Notable Quotes

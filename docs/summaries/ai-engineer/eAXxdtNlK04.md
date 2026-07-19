@@ -31,37 +31,37 @@ Annabell Schäfer from Langfuse argues that effective self-improvement loops for
 
 ## Detailed Breakdown
 
-**[00:00] The Loop Hype and the Target Function Problem**
+### The Loop Hype and the Target Function Problem [00:00](https://www.youtube.com/watch?v=eAXxdtNlK04&t=0s)
 Schäfer opens by framing the current moment—June 2026—as one obsessed with loops, citing Boris Journey ("I don't write prompts anymore, I write loops"), Peter Steinberger ("design loops, not prompts"), and Karpathy's auto-research/auto-improvement ideas. She notes these perspectives come largely from developers, where loops work well because coding has a clear target function: does the code compile? That binary signal, even if incomplete (compiling code isn't necessarily *good* code), gives agents a reliable feedback mechanism. In other domains—medical compliance, healthcare, chatbots—target functions are far less clear, and the instructions given to agents are inherently incomplete. You might think you're heading in one direction, but the optimal destination is elsewhere, and discovering that takes significant time and effort.
 
-**[02:05] Why Investing in Evaluators Pays Off**
+### Why Investing in Evaluators Pays Off [02:05](https://www.youtube.com/watch?v=eAXxdtNlK04&t=125s)
 Despite the difficulty, Schäfer reports that at Langfuse they observe teams investing heavily in the "middle layer"—capturing what they actually want the system to do and building good evaluators—are the ones who continuously improve and ship with confidence. Knowing your system works as intended means you can sleep at night after pushing a code change.
 
-**[02:36] Designing a Minimal Self-Optimization Experiment**
+### Designing a Minimal Self-Optimization Experiment [02:36](https://www.youtube.com/watch?v=eAXxdtNlK04&t=156s)
 To understand the role of target functions, Schäfer's team sought the clearest possible one: single-label classification. The task involved classifying arxiv papers by title and abstract into one of ten labels (e.g., "order," "complaint," "inquiry"—though the actual task used research paper categories). Ground truth came from author-assigned primary labels. They built datasets of 200 items (fit), 100 (validate), and 300 (test) to guard against overfitting. The agent was a simple GPT-5-nano prompt with a flat label list—intentionally minimal to see what the optimizer would do. The optimizer was Claude Opus 4.8 running through Claude Code, with context including OpenAI's GPT-5 prompting guide and a task.md file describing the loop.
 
-**[04:41] The Loop Mechanics**
+### The Loop Mechanics [04:41](https://www.youtube.com/watch?v=eAXxdtNlK04&t=281s)
 The loop followed a structured process: run the base prompt on fit and validate sets to establish baseline accuracy; score per item; perform error analysis on the fit set to identify dominating error patterns and frequently confused label pairs; have the optimizer propose a prompt update targeting the biggest error category; rerun and accept the change only if it also improves on the validation set. Stopping criteria were 15 runs or 92% accuracy. The test set was deliberately withheld—the optimizer couldn't access it until the final evaluation.
 
-**[07:19] Results: A 15% Gain, Mostly from the First Jump**
+### Results: A 15% Gain, Mostly from the First Jump [07:19](https://www.youtube.com/watch?v=eAXxdtNlK04&t=439s)
 The baseline started at 68% accuracy. The first iteration produced a 10% jump to 78%, and by the third or fourth iteration it reached 83%, after which it plateaued around 80%. The test set accuracy was 80.2%, confirming good generalization. Schäfer notes they discovered the "ground truth" wasn't perfectly clean—authors had creative freedom in choosing labels, and that reasoning wasn't recorded. The most striking finding was that the first iteration captured most of the improvement, suggesting that even a single well-structured error-analysis pass with high-signal feedback can deliver substantial gains.
 
-**[08:21] What the Optimizer Actually Did**
+### What the Optimizer Actually Did [08:21](https://www.youtube.com/watch?v=eAXxdtNlK04&t=501s)
 The optimizer transformed the flat label list into a structured prompt with: a general classification approach (how to think about choosing a label), guidance on disambiguating between similar classes, confused-pair patterns (when to choose the more specific vs. broader label), and concrete examples of previously misclassified items. Schäfer notes she was surprised the optimizer added rules and examples rather than label descriptions, but it worked, so she didn't interfere.
 
-**[09:57] Anatomy of the 10% Jump**
+### Anatomy of the 10% Jump [09:57](https://www.youtube.com/watch?v=eAXxdtNlK04&t=597s)
 Examining Claude Opus 4.8's reasoning for the first iteration, Schäfer highlights its structured approach: it identified 64 errors, found the dominating patterns, pinpointed the number-one answer sink and the biggest confusion pair, then formed a hypothesis: "this loop will exactly address this pattern." The clear-cut right/wrong signal, combined with sufficient data volume (200 fit items, 10 labels each covered enough times), enabled a data-driven hypothesis that delivered the 10% gain in one step.
 
-**[11:30] Translating High-Signal Feedback to Other Domains**
+### Translating High-Signal Feedback to Other Domains [11:30](https://www.youtube.com/watch?v=eAXxdtNlK04&t=690s)
 Since deterministic yes/no target functions are rare, Schäfer addresses how to bring this kind of signal to other applications. She argues that popular generic evaluators—correctness, helpfulness, hallucination—are actually low-signal for auto-improvement, especially when scored on 0–1 or 1–5 scales without precise definitions for each number. Without defined criteria, the same evaluator can return different scores across runs, making feedback inconsistent and unreliable.
 
-**[12:34] Building High-Signal Domain Evaluators**
+### Building High-Signal Domain Evaluators [12:34](https://www.youtube.com/watch?v=eAXxdtNlK04&t=754s)
 Instead, Schäfer advocates for domain-specific, binary evaluators. Examples: "Is the answer based on the knowledge base? Yes/No" (checking if internal information appears in retrieved context), "Is the brand name spelled correctly?", "Was the name accidentally translated to Spanish?", and "Which of these five known failure modes occurred?" These are created by examining data, understanding what "good" means for your specific application and domain experts, and encoding that into concrete, high-signal feedback loops.
 
-**[14:37] How to Get There: Working with Experts**
+### How to Get There: Working with Experts [14:37](https://www.youtube.com/watch?v=eAXxdtNlK04&t=877s)
 Schäfer emphasizes working with domain experts—not just as repeated advice but as a practical method. Use experts to create concrete input/output examples, run sample runs together, and ask "why is it like this here and different there?" This surfaces implicit knowledge experts assume is obvious. From these sessions, identify failure modes and define what "good" means, then use those insights to build high-signal evaluators. Volume matters too—200 training examples provided strong signal here, though needs scale with application complexity.
 
-**[15:10] Ongoing Human Review and System Generalization**
+### Ongoing Human Review and System Generalization [15:10](https://www.youtube.com/watch?v=eAXxdtNlK04&t=910s)
 After establishing a baseline and shipping, Schäfer stresses continued human review of production data—not just by coding agents but by people who understand the scope. Failure modes shift, users attempt new things, and scope expands. Finally, she frames the whole effort as building a system that generalizes: bake in validation mechanisms (fit/validate/test splits, stopping criteria, escape hatches) to prevent overfitting and avoid burning tokens for hours hitting a wall. The goal is a collaborative human-agent improvement system, not an unbounded loop.
 
 ## Notable Quotes

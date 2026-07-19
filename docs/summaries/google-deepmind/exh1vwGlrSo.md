@@ -28,13 +28,13 @@ A researcher in Uganda is using AI tools like Google DeepMind's AlphaFold to stu
 - The research represents a direct translation from advanced AI-assisted science to tangible public health impact locally and globally.
 
 ## Detailed Breakdown
-**[00:01] The Breast Cancer Challenge in Uganda**
+### The Breast Cancer Challenge in Uganda [00:01](https://www.youtube.com/watch?v=exh1vwGlrSo&t=1s)
 The video opens by highlighting the severe breast cancer situation in Uganda. The narrator notes that 1 in 12 females will get breast cancer in their lifetime. The disease also shows an earlier onset compared to the rest of the world. Survival rates are lower, which is partly blamed on irregular cancer testing. Women typically only seek medical assistance once symptoms are already visible, meaning the disease is caught late. The narrator suggests that if genetic-level screening were done much earlier, outcomes could be much better.
 
-**[00:32] Democratizing Research with AI Tools**
+### Democratizing Research with AI Tools [00:32](https://www.youtube.com/watch?v=exh1vwGlrSo&t=32s)
 The narrative shifts to the research being done to identify targets that could be used for cancer vaccines. Previously, this type of research would have been conducted abroad in environments with the necessary resources. Now, tools like AlphaFold allow this research to be done locally in Uganda. The capital cost is much less; a researcher only needs a laptop connected to a server to access powerful technology. The team identified a protein that is highly expressed among breast cancer patients, which could be life-changing if validated in the lab.
 
-**[01:04] Narrowing Down Vaccine Targets**
+### Narrowing Down Vaccine Targets [01:04](https://www.youtube.com/watch?v=exh1vwGlrSo&t=64s)
 The researcher explains that the project involved 15,000 sites. Using AlphaFold, they were able to narrow this range down to just 15 sites. If these sites turn out to be effective, they could serve as candidates for vaccine development. The narrator credits Google DeepMind with democratizing the kind of science that can be done. The segment concludes with a vision of a cancer vaccine, representing a direct translation from their research to a public health impact both in Uganda and globally.
 
 ## Notable Quotes

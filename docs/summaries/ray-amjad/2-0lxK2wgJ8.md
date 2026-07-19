@@ -30,31 +30,31 @@ The AI coding community is undergoing a paradigm shift from manually prompting a
 
 ## Detailed Breakdown
 
-**[00:00] The Paradigm Shift to Loop Engineering**
+### The Paradigm Shift to Loop Engineering [00:00](https://www.youtube.com/watch?v=2-0lxK2wgJ8&t=0s)
 Ray opens by describing a widespread realization over the past 24 hours: developers should stop manually prompting agents and instead design loops that prompt agents for them. This idea was catalyzed by Boris Czerny's interview and echoed by an OpenAI creator. Ray notes he has been teaching this for over three months in his masterclass and runs loops daily, including one that ran 19 hours verifying 500+ user flows and another that ran 11 hours fixing issues found by the first.
 
-**[01:05] The Three Stages of AI Coding Evolution**
+### The Three Stages of AI Coding Evolution [01:05](https://www.youtube.com/watch?v=2-0lxK2wgJ8&t=65s)
 Stage 1 was AI autocomplete—writing a line and letting it finish the function. Stage 2, where most people currently sit, involves juggling multiple agent windows and manually prompting each one. Stage 3, championed by Boris, involves writing loops that themselves prompt agents. Boris's loops include scanning GitHub for issues and fixing them, monitoring Slack for team activity, and watching Twitter to decide what to build next for Claude Code.
 
-**[02:11] Concrete Loop Examples**
+### Concrete Loop Examples [02:11](https://www.youtube.com/watch?v=2-0lxK2wgJ8&t=131s)
 Ray shares a scheduled loop that every 24 hours checks Sentry for issues affecting 20+ users and auto-creates a PR fixing each one. He references several loop implementations: the `/loop` and `/goal` commands in Claude Code, Andrej Karpathy's AutoResearch (which optimizes code against a benchmark and keeps or discards changes based on results), and the RALPH loop from January (breaking big tasks into small ones in fresh context windows). Ray used `/goal` to optimize Gemma 4 for local execution, where the loop tried many approaches and kept only what worked.
 
-**[03:53] The Anatomy of a Manual Loop**
+### The Anatomy of a Manual Loop [03:53](https://www.youtube.com/watch?v=2-0lxK2wgJ8&t=233s)
 Ray walks through a typical manual workflow: collaborating with an agent to write a spec, prompting it to implement, running `/code-review` (which spins up subagents to find issues), prompting fixes, re-reviewing, then running tests in Chrome with screen recordings, fixing what breaks, merging the PR, and running periodic error checks. He highlights that this is already two manual loops—code review/fix and verification/fix—and a larger loop wrapping both. The key shift in Stage 3 is making this entire cycle one automated loop where the unit of work is the loop, not the prompt.
 
-**[06:41] Designing a Loop as a Unit of Work**
+### Designing a Loop as a Unit of Work [06:41](https://www.youtube.com/watch?v=2-0lxK2wgJ8&t=401s)
 A loop's design includes inputs (e.g., a spec you still write yourself), actions, checks, memory storage, exit conditions, and output surfacing (Slack, Telegram, etc.). The output should be a merged PR plus screen recordings proving the feature works. Ray notes you can design loops collaboratively with an agent and announces his "Loopy AI" masterclass launching the following Monday, covering these concepts in depth with live office hours and a 30-day money-back guarantee.
 
-**[08:50] Outer Loops Managing Inner Loops**
+### Outer Loops Managing Inner Loops [08:50](https://www.youtube.com/watch?v=2-0lxK2wgJ8&t=530s)
 The next level is an outer loop that feeds new specs to the inner implementation loop. For example, an outer loop monitors competitor LinkedIn, X, and changelogs daily, uses browser/computer use to explore new features, inspects network logs, writes a spec for the same feature, and—with human approval—triggers the inner loop to build it. Additional examples include an outer loop scanning arXiv for ML strategies to feed an inner optimization loop, and a non-technical example of an outer loop monitoring fake inboxes for competitor cold email campaigns to feed an inner auto-research loop improving email copy.
 
-**[11:00] Memory for Stateless Loops**
+### Memory for Stateless Loops [11:00](https://www.youtube.com/watch?v=2-0lxK2wgJ8&t=660s)
 Every loop run is stateless, so memory is critical. Ray's Sentry-fixing loop uses Git commits to know which issues were already addressed. External memory layers like Airtable can be connected to Claude Code routines via connectors, with instructions to check Airtable before running. Ray particularly likes using Slack channels as both a memory layer—the loop reads its own previous messages—and a decision surface—he reacts with emoji (e.g., number 4) to select a recommendation, and the next loop run reads the reaction and executes that choice.
 
-**[13:05] Managing Entropy and Slop**
+### Managing Entropy and Slop [13:05](https://www.youtube.com/watch?v=2-0lxK2wgJ8&t=785s)
 Agents compress work into shorter timeframes, accelerating entropy. Without checks, slop compounds. Ray recommends adversarial code reviews within loops and external oracles—test pass rates, production errors, Stripe revenue, real reply rates—to ground loops in reality. Boris frames loops as the next abstraction layer after punch cards, assembly, C, frameworks like Rails/Next.js, and prompts. Eventually you stop running things and instead design what runs.
 
-**[14:42] Meta-Loops and Token Economics**
+### Meta-Loops and Token Economics [14:42](https://www.youtube.com/watch?v=2-0lxK2wgJ8&t=882s)
 The future involves meta-loops that inspect your organization and existing loops, identify which are impacting the bottom line, and propose new ones—though models lack sufficient "taste" to fully automate this, so humans would filter 10–20 recommendations down to the best. Ray cautions about token economics: one loop consumed 4.1 million tokens, but he judged it economically valuable because the return exceeded the cost. He closes by promoting his newsletter and the discounted Loopy AI class.
 
 ## Notable Quotes

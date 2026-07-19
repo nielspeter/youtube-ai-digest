@@ -31,40 +31,40 @@ Anthropic added support for nested subagents in Claude Code, allowing subagents 
 
 ## Detailed Breakdown
 
-**[00:00] Why Subagents Matter**
+### Why Subagents Matter [00:00](https://www.youtube.com/watch?v=i4fMF1pug3w&t=0s)
 The presenter opens by announcing that Anthropic now supports nested subagents in Claude Code, jokingly claiming credit after tweeting the suggestion. He recaps why subagents exist: agents like Claude Code call many tools, filling the main context window with noise, which degrades decision quality. Delegating noisy tool calls to subagents keeps the main context lean and high-signal.
 
-**[01:30] The Problem Nested Subagents Solve**
+### The Problem Nested Subagents Solve [01:30](https://www.youtube.com/watch?v=i4fMF1pug3w&t=90s)
 Claude Code already delegates noisy work to subagents by default. However, if a subagent itself needs to explore a new path or verify something, doing so inside its own context can make it noisy and ineffective. Nested subagents solve this by letting a subagent spawn another subagent, keeping each layer's context clean.
 
-**[02:00] How Nesting Works, Up to 5 Layers Deep**
+### How Nesting Works, Up to 5 Layers Deep [02:00](https://www.youtube.com/watch?v=i4fMF1pug3w&t=120s)
 A level 1 subagent can delegate to a level 2 subagent, which can delegate to level 3, and so on, up to 5 layers. Results bubble back up: level 2 returns to level 1, which returns to the main session. The presenter notes that powerful models like the new "Fable-5" may eventually do this automatically, but for now manual prompting or overriding may be needed.
 
-**[03:07] Codex Already Supported This**
+### Codex Already Supported This [03:07](https://www.youtube.com/watch?v=i4fMF1pug3w&t=187s)
 The Codex app has supported nested subagents for a while via a `max_depth` parameter in its config file, defaulting to 1. Adding the right line under the agents section enables deeper nesting.
 
-**[03:50] Use Case: Parallel Article Fact-Checking**
+### Use Case: Parallel Article Fact-Checking [03:50](https://www.youtube.com/watch?v=i4fMF1pug3w&t=230s)
 One practical workflow is loading a folder of articles, assigning one subagent per article to extract major claims, and then having each of those spawn layer 2 subagents to verify claims by searching online or through a knowledge base. This runs in parallel across all articles, keeping noisy research out of the main context.
 
-**[05:00] Use Case: Legal Contract Blast-Radius Analysis**
+### Use Case: Legal Contract Blast-Radius Analysis [05:00](https://www.youtube.com/watch?v=i4fMF1pug3w&t=300s)
 For legal work with multiple contracts, a layer 1 subagent per contract considers implications of a goal. Layer 2 subagents measure the "blast radius"—what else needs to change—potentially searching emails or past correspondence. If online verification is needed, a layer 3 agent can handle that. This enables second- and third-order effect analysis in parallel.
 
-**[06:13] Use Case: Multi-Layer Debugging**
+### Use Case: Multi-Layer Debugging [06:13](https://www.youtube.com/watch?v=i4fMF1pug3w&t=373s)
 In a debugging flow, a layer 1 agent loads a new incident and identifies potential causes. Layer 2 agents fan out to search the codebase in parallel, and one may delegate to a layer 3 agent to cross-check server logs. This helps uncover deeper underlying problems that a single-context approach might miss, while barely consuming the main context window.
 
-**[07:20] Prompting for Nested Behavior Today**
+### Prompting for Nested Behavior Today [07:20](https://www.youtube.com/watch?v=i4fMF1pug3w&t=440s)
 Models haven't yet fully reached the point where they automatically spawn nested subagents. Users may need to design prompts or skills explicitly to trigger this behavior until reinforcement learning environments catch up.
 
-**[07:30] Course Promotion: Loopy AI and Classes**
+### Course Promotion: Loopy AI and Classes [07:30](https://www.youtube.com/watch?v=i4fMF1pug3w&t=450s)
 The presenter promotes his paid classes, currently at a 30% discount, including a new "Loopy AI" course about running AI agents in loops. Subscribers get access to nearly 300 videos, a 30-day money-back guarantee, team discounts, and an MCP server integration that recommends videos based on the user's current project.
 
-**[08:40] Use Case: Comparing Skills in Parallel**
+### Use Case: Comparing Skills in Parallel [08:40](https://www.youtube.com/watch?v=i4fMF1pug3w&t=520s)
 You can load multiple skills that do similar jobs—such as code review—into separate layer 1 subagents, each spawning their own subagents. For example, comparing Cursor's "Thermonuclear Code Quality Review" against Claude Code's built-in `code-review` skill, then asking Claude Code to judge which produced better results.
 
-**[10:00] Use Case: Iterative Skill Optimization**
+### Use Case: Iterative Skill Optimization [10:00](https://www.youtube.com/watch?v=i4fMF1pug3w&t=600s)
 Inspired by a recent Microsoft paper on automatic skill prompt optimization, the presenter describes running nested subagents to iteratively test and improve a skill overnight. Claude Code writes version 2, runs it, evaluates, and repeats—potentially arriving at a consistently better skill after many iterations.
 
-**[11:10] Real-World Skill Enhancement and Sharing**
+### Real-World Skill Enhancement and Sharing [11:10](https://www.youtube.com/watch?v=i4fMF1pug3w&t=670s)
 The presenter used Codex's nested subagents to optimize the Claude Code team's "Spec Developer" skill, producing an enhanced version he calls "Spec Developer Enhanced." With the new Fable-5 model and nested subagents, he plans to enhance more skills and share them on GitHub. He also mentions a free newsletter linked below.
 
 ## Notable Quotes

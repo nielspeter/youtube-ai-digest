@@ -32,46 +32,46 @@ Senthil and Akash from Rippling share lessons from building Rippling AI, an assi
 
 ## Detailed Breakdown
 
-**[00:06] Introduction and the HR problem**
+### Introduction and the HR problem [00:06](https://www.youtube.com/watch?v=3lb_4OEOykc&t=6s)
 Senthil introduces himself and Akash, who build AI products at Rippling. He asks the audience if they've heard of Rippling, then sets up the core problem: an HR leader at a company with thousands of employees across countries, departments, and access controls is flooded with requests—spend reports from the CEO, payroll discrepancies from employees—and the answers are scattered across systems and spreadsheets. Getting them quickly and accurately is tedious.
 
-**[01:11] The vision: just ask your system**
+### The vision: just ask your system [01:11](https://www.youtube.com/watch?v=3lb_4OEOykc&t=71s)
 Senthil poses the question: what if you could just ask your system and get the answer? This sets up the motivation for Rippling AI.
 
-**[02:10] Rippling AI and the employee graph**
+### Rippling AI and the employee graph [02:10](https://www.youtube.com/watch?v=3lb_4OEOykc&t=130s)
 The key enabler is Rippling's architecture from day one: employee data sits at the center (the "employee graph"), with all products connected around it. A change to an employee is reflected everywhere. Putting an AI layer on top of this already-organized data is what makes Rippling AI work. Senthil notes it's one of the most successful launches in his six and a half years at the company.
 
-**[03:12] Architecture overview**
+### Architecture overview [03:12](https://www.youtube.com/watch?v=3lb_4OEOykc&t=192s)
 The Rippling backend (employee graph + applications + data) is represented as one block. The agent is built with LangGraph. There's a top agent handling orchestration, and three main blocks: entity resolution (resolving a first name to an employee ID), tool selection (selecting the right tools and bringing in domain context via skills and SOPs), and a flat agent with generic tools that connects to the employee graph to fetch data and operate workflows.
 
-**[04:52] From multi-agent to flat agent**
+### From multi-agent to flat agent [04:52](https://www.youtube.com/watch?v=3lb_4OEOykc&t=292s)
 Initially, with hundreds of engineers and vastly different products, the team tried a top-level assistant agent with many sub-agents (one per team). This didn't work well due to problems with context sharing, handoffs, interrupt handling, and queries spanning multiple sub-agents. The solution was to flatten everything into one agent, injecting domain context only through declarative skills and SOPs. The message history the user sees is the same as what the LLM sees, and performance improved.
 
-**[05:58] From many tools to generic, composable tools**
+### From many tools to generic, composable tools [05:58](https://www.youtube.com/watch?v=3lb_4OEOykc&t=358s)
 Each team initially built its own tools, creating a large catalog that made tool selection sensitive and error-prone. The team moved toward generic tools—for example, one `get-data` method where "employee," "device," or "taxes" becomes a parameter. This echoes the Unix philosophy: do simple things well and let the agent compose them.
 
-**[07:00] Data accuracy and the SQL approach**
+### Data accuracy and the SQL approach [07:00](https://www.youtube.com/watch?v=3lb_4OEOykc&t=420s)
 People primarily use the assistant to ask data questions—payroll, benefits, aggregated reports—and the data cannot be wrong. Stuffing raw data into the LLM context risks hallucinations. Instead, Rippling gives the LLM the schema, the data shape, and the query; the LLM writes SQL, which the system executes. The data itself stays out of the context window.
 
-**[08:02] SQL is more powerful than bespoke tools**
+### SQL is more powerful than bespoke tools [08:02](https://www.youtube.com/watch?v=3lb_4OEOykc&t=482s)
 Senthil gives the example query: "why weren't the benefits deductions withheld for a given employee?" Under the hood this requires data about the employee (location, entitlements, HRIS), benefits, and payroll. Instead of orchestrating many tools, one generic SQL-executing tool lets the LLM write a single query to pull everything. LLMs are very good at writing SQL. This reduced the number of tools and the risk of wrong tool selection.
 
-**[09:05] Caching for iteration and follow-ups**
+### Caching for iteration and follow-ups [09:05](https://www.youtube.com/watch?v=3lb_4OEOykc&t=545s)
 Querying the core data lake is costly in dollars and time. Rippling caches the data once and lets the LLM explore—writing a query, seeing errors, iterating—similar to how Claude Code or other agents work. Caching is especially powerful when the same data is needed for follow-up questions or when two hypotheses are being tested.
 
-**[10:07] Evals first and build next**
+### Evals first and build next [10:07](https://www.youtube.com/watch?v=3lb_4OEOykc&t=607s)
 The team follows eval-driven development (EDD), analogous to TDD but harder due to LLM stochasticity. You don't write evals before the agent exists, but once a version is running, any meaningful change—system prompt, tool, tool description, skill—must be validated by evals. Intuition isn't enough; evals tell the truth.
 
-**[11:09] Repetitions and Wilson's confidence interval**
+### Repetitions and Wilson's confidence interval [11:09](https://www.youtube.com/watch?v=3lb_4OEOykc&t=669s)
 A single passing eval doesn't prove a 100% success rate. The team uses Wilson's confidence interval: at 95% confidence, 1 out of 1 passing could mean a lower bound of ~20%, and 3 out of 3 could still be as low as ~44%. More repetitions converge toward the true pass rate. The number of reps needed depends on your baseline, how small a regression you want to detect, and your tolerance for false positives.
 
-**[13:18] The tradeoff triangle: cost, uncertainty, lag**
+### The tradeoff triangle: cost, uncertainty, lag [13:18](https://www.youtube.com/watch?v=3lb_4OEOykc&t=798s)
 You can only optimize two of three: cost (more reps = more money), uncertainty (more reps = more confidence), and lag (how quickly you detect a regression). Rippling runs cheap "smoke evals" on every commit (low cost, low lag, higher uncertainty) and more thorough "health evals" twice a day before production (higher lag, lower uncertainty, controlled cost). Once health evals pass, changes go to production.
 
-**[15:23] Production learnings and data handling**
+### Production learnings and data handling [15:23](https://www.youtube.com/watch?v=3lb_4OEOykc&t=923s)
 Every domain is different; you need custom tooling to explore your data and understand failures. Rippling keeps production data (including PII) in a "vault workspace" and synthesizes it into representative test data rather than working with customer data directly. Learnings from production feed back into improving the eval suite.
 
-**[15:56] Final recommendations**
+### Final recommendations [15:56](https://www.youtube.com/watch?v=3lb_4OEOykc&t=956s)
 Senthil wraps up with three lessons: (1) keep agents flat and get glue code out of the LLM's way—this will keep changing as models improve; (2) build generic, composable tools and let the model query via SQL when possible; (3) practice eval-driven development, testing every change and choosing your tradeoff among cost, uncertainty, and lag.
 
 ## Notable Quotes

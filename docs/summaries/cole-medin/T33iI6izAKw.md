@@ -31,40 +31,40 @@ Cole Medin introduces Google's Open Knowledge Format (OKF), an open standard bui
 
 ## Detailed Breakdown
 
-**[00:00] The Karpathy LLM Wiki and Its Missing Standard**
+### The Karpathy LLM Wiki and Its Missing Standard [00:00](https://www.youtube.com/watch?v=T33iI6izAKw&t=0s)
 Cole opens by recalling Andrej Karpathy's LLM Wiki idea—a single markdown gist (reaching 40,000 stars) that lets you hand a coding agent a file and have it build a personal knowledge base. Instead of dumping documents for RAG, the LLM incrementally builds and maintains a persistent wiki of interlinked markdown files, extracting key information and updating entity pages over time. The problem: everyone's agent structures wikis differently, so there's no reliable way to share knowledge bases across agents or teams.
 
-**[02:05] Enter Google's Open Knowledge Format (OKF)**
+### Enter Google's Open Knowledge Format (OKF) [02:05](https://www.youtube.com/watch?v=T33iI6izAKw&t=125s)
 Google released OKF, a simple open standard ensuring wikis are built in a way other agents can understand. Cole frames it as the future of personal agents, analogous to what MCP did for tool communication. He acknowledges Google is lagging in the LLM model race but praises their work on how to leverage LLMs effectively. OKF standardizes two things: how information is organized (entity documents, concepts) and the exact metadata fields at the top of every document.
 
-**[04:09] Anatomy of a Traditional Karpathy Wiki**
+### Anatomy of a Traditional Karpathy Wiki [04:09](https://www.youtube.com/watch?v=T33iI6izAKw&t=249s)
 Cole shows an example of a wiki he built from Karpathy's gist. It has an index file at the top that the agent reads first, giving a high-level overview of all documents and summaries. The agent drills down into entity documents based on user questions. Metadata like title and tags enables categorical filtering. Related concepts are linked at the bottom, creating a graph view. Cole emphasizes that the LLM handles all the tedious maintenance—users don't need to be technical.
 
-**[06:14] Why the Lack of Standard Compounds Problems**
+### Why the Lack of Standard Compounds Problems [06:14](https://www.youtube.com/watch?v=T33iI6izAKw&t=374s)
 Even small differences—like using `categories` instead of `tags`—can break cross-agent search. If you hand your knowledge base to someone else's agent, it may not know how to navigate the metadata or folder structure. These little incompatibilities compound, which is exactly what OKF aims to solve.
 
-**[06:45] Getting Started with OKF via spec.md**
+### Getting Started with OKF via spec.md [06:45](https://www.youtube.com/watch?v=T33iI6izAKw&t=405s)
 To build or refactor a wiki with OKF, you copy the OKF `spec.md` from their repo and paste it into your coding agent. The spec teaches the agent everything: terminology, bundle structure, YAML front matter, and metadata attributes. Because the format is simple, modern LLMs can handle the spec easily. For large existing knowledge bases, you can ask the agent to use sub-agents to refactor section by section.
 
-**[08:18] Sponsor Segment: Post Hog**
+### Sponsor Segment: Post Hog [08:18](https://www.youtube.com/watch?v=T33iI6izAKw&t=498s)
 Cole transitions to a sponsored segment for Post Hog, an analytics and observability platform. He shares that he uses it himself in Archon, his open-source AI coding harness, relying on daily dashboards to understand user behavior and debug issues. Post Hog offers an "install with AI" button and a wizard that acts like a senior engineer setting up analytics in minutes.
 
-**[09:51] OKF as a Dual Standard: Consuming and Producing**
+### OKF as a Dual Standard: Consuming and Producing [09:51](https://www.youtube.com/watch?v=T33iI6izAKw&t=591s)
 OKF is a standard both for consuming knowledge bases (searching through them) and producing them (evolving wikis over time, building entity pages). Cole argues that even if you never share a wiki, the standard lets people exchange ideas about effective entity page patterns. He predicts OKF or something like it will evolve into a widely adopted standard for personal agents.
 
-**[11:25] A Gift: Cole's AI Coding Knowledge Bundle**
+### A Gift: Cole's AI Coding Knowledge Bundle [11:25](https://www.youtube.com/watch?v=T33iI6izAKw&t=685s)
 Cole shares a GitHub repo containing an OKF bundle packaging his favorite AI coding YouTube videos. Viewers can give the OKF spec to their coding agent, then point it at the repo with a prompt. The agent reads the README, sets everything up, and imports the bundle into the viewer's local Obsidian, Notion, or other knowledge manager—no manual transcript importing required. Cole sees this as a new way for content creators to share knowledge.
 
-**[12:57] How Cole Organizes OKF Bundles in His Second Brain**
+### How Cole Organizes OKF Bundles in His Second Brain [12:57](https://www.youtube.com/watch?v=T33iI6izAKw&t=777s)
 Cole shows his personal second brain setup: a top-level document explaining how he works with OKF bundles, an index of all bundles, and a simple CLI script (included in the example repo) to list bundles, view indexes, and read specific concepts by bundle and concept ID. This adds a thin organizational layer on top of OKF without deviating from the format.
 
-**[14:27] Inside the Example Bundle**
+### Inside the Example Bundle [14:27](https://www.youtube.com/watch?v=T33iI6izAKw&t=867s)
 The example bundle has two sections: videos and concepts. The index lists sections rather than every individual file, letting the agent list files or read sub-indexes as needed. Cole shows a concept page on the "PIV loop" (Plan, Implement, Validate)—his primary mental model for AI coding. The YAML front matter includes the required `type` field and optional fields like `title`, `tags`, and `related_videos` that standardize how entities link together.
 
-**[16:29] Live Demo: Querying the Bundle**
+### Live Demo: Querying the Bundle [16:29](https://www.youtube.com/watch?v=T33iI6izAKw&t=989s)
 In his terminal, Cole asks what bundles he has; the agent uses the CLI tool to list them. He then asks, "What's Cole's single biggest idea for getting reliable code out of an AI coding assistant?" without specifying a bundle. The agent reads the Cole AI coding index, drills into the concepts section, identifies "context engineering" as key, reads that concept page, and returns an answer. Cole highlights the beauty of progressive disclosure—the agent starts with minimal context and narrows down precisely.
 
-**[17:31] Addressing the "Too Simple" Critique**
+### Addressing the "Too Simple" Critique [17:31](https://www.youtube.com/watch?v=T33iI6izAKw&t=1051s)
 Cole acknowledges a valid critique: OKF doesn't add much substance beyond the Karpathy wiki—just folder/index organization and recommended metadata fields. But he argues this minimal, minimally opinionated design is the point: it's the bare minimum layer needed for everyone's agents to produce and consume wikis consistently. He encourages viewers to try the example bundle and experience the ease of querying firsthand.
 
 ## Notable Quotes

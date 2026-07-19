@@ -31,34 +31,34 @@ Amy and Sean from LangChain answer the web's most searched questions about AI ag
 
 ## Detailed Breakdown
 
-**[00:00] Intro & What Is an Agent?**
+### Intro & What Is an Agent? [00:00](https://www.youtube.com/watch?v=kkL_y5t1jo4&t=0s)
 Amy and Sean introduce the format: answering the internet's most searched questions about agents. The first question asks what an agent actually is. Sean explains that "agent" isn't just a buzzword—at its core, an agent is an LLM running in a loop with the ability to call tools (functions). The model picks a tool, examines the result, and then either produces a final answer or calls another tool. That "decide, act, reason, repeat" loop is what defines an agent.
 
-**[01:05] What Is RAG?**
+### What Is RAG? [01:05](https://www.youtube.com/watch?v=kkL_y5t1jo4&t=65s)
 Amy describes Retrieval Augmented Generation as giving a model an open-book test rather than requiring it to memorize everything. Since models are trained on public data, they lack context about private information like company docs or customer history. RAG retrieves relevant information and injects it into the model's context right before it answers.
 
-**[01:35] What Is MCP?**
+### What Is MCP? [01:35](https://www.youtube.com/watch?v=kkL_y5t1jo4&t=95s)
 Sean compares MCP (Model Context Protocol) to a USB-C cable for agents. Before MCP, every tool connection had to be custom-built—one integration per database, API, or file system. MCP provides a standard plug that any compliant model can use: write the server once, connect it to everything. It has quickly become the default for how agents interact with external systems.
 
-**[02:06] Why Do Agents Hallucinate?**
+### Why Do Agents Hallucinate? [02:06](https://www.youtube.com/watch?v=kkL_y5t1jo4&t=126s)
 Sean clarifies that technically the model hallucinates, not the agent itself—LLMs are "glorified word guessers" that sound equally confident whether right or wrong. Agents make this more dangerous because errors compound: a hallucinated fact in step two poisons everything downstream, and the loop amplifies the mistake. This is why you can't just "vibe check" an agent; you need evals to verify it actually works.
 
-**[02:37] What Is the Agent Development Lifecycle?**
+### What Is the Agent Development Lifecycle? [02:37](https://www.youtube.com/watch?v=kkL_y5t1jo4&t=157s)
 Amy outlines four phases: build in code (using a framework like Deep Agents), test with real inputs and expected outputs, deploy into production, and monitor with tracing and evals. Sean notes they literally have this on a poster.
 
-**[03:07] What Is Memory?**
+### What Is Memory? [03:07](https://www.youtube.com/watch?v=kkL_y5t1jo4&t=187s)
 Sean explains that memory is how agents hold onto information beyond a single run. Short-term memory is the context window—everything in scope right now, like remembering what you had for breakfast. Long-term memory persists across runs: user preferences, past decisions, and learned facts, like remembering a parent's birthday every year.
 
-**[03:37] What Is Human in the Loop?**
+### What Is Human in the Loop? [03:37](https://www.youtube.com/watch?v=kkL_y5t1jo4&t=217s)
 Amy describes human-in-the-loop as a design pattern where the agent pauses and waits for human approval before taking a next action. The best production agents use this deliberately—letting the agent handle routine work but interrupting for high-stakes actions (like sending a message on someone's behalf). She emphasizes that the best teams aren't going for full autonomy on day one; they're building systems where humans and agents divide work intelligently.
 
-**[04:42] How Do You Evaluate an Agent?**
+### How Do You Evaluate an Agent? [04:42](https://www.youtube.com/watch?v=kkL_y5t1jo4&t=282s)
 Sean calls this a "spicy" topic and advocates strongly for agent evals. Unlike traditional software where specific inputs yield expected outputs, agents deal with natural language inputs and non-deterministic outputs. Instead of testing for exact matches, you define what "good" looks like for your use case, potentially using an LLM-as-judge to evaluate individual steps. You build a dataset of real-world examples and edge cases, then run those tests every time you change the agent. Amy adds that evals should run continuously—not just before shipping—so you catch regressions immediately when tweaking prompts or swapping models. Sean compares evals to a muscle: build it early and run it constantly, because the alternative is discovering your agent started recommending the wrong product three weeks ago via a customer complaint.
 
-**[05:45] What Is LangChain?**
+### What Is LangChain? [05:45](https://www.youtube.com/watch?v=kkL_y5t1jo4&t=345s)
 Amy calls this her favorite question. LangChain started as an open-source framework that predates ChatGPT, helping engineers wrangle LLMs before "prompt" was a household word. As developers wanted to build agents, LangChain released LangGraph, an agent runtime and low-level orchestration framework. Since then, the company has evolved beyond an open-source framework to serve the full agent development lifecycle: building (LangChain, LangGraph, Deep Agents), testing (evals, regression testing), deployment (LangSmith deployments), and monitoring (also through evals and LangSmith). Both Amy and Sean stress that building the agent is the fun, easy part—keeping it from going sideways in production is the hard, more important part. Over 7,000 organizations, including NVIDIA, Bridgewater, and Harvey, use LangSmith to ship agents that hold up in production.
 
-**[07:21] How Do I Get Started Building Agents?**
+### How Do I Get Started Building Agents? [07:21](https://www.youtube.com/watch?v=kkL_y5t1jo4&t=441s)
 Amy offers two paths. For developers comfortable with code, Deep Agents is the easiest starting point, with built-in task planning, file systems for context management, sub-agents, and long-term memory. For those new to agents or who prefer no code, Fleet lets you build agents using natural language—describe what you want, and Fleet builds it, then lets you share it across your team. Either way, you can integrate into LangSmith for testing, deploying, and monitoring. Amy highlights that LangSmith identifies where decisions went wrong and what the agent was reasoning, and it works with any framework or model—not just LangChain's own tools. The video closes with a plug for LangChain Academy for full-length courses.
 
 ## Notable Quotes

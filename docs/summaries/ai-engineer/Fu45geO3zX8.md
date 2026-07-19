@@ -31,40 +31,40 @@ Armanas Povilionis from Alithea Bio argues that giving AI agents more tools is i
 
 ## Detailed Breakdown
 
-### [00:00] Introduction and the Gap in Agentic Automation
+### Introduction and the Gap in Agentic Automation [00:00](https://www.youtube.com/watch?v=Fu45geO3zX8&t=0s)
 Armanas introduces himself and Alithea Bio, which works on immuno-oncology and immunopeptidomics while also providing agentic AI solutions to clients. He identifies a gap in current agent approaches: while scientific research automation seems like a prime use case for agents, simply adding more tools is insufficient because science—particularly life sciences—is an inherently collaborative process requiring a verifiable chain of receipts to ensure trust and repeatability.
 
-### [01:30] The Cook vs. Chef Metaphor
+### The Cook vs. Chef Metaphor [01:30](https://www.youtube.com/watch?v=Fu45geO3zX8&t=90s)
 He uses a kitchen analogy to frame the problem. Agents today are like cooks—giving them better tools (knives, pans, ovens) improves local speed and quality, but only locally. Scientific work is more like running a Michelin-star restaurant: outcomes depend on suppliers, service quality, and the ability to consistently reproduce results. The challenge is not local tools but aligning an entire supply chain so it is repeatable and consistent across organizations.
 
-### [03:00] The Vision: Agents with Budgets
+### The Vision: Agents with Budgets [03:00](https://www.youtube.com/watch?v=Fu45geO3zX8&t=180s)
 Today's agents have many tools, while data and specialized analytics remain siloed across organizations. Armanas envisions that as agent workflows mature, organizations will give agents not just tools but budgets—beyond simple token allocations, agents will manage budgets to discover services, request data, negotiate terms, and pay for work across organizational boundaries. At that point, an agent evolves from a cook into an executive chef who finds suppliers, orders ingredients, coordinates work, and keeps records.
 
-### [04:30] Introducing Froglet
+### Introducing Froglet [04:30](https://www.youtube.com/watch?v=Fu45geO3zX8&t=270s)
 Froglet is an open-source protocol for agents to discover, transact with, and receive verifiable receipts from external data and service providers. It is designed to sit between moving parts and integrate rather than replace—working with different payment rails, agent harnesses, execution environments, and transport protocols. No node needs to use the same software stack; everyone just needs to use the same interface. It can be installed locally with one command or run remotely with one prompt.
 
-### [06:00] Froglet vs. Traditional Enterprise Integration
+### Froglet vs. Traditional Enterprise Integration [06:00](https://www.youtube.com/watch?v=Fu45geO3zX8&t=360s)
 Closed-source collaboration typically becomes a bespoke enterprise project taking years and costing millions before any reusable workflow exists. Froglet's mission is to make the transaction layer much lighter: once an organization exposes a shareable resource on Froglet, an agent can discover it, understand terms, request work, and receive a verifiable receipt—costing a few thousand tokens and taking minutes.
 
-### [07:00] Website Tour and Architecture Overview
+### Website Tour and Architecture Overview [07:00](https://www.youtube.com/watch?v=Fu45geO3zX8&t=420s)
 Armanas shows the Froglet homepage, noting it is designed primarily for agent use with supporting human documentation. He explains the architecture: every Froglet node is the same software, just playing different roles—provider, requester, or marketplace (a marketplace is itself just a Froglet node providing discovery services). Froglet's core functions are to help find, trust, pay for, and prove that work happened. Each node generates a key pair for identity and signing, creating a signed chain where validity requires no tampering. Providers publish services to the marketplace; requesters query the marketplace for available services; once a service is identified, communication is direct and peer-to-peer with no third party involved.
 
-### [09:30] Agent Integration via MCP
+### Agent Integration via MCP [09:30](https://www.youtube.com/watch?v=Fu45geO3zX8&t=570s)
 Froglet integrates with agent execution environments and harnesses—mentioned examples include Open Claw and Nemo Claw—and acts as an MCP server or plugin. The primary interface for humans should be an LLM that drives Froglet usage, whether the human is acting as a provider or requester.
 
-### [10:30] Live Demo: Remote Execution
+### Live Demo: Remote Execution [10:30](https://www.youtube.com/watch?v=Fu45geO3zX8&t=630s)
 Armanas demonstrates Froglet running on a remote server at try.froglet.com.dev, where users can get a 15-minute trial identity. He creates a temporary token, accesses a provider token for a simple "add two numbers" service, constructs a payload specifying the schema, service, provider, and inputs (7 and 5), submits it, and polls for the result. The service returns 12, confirming the full discover-execute-receipt loop works remotely.
 
-### [13:40] Live Demo: Local Installation
+### Live Demo: Local Installation [13:40](https://www.youtube.com/watch?v=Fu45geO3zX8&t=820s)
 He clears his directory and runs a one-command install (`HBS Froglet Dev Agent`) which downloads and runs Froglet in Docker. He shows two Froglet instances running locally on the same ports and IP addresses but sharing the same node ID—demonstrating that a single node can simultaneously assume multiple roles (provider and consumer).
 
-### [15:00] Live Demo: Claude Agent Interaction
+### Live Demo: Claude Agent Interaction [15:00](https://www.youtube.com/watch?v=Fu45geO3zX8&t=900s)
 Armanas opens Claude with the Froglet MCP server enabled. He instructs Claude to use only the MCP tools (not install anything), then asks it to perform a multi-step task: check node health, publish an "add two numbers" service from a template, discover and invoke that service locally with inputs 5 and 7, and show the output. Claude successfully executes all steps and returns the result: 12.
 
-### [17:30] Broader Use Cases and Context Management
+### Broader Use Cases and Context Management [17:30](https://www.youtube.com/watch?v=Fu45geO3zX8&t=1050s)
 He emphasizes that Froglet can wrap any resource—databases with row-by-row paid access, GPUs accepting computation requests, and more. Critically, it packages underlying protocols (receipts, payments, execution environments, negotiation, marketplace) so that the LLM context is not stuffed with all these details; the agent simply interacts with services while the infrastructure is hidden underneath.
 
-### [18:30] Closing Summary and Call to Action
+### Closing Summary and Call to Action [18:30](https://www.youtube.com/watch?v=Fu45geO3zX8&t=1110s)
 Froglet provides three core capabilities: finding resources outside organizational boundaries, executing remote commands, and generating verifiable receipts of what happened. Together, these enable collaborative science and perpetual science automation. Armanas invites the audience to join via Froglet, Alithea Bio, or GitHub.
 
 ## Notable Quotes

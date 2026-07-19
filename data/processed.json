@@ -3090,6 +3090,16 @@
       "published": "2026-07-18T23:30:06+00:00",
       "url": "https://www.youtube.com/watch?v=XLEYtv3cMlw",
       "generated": "2026-07-19T03:47:22+00:00"
+    },
+    "-sYhcsy5OwI": {
+      "video_id": "-sYhcsy5OwI",
+      "title": "Edouard Maleix - How AI-First Dev Teams Build Collective Intelligence — One Attributed Mistake at",
+      "channel": "AI Native Dev",
+      "published": "2026-07-19T06:01:20+00:00",
+      "url": "https://www.youtube.com/watch?v=-sYhcsy5OwI",
+      "channel_slug": "ai-native-dev",
+      "status": "no_transcript",
+      "attempts": 1
     }
   }
 }

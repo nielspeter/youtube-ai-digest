@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **207** videos summarized.
+Auto-generated summaries of subscribed channels. **208** videos summarized.
 
 ## AI Engineer
 
@@ -56,6 +56,7 @@ Auto-generated summaries of subscribed channels. **207** videos summarized.
 ## AI Native Dev
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-native-dev/-sYhcsy5OwI"><img loading="lazy" src="https://i.ytimg.com/vi/-sYhcsy5OwI/hqdefault.jpg" alt=""><span class="video-title">Edouard Maleix - How AI-First Dev Teams Build Collective Intelligence — One Attributed Mistake at</span><span class="video-date">2026-07-19</span></a>
 <a class="video-card" href="summaries/ai-native-dev/-6SNbcE3C9o"><img loading="lazy" src="https://i.ytimg.com/vi/-6SNbcE3C9o/hqdefault.jpg" alt=""><span class="video-title">May Walter - From Blind Spots to Merged PRs: Runtime Intelligence for Continuous Agentic Performance</span><span class="video-date">2026-07-18</span></a>
 <a class="video-card" href="summaries/ai-native-dev/mB74LGAmmV0"><img loading="lazy" src="https://i.ytimg.com/vi/mB74LGAmmV0/hqdefault.jpg" alt=""><span class="video-title">Daniel Jones &amp; Tomasz Maj - More software, faster - Odevo&#x27;s AI Native transformation - AI DevCon &#x27;26</span><span class="video-date">2026-07-17</span></a>
 <a class="video-card" href="summaries/ai-native-dev/AHIY1XccX_E"><img loading="lazy" src="https://i.ytimg.com/vi/AHIY1XccX_E/hqdefault.jpg" alt=""><span class="video-title">Peter Wilson &amp; Davide Eynard - cq - Stack Overflow for Agents - AI Native DevCon June 2026</span><span class="video-date">2026-07-16</span></a>

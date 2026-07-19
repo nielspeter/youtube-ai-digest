@@ -4,11 +4,12 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **211** videos summarized.
+Auto-generated summaries of subscribed channels. **212** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/-561cZmir5Q"><img loading="lazy" src="https://i.ytimg.com/vi/-561cZmir5Q/hqdefault.jpg" alt=""><span class="video-title">From Tokens to Cells: Foundation Models for Single-Cell Biology - Akram Baharlouei, Altos Labs</span><span class="video-date">2026-07-19</span></a>
 <a class="video-card" href="summaries/ai-engineer/lMCxVorb9wM"><img loading="lazy" src="https://i.ytimg.com/vi/lMCxVorb9wM/hqdefault.jpg" alt=""><span class="video-title">You Didn&#x27;t Ship a Bug. You Just Wrote It for a Human. - Ravi Madabhushi, Scalekit</span><span class="video-date">2026-07-19</span></a>
 <a class="video-card" href="summaries/ai-engineer/JJGbw4ggaFs"><img loading="lazy" src="https://i.ytimg.com/vi/JJGbw4ggaFs/hqdefault.jpg" alt=""><span class="video-title">From Blind Spots to Merged PRs: Continuous Agentic Performance Optimization - May Walter, Hud</span><span class="video-date">2026-07-19</span></a>
 <a class="video-card" href="summaries/ai-engineer/3z2uT5aDx_Y"><img loading="lazy" src="https://i.ytimg.com/vi/3z2uT5aDx_Y/hqdefault.jpg" alt=""><span class="video-title">Build Evals That Actually Matter - Nick Ung, Lyft</span><span class="video-date">2026-07-19</span></a>

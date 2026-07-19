@@ -59,9 +59,17 @@ TARGET_SECONDS = 75
 OVERLAP_SECONDS = 15
 MAX_WORDS = 350
 
+def env(name: str, default: str | None = None) -> str | None:
+    """Treat an empty value as unset. GitHub Actions injects "" for a `vars.X`
+    that was never defined, which is not the same as the name being absent —
+    os.environ.get(name, default) would hand back the empty string."""
+    val = os.environ.get(name)
+    return val if val not in (None, "") else default
+
+
 # Embeddings. nv-embedqa-e5-v5 is asymmetric: passages and queries must be
 # encoded with different input_type or retrieval quality drops sharply.
-EMBED_MODEL = os.environ.get("EMBED_MODEL", "nvidia/nv-embedqa-e5-v5")
+EMBED_MODEL = env("EMBED_MODEL", "nvidia/nv-embedqa-e5-v5")
 EMBED_DIM = 1024
 EMBED_BATCH = 64  # 128 verified working; 64 keeps individual retries cheap
 
@@ -239,8 +247,8 @@ def cmd_build(args) -> None:
 def embed_texts(texts: list[str], input_type: str) -> np.ndarray:
     """Call the OpenAI-compatible embeddings endpoint. input_type is NIM-specific
     and required by asymmetric retrieval models ('passage' to index, 'query' to search)."""
-    base = os.environ.get("LLM_BASE_URL", "https://integrate.api.nvidia.com/v1")
-    key = os.environ.get("LLM_API_KEY")
+    base = env("LLM_BASE_URL", "https://integrate.api.nvidia.com/v1")
+    key = env("LLM_API_KEY")
     if not key:
         sys.exit("LLM_API_KEY is not set (see .env.example)")
 
@@ -467,6 +475,12 @@ def cmd_stats(args) -> None:
     q = lambda s: con.execute(s).fetchone()[0]  # noqa: E731
     n = q("SELECT COUNT(*) FROM chunks")
     emb = q("SELECT COUNT(*) FROM chunks WHERE embedding IS NOT NULL")
+    # The CI embed step is continue-on-error so a flaky endpoint can't block the
+    # site deploy — which also means a total failure reports green. Raise an
+    # annotation so incomplete coverage is visible without reading the log.
+    if emb < n and os.environ.get("GITHUB_ACTIONS"):
+        print(f"::warning::{n - emb:,} of {n:,} chunks have no embedding —"
+              " semantic search is degraded until the next successful run")
     print(f"videos:     {q('SELECT COUNT(*) FROM videos'):,}")
     print(f"chunks:     {n:,}")
     print(f"embedded:   {emb:,} ({100 * emb / n if n else 0:.0f}%)")

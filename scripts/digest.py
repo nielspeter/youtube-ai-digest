@@ -366,25 +366,60 @@ def fetch_transcript(video_id: str) -> str | None:
             return text or None
 
 
-def format_transcript_for_display(raw: str) -> str:
-    """Turn the marked-up transcript into clean reading prose: drop the [mm:ss]
-    markers, treat ' >> ' speaker cues as paragraph breaks, and keep the natural
-    ~30s paragraphing. Returns text with blank-line-separated paragraphs."""
-    text = re.sub(r"\[\d{1,2}:\d{2}\]\s*", "", raw)   # drop timestamps
-    text = re.sub(r"\s*>>+\s*", "\n\n", text)          # speaker turns -> paragraphs
-    text = re.sub(r"\[music\]", "", text, flags=re.IGNORECASE)
-    text = re.sub(r"[ \t]+", " ", text)
-    paras = [p.strip() for p in re.split(r"\n\s*\n", text) if p.strip()]
-    return "\n\n".join(paras)
+def format_transcript_for_display(raw: str) -> list[tuple[int | None, str]]:
+    """Split the transcript into (start_seconds, text) paragraphs, one per [mm:ss]
+    mark, so each keeps the position it was spoken at.
+
+    Previously the marks were discarded here, which meant the rendered transcript
+    had no positional information left to link to — a search hit could only say
+    the phrase occurred somewhere in the video.
+    """
+    parts = re.split(r"\[(\d{1,3}):(\d{2})\]", raw)
+
+    def clean(s: str) -> str:
+        s = re.sub(r"\s*>>+\s*", " ", s)                       # speaker cues
+        s = re.sub(r"\[music\]", "", s, flags=re.IGNORECASE)
+        return " ".join(s.split())
+
+    out: list[tuple[int | None, str]] = []
+    lead = clean(parts[0]) if parts else ""
+    if lead:
+        out.append((None, lead))                               # speech before the first mark
+    for i in range(1, len(parts) - 2, 3):
+        text = clean(parts[i + 2])
+        if text:
+            out.append((int(parts[i]) * 60 + int(parts[i + 1]), text))
+    return out
 
 
-def transcript_details_block(raw: str) -> str:
-    """A collapsible <details> section holding the verbatim transcript as clean
-    HTML paragraphs (escaped, so no stray markdown/HTML surprises)."""
-    paras = format_transcript_for_display(raw).split("\n\n")
-    inner = "\n".join(f"<p>{html.escape(p)}</p>" for p in paras if p)
+def transcript_details_block(raw: str, url: str = "") -> str:
+    """The verbatim transcript, under its own `## Transcript` heading and inside a
+    collapsible <details>.
+
+    The heading matters as much as the content: VitePress builds its search index
+    by splitting a page at headings, so without one the transcript was absorbed
+    into whichever section came last — every transcript hit was reported as
+    "Who Should Watch" and anchored to the bottom of the page. Under its own
+    heading it is attributed honestly, and each paragraph carries a link to the
+    moment it was spoken.
+
+    The body is raw HTML (markdown is not processed inside an HTML block), so the
+    anchors are written as <a> tags and the speech itself is escaped.
+    """
+    lines = []
+    for seconds, text in format_transcript_for_display(raw):
+        body = html.escape(text)
+        if seconds is not None and url:
+            mark = f'<a href="{html.escape(url)}&amp;t={seconds}s">{mmss(seconds)}</a>'
+            lines.append(f'<p><span class="ts">{mark}</span> {body}</p>')
+        else:
+            lines.append(f"<p>{body}</p>")
+    if not lines:
+        return ""
+    inner = "\n".join(lines)
     return (
-        '\n\n<details class="transcript">\n'
+        "\n\n## Transcript\n"
+        '\n<details class="transcript">\n'
         "<summary>Full transcript</summary>\n\n"
         f"{inner}\n\n"
         "</details>\n"
@@ -595,20 +630,39 @@ def linkify_timestamps(body: str, url: str) -> str:
 
 
 def relink_summaries() -> None:
-    """Apply linkify_timestamps to summaries already on disk. Idempotent."""
+    """Bring summaries already on disk up to the current rendering: timestamps as
+    links, and the transcript re-rendered under its own heading with per-paragraph
+    anchors. Idempotent, and re-reads the cached transcript so nothing is
+    re-summarized."""
     changed = 0
     for path in sorted(SUMMARIES_DIR.rglob("*.md")):
         text = path.read_text(encoding="utf-8")
         url_match = re.search(r"^url:\s*(\S+)\s*$", text, re.M)
+        vid_match = re.search(r"^video_id:\s*(\S+)\s*$", text, re.M)
         if not url_match:
             continue
-        # Never touch the verbatim transcript appended at the end.
-        head, sep, tail = text.partition('\n\n<details class="transcript">')
-        updated = linkify_timestamps(head, url_match[1]) + sep + tail
+        url = url_match[1]
+
+        # Split off the transcript however it was rendered before: originally a
+        # bare <details>, now preceded by its own heading.
+        body = re.split(r"\n+(?:## Transcript\n+)?<details class=\"transcript\">",
+                        text, maxsplit=1)[0].rstrip("\n")
+        updated = linkify_timestamps(body, url)
+
+        # Re-render from the cached transcript when we still have it; otherwise
+        # keep whatever block is already in the file rather than dropping it.
+        raw = TRANSCRIPTS_DIR / f"{vid_match[1]}.txt" if vid_match else None
+        if raw and raw.exists():
+            updated += transcript_details_block(raw.read_text(encoding="utf-8"), url)
+        else:
+            _, sep, tail = text.partition('<details class="transcript">')
+            if sep:
+                updated += "\n\n" + sep + tail
+
         if updated != text:
             path.write_text(updated, encoding="utf-8")
             changed += 1
-    print(f"relinked {changed} summary file(s)")
+    print(f"updated {changed} summary file(s)")
 
 
 def write_summary(meta: dict, body: str, transcript: str = "") -> Path:
@@ -635,7 +689,7 @@ def write_summary(meta: dict, body: str, transcript: str = "") -> Path:
         f"[Watch on YouTube]({meta['url']}) · **{meta['channel']}** · {meta['published'][:10]}\n\n"
     )
     body = linkify_timestamps(body, meta["url"])
-    transcript_block = transcript_details_block(transcript) if transcript else ""
+    transcript_block = transcript_details_block(transcript, meta["url"]) if transcript else ""
     out_path.write_text(fm + header + body + "\n" + transcript_block, encoding="utf-8")
     return out_path
 

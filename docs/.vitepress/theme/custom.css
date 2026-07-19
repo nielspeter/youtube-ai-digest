@@ -128,3 +128,29 @@ html.hide-read .channel-emptied { display: none; }
   color: var(--vp-c-text-2);
   margin: 0 0 0.9rem;
 }
+
+/* Timestamp anchoring each paragraph to the moment it was spoken. Tabular
+   figures keep the column from shifting between 09:59 and 10:00. */
+.transcript .ts {
+  display: inline-block;
+  min-width: 3.5rem;
+  font-family: var(--vp-font-family-mono);
+  font-size: 0.8em;
+  font-variant-numeric: tabular-nums;
+  user-select: none;
+}
+.transcript .ts a {
+  color: var(--vp-c-text-3);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.transcript .ts a:hover { color: var(--vp-c-brand-1); }
+
+/* Wide enough to pull the timestamps into the margin, so the prose stays flush
+   and the marks read as an index rather than as part of the speech. */
+@media (min-width: 960px) {
+  .transcript p {
+    padding-left: 4rem;
+    text-indent: -4rem;
+  }
+}

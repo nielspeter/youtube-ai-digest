@@ -56,7 +56,10 @@ export default defineConfig({
   themeConfig: {
     nav: [{ text: 'Home', link: '/' }],
     sidebar: buildSidebar(),
-    search: { provider: 'local' },
+    // detailedView renders the matching text in the results list. Without it a
+    // result is only its heading, which for a transcript hit says nothing about
+    // what actually matched.
+    search: { provider: 'local', options: { detailedView: true } },
     outline: { level: [2, 3] },
   },
 })

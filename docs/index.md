@@ -4,11 +4,12 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **209** videos summarized.
+Auto-generated summaries of subscribed channels. **210** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/JJGbw4ggaFs"><img loading="lazy" src="https://i.ytimg.com/vi/JJGbw4ggaFs/hqdefault.jpg" alt=""><span class="video-title">From Blind Spots to Merged PRs: Continuous Agentic Performance Optimization - May Walter, Hud</span><span class="video-date">2026-07-19</span></a>
 <a class="video-card" href="summaries/ai-engineer/3z2uT5aDx_Y"><img loading="lazy" src="https://i.ytimg.com/vi/3z2uT5aDx_Y/hqdefault.jpg" alt=""><span class="video-title">Build Evals That Actually Matter - Nick Ung, Lyft</span><span class="video-date">2026-07-19</span></a>
 <a class="video-card" href="summaries/ai-engineer/XLEYtv3cMlw"><img loading="lazy" src="https://i.ytimg.com/vi/XLEYtv3cMlw/hqdefault.jpg" alt=""><span class="video-title">Autonomous Agents for Scientific Tasks - Sina Shahandeh, Radicait</span><span class="video-date">2026-07-18</span></a>
 <a class="video-card" href="summaries/ai-engineer/3ySF0I5iE_0"><img loading="lazy" src="https://i.ytimg.com/vi/3ySF0I5iE_0/hqdefault.jpg" alt=""><span class="video-title">A Practitioner&#x27;s Guide to Graphs - Tim Ainge, Good Collective</span><span class="video-date">2026-07-18</span></a>

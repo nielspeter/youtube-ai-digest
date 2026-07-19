@@ -3098,8 +3098,8 @@
       "published": "2026-07-19T06:01:20+00:00",
       "url": "https://www.youtube.com/watch?v=-sYhcsy5OwI",
       "channel_slug": "ai-native-dev",
-      "status": "no_transcript",
-      "attempts": 1
+      "attempts": 1,
+      "status": "blocked"
     }
   }
 }

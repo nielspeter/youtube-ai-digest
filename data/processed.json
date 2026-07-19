@@ -3144,7 +3144,7 @@
       "url": "https://www.youtube.com/watch?v=AopewjYV1Ho",
       "channel_slug": "openai",
       "status": "no_transcript",
-      "attempts": 2
+      "attempts": 3
     },
     "-561cZmir5Q": {
       "status": "done",
@@ -3154,6 +3154,15 @@
       "published": "2026-07-19T20:00:06+00:00",
       "url": "https://www.youtube.com/watch?v=-561cZmir5Q",
       "generated": "2026-07-19T21:04:25+00:00"
+    },
+    "o_psX5meBo8": {
+      "status": "done",
+      "title": "This Free CLI Tool Beats Every Paid File Transfer App (croc)",
+      "channel": "Better Stack",
+      "channel_slug": "better-stack",
+      "published": "2026-07-19T21:49:23+00:00",
+      "url": "https://www.youtube.com/watch?v=o_psX5meBo8",
+      "generated": "2026-07-19T23:07:15+00:00"
     }
   }
 }

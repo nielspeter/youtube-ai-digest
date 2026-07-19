@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **212** videos summarized.
+Auto-generated summaries of subscribed channels. **213** videos summarized.
 
 ## AI Engineer
 
@@ -98,6 +98,7 @@ Auto-generated summaries of subscribed channels. **212** videos summarized.
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/o_psX5meBo8"><img loading="lazy" src="https://i.ytimg.com/vi/o_psX5meBo8/hqdefault.jpg" alt=""><span class="video-title">This Free CLI Tool Beats Every Paid File Transfer App (croc)</span><span class="video-date">2026-07-19</span></a>
 <a class="video-card" href="summaries/better-stack/8c68vFpT9Tk"><img loading="lazy" src="https://i.ytimg.com/vi/8c68vFpT9Tk/hqdefault.jpg" alt=""><span class="video-title">Google Just Made TensorFlow.js Obsolete (LiteRT.js)</span><span class="video-date">2026-07-17</span></a>
 <a class="video-card" href="summaries/better-stack/WvfacC0FtbE"><img loading="lazy" src="https://i.ytimg.com/vi/WvfacC0FtbE/hqdefault.jpg" alt=""><span class="video-title">Postgres was rewritten in Rust… and somehow passed every test</span><span class="video-date">2026-07-17</span></a>
 <a class="video-card" href="summaries/better-stack/QfCpRTLSOB4"><img loading="lazy" src="https://i.ytimg.com/vi/QfCpRTLSOB4/hqdefault.jpg" alt=""><span class="video-title">Kimi K3 Is Fable Level... (they should be worried)</span><span class="video-date">2026-07-17</span></a>

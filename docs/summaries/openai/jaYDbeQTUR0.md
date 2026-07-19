@@ -49,11 +49,12 @@ Huet continues by noting that the models are already incredibly smart—in many 
 ## Who Should Watch
 Aspiring founders, developers, and creators with sidelined passion projects who want encouragement to start building with AI. It's a short, motivational snippet ideal for anyone needing a push to experiment boldly with modern AI models.
 
+## Transcript
 
 <details class="transcript">
 <summary>Full transcript</summary>
 
-<p>Ask your best crazy ideas, the passion projects you&#x27;ve been putting on the side for way too long. Give them to Kodak and you&#x27;ll be surprised. I mean the biggest takeaway is really the energy. There&#x27;s so much going on in Paris in this tech scene. But yeah, love to hear from founders who are building their companies with their AI and our models. So it&#x27;s really magical. I mean the main advice I&#x27;d have is just be curious. And if there are any things that you&#x27;ve always wanted to try,</p>
-<p>things that you&#x27;ve always wanted to try, just go for it. I think like those models are already so so smart. In many ways they&#x27;re smarter than us, but we&#x27;re still too shy with them. They mostly want to hear more from us and best practices, like how do they like build even more? They&#x27;re also curious about like when the next model will ship. It&#x27;s amazing now the pace of change. Like we ship models every 6 weeks and yet we get so used to them after like just a few days that we&#x27;re kind of like already eager to see what&#x27;s next.</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=jaYDbeQTUR0&amp;t=0s">00:00</a></span> Ask your best crazy ideas, the passion projects you&#x27;ve been putting on the side for way too long. Give them to Kodak and you&#x27;ll be surprised. I mean the biggest takeaway is really the energy. There&#x27;s so much going on in Paris in this tech scene. But yeah, love to hear from founders who are building their companies with their AI and our models. So it&#x27;s really magical. I mean the main advice I&#x27;d have is just be curious. And if there are any things that you&#x27;ve always wanted to try,</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=jaYDbeQTUR0&amp;t=30s">00:30</a></span> things that you&#x27;ve always wanted to try, just go for it. I think like those models are already so so smart. In many ways they&#x27;re smarter than us, but we&#x27;re still too shy with them. They mostly want to hear more from us and best practices, like how do they like build even more? They&#x27;re also curious about like when the next model will ship. It&#x27;s amazing now the pace of change. Like we ship models every 6 weeks and yet we get so used to them after like just a few days that we&#x27;re kind of like already eager to see what&#x27;s next.</p>
 
 </details>

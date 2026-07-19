@@ -59,39 +59,15 @@ The model confirms that the ambitious itinerary is "barely possible on paper," e
 ## Who Should Watch
 Anyone interested in the capabilities of next-generation AI voice assistants—particularly travelers, productivity enthusiasts, and developers curious about real-time multitasking conversational AI—will find this short demo both illustrative and compelling.
 
+## Transcript
 
 <details class="transcript">
 <summary>Full transcript</summary>
 
-<p>When I think about our new voice model, it&#x27;s just having like a superhuman friend who knows all the knowledge but behaves with you in a way that you can interact with very naturally.</p>
-<p>It can co-work, can do multitask, it can answer question listening to you while doing lots of things for you at the same time.</p>
-<p>While it&#x27;s doing something, you can ask it to do something else to give you facts about like, you know, what while you were looking for restaurants for instance. And it&#x27;s able to continue that conversation while it&#x27;s still having</p>
-<p>conversation while it&#x27;s still having that ongoing thread.</p>
-<p>So, I like to travel but I really hate travel planning. So, do you want to test the weather the model can do a good job for planning a crazy travel?</p>
-<p>Yeah, absolutely.</p>
-<p>Hey Chat.</p>
-<p>Hey.</p>
-<p>I want to do this crazy thing where I have breakfast in Tokyo and then I have lunch in Dubai and then maybe I spend the evening in Hawaii. Maybe I have dinner there. Is this even possible?</p>
-<p>Let me scan and recheck flights and time zones really quick. Tokyo, Dubai, Hawaii.</p>
-<p>What do people usually have like in the</p>
-<p>What do people usually have like in the morning in Japan? What would you recommend?</p>
-<p>Ah, in Tokyo, a super classic breakfast is grilled fish, rice, miso soup, and tamagoyaki.</p>
-<p>Yeah, how about Dubai? What should I have there?</p>
-<p>For lunch in Dubai, try machboos. It&#x27;s a spiced rice dish. I&#x27;m still crunching the Tokyo, Dubai, Hawaii timing. Hang on a bit longer.</p>
-<p>How about Hawaii?</p>
-<p>Great question. If you&#x27;re landing late, a relaxed beach hang with poke or garlic shrimp is perfect. Now, on whether the timing works, I&#x27;ve got it. Yes, it&#x27;s</p>
-<p>timing works, I&#x27;ve got it. Yes, it&#x27;s barely possible on paper.</p>
-<p>Oh, really?</p>
-<p>is 19 hours behind Tokyo and 14 behind Dubai.</p>
-<p>Okay, wow. So, this is this is actually doable, huh?</p>
-<p>It&#x27;s doable but it&#x27;s a strict itinerary for sure.</p>
-<p>Yeah, thank you Chat. You are doing amazing job.</p>
-<p>Yeah, you&#x27;re welcome.</p>
-<p>Well, Chat, it definitely takes like a lot of research but it&#x27;s</p>
-<p>Yeah.</p>
-<p>Yeah, seconds a lot to figure out.</p>
-<p>Yeah. That&#x27;s amazing. Yeah.</p>
-<p>Just talking to a model and it can like figure out this really complex planning all like in the background. I think doing all of this seamlessly while just you&#x27;re interfacing with this thing is</p>
-<p>you&#x27;re interfacing with this thing is incredible.</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=avpZWh6sm9M&amp;t=0s">00:00</a></span> When I think about our new voice model, it&#x27;s just having like a superhuman friend who knows all the knowledge but behaves with you in a way that you can interact with very naturally. It can co-work, can do multitask, it can answer question listening to you while doing lots of things for you at the same time. While it&#x27;s doing something, you can ask it to do something else to give you facts about like, you know, what while you were looking for restaurants for instance. And it&#x27;s able to continue that conversation while it&#x27;s still having</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=avpZWh6sm9M&amp;t=30s">00:30</a></span> conversation while it&#x27;s still having that ongoing thread. So, I like to travel but I really hate travel planning. So, do you want to test the weather the model can do a good job for planning a crazy travel? Yeah, absolutely. Hey Chat. Hey. I want to do this crazy thing where I have breakfast in Tokyo and then I have lunch in Dubai and then maybe I spend the evening in Hawaii. Maybe I have dinner there. Is this even possible? Let me scan and recheck flights and time zones really quick. Tokyo, Dubai, Hawaii. What do people usually have like in the</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=avpZWh6sm9M&amp;t=61s">01:01</a></span> What do people usually have like in the morning in Japan? What would you recommend? Ah, in Tokyo, a super classic breakfast is grilled fish, rice, miso soup, and tamagoyaki. Yeah, how about Dubai? What should I have there? For lunch in Dubai, try machboos. It&#x27;s a spiced rice dish. I&#x27;m still crunching the Tokyo, Dubai, Hawaii timing. Hang on a bit longer. How about Hawaii? Great question. If you&#x27;re landing late, a relaxed beach hang with poke or garlic shrimp is perfect. Now, on whether the timing works, I&#x27;ve got it. Yes, it&#x27;s</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=avpZWh6sm9M&amp;t=93s">01:33</a></span> timing works, I&#x27;ve got it. Yes, it&#x27;s barely possible on paper. Oh, really? is 19 hours behind Tokyo and 14 behind Dubai. Okay, wow. So, this is this is actually doable, huh? It&#x27;s doable but it&#x27;s a strict itinerary for sure. Yeah, thank you Chat. You are doing amazing job. Yeah, you&#x27;re welcome. Well, Chat, it definitely takes like a lot of research but it&#x27;s Yeah. Yeah, seconds a lot to figure out. Yeah. That&#x27;s amazing. Yeah. Just talking to a model and it can like figure out this really complex planning all like in the background. I think doing all of this seamlessly while just you&#x27;re interfacing with this thing is</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=avpZWh6sm9M&amp;t=125s">02:05</a></span> you&#x27;re interfacing with this thing is incredible.</p>
 
 </details>

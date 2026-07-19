@@ -51,11 +51,12 @@ Steinberger highlights a key shift in what makes someone successful today. In th
 ## Who Should Watch
 Hiring managers, team leads, and founders building AI-focused teams who want to understand how talent requirements are shifting and why creative, non-traditional candidates may outperform conventionally credentialed hires in an agent-driven workflow.
 
+## Transcript
 
 <details class="transcript">
 <summary>Full transcript</summary>
 
-<p>There&#x27;s a lot of people that are very excited about the future. And if they only would know what I know, they would be even more excited. I work on Open Claw, and I also work on various secret things at OpenAI. I would say get at least one or two really cracked AI people on the team. And you might have to actually change your interview process. In this new world, even people that have a little bit less of the typical background, but are very creative, are very successful with agents, but it&#x27;s a different</p>
-<p>with agents, but it&#x27;s a different profile to what we hired in the past.</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=Xk-X1TI2pQ4&amp;t=0s">00:00</a></span> There&#x27;s a lot of people that are very excited about the future. And if they only would know what I know, they would be even more excited. I work on Open Claw, and I also work on various secret things at OpenAI. I would say get at least one or two really cracked AI people on the team. And you might have to actually change your interview process. In this new world, even people that have a little bit less of the typical background, but are very creative, are very successful with agents, but it&#x27;s a different</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=Xk-X1TI2pQ4&amp;t=31s">00:31</a></span> with agents, but it&#x27;s a different profile to what we hired in the past.</p>
 
 </details>

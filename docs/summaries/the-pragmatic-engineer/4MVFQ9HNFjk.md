@@ -48,11 +48,12 @@ The speaker emphasizes that engineers who accumulate a few years of hands-on exp
 ## Who Should Watch
 Software engineers and tech professionals weighing job stability against new opportunities in a shifting market. It is especially relevant for those wondering whether to stay at a slow-moving company or pursue roles that offer AI tool experience and greater autonomy.
 
+## Transcript
 
 <details class="transcript">
 <summary>Full transcript</summary>
 
-<p>When the job market is really volatile and uncertain, like staying put can be a good strategy. At the same point, I would not stop looking for opportunities because on one end, the job market feels a bit different than in 2023. 2023 was a brutal market. It was layoffs everywhere and no one was hiring. Right now, there are some layoffs, but so many companies are hiring. So, now could be a great opportunity to jump a tier up to a startup, to building products, to having more autonomy, to using more of these AI tools. And if you stick at a company that is just really moving slowly, you might not have that opportunity. I talked about the engineers who are really in demand. They have a few years of hands-on experience</p>
-<p>have a few years of hands-on experience with these tools. They will be in demand in a few years time as well. And if you will still have zero years of that, well, you&#x27;re kind of sitting in one place. So, I would be opportunistic in looking out, maybe looking at job openings, talking with your network, not ignoring fully recruiters, seeing what&#x27;s out there.</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=4MVFQ9HNFjk&amp;t=0s">00:00</a></span> When the job market is really volatile and uncertain, like staying put can be a good strategy. At the same point, I would not stop looking for opportunities because on one end, the job market feels a bit different than in 2023. 2023 was a brutal market. It was layoffs everywhere and no one was hiring. Right now, there are some layoffs, but so many companies are hiring. So, now could be a great opportunity to jump a tier up to a startup, to building products, to having more autonomy, to using more of these AI tools. And if you stick at a company that is just really moving slowly, you might not have that opportunity. I talked about the engineers who are really in demand. They have a few years of hands-on experience</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=4MVFQ9HNFjk&amp;t=31s">00:31</a></span> have a few years of hands-on experience with these tools. They will be in demand in a few years time as well. And if you will still have zero years of that, well, you&#x27;re kind of sitting in one place. So, I would be opportunistic in looking out, maybe looking at job openings, talking with your network, not ignoring fully recruiters, seeing what&#x27;s out there.</p>
 
 </details>

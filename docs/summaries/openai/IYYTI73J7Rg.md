@@ -44,13 +44,12 @@ The same phrases recur — "Here we go," "Light it up," and "We're going to ligh
 ## Who Should Watch
 This video is suited for viewers who want a quick, high-energy teaser about ChatGPT's updated computer use feature, though anyone seeking substantive details or a demonstration will likely need to look elsewhere.
 
+## Transcript
 
 <details class="transcript">
 <summary>Full transcript</summary>
 
-<p>Light it up.</p>
-<p>Here we go.</p>
-<p>Here we go. Light it up. We&#x27;re going to light it up.</p>
-<p>Here we go. Light it up. We going</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=IYYTI73J7Rg&amp;t=10s">00:10</a></span> Light it up. Here we go.</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=IYYTI73J7Rg&amp;t=41s">00:41</a></span> Here we go. Light it up. We&#x27;re going to light it up. Here we go. Light it up. We going</p>
 
 </details>

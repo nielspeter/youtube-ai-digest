@@ -85,64 +85,23 @@ The video closes with a concise thesis: the best scientist paired with these kin
 ## Who Should Watch
 Researchers, scientists, and anyone interested in the intersection of AI and scientific discovery will find this video essential viewing, as it concretely illustrates how multi-agent AI systems like Co-Scientist are already compressing research timelines, enabling cross-disciplinary breakthroughs, and producing publishable findings.
 
+## Transcript
 
 <details class="transcript">
 <summary>Full transcript</summary>
 
-<p>I think the scientific method is arguably maybe the greatest idea humans have ever had.</p>
-<p>One of the things that makes us human is the spirit of exploration. The spirit of understanding the world that we live in.</p>
-<p>That fire or that desire has always been in us.</p>
-<p>The reason I want to be a scientist is to create new knowledge.</p>
-<p>In some cases we might have the answer, but we just don&#x27;t know it yet.</p>
-<p>That&#x27;s why we get up in the morning and do what we do.</p>
-<p>Any new knowledge is good knowledge.</p>
-<p>Scientific data is all over the internet and the world. I probably have hundreds of Chrome tabs of papers open.</p>
-<p>The amount of knowledge we need to master to be at the forefront of science doubles every two months.</p>
-<p>The</p>
-<p>information that we have to take in on a regular basis is similar to ocean waves. It&#x27;s continuously coming.</p>
-<p>I&#x27;m always terrified I&#x27;ve missed something in the literature or in the public database.</p>
-<p>Even if you were reading papers constantly, it would be impossible.</p>
-<p>constantly, it would be impossible.</p>
-<p>It&#x27;s impossible.</p>
-<p>To catch up.</p>
-<p>There&#x27;s about 17,080 rare diseases that are known to man. Around 5% have a treatment.</p>
-<p>One of the most challenging things for patients and for me as a scientist is how slow biology is.</p>
-<p>When you&#x27;re suffering from something, time is a very valuable commodity.</p>
-<p>You&#x27;ll fail hundreds, maybe thousands of times. It could be</p>
-<p>thousands of times. It could be literally over years.</p>
-<p>You really only have a few shots on goal to answer the big question that you care about. I don&#x27;t want to waste any of that time.</p>
-<p>Ultimately, the clock speed of science is really what drives progress in society forward.</p>
-<p>I&#x27;ve always thought if we could build AI in the right way, it could be the ultimate tool to help scientists explore the universe around us.</p>
-<p>How would you describe to me Co-scientist?</p>
-<p>I would describe Co-scientist as an engine for the discovery of new insights into the world that we live in.</p>
-<p>Co-scientist uses the scientific knowledge around the world to come up with solutions to grand scientific challenges.</p>
-<p>It can do this rigorous and structured thinking that is really the hallmark of science.</p>
-<p>It has been built by scientists for scientists.</p>
-<p>It&#x27;s not just a language model. Co-scientist is a multi-agent system where AI agents perform specialized roles mimicking what</p>
-<p>perform specialized roles mimicking what you&#x27;d expect in a real research team.</p>
-<p>Co-scientist allows us to develop experiments and understand the mechanisms of should we pursue this or not so we can get to those scientific breakthroughs even faster.</p>
-<p>I think Co-scientist is a very natural expression of a long history of work that&#x27;s happened at DeepMind over the years with new scientific discoveries the goal. The Co-scientist system is a team of agents. Some of these agents take the goal that a scientist provides and will go and scour the literature</p>
-<p>will go and scour the literature then start generating hypotheses creating new ideas and even then evolving those ideas. While that&#x27;s happening, others will extract new information that&#x27;s learned in the course of comparing ideas with each other. Another agent in the team helps to rank or compare different ideas. The system has the chance to connect facts from completely previously separate fields but which could come together to make a very creative breakthrough new discovery. We want AI to give scientists</p>
-<p>We want AI to give scientists superpowers.</p>
-<p>I was initially a little bit skeptical. So, I gave him a prompt. How would you approach epigenomic aspects of liver fibrosis and what drugs could you use to treat it? When I saw the output, I kind of fell off my chair.</p>
-<p>Having the ability to look across the entire breadth of literature and sample and draw concepts is</p>
-<p>and draw concepts is</p>
-<p>incredibly powerful. It runs right for like days if not weeks. It&#x27;s actually testing like thousands of hypotheses and reading tens of thousands of papers.</p>
-<p>You went from something that would take months down to a day or two. You could literally have outputs that could save you years.</p>
-<p>It came up with a very, very interesting hypotheses that we couldn&#x27;t find any way to disprove.</p>
-<p>When I saw them, I was like, &quot;Wow, this is really cool. I just want to run to</p>
-<p>is really cool. I just want to run to the lab and try this.&quot; I was quite surprised by the individual rigor of each of the ideas. I was like, &quot;All right. Okay.&quot;</p>
-<p>I&#x27;m looking at the hypothesis going, &quot;Oh, I hadn&#x27;t thought about that protein at all.&quot;</p>
-<p>With a simple prompt, but you can deploy 50 scientists in one day to go out and do all the research and come back to you. Anybody can really control a team of experts from anywhere in the world. That really is this empowering thing.</p>
-<p>I&#x27;m uncontainable in my excitement. It&#x27;s</p>
-<p>I&#x27;m uncontainable in my excitement. It&#x27;s driving my lab crazy.</p>
-<p>The ideas from the system have actually led to new findings that have been published and many more that are on the way.</p>
-<p>It really powers the whole community of scientists to bring forward major advances in different areas of science.</p>
-<p>We have yet to see a small percent of what the impact is going to be.</p>
-<p>That potential is moving from moonshots</p>
-<p>That potential is moving from moonshots to mission. It&#x27;s It&#x27;s coming from code to clinic.</p>
-<p>If we can do the best science at the fastest pace, that will help everybody to a pretty incredible degree.</p>
-<p>How much more productive, capable, how many more discoveries might we be able to make? How much might this radically accelerate science and enable us to discover completely new things that were just not possible or even imagined before?</p>
-<p>The best scientist paired with these kinds of tools will be able to do incredible things.</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=aSY_vFFmkW0&amp;t=0s">00:00</a></span> I think the scientific method is arguably maybe the greatest idea humans have ever had. One of the things that makes us human is the spirit of exploration. The spirit of understanding the world that we live in. That fire or that desire has always been in us. The reason I want to be a scientist is to create new knowledge. In some cases we might have the answer, but we just don&#x27;t know it yet. That&#x27;s why we get up in the morning and do what we do. Any new knowledge is good knowledge.</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=aSY_vFFmkW0&amp;t=37s">00:37</a></span> Scientific data is all over the internet and the world. I probably have hundreds of Chrome tabs of papers open. The amount of knowledge we need to master to be at the forefront of science doubles every two months. The information that we have to take in on a regular basis is similar to ocean waves. It&#x27;s continuously coming. I&#x27;m always terrified I&#x27;ve missed something in the literature or in the public database. Even if you were reading papers constantly, it would be impossible.</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=aSY_vFFmkW0&amp;t=69s">01:09</a></span> constantly, it would be impossible. It&#x27;s impossible. To catch up. There&#x27;s about 17,080 rare diseases that are known to man. Around 5% have a treatment. One of the most challenging things for patients and for me as a scientist is how slow biology is. When you&#x27;re suffering from something, time is a very valuable commodity. You&#x27;ll fail hundreds, maybe thousands of times. It could be</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=aSY_vFFmkW0&amp;t=101s">01:41</a></span> thousands of times. It could be literally over years. You really only have a few shots on goal to answer the big question that you care about. I don&#x27;t want to waste any of that time. Ultimately, the clock speed of science is really what drives progress in society forward. I&#x27;ve always thought if we could build AI in the right way, it could be the ultimate tool to help scientists explore the universe around us. How would you describe to me Co-scientist?</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=aSY_vFFmkW0&amp;t=131s">02:11</a></span> I would describe Co-scientist as an engine for the discovery of new insights into the world that we live in. Co-scientist uses the scientific knowledge around the world to come up with solutions to grand scientific challenges. It can do this rigorous and structured thinking that is really the hallmark of science. It has been built by scientists for scientists. It&#x27;s not just a language model. Co-scientist is a multi-agent system where AI agents perform specialized roles mimicking what</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=aSY_vFFmkW0&amp;t=162s">02:42</a></span> perform specialized roles mimicking what you&#x27;d expect in a real research team. Co-scientist allows us to develop experiments and understand the mechanisms of should we pursue this or not so we can get to those scientific breakthroughs even faster. I think Co-scientist is a very natural expression of a long history of work that&#x27;s happened at DeepMind over the years with new scientific discoveries the goal. The Co-scientist system is a team of agents. Some of these agents take the goal that a scientist provides and will go and scour the literature</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=aSY_vFFmkW0&amp;t=193s">03:13</a></span> will go and scour the literature then start generating hypotheses creating new ideas and even then evolving those ideas. While that&#x27;s happening, others will extract new information that&#x27;s learned in the course of comparing ideas with each other. Another agent in the team helps to rank or compare different ideas. The system has the chance to connect facts from completely previously separate fields but which could come together to make a very creative breakthrough new discovery. We want AI to give scientists</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=aSY_vFFmkW0&amp;t=224s">03:44</a></span> We want AI to give scientists superpowers. I was initially a little bit skeptical. So, I gave him a prompt. How would you approach epigenomic aspects of liver fibrosis and what drugs could you use to treat it? When I saw the output, I kind of fell off my chair. Having the ability to look across the entire breadth of literature and sample and draw concepts is</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=aSY_vFFmkW0&amp;t=255s">04:15</a></span> and draw concepts is incredibly powerful. It runs right for like days if not weeks. It&#x27;s actually testing like thousands of hypotheses and reading tens of thousands of papers. You went from something that would take months down to a day or two. You could literally have outputs that could save you years. It came up with a very, very interesting hypotheses that we couldn&#x27;t find any way to disprove. When I saw them, I was like, &quot;Wow, this is really cool. I just want to run to</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=aSY_vFFmkW0&amp;t=285s">04:45</a></span> is really cool. I just want to run to the lab and try this.&quot; I was quite surprised by the individual rigor of each of the ideas. I was like, &quot;All right. Okay.&quot; I&#x27;m looking at the hypothesis going, &quot;Oh, I hadn&#x27;t thought about that protein at all.&quot; With a simple prompt, but you can deploy 50 scientists in one day to go out and do all the research and come back to you. Anybody can really control a team of experts from anywhere in the world. That really is this empowering thing. I&#x27;m uncontainable in my excitement. It&#x27;s</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=aSY_vFFmkW0&amp;t=316s">05:16</a></span> I&#x27;m uncontainable in my excitement. It&#x27;s driving my lab crazy. The ideas from the system have actually led to new findings that have been published and many more that are on the way. It really powers the whole community of scientists to bring forward major advances in different areas of science. We have yet to see a small percent of what the impact is going to be. That potential is moving from moonshots</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=aSY_vFFmkW0&amp;t=347s">05:47</a></span> That potential is moving from moonshots to mission. It&#x27;s It&#x27;s coming from code to clinic. If we can do the best science at the fastest pace, that will help everybody to a pretty incredible degree. How much more productive, capable, how many more discoveries might we be able to make? How much might this radically accelerate science and enable us to discover completely new things that were just not possible or even imagined before?</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=aSY_vFFmkW0&amp;t=377s">06:17</a></span> The best scientist paired with these kinds of tools will be able to do incredible things.</p>
 
 </details>

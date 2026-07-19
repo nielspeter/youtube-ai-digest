@@ -48,12 +48,12 @@ The speaker highlights that ChatGPT enables the team to move from idea to featur
 ## Who Should Watch
 Customer experience leaders and product managers interested in practical AI adoption will find this brief case study useful for understanding how ChatGPT can compress development timelines and unify data-driven decision-making.
 
+## Transcript
 
 <details class="transcript">
 <summary>Full transcript</summary>
 
-<p>As head of customer experience, ChatGPT helps me spot what customers need, decide what matters, and act faster. ChatGPT allowed us to be more cost-efficient in time and money to deliver products to our teams faster. One of the many use cases that we found really valuable in Codex ChatGPT is the ability to build custom dashboards and reporting interfaces leveraging multiple different data sets from multiple different sources. This really turbocharged our insights, understanding, and the ability to make decisions that ultimately enhance the end-to-end customer journey for our guests.</p>
-<p>ChatGPT has enabled us to move from idea</p>
-<p>ChatGPT has enabled us to move from idea to feature so much quicker. We&#x27;re able to get through the product life cycle so much quicker, which enables us to deliver new features which are important for our customers and put them in their hands.</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=tyAO2zR_qZI&amp;t=4s">00:04</a></span> As head of customer experience, ChatGPT helps me spot what customers need, decide what matters, and act faster. ChatGPT allowed us to be more cost-efficient in time and money to deliver products to our teams faster. One of the many use cases that we found really valuable in Codex ChatGPT is the ability to build custom dashboards and reporting interfaces leveraging multiple different data sets from multiple different sources. This really turbocharged our insights, understanding, and the ability to make decisions that ultimately enhance the end-to-end customer journey for our guests. ChatGPT has enabled us to move from idea</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=tyAO2zR_qZI&amp;t=36s">00:36</a></span> ChatGPT has enabled us to move from idea to feature so much quicker. We&#x27;re able to get through the product life cycle so much quicker, which enables us to deliver new features which are important for our customers and put them in their hands.</p>
 
 </details>

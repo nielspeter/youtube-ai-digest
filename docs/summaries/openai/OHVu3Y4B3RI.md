@@ -51,11 +51,12 @@ The speaker identifies the key cultural and operational shift: learning to work 
 ## Who Should Watch
 Operations leaders, non-technical team leads, and anyone interested in how AI agents can reduce engineering dependencies and transform workflows in large organizations. It offers a concise, real-world example of how delegation to AI agents can empower non-engineering teams to build and automate on their own.
 
+## Transcript
 
 <details class="transcript">
 <summary>Full transcript</summary>
 
-<p>It allows me to go faster with fewer dependencies and then do things that I couldn&#x27;t do before. From an operations perspective, I&#x27;m focused on driving effective use and adoption of AI tools for our nonR&amp;D discipline. I use Chat GPT like a workhorse. It&#x27;s an amazing application for that. I think the big shift for most people is to learn how to work with agents. That change is really about getting comfortable with delegation. They&#x27;re able to do things that they couldn&#x27;t do before because there&#x27;s no more dependency. They don&#x27;t have to go to an engineering team to get</p>
-<p>have to go to an engineering team to get resourcing to like build the tool that they have to build. I redesigned a triage workflow using agent skills, using codeex or using chatbt. And it&#x27;s something that just wouldn&#x27;t have been possible before. What would have been a large team supporting a process now comes down to like an agent that can run like discrete tasks. It&#x27;s just like fundamentally changed how we work.</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=OHVu3Y4B3RI&amp;t=4s">00:04</a></span> It allows me to go faster with fewer dependencies and then do things that I couldn&#x27;t do before. From an operations perspective, I&#x27;m focused on driving effective use and adoption of AI tools for our nonR&amp;D discipline. I use Chat GPT like a workhorse. It&#x27;s an amazing application for that. I think the big shift for most people is to learn how to work with agents. That change is really about getting comfortable with delegation. They&#x27;re able to do things that they couldn&#x27;t do before because there&#x27;s no more dependency. They don&#x27;t have to go to an engineering team to get</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=OHVu3Y4B3RI&amp;t=34s">00:34</a></span> have to go to an engineering team to get resourcing to like build the tool that they have to build. I redesigned a triage workflow using agent skills, using codeex or using chatbt. And it&#x27;s something that just wouldn&#x27;t have been possible before. What would have been a large team supporting a process now comes down to like an agent that can run like discrete tasks. It&#x27;s just like fundamentally changed how we work.</p>
 
 </details>

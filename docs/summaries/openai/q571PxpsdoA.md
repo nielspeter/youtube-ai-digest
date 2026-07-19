@@ -61,31 +61,14 @@ The founders reflect on how the output feels like something a billion-dollar com
 ## Who Should Watch
 Small business owners and non-technical founders—especially those running family or consumer-product brands—will find this video inspiring and practical. It demonstrates how AI coding tools can give tiny teams enterprise-level operational capabilities without hiring engineers.
 
+## Transcript
 
 <details class="transcript">
 <summary>Full transcript</summary>
 
-<p>Build a sell in timeline tracker with retailer specific deadlines and contacts for our pumpkin spice launch.</p>
-<p>Three Wishes is a better for you breakfast cereal. It is higher in protein, lower in sugar, gluten and grain free. And the inspiration came from our own house and our own family.</p>
-<p>This one I didn&#x27;t really create, but I thought of the flavor. It&#x27;s called cotton candy. Not trying to glaze myself. Personally, my favorite.</p>
-<p>We&#x27;re a true team in all the things that we do.</p>
-<p>But there&#x27;s only so much two people can</p>
-<p>But there&#x27;s only so much two people can do.</p>
-<p>As you grow and the brand becomes bigger, mistakes just have so much more weight.</p>
-<p>In the past, I had so many tech ideas, but I always said, &quot;I can&#x27;t do them. I need a technical co-founder.&quot; Codex is that technical co-founder.</p>
-<p>Every time we&#x27;ve had to run our seasonals, they&#x27;ve become an operational nightmare. So, we had Codex build this really beautiful command center and dashboard.</p>
-<p>So, I always start by saying, &quot;Please set a goal for yourself to do this end to end. Please use historical launches as like a means to inform the dashboard itself. Use the Three Wishes branding, especially the new</p>
-<p>branding, especially the new branding. We have new boxes that we&#x27;re using.&quot;</p>
-<p>It is the most disorganized thought stream that I&#x27;ve ever seen, to then get this like [laughter] incredibly amazing output.</p>
-<p>I mean, it wouldn&#x27;t have been possible before. With 5.6, I directed it some of Three Wishes brand guidelines and said, &quot;Just make it look like and feel like our brand.&quot;</p>
-<p>So cool.</p>
-<p>Yeah.</p>
-<p>5.5 was never capable of doing something along these lines. With 5.6, I spoke into it for 5 minutes and it output all of these different data slices that they needed.</p>
-<p>This feels like something you would normally think a big billion-dollar</p>
-<p>normally think a big billion-dollar company could build. And you&#x27;re like, &quot;We get this. I have my bespoke software system.&quot;</p>
-<p>Makes you feel real and enterprisey.</p>
-<p>Yeah.</p>
-<p>It frees up the most important time for us. I get to choose where it goes, whether it&#x27;s building the brand or</p>
-<p>spending time with my kids. And that to me is like the the time I&#x27;ll never get back. And so, it&#x27;s really exciting. It It feels like you gave us wings a little bit.</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=q571PxpsdoA&amp;t=1s">00:01</a></span> Build a sell in timeline tracker with retailer specific deadlines and contacts for our pumpkin spice launch. Three Wishes is a better for you breakfast cereal. It is higher in protein, lower in sugar, gluten and grain free. And the inspiration came from our own house and our own family. This one I didn&#x27;t really create, but I thought of the flavor. It&#x27;s called cotton candy. Not trying to glaze myself. Personally, my favorite. We&#x27;re a true team in all the things that we do. But there&#x27;s only so much two people can</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=q571PxpsdoA&amp;t=32s">00:32</a></span> But there&#x27;s only so much two people can do. As you grow and the brand becomes bigger, mistakes just have so much more weight. In the past, I had so many tech ideas, but I always said, &quot;I can&#x27;t do them. I need a technical co-founder.&quot; Codex is that technical co-founder. Every time we&#x27;ve had to run our seasonals, they&#x27;ve become an operational nightmare. So, we had Codex build this really beautiful command center and dashboard. So, I always start by saying, &quot;Please set a goal for yourself to do this end to end. Please use historical launches as like a means to inform the dashboard itself. Use the Three Wishes branding, especially the new</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=q571PxpsdoA&amp;t=62s">01:02</a></span> branding, especially the new branding. We have new boxes that we&#x27;re using.&quot; It is the most disorganized thought stream that I&#x27;ve ever seen, to then get this like [laughter] incredibly amazing output. I mean, it wouldn&#x27;t have been possible before. With 5.6, I directed it some of Three Wishes brand guidelines and said, &quot;Just make it look like and feel like our brand.&quot; So cool. Yeah. 5.5 was never capable of doing something along these lines. With 5.6, I spoke into it for 5 minutes and it output all of these different data slices that they needed. This feels like something you would normally think a big billion-dollar</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=q571PxpsdoA&amp;t=93s">01:33</a></span> normally think a big billion-dollar company could build. And you&#x27;re like, &quot;We get this. I have my bespoke software system.&quot; Makes you feel real and enterprisey. Yeah. It frees up the most important time for us. I get to choose where it goes, whether it&#x27;s building the brand or spending time with my kids. And that to me is like the the time I&#x27;ll never get back. And so, it&#x27;s really exciting. It It feels like you gave us wings a little bit.</p>
 
 </details>

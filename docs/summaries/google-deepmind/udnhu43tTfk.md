@@ -46,14 +46,13 @@ A student or teacher reflects that students are the ones who will solve future p
 ## Who Should Watch
 Educators, parents, and anyone interested in AI literacy initiatives for young learners. It provides a quick, inspiring look at how foundational AI concepts can be introduced in classrooms through curiosity-driven discussion.
 
+## Transcript
 
 <details class="transcript">
 <summary>Full transcript</summary>
 
-<p>How will AI change the world? How is AI different from the kind of intelligence us humans have? Why does AI need so much data? How does AI understand what I&#x27;m saying? Morning. Welcome to experience AI class. Why is this data so important to AI? At the back. We&#x27;ve had some fantastic conversations in classes. The students have loads of questions about AI, loads</p>
-<p>have loads of questions about AI, loads of misconceptions, and they&#x27;re really engaged in it.</p>
-<p>What is bias? The data that we feed to our machine, at least how many images do we need to train our model? My students are curious about AI. They&#x27;re the ones who are going to be able to solve problems when it comes to the future, since they are the leaders of tomorrow.</p>
-<p>If we all learn AI, just imagine the amazing things we could make together. Experience AI.</p>
-<p>[laughter]</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=udnhu43tTfk&amp;t=7s">00:07</a></span> How will AI change the world? How is AI different from the kind of intelligence us humans have? Why does AI need so much data? How does AI understand what I&#x27;m saying? Morning. Welcome to experience AI class. Why is this data so important to AI? At the back. We&#x27;ve had some fantastic conversations in classes. The students have loads of questions about AI, loads</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=udnhu43tTfk&amp;t=37s">00:37</a></span> have loads of questions about AI, loads of misconceptions, and they&#x27;re really engaged in it. What is bias? The data that we feed to our machine, at least how many images do we need to train our model? My students are curious about AI. They&#x27;re the ones who are going to be able to solve problems when it comes to the future, since they are the leaders of tomorrow.</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=udnhu43tTfk&amp;t=70s">01:10</a></span> If we all learn AI, just imagine the amazing things we could make together. Experience AI. [laughter]</p>
 
 </details>

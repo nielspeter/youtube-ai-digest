@@ -47,11 +47,12 @@ The speaker explains how ChatGPT with Codex transformed their scattered notes an
 ## Who Should Watch
 This video is ideal for program managers, operations leaders, and solo practitioners who oversee cross-functional projects and want to see how agentic AI can consolidate fragmented knowledge and dramatically scale individual output.
 
+## Transcript
 
 <details class="transcript">
 <summary>Full transcript</summary>
 
-<p>ChatGPT with Codex is an extension of me and I&#x27;m now working and learning through it and in making it better and better. So, I am part of the program management office. I sit at the critical juncture of cross-functional stakeholders. In my function in PMO, I&#x27;m working with a lot of data silos. Every org or every team that I connect with has their data in a specific data store. ChatGPT with Codex has helped turn my PMO knowledge from scattered notes and chat history to a living breathing operating system. Since the launch of Codex, I</p>
-<p>system. Since the launch of Codex, I would say that I have been on steroids because now I have the agentic AI capabilities and I&#x27;m able to move those insights not only from the review plane but into the execution plane as well. ChatGPT with Codex has actually helped me scale from six customers that I was tracking in the pilot phase to about 80 customers that I&#x27;m handling in the early access program. I am a team of one, but I don&#x27;t think I&#x27;m a team of one because I have ChatGPT with Codex supporting me.</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=nep5byxmr_M&amp;t=4s">00:04</a></span> ChatGPT with Codex is an extension of me and I&#x27;m now working and learning through it and in making it better and better. So, I am part of the program management office. I sit at the critical juncture of cross-functional stakeholders. In my function in PMO, I&#x27;m working with a lot of data silos. Every org or every team that I connect with has their data in a specific data store. ChatGPT with Codex has helped turn my PMO knowledge from scattered notes and chat history to a living breathing operating system. Since the launch of Codex, I</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=nep5byxmr_M&amp;t=35s">00:35</a></span> system. Since the launch of Codex, I would say that I have been on steroids because now I have the agentic AI capabilities and I&#x27;m able to move those insights not only from the review plane but into the execution plane as well. ChatGPT with Codex has actually helped me scale from six customers that I was tracking in the pilot phase to about 80 customers that I&#x27;m handling in the early access program. I am a team of one, but I don&#x27;t think I&#x27;m a team of one because I have ChatGPT with Codex supporting me.</p>
 
 </details>

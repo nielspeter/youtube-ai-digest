@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **228** videos summarized.
+Auto-generated summaries of subscribed channels. **231** videos summarized.
 
 ## AI Engineer
 
@@ -164,9 +164,16 @@ Auto-generated summaries of subscribed channels. **228** videos summarized.
 <a class="video-card" href="summaries/google-deepmind/udnhu43tTfk"><img loading="lazy" src="https://i.ytimg.com/vi/udnhu43tTfk/hqdefault.jpg" alt=""><span class="video-title">Teaching the foundations of AI in the classroom</span><span class="video-date">2026-04-09</span></a>
 </div>
 
+## IndyDevDan
+
+<div class="video-grid">
+<a class="video-card" href="summaries/indydevdan/AQl5Q-0l7FQ"><img loading="lazy" src="https://i.ytimg.com/vi/AQl5Q-0l7FQ/hqdefault.jpg" alt=""><span class="video-title">Engineers... STOP Picking GPT-5.6 Sol OR Claude Fable 5… FUSE THEM</span><span class="video-date">2026-07-20</span></a>
+</div>
+
 ## LangChain
 
 <div class="video-grid">
+<a class="video-card" href="summaries/langchain/py9d6zTl4Dc"><img loading="lazy" src="https://i.ytimg.com/vi/py9d6zTl4Dc/hqdefault.jpg" alt=""><span class="video-title">How Coinbase Builds Developer Support Agents | Interrupt 26</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/langchain/GbzEDgcuGJU"><img loading="lazy" src="https://i.ytimg.com/vi/GbzEDgcuGJU/hqdefault.jpg" alt=""><span class="video-title">Deep Agents Explained</span><span class="video-date">2026-07-17</span></a>
 <a class="video-card" href="summaries/langchain/IoTJ0qMc4Hk"><img loading="lazy" src="https://i.ytimg.com/vi/IoTJ0qMc4Hk/hqdefault.jpg" alt=""><span class="video-title">LangSmith: The Agent Engineering Platform</span><span class="video-date">2026-07-17</span></a>
 <a class="video-card" href="summaries/langchain/mxweSHetuN8"><img loading="lazy" src="https://i.ytimg.com/vi/mxweSHetuN8/hqdefault.jpg" alt=""><span class="video-title">How Abridge Built AI For Healthcare | Interrupt 26</span><span class="video-date">2026-07-17</span></a>
@@ -227,6 +234,7 @@ Auto-generated summaries of subscribed channels. **228** videos summarized.
 ## Nate Herk | AI Automation
 
 <div class="video-grid">
+<a class="video-card" href="summaries/nate-herk-ai-automation/8MEJen0nblQ"><img loading="lazy" src="https://i.ytimg.com/vi/8MEJen0nblQ/hqdefault.jpg" alt=""><span class="video-title">Why Your AI Offer Isn&#x27;t Selling, and How to Fix That</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/nate-herk-ai-automation/eFOTQpbGcy8"><img loading="lazy" src="https://i.ytimg.com/vi/eFOTQpbGcy8/hqdefault.jpg" alt=""><span class="video-title">The $200K AI Job That Didn&#x27;t Exist Last Year</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/nate-herk-ai-automation/zyvdl__Ywfk"><img loading="lazy" src="https://i.ytimg.com/vi/zyvdl__Ywfk/hqdefault.jpg" alt=""><span class="video-title">Claude Code + Clay Makes Lead Generation Actually Fun</span><span class="video-date">2026-07-12</span></a>
 <a class="video-card" href="summaries/nate-herk-ai-automation/EthxaDswUFo"><img loading="lazy" src="https://i.ytimg.com/vi/EthxaDswUFo/hqdefault.jpg" alt=""><span class="video-title">I Tested GPT 5.6 Sol vs Fable 5. What You Need To Know.</span><span class="video-date">2026-07-10</span></a>

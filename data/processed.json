@@ -3144,7 +3144,7 @@
       "url": "https://www.youtube.com/watch?v=AopewjYV1Ho",
       "channel_slug": "openai",
       "status": "no_transcript",
-      "attempts": 5
+      "attempts": 6
     },
     "-561cZmir5Q": {
       "status": "done",
@@ -3334,6 +3334,52 @@
       "published": "2026-07-20T07:33:23+00:00",
       "url": "https://www.youtube.com/watch?v=HgA0spItnZI",
       "generated": "2026-07-20T11:13:08+00:00"
+    },
+    "py9d6zTl4Dc": {
+      "status": "done",
+      "title": "How Coinbase Builds Developer Support Agents | Interrupt 26",
+      "channel": "LangChain",
+      "channel_slug": "langchain",
+      "published": "2026-07-20T12:40:58+00:00",
+      "url": "https://www.youtube.com/watch?v=py9d6zTl4Dc",
+      "generated": "2026-07-20T14:33:47+00:00"
+    },
+    "m6rWKM6RUu0": {
+      "video_id": "m6rWKM6RUu0",
+      "title": "Fable vs GPT-5.6 Wasn’t Even Close",
+      "channel": "Matt Maher",
+      "published": "2026-07-20T13:07:29+00:00",
+      "url": "https://www.youtube.com/watch?v=m6rWKM6RUu0",
+      "channel_slug": "matt-maher",
+      "status": "blocked"
+    },
+    "MmYCdNhrhfA": {
+      "video_id": "MmYCdNhrhfA",
+      "title": "How BNY CEO Robin Vince Turns AI Optimism Into Action",
+      "channel": "OpenAI",
+      "published": "2026-07-20T13:42:57+00:00",
+      "url": "https://www.youtube.com/watch?v=MmYCdNhrhfA",
+      "channel_slug": "openai",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "AQl5Q-0l7FQ": {
+      "status": "done",
+      "title": "Engineers... STOP Picking GPT-5.6 Sol OR Claude Fable 5… FUSE THEM",
+      "channel": "IndyDevDan",
+      "channel_slug": "indydevdan",
+      "published": "2026-07-20T13:00:14+00:00",
+      "url": "https://www.youtube.com/watch?v=AQl5Q-0l7FQ",
+      "generated": "2026-07-20T14:32:26+00:00"
+    },
+    "8MEJen0nblQ": {
+      "status": "done",
+      "title": "Why Your AI Offer Isn't Selling, and How to Fix That",
+      "channel": "Nate Herk | AI Automation",
+      "channel_slug": "nate-herk-ai-automation",
+      "published": "2026-07-20T13:50:32+00:00",
+      "url": "https://www.youtube.com/watch?v=8MEJen0nblQ",
+      "generated": "2026-07-20T14:31:18+00:00"
     }
   }
 }

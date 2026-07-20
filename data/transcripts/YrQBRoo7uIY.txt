@@ -1,0 +1,3 @@
+[00:00]  Agents used to just answer questions. Now they write code, run tests, analyze data, build real work. To do that, an agent needs more than models and tools. It needs a computer. But you can't hand an agent your laptop. It runs untrusted code by default, and some of it might have unexpected consequences. A single agent needs an environment. Production needs thousands. LangSmith Sandboxes give every agent its own safe, isolated computer.
+
+[00:33]  Spins up in under a second. Install packages, run scripts, edit files, pause and resume. Across long sessions. Control access, snapshot, fork, scale from one to thousands. The question isn't whether agents need computers. It's how you give them one, safely. LangSmith Sandboxes, a secure computer for your agent.

@@ -4,12 +4,13 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **238** videos summarized.
+Auto-generated summaries of subscribed channels. **241** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
 <a class="video-card" href="summaries/ai-engineer/1EZdpEhwmNc"><img loading="lazy" src="https://i.ytimg.com/vi/1EZdpEhwmNc/hqdefault.jpg" alt=""><span class="video-title">Through the AI Fog: The Architectural Decision Agentic Security Depends On — Manoj Nair, Snyk</span><span class="video-date">2026-07-20</span></a>
+<a class="video-card" href="summaries/ai-engineer/2xJoimgoqBg"><img loading="lazy" src="https://i.ytimg.com/vi/2xJoimgoqBg/hqdefault.jpg" alt=""><span class="video-title">Security Track Intro — Randall Degges, Snyk</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/ai-engineer/I3znWC3MEXM"><img loading="lazy" src="https://i.ytimg.com/vi/I3znWC3MEXM/hqdefault.jpg" alt=""><span class="video-title">It&#x27;s 10pm. Do You Know Where Your Agents Are? — Kim Maida, Keycard</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/ai-engineer/IvE8n-ylFYY"><img loading="lazy" src="https://i.ytimg.com/vi/IvE8n-ylFYY/hqdefault.jpg" alt=""><span class="video-title">Privacy-Preserving Intelligence — Steve Korshakov, Bee (acq. Amazon)</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/ai-engineer/LqLoYksJ6do"><img loading="lazy" src="https://i.ytimg.com/vi/LqLoYksJ6do/hqdefault.jpg" alt=""><span class="video-title">We Gave an Agent Production Code Access and Then Tried to Sleep at Night — Moritz Johner, Form3</span><span class="video-date">2026-07-20</span></a>
@@ -180,6 +181,7 @@ Auto-generated summaries of subscribed channels. **238** videos summarized.
 ## LangChain
 
 <div class="video-grid">
+<a class="video-card" href="summaries/langchain/YrQBRoo7uIY"><img loading="lazy" src="https://i.ytimg.com/vi/YrQBRoo7uIY/hqdefault.jpg" alt=""><span class="video-title">LangSmith Sandboxes: A Secure Computer for Your Agent</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/langchain/py9d6zTl4Dc"><img loading="lazy" src="https://i.ytimg.com/vi/py9d6zTl4Dc/hqdefault.jpg" alt=""><span class="video-title">How Coinbase Builds Developer Support Agents | Interrupt 26</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/langchain/GbzEDgcuGJU"><img loading="lazy" src="https://i.ytimg.com/vi/GbzEDgcuGJU/hqdefault.jpg" alt=""><span class="video-title">Deep Agents Explained</span><span class="video-date">2026-07-17</span></a>
 <a class="video-card" href="summaries/langchain/IoTJ0qMc4Hk"><img loading="lazy" src="https://i.ytimg.com/vi/IoTJ0qMc4Hk/hqdefault.jpg" alt=""><span class="video-title">LangSmith: The Agent Engineering Platform</span><span class="video-date">2026-07-17</span></a>
@@ -259,6 +261,7 @@ Auto-generated summaries of subscribed channels. **238** videos summarized.
 ## OpenAI
 
 <div class="video-grid">
+<a class="video-card" href="summaries/openai/MmYCdNhrhfA"><img loading="lazy" src="https://i.ytimg.com/vi/MmYCdNhrhfA/hqdefault.jpg" alt=""><span class="video-title">How BNY CEO Robin Vince Turns AI Optimism Into Action</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/openai/tyAO2zR_qZI"><img loading="lazy" src="https://i.ytimg.com/vi/tyAO2zR_qZI/hqdefault.jpg" alt=""><span class="video-title">Virgin Atlantic Turns Weeks of Work Into Hours with ChatGPT Work</span><span class="video-date">2026-07-17</span></a>
 <a class="video-card" href="summaries/openai/OHVu3Y4B3RI"><img loading="lazy" src="https://i.ytimg.com/vi/OHVu3Y4B3RI/hqdefault.jpg" alt=""><span class="video-title">How Shopify Uses ChatGPT Work to Build Faster with AI Agents</span><span class="video-date">2026-07-16</span></a>
 <a class="video-card" href="summaries/openai/dB6pOolO7io"><img loading="lazy" src="https://i.ytimg.com/vi/dB6pOolO7io/hqdefault.jpg" alt=""><span class="video-title">ChatGPT can now complete tasks on your computer</span><span class="video-date">2026-07-16</span></a>

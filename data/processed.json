@@ -3354,14 +3354,13 @@
       "status": "blocked"
     },
     "MmYCdNhrhfA": {
-      "video_id": "MmYCdNhrhfA",
+      "status": "done",
       "title": "How BNY CEO Robin Vince Turns AI Optimism Into Action",
       "channel": "OpenAI",
+      "channel_slug": "openai",
       "published": "2026-07-20T13:42:57+00:00",
       "url": "https://www.youtube.com/watch?v=MmYCdNhrhfA",
-      "channel_slug": "openai",
-      "status": "no_transcript",
-      "attempts": 1
+      "generated": "2026-07-20T21:21:52+00:00"
     },
     "AQl5Q-0l7FQ": {
       "status": "done",
@@ -3382,13 +3381,13 @@
       "generated": "2026-07-20T14:31:18+00:00"
     },
     "YrQBRoo7uIY": {
-      "video_id": "YrQBRoo7uIY",
+      "status": "done",
       "title": "LangSmith Sandboxes: A Secure Computer for Your Agent",
       "channel": "LangChain",
+      "channel_slug": "langchain",
       "published": "2026-07-20T14:58:39+00:00",
       "url": "https://www.youtube.com/watch?v=YrQBRoo7uIY",
-      "channel_slug": "langchain",
-      "status": "pending"
+      "generated": "2026-07-20T21:21:34+00:00"
     },
     "WwxZeU4WH14": {
       "video_id": "WwxZeU4WH14",
@@ -3418,13 +3417,13 @@
       "status": "blocked"
     },
     "2xJoimgoqBg": {
-      "video_id": "2xJoimgoqBg",
+      "status": "done",
       "title": "Security Track Intro — Randall Degges, Snyk",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-20T17:17:53+00:00",
       "url": "https://www.youtube.com/watch?v=2xJoimgoqBg",
-      "channel_slug": "ai-engineer",
-      "status": "blocked"
+      "generated": "2026-07-20T21:20:26+00:00"
     },
     "I3znWC3MEXM": {
       "status": "done",
@@ -3487,7 +3486,7 @@
       "published": "2026-07-20T15:00:06+00:00",
       "url": "https://www.youtube.com/watch?v=VrpEyglYgeU",
       "channel_slug": "ai-engineer",
-      "status": "pending"
+      "status": "blocked"
     }
   }
 }

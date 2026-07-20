@@ -3144,7 +3144,7 @@
       "url": "https://www.youtube.com/watch?v=AopewjYV1Ho",
       "channel_slug": "openai",
       "status": "no_transcript",
-      "attempts": 3
+      "attempts": 4
     },
     "-561cZmir5Q": {
       "status": "done",
@@ -3163,6 +3163,15 @@
       "published": "2026-07-19T21:49:23+00:00",
       "url": "https://www.youtube.com/watch?v=o_psX5meBo8",
       "generated": "2026-07-19T23:07:15+00:00"
+    },
+    "6ugVjmFsDmc": {
+      "video_id": "6ugVjmFsDmc",
+      "title": "Anthropic messed up",
+      "channel": "Matthew Berman",
+      "published": "2026-07-19T23:48:45+00:00",
+      "url": "https://www.youtube.com/watch?v=6ugVjmFsDmc",
+      "channel_slug": "matthew-berman",
+      "status": "short"
     }
   }
 }

@@ -4,12 +4,13 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **241** videos summarized.
+Auto-generated summaries of subscribed channels. **245** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
 <a class="video-card" href="summaries/ai-engineer/1EZdpEhwmNc"><img loading="lazy" src="https://i.ytimg.com/vi/1EZdpEhwmNc/hqdefault.jpg" alt=""><span class="video-title">Through the AI Fog: The Architectural Decision Agentic Security Depends On — Manoj Nair, Snyk</span><span class="video-date">2026-07-20</span></a>
+<a class="video-card" href="summaries/ai-engineer/1lgFGaHoGq8"><img loading="lazy" src="https://i.ytimg.com/vi/1lgFGaHoGq8/hqdefault.jpg" alt=""><span class="video-title">AI’s Jurassic Park Period — Aaron Stanley, dbt Labs</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/ai-engineer/2xJoimgoqBg"><img loading="lazy" src="https://i.ytimg.com/vi/2xJoimgoqBg/hqdefault.jpg" alt=""><span class="video-title">Security Track Intro — Randall Degges, Snyk</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/ai-engineer/I3znWC3MEXM"><img loading="lazy" src="https://i.ytimg.com/vi/I3znWC3MEXM/hqdefault.jpg" alt=""><span class="video-title">It&#x27;s 10pm. Do You Know Where Your Agents Are? — Kim Maida, Keycard</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/ai-engineer/IvE8n-ylFYY"><img loading="lazy" src="https://i.ytimg.com/vi/IvE8n-ylFYY/hqdefault.jpg" alt=""><span class="video-title">Privacy-Preserving Intelligence — Steve Korshakov, Bee (acq. Amazon)</span><span class="video-date">2026-07-20</span></a>
@@ -17,6 +18,7 @@ Auto-generated summaries of subscribed channels. **241** videos summarized.
 <a class="video-card" href="summaries/ai-engineer/XjI-AR4pt7Y"><img loading="lazy" src="https://i.ytimg.com/vi/XjI-AR4pt7Y/hqdefault.jpg" alt=""><span class="video-title">Your LLM Stack Is a 2008 Database With Better Marketing — Lovina Dmello, NVIDIA</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/ai-engineer/cgimkNGNjvU"><img loading="lazy" src="https://i.ytimg.com/vi/cgimkNGNjvU/hqdefault.jpg" alt=""><span class="video-title">Agentic Development Security — Ezra Tanzer, Snyk</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/ai-engineer/yWS0udrIOc8"><img loading="lazy" src="https://i.ytimg.com/vi/yWS0udrIOc8/hqdefault.jpg" alt=""><span class="video-title">Agentic Security: Permissions, Provenance, and the Agent Supply Chain — Steve Yegge, Gas Town</span><span class="video-date">2026-07-20</span></a>
+<a class="video-card" href="summaries/ai-engineer/VrpEyglYgeU"><img loading="lazy" src="https://i.ytimg.com/vi/VrpEyglYgeU/hqdefault.jpg" alt=""><span class="video-title">In the Land of AI Agents, the Verifiers Are King — Tariq Shaukat, Sonar</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/ai-engineer/wEc9aG7cRQc"><img loading="lazy" src="https://i.ytimg.com/vi/wEc9aG7cRQc/hqdefault.jpg" alt=""><span class="video-title">Why Your Agent Disagrees With Itself (And What To Do About It) - Diane Lin, Datadog</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/ai-engineer/m24UKZomm7k"><img loading="lazy" src="https://i.ytimg.com/vi/m24UKZomm7k/hqdefault.jpg" alt=""><span class="video-title">Don&#x27;t Let the LLM Drive - Ornella Bahidika &amp; Joel Allou, Microsoft</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/ai-engineer/fnLBmfsI_Fg"><img loading="lazy" src="https://i.ytimg.com/vi/fnLBmfsI_Fg/hqdefault.jpg" alt=""><span class="video-title">Your Voice Agent Doesn&#x27;t Need a Frontier Model - Joel Allou &amp; Ornella Bahidika, Microsoft</span><span class="video-date">2026-07-20</span></a>
@@ -205,6 +207,7 @@ Auto-generated summaries of subscribed channels. **241** videos summarized.
 ## Matt Maher
 
 <div class="video-grid">
+<a class="video-card" href="summaries/matt-maher/m6rWKM6RUu0"><img loading="lazy" src="https://i.ytimg.com/vi/m6rWKM6RUu0/hqdefault.jpg" alt=""><span class="video-title">Fable vs GPT-5.6 Wasn’t Even Close</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/matt-maher/DVQ-Y6poojY"><img loading="lazy" src="https://i.ytimg.com/vi/DVQ-Y6poojY/hqdefault.jpg" alt=""><span class="video-title">Watch Fable Turn 628 Million Tokens Into a Professional Game</span><span class="video-date">2026-07-16</span></a>
 </div>
 
@@ -261,6 +264,7 @@ Auto-generated summaries of subscribed channels. **241** videos summarized.
 ## OpenAI
 
 <div class="video-grid">
+<a class="video-card" href="summaries/openai/WwxZeU4WH14"><img loading="lazy" src="https://i.ytimg.com/vi/WwxZeU4WH14/hqdefault.jpg" alt=""><span class="video-title">How Virgin Atlantic Uses ChatGPT Work to Turn Weeks of Work Into Hours</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/openai/MmYCdNhrhfA"><img loading="lazy" src="https://i.ytimg.com/vi/MmYCdNhrhfA/hqdefault.jpg" alt=""><span class="video-title">How BNY CEO Robin Vince Turns AI Optimism Into Action</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/openai/tyAO2zR_qZI"><img loading="lazy" src="https://i.ytimg.com/vi/tyAO2zR_qZI/hqdefault.jpg" alt=""><span class="video-title">Virgin Atlantic Turns Weeks of Work Into Hours with ChatGPT Work</span><span class="video-date">2026-07-17</span></a>
 <a class="video-card" href="summaries/openai/OHVu3Y4B3RI"><img loading="lazy" src="https://i.ytimg.com/vi/OHVu3Y4B3RI/hqdefault.jpg" alt=""><span class="video-title">How Shopify Uses ChatGPT Work to Build Faster with AI Agents</span><span class="video-date">2026-07-16</span></a>

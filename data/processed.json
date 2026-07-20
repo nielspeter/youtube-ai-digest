@@ -3345,13 +3345,13 @@
       "generated": "2026-07-20T14:33:47+00:00"
     },
     "m6rWKM6RUu0": {
-      "video_id": "m6rWKM6RUu0",
+      "status": "done",
       "title": "Fable vs GPT-5.6 Wasn’t Even Close",
       "channel": "Matt Maher",
+      "channel_slug": "matt-maher",
       "published": "2026-07-20T13:07:29+00:00",
       "url": "https://www.youtube.com/watch?v=m6rWKM6RUu0",
-      "channel_slug": "matt-maher",
-      "status": "blocked"
+      "generated": "2026-07-20T23:14:25+00:00"
     },
     "MmYCdNhrhfA": {
       "status": "done",
@@ -3390,13 +3390,13 @@
       "generated": "2026-07-20T21:21:34+00:00"
     },
     "WwxZeU4WH14": {
-      "video_id": "WwxZeU4WH14",
+      "status": "done",
       "title": "How Virgin Atlantic Uses ChatGPT Work to Turn Weeks of Work Into Hours",
       "channel": "OpenAI",
+      "channel_slug": "openai",
       "published": "2026-07-20T16:24:11+00:00",
       "url": "https://www.youtube.com/watch?v=WwxZeU4WH14",
-      "channel_slug": "openai",
-      "status": "blocked"
+      "generated": "2026-07-20T23:13:47+00:00"
     },
     "1EZdpEhwmNc": {
       "status": "done",
@@ -3408,13 +3408,13 @@
       "generated": "2026-07-20T18:16:19+00:00"
     },
     "1lgFGaHoGq8": {
-      "video_id": "1lgFGaHoGq8",
+      "status": "done",
       "title": "AI’s Jurassic Park Period — Aaron Stanley, dbt Labs",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-20T17:17:53+00:00",
       "url": "https://www.youtube.com/watch?v=1lgFGaHoGq8",
-      "channel_slug": "ai-engineer",
-      "status": "blocked"
+      "generated": "2026-07-20T23:12:12+00:00"
     },
     "2xJoimgoqBg": {
       "status": "done",
@@ -3480,13 +3480,13 @@
       "generated": "2026-07-20T18:24:36+00:00"
     },
     "VrpEyglYgeU": {
-      "video_id": "VrpEyglYgeU",
+      "status": "done",
       "title": "In the Land of AI Agents, the Verifiers Are King — Tariq Shaukat, Sonar",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-20T15:00:06+00:00",
       "url": "https://www.youtube.com/watch?v=VrpEyglYgeU",
-      "channel_slug": "ai-engineer",
-      "status": "blocked"
+      "generated": "2026-07-20T23:14:03+00:00"
     }
   }
 }

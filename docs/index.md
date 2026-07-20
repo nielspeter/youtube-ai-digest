@@ -4,11 +4,18 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **231** videos summarized.
+Auto-generated summaries of subscribed channels. **238** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/1EZdpEhwmNc"><img loading="lazy" src="https://i.ytimg.com/vi/1EZdpEhwmNc/hqdefault.jpg" alt=""><span class="video-title">Through the AI Fog: The Architectural Decision Agentic Security Depends On — Manoj Nair, Snyk</span><span class="video-date">2026-07-20</span></a>
+<a class="video-card" href="summaries/ai-engineer/I3znWC3MEXM"><img loading="lazy" src="https://i.ytimg.com/vi/I3znWC3MEXM/hqdefault.jpg" alt=""><span class="video-title">It&#x27;s 10pm. Do You Know Where Your Agents Are? — Kim Maida, Keycard</span><span class="video-date">2026-07-20</span></a>
+<a class="video-card" href="summaries/ai-engineer/IvE8n-ylFYY"><img loading="lazy" src="https://i.ytimg.com/vi/IvE8n-ylFYY/hqdefault.jpg" alt=""><span class="video-title">Privacy-Preserving Intelligence — Steve Korshakov, Bee (acq. Amazon)</span><span class="video-date">2026-07-20</span></a>
+<a class="video-card" href="summaries/ai-engineer/LqLoYksJ6do"><img loading="lazy" src="https://i.ytimg.com/vi/LqLoYksJ6do/hqdefault.jpg" alt=""><span class="video-title">We Gave an Agent Production Code Access and Then Tried to Sleep at Night — Moritz Johner, Form3</span><span class="video-date">2026-07-20</span></a>
+<a class="video-card" href="summaries/ai-engineer/XjI-AR4pt7Y"><img loading="lazy" src="https://i.ytimg.com/vi/XjI-AR4pt7Y/hqdefault.jpg" alt=""><span class="video-title">Your LLM Stack Is a 2008 Database With Better Marketing — Lovina Dmello, NVIDIA</span><span class="video-date">2026-07-20</span></a>
+<a class="video-card" href="summaries/ai-engineer/cgimkNGNjvU"><img loading="lazy" src="https://i.ytimg.com/vi/cgimkNGNjvU/hqdefault.jpg" alt=""><span class="video-title">Agentic Development Security — Ezra Tanzer, Snyk</span><span class="video-date">2026-07-20</span></a>
+<a class="video-card" href="summaries/ai-engineer/yWS0udrIOc8"><img loading="lazy" src="https://i.ytimg.com/vi/yWS0udrIOc8/hqdefault.jpg" alt=""><span class="video-title">Agentic Security: Permissions, Provenance, and the Agent Supply Chain — Steve Yegge, Gas Town</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/ai-engineer/wEc9aG7cRQc"><img loading="lazy" src="https://i.ytimg.com/vi/wEc9aG7cRQc/hqdefault.jpg" alt=""><span class="video-title">Why Your Agent Disagrees With Itself (And What To Do About It) - Diane Lin, Datadog</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/ai-engineer/m24UKZomm7k"><img loading="lazy" src="https://i.ytimg.com/vi/m24UKZomm7k/hqdefault.jpg" alt=""><span class="video-title">Don&#x27;t Let the LLM Drive - Ornella Bahidika &amp; Joel Allou, Microsoft</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/ai-engineer/fnLBmfsI_Fg"><img loading="lazy" src="https://i.ytimg.com/vi/fnLBmfsI_Fg/hqdefault.jpg" alt=""><span class="video-title">Your Voice Agent Doesn&#x27;t Need a Frontier Model - Joel Allou &amp; Ornella Bahidika, Microsoft</span><span class="video-date">2026-07-20</span></a>

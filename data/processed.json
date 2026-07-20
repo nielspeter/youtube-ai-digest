@@ -3380,6 +3380,114 @@
       "published": "2026-07-20T13:50:32+00:00",
       "url": "https://www.youtube.com/watch?v=8MEJen0nblQ",
       "generated": "2026-07-20T14:31:18+00:00"
+    },
+    "YrQBRoo7uIY": {
+      "video_id": "YrQBRoo7uIY",
+      "title": "LangSmith Sandboxes: A Secure Computer for Your Agent",
+      "channel": "LangChain",
+      "published": "2026-07-20T14:58:39+00:00",
+      "url": "https://www.youtube.com/watch?v=YrQBRoo7uIY",
+      "channel_slug": "langchain",
+      "status": "pending"
+    },
+    "WwxZeU4WH14": {
+      "video_id": "WwxZeU4WH14",
+      "title": "How Virgin Atlantic Uses ChatGPT Work to Turn Weeks of Work Into Hours",
+      "channel": "OpenAI",
+      "published": "2026-07-20T16:24:11+00:00",
+      "url": "https://www.youtube.com/watch?v=WwxZeU4WH14",
+      "channel_slug": "openai",
+      "status": "blocked"
+    },
+    "1EZdpEhwmNc": {
+      "status": "done",
+      "title": "Through the AI Fog: The Architectural Decision Agentic Security Depends On — Manoj Nair, Snyk",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-20T17:17:54+00:00",
+      "url": "https://www.youtube.com/watch?v=1EZdpEhwmNc",
+      "generated": "2026-07-20T18:16:19+00:00"
+    },
+    "1lgFGaHoGq8": {
+      "video_id": "1lgFGaHoGq8",
+      "title": "AI’s Jurassic Park Period — Aaron Stanley, dbt Labs",
+      "channel": "AI Engineer",
+      "published": "2026-07-20T17:17:53+00:00",
+      "url": "https://www.youtube.com/watch?v=1lgFGaHoGq8",
+      "channel_slug": "ai-engineer",
+      "status": "blocked"
+    },
+    "2xJoimgoqBg": {
+      "video_id": "2xJoimgoqBg",
+      "title": "Security Track Intro — Randall Degges, Snyk",
+      "channel": "AI Engineer",
+      "published": "2026-07-20T17:17:53+00:00",
+      "url": "https://www.youtube.com/watch?v=2xJoimgoqBg",
+      "channel_slug": "ai-engineer",
+      "status": "blocked"
+    },
+    "I3znWC3MEXM": {
+      "status": "done",
+      "title": "It's 10pm. Do You Know Where Your Agents Are? — Kim Maida, Keycard",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-20T17:17:53+00:00",
+      "url": "https://www.youtube.com/watch?v=I3znWC3MEXM",
+      "generated": "2026-07-20T18:17:43+00:00"
+    },
+    "IvE8n-ylFYY": {
+      "status": "done",
+      "title": "Privacy-Preserving Intelligence — Steve Korshakov, Bee (acq. Amazon)",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-20T17:17:53+00:00",
+      "url": "https://www.youtube.com/watch?v=IvE8n-ylFYY",
+      "generated": "2026-07-20T18:18:52+00:00"
+    },
+    "LqLoYksJ6do": {
+      "status": "done",
+      "title": "We Gave an Agent Production Code Access and Then Tried to Sleep at Night — Moritz Johner, Form3",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-20T17:17:53+00:00",
+      "url": "https://www.youtube.com/watch?v=LqLoYksJ6do",
+      "generated": "2026-07-20T18:20:23+00:00"
+    },
+    "XjI-AR4pt7Y": {
+      "status": "done",
+      "title": "Your LLM Stack Is a 2008 Database With Better Marketing — Lovina Dmello, NVIDIA",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-20T17:17:53+00:00",
+      "url": "https://www.youtube.com/watch?v=XjI-AR4pt7Y",
+      "generated": "2026-07-20T18:21:00+00:00"
+    },
+    "cgimkNGNjvU": {
+      "status": "done",
+      "title": "Agentic Development Security — Ezra Tanzer, Snyk",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-20T17:17:53+00:00",
+      "url": "https://www.youtube.com/watch?v=cgimkNGNjvU",
+      "generated": "2026-07-20T18:22:26+00:00"
+    },
+    "yWS0udrIOc8": {
+      "status": "done",
+      "title": "Agentic Security: Permissions, Provenance, and the Agent Supply Chain — Steve Yegge, Gas Town",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-20T17:17:53+00:00",
+      "url": "https://www.youtube.com/watch?v=yWS0udrIOc8",
+      "generated": "2026-07-20T18:24:36+00:00"
+    },
+    "VrpEyglYgeU": {
+      "video_id": "VrpEyglYgeU",
+      "title": "In the Land of AI Agents, the Verifiers Are King — Tariq Shaukat, Sonar",
+      "channel": "AI Engineer",
+      "published": "2026-07-20T15:00:06+00:00",
+      "url": "https://www.youtube.com/watch?v=VrpEyglYgeU",
+      "channel_slug": "ai-engineer",
+      "status": "pending"
     }
   }
 }

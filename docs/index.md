@@ -4,17 +4,23 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **219** videos summarized.
+Auto-generated summaries of subscribed channels. **228** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/wEc9aG7cRQc"><img loading="lazy" src="https://i.ytimg.com/vi/wEc9aG7cRQc/hqdefault.jpg" alt=""><span class="video-title">Why Your Agent Disagrees With Itself (And What To Do About It) - Diane Lin, Datadog</span><span class="video-date">2026-07-20</span></a>
+<a class="video-card" href="summaries/ai-engineer/m24UKZomm7k"><img loading="lazy" src="https://i.ytimg.com/vi/m24UKZomm7k/hqdefault.jpg" alt=""><span class="video-title">Don&#x27;t Let the LLM Drive - Ornella Bahidika &amp; Joel Allou, Microsoft</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/ai-engineer/fnLBmfsI_Fg"><img loading="lazy" src="https://i.ytimg.com/vi/fnLBmfsI_Fg/hqdefault.jpg" alt=""><span class="video-title">Your Voice Agent Doesn&#x27;t Need a Frontier Model - Joel Allou &amp; Ornella Bahidika, Microsoft</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/ai-engineer/B8l81jhvHbI"><img loading="lazy" src="https://i.ytimg.com/vi/B8l81jhvHbI/hqdefault.jpg" alt=""><span class="video-title">Enterprise Agents Have a Structure Problem - Ishita Daga, Tesla</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/ai-engineer/bUJgirn4_yc"><img loading="lazy" src="https://i.ytimg.com/vi/bUJgirn4_yc/hqdefault.jpg" alt=""><span class="video-title">When Agents Meet Physical Data: The Other Physics of Agent Harnesses - Dmitry Petrov, DataChain</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/ai-engineer/ltv-L5oMPIs"><img loading="lazy" src="https://i.ytimg.com/vi/ltv-L5oMPIs/hqdefault.jpg" alt=""><span class="video-title">Build the AI GTM Agent That Knows the Buyer - Dr. Sajjan Kanukolanu, Position2 (Position Squared)</span><span class="video-date">2026-07-20</span></a>
+<a class="video-card" href="summaries/ai-engineer/Q9ycQHbDdJs"><img loading="lazy" src="https://i.ytimg.com/vi/Q9ycQHbDdJs/hqdefault.jpg" alt=""><span class="video-title">Agents Need Receipts, Not More Tool Calls - Armanas Povilionis, Alithea Bio</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/ai-engineer/maTp79FD9gI"><img loading="lazy" src="https://i.ytimg.com/vi/maTp79FD9gI/hqdefault.jpg" alt=""><span class="video-title">Agent Output Is Not UX: Rendering Layer Your LLM Pipeline Is Missing - Bala Ramdoss, Amazon Lens</span><span class="video-date">2026-07-20</span></a>
+<a class="video-card" href="summaries/ai-engineer/hMlLw1LeIK8"><img loading="lazy" src="https://i.ytimg.com/vi/hMlLw1LeIK8/hqdefault.jpg" alt=""><span class="video-title">Voice Agents That Handle Interrupts - Chintan Agrawal and Daniel Wirjo, AWS</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/ai-engineer/LC3-P7v3yoI"><img loading="lazy" src="https://i.ytimg.com/vi/LC3-P7v3yoI/hqdefault.jpg" alt=""><span class="video-title">Skills are the New SDKs - Elvin Aghammadzada, DataRobot</span><span class="video-date">2026-07-20</span></a>
+<a class="video-card" href="summaries/ai-engineer/0RNNfxpdbQk"><img loading="lazy" src="https://i.ytimg.com/vi/0RNNfxpdbQk/hqdefault.jpg" alt=""><span class="video-title">Medic for Apache Spark - First Aid for Failing Jobs - Drasko Profirovic, Pinterest</span><span class="video-date">2026-07-20</span></a>
+<a class="video-card" href="summaries/ai-engineer/_cVfz88_j7A"><img loading="lazy" src="https://i.ytimg.com/vi/_cVfz88_j7A/hqdefault.jpg" alt=""><span class="video-title">Can Oncology Workflows Run Without Human Touch? - Anant Shankhdhar, Risa Labs</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/ai-engineer/-561cZmir5Q"><img loading="lazy" src="https://i.ytimg.com/vi/-561cZmir5Q/hqdefault.jpg" alt=""><span class="video-title">From Tokens to Cells: Foundation Models for Single-Cell Biology - Akram Baharlouei, Altos Labs</span><span class="video-date">2026-07-19</span></a>
 <a class="video-card" href="summaries/ai-engineer/lMCxVorb9wM"><img loading="lazy" src="https://i.ytimg.com/vi/lMCxVorb9wM/hqdefault.jpg" alt=""><span class="video-title">You Didn&#x27;t Ship a Bug. You Just Wrote It for a Human. - Ravi Madabhushi, Scalekit</span><span class="video-date">2026-07-19</span></a>
 <a class="video-card" href="summaries/ai-engineer/JJGbw4ggaFs"><img loading="lazy" src="https://i.ytimg.com/vi/JJGbw4ggaFs/hqdefault.jpg" alt=""><span class="video-title">From Blind Spots to Merged PRs: Continuous Agentic Performance Optimization - May Walter, Hud</span><span class="video-date">2026-07-19</span></a>
@@ -66,6 +72,7 @@ Auto-generated summaries of subscribed channels. **219** videos summarized.
 ## AI Native Dev
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-native-dev/HgA0spItnZI"><img loading="lazy" src="https://i.ytimg.com/vi/HgA0spItnZI/hqdefault.jpg" alt=""><span class="video-title">Jack Wotherspoon - Humans vs. Slop: Rewriting the Rules of Open-Source - AI Native DevCon</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/ai-native-dev/-sYhcsy5OwI"><img loading="lazy" src="https://i.ytimg.com/vi/-sYhcsy5OwI/hqdefault.jpg" alt=""><span class="video-title">Edouard Maleix - How AI-First Dev Teams Build Collective Intelligence — One Attributed Mistake at</span><span class="video-date">2026-07-19</span></a>
 <a class="video-card" href="summaries/ai-native-dev/-6SNbcE3C9o"><img loading="lazy" src="https://i.ytimg.com/vi/-6SNbcE3C9o/hqdefault.jpg" alt=""><span class="video-title">May Walter - From Blind Spots to Merged PRs: Runtime Intelligence for Continuous Agentic Performance</span><span class="video-date">2026-07-18</span></a>
 <a class="video-card" href="summaries/ai-native-dev/mB74LGAmmV0"><img loading="lazy" src="https://i.ytimg.com/vi/mB74LGAmmV0/hqdefault.jpg" alt=""><span class="video-title">Daniel Jones &amp; Tomasz Maj - More software, faster - Odevo&#x27;s AI Native transformation - AI DevCon &#x27;26</span><span class="video-date">2026-07-17</span></a>
@@ -104,6 +111,7 @@ Auto-generated summaries of subscribed channels. **219** videos summarized.
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/4GaR7k9VMp4"><img loading="lazy" src="https://i.ytimg.com/vi/4GaR7k9VMp4/hqdefault.jpg" alt=""><span class="video-title">Meta made their own shadcn (Astryx)</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/better-stack/o_psX5meBo8"><img loading="lazy" src="https://i.ytimg.com/vi/o_psX5meBo8/hqdefault.jpg" alt=""><span class="video-title">This Free CLI Tool Beats Every Paid File Transfer App (croc)</span><span class="video-date">2026-07-19</span></a>
 <a class="video-card" href="summaries/better-stack/8c68vFpT9Tk"><img loading="lazy" src="https://i.ytimg.com/vi/8c68vFpT9Tk/hqdefault.jpg" alt=""><span class="video-title">Google Just Made TensorFlow.js Obsolete (LiteRT.js)</span><span class="video-date">2026-07-17</span></a>
 <a class="video-card" href="summaries/better-stack/WvfacC0FtbE"><img loading="lazy" src="https://i.ytimg.com/vi/WvfacC0FtbE/hqdefault.jpg" alt=""><span class="video-title">Postgres was rewritten in Rust… and somehow passed every test</span><span class="video-date">2026-07-17</span></a>
@@ -285,6 +293,7 @@ Auto-generated summaries of subscribed channels. **219** videos summarized.
 <a class="video-card" href="summaries/ray-amjad/rj7xi-s4Ssg"><img loading="lazy" src="https://i.ytimg.com/vi/rj7xi-s4Ssg/hqdefault.jpg" alt=""><span class="video-title">Anthropic Just Dropped the Feature That Makes Sonnet Feel Like Opus</span><span class="video-date">2026-04-09</span></a>
 <a class="video-card" href="summaries/ray-amjad/EhiJX0WvRz4"><img loading="lazy" src="https://i.ytimg.com/vi/EhiJX0WvRz4/hqdefault.jpg" alt=""><span class="video-title">Claude Code Ultrareview Is Here: What You Need to Know</span><span class="video-date">2026-04-09</span></a>
 <a class="video-card" href="summaries/ray-amjad/UNhA17l6CWw"><img loading="lazy" src="https://i.ytimg.com/vi/UNhA17l6CWw/hqdefault.jpg" alt=""><span class="video-title">Anthropic Just Dropped Ultra Plan for Claude Code</span><span class="video-date">2026-04-06</span></a>
+<a class="video-card" href="summaries/ray-amjad/OnQ4BGN8B-s"><img loading="lazy" src="https://i.ytimg.com/vi/OnQ4BGN8B-s/hqdefault.jpg" alt=""><span class="video-title">Anthropic Just Dropped the Feature Nobody Knew They Needed</span><span class="video-date">2026-03-24</span></a>
 </div>
 
 ## The Pragmatic Engineer

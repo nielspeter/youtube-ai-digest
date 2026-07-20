@@ -3144,7 +3144,7 @@
       "url": "https://www.youtube.com/watch?v=AopewjYV1Ho",
       "channel_slug": "openai",
       "status": "no_transcript",
-      "attempts": 4
+      "attempts": 5
     },
     "-561cZmir5Q": {
       "status": "done",
@@ -3174,22 +3174,22 @@
       "status": "short"
     },
     "wEc9aG7cRQc": {
-      "video_id": "wEc9aG7cRQc",
+      "status": "done",
       "title": "Why Your Agent Disagrees With Itself (And What To Do About It) - Diane Lin, Datadog",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-20T06:25:22+00:00",
       "url": "https://www.youtube.com/watch?v=wEc9aG7cRQc",
-      "channel_slug": "ai-engineer",
-      "status": "blocked"
+      "generated": "2026-07-20T11:14:37+00:00"
     },
     "m24UKZomm7k": {
-      "video_id": "m24UKZomm7k",
+      "status": "done",
       "title": "Don't Let the LLM Drive - Ornella Bahidika & Joel Allou, Microsoft",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-20T06:25:18+00:00",
       "url": "https://www.youtube.com/watch?v=m24UKZomm7k",
-      "channel_slug": "ai-engineer",
-      "status": "blocked"
+      "generated": "2026-07-20T11:16:12+00:00"
     },
     "fnLBmfsI_Fg": {
       "status": "done",
@@ -3228,13 +3228,13 @@
       "generated": "2026-07-20T07:29:22+00:00"
     },
     "Q9ycQHbDdJs": {
-      "video_id": "Q9ycQHbDdJs",
+      "status": "done",
       "title": "Agents Need Receipts, Not More Tool Calls - Armanas Povilionis, Alithea Bio",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-20T06:25:01+00:00",
       "url": "https://www.youtube.com/watch?v=Q9ycQHbDdJs",
-      "channel_slug": "ai-engineer",
-      "status": "blocked"
+      "generated": "2026-07-20T11:17:02+00:00"
     },
     "maTp79FD9gI": {
       "status": "done",
@@ -3246,13 +3246,13 @@
       "generated": "2026-07-20T07:30:42+00:00"
     },
     "hMlLw1LeIK8": {
-      "video_id": "hMlLw1LeIK8",
+      "status": "done",
       "title": "Voice Agents That Handle Interrupts - Chintan Agrawal and Daniel Wirjo, AWS",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-20T06:24:55+00:00",
       "url": "https://www.youtube.com/watch?v=hMlLw1LeIK8",
-      "channel_slug": "ai-engineer",
-      "status": "blocked"
+      "generated": "2026-07-20T11:18:05+00:00"
     },
     "LC3-P7v3yoI": {
       "status": "done",
@@ -3264,22 +3264,76 @@
       "generated": "2026-07-20T07:32:02+00:00"
     },
     "0RNNfxpdbQk": {
-      "video_id": "0RNNfxpdbQk",
+      "status": "done",
       "title": "Medic for Apache Spark - First Aid for Failing Jobs - Drasko Profirovic, Pinterest",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-20T06:24:50+00:00",
       "url": "https://www.youtube.com/watch?v=0RNNfxpdbQk",
-      "channel_slug": "ai-engineer",
-      "status": "pending"
+      "generated": "2026-07-20T11:19:53+00:00"
     },
     "_cVfz88_j7A": {
-      "video_id": "_cVfz88_j7A",
+      "status": "done",
       "title": "Can Oncology Workflows Run Without Human Touch? - Anant Shankhdhar, Risa Labs",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-20T06:24:47+00:00",
       "url": "https://www.youtube.com/watch?v=_cVfz88_j7A",
-      "channel_slug": "ai-engineer",
-      "status": "pending"
+      "generated": "2026-07-20T11:21:29+00:00"
+    },
+    "OnQ4BGN8B-s": {
+      "status": "done",
+      "title": "Anthropic Just Dropped the Feature Nobody Knew They Needed",
+      "channel": "Ray Amjad",
+      "channel_slug": "ray-amjad",
+      "published": "2026-03-24T08:57:59+00:00",
+      "url": "https://www.youtube.com/watch?v=OnQ4BGN8B-s",
+      "generated": "2026-07-20T11:22:38+00:00"
+    },
+    "4GaR7k9VMp4": {
+      "status": "done",
+      "title": "Meta made their own shadcn (Astryx)",
+      "channel": "Better Stack",
+      "channel_slug": "better-stack",
+      "published": "2026-07-20T10:00:05+00:00",
+      "url": "https://www.youtube.com/watch?v=4GaR7k9VMp4",
+      "generated": "2026-07-20T11:11:20+00:00"
+    },
+    "5hYsBUMmr-I": {
+      "video_id": "5hYsBUMmr-I",
+      "title": "Using /grill-me for interviews?!",
+      "channel": "Matt Pocock",
+      "published": "2026-07-20T10:26:34+00:00",
+      "url": "https://www.youtube.com/watch?v=5hYsBUMmr-I",
+      "channel_slug": "matt-pocock",
+      "status": "short"
+    },
+    "sOd7svdu_1I": {
+      "video_id": "sOd7svdu_1I",
+      "title": "What is the dumb zone?",
+      "channel": "Matt Pocock",
+      "published": "2026-07-20T10:17:29+00:00",
+      "url": "https://www.youtube.com/watch?v=sOd7svdu_1I",
+      "channel_slug": "matt-pocock",
+      "status": "short"
+    },
+    "Yn8h5Ip-L9c": {
+      "video_id": "Yn8h5Ip-L9c",
+      "title": "Do you even need human review?",
+      "channel": "Matt Pocock",
+      "published": "2026-07-20T10:11:55+00:00",
+      "url": "https://www.youtube.com/watch?v=Yn8h5Ip-L9c",
+      "channel_slug": "matt-pocock",
+      "status": "short"
+    },
+    "HgA0spItnZI": {
+      "status": "done",
+      "title": "Jack Wotherspoon - Humans vs. Slop: Rewriting the Rules of Open-Source - AI Native DevCon",
+      "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
+      "published": "2026-07-20T07:33:23+00:00",
+      "url": "https://www.youtube.com/watch?v=HgA0spItnZI",
+      "generated": "2026-07-20T11:13:08+00:00"
     }
   }
 }

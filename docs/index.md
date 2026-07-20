@@ -4,11 +4,17 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **213** videos summarized.
+Auto-generated summaries of subscribed channels. **219** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/fnLBmfsI_Fg"><img loading="lazy" src="https://i.ytimg.com/vi/fnLBmfsI_Fg/hqdefault.jpg" alt=""><span class="video-title">Your Voice Agent Doesn&#x27;t Need a Frontier Model - Joel Allou &amp; Ornella Bahidika, Microsoft</span><span class="video-date">2026-07-20</span></a>
+<a class="video-card" href="summaries/ai-engineer/B8l81jhvHbI"><img loading="lazy" src="https://i.ytimg.com/vi/B8l81jhvHbI/hqdefault.jpg" alt=""><span class="video-title">Enterprise Agents Have a Structure Problem - Ishita Daga, Tesla</span><span class="video-date">2026-07-20</span></a>
+<a class="video-card" href="summaries/ai-engineer/bUJgirn4_yc"><img loading="lazy" src="https://i.ytimg.com/vi/bUJgirn4_yc/hqdefault.jpg" alt=""><span class="video-title">When Agents Meet Physical Data: The Other Physics of Agent Harnesses - Dmitry Petrov, DataChain</span><span class="video-date">2026-07-20</span></a>
+<a class="video-card" href="summaries/ai-engineer/ltv-L5oMPIs"><img loading="lazy" src="https://i.ytimg.com/vi/ltv-L5oMPIs/hqdefault.jpg" alt=""><span class="video-title">Build the AI GTM Agent That Knows the Buyer - Dr. Sajjan Kanukolanu, Position2 (Position Squared)</span><span class="video-date">2026-07-20</span></a>
+<a class="video-card" href="summaries/ai-engineer/maTp79FD9gI"><img loading="lazy" src="https://i.ytimg.com/vi/maTp79FD9gI/hqdefault.jpg" alt=""><span class="video-title">Agent Output Is Not UX: Rendering Layer Your LLM Pipeline Is Missing - Bala Ramdoss, Amazon Lens</span><span class="video-date">2026-07-20</span></a>
+<a class="video-card" href="summaries/ai-engineer/LC3-P7v3yoI"><img loading="lazy" src="https://i.ytimg.com/vi/LC3-P7v3yoI/hqdefault.jpg" alt=""><span class="video-title">Skills are the New SDKs - Elvin Aghammadzada, DataRobot</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/ai-engineer/-561cZmir5Q"><img loading="lazy" src="https://i.ytimg.com/vi/-561cZmir5Q/hqdefault.jpg" alt=""><span class="video-title">From Tokens to Cells: Foundation Models for Single-Cell Biology - Akram Baharlouei, Altos Labs</span><span class="video-date">2026-07-19</span></a>
 <a class="video-card" href="summaries/ai-engineer/lMCxVorb9wM"><img loading="lazy" src="https://i.ytimg.com/vi/lMCxVorb9wM/hqdefault.jpg" alt=""><span class="video-title">You Didn&#x27;t Ship a Bug. You Just Wrote It for a Human. - Ravi Madabhushi, Scalekit</span><span class="video-date">2026-07-19</span></a>
 <a class="video-card" href="summaries/ai-engineer/JJGbw4ggaFs"><img loading="lazy" src="https://i.ytimg.com/vi/JJGbw4ggaFs/hqdefault.jpg" alt=""><span class="video-title">From Blind Spots to Merged PRs: Continuous Agentic Performance Optimization - May Walter, Hud</span><span class="video-date">2026-07-19</span></a>

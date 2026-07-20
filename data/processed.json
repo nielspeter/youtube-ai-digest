@@ -3172,6 +3172,114 @@
       "url": "https://www.youtube.com/watch?v=6ugVjmFsDmc",
       "channel_slug": "matthew-berman",
       "status": "short"
+    },
+    "wEc9aG7cRQc": {
+      "video_id": "wEc9aG7cRQc",
+      "title": "Why Your Agent Disagrees With Itself (And What To Do About It) - Diane Lin, Datadog",
+      "channel": "AI Engineer",
+      "published": "2026-07-20T06:25:22+00:00",
+      "url": "https://www.youtube.com/watch?v=wEc9aG7cRQc",
+      "channel_slug": "ai-engineer",
+      "status": "blocked"
+    },
+    "m24UKZomm7k": {
+      "video_id": "m24UKZomm7k",
+      "title": "Don't Let the LLM Drive - Ornella Bahidika & Joel Allou, Microsoft",
+      "channel": "AI Engineer",
+      "published": "2026-07-20T06:25:18+00:00",
+      "url": "https://www.youtube.com/watch?v=m24UKZomm7k",
+      "channel_slug": "ai-engineer",
+      "status": "blocked"
+    },
+    "fnLBmfsI_Fg": {
+      "status": "done",
+      "title": "Your Voice Agent Doesn't Need a Frontier Model - Joel Allou & Ornella Bahidika, Microsoft",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-20T06:25:15+00:00",
+      "url": "https://www.youtube.com/watch?v=fnLBmfsI_Fg",
+      "generated": "2026-07-20T07:25:06+00:00"
+    },
+    "B8l81jhvHbI": {
+      "status": "done",
+      "title": "Enterprise Agents Have a Structure Problem - Ishita Daga, Tesla",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-20T06:25:12+00:00",
+      "url": "https://www.youtube.com/watch?v=B8l81jhvHbI",
+      "generated": "2026-07-20T07:26:18+00:00"
+    },
+    "bUJgirn4_yc": {
+      "status": "done",
+      "title": "When Agents Meet Physical Data: The Other Physics of Agent Harnesses - Dmitry Petrov, DataChain",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-20T06:25:07+00:00",
+      "url": "https://www.youtube.com/watch?v=bUJgirn4_yc",
+      "generated": "2026-07-20T07:27:36+00:00"
+    },
+    "ltv-L5oMPIs": {
+      "status": "done",
+      "title": "Build the AI GTM Agent That Knows the Buyer - Dr. Sajjan Kanukolanu, Position2 (Position Squared)",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-20T06:25:04+00:00",
+      "url": "https://www.youtube.com/watch?v=ltv-L5oMPIs",
+      "generated": "2026-07-20T07:29:22+00:00"
+    },
+    "Q9ycQHbDdJs": {
+      "video_id": "Q9ycQHbDdJs",
+      "title": "Agents Need Receipts, Not More Tool Calls - Armanas Povilionis, Alithea Bio",
+      "channel": "AI Engineer",
+      "published": "2026-07-20T06:25:01+00:00",
+      "url": "https://www.youtube.com/watch?v=Q9ycQHbDdJs",
+      "channel_slug": "ai-engineer",
+      "status": "blocked"
+    },
+    "maTp79FD9gI": {
+      "status": "done",
+      "title": "Agent Output Is Not UX: Rendering Layer Your LLM Pipeline Is Missing - Bala Ramdoss, Amazon Lens",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-20T06:24:59+00:00",
+      "url": "https://www.youtube.com/watch?v=maTp79FD9gI",
+      "generated": "2026-07-20T07:30:42+00:00"
+    },
+    "hMlLw1LeIK8": {
+      "video_id": "hMlLw1LeIK8",
+      "title": "Voice Agents That Handle Interrupts - Chintan Agrawal and Daniel Wirjo, AWS",
+      "channel": "AI Engineer",
+      "published": "2026-07-20T06:24:55+00:00",
+      "url": "https://www.youtube.com/watch?v=hMlLw1LeIK8",
+      "channel_slug": "ai-engineer",
+      "status": "blocked"
+    },
+    "LC3-P7v3yoI": {
+      "status": "done",
+      "title": "Skills are the New SDKs - Elvin Aghammadzada, DataRobot",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-20T06:24:53+00:00",
+      "url": "https://www.youtube.com/watch?v=LC3-P7v3yoI",
+      "generated": "2026-07-20T07:32:02+00:00"
+    },
+    "0RNNfxpdbQk": {
+      "video_id": "0RNNfxpdbQk",
+      "title": "Medic for Apache Spark - First Aid for Failing Jobs - Drasko Profirovic, Pinterest",
+      "channel": "AI Engineer",
+      "published": "2026-07-20T06:24:50+00:00",
+      "url": "https://www.youtube.com/watch?v=0RNNfxpdbQk",
+      "channel_slug": "ai-engineer",
+      "status": "pending"
+    },
+    "_cVfz88_j7A": {
+      "video_id": "_cVfz88_j7A",
+      "title": "Can Oncology Workflows Run Without Human Touch? - Anant Shankhdhar, Risa Labs",
+      "channel": "AI Engineer",
+      "published": "2026-07-20T06:24:47+00:00",
+      "url": "https://www.youtube.com/watch?v=_cVfz88_j7A",
+      "channel_slug": "ai-engineer",
+      "status": "pending"
     }
   }
 }

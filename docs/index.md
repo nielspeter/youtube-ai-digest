@@ -4,11 +4,12 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **258** videos summarized.
+Auto-generated summaries of subscribed channels. **260** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/Cz4v1WHVyZc"><img loading="lazy" src="https://i.ytimg.com/vi/Cz4v1WHVyZc/hqdefault.jpg" alt=""><span class="video-title">HTML Is All Agents Need — James Russo, HeyGen</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/ai-engineer/RGe6EjucbzI"><img loading="lazy" src="https://i.ytimg.com/vi/RGe6EjucbzI/hqdefault.jpg" alt=""><span class="video-title">2026 State of AI Engineering — Barr Yaron, Amplify Partners</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/ai-engineer/X1kp-ABIIxQ"><img loading="lazy" src="https://i.ytimg.com/vi/X1kp-ABIIxQ/hqdefault.jpg" alt=""><span class="video-title">Your agent architecture has a half-life of 6 months — Dan Farrelly, CTO, Inngest</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/ai-engineer/XV2oYi7kojc"><img loading="lazy" src="https://i.ytimg.com/vi/XV2oYi7kojc/hqdefault.jpg" alt=""><span class="video-title">The Desktop Frontier — Ahmad Osman, Osmantic</span><span class="video-date">2026-07-21</span></a>
@@ -280,6 +281,7 @@ Auto-generated summaries of subscribed channels. **258** videos summarized.
 ## OpenAI
 
 <div class="video-grid">
+<a class="video-card" href="summaries/openai/pKwRNdDtai0"><img loading="lazy" src="https://i.ytimg.com/vi/pKwRNdDtai0/hqdefault.jpg" alt=""><span class="video-title">Plugins in ChatGPT</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/openai/qr2CuMmKzH0"><img loading="lazy" src="https://i.ytimg.com/vi/qr2CuMmKzH0/hqdefault.jpg" alt=""><span class="video-title">How Small Business Owners Use ChatGPT | Hiroki’s Story</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/openai/WwxZeU4WH14"><img loading="lazy" src="https://i.ytimg.com/vi/WwxZeU4WH14/hqdefault.jpg" alt=""><span class="video-title">How Virgin Atlantic Uses ChatGPT Work to Turn Weeks of Work Into Hours</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/openai/MmYCdNhrhfA"><img loading="lazy" src="https://i.ytimg.com/vi/MmYCdNhrhfA/hqdefault.jpg" alt=""><span class="video-title">How BNY CEO Robin Vince Turns AI Optimism Into Action</span><span class="video-date">2026-07-20</span></a>

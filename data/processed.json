@@ -3748,6 +3748,34 @@
       "url": "https://www.youtube.com/watch?v=UGS6rL1hBRw",
       "channel_slug": "ai-native-dev",
       "status": "short"
+    },
+    "pKwRNdDtai0": {
+      "status": "done",
+      "title": "Plugins in ChatGPT",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-21T18:00:39+00:00",
+      "url": "https://www.youtube.com/watch?v=pKwRNdDtai0",
+      "generated": "2026-07-21T19:48:37+00:00"
+    },
+    "Cz4v1WHVyZc": {
+      "status": "done",
+      "title": "HTML Is All Agents Need — James Russo, HeyGen",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-21T18:54:01+00:00",
+      "url": "https://www.youtube.com/watch?v=Cz4v1WHVyZc",
+      "generated": "2026-07-21T19:47:33+00:00"
+    },
+    "khVX_BUnEwU": {
+      "video_id": "khVX_BUnEwU",
+      "title": "Active Graph Agent Runtime (BabyAGI 4) — Yohei Nakajima, Untapped Capital",
+      "channel": "AI Engineer",
+      "published": "2026-07-20T12:07:21+00:00",
+      "url": "https://www.youtube.com/watch?v=khVX_BUnEwU",
+      "channel_slug": "ai-engineer",
+      "status": "no_transcript",
+      "attempts": 1
     }
   }
 }

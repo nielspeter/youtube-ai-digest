@@ -3685,6 +3685,69 @@
       "url": "https://www.youtube.com/watch?v=c1TWmKILaeM",
       "channel_slug": "nate-herk-ai-automation",
       "status": "short"
+    },
+    "OAW-R20StrM": {
+      "video_id": "OAW-R20StrM",
+      "title": "Why Distillation Might Be Impossible to Stop",
+      "channel": "LangChain",
+      "published": "2026-07-21T15:48:11+00:00",
+      "url": "https://www.youtube.com/watch?v=OAW-R20StrM",
+      "channel_slug": "langchain",
+      "status": "short"
+    },
+    "Ncv5TYdY7Tg": {
+      "status": "done",
+      "title": "Trace Every Cursor Agent Turn in LangSmith",
+      "channel": "LangChain",
+      "channel_slug": "langchain",
+      "published": "2026-07-21T15:16:53+00:00",
+      "url": "https://www.youtube.com/watch?v=Ncv5TYdY7Tg",
+      "generated": "2026-07-21T17:48:25+00:00"
+    },
+    "qr2CuMmKzH0": {
+      "status": "done",
+      "title": "How Small Business Owners Use ChatGPT | Hiroki’s Story",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-21T17:20:38+00:00",
+      "url": "https://www.youtube.com/watch?v=qr2CuMmKzH0",
+      "generated": "2026-07-21T17:41:46+00:00"
+    },
+    "RGe6EjucbzI": {
+      "status": "done",
+      "title": "2026 State of AI Engineering — Barr Yaron, Amplify Partners",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-21T16:11:29+00:00",
+      "url": "https://www.youtube.com/watch?v=RGe6EjucbzI",
+      "generated": "2026-07-21T17:46:08+00:00"
+    },
+    "h8TBLKyo7Rs": {
+      "status": "done",
+      "title": "From \"napkin math\" to turbpopuffer",
+      "channel": "The Pragmatic Engineer",
+      "channel_slug": "the-pragmatic-engineer",
+      "published": "2026-07-21T16:47:53+00:00",
+      "url": "https://www.youtube.com/watch?v=h8TBLKyo7Rs",
+      "generated": "2026-07-21T17:42:26+00:00"
+    },
+    "DWwLsjo1eB8": {
+      "video_id": "DWwLsjo1eB8",
+      "title": "The smart zone vs dumb zone for LLMs",
+      "channel": "The Pragmatic Engineer",
+      "published": "2026-07-21T16:00:20+00:00",
+      "url": "https://www.youtube.com/watch?v=DWwLsjo1eB8",
+      "channel_slug": "the-pragmatic-engineer",
+      "status": "short"
+    },
+    "UGS6rL1hBRw": {
+      "video_id": "UGS6rL1hBRw",
+      "title": "Why This Company Won't Let AI Agents Touch Bash",
+      "channel": "AI Native Dev",
+      "published": "2026-07-21T17:00:01+00:00",
+      "url": "https://www.youtube.com/watch?v=UGS6rL1hBRw",
+      "channel_slug": "ai-native-dev",
+      "status": "short"
     }
   }
 }

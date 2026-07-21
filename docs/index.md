@@ -4,11 +4,12 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **254** videos summarized.
+Auto-generated summaries of subscribed channels. **258** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/RGe6EjucbzI"><img loading="lazy" src="https://i.ytimg.com/vi/RGe6EjucbzI/hqdefault.jpg" alt=""><span class="video-title">2026 State of AI Engineering — Barr Yaron, Amplify Partners</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/ai-engineer/X1kp-ABIIxQ"><img loading="lazy" src="https://i.ytimg.com/vi/X1kp-ABIIxQ/hqdefault.jpg" alt=""><span class="video-title">Your agent architecture has a half-life of 6 months — Dan Farrelly, CTO, Inngest</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/ai-engineer/XV2oYi7kojc"><img loading="lazy" src="https://i.ytimg.com/vi/XV2oYi7kojc/hqdefault.jpg" alt=""><span class="video-title">The Desktop Frontier — Ahmad Osman, Osmantic</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/ai-engineer/1EZdpEhwmNc"><img loading="lazy" src="https://i.ytimg.com/vi/1EZdpEhwmNc/hqdefault.jpg" alt=""><span class="video-title">Through the AI Fog: The Architectural Decision Agentic Security Depends On — Manoj Nair, Snyk</span><span class="video-date">2026-07-20</span></a>
@@ -196,6 +197,7 @@ Auto-generated summaries of subscribed channels. **254** videos summarized.
 ## LangChain
 
 <div class="video-grid">
+<a class="video-card" href="summaries/langchain/Ncv5TYdY7Tg"><img loading="lazy" src="https://i.ytimg.com/vi/Ncv5TYdY7Tg/hqdefault.jpg" alt=""><span class="video-title">Trace Every Cursor Agent Turn in LangSmith</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/langchain/93I8mEtl_ZU"><img loading="lazy" src="https://i.ytimg.com/vi/93I8mEtl_ZU/hqdefault.jpg" alt=""><span class="video-title">Interrupt 26: The Agent Conference by LangChain</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/langchain/YrQBRoo7uIY"><img loading="lazy" src="https://i.ytimg.com/vi/YrQBRoo7uIY/hqdefault.jpg" alt=""><span class="video-title">LangSmith Sandboxes: A Secure Computer for Your Agent</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/langchain/py9d6zTl4Dc"><img loading="lazy" src="https://i.ytimg.com/vi/py9d6zTl4Dc/hqdefault.jpg" alt=""><span class="video-title">How Coinbase Builds Developer Support Agents | Interrupt 26</span><span class="video-date">2026-07-20</span></a>
@@ -278,6 +280,7 @@ Auto-generated summaries of subscribed channels. **254** videos summarized.
 ## OpenAI
 
 <div class="video-grid">
+<a class="video-card" href="summaries/openai/qr2CuMmKzH0"><img loading="lazy" src="https://i.ytimg.com/vi/qr2CuMmKzH0/hqdefault.jpg" alt=""><span class="video-title">How Small Business Owners Use ChatGPT | Hiroki’s Story</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/openai/WwxZeU4WH14"><img loading="lazy" src="https://i.ytimg.com/vi/WwxZeU4WH14/hqdefault.jpg" alt=""><span class="video-title">How Virgin Atlantic Uses ChatGPT Work to Turn Weeks of Work Into Hours</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/openai/MmYCdNhrhfA"><img loading="lazy" src="https://i.ytimg.com/vi/MmYCdNhrhfA/hqdefault.jpg" alt=""><span class="video-title">How BNY CEO Robin Vince Turns AI Optimism Into Action</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/openai/tyAO2zR_qZI"><img loading="lazy" src="https://i.ytimg.com/vi/tyAO2zR_qZI/hqdefault.jpg" alt=""><span class="video-title">Virgin Atlantic Turns Weeks of Work Into Hours with ChatGPT Work</span><span class="video-date">2026-07-17</span></a>
@@ -335,6 +338,7 @@ Auto-generated summaries of subscribed channels. **254** videos summarized.
 ## The Pragmatic Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/the-pragmatic-engineer/h8TBLKyo7Rs"><img loading="lazy" src="https://i.ytimg.com/vi/h8TBLKyo7Rs/hqdefault.jpg" alt=""><span class="video-title">From &quot;napkin math&quot; to turbpopuffer</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/the-pragmatic-engineer/4MVFQ9HNFjk"><img loading="lazy" src="https://i.ytimg.com/vi/4MVFQ9HNFjk/hqdefault.jpg" alt=""><span class="video-title">Should you jump jobs or stay put, in this market?</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/the-pragmatic-engineer/cSIMVYjVF28"><img loading="lazy" src="https://i.ytimg.com/vi/cSIMVYjVF28/hqdefault.jpg" alt=""><span class="video-title">The Pragmatic Engineer AMA</span><span class="video-date">2026-07-08</span></a>
 <a class="video-card" href="summaries/the-pragmatic-engineer/xafwfGVBxos"><img loading="lazy" src="https://i.ytimg.com/vi/xafwfGVBxos/hqdefault.jpg" alt=""><span class="video-title">Tech interviews with NeetCode</span><span class="video-date">2026-06-24</span></a>

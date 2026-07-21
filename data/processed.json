@@ -3775,7 +3775,7 @@
       "url": "https://www.youtube.com/watch?v=khVX_BUnEwU",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 2
+      "attempts": 3
     },
     "6BtIQIGqGJc": {
       "status": "done",
@@ -3785,6 +3785,15 @@
       "published": "2026-07-21T19:57:45+00:00",
       "url": "https://www.youtube.com/watch?v=6BtIQIGqGJc",
       "generated": "2026-07-21T21:23:42+00:00"
+    },
+    "8qWIPUia2O8": {
+      "status": "done",
+      "title": "Every Harness Will Become A Claw — Sam Bhagwat, Mastra",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-21T21:30:06+00:00",
+      "url": "https://www.youtube.com/watch?v=8qWIPUia2O8",
+      "generated": "2026-07-21T23:08:48+00:00"
     }
   }
 }

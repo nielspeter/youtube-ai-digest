@@ -3487,6 +3487,24 @@
       "published": "2026-07-20T15:00:06+00:00",
       "url": "https://www.youtube.com/watch?v=VrpEyglYgeU",
       "generated": "2026-07-20T23:14:03+00:00"
+    },
+    "X1kp-ABIIxQ": {
+      "status": "done",
+      "title": "Your agent architecture has a half-life of 6 months — Dan Farrelly, CTO, Inngest",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-21T03:14:22+00:00",
+      "url": "https://www.youtube.com/watch?v=X1kp-ABIIxQ",
+      "generated": "2026-07-21T03:39:12+00:00"
+    },
+    "XV2oYi7kojc": {
+      "status": "done",
+      "title": "The Desktop Frontier — Ahmad Osman, Osmantic",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-21T02:28:29+00:00",
+      "url": "https://www.youtube.com/watch?v=XV2oYi7kojc",
+      "generated": "2026-07-21T03:40:55+00:00"
     }
   }
 }

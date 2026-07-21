@@ -4,11 +4,13 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **245** videos summarized.
+Auto-generated summaries of subscribed channels. **247** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/X1kp-ABIIxQ"><img loading="lazy" src="https://i.ytimg.com/vi/X1kp-ABIIxQ/hqdefault.jpg" alt=""><span class="video-title">Your agent architecture has a half-life of 6 months — Dan Farrelly, CTO, Inngest</span><span class="video-date">2026-07-21</span></a>
+<a class="video-card" href="summaries/ai-engineer/XV2oYi7kojc"><img loading="lazy" src="https://i.ytimg.com/vi/XV2oYi7kojc/hqdefault.jpg" alt=""><span class="video-title">The Desktop Frontier — Ahmad Osman, Osmantic</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/ai-engineer/1EZdpEhwmNc"><img loading="lazy" src="https://i.ytimg.com/vi/1EZdpEhwmNc/hqdefault.jpg" alt=""><span class="video-title">Through the AI Fog: The Architectural Decision Agentic Security Depends On — Manoj Nair, Snyk</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/ai-engineer/1lgFGaHoGq8"><img loading="lazy" src="https://i.ytimg.com/vi/1lgFGaHoGq8/hqdefault.jpg" alt=""><span class="video-title">AI’s Jurassic Park Period — Aaron Stanley, dbt Labs</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/ai-engineer/2xJoimgoqBg"><img loading="lazy" src="https://i.ytimg.com/vi/2xJoimgoqBg/hqdefault.jpg" alt=""><span class="video-title">Security Track Intro — Randall Degges, Snyk</span><span class="video-date">2026-07-20</span></a>

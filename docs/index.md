@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **260** videos summarized.
+Auto-generated summaries of subscribed channels. **261** videos summarized.
 
 ## AI Engineer
 
@@ -247,6 +247,7 @@ Auto-generated summaries of subscribed channels. **260** videos summarized.
 ## Matthew Berman
 
 <div class="video-grid">
+<a class="video-card" href="summaries/matthew-berman/6BtIQIGqGJc"><img loading="lazy" src="https://i.ytimg.com/vi/6BtIQIGqGJc/hqdefault.jpg" alt=""><span class="video-title">The Most Important Conversation in AI Right Now</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/matthew-berman/JrVPIy9AdfQ"><img loading="lazy" src="https://i.ytimg.com/vi/JrVPIy9AdfQ/hqdefault.jpg" alt=""><span class="video-title">Did Kimi K3 really beat Fable?</span><span class="video-date">2026-07-18</span></a>
 <a class="video-card" href="summaries/matthew-berman/WMiylHobhBM"><img loading="lazy" src="https://i.ytimg.com/vi/WMiylHobhBM/hqdefault.jpg" alt=""><span class="video-title">AI NEWS LIVE</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/matthew-berman/5HTqWgt6ctk"><img loading="lazy" src="https://i.ytimg.com/vi/5HTqWgt6ctk/hqdefault.jpg" alt=""><span class="video-title">AI NEWS LIVE</span><span class="video-date">2026-07-15</span></a>

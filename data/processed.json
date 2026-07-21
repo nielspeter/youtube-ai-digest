@@ -3775,7 +3775,16 @@
       "url": "https://www.youtube.com/watch?v=khVX_BUnEwU",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 1
+      "attempts": 2
+    },
+    "6BtIQIGqGJc": {
+      "status": "done",
+      "title": "The Most Important Conversation in AI Right Now",
+      "channel": "Matthew Berman",
+      "channel_slug": "matthew-berman",
+      "published": "2026-07-21T19:57:45+00:00",
+      "url": "https://www.youtube.com/watch?v=6BtIQIGqGJc",
+      "generated": "2026-07-21T21:23:42+00:00"
     }
   }
 }

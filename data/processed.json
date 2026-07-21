@@ -3514,6 +3514,168 @@
       "url": "https://www.youtube.com/watch?v=0l7zOp260yc",
       "channel_slug": "matt-pocock",
       "status": "short"
+    },
+    "HfFoZZhAzEM": {
+      "video_id": "HfFoZZhAzEM",
+      "title": "Why you can write the code in a day but ship in a month",
+      "channel": "Beyond Coding",
+      "published": "2026-07-19T07:33:04+00:00",
+      "url": "https://www.youtube.com/watch?v=HfFoZZhAzEM",
+      "channel_slug": "beyond-coding",
+      "status": "short"
+    },
+    "WsBWRnKLYiI": {
+      "video_id": "WsBWRnKLYiI",
+      "title": "What senior engineers do differently, according to Vercel's VP",
+      "channel": "Beyond Coding",
+      "published": "2026-07-16T16:08:58+00:00",
+      "url": "https://www.youtube.com/watch?v=WsBWRnKLYiI",
+      "channel_slug": "beyond-coding",
+      "status": "short"
+    },
+    "mlvbbqYtUz0": {
+      "status": "done",
+      "title": "What Senior Engineers do Differently (Vercel VP)",
+      "channel": "Beyond Coding",
+      "channel_slug": "beyond-coding",
+      "published": "2026-07-15T12:00:03+00:00",
+      "url": "https://www.youtube.com/watch?v=mlvbbqYtUz0",
+      "generated": "2026-07-21T13:07:28+00:00"
+    },
+    "i0Q_EiadGYU": {
+      "video_id": "i0Q_EiadGYU",
+      "title": "Is your internal developer platform helping or slowing you down?",
+      "channel": "Beyond Coding",
+      "published": "2026-07-13T19:54:30+00:00",
+      "url": "https://www.youtube.com/watch?v=i0Q_EiadGYU",
+      "channel_slug": "beyond-coding",
+      "status": "short"
+    },
+    "iCsS6nFhenM": {
+      "video_id": "iCsS6nFhenM",
+      "title": "Why being the fastest coder stopped mattering",
+      "channel": "Beyond Coding",
+      "published": "2026-07-11T07:03:27+00:00",
+      "url": "https://www.youtube.com/watch?v=iCsS6nFhenM",
+      "channel_slug": "beyond-coding",
+      "status": "short"
+    },
+    "UHOEB39m8Rc": {
+      "video_id": "UHOEB39m8Rc",
+      "title": "Anyone can write code now. Not everyone can build software.",
+      "channel": "Beyond Coding",
+      "published": "2026-07-09T19:44:40+00:00",
+      "url": "https://www.youtube.com/watch?v=UHOEB39m8Rc",
+      "channel_slug": "beyond-coding",
+      "status": "short"
+    },
+    "M1i11zsqsT8": {
+      "video_id": "M1i11zsqsT8",
+      "title": "What the Best Engineers Do When Agents Fail",
+      "channel": "Beyond Coding",
+      "published": "2026-07-09T12:00:37+00:00",
+      "url": "https://www.youtube.com/watch?v=M1i11zsqsT8",
+      "channel_slug": "beyond-coding",
+      "status": "blocked"
+    },
+    "_eO9fy7wFp8": {
+      "video_id": "_eO9fy7wFp8",
+      "title": "Career advice every software engineer needs to hear",
+      "channel": "Beyond Coding",
+      "published": "2026-07-06T18:13:40+00:00",
+      "url": "https://www.youtube.com/watch?v=_eO9fy7wFp8",
+      "channel_slug": "beyond-coding",
+      "status": "short"
+    },
+    "w8XOaMrLFmE": {
+      "video_id": "w8XOaMrLFmE",
+      "title": "The rarest engineering skill, according to an AI cloud CTO",
+      "channel": "Beyond Coding",
+      "published": "2026-07-03T19:34:08+00:00",
+      "url": "https://www.youtube.com/watch?v=w8XOaMrLFmE",
+      "channel_slug": "beyond-coding",
+      "status": "short"
+    },
+    "zTenuG5b4Eo": {
+      "status": "done",
+      "title": "Why These Engineering Skills Get You Hired No Matter What (Nebius CTO)",
+      "channel": "Beyond Coding",
+      "channel_slug": "beyond-coding",
+      "published": "2026-07-01T12:00:14+00:00",
+      "url": "https://www.youtube.com/watch?v=zTenuG5b4Eo",
+      "generated": "2026-07-21T13:08:50+00:00"
+    },
+    "G9DabOTylyo": {
+      "video_id": "G9DabOTylyo",
+      "title": "That's why junior engineers are actually the change agents",
+      "channel": "Beyond Coding",
+      "published": "2026-06-30T10:33:31+00:00",
+      "url": "https://www.youtube.com/watch?v=G9DabOTylyo",
+      "channel_slug": "beyond-coding",
+      "status": "short"
+    },
+    "vRDk-9Xx72U": {
+      "video_id": "vRDk-9Xx72U",
+      "title": "The skills that matter when AI writes your code",
+      "channel": "Beyond Coding",
+      "published": "2026-06-28T19:21:41+00:00",
+      "url": "https://www.youtube.com/watch?v=vRDk-9Xx72U",
+      "channel_slug": "beyond-coding",
+      "status": "short"
+    },
+    "qz2FlySWrwo": {
+      "video_id": "qz2FlySWrwo",
+      "title": "Why 100 job applications get zero replies in 2026",
+      "channel": "Beyond Coding",
+      "published": "2026-06-26T20:01:48+00:00",
+      "url": "https://www.youtube.com/watch?v=qz2FlySWrwo",
+      "channel_slug": "beyond-coding",
+      "status": "short"
+    },
+    "u9pVRdtNsQo": {
+      "status": "done",
+      "title": "Why Applying to Jobs No Longer Works",
+      "channel": "Beyond Coding",
+      "channel_slug": "beyond-coding",
+      "published": "2026-06-24T12:00:22+00:00",
+      "url": "https://www.youtube.com/watch?v=u9pVRdtNsQo",
+      "generated": "2026-07-21T13:11:25+00:00"
+    },
+    "j17U8f3g5to": {
+      "video_id": "j17U8f3g5to",
+      "title": "The \"55x faster coding\" claim misses the whole point",
+      "channel": "Beyond Coding",
+      "published": "2026-06-23T19:24:35+00:00",
+      "url": "https://www.youtube.com/watch?v=j17U8f3g5to",
+      "channel_slug": "beyond-coding",
+      "status": "short"
+    },
+    "93I8mEtl_ZU": {
+      "status": "done",
+      "title": "Interrupt 26: The Agent Conference by LangChain",
+      "channel": "LangChain",
+      "channel_slug": "langchain",
+      "published": "2026-07-21T13:00:12+00:00",
+      "url": "https://www.youtube.com/watch?v=93I8mEtl_ZU",
+      "generated": "2026-07-21T13:04:07+00:00"
+    },
+    "gQUQZxrM5Ts": {
+      "status": "done",
+      "title": "PewDiePie is a software engineer now...",
+      "channel": "Better Stack",
+      "channel_slug": "better-stack",
+      "published": "2026-07-21T11:30:29+00:00",
+      "url": "https://www.youtube.com/watch?v=gQUQZxrM5Ts",
+      "generated": "2026-07-21T13:06:23+00:00"
+    },
+    "zFbaipV2FHw": {
+      "status": "done",
+      "title": "Why This Company Won't Let AI Agents Touch Bash",
+      "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
+      "published": "2026-07-21T12:00:29+00:00",
+      "url": "https://www.youtube.com/watch?v=zFbaipV2FHw",
+      "generated": "2026-07-21T13:04:47+00:00"
     }
   }
 }

@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **247** videos summarized.
+Auto-generated summaries of subscribed channels. **253** videos summarized.
 
 ## AI Engineer
 
@@ -84,6 +84,7 @@ Auto-generated summaries of subscribed channels. **247** videos summarized.
 ## AI Native Dev
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-native-dev/zFbaipV2FHw"><img loading="lazy" src="https://i.ytimg.com/vi/zFbaipV2FHw/hqdefault.jpg" alt=""><span class="video-title">Why This Company Won&#x27;t Let AI Agents Touch Bash</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/ai-native-dev/HgA0spItnZI"><img loading="lazy" src="https://i.ytimg.com/vi/HgA0spItnZI/hqdefault.jpg" alt=""><span class="video-title">Jack Wotherspoon - Humans vs. Slop: Rewriting the Rules of Open-Source - AI Native DevCon</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/ai-native-dev/-sYhcsy5OwI"><img loading="lazy" src="https://i.ytimg.com/vi/-sYhcsy5OwI/hqdefault.jpg" alt=""><span class="video-title">Edouard Maleix - How AI-First Dev Teams Build Collective Intelligence — One Attributed Mistake at</span><span class="video-date">2026-07-19</span></a>
 <a class="video-card" href="summaries/ai-native-dev/-6SNbcE3C9o"><img loading="lazy" src="https://i.ytimg.com/vi/-6SNbcE3C9o/hqdefault.jpg" alt=""><span class="video-title">May Walter - From Blind Spots to Merged PRs: Runtime Intelligence for Continuous Agentic Performance</span><span class="video-date">2026-07-18</span></a>
@@ -123,6 +124,7 @@ Auto-generated summaries of subscribed channels. **247** videos summarized.
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/gQUQZxrM5Ts"><img loading="lazy" src="https://i.ytimg.com/vi/gQUQZxrM5Ts/hqdefault.jpg" alt=""><span class="video-title">PewDiePie is a software engineer now...</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/better-stack/4GaR7k9VMp4"><img loading="lazy" src="https://i.ytimg.com/vi/4GaR7k9VMp4/hqdefault.jpg" alt=""><span class="video-title">Meta made their own shadcn (Astryx)</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/better-stack/o_psX5meBo8"><img loading="lazy" src="https://i.ytimg.com/vi/o_psX5meBo8/hqdefault.jpg" alt=""><span class="video-title">This Free CLI Tool Beats Every Paid File Transfer App (croc)</span><span class="video-date">2026-07-19</span></a>
 <a class="video-card" href="summaries/better-stack/8c68vFpT9Tk"><img loading="lazy" src="https://i.ytimg.com/vi/8c68vFpT9Tk/hqdefault.jpg" alt=""><span class="video-title">Google Just Made TensorFlow.js Obsolete (LiteRT.js)</span><span class="video-date">2026-07-17</span></a>
@@ -144,6 +146,14 @@ Auto-generated summaries of subscribed channels. **247** videos summarized.
 <a class="video-card" href="summaries/better-stack/lNsSxWQDqaU"><img loading="lazy" src="https://i.ytimg.com/vi/lNsSxWQDqaU/hqdefault.jpg" alt=""><span class="video-title">The Largest Supply Chain Attack Ever Just Infected Go</span><span class="video-date">2026-07-08</span></a>
 <a class="video-card" href="summaries/better-stack/wOfm7x0i3sw"><img loading="lazy" src="https://i.ytimg.com/vi/wOfm7x0i3sw/hqdefault.jpg" alt=""><span class="video-title">Open Source Is Back. Goodbye Claude.</span><span class="video-date">2026-07-07</span></a>
 <a class="video-card" href="summaries/better-stack/wiQo9gayiqU"><img loading="lazy" src="https://i.ytimg.com/vi/wiQo9gayiqU/hqdefault.jpg" alt=""><span class="video-title">No API Key. No Cloud. Just Mac AI (Apfel)</span><span class="video-date">2026-07-07</span></a>
+</div>
+
+## Beyond Coding
+
+<div class="video-grid">
+<a class="video-card" href="summaries/beyond-coding/mlvbbqYtUz0"><img loading="lazy" src="https://i.ytimg.com/vi/mlvbbqYtUz0/hqdefault.jpg" alt=""><span class="video-title">What Senior Engineers do Differently (Vercel VP)</span><span class="video-date">2026-07-15</span></a>
+<a class="video-card" href="summaries/beyond-coding/zTenuG5b4Eo"><img loading="lazy" src="https://i.ytimg.com/vi/zTenuG5b4Eo/hqdefault.jpg" alt=""><span class="video-title">Why These Engineering Skills Get You Hired No Matter What (Nebius CTO)</span><span class="video-date">2026-07-01</span></a>
+<a class="video-card" href="summaries/beyond-coding/u9pVRdtNsQo"><img loading="lazy" src="https://i.ytimg.com/vi/u9pVRdtNsQo/hqdefault.jpg" alt=""><span class="video-title">Why Applying to Jobs No Longer Works</span><span class="video-date">2026-06-24</span></a>
 </div>
 
 ## Cole Medin
@@ -185,6 +195,7 @@ Auto-generated summaries of subscribed channels. **247** videos summarized.
 ## LangChain
 
 <div class="video-grid">
+<a class="video-card" href="summaries/langchain/93I8mEtl_ZU"><img loading="lazy" src="https://i.ytimg.com/vi/93I8mEtl_ZU/hqdefault.jpg" alt=""><span class="video-title">Interrupt 26: The Agent Conference by LangChain</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/langchain/YrQBRoo7uIY"><img loading="lazy" src="https://i.ytimg.com/vi/YrQBRoo7uIY/hqdefault.jpg" alt=""><span class="video-title">LangSmith Sandboxes: A Secure Computer for Your Agent</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/langchain/py9d6zTl4Dc"><img loading="lazy" src="https://i.ytimg.com/vi/py9d6zTl4Dc/hqdefault.jpg" alt=""><span class="video-title">How Coinbase Builds Developer Support Agents | Interrupt 26</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/langchain/GbzEDgcuGJU"><img loading="lazy" src="https://i.ytimg.com/vi/GbzEDgcuGJU/hqdefault.jpg" alt=""><span class="video-title">Deep Agents Explained</span><span class="video-date">2026-07-17</span></a>

@@ -3,6 +3,7 @@
 # The pipeline resolves handles/URLs to channel IDs once and caches them in
 # data/channels.json, so you can just paste handles here.
 channels:
+  - "@BeyondCoding"
   - "@ColeMedin"
   - "@LangChain"
   - "@MetalSole"

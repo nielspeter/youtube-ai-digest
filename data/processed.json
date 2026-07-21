@@ -3570,13 +3570,13 @@
       "status": "short"
     },
     "M1i11zsqsT8": {
-      "video_id": "M1i11zsqsT8",
+      "status": "done",
       "title": "What the Best Engineers Do When Agents Fail",
       "channel": "Beyond Coding",
+      "channel_slug": "beyond-coding",
       "published": "2026-07-09T12:00:37+00:00",
       "url": "https://www.youtube.com/watch?v=M1i11zsqsT8",
-      "channel_slug": "beyond-coding",
-      "status": "blocked"
+      "generated": "2026-07-21T14:18:12+00:00"
     },
     "_eO9fy7wFp8": {
       "video_id": "_eO9fy7wFp8",
@@ -3676,6 +3676,15 @@
       "published": "2026-07-21T12:00:29+00:00",
       "url": "https://www.youtube.com/watch?v=zFbaipV2FHw",
       "generated": "2026-07-21T13:04:47+00:00"
+    },
+    "c1TWmKILaeM": {
+      "video_id": "c1TWmKILaeM",
+      "title": "Huge ChatGPT Update You Need to See!",
+      "channel": "Nate Herk | AI Automation",
+      "published": "2026-07-21T13:00:33+00:00",
+      "url": "https://www.youtube.com/watch?v=c1TWmKILaeM",
+      "channel_slug": "nate-herk-ai-automation",
+      "status": "short"
     }
   }
 }

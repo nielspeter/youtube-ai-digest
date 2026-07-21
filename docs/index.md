@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **253** videos summarized.
+Auto-generated summaries of subscribed channels. **254** videos summarized.
 
 ## AI Engineer
 
@@ -152,6 +152,7 @@ Auto-generated summaries of subscribed channels. **253** videos summarized.
 
 <div class="video-grid">
 <a class="video-card" href="summaries/beyond-coding/mlvbbqYtUz0"><img loading="lazy" src="https://i.ytimg.com/vi/mlvbbqYtUz0/hqdefault.jpg" alt=""><span class="video-title">What Senior Engineers do Differently (Vercel VP)</span><span class="video-date">2026-07-15</span></a>
+<a class="video-card" href="summaries/beyond-coding/M1i11zsqsT8"><img loading="lazy" src="https://i.ytimg.com/vi/M1i11zsqsT8/hqdefault.jpg" alt=""><span class="video-title">What the Best Engineers Do When Agents Fail</span><span class="video-date">2026-07-09</span></a>
 <a class="video-card" href="summaries/beyond-coding/zTenuG5b4Eo"><img loading="lazy" src="https://i.ytimg.com/vi/zTenuG5b4Eo/hqdefault.jpg" alt=""><span class="video-title">Why These Engineering Skills Get You Hired No Matter What (Nebius CTO)</span><span class="video-date">2026-07-01</span></a>
 <a class="video-card" href="summaries/beyond-coding/u9pVRdtNsQo"><img loading="lazy" src="https://i.ytimg.com/vi/u9pVRdtNsQo/hqdefault.jpg" alt=""><span class="video-title">Why Applying to Jobs No Longer Works</span><span class="video-date">2026-06-24</span></a>
 </div>

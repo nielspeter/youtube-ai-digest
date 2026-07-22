@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **273** videos summarized.
+Auto-generated summaries of subscribed channels. **276** videos summarized.
 
 ## AI Engineer
 
@@ -132,6 +132,7 @@ Auto-generated summaries of subscribed channels. **273** videos summarized.
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/iUkgp7kzIxM"><img loading="lazy" src="https://i.ytimg.com/vi/iUkgp7kzIxM/hqdefault.jpg" alt=""><span class="video-title">OpenAI Went Rogue and Hacked Another Startup</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/better-stack/lU_jse27kWA"><img loading="lazy" src="https://i.ytimg.com/vi/lU_jse27kWA/hqdefault.jpg" alt=""><span class="video-title">Harper: The Free, Private Grammarly Alternative Built in Rust</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/better-stack/gQUQZxrM5Ts"><img loading="lazy" src="https://i.ytimg.com/vi/gQUQZxrM5Ts/hqdefault.jpg" alt=""><span class="video-title">PewDiePie is a software engineer now...</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/better-stack/4GaR7k9VMp4"><img loading="lazy" src="https://i.ytimg.com/vi/4GaR7k9VMp4/hqdefault.jpg" alt=""><span class="video-title">Meta made their own shadcn (Astryx)</span><span class="video-date">2026-07-20</span></a>
@@ -294,6 +295,8 @@ Auto-generated summaries of subscribed channels. **273** videos summarized.
 ## OpenAI
 
 <div class="video-grid">
+<a class="video-card" href="summaries/openai/4Nv--b12hxQ"><img loading="lazy" src="https://i.ytimg.com/vi/4Nv--b12hxQ/hqdefault.jpg" alt=""><span class="video-title">How European Small Businesses Are Using ChatGPT and Codex | OpenAI Academy</span><span class="video-date">2026-07-22</span></a>
+<a class="video-card" href="summaries/openai/cFyFF3Ad2aM"><img loading="lazy" src="https://i.ytimg.com/vi/cFyFF3Ad2aM/hqdefault.jpg" alt=""><span class="video-title">How California Small Businesses Are Using ChatGPT | OpenAI Academy</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/openai/pKwRNdDtai0"><img loading="lazy" src="https://i.ytimg.com/vi/pKwRNdDtai0/hqdefault.jpg" alt=""><span class="video-title">Plugins in ChatGPT</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/openai/qr2CuMmKzH0"><img loading="lazy" src="https://i.ytimg.com/vi/qr2CuMmKzH0/hqdefault.jpg" alt=""><span class="video-title">How Small Business Owners Use ChatGPT | Hiroki’s Story</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/openai/WwxZeU4WH14"><img loading="lazy" src="https://i.ytimg.com/vi/WwxZeU4WH14/hqdefault.jpg" alt=""><span class="video-title">How Virgin Atlantic Uses ChatGPT Work to Turn Weeks of Work Into Hours</span><span class="video-date">2026-07-20</span></a>

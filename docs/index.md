@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **268** videos summarized.
+Auto-generated summaries of subscribed channels. **269** videos summarized.
 
 ## AI Engineer
 
@@ -89,6 +89,7 @@ Auto-generated summaries of subscribed channels. **268** videos summarized.
 
 <div class="video-grid">
 <a class="video-card" href="summaries/ai-native-dev/Imw9nfuiKmc"><img loading="lazy" src="https://i.ytimg.com/vi/Imw9nfuiKmc/hqdefault.jpg" alt=""><span class="video-title">Tessl Skills Clinic - Nnenna Ndukwe from Qodo</span><span class="video-date">2026-07-22</span></a>
+<a class="video-card" href="summaries/ai-native-dev/odbNXv9xXjc"><img loading="lazy" src="https://i.ytimg.com/vi/odbNXv9xXjc/hqdefault.jpg" alt=""><span class="video-title">Simon Martinelli - Lessons from Spec-driven Development - AI Native DevCon June 2026</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/ai-native-dev/zFbaipV2FHw"><img loading="lazy" src="https://i.ytimg.com/vi/zFbaipV2FHw/hqdefault.jpg" alt=""><span class="video-title">Why This Company Won&#x27;t Let AI Agents Touch Bash</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/ai-native-dev/HgA0spItnZI"><img loading="lazy" src="https://i.ytimg.com/vi/HgA0spItnZI/hqdefault.jpg" alt=""><span class="video-title">Jack Wotherspoon - Humans vs. Slop: Rewriting the Rules of Open-Source - AI Native DevCon</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/ai-native-dev/-sYhcsy5OwI"><img loading="lazy" src="https://i.ytimg.com/vi/-sYhcsy5OwI/hqdefault.jpg" alt=""><span class="video-title">Edouard Maleix - How AI-First Dev Teams Build Collective Intelligence — One Attributed Mistake at</span><span class="video-date">2026-07-19</span></a>

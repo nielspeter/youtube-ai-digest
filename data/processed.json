@@ -3805,14 +3805,13 @@
       "generated": "2026-07-22T03:39:45+00:00"
     },
     "odbNXv9xXjc": {
-      "video_id": "odbNXv9xXjc",
+      "status": "done",
       "title": "Simon Martinelli - Lessons from Spec-driven Development - AI Native DevCon June 2026",
       "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
       "published": "2026-07-22T07:02:10+00:00",
       "url": "https://www.youtube.com/watch?v=odbNXv9xXjc",
-      "channel_slug": "ai-native-dev",
-      "status": "no_transcript",
-      "attempts": 1
+      "generated": "2026-07-22T15:33:23+00:00"
     },
     "SXg08HPpKr8": {
       "video_id": "SXg08HPpKr8",

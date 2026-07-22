@@ -3812,6 +3812,52 @@
       "url": "https://www.youtube.com/watch?v=odbNXv9xXjc",
       "channel_slug": "ai-native-dev",
       "status": "blocked"
+    },
+    "SXg08HPpKr8": {
+      "video_id": "SXg08HPpKr8",
+      "title": "AWS Veteran: The Agent Blueprint Behind 1,400 Engineers",
+      "channel": "Beyond Coding",
+      "published": "2026-07-22T12:00:21+00:00",
+      "url": "https://www.youtube.com/watch?v=SXg08HPpKr8",
+      "channel_slug": "beyond-coding",
+      "status": "too_long",
+      "minutes": 113
+    },
+    "LUemJGG2k4c": {
+      "status": "done",
+      "title": "60% Faster Time-to-Interview: Transforming Hiring with AI Agents with LangChain",
+      "channel": "LangChain",
+      "channel_slug": "langchain",
+      "published": "2026-07-22T13:41:08+00:00",
+      "url": "https://www.youtube.com/watch?v=LUemJGG2k4c",
+      "generated": "2026-07-22T14:19:38+00:00"
+    },
+    "lU_jse27kWA": {
+      "status": "done",
+      "title": "Harper: The Free, Private Grammarly Alternative Built in Rust",
+      "channel": "Better Stack",
+      "channel_slug": "better-stack",
+      "published": "2026-07-22T12:00:35+00:00",
+      "url": "https://www.youtube.com/watch?v=lU_jse27kWA",
+      "generated": "2026-07-22T14:23:42+00:00"
+    },
+    "vY0EzTP-7EA": {
+      "status": "done",
+      "title": "How I’d Make Money with Claude if my life depended on it",
+      "channel": "Nate Herk | AI Automation",
+      "channel_slug": "nate-herk-ai-automation",
+      "published": "2026-07-22T13:00:46+00:00",
+      "url": "https://www.youtube.com/watch?v=vY0EzTP-7EA",
+      "generated": "2026-07-22T14:20:58+00:00"
+    },
+    "Imw9nfuiKmc": {
+      "status": "done",
+      "title": "Tessl Skills Clinic - Nnenna Ndukwe from Qodo",
+      "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
+      "published": "2026-07-22T12:15:45+00:00",
+      "url": "https://www.youtube.com/watch?v=Imw9nfuiKmc",
+      "generated": "2026-07-22T14:22:31+00:00"
     }
   }
 }

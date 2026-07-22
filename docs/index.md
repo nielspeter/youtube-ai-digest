@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **263** videos summarized.
+Auto-generated summaries of subscribed channels. **267** videos summarized.
 
 ## AI Engineer
 
@@ -88,6 +88,7 @@ Auto-generated summaries of subscribed channels. **263** videos summarized.
 ## AI Native Dev
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-native-dev/Imw9nfuiKmc"><img loading="lazy" src="https://i.ytimg.com/vi/Imw9nfuiKmc/hqdefault.jpg" alt=""><span class="video-title">Tessl Skills Clinic - Nnenna Ndukwe from Qodo</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/ai-native-dev/zFbaipV2FHw"><img loading="lazy" src="https://i.ytimg.com/vi/zFbaipV2FHw/hqdefault.jpg" alt=""><span class="video-title">Why This Company Won&#x27;t Let AI Agents Touch Bash</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/ai-native-dev/HgA0spItnZI"><img loading="lazy" src="https://i.ytimg.com/vi/HgA0spItnZI/hqdefault.jpg" alt=""><span class="video-title">Jack Wotherspoon - Humans vs. Slop: Rewriting the Rules of Open-Source - AI Native DevCon</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/ai-native-dev/-sYhcsy5OwI"><img loading="lazy" src="https://i.ytimg.com/vi/-sYhcsy5OwI/hqdefault.jpg" alt=""><span class="video-title">Edouard Maleix - How AI-First Dev Teams Build Collective Intelligence — One Attributed Mistake at</span><span class="video-date">2026-07-19</span></a>
@@ -128,6 +129,7 @@ Auto-generated summaries of subscribed channels. **263** videos summarized.
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/lU_jse27kWA"><img loading="lazy" src="https://i.ytimg.com/vi/lU_jse27kWA/hqdefault.jpg" alt=""><span class="video-title">Harper: The Free, Private Grammarly Alternative Built in Rust</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/better-stack/gQUQZxrM5Ts"><img loading="lazy" src="https://i.ytimg.com/vi/gQUQZxrM5Ts/hqdefault.jpg" alt=""><span class="video-title">PewDiePie is a software engineer now...</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/better-stack/4GaR7k9VMp4"><img loading="lazy" src="https://i.ytimg.com/vi/4GaR7k9VMp4/hqdefault.jpg" alt=""><span class="video-title">Meta made their own shadcn (Astryx)</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/better-stack/o_psX5meBo8"><img loading="lazy" src="https://i.ytimg.com/vi/o_psX5meBo8/hqdefault.jpg" alt=""><span class="video-title">This Free CLI Tool Beats Every Paid File Transfer App (croc)</span><span class="video-date">2026-07-19</span></a>
@@ -200,6 +202,7 @@ Auto-generated summaries of subscribed channels. **263** videos summarized.
 ## LangChain
 
 <div class="video-grid">
+<a class="video-card" href="summaries/langchain/LUemJGG2k4c"><img loading="lazy" src="https://i.ytimg.com/vi/LUemJGG2k4c/hqdefault.jpg" alt=""><span class="video-title">60% Faster Time-to-Interview: Transforming Hiring with AI Agents with LangChain</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/langchain/Ncv5TYdY7Tg"><img loading="lazy" src="https://i.ytimg.com/vi/Ncv5TYdY7Tg/hqdefault.jpg" alt=""><span class="video-title">Trace Every Cursor Agent Turn in LangSmith</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/langchain/93I8mEtl_ZU"><img loading="lazy" src="https://i.ytimg.com/vi/93I8mEtl_ZU/hqdefault.jpg" alt=""><span class="video-title">Interrupt 26: The Agent Conference by LangChain</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/langchain/YrQBRoo7uIY"><img loading="lazy" src="https://i.ytimg.com/vi/YrQBRoo7uIY/hqdefault.jpg" alt=""><span class="video-title">LangSmith Sandboxes: A Secure Computer for Your Agent</span><span class="video-date">2026-07-20</span></a>
@@ -266,6 +269,7 @@ Auto-generated summaries of subscribed channels. **263** videos summarized.
 ## Nate Herk | AI Automation
 
 <div class="video-grid">
+<a class="video-card" href="summaries/nate-herk-ai-automation/vY0EzTP-7EA"><img loading="lazy" src="https://i.ytimg.com/vi/vY0EzTP-7EA/hqdefault.jpg" alt=""><span class="video-title">How I’d Make Money with Claude if my life depended on it</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/nate-herk-ai-automation/8MEJen0nblQ"><img loading="lazy" src="https://i.ytimg.com/vi/8MEJen0nblQ/hqdefault.jpg" alt=""><span class="video-title">Why Your AI Offer Isn&#x27;t Selling, and How to Fix That</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/nate-herk-ai-automation/eFOTQpbGcy8"><img loading="lazy" src="https://i.ytimg.com/vi/eFOTQpbGcy8/hqdefault.jpg" alt=""><span class="video-title">The $200K AI Job That Didn&#x27;t Exist Last Year</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/nate-herk-ai-automation/zyvdl__Ywfk"><img loading="lazy" src="https://i.ytimg.com/vi/zyvdl__Ywfk/hqdefault.jpg" alt=""><span class="video-title">Claude Code + Clay Makes Lead Generation Actually Fun</span><span class="video-date">2026-07-12</span></a>

@@ -4,11 +4,12 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **269** videos summarized.
+Auto-generated summaries of subscribed channels. **271** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/VGN22pPpb-8"><img loading="lazy" src="https://i.ytimg.com/vi/VGN22pPpb-8/hqdefault.jpg" alt=""><span class="video-title">Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer — Emil Eifrem, Neo4j</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/ai-engineer/JvKO40CFq-s"><img loading="lazy" src="https://i.ytimg.com/vi/JvKO40CFq-s/hqdefault.jpg" alt=""><span class="video-title">Better Agent Auth — Bereket Habtemeskel &amp; Paola Estefania, Better Auth</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/ai-engineer/8qWIPUia2O8"><img loading="lazy" src="https://i.ytimg.com/vi/8qWIPUia2O8/hqdefault.jpg" alt=""><span class="video-title">Every Harness Will Become A Claw — Sam Bhagwat, Mastra</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/ai-engineer/Cz4v1WHVyZc"><img loading="lazy" src="https://i.ytimg.com/vi/Cz4v1WHVyZc/hqdefault.jpg" alt=""><span class="video-title">HTML Is All Agents Need — James Russo, HeyGen</span><span class="video-date">2026-07-21</span></a>
@@ -203,6 +204,7 @@ Auto-generated summaries of subscribed channels. **269** videos summarized.
 ## LangChain
 
 <div class="video-grid">
+<a class="video-card" href="summaries/langchain/ZUjijNrg5sQ"><img loading="lazy" src="https://i.ytimg.com/vi/ZUjijNrg5sQ/hqdefault.jpg" alt=""><span class="video-title">The Agent Development Lifecycle 101 by Harrison Chase</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/langchain/-s6rYWX8VaY"><img loading="lazy" src="https://i.ytimg.com/vi/-s6rYWX8VaY/hqdefault.jpg" alt=""><span class="video-title">/goal: Building big features with dcode</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/langchain/LUemJGG2k4c"><img loading="lazy" src="https://i.ytimg.com/vi/LUemJGG2k4c/hqdefault.jpg" alt=""><span class="video-title">60% Faster Time-to-Interview: Transforming Hiring with AI Agents with LangChain</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/langchain/Ncv5TYdY7Tg"><img loading="lazy" src="https://i.ytimg.com/vi/Ncv5TYdY7Tg/hqdefault.jpg" alt=""><span class="video-title">Trace Every Cursor Agent Turn in LangSmith</span><span class="video-date">2026-07-21</span></a>

@@ -4,11 +4,12 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **271** videos summarized.
+Auto-generated summaries of subscribed channels. **273** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/Q0VkgCyNVUg"><img loading="lazy" src="https://i.ytimg.com/vi/Q0VkgCyNVUg/hqdefault.jpg" alt=""><span class="video-title">CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens — Stephen Chin, Neo4j</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/ai-engineer/VGN22pPpb-8"><img loading="lazy" src="https://i.ytimg.com/vi/VGN22pPpb-8/hqdefault.jpg" alt=""><span class="video-title">Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer — Emil Eifrem, Neo4j</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/ai-engineer/JvKO40CFq-s"><img loading="lazy" src="https://i.ytimg.com/vi/JvKO40CFq-s/hqdefault.jpg" alt=""><span class="video-title">Better Agent Auth — Bereket Habtemeskel &amp; Paola Estefania, Better Auth</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/ai-engineer/8qWIPUia2O8"><img loading="lazy" src="https://i.ytimg.com/vi/8qWIPUia2O8/hqdefault.jpg" alt=""><span class="video-title">Every Harness Will Become A Claw — Sam Bhagwat, Mastra</span><span class="video-date">2026-07-21</span></a>
@@ -256,6 +257,7 @@ Auto-generated summaries of subscribed channels. **271** videos summarized.
 ## Matthew Berman
 
 <div class="video-grid">
+<a class="video-card" href="summaries/matthew-berman/r4H7rx5nn1A"><img loading="lazy" src="https://i.ytimg.com/vi/r4H7rx5nn1A/hqdefault.jpg" alt=""><span class="video-title">It Begins: An AI Tried to Escape the Lab</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/matthew-berman/6BtIQIGqGJc"><img loading="lazy" src="https://i.ytimg.com/vi/6BtIQIGqGJc/hqdefault.jpg" alt=""><span class="video-title">The Most Important Conversation in AI Right Now</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/matthew-berman/JrVPIy9AdfQ"><img loading="lazy" src="https://i.ytimg.com/vi/JrVPIy9AdfQ/hqdefault.jpg" alt=""><span class="video-title">Did Kimi K3 really beat Fable?</span><span class="video-date">2026-07-18</span></a>
 <a class="video-card" href="summaries/matthew-berman/WMiylHobhBM"><img loading="lazy" src="https://i.ytimg.com/vi/WMiylHobhBM/hqdefault.jpg" alt=""><span class="video-title">AI NEWS LIVE</span><span class="video-date">2026-07-15</span></a>

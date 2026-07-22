@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **267** videos summarized.
+Auto-generated summaries of subscribed channels. **268** videos summarized.
 
 ## AI Engineer
 
@@ -202,6 +202,7 @@ Auto-generated summaries of subscribed channels. **267** videos summarized.
 ## LangChain
 
 <div class="video-grid">
+<a class="video-card" href="summaries/langchain/-s6rYWX8VaY"><img loading="lazy" src="https://i.ytimg.com/vi/-s6rYWX8VaY/hqdefault.jpg" alt=""><span class="video-title">/goal: Building big features with dcode</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/langchain/LUemJGG2k4c"><img loading="lazy" src="https://i.ytimg.com/vi/LUemJGG2k4c/hqdefault.jpg" alt=""><span class="video-title">60% Faster Time-to-Interview: Transforming Hiring with AI Agents with LangChain</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/langchain/Ncv5TYdY7Tg"><img loading="lazy" src="https://i.ytimg.com/vi/Ncv5TYdY7Tg/hqdefault.jpg" alt=""><span class="video-title">Trace Every Cursor Agent Turn in LangSmith</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/langchain/93I8mEtl_ZU"><img loading="lazy" src="https://i.ytimg.com/vi/93I8mEtl_ZU/hqdefault.jpg" alt=""><span class="video-title">Interrupt 26: The Agent Conference by LangChain</span><span class="video-date">2026-07-21</span></a>

@@ -3811,7 +3811,8 @@
       "published": "2026-07-22T07:02:10+00:00",
       "url": "https://www.youtube.com/watch?v=odbNXv9xXjc",
       "channel_slug": "ai-native-dev",
-      "status": "blocked"
+      "status": "no_transcript",
+      "attempts": 1
     },
     "SXg08HPpKr8": {
       "video_id": "SXg08HPpKr8",
@@ -3858,6 +3859,15 @@
       "published": "2026-07-22T12:15:45+00:00",
       "url": "https://www.youtube.com/watch?v=Imw9nfuiKmc",
       "generated": "2026-07-22T14:22:31+00:00"
+    },
+    "-s6rYWX8VaY": {
+      "status": "done",
+      "title": "/goal: Building big features with dcode",
+      "channel": "LangChain",
+      "channel_slug": "langchain",
+      "published": "2026-07-22T14:59:13+00:00",
+      "url": "https://www.youtube.com/watch?v=-s6rYWX8VaY",
+      "generated": "2026-07-22T15:27:44+00:00"
     }
   }
 }

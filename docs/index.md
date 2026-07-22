@@ -4,11 +4,12 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **262** videos summarized.
+Auto-generated summaries of subscribed channels. **263** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/JvKO40CFq-s"><img loading="lazy" src="https://i.ytimg.com/vi/JvKO40CFq-s/hqdefault.jpg" alt=""><span class="video-title">Better Agent Auth — Bereket Habtemeskel &amp; Paola Estefania, Better Auth</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/ai-engineer/8qWIPUia2O8"><img loading="lazy" src="https://i.ytimg.com/vi/8qWIPUia2O8/hqdefault.jpg" alt=""><span class="video-title">Every Harness Will Become A Claw — Sam Bhagwat, Mastra</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/ai-engineer/Cz4v1WHVyZc"><img loading="lazy" src="https://i.ytimg.com/vi/Cz4v1WHVyZc/hqdefault.jpg" alt=""><span class="video-title">HTML Is All Agents Need — James Russo, HeyGen</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/ai-engineer/RGe6EjucbzI"><img loading="lazy" src="https://i.ytimg.com/vi/RGe6EjucbzI/hqdefault.jpg" alt=""><span class="video-title">2026 State of AI Engineering — Barr Yaron, Amplify Partners</span><span class="video-date">2026-07-21</span></a>

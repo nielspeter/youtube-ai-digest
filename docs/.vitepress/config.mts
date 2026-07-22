@@ -49,7 +49,15 @@ export default defineConfig({
   // Without an explicit icon the browser falls back to /favicon.ico at the
   // origin root, which is outside `base` and always 404s. Links in `head` are
   // not rewritten for base, so it is applied by hand.
-  head: [['link', { rel: 'icon', type: 'image/svg+xml', href: `${base}favicon.svg` }]],
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: `${base}favicon.svg` }],
+    // Keep the digest out of search engines. This is a GitHub *project* page
+    // served under a subpath, so a robots.txt (only honored at the domain root)
+    // can't cover it — a per-page noindex is the reliable signal. noindex drops
+    // the page from results; nofollow stops crawlers discovering onward via its
+    // links. Applied to every generated page.
+    ['meta', { name: 'robots', content: 'noindex, nofollow' }],
+  ],
   lastUpdated: true,
   cleanUrls: true,
   ignoreDeadLinks: true, // content is machine-generated; don't fail the build on odd links

@@ -4,11 +4,12 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **276** videos summarized.
+Auto-generated summaries of subscribed channels. **277** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/jt1Pbr_n6oU"><img loading="lazy" src="https://i.ytimg.com/vi/jt1Pbr_n6oU/hqdefault.jpg" alt=""><span class="video-title">Your Moat Is Your Data Model — Mike Phipps, Gates Foundation</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/ai-engineer/Q0VkgCyNVUg"><img loading="lazy" src="https://i.ytimg.com/vi/Q0VkgCyNVUg/hqdefault.jpg" alt=""><span class="video-title">CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens — Stephen Chin, Neo4j</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/ai-engineer/VGN22pPpb-8"><img loading="lazy" src="https://i.ytimg.com/vi/VGN22pPpb-8/hqdefault.jpg" alt=""><span class="video-title">Thinner Agents on a Smarter Substrate: The Ontology-based Semantic Layer — Emil Eifrem, Neo4j</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/ai-engineer/JvKO40CFq-s"><img loading="lazy" src="https://i.ytimg.com/vi/JvKO40CFq-s/hqdefault.jpg" alt=""><span class="video-title">Better Agent Auth — Bereket Habtemeskel &amp; Paola Estefania, Better Auth</span><span class="video-date">2026-07-21</span></a>

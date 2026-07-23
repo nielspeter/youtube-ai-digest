@@ -4,11 +4,12 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **283** videos summarized.
+Auto-generated summaries of subscribed channels. **285** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/H7puB0RwJMM"><img loading="lazy" src="https://i.ytimg.com/vi/H7puB0RwJMM/hqdefault.jpg" alt=""><span class="video-title">Citation Needed: Provenance for LLM-Built Knowledge Graphs — Daniel Chalef, Zep AI</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/ai-engineer/418t26CVz-w"><img loading="lazy" src="https://i.ytimg.com/vi/418t26CVz-w/hqdefault.jpg" alt=""><span class="video-title">Local Agentic Theory For Mobile Games — Shafik Quoraishee &amp; Joanne Song, The New York Times</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/ai-engineer/mOf-PP4mVjA"><img loading="lazy" src="https://i.ytimg.com/vi/mOf-PP4mVjA/hqdefault.jpg" alt=""><span class="video-title">Video Has No Memory. Here&#x27;s How We Built One. — James Le, TwelveLabs</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/ai-engineer/Sir59K8ZDPU"><img loading="lazy" src="https://i.ytimg.com/vi/Sir59K8ZDPU/hqdefault.jpg" alt=""><span class="video-title">Why Agentic Systems Need Ontologies — Frank Coyle, UC Berkeley</span><span class="video-date">2026-07-23</span></a>
@@ -302,6 +303,7 @@ Auto-generated summaries of subscribed channels. **283** videos summarized.
 ## OpenAI
 
 <div class="video-grid">
+<a class="video-card" href="summaries/openai/MX95QbxSc9Q"><img loading="lazy" src="https://i.ytimg.com/vi/MX95QbxSc9Q/hqdefault.jpg" alt=""><span class="video-title">How AI Agents Will Redesign Enterprise Work | Barak Kaufman, Wonderful</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/openai/4Nv--b12hxQ"><img loading="lazy" src="https://i.ytimg.com/vi/4Nv--b12hxQ/hqdefault.jpg" alt=""><span class="video-title">How European Small Businesses Are Using ChatGPT and Codex | OpenAI Academy</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/openai/cFyFF3Ad2aM"><img loading="lazy" src="https://i.ytimg.com/vi/cFyFF3Ad2aM/hqdefault.jpg" alt=""><span class="video-title">How California Small Businesses Are Using ChatGPT | OpenAI Academy</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/openai/pKwRNdDtai0"><img loading="lazy" src="https://i.ytimg.com/vi/pKwRNdDtai0/hqdefault.jpg" alt=""><span class="video-title">Plugins in ChatGPT</span><span class="video-date">2026-07-21</span></a>

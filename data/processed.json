@@ -4029,6 +4029,61 @@
       "url": "https://www.youtube.com/watch?v=_X0kRfqGsx8",
       "channel_slug": "matthew-berman",
       "status": "short"
+    },
+    "MX95QbxSc9Q": {
+      "status": "done",
+      "title": "How AI Agents Will Redesign Enterprise Work | Barak Kaufman, Wonderful",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-23T09:33:40+00:00",
+      "url": "https://www.youtube.com/watch?v=MX95QbxSc9Q",
+      "generated": "2026-07-23T10:33:56+00:00"
+    },
+    "kRkcNOsRyYg": {
+      "video_id": "kRkcNOsRyYg",
+      "title": "AI on Your Lakehouse: Context Comes in Shapes, Not Queries — Zach Blumenfeld, Neo4j",
+      "channel": "AI Engineer",
+      "published": "2026-07-23T07:00:23+00:00",
+      "url": "https://www.youtube.com/watch?v=kRkcNOsRyYg",
+      "channel_slug": "ai-engineer",
+      "status": "too_long",
+      "minutes": 119
+    },
+    "u6jJcIFDLE4": {
+      "video_id": "u6jJcIFDLE4",
+      "title": "Why We Killed Our Multi-Agent Pipeline — Subbiah Sethuraman and Abhilash Asokan, ZS Associates",
+      "channel": "AI Engineer",
+      "published": "2026-07-23T05:00:02+00:00",
+      "url": "https://www.youtube.com/watch?v=u6jJcIFDLE4",
+      "channel_slug": "ai-engineer",
+      "status": "blocked"
+    },
+    "H7puB0RwJMM": {
+      "status": "done",
+      "title": "Citation Needed: Provenance for LLM-Built Knowledge Graphs — Daniel Chalef, Zep AI",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-23T04:00:02+00:00",
+      "url": "https://www.youtube.com/watch?v=H7puB0RwJMM",
+      "generated": "2026-07-23T10:34:43+00:00"
+    },
+    "Bf-f2XK4Qv0": {
+      "video_id": "Bf-f2XK4Qv0",
+      "title": "Negotiated my ENTIRE return",
+      "channel": "Matthew Berman",
+      "published": "2026-07-23T09:31:18+00:00",
+      "url": "https://www.youtube.com/watch?v=Bf-f2XK4Qv0",
+      "channel_slug": "matthew-berman",
+      "status": "short"
+    },
+    "rmxRlpi7xN4": {
+      "video_id": "rmxRlpi7xN4",
+      "title": "Robert Overweg - One Brain, No Filtering - AI Native DevCon June 2026",
+      "channel": "AI Native Dev",
+      "published": "2026-07-23T05:52:34+00:00",
+      "url": "https://www.youtube.com/watch?v=rmxRlpi7xN4",
+      "channel_slug": "ai-native-dev",
+      "status": "blocked"
     }
   }
 }

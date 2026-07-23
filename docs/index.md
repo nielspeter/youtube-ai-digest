@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **300** videos summarized.
+Auto-generated summaries of subscribed channels. **302** videos summarized.
 
 ## AI Engineer
 
@@ -222,6 +222,7 @@ Auto-generated summaries of subscribed channels. **300** videos summarized.
 ## LangChain
 
 <div class="video-grid">
+<a class="video-card" href="summaries/langchain/DHTnxP6oUIk"><img loading="lazy" src="https://i.ytimg.com/vi/DHTnxP6oUIk/hqdefault.jpg" alt=""><span class="video-title">Build a secure computer for your agent</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/langchain/jfyea8LZX-o"><img loading="lazy" src="https://i.ytimg.com/vi/jfyea8LZX-o/hqdefault.jpg" alt=""><span class="video-title">How Salesforce Standardizes Agent Evals with LangSmith</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/langchain/ZUjijNrg5sQ"><img loading="lazy" src="https://i.ytimg.com/vi/ZUjijNrg5sQ/hqdefault.jpg" alt=""><span class="video-title">The Agent Development Lifecycle 101 by Harrison Chase</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/langchain/-s6rYWX8VaY"><img loading="lazy" src="https://i.ytimg.com/vi/-s6rYWX8VaY/hqdefault.jpg" alt=""><span class="video-title">/goal: Building big features with dcode</span><span class="video-date">2026-07-22</span></a>
@@ -295,6 +296,7 @@ Auto-generated summaries of subscribed channels. **300** videos summarized.
 ## Nate Herk | AI Automation
 
 <div class="video-grid">
+<a class="video-card" href="summaries/nate-herk-ai-automation/Ek1NBfnnTH0"><img loading="lazy" src="https://i.ytimg.com/vi/Ek1NBfnnTH0/hqdefault.jpg" alt=""><span class="video-title">5 Hacks to Instantly Level Up Your AI OS</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/nate-herk-ai-automation/vY0EzTP-7EA"><img loading="lazy" src="https://i.ytimg.com/vi/vY0EzTP-7EA/hqdefault.jpg" alt=""><span class="video-title">How I’d Make Money with Claude if my life depended on it</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/nate-herk-ai-automation/8MEJen0nblQ"><img loading="lazy" src="https://i.ytimg.com/vi/8MEJen0nblQ/hqdefault.jpg" alt=""><span class="video-title">Why Your AI Offer Isn&#x27;t Selling, and How to Fix That</span><span class="video-date">2026-07-20</span></a>
 <a class="video-card" href="summaries/nate-herk-ai-automation/eFOTQpbGcy8"><img loading="lazy" src="https://i.ytimg.com/vi/eFOTQpbGcy8/hqdefault.jpg" alt=""><span class="video-title">The $200K AI Job That Didn&#x27;t Exist Last Year</span><span class="video-date">2026-07-14</span></a>

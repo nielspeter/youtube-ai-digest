@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **295** videos summarized.
+Auto-generated summaries of subscribed channels. **300** videos summarized.
 
 ## AI Engineer
 
@@ -103,6 +103,7 @@ Auto-generated summaries of subscribed channels. **295** videos summarized.
 
 <div class="video-grid">
 <a class="video-card" href="summaries/ai-native-dev/Pb6vNbnFYHU"><img loading="lazy" src="https://i.ytimg.com/vi/Pb6vNbnFYHU/hqdefault.jpg" alt=""><span class="video-title">BONUS EPISODE: 76 Malicious AI Skills Were Hiding in Plain Sight</span><span class="video-date">2026-07-23</span></a>
+<a class="video-card" href="summaries/ai-native-dev/rmxRlpi7xN4"><img loading="lazy" src="https://i.ytimg.com/vi/rmxRlpi7xN4/hqdefault.jpg" alt=""><span class="video-title">Robert Overweg - One Brain, No Filtering - AI Native DevCon June 2026</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/ai-native-dev/Imw9nfuiKmc"><img loading="lazy" src="https://i.ytimg.com/vi/Imw9nfuiKmc/hqdefault.jpg" alt=""><span class="video-title">Tessl Skills Clinic - Nnenna Ndukwe from Qodo</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/ai-native-dev/odbNXv9xXjc"><img loading="lazy" src="https://i.ytimg.com/vi/odbNXv9xXjc/hqdefault.jpg" alt=""><span class="video-title">Simon Martinelli - Lessons from Spec-driven Development - AI Native DevCon June 2026</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/ai-native-dev/zFbaipV2FHw"><img loading="lazy" src="https://i.ytimg.com/vi/zFbaipV2FHw/hqdefault.jpg" alt=""><span class="video-title">Why This Company Won&#x27;t Let AI Agents Touch Bash</span><span class="video-date">2026-07-21</span></a>
@@ -275,6 +276,7 @@ Auto-generated summaries of subscribed channels. **295** videos summarized.
 ## Matthew Berman
 
 <div class="video-grid">
+<a class="video-card" href="summaries/matthew-berman/QNEo_tl-nhw"><img loading="lazy" src="https://i.ytimg.com/vi/QNEo_tl-nhw/hqdefault.jpg" alt=""><span class="video-title">Not all tokens are equal.</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/matthew-berman/r4H7rx5nn1A"><img loading="lazy" src="https://i.ytimg.com/vi/r4H7rx5nn1A/hqdefault.jpg" alt=""><span class="video-title">It Begins: An AI Tried to Escape the Lab</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/matthew-berman/6BtIQIGqGJc"><img loading="lazy" src="https://i.ytimg.com/vi/6BtIQIGqGJc/hqdefault.jpg" alt=""><span class="video-title">The Most Important Conversation in AI Right Now</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/matthew-berman/JrVPIy9AdfQ"><img loading="lazy" src="https://i.ytimg.com/vi/JrVPIy9AdfQ/hqdefault.jpg" alt=""><span class="video-title">Did Kimi K3 really beat Fable?</span><span class="video-date">2026-07-18</span></a>
@@ -312,6 +314,9 @@ Auto-generated summaries of subscribed channels. **295** videos summarized.
 ## OpenAI
 
 <div class="video-grid">
+<a class="video-card" href="summaries/openai/t8Ej9aeW388"><img loading="lazy" src="https://i.ytimg.com/vi/t8Ej9aeW388/hqdefault.jpg" alt=""><span class="video-title">How IT Admins can manage ChatGPT Work at scale | OpenAI</span><span class="video-date">2026-07-23</span></a>
+<a class="video-card" href="summaries/openai/zq88iLsSfMA"><img loading="lazy" src="https://i.ytimg.com/vi/zq88iLsSfMA/hqdefault.jpg" alt=""><span class="video-title">How Enterprise Teams Use ChatGPT Work | Zapier, Shopify &amp; Virgin Atlantic</span><span class="video-date">2026-07-23</span></a>
+<a class="video-card" href="summaries/openai/E0ZMOschrTU"><img loading="lazy" src="https://i.ytimg.com/vi/E0ZMOschrTU/hqdefault.jpg" alt=""><span class="video-title">Building with ChatGPT Voice</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/openai/E3dDr_QtBuo"><img loading="lazy" src="https://i.ytimg.com/vi/E3dDr_QtBuo/hqdefault.jpg" alt=""><span class="video-title">Work with docs, sheets, and slides in ChatGPT</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/openai/MX95QbxSc9Q"><img loading="lazy" src="https://i.ytimg.com/vi/MX95QbxSc9Q/hqdefault.jpg" alt=""><span class="video-title">How AI Agents Will Redesign Enterprise Work | Barak Kaufman, Wonderful</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/openai/4Nv--b12hxQ"><img loading="lazy" src="https://i.ytimg.com/vi/4Nv--b12hxQ/hqdefault.jpg" alt=""><span class="video-title">How European Small Businesses Are Using ChatGPT and Codex | OpenAI Academy</span><span class="video-date">2026-07-22</span></a>

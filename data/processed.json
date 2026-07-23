@@ -4077,14 +4077,13 @@
       "status": "short"
     },
     "rmxRlpi7xN4": {
-      "video_id": "rmxRlpi7xN4",
+      "status": "done",
       "title": "Robert Overweg - One Brain, No Filtering - AI Native DevCon June 2026",
       "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
       "published": "2026-07-23T05:52:34+00:00",
       "url": "https://www.youtube.com/watch?v=rmxRlpi7xN4",
-      "channel_slug": "ai-native-dev",
-      "status": "no_transcript",
-      "attempts": 1
+      "generated": "2026-07-23T21:21:19+00:00"
     },
     "YOIJOfUSYiU": {
       "video_id": "YOIJOfUSYiU",
@@ -4148,7 +4147,7 @@
       "url": "https://www.youtube.com/watch?v=lR58Dge8jE8",
       "channel_slug": "openai",
       "status": "no_transcript",
-      "attempts": 1
+      "attempts": 2
     },
     "-I5W5QVAT8E": {
       "status": "done",
@@ -4239,6 +4238,51 @@
       "url": "https://www.youtube.com/watch?v=qpbSecwtMTo",
       "channel_slug": "ai-native-dev",
       "status": "short"
+    },
+    "-_p2a6uWfjk": {
+      "video_id": "-_p2a6uWfjk",
+      "title": "What is AI Slop?",
+      "channel": "OpenAI",
+      "published": "2026-07-23T20:51:09+00:00",
+      "url": "https://www.youtube.com/watch?v=-_p2a6uWfjk",
+      "channel_slug": "openai",
+      "status": "short"
+    },
+    "t8Ej9aeW388": {
+      "status": "done",
+      "title": "How IT Admins can manage ChatGPT Work at scale | OpenAI",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-23T20:50:48+00:00",
+      "url": "https://www.youtube.com/watch?v=t8Ej9aeW388",
+      "generated": "2026-07-23T21:19:50+00:00"
+    },
+    "zq88iLsSfMA": {
+      "status": "done",
+      "title": "How Enterprise Teams Use ChatGPT Work | Zapier, Shopify & Virgin Atlantic",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-23T20:23:01+00:00",
+      "url": "https://www.youtube.com/watch?v=zq88iLsSfMA",
+      "generated": "2026-07-23T21:20:30+00:00"
+    },
+    "E0ZMOschrTU": {
+      "status": "done",
+      "title": "Building with ChatGPT Voice",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-23T19:40:16+00:00",
+      "url": "https://www.youtube.com/watch?v=E0ZMOschrTU",
+      "generated": "2026-07-23T21:20:48+00:00"
+    },
+    "QNEo_tl-nhw": {
+      "status": "done",
+      "title": "Not all tokens are equal.",
+      "channel": "Matthew Berman",
+      "channel_slug": "matthew-berman",
+      "published": "2026-07-23T21:01:48+00:00",
+      "url": "https://www.youtube.com/watch?v=QNEo_tl-nhw",
+      "generated": "2026-07-23T21:19:14+00:00"
     }
   }
 }

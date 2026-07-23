@@ -3977,13 +3977,13 @@
       "generated": "2026-07-23T03:42:43+00:00"
     },
     "418t26CVz-w": {
-      "video_id": "418t26CVz-w",
+      "status": "done",
       "title": "Local Agentic Theory For Mobile Games — Shafik Quoraishee & Joanne Song, The New York Times",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-23T03:00:01+00:00",
       "url": "https://www.youtube.com/watch?v=418t26CVz-w",
-      "channel_slug": "ai-engineer",
-      "status": "blocked"
+      "generated": "2026-07-23T06:38:36+00:00"
     },
     "mOf-PP4mVjA": {
       "status": "done",
@@ -4004,13 +4004,13 @@
       "generated": "2026-07-23T03:41:09+00:00"
     },
     "u1yaOeEX4e8": {
-      "video_id": "u1yaOeEX4e8",
+      "status": "done",
       "title": "Learned Execution Graphs for Anomaly Detection & Drift in APIs — Ritvik Pandya, JP Morgan Chase",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-23T00:00:04+00:00",
       "url": "https://www.youtube.com/watch?v=u1yaOeEX4e8",
-      "channel_slug": "ai-engineer",
-      "status": "blocked"
+      "generated": "2026-07-23T06:40:02+00:00"
     },
     "Btk8wDUVs74": {
       "status": "done",

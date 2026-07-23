@@ -4,13 +4,15 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **281** videos summarized.
+Auto-generated summaries of subscribed channels. **283** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/418t26CVz-w"><img loading="lazy" src="https://i.ytimg.com/vi/418t26CVz-w/hqdefault.jpg" alt=""><span class="video-title">Local Agentic Theory For Mobile Games — Shafik Quoraishee &amp; Joanne Song, The New York Times</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/ai-engineer/mOf-PP4mVjA"><img loading="lazy" src="https://i.ytimg.com/vi/mOf-PP4mVjA/hqdefault.jpg" alt=""><span class="video-title">Video Has No Memory. Here&#x27;s How We Built One. — James Le, TwelveLabs</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/ai-engineer/Sir59K8ZDPU"><img loading="lazy" src="https://i.ytimg.com/vi/Sir59K8ZDPU/hqdefault.jpg" alt=""><span class="video-title">Why Agentic Systems Need Ontologies — Frank Coyle, UC Berkeley</span><span class="video-date">2026-07-23</span></a>
+<a class="video-card" href="summaries/ai-engineer/u1yaOeEX4e8"><img loading="lazy" src="https://i.ytimg.com/vi/u1yaOeEX4e8/hqdefault.jpg" alt=""><span class="video-title">Learned Execution Graphs for Anomaly Detection &amp; Drift in APIs — Ritvik Pandya, JP Morgan Chase</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/ai-engineer/Btk8wDUVs74"><img loading="lazy" src="https://i.ytimg.com/vi/Btk8wDUVs74/hqdefault.jpg" alt=""><span class="video-title">From Systems of Record to Systems of Context — Omri Bruchim, monday.com</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/ai-engineer/jt1Pbr_n6oU"><img loading="lazy" src="https://i.ytimg.com/vi/jt1Pbr_n6oU/hqdefault.jpg" alt=""><span class="video-title">Your Moat Is Your Data Model — Mike Phipps, Gates Foundation</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/ai-engineer/Q0VkgCyNVUg"><img loading="lazy" src="https://i.ytimg.com/vi/Q0VkgCyNVUg/hqdefault.jpg" alt=""><span class="video-title">CrabRAG: Why Automated Assistants Need Graph Memory, Not More Tokens — Stephen Chin, Neo4j</span><span class="video-date">2026-07-22</span></a>

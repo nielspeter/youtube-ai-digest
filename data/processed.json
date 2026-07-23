@@ -4050,13 +4050,13 @@
       "minutes": 119
     },
     "u6jJcIFDLE4": {
-      "video_id": "u6jJcIFDLE4",
+      "status": "done",
       "title": "Why We Killed Our Multi-Agent Pipeline — Subbiah Sethuraman and Abhilash Asokan, ZS Associates",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-23T05:00:02+00:00",
       "url": "https://www.youtube.com/watch?v=u6jJcIFDLE4",
-      "channel_slug": "ai-engineer",
-      "status": "blocked"
+      "generated": "2026-07-23T14:33:59+00:00"
     },
     "H7puB0RwJMM": {
       "status": "done",
@@ -4084,6 +4084,60 @@
       "url": "https://www.youtube.com/watch?v=rmxRlpi7xN4",
       "channel_slug": "ai-native-dev",
       "status": "blocked"
+    },
+    "YOIJOfUSYiU": {
+      "video_id": "YOIJOfUSYiU",
+      "title": "Why Sierra bets on outcome-based pricing #Shorts",
+      "channel": "LangChain",
+      "published": "2026-07-23T12:15:10+00:00",
+      "url": "https://www.youtube.com/watch?v=YOIJOfUSYiU",
+      "channel_slug": "langchain",
+      "status": "short"
+    },
+    "E3dDr_QtBuo": {
+      "status": "done",
+      "title": "Work with docs, sheets, and slides in ChatGPT",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-23T14:17:31+00:00",
+      "url": "https://www.youtube.com/watch?v=E3dDr_QtBuo",
+      "generated": "2026-07-23T14:27:51+00:00"
+    },
+    "ucl5oPCFi9g": {
+      "video_id": "ucl5oPCFi9g",
+      "title": "AI Just Designed the Chip That Runs AI #openai #ai #programming",
+      "channel": "Better Stack",
+      "published": "2026-07-23T12:00:09+00:00",
+      "url": "https://www.youtube.com/watch?v=ucl5oPCFi9g",
+      "channel_slug": "better-stack",
+      "status": "short"
+    },
+    "n0VhIVtviC0": {
+      "status": "done",
+      "title": "Don't waste time on specs: /prototype instead",
+      "channel": "Matt Pocock",
+      "channel_slug": "matt-pocock",
+      "published": "2026-07-23T14:00:35+00:00",
+      "url": "https://www.youtube.com/watch?v=n0VhIVtviC0",
+      "generated": "2026-07-23T14:29:30+00:00"
+    },
+    "Pb6vNbnFYHU": {
+      "status": "done",
+      "title": "BONUS EPISODE: 76 Malicious AI Skills Were Hiding in Plain Sight",
+      "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
+      "published": "2026-07-23T12:00:25+00:00",
+      "url": "https://www.youtube.com/watch?v=Pb6vNbnFYHU",
+      "generated": "2026-07-23T14:31:38+00:00"
+    },
+    "6c-nH6xz8lc": {
+      "video_id": "6c-nH6xz8lc",
+      "title": "76 Malicious AI Skills Were Hiding in Plain Sight",
+      "channel": "AI Native Dev",
+      "published": "2026-07-23T12:00:14+00:00",
+      "url": "https://www.youtube.com/watch?v=6c-nH6xz8lc",
+      "channel_slug": "ai-native-dev",
+      "status": "short"
     }
   }
 }

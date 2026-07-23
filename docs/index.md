@@ -4,11 +4,12 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **285** videos summarized.
+Auto-generated summaries of subscribed channels. **289** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/u6jJcIFDLE4"><img loading="lazy" src="https://i.ytimg.com/vi/u6jJcIFDLE4/hqdefault.jpg" alt=""><span class="video-title">Why We Killed Our Multi-Agent Pipeline — Subbiah Sethuraman and Abhilash Asokan, ZS Associates</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/ai-engineer/H7puB0RwJMM"><img loading="lazy" src="https://i.ytimg.com/vi/H7puB0RwJMM/hqdefault.jpg" alt=""><span class="video-title">Citation Needed: Provenance for LLM-Built Knowledge Graphs — Daniel Chalef, Zep AI</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/ai-engineer/418t26CVz-w"><img loading="lazy" src="https://i.ytimg.com/vi/418t26CVz-w/hqdefault.jpg" alt=""><span class="video-title">Local Agentic Theory For Mobile Games — Shafik Quoraishee &amp; Joanne Song, The New York Times</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/ai-engineer/mOf-PP4mVjA"><img loading="lazy" src="https://i.ytimg.com/vi/mOf-PP4mVjA/hqdefault.jpg" alt=""><span class="video-title">Video Has No Memory. Here&#x27;s How We Built One. — James Le, TwelveLabs</span><span class="video-date">2026-07-23</span></a>
@@ -97,6 +98,7 @@ Auto-generated summaries of subscribed channels. **285** videos summarized.
 ## AI Native Dev
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-native-dev/Pb6vNbnFYHU"><img loading="lazy" src="https://i.ytimg.com/vi/Pb6vNbnFYHU/hqdefault.jpg" alt=""><span class="video-title">BONUS EPISODE: 76 Malicious AI Skills Were Hiding in Plain Sight</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/ai-native-dev/Imw9nfuiKmc"><img loading="lazy" src="https://i.ytimg.com/vi/Imw9nfuiKmc/hqdefault.jpg" alt=""><span class="video-title">Tessl Skills Clinic - Nnenna Ndukwe from Qodo</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/ai-native-dev/odbNXv9xXjc"><img loading="lazy" src="https://i.ytimg.com/vi/odbNXv9xXjc/hqdefault.jpg" alt=""><span class="video-title">Simon Martinelli - Lessons from Spec-driven Development - AI Native DevCon June 2026</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/ai-native-dev/zFbaipV2FHw"><img loading="lazy" src="https://i.ytimg.com/vi/zFbaipV2FHw/hqdefault.jpg" alt=""><span class="video-title">Why This Company Won&#x27;t Let AI Agents Touch Bash</span><span class="video-date">2026-07-21</span></a>
@@ -250,6 +252,7 @@ Auto-generated summaries of subscribed channels. **285** videos summarized.
 ## Matt Pocock
 
 <div class="video-grid">
+<a class="video-card" href="summaries/matt-pocock/n0VhIVtviC0"><img loading="lazy" src="https://i.ytimg.com/vi/n0VhIVtviC0/hqdefault.jpg" alt=""><span class="video-title">Don&#x27;t waste time on specs: /prototype instead</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/matt-pocock/M6mYodf0dJM"><img loading="lazy" src="https://i.ytimg.com/vi/M6mYodf0dJM/hqdefault.jpg" alt=""><span class="video-title">mattpocock/skills: Learn the whole flow, end-to-end</span><span class="video-date">2026-07-16</span></a>
 <a class="video-card" href="summaries/matt-pocock/e-pFrQ_Rh0s"><img loading="lazy" src="https://i.ytimg.com/vi/e-pFrQ_Rh0s/hqdefault.jpg" alt=""><span class="video-title">AI Coding is exhausting</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/matt-pocock/251hsWgoTPM"><img loading="lazy" src="https://i.ytimg.com/vi/251hsWgoTPM/hqdefault.jpg" alt=""><span class="video-title">LIVE: The /wayfinder Demo</span><span class="video-date">2026-07-13</span></a>
@@ -303,6 +306,7 @@ Auto-generated summaries of subscribed channels. **285** videos summarized.
 ## OpenAI
 
 <div class="video-grid">
+<a class="video-card" href="summaries/openai/E3dDr_QtBuo"><img loading="lazy" src="https://i.ytimg.com/vi/E3dDr_QtBuo/hqdefault.jpg" alt=""><span class="video-title">Work with docs, sheets, and slides in ChatGPT</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/openai/MX95QbxSc9Q"><img loading="lazy" src="https://i.ytimg.com/vi/MX95QbxSc9Q/hqdefault.jpg" alt=""><span class="video-title">How AI Agents Will Redesign Enterprise Work | Barak Kaufman, Wonderful</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/openai/4Nv--b12hxQ"><img loading="lazy" src="https://i.ytimg.com/vi/4Nv--b12hxQ/hqdefault.jpg" alt=""><span class="video-title">How European Small Businesses Are Using ChatGPT and Codex | OpenAI Academy</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/openai/cFyFF3Ad2aM"><img loading="lazy" src="https://i.ytimg.com/vi/cFyFF3Ad2aM/hqdefault.jpg" alt=""><span class="video-title">How California Small Businesses Are Using ChatGPT | OpenAI Academy</span><span class="video-date">2026-07-22</span></a>

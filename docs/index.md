@@ -4,11 +4,13 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **292** videos summarized.
+Auto-generated summaries of subscribed channels. **295** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/GgLQ02aO-hs"><img loading="lazy" src="https://i.ytimg.com/vi/GgLQ02aO-hs/hqdefault.jpg" alt=""><span class="video-title">The Unreasonable Effectiveness of Separating the Task from the Model — Maxime Rivest, DSPy</span><span class="video-date">2026-07-23</span></a>
+<a class="video-card" href="summaries/ai-engineer/-I5W5QVAT8E"><img loading="lazy" src="https://i.ytimg.com/vi/-I5W5QVAT8E/hqdefault.jpg" alt=""><span class="video-title">Notion&#x27;s Token Town — Sarah Sachs, Notion</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/ai-engineer/Ib5GBkD555M"><img loading="lazy" src="https://i.ytimg.com/vi/Ib5GBkD555M/hqdefault.jpg" alt=""><span class="video-title">Harness Engineering is not Enough: Why Software Factories Fail — Dex Horthy, HumanLayer</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/ai-engineer/2JX6JYyQG4Y"><img loading="lazy" src="https://i.ytimg.com/vi/2JX6JYyQG4Y/hqdefault.jpg" alt=""><span class="video-title">Perception Agents — Antje Barth, Amazon AGI Lab</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/ai-engineer/u6jJcIFDLE4"><img loading="lazy" src="https://i.ytimg.com/vi/u6jJcIFDLE4/hqdefault.jpg" alt=""><span class="video-title">Why We Killed Our Multi-Agent Pipeline — Subbiah Sethuraman and Abhilash Asokan, ZS Associates</span><span class="video-date">2026-07-23</span></a>
@@ -219,6 +221,7 @@ Auto-generated summaries of subscribed channels. **292** videos summarized.
 ## LangChain
 
 <div class="video-grid">
+<a class="video-card" href="summaries/langchain/jfyea8LZX-o"><img loading="lazy" src="https://i.ytimg.com/vi/jfyea8LZX-o/hqdefault.jpg" alt=""><span class="video-title">How Salesforce Standardizes Agent Evals with LangSmith</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/langchain/ZUjijNrg5sQ"><img loading="lazy" src="https://i.ytimg.com/vi/ZUjijNrg5sQ/hqdefault.jpg" alt=""><span class="video-title">The Agent Development Lifecycle 101 by Harrison Chase</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/langchain/-s6rYWX8VaY"><img loading="lazy" src="https://i.ytimg.com/vi/-s6rYWX8VaY/hqdefault.jpg" alt=""><span class="video-title">/goal: Building big features with dcode</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/langchain/LUemJGG2k4c"><img loading="lazy" src="https://i.ytimg.com/vi/LUemJGG2k4c/hqdefault.jpg" alt=""><span class="video-title">60% Faster Time-to-Interview: Transforming Hiring with AI Agents with LangChain</span><span class="video-date">2026-07-22</span></a>

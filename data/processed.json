@@ -4083,7 +4083,8 @@
       "published": "2026-07-23T05:52:34+00:00",
       "url": "https://www.youtube.com/watch?v=rmxRlpi7xN4",
       "channel_slug": "ai-native-dev",
-      "status": "blocked"
+      "status": "no_transcript",
+      "attempts": 1
     },
     "YOIJOfUSYiU": {
       "video_id": "YOIJOfUSYiU",
@@ -4146,17 +4147,17 @@
       "published": "2026-07-23T17:03:29+00:00",
       "url": "https://www.youtube.com/watch?v=lR58Dge8jE8",
       "channel_slug": "openai",
-      "status": "blocked"
-    },
-    "-I5W5QVAT8E": {
-      "video_id": "-I5W5QVAT8E",
-      "title": "Notion's Token Town — Sarah Sachs, Notion",
-      "channel": "AI Engineer",
-      "published": "2026-07-23T17:30:06+00:00",
-      "url": "https://www.youtube.com/watch?v=-I5W5QVAT8E",
-      "channel_slug": "ai-engineer",
       "status": "no_transcript",
       "attempts": 1
+    },
+    "-I5W5QVAT8E": {
+      "status": "done",
+      "title": "Notion's Token Town — Sarah Sachs, Notion",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-23T17:30:06+00:00",
+      "url": "https://www.youtube.com/watch?v=-I5W5QVAT8E",
+      "generated": "2026-07-23T19:42:58+00:00"
     },
     "Ib5GBkD555M": {
       "status": "done",
@@ -4192,6 +4193,51 @@
       "published": "2026-07-23T15:00:18+00:00",
       "url": "https://www.youtube.com/watch?v=fNZed5BNL0g",
       "channel_slug": "better-stack",
+      "status": "short"
+    },
+    "jfyea8LZX-o": {
+      "status": "done",
+      "title": "How Salesforce Standardizes Agent Evals with LangSmith",
+      "channel": "LangChain",
+      "channel_slug": "langchain",
+      "published": "2026-07-23T18:43:14+00:00",
+      "url": "https://www.youtube.com/watch?v=jfyea8LZX-o",
+      "generated": "2026-07-23T19:42:08+00:00"
+    },
+    "oikd-FocWrI": {
+      "video_id": "oikd-FocWrI",
+      "title": "Now it won’t take you 10 years to get tickets",
+      "channel": "OpenAI",
+      "published": "2026-07-23T18:58:16+00:00",
+      "url": "https://www.youtube.com/watch?v=oikd-FocWrI",
+      "channel_slug": "openai",
+      "status": "short"
+    },
+    "GgLQ02aO-hs": {
+      "status": "done",
+      "title": "The Unreasonable Effectiveness of Separating the Task from the Model — Maxime Rivest, DSPy",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-23T17:45:06+00:00",
+      "url": "https://www.youtube.com/watch?v=GgLQ02aO-hs",
+      "generated": "2026-07-23T19:42:36+00:00"
+    },
+    "z8RgIAVFZcg": {
+      "video_id": "z8RgIAVFZcg",
+      "title": "Someone Just Ran DOOM Inside a Database #sql #programming #development",
+      "channel": "Better Stack",
+      "published": "2026-07-23T18:00:40+00:00",
+      "url": "https://www.youtube.com/watch?v=z8RgIAVFZcg",
+      "channel_slug": "better-stack",
+      "status": "short"
+    },
+    "qpbSecwtMTo": {
+      "video_id": "qpbSecwtMTo",
+      "title": "Take All the Data, Put It in a Knowledge Graph, Then Don't Use It Like a RAG",
+      "channel": "AI Native Dev",
+      "published": "2026-07-23T18:00:09+00:00",
+      "url": "https://www.youtube.com/watch?v=qpbSecwtMTo",
+      "channel_slug": "ai-native-dev",
       "status": "short"
     }
   }

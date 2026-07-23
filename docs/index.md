@@ -4,11 +4,13 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **289** videos summarized.
+Auto-generated summaries of subscribed channels. **292** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/Ib5GBkD555M"><img loading="lazy" src="https://i.ytimg.com/vi/Ib5GBkD555M/hqdefault.jpg" alt=""><span class="video-title">Harness Engineering is not Enough: Why Software Factories Fail — Dex Horthy, HumanLayer</span><span class="video-date">2026-07-23</span></a>
+<a class="video-card" href="summaries/ai-engineer/2JX6JYyQG4Y"><img loading="lazy" src="https://i.ytimg.com/vi/2JX6JYyQG4Y/hqdefault.jpg" alt=""><span class="video-title">Perception Agents — Antje Barth, Amazon AGI Lab</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/ai-engineer/u6jJcIFDLE4"><img loading="lazy" src="https://i.ytimg.com/vi/u6jJcIFDLE4/hqdefault.jpg" alt=""><span class="video-title">Why We Killed Our Multi-Agent Pipeline — Subbiah Sethuraman and Abhilash Asokan, ZS Associates</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/ai-engineer/H7puB0RwJMM"><img loading="lazy" src="https://i.ytimg.com/vi/H7puB0RwJMM/hqdefault.jpg" alt=""><span class="video-title">Citation Needed: Provenance for LLM-Built Knowledge Graphs — Daniel Chalef, Zep AI</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/ai-engineer/418t26CVz-w"><img loading="lazy" src="https://i.ytimg.com/vi/418t26CVz-w/hqdefault.jpg" alt=""><span class="video-title">Local Agentic Theory For Mobile Games — Shafik Quoraishee &amp; Joanne Song, The New York Times</span><span class="video-date">2026-07-23</span></a>
@@ -141,6 +143,7 @@ Auto-generated summaries of subscribed channels. **289** videos summarized.
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/YAcIUCjsRnU"><img loading="lazy" src="https://i.ytimg.com/vi/YAcIUCjsRnU/hqdefault.jpg" alt=""><span class="video-title">Ex OpenAI CTO&#x27;s Open-Weight Model Processes Raw Audio</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/better-stack/iUkgp7kzIxM"><img loading="lazy" src="https://i.ytimg.com/vi/iUkgp7kzIxM/hqdefault.jpg" alt=""><span class="video-title">OpenAI Went Rogue and Hacked Another Startup</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/better-stack/lU_jse27kWA"><img loading="lazy" src="https://i.ytimg.com/vi/lU_jse27kWA/hqdefault.jpg" alt=""><span class="video-title">Harper: The Free, Private Grammarly Alternative Built in Rust</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/better-stack/gQUQZxrM5Ts"><img loading="lazy" src="https://i.ytimg.com/vi/gQUQZxrM5Ts/hqdefault.jpg" alt=""><span class="video-title">PewDiePie is a software engineer now...</span><span class="video-date">2026-07-21</span></a>

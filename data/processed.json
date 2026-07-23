@@ -4138,6 +4138,61 @@
       "url": "https://www.youtube.com/watch?v=6c-nH6xz8lc",
       "channel_slug": "ai-native-dev",
       "status": "short"
+    },
+    "lR58Dge8jE8": {
+      "video_id": "lR58Dge8jE8",
+      "title": "Health in ChatGPT is coming to U.S. users",
+      "channel": "OpenAI",
+      "published": "2026-07-23T17:03:29+00:00",
+      "url": "https://www.youtube.com/watch?v=lR58Dge8jE8",
+      "channel_slug": "openai",
+      "status": "blocked"
+    },
+    "-I5W5QVAT8E": {
+      "video_id": "-I5W5QVAT8E",
+      "title": "Notion's Token Town — Sarah Sachs, Notion",
+      "channel": "AI Engineer",
+      "published": "2026-07-23T17:30:06+00:00",
+      "url": "https://www.youtube.com/watch?v=-I5W5QVAT8E",
+      "channel_slug": "ai-engineer",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "Ib5GBkD555M": {
+      "status": "done",
+      "title": "Harness Engineering is not Enough: Why Software Factories Fail — Dex Horthy, HumanLayer",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-23T16:30:06+00:00",
+      "url": "https://www.youtube.com/watch?v=Ib5GBkD555M",
+      "generated": "2026-07-23T17:46:39+00:00"
+    },
+    "2JX6JYyQG4Y": {
+      "status": "done",
+      "title": "Perception Agents — Antje Barth, Amazon AGI Lab",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-23T16:00:06+00:00",
+      "url": "https://www.youtube.com/watch?v=2JX6JYyQG4Y",
+      "generated": "2026-07-23T17:49:21+00:00"
+    },
+    "YAcIUCjsRnU": {
+      "status": "done",
+      "title": "Ex OpenAI CTO's Open-Weight Model Processes Raw Audio",
+      "channel": "Better Stack",
+      "channel_slug": "better-stack",
+      "published": "2026-07-23T16:34:35+00:00",
+      "url": "https://www.youtube.com/watch?v=YAcIUCjsRnU",
+      "generated": "2026-07-23T17:45:26+00:00"
+    },
+    "fNZed5BNL0g": {
+      "video_id": "fNZed5BNL0g",
+      "title": "Meta Built a Chip to Reuse Dead Server RAM #meta #software #ai",
+      "channel": "Better Stack",
+      "published": "2026-07-23T15:00:18+00:00",
+      "url": "https://www.youtube.com/watch?v=fNZed5BNL0g",
+      "channel_slug": "better-stack",
+      "status": "short"
     }
   }
 }

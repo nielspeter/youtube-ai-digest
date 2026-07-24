@@ -4,11 +4,12 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **319** videos summarized.
+Auto-generated summaries of subscribed channels. **322** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/31GUkCBD-Uc"><img loading="lazy" src="https://i.ytimg.com/vi/31GUkCBD-Uc/hqdefault.jpg" alt=""><span class="video-title">Building Closed-Loop Evals for a Multimodal Agent at Scale — Soumya Gupta &amp; Jai Chopra, Uber</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/ai-engineer/xyL2Ltkh-SA"><img loading="lazy" src="https://i.ytimg.com/vi/xyL2Ltkh-SA/hqdefault.jpg" alt=""><span class="video-title">Model Whisperers How Evals and Prompts Shape Agent Behavior — Preetika Bhateja &amp; Daniel Bump, Google</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/ai-engineer/9HbzAWnKbo4"><img loading="lazy" src="https://i.ytimg.com/vi/9HbzAWnKbo4/hqdefault.jpg" alt=""><span class="video-title">From Signal to PR: Anatomy of a Self-Improving Agent — Jason Lopatecki, Arize</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/ai-engineer/jRCpXUjz4CI"><img loading="lazy" src="https://i.ytimg.com/vi/jRCpXUjz4CI/hqdefault.jpg" alt=""><span class="video-title">Everything Is a Rollout — Alex Shaw + Ryan Marten, Terminal-Bench, Harbor, Laude Institute</span><span class="video-date">2026-07-24</span></a>
@@ -155,6 +156,7 @@ Auto-generated summaries of subscribed channels. **319** videos summarized.
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/56wK2ttgIsc"><img loading="lazy" src="https://i.ytimg.com/vi/56wK2ttgIsc/hqdefault.jpg" alt=""><span class="video-title">Opus 5 Beats Fable... at Half the Price?</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/better-stack/YAcIUCjsRnU"><img loading="lazy" src="https://i.ytimg.com/vi/YAcIUCjsRnU/hqdefault.jpg" alt=""><span class="video-title">Ex OpenAI CTO&#x27;s Open-Weight Model Processes Raw Audio</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/better-stack/iUkgp7kzIxM"><img loading="lazy" src="https://i.ytimg.com/vi/iUkgp7kzIxM/hqdefault.jpg" alt=""><span class="video-title">OpenAI Went Rogue and Hacked Another Startup</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/better-stack/lU_jse27kWA"><img loading="lazy" src="https://i.ytimg.com/vi/lU_jse27kWA/hqdefault.jpg" alt=""><span class="video-title">Harper: The Free, Private Grammarly Alternative Built in Rust</span><span class="video-date">2026-07-22</span></a>
@@ -290,6 +292,7 @@ Auto-generated summaries of subscribed channels. **319** videos summarized.
 ## Matthew Berman
 
 <div class="video-grid">
+<a class="video-card" href="summaries/matthew-berman/tHQ34j8_toI"><img loading="lazy" src="https://i.ytimg.com/vi/tHQ34j8_toI/hqdefault.jpg" alt=""><span class="video-title">Opus 5 is FINALLY here! (WOAH)</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/matthew-berman/1Q7CkLh9GwU"><img loading="lazy" src="https://i.ytimg.com/vi/1Q7CkLh9GwU/hqdefault.jpg" alt=""><span class="video-title">OPUS 5 CLICK NOW</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/matthew-berman/QNEo_tl-nhw"><img loading="lazy" src="https://i.ytimg.com/vi/QNEo_tl-nhw/hqdefault.jpg" alt=""><span class="video-title">Not all tokens are equal.</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/matthew-berman/r4H7rx5nn1A"><img loading="lazy" src="https://i.ytimg.com/vi/r4H7rx5nn1A/hqdefault.jpg" alt=""><span class="video-title">It Begins: An AI Tried to Escape the Lab</span><span class="video-date">2026-07-22</span></a>

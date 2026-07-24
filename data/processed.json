@@ -4491,6 +4491,33 @@
       "published": "2026-07-24T20:15:32+00:00",
       "url": "https://www.youtube.com/watch?v=9HbzAWnKbo4",
       "generated": "2026-07-24T21:19:14+00:00"
+    },
+    "31GUkCBD-Uc": {
+      "status": "done",
+      "title": "Building Closed-Loop Evals for a Multimodal Agent at Scale — Soumya Gupta & Jai Chopra, Uber",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-24T22:00:25+00:00",
+      "url": "https://www.youtube.com/watch?v=31GUkCBD-Uc",
+      "generated": "2026-07-24T23:15:33+00:00"
+    },
+    "56wK2ttgIsc": {
+      "status": "done",
+      "title": "Opus 5 Beats Fable... at Half the Price?",
+      "channel": "Better Stack",
+      "channel_slug": "better-stack",
+      "published": "2026-07-24T22:30:01+00:00",
+      "url": "https://www.youtube.com/watch?v=56wK2ttgIsc",
+      "generated": "2026-07-24T23:14:07+00:00"
+    },
+    "tHQ34j8_toI": {
+      "status": "done",
+      "title": "Opus 5 is FINALLY here! (WOAH)",
+      "channel": "Matthew Berman",
+      "channel_slug": "matthew-berman",
+      "published": "2026-07-24T21:47:58+00:00",
+      "url": "https://www.youtube.com/watch?v=tHQ34j8_toI",
+      "generated": "2026-07-24T23:17:02+00:00"
     }
   }
 }

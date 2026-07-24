@@ -4146,7 +4146,7 @@
       "published": "2026-07-23T17:03:29+00:00",
       "url": "https://www.youtube.com/watch?v=lR58Dge8jE8",
       "channel_slug": "openai",
-      "attempts": 4,
+      "attempts": 5,
       "status": "no_transcript"
     },
     "-I5W5QVAT8E": {
@@ -4310,6 +4310,33 @@
       "published": "2026-07-23T22:33:25+00:00",
       "url": "https://www.youtube.com/watch?v=Ek1NBfnnTH0",
       "generated": "2026-07-23T23:10:24+00:00"
+    },
+    "PB7DBemxl3E": {
+      "status": "done",
+      "title": "Building at the pace of AI innovation | Grant Lee, Gamma",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-24T09:12:21+00:00",
+      "url": "https://www.youtube.com/watch?v=PB7DBemxl3E",
+      "generated": "2026-07-24T10:27:48+00:00"
+    },
+    "O-CBZ3JtRvo": {
+      "status": "done",
+      "title": "Training Frontier Models to Out-Think Hackers — Uri Rolls, Arithmetic & Thom Wolf, Hugging Face",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-24T05:19:15+00:00",
+      "url": "https://www.youtube.com/watch?v=O-CBZ3JtRvo",
+      "generated": "2026-07-24T10:31:21+00:00"
+    },
+    "o-IunU6b1t8": {
+      "status": "done",
+      "title": "Brian Douglas - The beginners guide to training AI on your own code - AI Native DevCon June 2026",
+      "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
+      "published": "2026-07-24T08:19:31+00:00",
+      "url": "https://www.youtube.com/watch?v=o-IunU6b1t8",
+      "generated": "2026-07-24T10:29:50+00:00"
     }
   }
 }

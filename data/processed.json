@@ -4146,8 +4146,8 @@
       "published": "2026-07-23T17:03:29+00:00",
       "url": "https://www.youtube.com/watch?v=lR58Dge8jE8",
       "channel_slug": "openai",
-      "attempts": 3,
-      "status": "blocked"
+      "attempts": 4,
+      "status": "no_transcript"
     },
     "-I5W5QVAT8E": {
       "status": "done",

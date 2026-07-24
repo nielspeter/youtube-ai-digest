@@ -1,0 +1,189 @@
+[01:09]  All right. Hello. I'm trying to get my camera working. There we are. All right. Welcome. Welcome. Uh, let's see. I don't know. Here we go. Let's see if that works. Nope. Bam. All right. There we are. So, Jensen posted his first expost ever, and it's a really big deal.
+
+[01:44]  What's up, everybody? Welcome to the stream. What's up, Russia? Let's see. Where's everybody from? Brooklyn. What's up, Brooklyn? Yeah. So, so why is that showing like that? Resize the full canvas.
+
+[02:28]  Okay, just trying to get the screen sorted. There we go. Yeah, look at this. This is a big deal. I'm so glad. What's up, Arizona, India, Argentina, Iowa, Oregon, Sri Lanka, Iceland. So cool. Welcome everybody. Um, so it's 9:55 a.m. Pacific and this is what I want to talk about in this moment.
+
+[03:02]  Jensen and a bunch of other notable companies, notable AI leadership came out in support of course of openw weight models. They wrote a letter. Let me show you who signed it. Uh, let's see if I can find that again. Well, actually, let's just read it. Um, so in the 1980s, early open source software pioneers challenged the prevailing belief that software would advance only if companies kept tight control over their code. This
+
+[03:32]  tight control over their code. This movement pushed for a transparent ecosystem where developers around the world could study, modify, and improve software. Software developed by the open source community now supports most of the internet and underly systems used by the world's largest technology companies as well as the US military and federal agencies conducting scientific research, cyber security, and other critical missions. Open source did more than
+
+[04:03]  missions. Open source did more than lower the cost of software. Created a shared foundation of knowledge on which generations of American engineers and entrepreneurs built their institutional sovereignty. Super super important. Um we've been talking a lot about open source on this channel as of late. If you've been watching the videos, thank you. Of course. Uh like this stream if you can. Would appreciate it. Um and it's it it is important. Um open source is good for America. Open source
+
+[04:36]  source is good for America. Open source is good for the world. The there like end period. Nothing else needs to be said. Now there are a ton of of nuances and arguments about exactly what that looks like, but open source is good for the world. open source is good for America. Um, and there's there's a bunch of reasons. One of which is when we have open source, so many more people can uh build on top of
+
+[05:07]  many more people can uh build on top of it. So many more people can serve it. Uh, companies can serve inference. Uh, and that drives down the price of artificial intelligence. And as we all know, what happens when the price of intelligence decreases? More people use it more often. And that is a good thing. That is what we want. And one of the only kind of big fears that I have about AI and and and like I'm not trying to dismiss
+
+[05:39]  and and like I'm not trying to dismiss environmental concerns. Uh I'm not trying to dismiss um you know let's say censorship concerns but my primary concern or even you know job loss job automation concerns as well. My primary concern is concentration of power and specifically amongst a handful of people within really just one or two companies and and of course I'm talking about the closed source frontier labs that makes me nervous. I am not saying that those
+
+[06:09]  me nervous. I am not saying that those companies are evil or bad in any way. Uh obviously I'm I'm quite critical of of Anthropic, but um you know they they want to it's like this is what um this is what companies do. They they want to own the market and they want they want to be able to charge whatever rate they want per token and opensource allows us to drive down the price. It gives them competitive pressure that
+
+[06:40]  gives them competitive pressure that they must react to and that is a very good thing for everybody because it really does drive down the price of AI. Now, of course, Jensen and Nvidia benefit no matter what. They're kind of in a really good spot. Uh however I believe they benefit more so from open source. So of course I believe in what Jensen and Nvidia is saying but to be clear I'm also very cleareyed that it helps Nvidia. The good thing is it helps Nvidia it helps the US
+
+[07:13]  thing is it helps Nvidia it helps the US it helps the world. Okay because more people using more AI means more chips need to serve it. Who do they buy the chips from? typically Nvidia. Yeah, competition is good. What's up, Joel from Switzerland? Um, the United States now faces a similar choice with artificial
+
+[07:43]  similar choice with artificial intelligence. Our AI leadership will be judged not by one frontier AI model but by whether the United States builds a strong open ecosystem that diffuses into every sector. Also, when you have open-source, you have more model options. And that again is a good thing. It is a good thing that a company can take an open- source model, can fine-tune it to their needs, can self-host it if they want to, can go to any inference provider that they want to. Basically, every single part of the AI AI stack
+
+[08:16]  every single part of the AI AI stack wins when open source wins with the one notable exception of closed source labs. Now, do not cry a tear. Do not shed a tear for the closed source labs, they will be fine. They're making a ton of money right now. And even if their margins drop on a per token basis on their models, that is a okay. Now, I just got some news. We're switching topics. It is here.
+
+[08:46]  It is here. Claude Opus 5. It is finally here. And I can finally say I have been testing it only recently, only briefly. So, I don't actually have a lot of experience with it yet, but we do have it. I thought these were cookies at first and I realized they're not cookies. They're they're eggs. Cool. I I love the design language that Enthropic is going with here. Yeah. Okay. So, that's what
+
+[09:17]  with here. Yeah. Okay. So, that's what we're going to be talking about today. Cloud Opus 5. I actually did really want to talk about open source and that letter. Uh so, we covered it a little bit, gave you a little bit of my thoughts. Probably at the end once we covered Claude Opus 5, I'll I'll probably come back to that open- source topic. And uh Alex, maybe we'll make uh two videos today from this from this stream. Okay, so we have a new model, Claude Opus 5. Now, if you remember, Opus was their kind of top tier in their family
+
+[09:50]  their kind of top tier in their family model. There was Haiku, Sonnet, and Opus. Then, of course, Fable came out. Fable is their biggest best model they make. And now we have an a kind of five a version five version of Opus. Um, so I tested it again. I didn't have a lot of time. They gave it to me very late. Um, but let's look at the benchmarks. Whoa.
+
+[10:20]  Whoa. Wait a second. Wait a second. Are Are you all seeing this? Is Opus beating Fable 5 on almost every benchmark? Agentic terminal coding frontier bench an incredibly important benchmark for coding 43 as compared to 33. Shout out Matias. Thank you for the super chat. Thank you.
+
+[10:50]  Wow. Look at this. By the way, I am reacting to all of this for the first time right now. I have not seen any of this. What's up, Greg? Wow. Okay. On GDP val which is an open AI created benchmark which tests real world practical tasks. 100 point improvement from Fable 5. How could this be? Whoa. Arc AGI 3. Shout out to Greg at
+
+[11:23]  Whoa. Arc AGI 3. Shout out to Greg at Ark Prize. Whoa. 30%. That's crazy. We should get Greg on the stream. friend of the show. Um, okay. A gentic. Uh, this is browse comp 90% versus 87%. Humanity's last exam. Basically the same with tools basically the same. A slight improvement. We have OS World, which is computer use. The model's ability to control your computer. Literally figure
+
+[11:53]  control your computer. Literally figure out where things are on the screen, click buttons, do tasks. We have another improvement, a four-point improvement for Deep Su, the best benchmark in my opinion. Deep Sui, I'm so glad they're including this. Now, it had a slight drop. So, I think if I were to point to any benchmark and say this is probably the vibes you all and myself are going to feel, this is it. So, a very slight drop, basically the same. Now, I can't
+
+[12:25]  drop, basically the same. Now, I can't wait to find out what the price is of this model. Okay, so Frontier Code, basically the same. Uh, automation bench, a very nice improvement. Um, basically a 9-point improvement there. On the legal benchmark, we actually had a decently significant uh decrease from 13.3 to 11.7. Sorry lawyers. Uh, healthbench professional, we did have a decrease as well. Uh, Biobench, uh, biomstery bench
+
+[12:56]  well. Uh, Biobench, uh, biomstery bench looks to be just about the same. This is This is kind of crazy. This is This is crazy. I did not expect this. Opus 5. Wow. Now, okay, hopefully they're going to talk about this, but my assumption is Opus was trained by Fable. Okay, here we go. Uh, let's see.
+
+[13:27]  Okay, here we go. Uh, let's see. Opus 5 is also highly efficient. It outperforms other models for a similar or lower cost per task. Now, if you've been watching my videos over the past week, you know I've been talking so much about cost per task. And by the way, I've been talking about it a ton on X. So if you are not following me on X, please do Matthew Berman. All of my uh upto-date most current thoughts I post there. Um so Opus 5 highly efficient. Let's actually see what that means. Um
+
+[13:58]  Let's actually see what that means. Um okay, they did include soul. I'm glad. I was like, oh did they only include uh cloud models? So we have Wow. Wow, look at this. So, what we're seeing here on the Yaxis is the total score of OS World and remember that is the computer use benchmark. On the X-axis, we're seeing cost per task. And what we're seeing is this orange is Opus 5 and it is higher than this kind of gold,
+
+[14:31]  and it is higher than this kind of gold, yellow, and blue, which is Fable 5 and Opus 4.8, eight, but it's also to the left more, which means it's better and cheaper. This is a really big deal. Now, here's GPT 5.6 Soul, which is interesting. It has such a wide spectrum of price. Uh, but even at the very top to match performance of uh Opus 5 at its lowest setting, it is costing over twice as much. Wow. Crazy. Crazy.
+
+[15:08]  Unreal. This is like this is very impressive. Uh, okay. This is automation bench. The same. Oh my look at this. This is so crazy. So, okay, once again, a substantial improvement. And by the way, I want to say I'm very happy that they're putting so much emphasis on the cost per task. That is what matters because um for example with Kimmy K3 it was half the price of GPT 5.6 soul less
+
+[15:40]  was half the price of GPT 5.6 soul less than half the price of Fable 5 yet it took twice as many tokens to accomplish the same task. So thus it's a wash. You're paying the same price. So it it's no longer sufficient to just look at the price per token uh and and and think, okay, well that's the price I pay. Well, it's half the price. It's going to be less expensive. No, that's not it. It is the main metric you need to be looking at is cost per task. That is it. Now, what we're seeing here, this is incredible. So, it's it's not only cost
+
+[16:11]  incredible. So, it's it's not only cost per task, but it's also pass rate per task, which I think is fantastic. So, we have Opus 5 coming in way above everything else. Way above and significantly less expensive. And I'll also I'd like to say um I said this a bunch of times in my videos in the last few weeks. I said, you know, people looked at Fable and they said, "Wow, it's so expensive. It uses so many tokens." And I said, "Well, that's their first version. They're going to optimize
+
+[16:43]  first version. They're going to optimize the hell out of it." And that's what we're seeing here with Opus. They basically used Fable probably, this is my assumption, to to really get the most out of Opus. Okay. Um,
+
+[17:14]  Okay. Um, okay. Super impressive so far. Super impressive. Let me know. Um, let me know what you think about this in the comments in chat. Like, yeah, I I I uh I'm blown away. I'm blown away. And it gives me so much hope for the haiku version. So sonnet kind of was a flop. It kind of was a flop, right? Because you had a model that was not as good or or you know, I guess like in some benchmarks it was equally as good, but it cost so much more per task to
+
+[17:46]  but it cost so much more per task to complete. Okay, let's keep going. Uh, so here's humanity's last exam. By the way, I should really just like hit up Greg and ask him about the Ark 3 prize. Um, I'm going to shoot him a text right now.
+
+[18:18]  All right. So, humanity's last exam. Once again, what we're seeing the pricing actually looks to be about the same. Um, you know, it depends on your thinking level. That's what we're seeing. Each of these dots most likely represents a thinking level. Uh, we have Fable 5 and Opus 4.8. Um, but Opus is the best. It's crazy to me that Opus is outperforming Fable. Like, does that mean the government is going to take it offline soon or we're
+
+[18:50]  going to take it offline soon or we're going to have a lot of those kind of weird, hey, we can't let you use Opus 5 on this? you're going to have to fall back to Opus 4.8, which I do get pretty often. Um, but this is a really good score. Okay. Uh, Frontier Bench, we have here's GBT 5.6 Soul. So, right here is the max score coming in at about 3536% and coming in at about $12. Now, we have essentially a slightly better score for
+
+[19:21]  essentially a slightly better score for a little bit more of a cost. at this thinking level for Opus 5, but for just like another $2 per task, you actually get another 5%. Um, and and then interestingly, the score actually went down at the highest thinking level. Uh, and it was more expensive. So, that's interesting. Excuse me. Keep that in mind as you're thinking about which model to use. Okay. Arc AGI 3.
+
+[19:53]  Okay. Arc AGI 3. Whoa. And if you're not familiar, so Arc AGI 3 is an incredible benchmark in which you or the benchmark is it gives the model a game to play or a set of games and nothing else. It doesn't even give it the name of the game. It doesn't tell it how to play. It doesn't tell it how to complete it. All it does is give it a game, right? So like we'll click start and you have to basically
+
+[20:23]  click start and you have to basically just figure out what to do and you have a certain amount of moves, certain amount of time ba based on moves to complete it. And again, you have no idea what it is. And so an AI models dropped in here and just says go and that's it. The games are solvable by humans, uh, but apparently very difficult for AI. Now look at this. The best model in the world prior to this was coming in at let's see maybe 8%. Now we had this
+
+[20:56]  let's see maybe 8%. Now we had this massive jump up to 30%. Un unreal. This is an unreal score. And I just messaged Greg. Hopefully he's able to join the stream. But this is such a massive jump. I don't think they expected it. I don't think our three prize expected it. Uh, Opus 5 is our most aligned. Okay, so let's look. So I think lower is better.
+
+[21:27]  let's look. So I think lower is better. Here we have Mythos. We have Sonnet automated behavioral audit. Okay, so it comes in at 2.3. Opus 5 is stronger than Opus 4.8 on cyber security task, but it remains substantially behind Mythos 5 at developing exploits. Very interesting. Very interesting. So I think like the mythos model has no guardrails on cyber. And I think that's the key. And so Opus 5 probably has not only guardrails, but they probably built it in a way in which they tried to remove some of that cyber
+
+[21:59]  they tried to remove some of that cyber capability, which is interesting. And again, this is all speculation. Um, which is interesting because if let me let me collect my thoughts on this. So typically when you remove capabilities from a model, you hurt the model generally, right? It it performs worse generally, but we're actually seeing the opposite effect here. Um, shout out Matias again. Appreciate the super chat. Is there any chart including Grock 4.5?
+
+[22:31]  Is there any chart including Grock 4.5? Probably not. We'll see if there is. Um, very, very cool. Okay, good to know. Let's check out the blog. Let's see if it has any new information here. Yeah, I mean, look, this is stunning. Opus 5 outperforming Fable 5 at almost everything except for cyber security. And that that was probably their entire intention. Now, let's see the cost. Okay, here actually
+
+[23:02]  let's see the cost. Okay, here actually uh Claude Opus 5 builds a working wind tunnel. Nice. Very cool. I mean, it's not the first time that we've seen um fluid simulation, but still impressive nonetheless. Still impressive. Cognition and cursor got it early. Very
+
+[23:33]  Cognition and cursor got it early. Very nice. Misaligned behavior safeguards. Yeah. And if you're just joining, by the way, we have Claude Opus 5, the brand new Opus model, the brand new training run of Opus, and it is incredible. It looks
+
+[24:03]  and it is incredible. It looks incredible. It outperforms Fable 5. Okay, here we go. So, Claude Opus 5 is available today on all platforms priced at $5 per million input tokens and $25 per million output tokens. The same price as Opus 4.8, half the price of Fable, half the price of Fable and comparable to GPT 5.6 Soul. So, this is,
+
+[24:37]  comparable to GPT 5.6 Soul. So, this is, you know, this is uh Anthropic's answer to 5.6 Soul. Now, also just keep in mind 5.6 6 soul is likely the last iteration of the GPT5 series of models before uh before excuse me Open AI before open AAI actually releases their next GPT6 model.
+
+[25:18]  Okay. So, really good users. Okay. Interesting. So, automatic fallbacks on the API. Users can now choose to have requests that are flagged by our safety classifiers on Opus 5. So, they're doing the same thing if they're safety classifiers. And hopefully they're not overly aggressive. Um, it will fall back automatically route to a new model. You do pay the price of the fallback model to be clear. Um, but it's
+
+[25:50]  fallback model to be clear. Um, but it's annoying. It's annoying. I don't like it. I don't like when they do that. Okay. So, very cool. Um, yeah. So, so we're seeing already people saying Opus 5 has fallback to Opus 4.8 due to safety filters are probably more lax than Fable, but they still exist.
+
+[26:23]  lax than Fable, but they still exist. So, here we go. Opus 5 plus cyber refusal equals Opus 4.8. Very cool. Yeah. Um let's see. I don't have it in my cloud code yet.
+
+[26:56]  I don't have it in my cloud code yet. Maybe I need to restart it. Let's see. Thank you, Mr. Awesome. The Bruce 5.6 is the last model before GPT6 releases itself. Thanks for the super chat. Oh, Alex just informed me. Producer Alex said he has it. So hopefully I have it.
+
+[27:27]  said he has it. So hopefully I have it. I do. All right. Do you guys want to see me test it? It always takes so long to test it in the live stream, though. All right, we're doing the Rubik's Cube test. Why not? Let's see. Give me a sec.
+
+[28:05]  Oh, there we go. Clyde, hold on. Sorry, guys. One sec. One sec. This is slow to switch. There we go. Can y'all see this? We need a T-Bo reset. Yeah, like it would be perfect. I don't know. I think it would be too salty to do a reset. Just be like, "Oh, hey. Uh, kind of unrelated to anything else. We're doing
+
+[28:37]  unrelated to anything else. We're doing a reset today." All right. Um, okay. So, let's let's do this. Okay. So, create a Rubik's cube simulation. Make it beautiful, of course. Uh, give
+
+[29:08]  Make it beautiful, of course. Uh, give it lots of settings, sliders, uh, allow it to be solved, uh, scrambled and completed step by step if wanted. All right, let's see. Let's see how fast it is. So, hopefully it's faster. You can't see. You guys can't see this. Oh, yeah.
+
+[29:38]  Oh, yeah. I see. You cannot see it. H I see. Yeah. I don't know why. Oh, there we go. It's just Nope. No, it's H. That's too bad. Sorry, everybody. Yeah, I don't know why it's uh just frozen on this screen right now. Let's see if I switch back to Google
+
+[30:09]  Let's see if I switch back to Google Chrome. Yeah. Oh, it's so slow. All right. Well, man, streaming software is such garbage. Oh my god. Look at this. Let's try one more time. Let's try one more time.
+
+[30:42]  No, it doesn't look like it's working. Oh, there we go. All right. So, here we go. Uh, except Yeah, as you can see, it's like super laggy. This is not actually what I'm seeing on my screen. So, yeah, it doesn't look like it's going to be working today, unfortunately.
+
+[31:23]  just crashed. Great. Great. I wish I want to do testing. Um,
+
+[31:54]  yeah. I don't I don't know why telepathus to fix your streaming software. Yeah, sounds like a job for Codeex actually to be honest cuz Codeex has the best computer use that I've used. It has the best best browser use that I've used. Um, I'll try switching one last time, but it doesn't look like it's working. No, it's not. That's so disappointing. Yeah. So, I get like a quick screenshot, but then it just freezes.
+
+[32:28]  Okay. All right. Half the price still expensive. Yeah, but remember um it is it is really all about the price per task completed and that's what matters most. All right, have codeex fix it live.
+
+[33:00]  Yeah, I think I'd actually accidentally reveal something sensitive from my computer. I'm paid by Codeex. No, no, no, I'm not paid by Codeex. Sorry. I have I've just been using GPT 5.6 Soul Medium. That's my go-to model right now. I have no model loyalty. If Opus 5 is better and cheaper and faster, I will use that. I have zero model loyalty. I have zero Frontier Lab uh loyalty.
+
+[33:31]  Frontier Lab uh loyalty. So, yeah, I'm not paid by either of those companies to be clear. Okay. Um, yeah. So, very impressive. Very, very impressive. Let's see if there's uh anything on the timeline that we should review.
+
+[34:04]  Okay, interesting. We've been testing cloud opens. Okay, actually let's take a look at the box tests and I think Okay, so Box is going to sponsor this video. So, I'm going to do a little Box
+
+[34:35]  video. So, I'm going to do a little Box sponsorship read here. I think just keep in mind they actually did a lot of testing on Opus 5. Um, so these are some benchmarks from Box that we'll go over. They tested Opus 5 quite thoroughly. Um, so yeah, thanks to the sponsor of this video, Box, uh, they tested Cloud Opus 5 quite a bit, uh, on real enterprise work. So here is how it scored. Now, I'm interested to see, they only compared it against Opus 4.8,
+
+[35:07]  against Opus 4.8, but what we can see here, so against the full data set, let's see if I can scroll in a little bit. Does that make it easier for y'all to see? So we have the full data set and uh let me let me read what this does. So our benchmark of realistic document grounded tasks across 12 industries benchmarked here against the prior generation CL claude opus 4.8. I really wish they uh compared it against GPT 5.6 soul but we don't have that now.
+
+[35:45]  Um, the task mirror the analytical work that knowledge workers actually do. Reading source documents, reconciling numbers, running due diligence, and reviewing expert output for errors. Here's what we found. Okay, so we do have a pretty sizable bump. Now, this does kind of reflect the bump we saw from Fable. I I can't believe I'm saying this, from Fable to Opus 5. Um but this again remember this is from Opus 4.8 to Opus 5 and Opus 4.8 was
+
+[36:17]  Opus 4.8 to Opus 5 and Opus 4.8 was already an incredible model at tool use and everything else required to really do well in the enterprise context. Um so from 63 to 78 great due diligence 65 to uh report drafting from data 67 to 69 uh expert review just about the same and then data analysis a nice big sixpoint jump. Uh stronger where the work is most technical and that makes sense. I kind of want to pop back
+
+[36:50]  of want to pop back to this benchmark for a second. Look, look at this. This is the craziest thing to me. Frontier Bench, 33% for Fable 5 to 43% for Opus 5. And again, it's half the price. Half the price. Um, yeah, crazy. I'm surprised they didn't test Fable 5 against Arc uh AGI 3.
+
+[37:24]  Yeah. So we see legal um on complex enterprise knowledge workclaw. Opus 5 is a clear step up from the prior generation. Its advantage concentrated on the exhaustive multi-step analysis that drives real decisions. Opus 5 is coming soon to Box AI. Thank you to Box for sponsoring. Shout out to Box. Go check out Box. We use it at Forward Future uh religiously. Uh all of my agents use Box, right? We set up the Box CLI. They just know to
+
+[37:55]  set up the Box CLI. They just know to put stuff there. It's really nice. Um and go build on top of Box if you're a developer. They're awesome. They've been a great partner. So, thank you to them. Uh, by the way, if you see anything interesting about Opus 5 that you want me to cover right now, just drop it in um drop it in chat. I'm really sad that I can't show you what I'm looking at in Cloud 5. Um,
+
+[38:29]  what I'm looking at in Cloud 5. Um, let's see if there's a way I can figure this out. No, probably not. So, I'll just tell you it's 9 minutes into creating the Rubik's Cube simulation. Only 46,000 tokens used so far, which is quite small. And yeah, it's quite small. So, Fable is dead. Hey, Mark Santos. Uh, so Fable is dead.
+
+[38:59]  so Fable is dead. I mean, it's not dead. Fable is the beast. It's the thing that's training. I don't know. Is is I wonder if Opus 5 is a distilled version of Fable 5. It might be. It might be. It might not be. This is again all speculation right now. Um, but like yeah, if you're a developer, if you're a knowledge worker and you're trying to decide, do I use Fable 5 or Opus 5? Let me let me show you the graph. I mean, this is all that
+
+[39:30]  you the graph. I mean, this is all that matters right here, right? You're getting higher quality for a lower price. You're getting higher quality for a lower price. You're getting higher quality for a lower price. I can't say it enough. I mean, this is what we're seeing. This is, you know, just about the same price, but higher quality.
+
+[40:22]  Okay, so Greg uh from Arc Prize is is messaging me right now. He's saying, okay, listen to this. He's he's working to get the scores out right now, so he can't join the live stream, but he said it's the most impressive model we've seen. He just told me that it's the most impressive model we've seen. And he's the president of ARC Prize. So, keep that in mind. That's the ARC AGI. This one, right? ARC AGI prize. Now, if we go to the verified leaderboards, what we can see here is GPT 5.6 Soul Max
+
+[40:54]  what we can see here is GPT 5.6 Soul Max coming in just under 8%. Okay. Beats. This is also what he said. I'm I'm I'm literally reading his text message. He said it was okay for me to do this. Beats first edition Fable. It beats Fable and it is the most impressive model he's seen. And he's releasing the their verified results in about 20 minutes. So, what we're going to see here is look at this. The Y-axis only goes up to 20% right now. They're going to have to redo the Y-axis. That's
+
+[41:27]  going to have to redo the Y-axis. That's how much of a difference this model has made. I am so impressed. I am so impressed by this. Look at this novel problem solving by cost. So more like look at this score 30% on the ARC AGI prize and it was able to do so less expensive than GPT 5.6 Soul. less expensive and tripled more than tripled
+
+[41:58]  expensive and tripled more than tripled its score. That is so crazy. That is so crazy.
+
+[42:32]  Greg says something doesn't seem right. Did it cheat? Um the benchmarks, right? I guess I was just about to say like it's not really possible for it to cheat on the benchmarks, but actually no, we just saw this week that it is very possible. However, they catch it. Like if you cheat on a benchmark, it is very obvious. Um and ARC AGI is verifying the benchmark themselves.
+
+[43:06]  Uh Dammo Gallagher late to the party. Matthew, what did I miss? Opus 5. Opus 5. Here's what you need to know. It is now the best model on the planet and half the price of Fable. Crazy. I I it's like I I can't believe I'm saying that. I did not expect this. Half the price of Fable. Half the price of Fable and performs better almost nearly across the board. Welcome to the stream. And if you're
+
+[43:36]  Welcome to the stream. And if you're watching the stream, would very much appreciate you liking, sharing, reposting. Thank you. It really does help. Thank you in advance. Um, do we think that Do we think that the government is going
+
+[44:07]  Do we think that the government is going to leave it? Do you think they've already shown the model to the US government? Do you think they've already gotten approval for it? I I would be let me know in chat. I would be doubtful um that they did not share this model with the government that it didn't share that they didn't share the scores. And I think the interesting thing to note and I'm going to just go back one more time to this is this. This is probably why we're not going to see a roll back. This is probably why Opus 5 is here to stay and
+
+[44:39]  probably why Opus 5 is here to stay and was already reviewed by the government. What we're seeing this is exploitation success. Yeah, Rodrigo, it is good. Yes. Yes, sir. It is good. But what we're seeing here, so exploitation success, a 13 with mythos, zero with 4.8, and a four with Opus 5. So, they really um reduce the performance of the model's ability for cyber capabilities, but also improve the quality. And again,
+
+[45:09]  but also improve the quality. And again, it's kind of crazy to be able to do that. Usually, when you put guard rails on a model, you also just reduce the overall performance of the model. But that's not what we're seeing. That is not what we're seeing. Do you think a weekly reset will hit? I
+
+[45:42]  Do you think a weekly reset will hit? I think it's more likely we'll get a a weekly reset from OpenAI, from Codeex. I think it's more likely we get a reset from Codeex than than a reset from Anthropic. Awesome. And and by the way, not very often we get Friday model releases, so that's cool. fun thing to do on a Friday. Um, I wish I can change the name of the
+
+[46:13]  Um, I wish I can change the name of the stream. Is there anything else you all want me to cover on Opus 5? Let's see. I mean, obviously a bunch of tweets. Here's Turk. Uh, Opus 5 rounds out our Cloud 5 family beautifully. Interesting. Does that mean Haiku 5 is not coming? I think it's an incredible daily driver. Pair it with Fable for planning, brainstorming, or fixing the hardest bugs. Pair it with Fable. Why would he say pair it with Fable?
+
+[46:50]  Interesting. Okay, so we got it in cursor. Nathan Lambert, insane numbers for Opus 5. The power of faster iteration speed scaled RL fable too big to RL as well yet. And on safeguards, based on our testing, we expect the classifiers to intervene about 85% less often than they do for Fable 5.
+
+[47:30]  Okay, let's see. It's in the arena. Let's see. Why did they not link it? Um, here we go. Let's see how it did on Arena AI. Nope. Interesting. No, I want the scores.
+
+[48:13]  Okay, let's see. Interesting. Yeah. So, Cloud Fable 5 is still at the top of the agent arena. I don't see Opus 5 yet, so maybe it's not on there yet. Um,
+
+[48:43]  Um, oh, Google. Interesting. Kimmy K3. Look at that. Fourth place. Fourth best model in the world. Open source open weights. That's cool. Um, yeah. I don't know why you can test it. So,
+
+[49:13]  scores coming soon. Okay. So, they don't have the scores yet. Aaron Levy. Uh, we've been testing Claude Opus 5. Uh, Mr. Awesome the Bruce, thank you for the super chat, man. Thank you. Uh, thoughts JSpace conscious model for guard rails. I'm not sure what you're asking there, but um, JSpace is interesting. Made a video about it. Uh, let's see.
+
+[49:46]  We saw meaningful uh we saw meaningful gains in performance across some of the most complex enterprise tasks on unstructured data legal technology life science due diligence overall the reasoning analytical and data data processing skills of Opus 5 outshine 4.8 meaningfully meaningfully. Yes. Okay. Here is um Val's AI which I'm not sure what this
+
+[50:17]  um Val's AI which I'm not sure what this is. The Valai index sorry the Val's index aggregates five evaluations across finance and coding waiting weighted excuse me weighted by contribution to US GDP. Corfin, Finance Ancient V2, Swebench Verified, which I think Open AAI basically said was no good anymore. Terminal Bench 2.1 and Vibe Code Bench. And it debuts at number two. So interesting. The accuracy slightly less, the cost
+
+[50:48]  the cost less, like 20% less. Yeah, that's really good. Morgan. Uh, yes, we will be benchmarking with Vulcan Bench. Cool.
+
+[51:20]  All right, I think that's it. Um, crazy. Yeah, just a crazy crazy. Uh, I I think like if you were to take one thing away from this, it's not only this. Actually, this isn't even the most important one here. It's these benchmarks. Hold on, let me pull that up one more time. It's this Opus 5 is also highly efficient. and it outperforms other models for a similar or lower cost per task and
+
+[51:50]  or lower cost per task and like significantly lower cost per task and better. That's what we need to think about going forward. That is what we want to look at going forward. It is cost per task. That is everything. Look at this automation bench. Um thanks for everybody for joining. Uh go check out forwardfuture.com. Uh Mr. Awesome the Bruce. Thank you. Uh go check out forwardfuture.com. We're going to put a bunch of uh information about Opus 5 as we gather it right there. And thanks for joining for to the stream everybody. See
+
+[52:22]  joining for to the stream everybody. See you.

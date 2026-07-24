@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **313** videos summarized.
+Auto-generated summaries of subscribed channels. **315** videos summarized.
 
 ## AI Engineer
 
@@ -287,6 +287,7 @@ Auto-generated summaries of subscribed channels. **313** videos summarized.
 ## Matthew Berman
 
 <div class="video-grid">
+<a class="video-card" href="summaries/matthew-berman/1Q7CkLh9GwU"><img loading="lazy" src="https://i.ytimg.com/vi/1Q7CkLh9GwU/hqdefault.jpg" alt=""><span class="video-title">OPUS 5 CLICK NOW</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/matthew-berman/QNEo_tl-nhw"><img loading="lazy" src="https://i.ytimg.com/vi/QNEo_tl-nhw/hqdefault.jpg" alt=""><span class="video-title">Not all tokens are equal.</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/matthew-berman/r4H7rx5nn1A"><img loading="lazy" src="https://i.ytimg.com/vi/r4H7rx5nn1A/hqdefault.jpg" alt=""><span class="video-title">It Begins: An AI Tried to Escape the Lab</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/matthew-berman/6BtIQIGqGJc"><img loading="lazy" src="https://i.ytimg.com/vi/6BtIQIGqGJc/hqdefault.jpg" alt=""><span class="video-title">The Most Important Conversation in AI Right Now</span><span class="video-date">2026-07-21</span></a>
@@ -306,6 +307,7 @@ Auto-generated summaries of subscribed channels. **313** videos summarized.
 ## Nate Herk | AI Automation
 
 <div class="video-grid">
+<a class="video-card" href="summaries/nate-herk-ai-automation/k7VI66CkKEY"><img loading="lazy" src="https://i.ytimg.com/vi/k7VI66CkKEY/hqdefault.jpg" alt=""><span class="video-title">Claude Opus 5 is Going to Save You Money</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/nate-herk-ai-automation/Ek1NBfnnTH0"><img loading="lazy" src="https://i.ytimg.com/vi/Ek1NBfnnTH0/hqdefault.jpg" alt=""><span class="video-title">5 Hacks to Instantly Level Up Your AI OS</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/nate-herk-ai-automation/vY0EzTP-7EA"><img loading="lazy" src="https://i.ytimg.com/vi/vY0EzTP-7EA/hqdefault.jpg" alt=""><span class="video-title">How I’d Make Money with Claude if my life depended on it</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/nate-herk-ai-automation/8MEJen0nblQ"><img loading="lazy" src="https://i.ytimg.com/vi/8MEJen0nblQ/hqdefault.jpg" alt=""><span class="video-title">Why Your AI Offer Isn&#x27;t Selling, and How to Fix That</span><span class="video-date">2026-07-20</span></a>

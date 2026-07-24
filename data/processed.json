@@ -4421,14 +4421,13 @@
       "minutes": 96
     },
     "1Q7CkLh9GwU": {
-      "video_id": "1Q7CkLh9GwU",
+      "status": "done",
       "title": "OPUS 5 CLICK NOW",
       "channel": "Matthew Berman",
+      "channel_slug": "matthew-berman",
       "published": "2026-07-24T16:52:06+00:00",
       "url": "https://www.youtube.com/watch?v=1Q7CkLh9GwU",
-      "channel_slug": "matthew-berman",
-      "status": "no_transcript",
-      "attempts": 1
+      "generated": "2026-07-24T19:44:30+00:00"
     },
     "ApzGW6gdFyc": {
       "video_id": "ApzGW6gdFyc",
@@ -4438,6 +4437,34 @@
       "url": "https://www.youtube.com/watch?v=ApzGW6gdFyc",
       "channel_slug": "the-pragmatic-engineer",
       "status": "short"
+    },
+    "jEEAcQH7Ks8": {
+      "video_id": "jEEAcQH7Ks8",
+      "title": "What Is RAG, Actually?",
+      "channel": "LangChain",
+      "published": "2026-07-24T17:45:31+00:00",
+      "url": "https://www.youtube.com/watch?v=jEEAcQH7Ks8",
+      "channel_slug": "langchain",
+      "status": "short"
+    },
+    "q2JrUKBMf0w": {
+      "video_id": "q2JrUKBMf0w",
+      "title": "The Future of Evals: From LLM as a Judge to Agent as a Judge — Aparna Dhinakaran, Arize AI",
+      "channel": "AI Engineer",
+      "published": "2026-07-24T07:43:04+00:00",
+      "url": "https://www.youtube.com/watch?v=q2JrUKBMf0w",
+      "channel_slug": "ai-engineer",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "k7VI66CkKEY": {
+      "status": "done",
+      "title": "Claude Opus 5 is Going to Save You Money",
+      "channel": "Nate Herk | AI Automation",
+      "channel_slug": "nate-herk-ai-automation",
+      "published": "2026-07-24T17:45:21+00:00",
+      "url": "https://www.youtube.com/watch?v=k7VI66CkKEY",
+      "generated": "2026-07-24T19:43:48+00:00"
     }
   }
 }

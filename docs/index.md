@@ -4,11 +4,12 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **307** videos summarized.
+Auto-generated summaries of subscribed channels. **310** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/cO8qC6HBuBg"><img loading="lazy" src="https://i.ytimg.com/vi/cO8qC6HBuBg/hqdefault.jpg" alt=""><span class="video-title">Vending-Bench: Long-Horizon Agent Evals — Lukas Petersson, Andon Labs</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/ai-engineer/O-CBZ3JtRvo"><img loading="lazy" src="https://i.ytimg.com/vi/O-CBZ3JtRvo/hqdefault.jpg" alt=""><span class="video-title">Training Frontier Models to Out-Think Hackers — Uri Rolls, Arithmetic &amp; Thom Wolf, Hugging Face</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/ai-engineer/GgLQ02aO-hs"><img loading="lazy" src="https://i.ytimg.com/vi/GgLQ02aO-hs/hqdefault.jpg" alt=""><span class="video-title">The Unreasonable Effectiveness of Separating the Task from the Model — Maxime Rivest, DSPy</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/ai-engineer/-I5W5QVAT8E"><img loading="lazy" src="https://i.ytimg.com/vi/-I5W5QVAT8E/hqdefault.jpg" alt=""><span class="video-title">Notion&#x27;s Token Town — Sarah Sachs, Notion</span><span class="video-date">2026-07-23</span></a>
@@ -103,6 +104,7 @@ Auto-generated summaries of subscribed channels. **307** videos summarized.
 ## AI Native Dev
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-native-dev/xR-BiPz45-4"><img loading="lazy" src="https://i.ytimg.com/vi/xR-BiPz45-4/hqdefault.jpg" alt=""><span class="video-title">Why AI Agents Need a Data Harness, Not Just a Lakehouse</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/ai-native-dev/o-IunU6b1t8"><img loading="lazy" src="https://i.ytimg.com/vi/o-IunU6b1t8/hqdefault.jpg" alt=""><span class="video-title">Brian Douglas - The beginners guide to training AI on your own code - AI Native DevCon June 2026</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/ai-native-dev/Pb6vNbnFYHU"><img loading="lazy" src="https://i.ytimg.com/vi/Pb6vNbnFYHU/hqdefault.jpg" alt=""><span class="video-title">BONUS EPISODE: 76 Malicious AI Skills Were Hiding in Plain Sight</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/ai-native-dev/rmxRlpi7xN4"><img loading="lazy" src="https://i.ytimg.com/vi/rmxRlpi7xN4/hqdefault.jpg" alt=""><span class="video-title">Robert Overweg - One Brain, No Filtering - AI Native DevCon June 2026</span><span class="video-date">2026-07-23</span></a>
@@ -187,6 +189,7 @@ Auto-generated summaries of subscribed channels. **307** videos summarized.
 ## Cole Medin
 
 <div class="video-grid">
+<a class="video-card" href="summaries/cole-medin/SA3TxPLLB08"><img loading="lazy" src="https://i.ytimg.com/vi/SA3TxPLLB08/hqdefault.jpg" alt=""><span class="video-title">Is Kimi K3 Really That Good?! (Don&#x27;t Just Believe The Hype)</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/cole-medin/zb2LyMro77M"><img loading="lazy" src="https://i.ytimg.com/vi/zb2LyMro77M/hqdefault.jpg" alt=""><span class="video-title">How to Actually Run Your Coding Agent Safely (And Avoid the Horror Stories)</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/cole-medin/m8VC2SV2igM"><img loading="lazy" src="https://i.ytimg.com/vi/m8VC2SV2igM/hqdefault.jpg" alt=""><span class="video-title">This Completely Changes the Way We Build Production AI Agents (Vercel Eve)</span><span class="video-date">2026-07-16</span></a>
 <a class="video-card" href="summaries/cole-medin/deeOA6YVfqw"><img loading="lazy" src="https://i.ytimg.com/vi/deeOA6YVfqw/hqdefault.jpg" alt=""><span class="video-title">I Turned Claude Code Into a Complete Video Generation System (with Archon)</span><span class="video-date">2026-07-12</span></a>

@@ -4,14 +4,17 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **315** videos summarized.
+Auto-generated summaries of subscribed channels. **319** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/xyL2Ltkh-SA"><img loading="lazy" src="https://i.ytimg.com/vi/xyL2Ltkh-SA/hqdefault.jpg" alt=""><span class="video-title">Model Whisperers How Evals and Prompts Shape Agent Behavior — Preetika Bhateja &amp; Daniel Bump, Google</span><span class="video-date">2026-07-24</span></a>
+<a class="video-card" href="summaries/ai-engineer/9HbzAWnKbo4"><img loading="lazy" src="https://i.ytimg.com/vi/9HbzAWnKbo4/hqdefault.jpg" alt=""><span class="video-title">From Signal to PR: Anatomy of a Self-Improving Agent — Jason Lopatecki, Arize</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/ai-engineer/jRCpXUjz4CI"><img loading="lazy" src="https://i.ytimg.com/vi/jRCpXUjz4CI/hqdefault.jpg" alt=""><span class="video-title">Everything Is a Rollout — Alex Shaw + Ryan Marten, Terminal-Bench, Harbor, Laude Institute</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/ai-engineer/il1c1a2FufU"><img loading="lazy" src="https://i.ytimg.com/vi/il1c1a2FufU/hqdefault.jpg" alt=""><span class="video-title">Full Workshop: Setting Yourself Up for Success —Jason Liu, OpenAI Codex</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/ai-engineer/cO8qC6HBuBg"><img loading="lazy" src="https://i.ytimg.com/vi/cO8qC6HBuBg/hqdefault.jpg" alt=""><span class="video-title">Vending-Bench: Long-Horizon Agent Evals — Lukas Petersson, Andon Labs</span><span class="video-date">2026-07-24</span></a>
+<a class="video-card" href="summaries/ai-engineer/q2JrUKBMf0w"><img loading="lazy" src="https://i.ytimg.com/vi/q2JrUKBMf0w/hqdefault.jpg" alt=""><span class="video-title">The Future of Evals: From LLM as a Judge to Agent as a Judge — Aparna Dhinakaran, Arize AI</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/ai-engineer/O-CBZ3JtRvo"><img loading="lazy" src="https://i.ytimg.com/vi/O-CBZ3JtRvo/hqdefault.jpg" alt=""><span class="video-title">Training Frontier Models to Out-Think Hackers — Uri Rolls, Arithmetic &amp; Thom Wolf, Hugging Face</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/ai-engineer/GgLQ02aO-hs"><img loading="lazy" src="https://i.ytimg.com/vi/GgLQ02aO-hs/hqdefault.jpg" alt=""><span class="video-title">The Unreasonable Effectiveness of Separating the Task from the Model — Maxime Rivest, DSPy</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/ai-engineer/-I5W5QVAT8E"><img loading="lazy" src="https://i.ytimg.com/vi/-I5W5QVAT8E/hqdefault.jpg" alt=""><span class="video-title">Notion&#x27;s Token Town — Sarah Sachs, Notion</span><span class="video-date">2026-07-23</span></a>
@@ -328,6 +331,7 @@ Auto-generated summaries of subscribed channels. **315** videos summarized.
 ## OpenAI
 
 <div class="video-grid">
+<a class="video-card" href="summaries/openai/jyuyY86GJnA"><img loading="lazy" src="https://i.ytimg.com/vi/jyuyY86GJnA/hqdefault.jpg" alt=""><span class="video-title">Build Hour: Valuemaxxing with GPT-5.6</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/openai/PB7DBemxl3E"><img loading="lazy" src="https://i.ytimg.com/vi/PB7DBemxl3E/hqdefault.jpg" alt=""><span class="video-title">Building at the pace of AI innovation | Grant Lee, Gamma</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/openai/t8Ej9aeW388"><img loading="lazy" src="https://i.ytimg.com/vi/t8Ej9aeW388/hqdefault.jpg" alt=""><span class="video-title">How IT Admins can manage ChatGPT Work at scale | OpenAI</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/openai/zq88iLsSfMA"><img loading="lazy" src="https://i.ytimg.com/vi/zq88iLsSfMA/hqdefault.jpg" alt=""><span class="video-title">How Enterprise Teams Use ChatGPT Work | Zapier, Shopify &amp; Virgin Atlantic</span><span class="video-date">2026-07-23</span></a>

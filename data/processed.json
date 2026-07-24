@@ -4448,14 +4448,13 @@
       "status": "short"
     },
     "q2JrUKBMf0w": {
-      "video_id": "q2JrUKBMf0w",
+      "status": "done",
       "title": "The Future of Evals: From LLM as a Judge to Agent as a Judge — Aparna Dhinakaran, Arize AI",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-24T07:43:04+00:00",
       "url": "https://www.youtube.com/watch?v=q2JrUKBMf0w",
-      "channel_slug": "ai-engineer",
-      "status": "no_transcript",
-      "attempts": 1
+      "generated": "2026-07-24T21:21:41+00:00"
     },
     "k7VI66CkKEY": {
       "status": "done",
@@ -4465,6 +4464,33 @@
       "published": "2026-07-24T17:45:21+00:00",
       "url": "https://www.youtube.com/watch?v=k7VI66CkKEY",
       "generated": "2026-07-24T19:43:48+00:00"
+    },
+    "jyuyY86GJnA": {
+      "status": "done",
+      "title": "Build Hour: Valuemaxxing with GPT-5.6",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-24T19:47:16+00:00",
+      "url": "https://www.youtube.com/watch?v=jyuyY86GJnA",
+      "generated": "2026-07-24T21:20:07+00:00"
+    },
+    "xyL2Ltkh-SA": {
+      "status": "done",
+      "title": "Model Whisperers How Evals and Prompts Shape Agent Behavior — Preetika Bhateja & Daniel Bump, Google",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-24T21:00:00+00:00",
+      "url": "https://www.youtube.com/watch?v=xyL2Ltkh-SA",
+      "generated": "2026-07-24T21:18:18+00:00"
+    },
+    "9HbzAWnKbo4": {
+      "status": "done",
+      "title": "From Signal to PR: Anatomy of a Self-Improving Agent — Jason Lopatecki, Arize",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-24T20:15:32+00:00",
+      "url": "https://www.youtube.com/watch?v=9HbzAWnKbo4",
+      "generated": "2026-07-24T21:19:14+00:00"
     }
   }
 }

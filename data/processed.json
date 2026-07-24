@@ -4146,8 +4146,8 @@
       "published": "2026-07-23T17:03:29+00:00",
       "url": "https://www.youtube.com/watch?v=lR58Dge8jE8",
       "channel_slug": "openai",
-      "status": "no_transcript",
-      "attempts": 3
+      "attempts": 3,
+      "status": "blocked"
     },
     "-I5W5QVAT8E": {
       "status": "done",
@@ -4285,14 +4285,13 @@
       "generated": "2026-07-23T21:19:14+00:00"
     },
     "jPPiZ22DY3g": {
-      "video_id": "jPPiZ22DY3g",
+      "status": "done",
       "title": "The Art of Loop Engineering: How to Build Agents That Improve Over Time",
       "channel": "LangChain",
+      "channel_slug": "langchain",
       "published": "2026-07-23T22:47:08+00:00",
       "url": "https://www.youtube.com/watch?v=jPPiZ22DY3g",
-      "channel_slug": "langchain",
-      "status": "no_transcript",
-      "attempts": 1
+      "generated": "2026-07-24T03:38:18+00:00"
     },
     "DHTnxP6oUIk": {
       "status": "done",

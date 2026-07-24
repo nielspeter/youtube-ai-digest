@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **302** videos summarized.
+Auto-generated summaries of subscribed channels. **303** videos summarized.
 
 ## AI Engineer
 
@@ -222,6 +222,7 @@ Auto-generated summaries of subscribed channels. **302** videos summarized.
 ## LangChain
 
 <div class="video-grid">
+<a class="video-card" href="summaries/langchain/jPPiZ22DY3g"><img loading="lazy" src="https://i.ytimg.com/vi/jPPiZ22DY3g/hqdefault.jpg" alt=""><span class="video-title">The Art of Loop Engineering: How to Build Agents That Improve Over Time</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/langchain/DHTnxP6oUIk"><img loading="lazy" src="https://i.ytimg.com/vi/DHTnxP6oUIk/hqdefault.jpg" alt=""><span class="video-title">Build a secure computer for your agent</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/langchain/jfyea8LZX-o"><img loading="lazy" src="https://i.ytimg.com/vi/jfyea8LZX-o/hqdefault.jpg" alt=""><span class="video-title">How Salesforce Standardizes Agent Evals with LangSmith</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/langchain/ZUjijNrg5sQ"><img loading="lazy" src="https://i.ytimg.com/vi/ZUjijNrg5sQ/hqdefault.jpg" alt=""><span class="video-title">The Agent Development Lifecycle 101 by Harrison Chase</span><span class="video-date">2026-07-22</span></a>

@@ -4,11 +4,13 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **310** videos summarized.
+Auto-generated summaries of subscribed channels. **313** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/jRCpXUjz4CI"><img loading="lazy" src="https://i.ytimg.com/vi/jRCpXUjz4CI/hqdefault.jpg" alt=""><span class="video-title">Everything Is a Rollout — Alex Shaw + Ryan Marten, Terminal-Bench, Harbor, Laude Institute</span><span class="video-date">2026-07-24</span></a>
+<a class="video-card" href="summaries/ai-engineer/il1c1a2FufU"><img loading="lazy" src="https://i.ytimg.com/vi/il1c1a2FufU/hqdefault.jpg" alt=""><span class="video-title">Full Workshop: Setting Yourself Up for Success —Jason Liu, OpenAI Codex</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/ai-engineer/cO8qC6HBuBg"><img loading="lazy" src="https://i.ytimg.com/vi/cO8qC6HBuBg/hqdefault.jpg" alt=""><span class="video-title">Vending-Bench: Long-Horizon Agent Evals — Lukas Petersson, Andon Labs</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/ai-engineer/O-CBZ3JtRvo"><img loading="lazy" src="https://i.ytimg.com/vi/O-CBZ3JtRvo/hqdefault.jpg" alt=""><span class="video-title">Training Frontier Models to Out-Think Hackers — Uri Rolls, Arithmetic &amp; Thom Wolf, Hugging Face</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/ai-engineer/GgLQ02aO-hs"><img loading="lazy" src="https://i.ytimg.com/vi/GgLQ02aO-hs/hqdefault.jpg" alt=""><span class="video-title">The Unreasonable Effectiveness of Separating the Task from the Model — Maxime Rivest, DSPy</span><span class="video-date">2026-07-23</span></a>
@@ -227,6 +229,7 @@ Auto-generated summaries of subscribed channels. **310** videos summarized.
 ## LangChain
 
 <div class="video-grid">
+<a class="video-card" href="summaries/langchain/U5PkKt_uJys"><img loading="lazy" src="https://i.ytimg.com/vi/U5PkKt_uJys/hqdefault.jpg" alt=""><span class="video-title">Inside the Agent Engine: A LangChain and Traversal Fireside Chat</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/langchain/lXZb21CfeIY"><img loading="lazy" src="https://i.ytimg.com/vi/lXZb21CfeIY/hqdefault.jpg" alt=""><span class="video-title">How Bridgewater Built Pat, The AI Pocket Analyst Tool | Interrupt 26</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/langchain/jPPiZ22DY3g"><img loading="lazy" src="https://i.ytimg.com/vi/jPPiZ22DY3g/hqdefault.jpg" alt=""><span class="video-title">The Art of Loop Engineering: How to Build Agents That Improve Over Time</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/langchain/DHTnxP6oUIk"><img loading="lazy" src="https://i.ytimg.com/vi/DHTnxP6oUIk/hqdefault.jpg" alt=""><span class="video-title">Build a secure computer for your agent</span><span class="video-date">2026-07-23</span></a>

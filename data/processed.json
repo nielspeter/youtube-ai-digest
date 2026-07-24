@@ -4366,14 +4366,13 @@
       "generated": "2026-07-24T15:45:18+00:00"
     },
     "il1c1a2FufU": {
-      "video_id": "il1c1a2FufU",
+      "status": "done",
       "title": "Full Workshop: Setting Yourself Up for Success —Jason Liu, OpenAI Codex",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-24T15:00:06+00:00",
       "url": "https://www.youtube.com/watch?v=il1c1a2FufU",
-      "channel_slug": "ai-engineer",
-      "status": "no_transcript",
-      "attempts": 1
+      "generated": "2026-07-24T17:51:28+00:00"
     },
     "cO8qC6HBuBg": {
       "status": "done",
@@ -4392,6 +4391,53 @@
       "published": "2026-07-24T14:00:17+00:00",
       "url": "https://www.youtube.com/watch?v=xR-BiPz45-4",
       "generated": "2026-07-24T15:47:20+00:00"
+    },
+    "U5PkKt_uJys": {
+      "status": "done",
+      "title": "Inside the Agent Engine: A LangChain and Traversal Fireside Chat",
+      "channel": "LangChain",
+      "channel_slug": "langchain",
+      "published": "2026-07-24T16:44:47+00:00",
+      "url": "https://www.youtube.com/watch?v=U5PkKt_uJys",
+      "generated": "2026-07-24T17:48:03+00:00"
+    },
+    "jRCpXUjz4CI": {
+      "status": "done",
+      "title": "Everything Is a Rollout — Alex Shaw + Ryan Marten, Terminal-Bench, Harbor, Laude Institute",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-24T16:00:06+00:00",
+      "url": "https://www.youtube.com/watch?v=jRCpXUjz4CI",
+      "generated": "2026-07-24T17:49:28+00:00"
+    },
+    "nfX_SQYDoBI": {
+      "video_id": "nfX_SQYDoBI",
+      "title": "AI Can Do the Work, But It Can't Do the Understanding | Better Stack Podcast Ep. 18",
+      "channel": "Better Stack",
+      "published": "2026-07-24T16:00:18+00:00",
+      "url": "https://www.youtube.com/watch?v=nfX_SQYDoBI",
+      "channel_slug": "better-stack",
+      "status": "too_long",
+      "minutes": 96
+    },
+    "1Q7CkLh9GwU": {
+      "video_id": "1Q7CkLh9GwU",
+      "title": "OPUS 5 CLICK NOW",
+      "channel": "Matthew Berman",
+      "published": "2026-07-24T16:52:06+00:00",
+      "url": "https://www.youtube.com/watch?v=1Q7CkLh9GwU",
+      "channel_slug": "matthew-berman",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "ApzGW6gdFyc": {
+      "video_id": "ApzGW6gdFyc",
+      "title": "\"You're absolutely right\" is your cue to start over",
+      "channel": "The Pragmatic Engineer",
+      "published": "2026-07-24T16:00:37+00:00",
+      "url": "https://www.youtube.com/watch?v=ApzGW6gdFyc",
+      "channel_slug": "the-pragmatic-engineer",
+      "status": "short"
     }
   }
 }

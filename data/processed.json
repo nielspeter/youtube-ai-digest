@@ -4520,13 +4520,13 @@
       "generated": "2026-07-24T23:17:02+00:00"
     },
     "Ib5t2RLtxvM": {
-      "video_id": "Ib5t2RLtxvM",
+      "status": "done",
       "title": "From Agent Traces to Agent Simulations — Rustem Feyzkhanov, Snorkel AI",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-25T01:00:02+00:00",
       "url": "https://www.youtube.com/watch?v=Ib5t2RLtxvM",
-      "channel_slug": "ai-engineer",
-      "status": "blocked"
+      "generated": "2026-07-25T06:27:33+00:00"
     },
     "b_PmGocP4rc": {
       "status": "done",
@@ -4538,12 +4538,21 @@
       "generated": "2026-07-25T03:34:07+00:00"
     },
     "2J3uX8iRNng": {
-      "video_id": "2J3uX8iRNng",
+      "status": "done",
       "title": "I Tested Opus 5 vs. Fable 5. What You Need to Know.",
       "channel": "Nate Herk | AI Automation",
+      "channel_slug": "nate-herk-ai-automation",
       "published": "2026-07-24T23:38:15+00:00",
       "url": "https://www.youtube.com/watch?v=2J3uX8iRNng",
-      "channel_slug": "nate-herk-ai-automation",
+      "generated": "2026-07-25T06:30:20+00:00"
+    },
+    "bFBNXIoLkW4": {
+      "video_id": "bFBNXIoLkW4",
+      "title": "Oleg Šelajev - You're absolutely right, it was your home directory! - AI Native DevCon June 2026",
+      "channel": "AI Native Dev",
+      "published": "2026-07-25T05:51:04+00:00",
+      "url": "https://www.youtube.com/watch?v=bFBNXIoLkW4",
+      "channel_slug": "ai-native-dev",
       "status": "blocked"
     }
   }

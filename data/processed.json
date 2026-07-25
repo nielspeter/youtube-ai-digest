@@ -4572,6 +4572,16 @@
       "published": "2026-07-25T09:16:26+00:00",
       "url": "https://www.youtube.com/watch?v=libNzUdL9eM",
       "generated": "2026-07-25T11:23:36+00:00"
+    },
+    "hacEQHHhu2Q": {
+      "video_id": "hacEQHHhu2Q",
+      "title": "Why Large? Tiny LMs & Agents on Edge/Robotics — Cormac Brick, Google",
+      "channel": "AI Engineer",
+      "published": "2026-07-25T17:00:06+00:00",
+      "url": "https://www.youtube.com/watch?v=hacEQHHhu2Q",
+      "channel_slug": "ai-engineer",
+      "status": "no_transcript",
+      "attempts": 1
     }
   }
 }

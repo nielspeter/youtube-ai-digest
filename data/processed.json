@@ -4554,6 +4554,25 @@
       "url": "https://www.youtube.com/watch?v=bFBNXIoLkW4",
       "channel_slug": "ai-native-dev",
       "status": "blocked"
+    },
+    "Q1TL2AKoy00": {
+      "video_id": "Q1TL2AKoy00",
+      "title": "Wails: Golang's Bet On Desktop Grade Apps To Beat Electron",
+      "channel": "Better Stack",
+      "published": "2026-07-25T08:00:37+00:00",
+      "url": "https://www.youtube.com/watch?v=Q1TL2AKoy00",
+      "channel_slug": "better-stack",
+      "status": "blocked"
+    },
+    "libNzUdL9eM": {
+      "video_id": "libNzUdL9eM",
+      "title": "Dave Farley - Vibe Coding - Is this really the best we can do? - AI Native DevCon June 2026",
+      "channel": "AI Native Dev",
+      "published": "2026-07-25T09:16:26+00:00",
+      "url": "https://www.youtube.com/watch?v=libNzUdL9eM",
+      "channel_slug": "ai-native-dev",
+      "status": "llm_error",
+      "attempts": 1
     }
   }
 }

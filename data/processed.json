@@ -4590,6 +4590,25 @@
       "url": "https://www.youtube.com/watch?v=Xjxq5cMEMSQ",
       "channel_slug": "beyond-coding",
       "status": "short"
+    },
+    "xIt_mTQp6mY": {
+      "status": "done",
+      "title": "Loop Engineering from First Principles — Kyle Mistele, HumanLayer",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-25T20:41:40+00:00",
+      "url": "https://www.youtube.com/watch?v=xIt_mTQp6mY",
+      "generated": "2026-07-25T21:06:37+00:00"
+    },
+    "KhYifX22yhE": {
+      "video_id": "KhYifX22yhE",
+      "title": "The Messy Reality of Scale: Synthetic Data and Pre-Training — Marah Abdin & Robert McHardy, poolside",
+      "channel": "AI Engineer",
+      "published": "2026-07-25T08:05:08+00:00",
+      "url": "https://www.youtube.com/watch?v=KhYifX22yhE",
+      "channel_slug": "ai-engineer",
+      "status": "no_transcript",
+      "attempts": 1
     }
   }
 }

@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **325** videos summarized.
+Auto-generated summaries of subscribed channels. **328** videos summarized.
 
 ## AI Engineer
 
@@ -112,6 +112,8 @@ Auto-generated summaries of subscribed channels. **325** videos summarized.
 ## AI Native Dev
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-native-dev/libNzUdL9eM"><img loading="lazy" src="https://i.ytimg.com/vi/libNzUdL9eM/hqdefault.jpg" alt=""><span class="video-title">Dave Farley - Vibe Coding - Is this really the best we can do? - AI Native DevCon June 2026</span><span class="video-date">2026-07-25</span></a>
+<a class="video-card" href="summaries/ai-native-dev/bFBNXIoLkW4"><img loading="lazy" src="https://i.ytimg.com/vi/bFBNXIoLkW4/hqdefault.jpg" alt=""><span class="video-title">Oleg Šelajev - You&#x27;re absolutely right, it was your home directory! - AI Native DevCon June 2026</span><span class="video-date">2026-07-25</span></a>
 <a class="video-card" href="summaries/ai-native-dev/xR-BiPz45-4"><img loading="lazy" src="https://i.ytimg.com/vi/xR-BiPz45-4/hqdefault.jpg" alt=""><span class="video-title">Why AI Agents Need a Data Harness, Not Just a Lakehouse</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/ai-native-dev/o-IunU6b1t8"><img loading="lazy" src="https://i.ytimg.com/vi/o-IunU6b1t8/hqdefault.jpg" alt=""><span class="video-title">Brian Douglas - The beginners guide to training AI on your own code - AI Native DevCon June 2026</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/ai-native-dev/Pb6vNbnFYHU"><img loading="lazy" src="https://i.ytimg.com/vi/Pb6vNbnFYHU/hqdefault.jpg" alt=""><span class="video-title">BONUS EPISODE: 76 Malicious AI Skills Were Hiding in Plain Sight</span><span class="video-date">2026-07-23</span></a>
@@ -158,6 +160,7 @@ Auto-generated summaries of subscribed channels. **325** videos summarized.
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/Q1TL2AKoy00"><img loading="lazy" src="https://i.ytimg.com/vi/Q1TL2AKoy00/hqdefault.jpg" alt=""><span class="video-title">Wails: Golang&#x27;s Bet On Desktop Grade Apps To Beat Electron</span><span class="video-date">2026-07-25</span></a>
 <a class="video-card" href="summaries/better-stack/56wK2ttgIsc"><img loading="lazy" src="https://i.ytimg.com/vi/56wK2ttgIsc/hqdefault.jpg" alt=""><span class="video-title">Opus 5 Beats Fable... at Half the Price?</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/better-stack/YAcIUCjsRnU"><img loading="lazy" src="https://i.ytimg.com/vi/YAcIUCjsRnU/hqdefault.jpg" alt=""><span class="video-title">Ex OpenAI CTO&#x27;s Open-Weight Model Processes Raw Audio</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/better-stack/iUkgp7kzIxM"><img loading="lazy" src="https://i.ytimg.com/vi/iUkgp7kzIxM/hqdefault.jpg" alt=""><span class="video-title">OpenAI Went Rogue and Hacked Another Startup</span><span class="video-date">2026-07-22</span></a>

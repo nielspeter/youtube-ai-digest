@@ -4547,32 +4547,31 @@
       "generated": "2026-07-25T06:30:20+00:00"
     },
     "bFBNXIoLkW4": {
-      "video_id": "bFBNXIoLkW4",
+      "status": "done",
       "title": "Oleg Šelajev - You're absolutely right, it was your home directory! - AI Native DevCon June 2026",
       "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
       "published": "2026-07-25T05:51:04+00:00",
       "url": "https://www.youtube.com/watch?v=bFBNXIoLkW4",
-      "channel_slug": "ai-native-dev",
-      "status": "blocked"
+      "generated": "2026-07-25T11:26:44+00:00"
     },
     "Q1TL2AKoy00": {
-      "video_id": "Q1TL2AKoy00",
+      "status": "done",
       "title": "Wails: Golang's Bet On Desktop Grade Apps To Beat Electron",
       "channel": "Better Stack",
+      "channel_slug": "better-stack",
       "published": "2026-07-25T08:00:37+00:00",
       "url": "https://www.youtube.com/watch?v=Q1TL2AKoy00",
-      "channel_slug": "better-stack",
-      "status": "blocked"
+      "generated": "2026-07-25T11:25:23+00:00"
     },
     "libNzUdL9eM": {
-      "video_id": "libNzUdL9eM",
+      "status": "done",
       "title": "Dave Farley - Vibe Coding - Is this really the best we can do? - AI Native DevCon June 2026",
       "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
       "published": "2026-07-25T09:16:26+00:00",
       "url": "https://www.youtube.com/watch?v=libNzUdL9eM",
-      "channel_slug": "ai-native-dev",
-      "status": "llm_error",
-      "attempts": 1
+      "generated": "2026-07-25T11:23:36+00:00"
     }
   }
 }

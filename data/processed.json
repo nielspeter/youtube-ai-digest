@@ -4574,14 +4574,22 @@
       "generated": "2026-07-25T11:23:36+00:00"
     },
     "hacEQHHhu2Q": {
-      "video_id": "hacEQHHhu2Q",
+      "status": "done",
       "title": "Why Large? Tiny LMs & Agents on Edge/Robotics — Cormac Brick, Google",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-25T17:00:06+00:00",
       "url": "https://www.youtube.com/watch?v=hacEQHHhu2Q",
-      "channel_slug": "ai-engineer",
-      "status": "no_transcript",
-      "attempts": 1
+      "generated": "2026-07-25T19:31:32+00:00"
+    },
+    "Xjxq5cMEMSQ": {
+      "video_id": "Xjxq5cMEMSQ",
+      "title": "The agent workflow built for 1,400 engineers, from an AWS veteran",
+      "channel": "Beyond Coding",
+      "published": "2026-07-25T19:14:56+00:00",
+      "url": "https://www.youtube.com/watch?v=Xjxq5cMEMSQ",
+      "channel_slug": "beyond-coding",
+      "status": "short"
     }
   }
 }

@@ -4,11 +4,12 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **328** videos summarized.
+Auto-generated summaries of subscribed channels. **329** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/hacEQHHhu2Q"><img loading="lazy" src="https://i.ytimg.com/vi/hacEQHHhu2Q/hqdefault.jpg" alt=""><span class="video-title">Why Large? Tiny LMs &amp; Agents on Edge/Robotics — Cormac Brick, Google</span><span class="video-date">2026-07-25</span></a>
 <a class="video-card" href="summaries/ai-engineer/Ib5t2RLtxvM"><img loading="lazy" src="https://i.ytimg.com/vi/Ib5t2RLtxvM/hqdefault.jpg" alt=""><span class="video-title">From Agent Traces to Agent Simulations — Rustem Feyzkhanov, Snorkel AI</span><span class="video-date">2026-07-25</span></a>
 <a class="video-card" href="summaries/ai-engineer/b_PmGocP4rc"><img loading="lazy" src="https://i.ytimg.com/vi/b_PmGocP4rc/hqdefault.jpg" alt=""><span class="video-title">Evaling Video Slop — Maor Bril, Character.ai</span><span class="video-date">2026-07-25</span></a>
 <a class="video-card" href="summaries/ai-engineer/31GUkCBD-Uc"><img loading="lazy" src="https://i.ytimg.com/vi/31GUkCBD-Uc/hqdefault.jpg" alt=""><span class="video-title">Building Closed-Loop Evals for a Multimodal Agent at Scale — Soumya Gupta &amp; Jai Chopra, Uber</span><span class="video-date">2026-07-24</span></a>

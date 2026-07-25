@@ -4518,6 +4518,33 @@
       "published": "2026-07-24T21:47:58+00:00",
       "url": "https://www.youtube.com/watch?v=tHQ34j8_toI",
       "generated": "2026-07-24T23:17:02+00:00"
+    },
+    "Ib5t2RLtxvM": {
+      "video_id": "Ib5t2RLtxvM",
+      "title": "From Agent Traces to Agent Simulations — Rustem Feyzkhanov, Snorkel AI",
+      "channel": "AI Engineer",
+      "published": "2026-07-25T01:00:02+00:00",
+      "url": "https://www.youtube.com/watch?v=Ib5t2RLtxvM",
+      "channel_slug": "ai-engineer",
+      "status": "blocked"
+    },
+    "b_PmGocP4rc": {
+      "status": "done",
+      "title": "Evaling Video Slop — Maor Bril, Character.ai",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-25T00:00:02+00:00",
+      "url": "https://www.youtube.com/watch?v=b_PmGocP4rc",
+      "generated": "2026-07-25T03:34:07+00:00"
+    },
+    "2J3uX8iRNng": {
+      "video_id": "2J3uX8iRNng",
+      "title": "I Tested Opus 5 vs. Fable 5. What You Need to Know.",
+      "channel": "Nate Herk | AI Automation",
+      "published": "2026-07-24T23:38:15+00:00",
+      "url": "https://www.youtube.com/watch?v=2J3uX8iRNng",
+      "channel_slug": "nate-herk-ai-automation",
+      "status": "blocked"
     }
   }
 }

@@ -4,11 +4,12 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **322** videos summarized.
+Auto-generated summaries of subscribed channels. **323** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/b_PmGocP4rc"><img loading="lazy" src="https://i.ytimg.com/vi/b_PmGocP4rc/hqdefault.jpg" alt=""><span class="video-title">Evaling Video Slop — Maor Bril, Character.ai</span><span class="video-date">2026-07-25</span></a>
 <a class="video-card" href="summaries/ai-engineer/31GUkCBD-Uc"><img loading="lazy" src="https://i.ytimg.com/vi/31GUkCBD-Uc/hqdefault.jpg" alt=""><span class="video-title">Building Closed-Loop Evals for a Multimodal Agent at Scale — Soumya Gupta &amp; Jai Chopra, Uber</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/ai-engineer/xyL2Ltkh-SA"><img loading="lazy" src="https://i.ytimg.com/vi/xyL2Ltkh-SA/hqdefault.jpg" alt=""><span class="video-title">Model Whisperers How Evals and Prompts Shape Agent Behavior — Preetika Bhateja &amp; Daniel Bump, Google</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/ai-engineer/9HbzAWnKbo4"><img loading="lazy" src="https://i.ytimg.com/vi/9HbzAWnKbo4/hqdefault.jpg" alt=""><span class="video-title">From Signal to PR: Anatomy of a Self-Improving Agent — Jason Lopatecki, Arize</span><span class="video-date">2026-07-24</span></a>

@@ -4626,6 +4626,24 @@
       "published": "2026-07-25T23:00:36+00:00",
       "url": "https://www.youtube.com/watch?v=O72p-rBb2bA",
       "generated": "2026-07-26T03:50:46+00:00"
+    },
+    "c2CM-5a4W9I": {
+      "video_id": "c2CM-5a4W9I",
+      "title": "Why the best engineers are effective with agents, not replaced by them",
+      "channel": "Beyond Coding",
+      "published": "2026-07-26T07:13:08+00:00",
+      "url": "https://www.youtube.com/watch?v=c2CM-5a4W9I",
+      "channel_slug": "beyond-coding",
+      "status": "short"
+    },
+    "KzhjnILSP0Y": {
+      "status": "done",
+      "title": "Tammuz Dubnov - When Our PM Started Writing Code: What Merge Rate Taught Us About AI Adoption - AI N",
+      "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
+      "published": "2026-07-26T06:59:23+00:00",
+      "url": "https://www.youtube.com/watch?v=KzhjnILSP0Y",
+      "generated": "2026-07-26T10:10:21+00:00"
     }
   }
 }

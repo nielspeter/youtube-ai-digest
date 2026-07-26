@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **333** videos summarized.
+Auto-generated summaries of subscribed channels. **334** videos summarized.
 
 ## AI Engineer
 
@@ -116,6 +116,7 @@ Auto-generated summaries of subscribed channels. **333** videos summarized.
 ## AI Native Dev
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-native-dev/KzhjnILSP0Y"><img loading="lazy" src="https://i.ytimg.com/vi/KzhjnILSP0Y/hqdefault.jpg" alt=""><span class="video-title">Tammuz Dubnov - When Our PM Started Writing Code: What Merge Rate Taught Us About AI Adoption - AI N</span><span class="video-date">2026-07-26</span></a>
 <a class="video-card" href="summaries/ai-native-dev/libNzUdL9eM"><img loading="lazy" src="https://i.ytimg.com/vi/libNzUdL9eM/hqdefault.jpg" alt=""><span class="video-title">Dave Farley - Vibe Coding - Is this really the best we can do? - AI Native DevCon June 2026</span><span class="video-date">2026-07-25</span></a>
 <a class="video-card" href="summaries/ai-native-dev/bFBNXIoLkW4"><img loading="lazy" src="https://i.ytimg.com/vi/bFBNXIoLkW4/hqdefault.jpg" alt=""><span class="video-title">Oleg Šelajev - You&#x27;re absolutely right, it was your home directory! - AI Native DevCon June 2026</span><span class="video-date">2026-07-25</span></a>
 <a class="video-card" href="summaries/ai-native-dev/xR-BiPz45-4"><img loading="lazy" src="https://i.ytimg.com/vi/xR-BiPz45-4/hqdefault.jpg" alt=""><span class="video-title">Why AI Agents Need a Data Harness, Not Just a Lakehouse</span><span class="video-date">2026-07-24</span></a>

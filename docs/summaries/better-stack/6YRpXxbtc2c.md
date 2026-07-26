@@ -1,0 +1,119 @@
+---
+title: "There's a NEW Package Manager!? (Bun Alternative)"
+channel: "Better Stack"
+video_id: 6YRpXxbtc2c
+url: https://www.youtube.com/watch?v=6YRpXxbtc2c
+published: 2026-07-26T12:00:06+00:00
+generated: 2026-07-26T13:51:22+00:00
+model: "z-ai/glm-5.2"
+thumbnail: https://i.ytimg.com/vi/6YRpXxbtc2c/hqdefault.jpg
+---
+# There's a NEW Package Manager!? (Bun Alternative)
+
+[![There's a NEW Package Manager!? (Bun Alternative)](https://i.ytimg.com/vi/6YRpXxbtc2c/hqdefault.jpg)](https://www.youtube.com/watch?v=6YRpXxbtc2c)
+
+[Watch on YouTube](https://www.youtube.com/watch?v=6YRpXxbtc2c) · **Better Stack** · 2026-07-26
+
+## TL;DR
+Nub is an all-in-one JavaScript toolkit built on top of Node.js (rather than replacing it), offering a file runner, package manager, package runner, script runner, and node version manager in a single Rust binary. Created by Colin (the maker of Zod), it delivers Bun-like speed and convenience while maintaining full Node.js compatibility, making it especially appealing for developers who want modern tooling without leaving the Node ecosystem.
+
+## Key Takeaways
+- Nub is a single Rust binary that works on Mac, Windows, and Linux, built on top of stock Node.js rather than replacing it.
+- The file runner supports full TypeScript (not just type stripping), `.env` imports, JSON/YAML/TOML/text imports, tsconfig paths, decorators, JSX, and modern APIs like web workers and temporal — with near-zero overhead.
+- Nub's package manager is claimed to be 5x faster than pnpm and is flag-for-flag compatible with pnpm, including advanced features like workspace catalogs.
+- It can adopt existing lock files from bun or pnpm, making switching between package managers seamless.
+- The `nubx` package runner is claimed to be 19x faster than npx, executing binaries directly from `node_modules` without spawning a Node wrapper process.
+- The script runner is claimed to be 24x faster than `pnpm run` by using the Rust binary instead of loading Node.js per script invocation.
+- Nub includes a built-in node version manager that auto-installs required versions based on `.node-version`, `.nvmrc`, or `package.json` files.
+- Security features include a default 24-hour minimum release age and blocking build scripts unless approved, protecting against supply chain attacks.
+- Under the hood, the package management features use Orbital (OB), an embeddable package manager by JDX (creator of Mise), not stolen work.
+- The presenter would use Nub primarily for throwaway VMs and as a TSX replacement, though they remain a heavy Bun user in daily development.
+
+## Detailed Breakdown
+
+### Introduction to Nub [00:00](https://www.youtube.com/watch?v=6YRpXxbtc2c&t=0s)
+Nub is introduced as an all-in-one JavaScript toolkit that sits on top of Node.js rather than replacing it. It replaces multiple tools: package manager, TypeScript runner, and node version manager. It's described as "Bun's best features, but on top of stock Node.js," and the name is "Bun" spelled backwards. The project is created by Colin, the creator of Zod, who also made the proof of concept for TRBC that worked at Bun. Nub is a single Rust binary compatible with Mac, Windows, and Linux.
+
+### File Runner: TypeScript and Environment Variables [00:31](https://www.youtube.com/watch?v=6YRpXxbtc2c&t=31s)
+The file runner supports full TypeScript — not just type stripping like Node does — meaning it handles enums, namespaces, and parameter properties that Node would reject. It can replace tools like `tsx` or `ts-node`. The runner also automatically imports `.env`, `.env.local`, and Node environment files, with support for variable expansion (composing variables from other environment variables). `.env.local` always takes precedence over `.env`.
+
+### File Runner: Imports, Config Paths, and Modern Features [02:03](https://www.youtube.com/watch?v=6YRpXxbtc2c&t=123s)
+The file runner supports importing JSON, YAML, TOML, and text files. It resolves tsconfig paths (like `@config` aliases) automatically. It supports decorators, JSX (transpiled based on tsconfig settings), and modern keywords like `using` for explicit resource management. It also polyfills modern APIs such as web workers and temporal on Node versions that don't support them, and unflags experimental Node features like local storage. It's flag-for-flag compatible with Node, forwarding all Node flags directly.
+
+### File Runner: Performance Benchmarks [03:04](https://www.youtube.com/watch?v=6YRpXxbtc2c&t=184s)
+Nub runs with nearly zero overhead — documentation claims the same speed as Node. The presenter's own benchmark on a Mac showed Node was slightly fastest, Nub was a close second, and `tsx` was slower than both. The presenter acknowledges Nub won't be faster than Bun since Bun is a native runtime replacing Node, while Nub is built on top of Node.
+
+### Node Version Manager [03:34](https://www.youtube.com/watch?v=6YRpXxbtc2c&t=214s)
+Nub eliminates the need for NVM or FNM. It reads a `.node-version` file, `.nvmrc`, or a version defined in `package.json` and automatically installs the required Node version. Changing the version file and rerunning triggers automatic installation. It supports standard management commands: install, list, uninstall, and version pinning (which writes the node version file for you).
+
+### Package Manager: Compatibility and Lock Files [04:37](https://www.youtube.com/watch?v=6YRpXxbtc2c&t=277s)
+Nub's package manager is claimed to be 5x faster than pnpm. It can adopt existing lock files from bun or pnpm instead of creating its own, making switching trivial. Every package management command is flag-for-flag compatible with pnpm, including advanced features like workspace catalogs. Configuration options from npm, bun, or yarn are also picked up automatically.
+
+### Package Manager: Speed Benchmarks [05:09](https://www.youtube.com/watch?v=6YRpXxbtc2c&t=309s)
+Nub's benchmarks place it as the fastest at warm frozen installs — 346ms for 1,168 packages. The presenter's own test with 14 direct dependencies (212 unique packages) showed Nub at 136ms, Bun at 239ms, and pnpm and npm both over 1 second, confirming the speed claims on their machine.
+
+### Package Manager: Security [05:39](https://www.youtube.com/watch?v=6YRpXxbtc2c&t=339s)
+Nub inherits pnpm's best security practices, including a default 24-hour minimum release age for packages and blocking build scripts unless explicitly approved, protecting against most supply chain attacks.
+
+### Package Runner (nubx) [06:09](https://www.youtube.com/watch?v=6YRpXxbtc2c&t=369s)
+The `nubx` command is claimed to be 19x faster than npx. It resolves directly to the binary folder in `node_modules` and executes binaries directly via Rust, with no Node process wrapper. This means it works with any package manager. It's flag-for-flag compatible with `pnpm exec`, including `dlx` commands. The presenter's benchmark showed nubx at 169ms vs pnpm at 423ms for running `build`.
+
+### Script Runner [06:39](https://www.youtube.com/watch?v=6YRpXxbtc2c&t=399s)
+The script runner is claimed to be 24x faster than `pnpm run`. Unlike npm or pnpm, which launch Node.js programs and load each package manager's JavaScript each time, Nub uses its Rust binary with no startup overhead. It supports lifecycle hooks, npm environment variables, and argument forwarding. It's flag-for-flag compatible with pnpm, including monorepo features. The presenter's local benchmarks confirmed Nub was fastest, though not by as wide a margin as the documentation claimed.
+
+### Under the Hood: Orbital (OB) and JDX [07:11](https://www.youtube.com/watch?v=6YRpXxbtc2c&t=431s)
+Nub didn't reinvent the wheel for package management — it uses Orbital (OB) under the hood, an embeddable package manager by JDX (creator of Mise). JDX made the package manager embeddable by other libraries, and Colin worked with him to integrate it into Nub, so it's collaborative work rather than stolen code.
+
+### Additional Features and Final Verdict [07:11](https://www.youtube.com/watch?v=6YRpXxbtc2c&t=431s)
+Nub also includes a drop-in replacement GitHub action that replaces the official `setup-node` action. When asked whether the presenter would use it, they said yes in certain scenarios. They're a heavy Bun user with no compatibility issues, use Mise for node version management, and don't find pnpm too slow. However, they see themselves wanting the file runner as a TSX replacement, and the ultimate use case is throwaway VMs for quick testing — where Nub is one of the most complete and fastest ways to get started with Node.
+
+## Notable Quotes
+- "It is Bun's best features, but on top of stock Node.js, and that's probably the reason why Nub is just buns spelled backwards."
+- "It's flag for flag compatible with Node. I mean since it's just running node in the end. It just forwards those flags."
+- "Nub didn't reinvent the wheel. It actually uses OB under the hood, which is a package manager written by JDX, who's also the creator of Mise."
+- "If I just want to get started with Node, I think Nub is one of the most complete packages and the quickest and easiest way to do so. So, it's mostly just me being stuck in my ways that's stopping me from using Nub daily."
+
+## People, Tools & References Mentioned
+- **Nub** — the all-in-one JavaScript toolkit covered in the video
+- **Colin** — creator of Zod and the proof of concept for TRBC; creator of Nub
+- **Bun** — JavaScript runtime that Nub is compared against (recently rewritten in Rust)
+- **Zod** — TypeScript schema validation library created by Colin
+- **TRBC** — a proof of concept Colin made that worked at Bun
+- **Orbital (OB)** — embeddable package manager used under the hood by Nub
+- **JDX** — creator of Mise and Orbital; collaborated with Colin on Nub
+- **Mise** — a tool the presenter uses for node version management
+- **pnpm** — package manager Nub is compared against and is flag-for-flag compatible with
+- **tsx / ts-node** — TypeScript file runners Nub can replace
+- **NVM / FNM** — node version managers Nub can replace
+- **npx / pnpm exec** — package runners compared against `nubx`
+- **setup-node** — official GitHub action Nub provides a drop-in replacement for
+- **Web Workers, Temporal** — modern APIs Nub polyfills on older Node versions
+
+## Who Should Watch
+JavaScript and TypeScript developers who want a faster, all-in-one toolchain without abandoning Node.js — especially those considering switching from Bun, pnpm, or multiple separate tools like tsx, NVM, and npx. It's also ideal for developers who frequently spin up throwaway environments and want the quickest path to a fully configured Node setup.
+
+
+## Transcript
+
+<details class="transcript">
+<summary>Full transcript</summary>
+
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=6YRpXxbtc2c&amp;t=0s">00:00</a></span> This is Nub, an all-in-one JavaScript toolkit that works on top of Node instead of replacing it. It replaces all of these tools that you&#x27;re currently using. From the package manager, which is five times faster than PMP, to the TypeScript runner that can replace TSX and even a Node version manager. It is Bun&#x27;s best features, but on top of stock NodeJS, and that&#x27;s probably the reason why Nub is just buns spelled backwards. And I know JavaScript devs love to reinvent things, but this isn&#x27;t just some random person&#x27;s project. It&#x27;s actually made by Colin who is the creator of Zod and he made the proof of concept for TRBC and it even worked at</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=6YRpXxbtc2c&amp;t=31s">00:31</a></span> concept for TRBC and it even worked at Bun. So let&#x27;s just dive in and take a look. So Nub is one Rust binary and it works with Mac, Windows and Linux. And as I showed in the intro, these are just some of the tools that it can replace. It&#x27;s a file runner, a script runner, package runner, package manager, and a node version manager. So let&#x27;s go through each of these. First up, the file runner. And this alone has so many features. The file runner supports full typescript not just type stripping like node would do. So it can replace a tool like tsx or ts node. And we can see here</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=6YRpXxbtc2c&amp;t=63s">01:03</a></span> like tsx or ts node. And we can see here I have a typescript file that has enums in it name spaces as well as param properties. And that isn&#x27;t something that node can normally run. If I simply run nub and then the file that I want to run you can see that it runs perfectly fine where it would fail on node. So if I replaced nub here with node we can see that we get error unsupported typescript syntax as it doesn&#x27;t like the namespace or the enum. The Farerrunner can also replace tools like MMV importing the environment variables automatically. It supports files, MV local and also the node environment ones and even has automatic variable expansion. So down</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=6YRpXxbtc2c&amp;t=93s">01:33</a></span> automatic variable expansion. So down here we can have a variable which is made up of other environment variables. So we have the database user and the database host here. If I now run this file with nub, you can see it imports those environment variables for me and it&#x27;s made up my health check URL using the other environment variable values. We can also see that my API key doesn&#x27;t actually match the one that I have in thev here. That&#x27;s because local is always going to take precedence. And in here, I have the API key set to subscribe to better stack. That is something you should definitely do if you want to stay up to date with AI and developer news. Please subscribe. It really helps out. Next, I&#x27;m going to go ahead and run nub and then</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=6YRpXxbtc2c&amp;t=123s">02:03</a></span> ahead and run nub and then source/index.tsx. And we can see that everything is working here. It&#x27;s my nub kitchen sync. In the code for that file, I&#x27;m using tons of features that nub file runner gives us. One of the first ones is that we can import JSON files as well as YAML toml and even text files. And it can also replace a tool like TS config paths. So the paths I&#x27;ve set up here with at config where I&#x27;ve set this up in my tsconfig, it&#x27;s going to go ahead and make sure these are resolved by node properly. It also has support for decorators like service and sealed here. It has JSX support and it&#x27;ll actually transpile this based on your TS config settings. And you can even use modern</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=6YRpXxbtc2c&amp;t=154s">02:34</a></span> settings. And you can even use modern keywords like the using keyword for explicit resource management. In addition [clears throat] to all of that, it also has support for tons of modern APIs like web workers, temporal, and loads of others. It will polyfill them automatically for you on node versions that don&#x27;t support them. And it also unfl flags experimental node features like local storage support. That&#x27;s just scratching the surface of all of the features that the Farerrunner supports. But I also want to mention that it&#x27;s flag for flag compatible with node. I mean since it&#x27;s just running node in the end. It just forwards those flags. That means if your script isn&#x27;t using any features that node doesn&#x27;t support, you</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=6YRpXxbtc2c&amp;t=184s">03:04</a></span> features that node doesn&#x27;t support, you can just switch nub for node and get the exact same result. All of this is done, by the way, with nearly zero overhead in speed. It should be as close to node as possible. And according to their documentation, it takes the exact same amount of time to run a nub file as it does in node. I will admit this won&#x27;t be faster than bun since bun is a native runtime that replaces node and nub is just built on top of node. I actually decided to run my own benchmark on my Mac here to see which one is quicker. And if I just make these look a little bit nicer, we can see that node was actually the quickest for me. It wasn&#x27;t the exact same speed as nub. Nub was a little bit behind, but then tsx was</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=6YRpXxbtc2c&amp;t=214s">03:34</a></span> little bit behind, but then tsx was slower than both of them. Moving away from the farrunner though, feature number two is the node version manager. Gone of the days of needing NVM or FNM in nub. If I have a file in my project called node version or if I define it in the mvmrc or even in the package.json, nub is going to automatically install the required version for me from node.js. At the moment, this project is using the latest node 26 version. If I change this file to say something like 24, then I rerun it using nub, it will automatically grab that node version for me. It also has all of the usual management commands that you&#x27;d expect. So we can install node versions, we can</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=6YRpXxbtc2c&amp;t=245s">04:05</a></span> So we can install node versions, we can list the installed ones, we can uninstall node versions, and there&#x27;s even version pinning which will write that node version file for you. It really is as simple as that. So let&#x27;s move on to our next three features, which is where nub can replace pmppm and bun. First is feature number three, which is just the package manager. This is promising to be five times faster than pmppm, and I thought pmpp was already super fast. This works as you&#x27;d expect it to. Nub install installs the packages, but something quite cool here is it can actually adopt your existing lock files. So if you&#x27;ve used bun or pmppm in a project before, nub will just</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=6YRpXxbtc2c&amp;t=277s">04:37</a></span> pmppm in a project before, nub will just update those lock files instead of having one of its own. This makes it super easy to switch between them if you ever needed to. And the same goes for the pmppm compatibility. Every package management command in knob is the exact same as pmppm, including pmpm&#x27;s advanced features like workspace cataloges. It&#x27;s the exact same flags, so swapping pmpm and nub should just work. And if you&#x27;re using mpm bun or yarn, the configuration options of those package managers should be picked up as well. When it comes to that claim about speed, their benchmarks place nub as the fastest at warm frozen installs, taking 346 milliseconds to</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=6YRpXxbtc2c&amp;t=309s">05:09</a></span> installs, taking 346 milliseconds to install 1,168 packages. And on my machine, I actually did a test of 14 direct dependencies that resolved to 212 unique packages. And the benchmark proves that Nub is the fastest. Nub installed my packages in 136 milliseconds. Bun was second at 239 milliseconds. and PMPM and mpm actually took over a second. So, that speed claim seems to be true on my machine with some seriously impressive speeds. The package manager also takes the best bits of PMP when it comes to security. It has a minimum release age default of 24 hours</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=6YRpXxbtc2c&amp;t=339s">05:39</a></span> minimum release age default of 24 hours and it won&#x27;t run build scripts unless approved. So, you should be safe from most shy hallude attacks. The next great part of a package manager is the actual package running, which is feature number four. And the headline here is it&#x27;s 19 times faster than MPX. The nubx command actually resolves to the binary folder within node modules. So in Rust, it actually executes the binaries directly. So there&#x27;s no node process in the wrapper, which also means that it works with any package manager since it&#x27;s just going direct to those node modules. As with most of the nub commands, it&#x27;s actually flag for flag compatible with pmppm exec, including the DLX commands</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=6YRpXxbtc2c&amp;t=369s">06:09</a></span> pmppm exec, including the DLX commands as well. Running a benchmark on my Mac, nub was actually the quickest at 169 milliseconds to run build versus pmppm of 423 milliseconds. So again, it seems that speed claim has some truth to it. The final feature you need in a package manager is the script runner. And apparently this one is 24 times faster than pmppm run and it has life cycle hooks, npm environment variables and argument forwarding. When you use mpm or pmppm, these actually launch NodeJS programs loading each package manager&#x27;s JavaScript each time, whereas nub just uses its Rust binary with no startup</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=6YRpXxbtc2c&amp;t=399s">06:39</a></span> uses its Rust binary with no startup processes. My local benchmarks again showed that nub run was actually the quickest, but not by as large as a margin as we saw on that documentation. It&#x27;s also worth noting, and it&#x27;s the fourth time I&#x27;m saying this in this video, this command is flag for flag compatible with PMPM, meaning it also supports PMP&#x27;s monor repo features. One thing I actually want to shout out for those last three features, is that knob didn&#x27;t reinvent the wheel. It actually uses OB under the hood, which is a package manager written by JDX, who&#x27;s also the creator of MI. He actually made the package manager embeddible by other libraries, and Colin worked with him to use it in nub, so it&#x27;s not just stolen</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=6YRpXxbtc2c&amp;t=431s">07:11</a></span> use it in nub, so it&#x27;s not just stolen work. Those are the main headline features of nub then, but there is still so much more to explore, such as the drop-in replacement GitHub action, which replaces the official setup node one. It really has just been made to make everything around node much easier. But here&#x27;s the question I&#x27;m left asking myself. Would I actually use this? For me, my answer is yes in certain scenarios. I&#x27;ll be honest, I&#x27;m a pretty heavy bun user. I&#x27;ve not run into any compatibility issues in my development. Maybe with the new Rust port, I might move away, but even then, I would use PMP for everything else. And I must admit, I&#x27;ve never noticed that PMPM is</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=6YRpXxbtc2c&amp;t=462s">07:42</a></span> admit, I&#x27;ve never noticed that PMPM is too slow. I also use Miis to manage my node version, so I don&#x27;t see myself needing that side of things. But I can see myself wanting the file runner that replaces TSX. The ultimate use case that I see for myself though is when I use new throwaway virtual machines. Sometimes I spin these up really quickly to do some testing. And if I just want to get started with Node, I think Nub is one of the most complete packages and the quickest and easiest way to do so. So, it&#x27;s mostly just me being stuck in my ways that&#x27;s stopping me from using Nub daily. But I do want to know what you use for your package manager. And if you&#x27;d use something like nub, maybe you&#x27;re looking to switch from bun now</p>
+<p><span class="ts"><a href="https://www.youtube.com/watch?v=6YRpXxbtc2c&amp;t=492s">08:12</a></span> you&#x27;re looking to switch from bun now that it&#x27;s rewritten in Rust. Let me know in the comments down below or there. Subscribe. As always, see you in the next one.</p>
+
+</details>

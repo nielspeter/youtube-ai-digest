@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **335** videos summarized.
+Auto-generated summaries of subscribed channels. **336** videos summarized.
 
 ## AI Engineer
 
@@ -325,6 +325,7 @@ Auto-generated summaries of subscribed channels. **335** videos summarized.
 ## Nate Herk | AI Automation
 
 <div class="video-grid">
+<a class="video-card" href="summaries/nate-herk-ai-automation/Ums8suyAG1A"><img loading="lazy" src="https://i.ytimg.com/vi/Ums8suyAG1A/hqdefault.jpg" alt=""><span class="video-title">This AI Technology Will Replace Millions (Here&#x27;s How to Prepare)</span><span class="video-date">2026-07-26</span></a>
 <a class="video-card" href="summaries/nate-herk-ai-automation/2J3uX8iRNng"><img loading="lazy" src="https://i.ytimg.com/vi/2J3uX8iRNng/hqdefault.jpg" alt=""><span class="video-title">I Tested Opus 5 vs. Fable 5. What You Need to Know.</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/nate-herk-ai-automation/k7VI66CkKEY"><img loading="lazy" src="https://i.ytimg.com/vi/k7VI66CkKEY/hqdefault.jpg" alt=""><span class="video-title">Claude Opus 5 is Going to Save You Money</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/nate-herk-ai-automation/Ek1NBfnnTH0"><img loading="lazy" src="https://i.ytimg.com/vi/Ek1NBfnnTH0/hqdefault.jpg" alt=""><span class="video-title">5 Hacks to Instantly Level Up Your AI OS</span><span class="video-date">2026-07-23</span></a>

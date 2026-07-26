@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **338** videos summarized.
+Auto-generated summaries of subscribed channels. **339** videos summarized.
 
 ## AI Engineer
 
@@ -167,6 +167,7 @@ Auto-generated summaries of subscribed channels. **338** videos summarized.
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/CHEMPZ87FLw"><img loading="lazy" src="https://i.ytimg.com/vi/CHEMPZ87FLw/hqdefault.jpg" alt=""><span class="video-title">Jack Dorsey&#x27;s New App Wants to Replace GitHub (buzz)</span><span class="video-date">2026-07-26</span></a>
 <a class="video-card" href="summaries/better-stack/6YRpXxbtc2c"><img loading="lazy" src="https://i.ytimg.com/vi/6YRpXxbtc2c/hqdefault.jpg" alt=""><span class="video-title">There&#x27;s a NEW Package Manager!? (Bun Alternative)</span><span class="video-date">2026-07-26</span></a>
 <a class="video-card" href="summaries/better-stack/3OqZHYNKc9A"><img loading="lazy" src="https://i.ytimg.com/vi/3OqZHYNKc9A/hqdefault.jpg" alt=""><span class="video-title">This Tiny Tool Fits a 744B AI Model on Normal Hardware (colibrì)</span><span class="video-date">2026-07-25</span></a>
 <a class="video-card" href="summaries/better-stack/Q1TL2AKoy00"><img loading="lazy" src="https://i.ytimg.com/vi/Q1TL2AKoy00/hqdefault.jpg" alt=""><span class="video-title">Wails: Golang&#x27;s Bet On Desktop Grade Apps To Beat Electron</span><span class="video-date">2026-07-25</span></a>

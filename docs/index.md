@@ -4,13 +4,15 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **330** videos summarized.
+Auto-generated summaries of subscribed channels. **333** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/O72p-rBb2bA"><img loading="lazy" src="https://i.ytimg.com/vi/O72p-rBb2bA/hqdefault.jpg" alt=""><span class="video-title">Evals-Driven Development for a Mental Health AI Coach — Akele Reed &amp; Dave Revere, SonderMind</span><span class="video-date">2026-07-25</span></a>
 <a class="video-card" href="summaries/ai-engineer/xIt_mTQp6mY"><img loading="lazy" src="https://i.ytimg.com/vi/xIt_mTQp6mY/hqdefault.jpg" alt=""><span class="video-title">Loop Engineering from First Principles — Kyle Mistele, HumanLayer</span><span class="video-date">2026-07-25</span></a>
 <a class="video-card" href="summaries/ai-engineer/hacEQHHhu2Q"><img loading="lazy" src="https://i.ytimg.com/vi/hacEQHHhu2Q/hqdefault.jpg" alt=""><span class="video-title">Why Large? Tiny LMs &amp; Agents on Edge/Robotics — Cormac Brick, Google</span><span class="video-date">2026-07-25</span></a>
+<a class="video-card" href="summaries/ai-engineer/KhYifX22yhE"><img loading="lazy" src="https://i.ytimg.com/vi/KhYifX22yhE/hqdefault.jpg" alt=""><span class="video-title">The Messy Reality of Scale: Synthetic Data and Pre-Training — Marah Abdin &amp; Robert McHardy, poolside</span><span class="video-date">2026-07-25</span></a>
 <a class="video-card" href="summaries/ai-engineer/Ib5t2RLtxvM"><img loading="lazy" src="https://i.ytimg.com/vi/Ib5t2RLtxvM/hqdefault.jpg" alt=""><span class="video-title">From Agent Traces to Agent Simulations — Rustem Feyzkhanov, Snorkel AI</span><span class="video-date">2026-07-25</span></a>
 <a class="video-card" href="summaries/ai-engineer/b_PmGocP4rc"><img loading="lazy" src="https://i.ytimg.com/vi/b_PmGocP4rc/hqdefault.jpg" alt=""><span class="video-title">Evaling Video Slop — Maor Bril, Character.ai</span><span class="video-date">2026-07-25</span></a>
 <a class="video-card" href="summaries/ai-engineer/31GUkCBD-Uc"><img loading="lazy" src="https://i.ytimg.com/vi/31GUkCBD-Uc/hqdefault.jpg" alt=""><span class="video-title">Building Closed-Loop Evals for a Multimodal Agent at Scale — Soumya Gupta &amp; Jai Chopra, Uber</span><span class="video-date">2026-07-24</span></a>
@@ -162,6 +164,7 @@ Auto-generated summaries of subscribed channels. **330** videos summarized.
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/3OqZHYNKc9A"><img loading="lazy" src="https://i.ytimg.com/vi/3OqZHYNKc9A/hqdefault.jpg" alt=""><span class="video-title">This Tiny Tool Fits a 744B AI Model on Normal Hardware (colibrì)</span><span class="video-date">2026-07-25</span></a>
 <a class="video-card" href="summaries/better-stack/Q1TL2AKoy00"><img loading="lazy" src="https://i.ytimg.com/vi/Q1TL2AKoy00/hqdefault.jpg" alt=""><span class="video-title">Wails: Golang&#x27;s Bet On Desktop Grade Apps To Beat Electron</span><span class="video-date">2026-07-25</span></a>
 <a class="video-card" href="summaries/better-stack/56wK2ttgIsc"><img loading="lazy" src="https://i.ytimg.com/vi/56wK2ttgIsc/hqdefault.jpg" alt=""><span class="video-title">Opus 5 Beats Fable... at Half the Price?</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/better-stack/YAcIUCjsRnU"><img loading="lazy" src="https://i.ytimg.com/vi/YAcIUCjsRnU/hqdefault.jpg" alt=""><span class="video-title">Ex OpenAI CTO&#x27;s Open-Weight Model Processes Raw Audio</span><span class="video-date">2026-07-23</span></a>

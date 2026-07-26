@@ -4601,23 +4601,31 @@
       "generated": "2026-07-25T21:06:37+00:00"
     },
     "KhYifX22yhE": {
-      "video_id": "KhYifX22yhE",
+      "status": "done",
       "title": "The Messy Reality of Scale: Synthetic Data and Pre-Training — Marah Abdin & Robert McHardy, poolside",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-25T08:05:08+00:00",
       "url": "https://www.youtube.com/watch?v=KhYifX22yhE",
-      "channel_slug": "ai-engineer",
-      "status": "no_transcript",
-      "attempts": 2
+      "generated": "2026-07-26T03:55:15+00:00"
     },
     "3OqZHYNKc9A": {
-      "video_id": "3OqZHYNKc9A",
+      "status": "done",
       "title": "This Tiny Tool Fits a 744B AI Model on Normal Hardware (colibrì)",
       "channel": "Better Stack",
+      "channel_slug": "better-stack",
       "published": "2026-07-25T22:17:52+00:00",
       "url": "https://www.youtube.com/watch?v=3OqZHYNKc9A",
-      "channel_slug": "better-stack",
-      "status": "blocked"
+      "generated": "2026-07-26T03:52:41+00:00"
+    },
+    "O72p-rBb2bA": {
+      "status": "done",
+      "title": "Evals-Driven Development for a Mental Health AI Coach — Akele Reed & Dave Revere, SonderMind",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-25T23:00:36+00:00",
+      "url": "https://www.youtube.com/watch?v=O72p-rBb2bA",
+      "generated": "2026-07-26T03:50:46+00:00"
     }
   }
 }

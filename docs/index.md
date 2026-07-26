@@ -4,11 +4,13 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **336** videos summarized.
+Auto-generated summaries of subscribed channels. **338** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/Yk87oUPVaxU"><img loading="lazy" src="https://i.ytimg.com/vi/Yk87oUPVaxU/hqdefault.jpg" alt=""><span class="video-title">DeepSWE: A Contamination-Resistant Coding Benchmark — James Shi, Datacurve</span><span class="video-date">2026-07-26</span></a>
+<a class="video-card" href="summaries/ai-engineer/ZyIoTOAbRfs"><img loading="lazy" src="https://i.ytimg.com/vi/ZyIoTOAbRfs/hqdefault.jpg" alt=""><span class="video-title">State of Data — Sean Cai, Independent / State of Data</span><span class="video-date">2026-07-26</span></a>
 <a class="video-card" href="summaries/ai-engineer/O72p-rBb2bA"><img loading="lazy" src="https://i.ytimg.com/vi/O72p-rBb2bA/hqdefault.jpg" alt=""><span class="video-title">Evals-Driven Development for a Mental Health AI Coach — Akele Reed &amp; Dave Revere, SonderMind</span><span class="video-date">2026-07-25</span></a>
 <a class="video-card" href="summaries/ai-engineer/xIt_mTQp6mY"><img loading="lazy" src="https://i.ytimg.com/vi/xIt_mTQp6mY/hqdefault.jpg" alt=""><span class="video-title">Loop Engineering from First Principles — Kyle Mistele, HumanLayer</span><span class="video-date">2026-07-25</span></a>
 <a class="video-card" href="summaries/ai-engineer/hacEQHHhu2Q"><img loading="lazy" src="https://i.ytimg.com/vi/hacEQHHhu2Q/hqdefault.jpg" alt=""><span class="video-title">Why Large? Tiny LMs &amp; Agents on Edge/Robotics — Cormac Brick, Google</span><span class="video-date">2026-07-25</span></a>

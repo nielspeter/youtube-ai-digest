@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **339** videos summarized.
+Auto-generated summaries of subscribed channels. **343** videos summarized.
 
 ## AI Engineer
 
@@ -118,6 +118,7 @@ Auto-generated summaries of subscribed channels. **339** videos summarized.
 ## AI Native Dev
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-native-dev/4d3-Zrmf9Wo"><img loading="lazy" src="https://i.ytimg.com/vi/4d3-Zrmf9Wo/hqdefault.jpg" alt=""><span class="video-title">Simon Obstbaum &amp; Rob Willoughby - Why evals are hard and how we&#x27;re solving it - AI Native DevCon Jun</span><span class="video-date">2026-07-27</span></a>
 <a class="video-card" href="summaries/ai-native-dev/KzhjnILSP0Y"><img loading="lazy" src="https://i.ytimg.com/vi/KzhjnILSP0Y/hqdefault.jpg" alt=""><span class="video-title">Tammuz Dubnov - When Our PM Started Writing Code: What Merge Rate Taught Us About AI Adoption - AI N</span><span class="video-date">2026-07-26</span></a>
 <a class="video-card" href="summaries/ai-native-dev/libNzUdL9eM"><img loading="lazy" src="https://i.ytimg.com/vi/libNzUdL9eM/hqdefault.jpg" alt=""><span class="video-title">Dave Farley - Vibe Coding - Is this really the best we can do? - AI Native DevCon June 2026</span><span class="video-date">2026-07-25</span></a>
 <a class="video-card" href="summaries/ai-native-dev/bFBNXIoLkW4"><img loading="lazy" src="https://i.ytimg.com/vi/bFBNXIoLkW4/hqdefault.jpg" alt=""><span class="video-title">Oleg Šelajev - You&#x27;re absolutely right, it was your home directory! - AI Native DevCon June 2026</span><span class="video-date">2026-07-25</span></a>
@@ -167,6 +168,7 @@ Auto-generated summaries of subscribed channels. **339** videos summarized.
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/xFWhiWe91BE"><img loading="lazy" src="https://i.ytimg.com/vi/xFWhiWe91BE/hqdefault.jpg" alt=""><span class="video-title">Microsoft Built a New Charting Language for AI Agents</span><span class="video-date">2026-07-27</span></a>
 <a class="video-card" href="summaries/better-stack/CHEMPZ87FLw"><img loading="lazy" src="https://i.ytimg.com/vi/CHEMPZ87FLw/hqdefault.jpg" alt=""><span class="video-title">Jack Dorsey&#x27;s New App Wants to Replace GitHub (buzz)</span><span class="video-date">2026-07-26</span></a>
 <a class="video-card" href="summaries/better-stack/6YRpXxbtc2c"><img loading="lazy" src="https://i.ytimg.com/vi/6YRpXxbtc2c/hqdefault.jpg" alt=""><span class="video-title">There&#x27;s a NEW Package Manager!? (Bun Alternative)</span><span class="video-date">2026-07-26</span></a>
 <a class="video-card" href="summaries/better-stack/3OqZHYNKc9A"><img loading="lazy" src="https://i.ytimg.com/vi/3OqZHYNKc9A/hqdefault.jpg" alt=""><span class="video-title">This Tiny Tool Fits a 744B AI Model on Normal Hardware (colibrì)</span><span class="video-date">2026-07-25</span></a>
@@ -243,6 +245,7 @@ Auto-generated summaries of subscribed channels. **339** videos summarized.
 ## IndyDevDan
 
 <div class="video-grid">
+<a class="video-card" href="summaries/indydevdan/qh4vLlit97I"><img loading="lazy" src="https://i.ytimg.com/vi/qh4vLlit97I/hqdefault.jpg" alt=""><span class="video-title">Is Anthropic STEALING Your Data? (While You PAY FOR IT)</span><span class="video-date">2026-07-27</span></a>
 <a class="video-card" href="summaries/indydevdan/AQl5Q-0l7FQ"><img loading="lazy" src="https://i.ytimg.com/vi/AQl5Q-0l7FQ/hqdefault.jpg" alt=""><span class="video-title">Engineers... STOP Picking GPT-5.6 Sol OR Claude Fable 5… FUSE THEM</span><span class="video-date">2026-07-20</span></a>
 </div>
 
@@ -351,6 +354,7 @@ Auto-generated summaries of subscribed channels. **339** videos summarized.
 ## OpenAI
 
 <div class="video-grid">
+<a class="video-card" href="summaries/openai/oXu6JGxW_YM"><img loading="lazy" src="https://i.ytimg.com/vi/oXu6JGxW_YM/hqdefault.jpg" alt=""><span class="video-title">Navigating AI Transformation in the Legal Industry | Jonathan Williams, Head of France, Legora</span><span class="video-date">2026-07-27</span></a>
 <a class="video-card" href="summaries/openai/jyuyY86GJnA"><img loading="lazy" src="https://i.ytimg.com/vi/jyuyY86GJnA/hqdefault.jpg" alt=""><span class="video-title">Build Hour: Valuemaxxing with GPT-5.6</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/openai/PB7DBemxl3E"><img loading="lazy" src="https://i.ytimg.com/vi/PB7DBemxl3E/hqdefault.jpg" alt=""><span class="video-title">Building at the pace of AI innovation | Grant Lee, Gamma</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/openai/t8Ej9aeW388"><img loading="lazy" src="https://i.ytimg.com/vi/t8Ej9aeW388/hqdefault.jpg" alt=""><span class="video-title">How IT Admins can manage ChatGPT Work at scale | OpenAI</span><span class="video-date">2026-07-23</span></a>

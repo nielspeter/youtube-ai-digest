@@ -4707,6 +4707,42 @@
       "url": "https://www.youtube.com/watch?v=ohswEFr4LVU",
       "channel_slug": "better-stack",
       "status": "short"
+    },
+    "oXu6JGxW_YM": {
+      "status": "done",
+      "title": "Navigating AI Transformation in the Legal Industry | Jonathan Williams, Head of France, Legora",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-27T12:37:15+00:00",
+      "url": "https://www.youtube.com/watch?v=oXu6JGxW_YM",
+      "generated": "2026-07-27T15:11:49+00:00"
+    },
+    "xFWhiWe91BE": {
+      "status": "done",
+      "title": "Microsoft Built a New Charting Language for AI Agents",
+      "channel": "Better Stack",
+      "channel_slug": "better-stack",
+      "published": "2026-07-27T12:00:20+00:00",
+      "url": "https://www.youtube.com/watch?v=xFWhiWe91BE",
+      "generated": "2026-07-27T15:12:47+00:00"
+    },
+    "qh4vLlit97I": {
+      "status": "done",
+      "title": "Is Anthropic STEALING Your Data? (While You PAY FOR IT)",
+      "channel": "IndyDevDan",
+      "channel_slug": "indydevdan",
+      "published": "2026-07-27T13:00:10+00:00",
+      "url": "https://www.youtube.com/watch?v=qh4vLlit97I",
+      "generated": "2026-07-27T15:09:55+00:00"
+    },
+    "4d3-Zrmf9Wo": {
+      "status": "done",
+      "title": "Simon Obstbaum & Rob Willoughby - Why evals are hard and how we're solving it - AI Native DevCon Jun",
+      "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
+      "published": "2026-07-27T11:34:56+00:00",
+      "url": "https://www.youtube.com/watch?v=4d3-Zrmf9Wo",
+      "generated": "2026-07-27T15:15:08+00:00"
     }
   }
 }

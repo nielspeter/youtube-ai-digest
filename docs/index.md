@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **343** videos summarized.
+Auto-generated summaries of subscribed channels. **344** videos summarized.
 
 ## AI Engineer
 
@@ -252,6 +252,7 @@ Auto-generated summaries of subscribed channels. **343** videos summarized.
 ## LangChain
 
 <div class="video-grid">
+<a class="video-card" href="summaries/langchain/s2mZ_vKNOfI"><img loading="lazy" src="https://i.ytimg.com/vi/s2mZ_vKNOfI/hqdefault.jpg" alt=""><span class="video-title">How Credit Genie Debugs Thousands of Agent Traces with LangSmith</span><span class="video-date">2026-07-27</span></a>
 <a class="video-card" href="summaries/langchain/U5PkKt_uJys"><img loading="lazy" src="https://i.ytimg.com/vi/U5PkKt_uJys/hqdefault.jpg" alt=""><span class="video-title">Inside the Agent Engine: A LangChain and Traversal Fireside Chat</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/langchain/lXZb21CfeIY"><img loading="lazy" src="https://i.ytimg.com/vi/lXZb21CfeIY/hqdefault.jpg" alt=""><span class="video-title">How Bridgewater Built Pat, The AI Pocket Analyst Tool | Interrupt 26</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/langchain/jPPiZ22DY3g"><img loading="lazy" src="https://i.ytimg.com/vi/jPPiZ22DY3g/hqdefault.jpg" alt=""><span class="video-title">The Art of Loop Engineering: How to Build Agents That Improve Over Time</span><span class="video-date">2026-07-23</span></a>

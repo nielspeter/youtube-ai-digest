@@ -4743,6 +4743,33 @@
       "published": "2026-07-27T11:34:56+00:00",
       "url": "https://www.youtube.com/watch?v=4d3-Zrmf9Wo",
       "generated": "2026-07-27T15:15:08+00:00"
+    },
+    "s2mZ_vKNOfI": {
+      "status": "done",
+      "title": "How Credit Genie Debugs Thousands of Agent Traces with LangSmith",
+      "channel": "LangChain",
+      "channel_slug": "langchain",
+      "published": "2026-07-27T16:19:47+00:00",
+      "url": "https://www.youtube.com/watch?v=s2mZ_vKNOfI",
+      "generated": "2026-07-27T17:52:34+00:00"
+    },
+    "qsuR0g4Gy_s": {
+      "video_id": "qsuR0g4Gy_s",
+      "title": "Engineers “cash in” on AI time savings",
+      "channel": "The Pragmatic Engineer",
+      "published": "2026-07-27T16:00:18+00:00",
+      "url": "https://www.youtube.com/watch?v=qsuR0g4Gy_s",
+      "channel_slug": "the-pragmatic-engineer",
+      "status": "short"
+    },
+    "bUtAGFXPc3A": {
+      "video_id": "bUtAGFXPc3A",
+      "title": "Harness Engineering: Building an AI Software Factory",
+      "channel": "AI Native Dev",
+      "published": "2026-07-27T15:00:06+00:00",
+      "url": "https://www.youtube.com/watch?v=bUtAGFXPc3A",
+      "channel_slug": "ai-native-dev",
+      "status": "blocked"
     }
   }
 }

@@ -4763,13 +4763,22 @@
       "status": "short"
     },
     "bUtAGFXPc3A": {
-      "video_id": "bUtAGFXPc3A",
+      "status": "done",
       "title": "Harness Engineering: Building an AI Software Factory",
       "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
       "published": "2026-07-27T15:00:06+00:00",
       "url": "https://www.youtube.com/watch?v=bUtAGFXPc3A",
-      "channel_slug": "ai-native-dev",
-      "status": "blocked"
+      "generated": "2026-07-27T19:50:35+00:00"
+    },
+    "UvzRETrrA7g": {
+      "video_id": "UvzRETrrA7g",
+      "title": "Not Every Bug Engine Finds Is Worth Fixing",
+      "channel": "LangChain",
+      "published": "2026-07-27T17:45:21+00:00",
+      "url": "https://www.youtube.com/watch?v=UvzRETrrA7g",
+      "channel_slug": "langchain",
+      "status": "short"
     }
   }
 }

@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **344** videos summarized.
+Auto-generated summaries of subscribed channels. **345** videos summarized.
 
 ## AI Engineer
 
@@ -118,6 +118,7 @@ Auto-generated summaries of subscribed channels. **344** videos summarized.
 ## AI Native Dev
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-native-dev/bUtAGFXPc3A"><img loading="lazy" src="https://i.ytimg.com/vi/bUtAGFXPc3A/hqdefault.jpg" alt=""><span class="video-title">Harness Engineering: Building an AI Software Factory</span><span class="video-date">2026-07-27</span></a>
 <a class="video-card" href="summaries/ai-native-dev/4d3-Zrmf9Wo"><img loading="lazy" src="https://i.ytimg.com/vi/4d3-Zrmf9Wo/hqdefault.jpg" alt=""><span class="video-title">Simon Obstbaum &amp; Rob Willoughby - Why evals are hard and how we&#x27;re solving it - AI Native DevCon Jun</span><span class="video-date">2026-07-27</span></a>
 <a class="video-card" href="summaries/ai-native-dev/KzhjnILSP0Y"><img loading="lazy" src="https://i.ytimg.com/vi/KzhjnILSP0Y/hqdefault.jpg" alt=""><span class="video-title">Tammuz Dubnov - When Our PM Started Writing Code: What Merge Rate Taught Us About AI Adoption - AI N</span><span class="video-date">2026-07-26</span></a>
 <a class="video-card" href="summaries/ai-native-dev/libNzUdL9eM"><img loading="lazy" src="https://i.ytimg.com/vi/libNzUdL9eM/hqdefault.jpg" alt=""><span class="video-title">Dave Farley - Vibe Coding - Is this really the best we can do? - AI Native DevCon June 2026</span><span class="video-date">2026-07-25</span></a>

@@ -4779,6 +4779,15 @@
       "url": "https://www.youtube.com/watch?v=UvzRETrrA7g",
       "channel_slug": "langchain",
       "status": "short"
+    },
+    "w9cCOUD-qDM": {
+      "status": "done",
+      "title": "AI can't READ this",
+      "channel": "Matthew Berman",
+      "channel_slug": "matthew-berman",
+      "published": "2026-07-27T21:17:57+00:00",
+      "url": "https://www.youtube.com/watch?v=w9cCOUD-qDM",
+      "generated": "2026-07-27T23:18:02+00:00"
     }
   }
 }

@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **345** videos summarized.
+Auto-generated summaries of subscribed channels. **346** videos summarized.
 
 ## AI Engineer
 
@@ -312,6 +312,7 @@ Auto-generated summaries of subscribed channels. **345** videos summarized.
 ## Matthew Berman
 
 <div class="video-grid">
+<a class="video-card" href="summaries/matthew-berman/w9cCOUD-qDM"><img loading="lazy" src="https://i.ytimg.com/vi/w9cCOUD-qDM/hqdefault.jpg" alt=""><span class="video-title">AI can&#x27;t READ this</span><span class="video-date">2026-07-27</span></a>
 <a class="video-card" href="summaries/matthew-berman/tHQ34j8_toI"><img loading="lazy" src="https://i.ytimg.com/vi/tHQ34j8_toI/hqdefault.jpg" alt=""><span class="video-title">Opus 5 is FINALLY here! (WOAH)</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/matthew-berman/1Q7CkLh9GwU"><img loading="lazy" src="https://i.ytimg.com/vi/1Q7CkLh9GwU/hqdefault.jpg" alt=""><span class="video-title">OPUS 5 CLICK NOW</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/matthew-berman/QNEo_tl-nhw"><img loading="lazy" src="https://i.ytimg.com/vi/QNEo_tl-nhw/hqdefault.jpg" alt=""><span class="video-title">Not all tokens are equal.</span><span class="video-date">2026-07-23</span></a>

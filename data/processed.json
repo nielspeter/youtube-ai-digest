@@ -4698,6 +4698,15 @@
       "url": "https://www.youtube.com/watch?v=cscQ0uSqkmA",
       "channel_slug": "better-stack",
       "status": "short"
+    },
+    "ohswEFr4LVU": {
+      "video_id": "ohswEFr4LVU",
+      "title": "This Tool Reverses Any GitHub Repo Back Into a Prompt",
+      "channel": "Better Stack",
+      "published": "2026-07-27T09:00:34+00:00",
+      "url": "https://www.youtube.com/watch?v=ohswEFr4LVU",
+      "channel_slug": "better-stack",
+      "status": "short"
     }
   }
 }

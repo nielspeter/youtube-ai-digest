@@ -4925,14 +4925,13 @@
       "generated": "2026-07-28T19:50:37+00:00"
     },
     "RVxym6mmIns": {
-      "video_id": "RVxym6mmIns",
+      "status": "done",
       "title": "How Forward Deployed Engineering is done at Cognition — Jia Wu",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-28T05:22:24+00:00",
       "url": "https://www.youtube.com/watch?v=RVxym6mmIns",
-      "channel_slug": "ai-engineer",
-      "status": "no_transcript",
-      "attempts": 1
+      "generated": "2026-07-28T21:19:03+00:00"
     },
     "l0FLhNqBOic": {
       "video_id": "l0FLhNqBOic",
@@ -4942,7 +4941,7 @@
       "url": "https://www.youtube.com/watch?v=l0FLhNqBOic",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 1
+      "attempts": 2
     },
     "wpOA-UXynoM": {
       "video_id": "wpOA-UXynoM",
@@ -4952,7 +4951,7 @@
       "url": "https://www.youtube.com/watch?v=wpOA-UXynoM",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 1
+      "attempts": 2
     }
   }
 }

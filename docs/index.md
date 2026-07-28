@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **358** videos summarized.
+Auto-generated summaries of subscribed channels. **359** videos summarized.
 
 ## AI Engineer
 
@@ -15,6 +15,7 @@ Auto-generated summaries of subscribed channels. **358** videos summarized.
 <a class="video-card" href="summaries/ai-engineer/1OMHGsUZiqA"><img loading="lazy" src="https://i.ytimg.com/vi/1OMHGsUZiqA/hqdefault.jpg" alt=""><span class="video-title">How Forward Deployed Engineering is done at Kepler — Vinoo Ganesh</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/ai-engineer/lyL5QhgIOxc"><img loading="lazy" src="https://i.ytimg.com/vi/lyL5QhgIOxc/hqdefault.jpg" alt=""><span class="video-title">Serving 2 Million Models Without Melting: Scaling the Hugging Face Hub — Arek Borucki, Hugging Face</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/ai-engineer/KwhgfwOSToQ"><img loading="lazy" src="https://i.ytimg.com/vi/KwhgfwOSToQ/hqdefault.jpg" alt=""><span class="video-title">Forward Deployed Engineering 101 — Kevin Bai, Anthropic</span><span class="video-date">2026-07-28</span></a>
+<a class="video-card" href="summaries/ai-engineer/RVxym6mmIns"><img loading="lazy" src="https://i.ytimg.com/vi/RVxym6mmIns/hqdefault.jpg" alt=""><span class="video-title">How Forward Deployed Engineering is done at Cognition — Jia Wu</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/ai-engineer/CgsWxRUY5Eo"><img loading="lazy" src="https://i.ytimg.com/vi/CgsWxRUY5Eo/hqdefault.jpg" alt=""><span class="video-title">AI Agents for Performance: Ship Faster, Pay Less — Rajat Shah, Netflix</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/ai-engineer/Yk87oUPVaxU"><img loading="lazy" src="https://i.ytimg.com/vi/Yk87oUPVaxU/hqdefault.jpg" alt=""><span class="video-title">DeepSWE: A Contamination-Resistant Coding Benchmark — James Shi, Datacurve</span><span class="video-date">2026-07-26</span></a>
 <a class="video-card" href="summaries/ai-engineer/ZyIoTOAbRfs"><img loading="lazy" src="https://i.ytimg.com/vi/ZyIoTOAbRfs/hqdefault.jpg" alt=""><span class="video-title">State of Data — Sean Cai, Independent / State of Data</span><span class="video-date">2026-07-26</span></a>

@@ -4788,6 +4788,24 @@
       "published": "2026-07-27T21:17:57+00:00",
       "url": "https://www.youtube.com/watch?v=w9cCOUD-qDM",
       "generated": "2026-07-27T23:18:02+00:00"
+    },
+    "CgsWxRUY5Eo": {
+      "status": "done",
+      "title": "AI Agents for Performance: Ship Faster, Pay Less — Rajat Shah, Netflix",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-28T00:59:04+00:00",
+      "url": "https://www.youtube.com/watch?v=CgsWxRUY5Eo",
+      "generated": "2026-07-28T10:44:07+00:00"
+    },
+    "NNPZ_s7AsBU": {
+      "video_id": "NNPZ_s7AsBU",
+      "title": "Zig's creator calls out Bun...",
+      "channel": "Better Stack",
+      "published": "2026-07-28T00:14:37+00:00",
+      "url": "https://www.youtube.com/watch?v=NNPZ_s7AsBU",
+      "channel_slug": "better-stack",
+      "status": "short"
     }
   }
 }

@@ -4,11 +4,12 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **346** videos summarized.
+Auto-generated summaries of subscribed channels. **347** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/CgsWxRUY5Eo"><img loading="lazy" src="https://i.ytimg.com/vi/CgsWxRUY5Eo/hqdefault.jpg" alt=""><span class="video-title">AI Agents for Performance: Ship Faster, Pay Less — Rajat Shah, Netflix</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/ai-engineer/Yk87oUPVaxU"><img loading="lazy" src="https://i.ytimg.com/vi/Yk87oUPVaxU/hqdefault.jpg" alt=""><span class="video-title">DeepSWE: A Contamination-Resistant Coding Benchmark — James Shi, Datacurve</span><span class="video-date">2026-07-26</span></a>
 <a class="video-card" href="summaries/ai-engineer/ZyIoTOAbRfs"><img loading="lazy" src="https://i.ytimg.com/vi/ZyIoTOAbRfs/hqdefault.jpg" alt=""><span class="video-title">State of Data — Sean Cai, Independent / State of Data</span><span class="video-date">2026-07-26</span></a>
 <a class="video-card" href="summaries/ai-engineer/O72p-rBb2bA"><img loading="lazy" src="https://i.ytimg.com/vi/O72p-rBb2bA/hqdefault.jpg" alt=""><span class="video-title">Evals-Driven Development for a Mental Health AI Coach — Akele Reed &amp; Dave Revere, SonderMind</span><span class="video-date">2026-07-25</span></a>

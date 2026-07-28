@@ -4934,24 +4934,41 @@
       "generated": "2026-07-28T21:19:03+00:00"
     },
     "l0FLhNqBOic": {
-      "video_id": "l0FLhNqBOic",
+      "status": "done",
       "title": "AI tools for Forward Deployed Engineering — Vasuman Moza, Varick Agents",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-28T05:22:13+00:00",
       "url": "https://www.youtube.com/watch?v=l0FLhNqBOic",
-      "channel_slug": "ai-engineer",
-      "status": "no_transcript",
-      "attempts": 2
+      "generated": "2026-07-28T23:14:38+00:00"
     },
     "wpOA-UXynoM": {
-      "video_id": "wpOA-UXynoM",
+      "status": "done",
       "title": "How Forward Deployed Engineering is done at Factory — Eno Reyes",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-28T05:21:42+00:00",
       "url": "https://www.youtube.com/watch?v=wpOA-UXynoM",
+      "generated": "2026-07-28T23:16:29+00:00"
+    },
+    "WeP9VUf1OoE": {
+      "status": "done",
+      "title": "Introducing gpt-transcribe and gpt-live-transcribe",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-28T21:49:18+00:00",
+      "url": "https://www.youtube.com/watch?v=WeP9VUf1OoE",
+      "generated": "2026-07-28T23:13:47+00:00"
+    },
+    "BInpv7lGp1o": {
+      "video_id": "BInpv7lGp1o",
+      "title": "Your Agent Didn't Fail. Your Harness Did. — Vinoth Govindarajan, OpenAI",
+      "channel": "AI Engineer",
+      "published": "2026-07-26T03:14:14+00:00",
+      "url": "https://www.youtube.com/watch?v=BInpv7lGp1o",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 2
+      "attempts": 1
     }
   }
 }

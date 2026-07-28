@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **359** videos summarized.
+Auto-generated summaries of subscribed channels. **362** videos summarized.
 
 ## AI Engineer
 
@@ -16,6 +16,8 @@ Auto-generated summaries of subscribed channels. **359** videos summarized.
 <a class="video-card" href="summaries/ai-engineer/lyL5QhgIOxc"><img loading="lazy" src="https://i.ytimg.com/vi/lyL5QhgIOxc/hqdefault.jpg" alt=""><span class="video-title">Serving 2 Million Models Without Melting: Scaling the Hugging Face Hub — Arek Borucki, Hugging Face</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/ai-engineer/KwhgfwOSToQ"><img loading="lazy" src="https://i.ytimg.com/vi/KwhgfwOSToQ/hqdefault.jpg" alt=""><span class="video-title">Forward Deployed Engineering 101 — Kevin Bai, Anthropic</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/ai-engineer/RVxym6mmIns"><img loading="lazy" src="https://i.ytimg.com/vi/RVxym6mmIns/hqdefault.jpg" alt=""><span class="video-title">How Forward Deployed Engineering is done at Cognition — Jia Wu</span><span class="video-date">2026-07-28</span></a>
+<a class="video-card" href="summaries/ai-engineer/l0FLhNqBOic"><img loading="lazy" src="https://i.ytimg.com/vi/l0FLhNqBOic/hqdefault.jpg" alt=""><span class="video-title">AI tools for Forward Deployed Engineering — Vasuman Moza, Varick Agents</span><span class="video-date">2026-07-28</span></a>
+<a class="video-card" href="summaries/ai-engineer/wpOA-UXynoM"><img loading="lazy" src="https://i.ytimg.com/vi/wpOA-UXynoM/hqdefault.jpg" alt=""><span class="video-title">How Forward Deployed Engineering is done at Factory — Eno Reyes</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/ai-engineer/CgsWxRUY5Eo"><img loading="lazy" src="https://i.ytimg.com/vi/CgsWxRUY5Eo/hqdefault.jpg" alt=""><span class="video-title">AI Agents for Performance: Ship Faster, Pay Less — Rajat Shah, Netflix</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/ai-engineer/Yk87oUPVaxU"><img loading="lazy" src="https://i.ytimg.com/vi/Yk87oUPVaxU/hqdefault.jpg" alt=""><span class="video-title">DeepSWE: A Contamination-Resistant Coding Benchmark — James Shi, Datacurve</span><span class="video-date">2026-07-26</span></a>
 <a class="video-card" href="summaries/ai-engineer/ZyIoTOAbRfs"><img loading="lazy" src="https://i.ytimg.com/vi/ZyIoTOAbRfs/hqdefault.jpg" alt=""><span class="video-title">State of Data — Sean Cai, Independent / State of Data</span><span class="video-date">2026-07-26</span></a>
@@ -366,6 +368,7 @@ Auto-generated summaries of subscribed channels. **359** videos summarized.
 ## OpenAI
 
 <div class="video-grid">
+<a class="video-card" href="summaries/openai/WeP9VUf1OoE"><img loading="lazy" src="https://i.ytimg.com/vi/WeP9VUf1OoE/hqdefault.jpg" alt=""><span class="video-title">Introducing gpt-transcribe and gpt-live-transcribe</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/openai/g-g6E-qtCjA"><img loading="lazy" src="https://i.ytimg.com/vi/g-g6E-qtCjA/hqdefault.jpg" alt=""><span class="video-title">ChatGPT Work for Sales: Revenue Intelligence for Sales Leaders</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/openai/5DbZAMGZ5oM"><img loading="lazy" src="https://i.ytimg.com/vi/5DbZAMGZ5oM/hqdefault.jpg" alt=""><span class="video-title">ChatGPT Work for Sales: Account Research and Customer Outreach</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/openai/hjXi7b01s2c"><img loading="lazy" src="https://i.ytimg.com/vi/hjXi7b01s2c/hqdefault.jpg" alt=""><span class="video-title">ChatGPT Work for Sales: Account Planning and Meeting Prep</span><span class="video-date">2026-07-28</span></a>

@@ -4905,6 +4905,54 @@
       "url": "https://www.youtube.com/watch?v=_fKCXHH6e74",
       "channel_slug": "matthew-berman",
       "status": "short"
+    },
+    "ITMXwI6QL6A": {
+      "status": "done",
+      "title": "How Forward Deployed Engineering is done at Ramp — Leo Mehr",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-28T19:00:06+00:00",
+      "url": "https://www.youtube.com/watch?v=ITMXwI6QL6A",
+      "generated": "2026-07-28T19:49:18+00:00"
+    },
+    "Byv311hdoHE": {
+      "status": "done",
+      "title": "The Dirty Secret of Forward Deployed Engineering — Natalie Meurer, Sierra",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-28T18:00:18+00:00",
+      "url": "https://www.youtube.com/watch?v=Byv311hdoHE",
+      "generated": "2026-07-28T19:50:37+00:00"
+    },
+    "RVxym6mmIns": {
+      "video_id": "RVxym6mmIns",
+      "title": "How Forward Deployed Engineering is done at Cognition — Jia Wu",
+      "channel": "AI Engineer",
+      "published": "2026-07-28T05:22:24+00:00",
+      "url": "https://www.youtube.com/watch?v=RVxym6mmIns",
+      "channel_slug": "ai-engineer",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "l0FLhNqBOic": {
+      "video_id": "l0FLhNqBOic",
+      "title": "AI tools for Forward Deployed Engineering — Vasuman Moza, Varick Agents",
+      "channel": "AI Engineer",
+      "published": "2026-07-28T05:22:13+00:00",
+      "url": "https://www.youtube.com/watch?v=l0FLhNqBOic",
+      "channel_slug": "ai-engineer",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "wpOA-UXynoM": {
+      "video_id": "wpOA-UXynoM",
+      "title": "How Forward Deployed Engineering is done at Factory — Eno Reyes",
+      "channel": "AI Engineer",
+      "published": "2026-07-28T05:21:42+00:00",
+      "url": "https://www.youtube.com/watch?v=wpOA-UXynoM",
+      "channel_slug": "ai-engineer",
+      "status": "no_transcript",
+      "attempts": 1
     }
   }
 }

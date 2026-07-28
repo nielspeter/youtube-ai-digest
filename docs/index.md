@@ -4,11 +4,13 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **356** videos summarized.
+Auto-generated summaries of subscribed channels. **358** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/ITMXwI6QL6A"><img loading="lazy" src="https://i.ytimg.com/vi/ITMXwI6QL6A/hqdefault.jpg" alt=""><span class="video-title">How Forward Deployed Engineering is done at Ramp — Leo Mehr</span><span class="video-date">2026-07-28</span></a>
+<a class="video-card" href="summaries/ai-engineer/Byv311hdoHE"><img loading="lazy" src="https://i.ytimg.com/vi/Byv311hdoHE/hqdefault.jpg" alt=""><span class="video-title">The Dirty Secret of Forward Deployed Engineering — Natalie Meurer, Sierra</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/ai-engineer/7wu2hsRfvV0"><img loading="lazy" src="https://i.ytimg.com/vi/7wu2hsRfvV0/hqdefault.jpg" alt=""><span class="video-title">How Forward Deployed Engineering is done at Decagon — Sunny Rekhi</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/ai-engineer/1OMHGsUZiqA"><img loading="lazy" src="https://i.ytimg.com/vi/1OMHGsUZiqA/hqdefault.jpg" alt=""><span class="video-title">How Forward Deployed Engineering is done at Kepler — Vinoo Ganesh</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/ai-engineer/lyL5QhgIOxc"><img loading="lazy" src="https://i.ytimg.com/vi/lyL5QhgIOxc/hqdefault.jpg" alt=""><span class="video-title">Serving 2 Million Models Without Melting: Scaling the Hugging Face Hub — Arek Borucki, Hugging Face</span><span class="video-date">2026-07-28</span></a>

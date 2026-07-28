@@ -4844,14 +4844,13 @@
       "generated": "2026-07-28T14:35:09+00:00"
     },
     "KwhgfwOSToQ": {
-      "video_id": "KwhgfwOSToQ",
+      "status": "done",
       "title": "Forward Deployed Engineering 101 — Kevin Bai, Anthropic",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-28T09:04:22+00:00",
       "url": "https://www.youtube.com/watch?v=KwhgfwOSToQ",
-      "channel_slug": "ai-engineer",
-      "status": "no_transcript",
-      "attempts": 1
+      "generated": "2026-07-28T17:47:32+00:00"
     },
     "JqhiRdEnP5w": {
       "video_id": "JqhiRdEnP5w",
@@ -4870,6 +4869,42 @@
       "published": "2026-07-28T12:00:22+00:00",
       "url": "https://www.youtube.com/watch?v=APYUJoQkVUo",
       "generated": "2026-07-28T14:37:32+00:00"
+    },
+    "g-g6E-qtCjA": {
+      "status": "done",
+      "title": "ChatGPT Work for Sales: Revenue Intelligence for Sales Leaders",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-28T14:25:26+00:00",
+      "url": "https://www.youtube.com/watch?v=g-g6E-qtCjA",
+      "generated": "2026-07-28T17:46:43+00:00"
+    },
+    "7wu2hsRfvV0": {
+      "status": "done",
+      "title": "How Forward Deployed Engineering is done at Decagon — Sunny Rekhi",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-28T17:00:35+00:00",
+      "url": "https://www.youtube.com/watch?v=7wu2hsRfvV0",
+      "generated": "2026-07-28T17:44:12+00:00"
+    },
+    "1OMHGsUZiqA": {
+      "status": "done",
+      "title": "How Forward Deployed Engineering is done at Kepler — Vinoo Ganesh",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-28T16:00:00+00:00",
+      "url": "https://www.youtube.com/watch?v=1OMHGsUZiqA",
+      "generated": "2026-07-28T17:45:22+00:00"
+    },
+    "_fKCXHH6e74": {
+      "video_id": "_fKCXHH6e74",
+      "title": "I Tested an AI Brain vs My Actual Brain",
+      "channel": "Matthew Berman",
+      "published": "2026-07-28T17:29:28+00:00",
+      "url": "https://www.youtube.com/watch?v=_fKCXHH6e74",
+      "channel_slug": "matthew-berman",
+      "status": "short"
     }
   }
 }

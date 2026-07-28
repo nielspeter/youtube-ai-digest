@@ -4,11 +4,12 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **347** videos summarized.
+Auto-generated summaries of subscribed channels. **352** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/lyL5QhgIOxc"><img loading="lazy" src="https://i.ytimg.com/vi/lyL5QhgIOxc/hqdefault.jpg" alt=""><span class="video-title">Serving 2 Million Models Without Melting: Scaling the Hugging Face Hub — Arek Borucki, Hugging Face</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/ai-engineer/CgsWxRUY5Eo"><img loading="lazy" src="https://i.ytimg.com/vi/CgsWxRUY5Eo/hqdefault.jpg" alt=""><span class="video-title">AI Agents for Performance: Ship Faster, Pay Less — Rajat Shah, Netflix</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/ai-engineer/Yk87oUPVaxU"><img loading="lazy" src="https://i.ytimg.com/vi/Yk87oUPVaxU/hqdefault.jpg" alt=""><span class="video-title">DeepSWE: A Contamination-Resistant Coding Benchmark — James Shi, Datacurve</span><span class="video-date">2026-07-26</span></a>
 <a class="video-card" href="summaries/ai-engineer/ZyIoTOAbRfs"><img loading="lazy" src="https://i.ytimg.com/vi/ZyIoTOAbRfs/hqdefault.jpg" alt=""><span class="video-title">State of Data — Sean Cai, Independent / State of Data</span><span class="video-date">2026-07-26</span></a>
@@ -119,6 +120,7 @@ Auto-generated summaries of subscribed channels. **347** videos summarized.
 ## AI Native Dev
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-native-dev/APYUJoQkVUo"><img loading="lazy" src="https://i.ytimg.com/vi/APYUJoQkVUo/hqdefault.jpg" alt=""><span class="video-title">Inside the Dark Factory: AI That Ships Code Solo</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/ai-native-dev/bUtAGFXPc3A"><img loading="lazy" src="https://i.ytimg.com/vi/bUtAGFXPc3A/hqdefault.jpg" alt=""><span class="video-title">Harness Engineering: Building an AI Software Factory</span><span class="video-date">2026-07-27</span></a>
 <a class="video-card" href="summaries/ai-native-dev/4d3-Zrmf9Wo"><img loading="lazy" src="https://i.ytimg.com/vi/4d3-Zrmf9Wo/hqdefault.jpg" alt=""><span class="video-title">Simon Obstbaum &amp; Rob Willoughby - Why evals are hard and how we&#x27;re solving it - AI Native DevCon Jun</span><span class="video-date">2026-07-27</span></a>
 <a class="video-card" href="summaries/ai-native-dev/KzhjnILSP0Y"><img loading="lazy" src="https://i.ytimg.com/vi/KzhjnILSP0Y/hqdefault.jpg" alt=""><span class="video-title">Tammuz Dubnov - When Our PM Started Writing Code: What Merge Rate Taught Us About AI Adoption - AI N</span><span class="video-date">2026-07-26</span></a>
@@ -358,6 +360,9 @@ Auto-generated summaries of subscribed channels. **347** videos summarized.
 ## OpenAI
 
 <div class="video-grid">
+<a class="video-card" href="summaries/openai/5DbZAMGZ5oM"><img loading="lazy" src="https://i.ytimg.com/vi/5DbZAMGZ5oM/hqdefault.jpg" alt=""><span class="video-title">ChatGPT Work for Sales: Account Research and Customer Outreach</span><span class="video-date">2026-07-28</span></a>
+<a class="video-card" href="summaries/openai/hjXi7b01s2c"><img loading="lazy" src="https://i.ytimg.com/vi/hjXi7b01s2c/hqdefault.jpg" alt=""><span class="video-title">ChatGPT Work for Sales: Account Planning and Meeting Prep</span><span class="video-date">2026-07-28</span></a>
+<a class="video-card" href="summaries/openai/q9TPE7pKkIo"><img loading="lazy" src="https://i.ytimg.com/vi/q9TPE7pKkIo/hqdefault.jpg" alt=""><span class="video-title">ChatGPT Work for Sales: Pipeline and Forecast Intelligence</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/openai/oXu6JGxW_YM"><img loading="lazy" src="https://i.ytimg.com/vi/oXu6JGxW_YM/hqdefault.jpg" alt=""><span class="video-title">Navigating AI Transformation in the Legal Industry | Jonathan Williams, Head of France, Legora</span><span class="video-date">2026-07-27</span></a>
 <a class="video-card" href="summaries/openai/jyuyY86GJnA"><img loading="lazy" src="https://i.ytimg.com/vi/jyuyY86GJnA/hqdefault.jpg" alt=""><span class="video-title">Build Hour: Valuemaxxing with GPT-5.6</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/openai/PB7DBemxl3E"><img loading="lazy" src="https://i.ytimg.com/vi/PB7DBemxl3E/hqdefault.jpg" alt=""><span class="video-title">Building at the pace of AI innovation | Grant Lee, Gamma</span><span class="video-date">2026-07-24</span></a>

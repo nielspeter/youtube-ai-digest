@@ -4806,6 +4806,70 @@
       "url": "https://www.youtube.com/watch?v=NNPZ_s7AsBU",
       "channel_slug": "better-stack",
       "status": "short"
+    },
+    "5DbZAMGZ5oM": {
+      "status": "done",
+      "title": "ChatGPT Work for Sales: Account Research and Customer Outreach",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-28T14:23:31+00:00",
+      "url": "https://www.youtube.com/watch?v=5DbZAMGZ5oM",
+      "generated": "2026-07-28T14:31:42+00:00"
+    },
+    "hjXi7b01s2c": {
+      "status": "done",
+      "title": "ChatGPT Work for Sales: Account Planning and Meeting Prep",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-28T14:20:18+00:00",
+      "url": "https://www.youtube.com/watch?v=hjXi7b01s2c",
+      "generated": "2026-07-28T14:32:53+00:00"
+    },
+    "q9TPE7pKkIo": {
+      "status": "done",
+      "title": "ChatGPT Work for Sales: Pipeline and Forecast Intelligence",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-28T14:16:53+00:00",
+      "url": "https://www.youtube.com/watch?v=q9TPE7pKkIo",
+      "generated": "2026-07-28T14:34:08+00:00"
+    },
+    "lyL5QhgIOxc": {
+      "status": "done",
+      "title": "Serving 2 Million Models Without Melting: Scaling the Hugging Face Hub — Arek Borucki, Hugging Face",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-28T13:41:11+00:00",
+      "url": "https://www.youtube.com/watch?v=lyL5QhgIOxc",
+      "generated": "2026-07-28T14:35:09+00:00"
+    },
+    "KwhgfwOSToQ": {
+      "video_id": "KwhgfwOSToQ",
+      "title": "Forward Deployed Engineering 101 — Kevin Bai, Anthropic",
+      "channel": "AI Engineer",
+      "published": "2026-07-28T09:04:22+00:00",
+      "url": "https://www.youtube.com/watch?v=KwhgfwOSToQ",
+      "channel_slug": "ai-engineer",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "JqhiRdEnP5w": {
+      "video_id": "JqhiRdEnP5w",
+      "title": "Inside the Dark Factory: AI That Ships Code Solo",
+      "channel": "AI Native Dev",
+      "published": "2026-07-28T13:00:22+00:00",
+      "url": "https://www.youtube.com/watch?v=JqhiRdEnP5w",
+      "channel_slug": "ai-native-dev",
+      "status": "short"
+    },
+    "APYUJoQkVUo": {
+      "status": "done",
+      "title": "Inside the Dark Factory: AI That Ships Code Solo",
+      "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
+      "published": "2026-07-28T12:00:22+00:00",
+      "url": "https://www.youtube.com/watch?v=APYUJoQkVUo",
+      "generated": "2026-07-28T14:37:32+00:00"
     }
   }
 }

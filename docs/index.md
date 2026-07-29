@@ -4,15 +4,18 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **381** videos summarized.
+Auto-generated summaries of subscribed channels. **385** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
 <a class="video-card" href="summaries/ai-engineer/YnNF55QV0zs"><img loading="lazy" src="https://i.ytimg.com/vi/YnNF55QV0zs/hqdefault.jpg" alt=""><span class="video-title">Persona Engineering: A Field Guide to AI Synthetic Personas — Ishan Anand, InsightSciences.ai</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/ai-engineer/kiqubc5b5Yo"><img loading="lazy" src="https://i.ytimg.com/vi/kiqubc5b5Yo/hqdefault.jpg" alt=""><span class="video-title">Morgan Stanley&#x27;s ALPHALAB: Multi-Agent Research Across Optimization Domains — Brendan Rappazzo</span><span class="video-date">2026-07-29</span></a>
+<a class="video-card" href="summaries/ai-engineer/Tt2kX2sgQio"><img loading="lazy" src="https://i.ytimg.com/vi/Tt2kX2sgQio/hqdefault.jpg" alt=""><span class="video-title">How Kepler Built Verifiable AI for Financial Services — Vinoo Ganesh</span><span class="video-date">2026-07-29</span></a>
+<a class="video-card" href="summaries/ai-engineer/s67bE2Ur3bY"><img loading="lazy" src="https://i.ytimg.com/vi/s67bE2Ur3bY/hqdefault.jpg" alt=""><span class="video-title">Wearing the Agent: From Group Chats to Glasses — Sai Krishna Rallabandi, Fidelity Investments</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/ai-engineer/7jjudsEhBtM"><img loading="lazy" src="https://i.ytimg.com/vi/7jjudsEhBtM/hqdefault.jpg" alt=""><span class="video-title">Skills are new features: Building Skill-Centric Harness — Yogendra Miraje, FactSet</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/ai-engineer/KMR_RBoCa4M"><img loading="lazy" src="https://i.ytimg.com/vi/KMR_RBoCa4M/hqdefault.jpg" alt=""><span class="video-title">SimulationMaxxing: How Nubank ships agents 20× faster with simulations — Shreya Rajpal, Snowglobe</span><span class="video-date">2026-07-29</span></a>
+<a class="video-card" href="summaries/ai-engineer/iKQ78wyJEXU"><img loading="lazy" src="https://i.ytimg.com/vi/iKQ78wyJEXU/hqdefault.jpg" alt=""><span class="video-title">We Vetted 2000 AI Skills Before They Reached Developers — Lucas Palma, Nubank</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/ai-engineer/Owb8g3yDyzo"><img loading="lazy" src="https://i.ytimg.com/vi/Owb8g3yDyzo/hqdefault.jpg" alt=""><span class="video-title">Why Off-the-Shelf AI Doesn&#x27;t Understand Money — Udi Menkes, Intuit</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/ai-engineer/ITMXwI6QL6A"><img loading="lazy" src="https://i.ytimg.com/vi/ITMXwI6QL6A/hqdefault.jpg" alt=""><span class="video-title">How Forward Deployed Engineering is done at Ramp — Leo Mehr</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/ai-engineer/Byv311hdoHE"><img loading="lazy" src="https://i.ytimg.com/vi/Byv311hdoHE/hqdefault.jpg" alt=""><span class="video-title">The Dirty Secret of Forward Deployed Engineering — Natalie Meurer, Sierra</span><span class="video-date">2026-07-28</span></a>
@@ -384,6 +387,7 @@ Auto-generated summaries of subscribed channels. **381** videos summarized.
 ## OpenAI
 
 <div class="video-grid">
+<a class="video-card" href="summaries/openai/_Gd9yzAc-WI"><img loading="lazy" src="https://i.ytimg.com/vi/_Gd9yzAc-WI/hqdefault.jpg" alt=""><span class="video-title">Using Voice in ChatGPT Work</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/openai/MLehRytu9Zo"><img loading="lazy" src="https://i.ytimg.com/vi/MLehRytu9Zo/hqdefault.jpg" alt=""><span class="video-title">We&#x27;re giving 100,000 academic researchers free access to our frontier models</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/openai/WeP9VUf1OoE"><img loading="lazy" src="https://i.ytimg.com/vi/WeP9VUf1OoE/hqdefault.jpg" alt=""><span class="video-title">Introducing gpt-transcribe and gpt-live-transcribe</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/openai/g-g6E-qtCjA"><img loading="lazy" src="https://i.ytimg.com/vi/g-g6E-qtCjA/hqdefault.jpg" alt=""><span class="video-title">ChatGPT Work for Sales: Revenue Intelligence for Sales Leaders</span><span class="video-date">2026-07-28</span></a>

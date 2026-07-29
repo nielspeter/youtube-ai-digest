@@ -5026,27 +5026,25 @@
       "url": "https://www.youtube.com/watch?v=z0sh8HyTrDo",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 3
+      "attempts": 4
     },
     "Tt2kX2sgQio": {
-      "video_id": "Tt2kX2sgQio",
+      "status": "done",
       "title": "How Kepler Built Verifiable AI for Financial Services — Vinoo Ganesh",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-29T06:16:03+00:00",
       "url": "https://www.youtube.com/watch?v=Tt2kX2sgQio",
-      "channel_slug": "ai-engineer",
-      "attempts": 2,
-      "status": "blocked"
+      "generated": "2026-07-29T23:12:56+00:00"
     },
     "s67bE2Ur3bY": {
-      "video_id": "s67bE2Ur3bY",
+      "status": "done",
       "title": "Wearing the Agent: From Group Chats to Glasses — Sai Krishna Rallabandi, Fidelity Investments",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-29T06:15:59+00:00",
       "url": "https://www.youtube.com/watch?v=s67bE2Ur3bY",
-      "channel_slug": "ai-engineer",
-      "status": "no_transcript",
-      "attempts": 3
+      "generated": "2026-07-29T23:14:24+00:00"
     },
     "7jjudsEhBtM": {
       "status": "done",
@@ -5065,7 +5063,7 @@
       "url": "https://www.youtube.com/watch?v=o6U_2vd967Y",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 3
+      "attempts": 4
     },
     "KMR_RBoCa4M": {
       "status": "done",
@@ -5077,14 +5075,13 @@
       "generated": "2026-07-29T19:45:45+00:00"
     },
     "iKQ78wyJEXU": {
-      "video_id": "iKQ78wyJEXU",
+      "status": "done",
       "title": "We Vetted 2000 AI Skills Before They Reached Developers — Lucas Palma, Nubank",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-29T06:15:45+00:00",
       "url": "https://www.youtube.com/watch?v=iKQ78wyJEXU",
-      "channel_slug": "ai-engineer",
-      "status": "no_transcript",
-      "attempts": 3
+      "generated": "2026-07-29T23:16:17+00:00"
     },
     "Owb8g3yDyzo": {
       "status": "done",
@@ -5103,7 +5100,7 @@
       "url": "https://www.youtube.com/watch?v=tJFjeMBKbIY",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 1
+      "attempts": 2
     },
     "KSkcgIYQy0U": {
       "status": "done",
@@ -5185,6 +5182,15 @@
       "published": "2026-07-29T20:00:05+00:00",
       "url": "https://www.youtube.com/watch?v=kl42N7pI7lM",
       "generated": "2026-07-29T21:12:56+00:00"
+    },
+    "_Gd9yzAc-WI": {
+      "status": "done",
+      "title": "Using Voice in ChatGPT Work",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-29T22:37:43+00:00",
+      "url": "https://www.youtube.com/watch?v=_Gd9yzAc-WI",
+      "generated": "2026-07-29T23:11:07+00:00"
     }
   }
 }

@@ -5026,7 +5026,7 @@
       "url": "https://www.youtube.com/watch?v=z0sh8HyTrDo",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 1
+      "attempts": 2
     },
     "Tt2kX2sgQio": {
       "video_id": "Tt2kX2sgQio",
@@ -5036,7 +5036,7 @@
       "url": "https://www.youtube.com/watch?v=Tt2kX2sgQio",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 1
+      "attempts": 2
     },
     "s67bE2Ur3bY": {
       "video_id": "s67bE2Ur3bY",
@@ -5046,17 +5046,16 @@
       "url": "https://www.youtube.com/watch?v=s67bE2Ur3bY",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 1
+      "attempts": 2
     },
     "7jjudsEhBtM": {
-      "video_id": "7jjudsEhBtM",
+      "status": "done",
       "title": "Skills are new features: Building Skill-Centric Harness — Yogendra Miraje, FactSet",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-29T06:15:55+00:00",
       "url": "https://www.youtube.com/watch?v=7jjudsEhBtM",
-      "channel_slug": "ai-engineer",
-      "status": "no_transcript",
-      "attempts": 1
+      "generated": "2026-07-29T19:44:41+00:00"
     },
     "o6U_2vd967Y": {
       "video_id": "o6U_2vd967Y",
@@ -5066,17 +5065,16 @@
       "url": "https://www.youtube.com/watch?v=o6U_2vd967Y",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 1
+      "attempts": 2
     },
     "KMR_RBoCa4M": {
-      "video_id": "KMR_RBoCa4M",
+      "status": "done",
       "title": "SimulationMaxxing: How Nubank ships agents 20× faster with simulations — Shreya Rajpal, Snowglobe",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-29T06:15:48+00:00",
       "url": "https://www.youtube.com/watch?v=KMR_RBoCa4M",
-      "channel_slug": "ai-engineer",
-      "status": "no_transcript",
-      "attempts": 1
+      "generated": "2026-07-29T19:45:45+00:00"
     },
     "iKQ78wyJEXU": {
       "video_id": "iKQ78wyJEXU",
@@ -5086,7 +5084,7 @@
       "url": "https://www.youtube.com/watch?v=iKQ78wyJEXU",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 1
+      "attempts": 2
     },
     "Owb8g3yDyzo": {
       "video_id": "Owb8g3yDyzo",
@@ -5121,6 +5119,51 @@
       "channel": "AI Native Dev",
       "published": "2026-07-29T16:00:05+00:00",
       "url": "https://www.youtube.com/watch?v=Sf-zf97iX_U",
+      "channel_slug": "ai-native-dev",
+      "status": "short"
+    },
+    "aKwILNLFH_Q": {
+      "video_id": "aKwILNLFH_Q",
+      "title": "Contributing isn't the hard part anymore. Being worth reviewing is.",
+      "channel": "Beyond Coding",
+      "published": "2026-07-29T18:59:51+00:00",
+      "url": "https://www.youtube.com/watch?v=aKwILNLFH_Q",
+      "channel_slug": "beyond-coding",
+      "status": "short"
+    },
+    "MLehRytu9Zo": {
+      "status": "done",
+      "title": "We're giving 100,000 academic researchers free access to our frontier models",
+      "channel": "OpenAI",
+      "channel_slug": "openai",
+      "published": "2026-07-29T17:23:02+00:00",
+      "url": "https://www.youtube.com/watch?v=MLehRytu9Zo",
+      "generated": "2026-07-29T19:43:52+00:00"
+    },
+    "N80TzPCHbNg": {
+      "status": "done",
+      "title": "This letter could change EVERYTHING",
+      "channel": "Matthew Berman",
+      "channel_slug": "matthew-berman",
+      "published": "2026-07-29T17:52:41+00:00",
+      "url": "https://www.youtube.com/watch?v=N80TzPCHbNg",
+      "generated": "2026-07-29T19:41:10+00:00"
+    },
+    "Jwz0k8ZK9TE": {
+      "status": "done",
+      "title": "We Scored Oracle's Database Skill Live: 95% Isn't Enough",
+      "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
+      "published": "2026-07-29T18:30:20+00:00",
+      "url": "https://www.youtube.com/watch?v=Jwz0k8ZK9TE",
+      "generated": "2026-07-29T19:39:39+00:00"
+    },
+    "hVUuUebEY8M": {
+      "video_id": "hVUuUebEY8M",
+      "title": "New Skills Clinic: Oracle's Database Skill, Reviewed",
+      "channel": "AI Native Dev",
+      "published": "2026-07-29T18:00:33+00:00",
+      "url": "https://www.youtube.com/watch?v=hVUuUebEY8M",
       "channel_slug": "ai-native-dev",
       "status": "short"
     }

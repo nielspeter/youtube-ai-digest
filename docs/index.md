@@ -4,12 +4,14 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **373** videos summarized.
+Auto-generated summaries of subscribed channels. **378** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
 <a class="video-card" href="summaries/ai-engineer/kiqubc5b5Yo"><img loading="lazy" src="https://i.ytimg.com/vi/kiqubc5b5Yo/hqdefault.jpg" alt=""><span class="video-title">Morgan Stanley&#x27;s ALPHALAB: Multi-Agent Research Across Optimization Domains — Brendan Rappazzo</span><span class="video-date">2026-07-29</span></a>
+<a class="video-card" href="summaries/ai-engineer/7jjudsEhBtM"><img loading="lazy" src="https://i.ytimg.com/vi/7jjudsEhBtM/hqdefault.jpg" alt=""><span class="video-title">Skills are new features: Building Skill-Centric Harness — Yogendra Miraje, FactSet</span><span class="video-date">2026-07-29</span></a>
+<a class="video-card" href="summaries/ai-engineer/KMR_RBoCa4M"><img loading="lazy" src="https://i.ytimg.com/vi/KMR_RBoCa4M/hqdefault.jpg" alt=""><span class="video-title">SimulationMaxxing: How Nubank ships agents 20× faster with simulations — Shreya Rajpal, Snowglobe</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/ai-engineer/ITMXwI6QL6A"><img loading="lazy" src="https://i.ytimg.com/vi/ITMXwI6QL6A/hqdefault.jpg" alt=""><span class="video-title">How Forward Deployed Engineering is done at Ramp — Leo Mehr</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/ai-engineer/Byv311hdoHE"><img loading="lazy" src="https://i.ytimg.com/vi/Byv311hdoHE/hqdefault.jpg" alt=""><span class="video-title">The Dirty Secret of Forward Deployed Engineering — Natalie Meurer, Sierra</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/ai-engineer/7wu2hsRfvV0"><img loading="lazy" src="https://i.ytimg.com/vi/7wu2hsRfvV0/hqdefault.jpg" alt=""><span class="video-title">How Forward Deployed Engineering is done at Decagon — Sunny Rekhi</span><span class="video-date">2026-07-28</span></a>
@@ -130,6 +132,7 @@ Auto-generated summaries of subscribed channels. **373** videos summarized.
 ## AI Native Dev
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-native-dev/Jwz0k8ZK9TE"><img loading="lazy" src="https://i.ytimg.com/vi/Jwz0k8ZK9TE/hqdefault.jpg" alt=""><span class="video-title">We Scored Oracle&#x27;s Database Skill Live: 95% Isn&#x27;t Enough</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/ai-native-dev/1grkxo4cyKY"><img loading="lazy" src="https://i.ytimg.com/vi/1grkxo4cyKY/hqdefault.jpg" alt=""><span class="video-title">Stephane Jourdan, Simon Rohrer &amp; Pini Reznik - From Pipelines to Prompts: Surviving the Shift to AI</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/ai-native-dev/APYUJoQkVUo"><img loading="lazy" src="https://i.ytimg.com/vi/APYUJoQkVUo/hqdefault.jpg" alt=""><span class="video-title">Inside the Dark Factory: AI That Ships Code Solo</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/ai-native-dev/bUtAGFXPc3A"><img loading="lazy" src="https://i.ytimg.com/vi/bUtAGFXPc3A/hqdefault.jpg" alt=""><span class="video-title">Harness Engineering: Building an AI Software Factory</span><span class="video-date">2026-07-27</span></a>
@@ -332,6 +335,7 @@ Auto-generated summaries of subscribed channels. **373** videos summarized.
 ## Matthew Berman
 
 <div class="video-grid">
+<a class="video-card" href="summaries/matthew-berman/N80TzPCHbNg"><img loading="lazy" src="https://i.ytimg.com/vi/N80TzPCHbNg/hqdefault.jpg" alt=""><span class="video-title">This letter could change EVERYTHING</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/matthew-berman/w9cCOUD-qDM"><img loading="lazy" src="https://i.ytimg.com/vi/w9cCOUD-qDM/hqdefault.jpg" alt=""><span class="video-title">AI can&#x27;t READ this</span><span class="video-date">2026-07-27</span></a>
 <a class="video-card" href="summaries/matthew-berman/tHQ34j8_toI"><img loading="lazy" src="https://i.ytimg.com/vi/tHQ34j8_toI/hqdefault.jpg" alt=""><span class="video-title">Opus 5 is FINALLY here! (WOAH)</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/matthew-berman/1Q7CkLh9GwU"><img loading="lazy" src="https://i.ytimg.com/vi/1Q7CkLh9GwU/hqdefault.jpg" alt=""><span class="video-title">OPUS 5 CLICK NOW</span><span class="video-date">2026-07-24</span></a>
@@ -377,6 +381,7 @@ Auto-generated summaries of subscribed channels. **373** videos summarized.
 ## OpenAI
 
 <div class="video-grid">
+<a class="video-card" href="summaries/openai/MLehRytu9Zo"><img loading="lazy" src="https://i.ytimg.com/vi/MLehRytu9Zo/hqdefault.jpg" alt=""><span class="video-title">We&#x27;re giving 100,000 academic researchers free access to our frontier models</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/openai/WeP9VUf1OoE"><img loading="lazy" src="https://i.ytimg.com/vi/WeP9VUf1OoE/hqdefault.jpg" alt=""><span class="video-title">Introducing gpt-transcribe and gpt-live-transcribe</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/openai/g-g6E-qtCjA"><img loading="lazy" src="https://i.ytimg.com/vi/g-g6E-qtCjA/hqdefault.jpg" alt=""><span class="video-title">ChatGPT Work for Sales: Revenue Intelligence for Sales Leaders</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/openai/5DbZAMGZ5oM"><img loading="lazy" src="https://i.ytimg.com/vi/5DbZAMGZ5oM/hqdefault.jpg" alt=""><span class="video-title">ChatGPT Work for Sales: Account Research and Customer Outreach</span><span class="video-date">2026-07-28</span></a>

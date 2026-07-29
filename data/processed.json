@@ -4990,6 +4990,139 @@
       "published": "2026-07-29T12:00:34+00:00",
       "url": "https://www.youtube.com/watch?v=IwzVzvDw68w",
       "generated": "2026-07-29T14:29:20+00:00"
+    },
+    "QtPeNXoW7i0": {
+      "video_id": "QtPeNXoW7i0",
+      "title": "Deep Agents in 1 sentence",
+      "channel": "LangChain",
+      "published": "2026-07-29T17:15:25+00:00",
+      "url": "https://www.youtube.com/watch?v=QtPeNXoW7i0",
+      "channel_slug": "langchain",
+      "status": "short"
+    },
+    "MS8tI9nMjeQ": {
+      "status": "done",
+      "title": "Autonomous Agent Improvement with LangSmith Engine | New LangChain Academy Course",
+      "channel": "LangChain",
+      "channel_slug": "langchain",
+      "published": "2026-07-29T15:00:29+00:00",
+      "url": "https://www.youtube.com/watch?v=MS8tI9nMjeQ",
+      "generated": "2026-07-29T17:39:08+00:00"
+    },
+    "kiqubc5b5Yo": {
+      "status": "done",
+      "title": "Morgan Stanley's ALPHALAB: Multi-Agent Research Across Optimization Domains — Brendan Rappazzo",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-29T17:06:26+00:00",
+      "url": "https://www.youtube.com/watch?v=kiqubc5b5Yo",
+      "generated": "2026-07-29T17:33:54+00:00"
+    },
+    "z0sh8HyTrDo": {
+      "video_id": "z0sh8HyTrDo",
+      "title": "Your Finance Agent's Bottleneck Is You — Ramana Siddanth Emani, Auditoria AI",
+      "channel": "AI Engineer",
+      "published": "2026-07-29T06:16:07+00:00",
+      "url": "https://www.youtube.com/watch?v=z0sh8HyTrDo",
+      "channel_slug": "ai-engineer",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "Tt2kX2sgQio": {
+      "video_id": "Tt2kX2sgQio",
+      "title": "How Kepler Built Verifiable AI for Financial Services — Vinoo Ganesh",
+      "channel": "AI Engineer",
+      "published": "2026-07-29T06:16:03+00:00",
+      "url": "https://www.youtube.com/watch?v=Tt2kX2sgQio",
+      "channel_slug": "ai-engineer",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "s67bE2Ur3bY": {
+      "video_id": "s67bE2Ur3bY",
+      "title": "Wearing the Agent: From Group Chats to Glasses — Sai Krishna Rallabandi, Fidelity Investments",
+      "channel": "AI Engineer",
+      "published": "2026-07-29T06:15:59+00:00",
+      "url": "https://www.youtube.com/watch?v=s67bE2Ur3bY",
+      "channel_slug": "ai-engineer",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "7jjudsEhBtM": {
+      "video_id": "7jjudsEhBtM",
+      "title": "Skills are new features: Building Skill-Centric Harness — Yogendra Miraje, FactSet",
+      "channel": "AI Engineer",
+      "published": "2026-07-29T06:15:55+00:00",
+      "url": "https://www.youtube.com/watch?v=7jjudsEhBtM",
+      "channel_slug": "ai-engineer",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "o6U_2vd967Y": {
+      "video_id": "o6U_2vd967Y",
+      "title": "Let's integrate AI Agents in Event-Sourced Systems — Divakar Kumar, FlyersSoft",
+      "channel": "AI Engineer",
+      "published": "2026-07-29T06:15:50+00:00",
+      "url": "https://www.youtube.com/watch?v=o6U_2vd967Y",
+      "channel_slug": "ai-engineer",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "KMR_RBoCa4M": {
+      "video_id": "KMR_RBoCa4M",
+      "title": "SimulationMaxxing: How Nubank ships agents 20× faster with simulations — Shreya Rajpal, Snowglobe",
+      "channel": "AI Engineer",
+      "published": "2026-07-29T06:15:48+00:00",
+      "url": "https://www.youtube.com/watch?v=KMR_RBoCa4M",
+      "channel_slug": "ai-engineer",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "iKQ78wyJEXU": {
+      "video_id": "iKQ78wyJEXU",
+      "title": "We Vetted 2000 AI Skills Before They Reached Developers — Lucas Palma, Nubank",
+      "channel": "AI Engineer",
+      "published": "2026-07-29T06:15:45+00:00",
+      "url": "https://www.youtube.com/watch?v=iKQ78wyJEXU",
+      "channel_slug": "ai-engineer",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "Owb8g3yDyzo": {
+      "video_id": "Owb8g3yDyzo",
+      "title": "Why Off-the-Shelf AI Doesn't Understand Money — Udi Menkes, Intuit",
+      "channel": "AI Engineer",
+      "published": "2026-07-29T06:15:43+00:00",
+      "url": "https://www.youtube.com/watch?v=Owb8g3yDyzo",
+      "channel_slug": "ai-engineer",
+      "status": "pending"
+    },
+    "tJFjeMBKbIY": {
+      "video_id": "tJFjeMBKbIY",
+      "title": "Build for the Memo, Not the Demo — Shawn Chan, China Resources Holdings",
+      "channel": "AI Engineer",
+      "published": "2026-07-29T06:15:32+00:00",
+      "url": "https://www.youtube.com/watch?v=tJFjeMBKbIY",
+      "channel_slug": "ai-engineer",
+      "status": "pending"
+    },
+    "KSkcgIYQy0U": {
+      "status": "done",
+      "title": "Formal methods with Hillel Wayne",
+      "channel": "The Pragmatic Engineer",
+      "channel_slug": "the-pragmatic-engineer",
+      "published": "2026-07-29T16:19:49+00:00",
+      "url": "https://www.youtube.com/watch?v=KSkcgIYQy0U",
+      "generated": "2026-07-29T17:36:02+00:00"
+    },
+    "Sf-zf97iX_U": {
+      "video_id": "Sf-zf97iX_U",
+      "title": "Context Beats the Model",
+      "channel": "AI Native Dev",
+      "published": "2026-07-29T16:00:05+00:00",
+      "url": "https://www.youtube.com/watch?v=Sf-zf97iX_U",
+      "channel_slug": "ai-native-dev",
+      "status": "short"
     }
   }
 }

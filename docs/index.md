@@ -4,11 +4,12 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **370** videos summarized.
+Auto-generated summaries of subscribed channels. **373** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/kiqubc5b5Yo"><img loading="lazy" src="https://i.ytimg.com/vi/kiqubc5b5Yo/hqdefault.jpg" alt=""><span class="video-title">Morgan Stanley&#x27;s ALPHALAB: Multi-Agent Research Across Optimization Domains — Brendan Rappazzo</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/ai-engineer/ITMXwI6QL6A"><img loading="lazy" src="https://i.ytimg.com/vi/ITMXwI6QL6A/hqdefault.jpg" alt=""><span class="video-title">How Forward Deployed Engineering is done at Ramp — Leo Mehr</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/ai-engineer/Byv311hdoHE"><img loading="lazy" src="https://i.ytimg.com/vi/Byv311hdoHE/hqdefault.jpg" alt=""><span class="video-title">The Dirty Secret of Forward Deployed Engineering — Natalie Meurer, Sierra</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/ai-engineer/7wu2hsRfvV0"><img loading="lazy" src="https://i.ytimg.com/vi/7wu2hsRfvV0/hqdefault.jpg" alt=""><span class="video-title">How Forward Deployed Engineering is done at Decagon — Sunny Rekhi</span><span class="video-date">2026-07-28</span></a>
@@ -271,6 +272,7 @@ Auto-generated summaries of subscribed channels. **370** videos summarized.
 ## LangChain
 
 <div class="video-grid">
+<a class="video-card" href="summaries/langchain/MS8tI9nMjeQ"><img loading="lazy" src="https://i.ytimg.com/vi/MS8tI9nMjeQ/hqdefault.jpg" alt=""><span class="video-title">Autonomous Agent Improvement with LangSmith Engine | New LangChain Academy Course</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/langchain/s2mZ_vKNOfI"><img loading="lazy" src="https://i.ytimg.com/vi/s2mZ_vKNOfI/hqdefault.jpg" alt=""><span class="video-title">How Credit Genie Debugs Thousands of Agent Traces with LangSmith</span><span class="video-date">2026-07-27</span></a>
 <a class="video-card" href="summaries/langchain/U5PkKt_uJys"><img loading="lazy" src="https://i.ytimg.com/vi/U5PkKt_uJys/hqdefault.jpg" alt=""><span class="video-title">Inside the Agent Engine: A LangChain and Traversal Fireside Chat</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/langchain/lXZb21CfeIY"><img loading="lazy" src="https://i.ytimg.com/vi/lXZb21CfeIY/hqdefault.jpg" alt=""><span class="video-title">How Bridgewater Built Pat, The AI Pocket Analyst Tool | Interrupt 26</span><span class="video-date">2026-07-24</span></a>
@@ -449,6 +451,7 @@ Auto-generated summaries of subscribed channels. **370** videos summarized.
 ## The Pragmatic Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/the-pragmatic-engineer/KSkcgIYQy0U"><img loading="lazy" src="https://i.ytimg.com/vi/KSkcgIYQy0U/hqdefault.jpg" alt=""><span class="video-title">Formal methods with Hillel Wayne</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/the-pragmatic-engineer/h8TBLKyo7Rs"><img loading="lazy" src="https://i.ytimg.com/vi/h8TBLKyo7Rs/hqdefault.jpg" alt=""><span class="video-title">From &quot;napkin math&quot; to turbpopuffer</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/the-pragmatic-engineer/Usufn8IQJgw"><img loading="lazy" src="https://i.ytimg.com/vi/Usufn8IQJgw/hqdefault.jpg" alt=""><span class="video-title">Context engineering with Dex Horthy</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/the-pragmatic-engineer/4MVFQ9HNFjk"><img loading="lazy" src="https://i.ytimg.com/vi/4MVFQ9HNFjk/hqdefault.jpg" alt=""><span class="video-title">Should you jump jobs or stay put, in this market?</span><span class="video-date">2026-07-15</span></a>

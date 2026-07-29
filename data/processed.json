@@ -667,13 +667,13 @@
       "generated": "2026-07-13T13:48:00+00:00"
     },
     "nvW-dTgHAHg": {
-      "video_id": "nvW-dTgHAHg",
+      "status": "done",
       "title": "Live AI Q&A + Crushing it in Chess at the Same Time - Come Hang Out!",
       "channel": "Cole Medin",
+      "channel_slug": "cole-medin",
       "published": "2026-06-07T04:26:50+00:00",
       "url": "https://www.youtube.com/watch?v=nvW-dTgHAHg",
-      "channel_slug": "cole-medin",
-      "status": "pending"
+      "generated": "2026-07-29T08:42:26+00:00"
     },
     "iICZTWcryac": {
       "status": "done",
@@ -1879,14 +1879,13 @@
       "status": "short"
     },
     "Usufn8IQJgw": {
-      "video_id": "Usufn8IQJgw",
+      "status": "done",
       "title": "Context engineering with Dex Horthy",
       "channel": "The Pragmatic Engineer",
+      "channel_slug": "the-pragmatic-engineer",
       "published": "2026-07-15T15:59:47+00:00",
       "url": "https://www.youtube.com/watch?v=Usufn8IQJgw",
-      "channel_slug": "the-pragmatic-engineer",
-      "status": "pending",
-      "attempts": 5
+      "generated": "2026-07-29T08:40:01+00:00"
     },
     "e-pFrQ_Rh0s": {
       "status": "done",
@@ -3818,7 +3817,7 @@
       "published": "2026-07-22T12:00:21+00:00",
       "url": "https://www.youtube.com/watch?v=SXg08HPpKr8",
       "channel_slug": "beyond-coding",
-      "status": "pending"
+      "status": "blocked"
     },
     "LUemJGG2k4c": {
       "status": "done",
@@ -4037,13 +4036,13 @@
       "generated": "2026-07-23T10:33:56+00:00"
     },
     "kRkcNOsRyYg": {
-      "video_id": "kRkcNOsRyYg",
+      "status": "done",
       "title": "AI on Your Lakehouse: Context Comes in Shapes, Not Queries — Zach Blumenfeld, Neo4j",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-23T07:00:23+00:00",
       "url": "https://www.youtube.com/watch?v=kRkcNOsRyYg",
-      "channel_slug": "ai-engineer",
-      "status": "pending"
+      "generated": "2026-07-29T08:37:16+00:00"
     },
     "u6jJcIFDLE4": {
       "status": "done",
@@ -4413,7 +4412,7 @@
       "published": "2026-07-24T16:00:18+00:00",
       "url": "https://www.youtube.com/watch?v=nfX_SQYDoBI",
       "channel_slug": "better-stack",
-      "status": "pending"
+      "status": "blocked"
     },
     "1Q7CkLh9GwU": {
       "status": "done",
@@ -4963,7 +4962,16 @@
       "url": "https://www.youtube.com/watch?v=BInpv7lGp1o",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 3
+      "attempts": 4
+    },
+    "1grkxo4cyKY": {
+      "status": "done",
+      "title": "Stephane Jourdan, Simon Rohrer & Pini Reznik - From Pipelines to Prompts: Surviving the Shift to AI",
+      "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
+      "published": "2026-07-29T05:54:23+00:00",
+      "url": "https://www.youtube.com/watch?v=1grkxo4cyKY",
+      "generated": "2026-07-29T08:34:40+00:00"
     }
   }
 }

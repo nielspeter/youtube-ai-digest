@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **362** videos summarized.
+Auto-generated summaries of subscribed channels. **366** videos summarized.
 
 ## AI Engineer
 
@@ -39,6 +39,7 @@ Auto-generated summaries of subscribed channels. **362** videos summarized.
 <a class="video-card" href="summaries/ai-engineer/-I5W5QVAT8E"><img loading="lazy" src="https://i.ytimg.com/vi/-I5W5QVAT8E/hqdefault.jpg" alt=""><span class="video-title">Notion&#x27;s Token Town — Sarah Sachs, Notion</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/ai-engineer/Ib5GBkD555M"><img loading="lazy" src="https://i.ytimg.com/vi/Ib5GBkD555M/hqdefault.jpg" alt=""><span class="video-title">Harness Engineering is not Enough: Why Software Factories Fail — Dex Horthy, HumanLayer</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/ai-engineer/2JX6JYyQG4Y"><img loading="lazy" src="https://i.ytimg.com/vi/2JX6JYyQG4Y/hqdefault.jpg" alt=""><span class="video-title">Perception Agents — Antje Barth, Amazon AGI Lab</span><span class="video-date">2026-07-23</span></a>
+<a class="video-card" href="summaries/ai-engineer/kRkcNOsRyYg"><img loading="lazy" src="https://i.ytimg.com/vi/kRkcNOsRyYg/hqdefault.jpg" alt=""><span class="video-title">AI on Your Lakehouse: Context Comes in Shapes, Not Queries — Zach Blumenfeld, Neo4j</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/ai-engineer/u6jJcIFDLE4"><img loading="lazy" src="https://i.ytimg.com/vi/u6jJcIFDLE4/hqdefault.jpg" alt=""><span class="video-title">Why We Killed Our Multi-Agent Pipeline — Subbiah Sethuraman and Abhilash Asokan, ZS Associates</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/ai-engineer/H7puB0RwJMM"><img loading="lazy" src="https://i.ytimg.com/vi/H7puB0RwJMM/hqdefault.jpg" alt=""><span class="video-title">Citation Needed: Provenance for LLM-Built Knowledge Graphs — Daniel Chalef, Zep AI</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/ai-engineer/418t26CVz-w"><img loading="lazy" src="https://i.ytimg.com/vi/418t26CVz-w/hqdefault.jpg" alt=""><span class="video-title">Local Agentic Theory For Mobile Games — Shafik Quoraishee &amp; Joanne Song, The New York Times</span><span class="video-date">2026-07-23</span></a>
@@ -128,6 +129,7 @@ Auto-generated summaries of subscribed channels. **362** videos summarized.
 ## AI Native Dev
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-native-dev/1grkxo4cyKY"><img loading="lazy" src="https://i.ytimg.com/vi/1grkxo4cyKY/hqdefault.jpg" alt=""><span class="video-title">Stephane Jourdan, Simon Rohrer &amp; Pini Reznik - From Pipelines to Prompts: Surviving the Shift to AI</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/ai-native-dev/APYUJoQkVUo"><img loading="lazy" src="https://i.ytimg.com/vi/APYUJoQkVUo/hqdefault.jpg" alt=""><span class="video-title">Inside the Dark Factory: AI That Ships Code Solo</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/ai-native-dev/bUtAGFXPc3A"><img loading="lazy" src="https://i.ytimg.com/vi/bUtAGFXPc3A/hqdefault.jpg" alt=""><span class="video-title">Harness Engineering: Building an AI Software Factory</span><span class="video-date">2026-07-27</span></a>
 <a class="video-card" href="summaries/ai-native-dev/4d3-Zrmf9Wo"><img loading="lazy" src="https://i.ytimg.com/vi/4d3-Zrmf9Wo/hqdefault.jpg" alt=""><span class="video-title">Simon Obstbaum &amp; Rob Willoughby - Why evals are hard and how we&#x27;re solving it - AI Native DevCon Jun</span><span class="video-date">2026-07-27</span></a>
@@ -238,6 +240,7 @@ Auto-generated summaries of subscribed channels. **362** videos summarized.
 <a class="video-card" href="summaries/cole-medin/oGE_Dwz-rMk"><img loading="lazy" src="https://i.ytimg.com/vi/oGE_Dwz-rMk/hqdefault.jpg" alt=""><span class="video-title">Omnigent: The New Meta-Harness for EVERY Coding Agent - Claude Code, Codex, Pi, More</span><span class="video-date">2026-06-15</span></a>
 <a class="video-card" href="summaries/cole-medin/CrLMktzEzmM"><img loading="lazy" src="https://i.ytimg.com/vi/CrLMktzEzmM/hqdefault.jpg" alt=""><span class="video-title">Claude Fable 5 is Now BANNED?!</span><span class="video-date">2026-06-13</span></a>
 <a class="video-card" href="summaries/cole-medin/1wfY7GCVvh0"><img loading="lazy" src="https://i.ytimg.com/vi/1wfY7GCVvh0/hqdefault.jpg" alt=""><span class="video-title">Google&#x27;s Agents CLI: The CLI + Skills Combination to Ship AI Agents EASILY</span><span class="video-date">2026-06-11</span></a>
+<a class="video-card" href="summaries/cole-medin/nvW-dTgHAHg"><img loading="lazy" src="https://i.ytimg.com/vi/nvW-dTgHAHg/hqdefault.jpg" alt=""><span class="video-title">Live AI Q&amp;A + Crushing it in Chess at the Same Time - Come Hang Out!</span><span class="video-date">2026-06-07</span></a>
 <a class="video-card" href="summaries/cole-medin/iICZTWcryac"><img loading="lazy" src="https://i.ytimg.com/vi/iICZTWcryac/hqdefault.jpg" alt=""><span class="video-title">Claude Plans, Gemini Designs: The Workflow to Build BEAUTIFUL Frontends</span><span class="video-date">2026-06-04</span></a>
 </div>
 
@@ -443,6 +446,7 @@ Auto-generated summaries of subscribed channels. **362** videos summarized.
 
 <div class="video-grid">
 <a class="video-card" href="summaries/the-pragmatic-engineer/h8TBLKyo7Rs"><img loading="lazy" src="https://i.ytimg.com/vi/h8TBLKyo7Rs/hqdefault.jpg" alt=""><span class="video-title">From &quot;napkin math&quot; to turbpopuffer</span><span class="video-date">2026-07-21</span></a>
+<a class="video-card" href="summaries/the-pragmatic-engineer/Usufn8IQJgw"><img loading="lazy" src="https://i.ytimg.com/vi/Usufn8IQJgw/hqdefault.jpg" alt=""><span class="video-title">Context engineering with Dex Horthy</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/the-pragmatic-engineer/4MVFQ9HNFjk"><img loading="lazy" src="https://i.ytimg.com/vi/4MVFQ9HNFjk/hqdefault.jpg" alt=""><span class="video-title">Should you jump jobs or stay put, in this market?</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/the-pragmatic-engineer/cSIMVYjVF28"><img loading="lazy" src="https://i.ytimg.com/vi/cSIMVYjVF28/hqdefault.jpg" alt=""><span class="video-title">The Pragmatic Engineer AMA</span><span class="video-date">2026-07-08</span></a>
 <a class="video-card" href="summaries/the-pragmatic-engineer/xafwfGVBxos"><img loading="lazy" src="https://i.ytimg.com/vi/xafwfGVBxos/hqdefault.jpg" alt=""><span class="video-title">Tech interviews with NeetCode</span><span class="video-date">2026-06-24</span></a>

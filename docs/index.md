@@ -4,14 +4,16 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **378** videos summarized.
+Auto-generated summaries of subscribed channels. **381** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/YnNF55QV0zs"><img loading="lazy" src="https://i.ytimg.com/vi/YnNF55QV0zs/hqdefault.jpg" alt=""><span class="video-title">Persona Engineering: A Field Guide to AI Synthetic Personas — Ishan Anand, InsightSciences.ai</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/ai-engineer/kiqubc5b5Yo"><img loading="lazy" src="https://i.ytimg.com/vi/kiqubc5b5Yo/hqdefault.jpg" alt=""><span class="video-title">Morgan Stanley&#x27;s ALPHALAB: Multi-Agent Research Across Optimization Domains — Brendan Rappazzo</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/ai-engineer/7jjudsEhBtM"><img loading="lazy" src="https://i.ytimg.com/vi/7jjudsEhBtM/hqdefault.jpg" alt=""><span class="video-title">Skills are new features: Building Skill-Centric Harness — Yogendra Miraje, FactSet</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/ai-engineer/KMR_RBoCa4M"><img loading="lazy" src="https://i.ytimg.com/vi/KMR_RBoCa4M/hqdefault.jpg" alt=""><span class="video-title">SimulationMaxxing: How Nubank ships agents 20× faster with simulations — Shreya Rajpal, Snowglobe</span><span class="video-date">2026-07-29</span></a>
+<a class="video-card" href="summaries/ai-engineer/Owb8g3yDyzo"><img loading="lazy" src="https://i.ytimg.com/vi/Owb8g3yDyzo/hqdefault.jpg" alt=""><span class="video-title">Why Off-the-Shelf AI Doesn&#x27;t Understand Money — Udi Menkes, Intuit</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/ai-engineer/ITMXwI6QL6A"><img loading="lazy" src="https://i.ytimg.com/vi/ITMXwI6QL6A/hqdefault.jpg" alt=""><span class="video-title">How Forward Deployed Engineering is done at Ramp — Leo Mehr</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/ai-engineer/Byv311hdoHE"><img loading="lazy" src="https://i.ytimg.com/vi/Byv311hdoHE/hqdefault.jpg" alt=""><span class="video-title">The Dirty Secret of Forward Deployed Engineering — Natalie Meurer, Sierra</span><span class="video-date">2026-07-28</span></a>
 <a class="video-card" href="summaries/ai-engineer/7wu2hsRfvV0"><img loading="lazy" src="https://i.ytimg.com/vi/7wu2hsRfvV0/hqdefault.jpg" alt=""><span class="video-title">How Forward Deployed Engineering is done at Decagon — Sunny Rekhi</span><span class="video-date">2026-07-28</span></a>
@@ -186,6 +188,7 @@ Auto-generated summaries of subscribed channels. **378** videos summarized.
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/kl42N7pI7lM"><img loading="lazy" src="https://i.ytimg.com/vi/kl42N7pI7lM/hqdefault.jpg" alt=""><span class="video-title">TypeScript 7 Officially Released And Boy Is It Fast</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/better-stack/IwzVzvDw68w"><img loading="lazy" src="https://i.ytimg.com/vi/IwzVzvDw68w/hqdefault.jpg" alt=""><span class="video-title">Homebrew 6.0 Just Changed How Your Mac Installs Software</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/better-stack/xFWhiWe91BE"><img loading="lazy" src="https://i.ytimg.com/vi/xFWhiWe91BE/hqdefault.jpg" alt=""><span class="video-title">Microsoft Built a New Charting Language for AI Agents</span><span class="video-date">2026-07-27</span></a>
 <a class="video-card" href="summaries/better-stack/CHEMPZ87FLw"><img loading="lazy" src="https://i.ytimg.com/vi/CHEMPZ87FLw/hqdefault.jpg" alt=""><span class="video-title">Jack Dorsey&#x27;s New App Wants to Replace GitHub (buzz)</span><span class="video-date">2026-07-26</span></a>

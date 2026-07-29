@@ -5026,7 +5026,7 @@
       "url": "https://www.youtube.com/watch?v=z0sh8HyTrDo",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 2
+      "attempts": 3
     },
     "Tt2kX2sgQio": {
       "video_id": "Tt2kX2sgQio",
@@ -5035,8 +5035,8 @@
       "published": "2026-07-29T06:16:03+00:00",
       "url": "https://www.youtube.com/watch?v=Tt2kX2sgQio",
       "channel_slug": "ai-engineer",
-      "status": "no_transcript",
-      "attempts": 2
+      "attempts": 2,
+      "status": "blocked"
     },
     "s67bE2Ur3bY": {
       "video_id": "s67bE2Ur3bY",
@@ -5046,7 +5046,7 @@
       "url": "https://www.youtube.com/watch?v=s67bE2Ur3bY",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 2
+      "attempts": 3
     },
     "7jjudsEhBtM": {
       "status": "done",
@@ -5065,7 +5065,7 @@
       "url": "https://www.youtube.com/watch?v=o6U_2vd967Y",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 2
+      "attempts": 3
     },
     "KMR_RBoCa4M": {
       "status": "done",
@@ -5084,16 +5084,16 @@
       "url": "https://www.youtube.com/watch?v=iKQ78wyJEXU",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 2
+      "attempts": 3
     },
     "Owb8g3yDyzo": {
-      "video_id": "Owb8g3yDyzo",
+      "status": "done",
       "title": "Why Off-the-Shelf AI Doesn't Understand Money — Udi Menkes, Intuit",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-29T06:15:43+00:00",
       "url": "https://www.youtube.com/watch?v=Owb8g3yDyzo",
-      "channel_slug": "ai-engineer",
-      "status": "pending"
+      "generated": "2026-07-29T21:14:52+00:00"
     },
     "tJFjeMBKbIY": {
       "video_id": "tJFjeMBKbIY",
@@ -5102,7 +5102,8 @@
       "published": "2026-07-29T06:15:32+00:00",
       "url": "https://www.youtube.com/watch?v=tJFjeMBKbIY",
       "channel_slug": "ai-engineer",
-      "status": "pending"
+      "status": "no_transcript",
+      "attempts": 1
     },
     "KSkcgIYQy0U": {
       "status": "done",
@@ -5166,6 +5167,24 @@
       "url": "https://www.youtube.com/watch?v=hVUuUebEY8M",
       "channel_slug": "ai-native-dev",
       "status": "short"
+    },
+    "YnNF55QV0zs": {
+      "status": "done",
+      "title": "Persona Engineering: A Field Guide to AI Synthetic Personas — Ishan Anand, InsightSciences.ai",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-29T20:15:35+00:00",
+      "url": "https://www.youtube.com/watch?v=YnNF55QV0zs",
+      "generated": "2026-07-29T21:10:26+00:00"
+    },
+    "kl42N7pI7lM": {
+      "status": "done",
+      "title": "TypeScript 7 Officially Released And Boy Is It Fast",
+      "channel": "Better Stack",
+      "channel_slug": "better-stack",
+      "published": "2026-07-29T20:00:05+00:00",
+      "url": "https://www.youtube.com/watch?v=kl42N7pI7lM",
+      "generated": "2026-07-29T21:12:56+00:00"
     }
   }
 }

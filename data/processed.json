@@ -3811,13 +3811,13 @@
       "generated": "2026-07-22T15:33:23+00:00"
     },
     "SXg08HPpKr8": {
-      "video_id": "SXg08HPpKr8",
+      "status": "done",
       "title": "AWS Veteran: The Agent Blueprint Behind 1,400 Engineers",
       "channel": "Beyond Coding",
+      "channel_slug": "beyond-coding",
       "published": "2026-07-22T12:00:21+00:00",
       "url": "https://www.youtube.com/watch?v=SXg08HPpKr8",
-      "channel_slug": "beyond-coding",
-      "status": "blocked"
+      "generated": "2026-07-29T08:50:03+00:00"
     },
     "LUemJGG2k4c": {
       "status": "done",
@@ -4406,13 +4406,13 @@
       "generated": "2026-07-24T17:49:28+00:00"
     },
     "nfX_SQYDoBI": {
-      "video_id": "nfX_SQYDoBI",
+      "status": "done",
       "title": "AI Can Do the Work, But It Can't Do the Understanding | Better Stack Podcast Ep. 18",
       "channel": "Better Stack",
+      "channel_slug": "better-stack",
       "published": "2026-07-24T16:00:18+00:00",
       "url": "https://www.youtube.com/watch?v=nfX_SQYDoBI",
-      "channel_slug": "better-stack",
-      "status": "blocked"
+      "generated": "2026-07-29T08:48:07+00:00"
     },
     "1Q7CkLh9GwU": {
       "status": "done",
@@ -4962,7 +4962,7 @@
       "url": "https://www.youtube.com/watch?v=BInpv7lGp1o",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 4
+      "attempts": 5
     },
     "1grkxo4cyKY": {
       "status": "done",

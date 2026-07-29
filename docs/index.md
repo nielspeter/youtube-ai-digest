@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **366** videos summarized.
+Auto-generated summaries of subscribed channels. **368** videos summarized.
 
 ## AI Engineer
 
@@ -188,6 +188,7 @@ Auto-generated summaries of subscribed channels. **366** videos summarized.
 <a class="video-card" href="summaries/better-stack/3OqZHYNKc9A"><img loading="lazy" src="https://i.ytimg.com/vi/3OqZHYNKc9A/hqdefault.jpg" alt=""><span class="video-title">This Tiny Tool Fits a 744B AI Model on Normal Hardware (colibrì)</span><span class="video-date">2026-07-25</span></a>
 <a class="video-card" href="summaries/better-stack/Q1TL2AKoy00"><img loading="lazy" src="https://i.ytimg.com/vi/Q1TL2AKoy00/hqdefault.jpg" alt=""><span class="video-title">Wails: Golang&#x27;s Bet On Desktop Grade Apps To Beat Electron</span><span class="video-date">2026-07-25</span></a>
 <a class="video-card" href="summaries/better-stack/56wK2ttgIsc"><img loading="lazy" src="https://i.ytimg.com/vi/56wK2ttgIsc/hqdefault.jpg" alt=""><span class="video-title">Opus 5 Beats Fable... at Half the Price?</span><span class="video-date">2026-07-24</span></a>
+<a class="video-card" href="summaries/better-stack/nfX_SQYDoBI"><img loading="lazy" src="https://i.ytimg.com/vi/nfX_SQYDoBI/hqdefault.jpg" alt=""><span class="video-title">AI Can Do the Work, But It Can&#x27;t Do the Understanding | Better Stack Podcast Ep. 18</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/better-stack/YAcIUCjsRnU"><img loading="lazy" src="https://i.ytimg.com/vi/YAcIUCjsRnU/hqdefault.jpg" alt=""><span class="video-title">Ex OpenAI CTO&#x27;s Open-Weight Model Processes Raw Audio</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/better-stack/iUkgp7kzIxM"><img loading="lazy" src="https://i.ytimg.com/vi/iUkgp7kzIxM/hqdefault.jpg" alt=""><span class="video-title">OpenAI Went Rogue and Hacked Another Startup</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/better-stack/lU_jse27kWA"><img loading="lazy" src="https://i.ytimg.com/vi/lU_jse27kWA/hqdefault.jpg" alt=""><span class="video-title">Harper: The Free, Private Grammarly Alternative Built in Rust</span><span class="video-date">2026-07-22</span></a>
@@ -218,6 +219,7 @@ Auto-generated summaries of subscribed channels. **366** videos summarized.
 ## Beyond Coding
 
 <div class="video-grid">
+<a class="video-card" href="summaries/beyond-coding/SXg08HPpKr8"><img loading="lazy" src="https://i.ytimg.com/vi/SXg08HPpKr8/hqdefault.jpg" alt=""><span class="video-title">AWS Veteran: The Agent Blueprint Behind 1,400 Engineers</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/beyond-coding/mlvbbqYtUz0"><img loading="lazy" src="https://i.ytimg.com/vi/mlvbbqYtUz0/hqdefault.jpg" alt=""><span class="video-title">What Senior Engineers do Differently (Vercel VP)</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/beyond-coding/M1i11zsqsT8"><img loading="lazy" src="https://i.ytimg.com/vi/M1i11zsqsT8/hqdefault.jpg" alt=""><span class="video-title">What the Best Engineers Do When Agents Fail</span><span class="video-date">2026-07-09</span></a>
 <a class="video-card" href="summaries/beyond-coding/zTenuG5b4Eo"><img loading="lazy" src="https://i.ytimg.com/vi/zTenuG5b4Eo/hqdefault.jpg" alt=""><span class="video-title">Why These Engineering Skills Get You Hired No Matter What (Nebius CTO)</span><span class="video-date">2026-07-01</span></a>

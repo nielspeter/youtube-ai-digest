@@ -72,7 +72,7 @@ WATCH_URL = "https://www.youtube.com/watch?v={vid}"
 MAX_ATTEMPTS = 6  # give up fetching a transcript after this many runs
 # Skip videos longer than this in feed runs (marathons/courses blow the token
 # budget and don't summarize well). 0 disables the limit. --video ignores it.
-MAX_VIDEO_MINUTES = int(os.environ.get("MAX_VIDEO_MINUTES", "90"))
+MAX_VIDEO_MINUTES = int(os.environ.get("MAX_VIDEO_MINUTES") or "90")
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 
 # 429 handling. Kept deliberately SMALL: the persistent queue means a video that

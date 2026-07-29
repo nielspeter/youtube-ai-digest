@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **368** videos summarized.
+Auto-generated summaries of subscribed channels. **370** videos summarized.
 
 ## AI Engineer
 
@@ -182,6 +182,7 @@ Auto-generated summaries of subscribed channels. **368** videos summarized.
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/IwzVzvDw68w"><img loading="lazy" src="https://i.ytimg.com/vi/IwzVzvDw68w/hqdefault.jpg" alt=""><span class="video-title">Homebrew 6.0 Just Changed How Your Mac Installs Software</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/better-stack/xFWhiWe91BE"><img loading="lazy" src="https://i.ytimg.com/vi/xFWhiWe91BE/hqdefault.jpg" alt=""><span class="video-title">Microsoft Built a New Charting Language for AI Agents</span><span class="video-date">2026-07-27</span></a>
 <a class="video-card" href="summaries/better-stack/CHEMPZ87FLw"><img loading="lazy" src="https://i.ytimg.com/vi/CHEMPZ87FLw/hqdefault.jpg" alt=""><span class="video-title">Jack Dorsey&#x27;s New App Wants to Replace GitHub (buzz)</span><span class="video-date">2026-07-26</span></a>
 <a class="video-card" href="summaries/better-stack/6YRpXxbtc2c"><img loading="lazy" src="https://i.ytimg.com/vi/6YRpXxbtc2c/hqdefault.jpg" alt=""><span class="video-title">There&#x27;s a NEW Package Manager!? (Bun Alternative)</span><span class="video-date">2026-07-26</span></a>
@@ -219,6 +220,7 @@ Auto-generated summaries of subscribed channels. **368** videos summarized.
 ## Beyond Coding
 
 <div class="video-grid">
+<a class="video-card" href="summaries/beyond-coding/U2p01LVC5Oo"><img loading="lazy" src="https://i.ytimg.com/vi/U2p01LVC5Oo/hqdefault.jpg" alt=""><span class="video-title">What the Best Engineers Do About AI Costs</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/beyond-coding/SXg08HPpKr8"><img loading="lazy" src="https://i.ytimg.com/vi/SXg08HPpKr8/hqdefault.jpg" alt=""><span class="video-title">AWS Veteran: The Agent Blueprint Behind 1,400 Engineers</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/beyond-coding/mlvbbqYtUz0"><img loading="lazy" src="https://i.ytimg.com/vi/mlvbbqYtUz0/hqdefault.jpg" alt=""><span class="video-title">What Senior Engineers do Differently (Vercel VP)</span><span class="video-date">2026-07-15</span></a>
 <a class="video-card" href="summaries/beyond-coding/M1i11zsqsT8"><img loading="lazy" src="https://i.ytimg.com/vi/M1i11zsqsT8/hqdefault.jpg" alt=""><span class="video-title">What the Best Engineers Do When Agents Fail</span><span class="video-date">2026-07-09</span></a>

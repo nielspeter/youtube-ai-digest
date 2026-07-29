@@ -673,8 +673,7 @@
       "published": "2026-06-07T04:26:50+00:00",
       "url": "https://www.youtube.com/watch?v=nvW-dTgHAHg",
       "channel_slug": "cole-medin",
-      "status": "too_long",
-      "minutes": 105
+      "status": "pending"
     },
     "iICZTWcryac": {
       "status": "done",
@@ -1886,9 +1885,8 @@
       "published": "2026-07-15T15:59:47+00:00",
       "url": "https://www.youtube.com/watch?v=Usufn8IQJgw",
       "channel_slug": "the-pragmatic-engineer",
-      "status": "too_long",
-      "attempts": 5,
-      "minutes": 93
+      "status": "pending",
+      "attempts": 5
     },
     "e-pFrQ_Rh0s": {
       "status": "done",
@@ -3820,8 +3818,7 @@
       "published": "2026-07-22T12:00:21+00:00",
       "url": "https://www.youtube.com/watch?v=SXg08HPpKr8",
       "channel_slug": "beyond-coding",
-      "status": "too_long",
-      "minutes": 113
+      "status": "pending"
     },
     "LUemJGG2k4c": {
       "status": "done",
@@ -4046,8 +4043,7 @@
       "published": "2026-07-23T07:00:23+00:00",
       "url": "https://www.youtube.com/watch?v=kRkcNOsRyYg",
       "channel_slug": "ai-engineer",
-      "status": "too_long",
-      "minutes": 119
+      "status": "pending"
     },
     "u6jJcIFDLE4": {
       "status": "done",
@@ -4417,8 +4413,7 @@
       "published": "2026-07-24T16:00:18+00:00",
       "url": "https://www.youtube.com/watch?v=nfX_SQYDoBI",
       "channel_slug": "better-stack",
-      "status": "too_long",
-      "minutes": 96
+      "status": "pending"
     },
     "1Q7CkLh9GwU": {
       "status": "done",

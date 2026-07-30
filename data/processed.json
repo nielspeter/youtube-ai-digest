@@ -5269,7 +5269,7 @@
       "url": "https://www.youtube.com/watch?v=nBftSI5mmHA",
       "channel_slug": "google-deepmind",
       "status": "no_transcript",
-      "attempts": 1
+      "attempts": 2
     },
     "wYVHxw2-DP4": {
       "video_id": "wYVHxw2-DP4",
@@ -5279,17 +5279,16 @@
       "url": "https://www.youtube.com/watch?v=wYVHxw2-DP4",
       "channel_slug": "google-deepmind",
       "status": "no_transcript",
-      "attempts": 1
+      "attempts": 2
     },
     "9MNLEAzA59o": {
-      "video_id": "9MNLEAzA59o",
+      "status": "done",
       "title": "Intelligent whole-body control with Gemini Robotics 2",
       "channel": "Google DeepMind",
+      "channel_slug": "google-deepmind",
       "published": "2026-07-30T14:58:07+00:00",
       "url": "https://www.youtube.com/watch?v=9MNLEAzA59o",
-      "channel_slug": "google-deepmind",
-      "status": "no_transcript",
-      "attempts": 1
+      "generated": "2026-07-30T19:50:19+00:00"
     },
     "CiTPDm7PKW0": {
       "status": "done",
@@ -5301,23 +5300,22 @@
       "generated": "2026-07-30T17:49:34+00:00"
     },
     "O9-650iHAls": {
-      "video_id": "O9-650iHAls",
+      "status": "done",
       "title": "Advanced dexterity with Gemini Robotics 2",
       "channel": "Google DeepMind",
+      "channel_slug": "google-deepmind",
       "published": "2026-07-30T14:57:59+00:00",
       "url": "https://www.youtube.com/watch?v=O9-650iHAls",
-      "channel_slug": "google-deepmind",
-      "status": "no_transcript",
-      "attempts": 1
+      "generated": "2026-07-30T19:52:25+00:00"
     },
     "4lSQnrMC6nY": {
-      "video_id": "4lSQnrMC6nY",
+      "status": "done",
       "title": "Gemini Robotics 2 brings whole body intelligence to robots",
       "channel": "Google DeepMind",
+      "channel_slug": "google-deepmind",
       "published": "2026-07-30T14:57:57+00:00",
       "url": "https://www.youtube.com/watch?v=4lSQnrMC6nY",
-      "channel_slug": "google-deepmind",
-      "status": "blocked"
+      "generated": "2026-07-30T19:53:53+00:00"
     },
     "L54TFDmPwv8": {
       "status": "done",
@@ -5329,13 +5327,13 @@
       "generated": "2026-07-30T17:47:00+00:00"
     },
     "DLjarZe0Xqc": {
-      "video_id": "DLjarZe0Xqc",
+      "status": "done",
       "title": "The Hallway Track: What Even Is Harness Engineering",
       "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
       "published": "2026-07-30T16:00:19+00:00",
       "url": "https://www.youtube.com/watch?v=DLjarZe0Xqc",
-      "channel_slug": "ai-native-dev",
-      "status": "blocked"
+      "generated": "2026-07-30T19:47:59+00:00"
     },
     "nnYHNhOw5Vs": {
       "video_id": "nnYHNhOw5Vs",

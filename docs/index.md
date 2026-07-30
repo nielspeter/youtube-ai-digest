@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **396** videos summarized.
+Auto-generated summaries of subscribed channels. **400** videos summarized.
 
 ## AI Engineer
 
@@ -141,6 +141,7 @@ Auto-generated summaries of subscribed channels. **396** videos summarized.
 ## AI Native Dev
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-native-dev/DLjarZe0Xqc"><img loading="lazy" src="https://i.ytimg.com/vi/DLjarZe0Xqc/hqdefault.jpg" alt=""><span class="video-title">The Hallway Track: What Even Is Harness Engineering</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/ai-native-dev/Jwz0k8ZK9TE"><img loading="lazy" src="https://i.ytimg.com/vi/Jwz0k8ZK9TE/hqdefault.jpg" alt=""><span class="video-title">We Scored Oracle&#x27;s Database Skill Live: 95% Isn&#x27;t Enough</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/ai-native-dev/1grkxo4cyKY"><img loading="lazy" src="https://i.ytimg.com/vi/1grkxo4cyKY/hqdefault.jpg" alt=""><span class="video-title">Stephane Jourdan, Simon Rohrer &amp; Pini Reznik - From Pipelines to Prompts: Surviving the Shift to AI</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/ai-native-dev/APYUJoQkVUo"><img loading="lazy" src="https://i.ytimg.com/vi/APYUJoQkVUo/hqdefault.jpg" alt=""><span class="video-title">Inside the Dark Factory: AI That Ships Code Solo</span><span class="video-date">2026-07-28</span></a>
@@ -268,7 +269,10 @@ Auto-generated summaries of subscribed channels. **396** videos summarized.
 ## Google DeepMind
 
 <div class="video-grid">
+<a class="video-card" href="summaries/google-deepmind/9MNLEAzA59o"><img loading="lazy" src="https://i.ytimg.com/vi/9MNLEAzA59o/hqdefault.jpg" alt=""><span class="video-title">Intelligent whole-body control with Gemini Robotics 2</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/google-deepmind/CiTPDm7PKW0"><img loading="lazy" src="https://i.ytimg.com/vi/CiTPDm7PKW0/hqdefault.jpg" alt=""><span class="video-title">Multi-robot collaboration with Gemini Robotics 2</span><span class="video-date">2026-07-30</span></a>
+<a class="video-card" href="summaries/google-deepmind/O9-650iHAls"><img loading="lazy" src="https://i.ytimg.com/vi/O9-650iHAls/hqdefault.jpg" alt=""><span class="video-title">Advanced dexterity with Gemini Robotics 2</span><span class="video-date">2026-07-30</span></a>
+<a class="video-card" href="summaries/google-deepmind/4lSQnrMC6nY"><img loading="lazy" src="https://i.ytimg.com/vi/4lSQnrMC6nY/hqdefault.jpg" alt=""><span class="video-title">Gemini Robotics 2 brings whole body intelligence to robots</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/google-deepmind/1DtMiRKg-cs"><img loading="lazy" src="https://i.ytimg.com/vi/1DtMiRKg-cs/hqdefault.jpg" alt=""><span class="video-title">Understanding the inner thoughts of AI</span><span class="video-date">2026-07-10</span></a>
 <a class="video-card" href="summaries/google-deepmind/V04bm-3d6EQ"><img loading="lazy" src="https://i.ytimg.com/vi/V04bm-3d6EQ/hqdefault.jpg" alt=""><span class="video-title">When millions of AI agents meet</span><span class="video-date">2026-06-23</span></a>
 <a class="video-card" href="summaries/google-deepmind/aSY_vFFmkW0"><img loading="lazy" src="https://i.ytimg.com/vi/aSY_vFFmkW0/hqdefault.jpg" alt=""><span class="video-title">Generating novel scientific hypotheses with Co-Scientist</span><span class="video-date">2026-05-19</span></a>

@@ -1,0 +1,9 @@
+[00:03]  In order to be useful, a robot needs the dexterity that we take for granted. You probably don't think about how to drive 22 separate joints when you operate your hand, but that's what we're asking these AI models to do. In Gemini Robotics too, we came up with a set of tasks in order to test and develop dexterity. So, we're asking the robot to pack lunch by putting the grapes into the ziplock bag. >> So, this requires a lot of precision,
+
+[00:34]  >> So, this requires a lot of precision, but also a lot of coordination. >> Now, the really hard part is getting the ziplock closed. Very nice job, Apollo. >> Hey, Apollo. Can you unscrew the bulb? The bulb is actually a sphere, right? So, those contacts need to be very precise for it to be engaged with the fingertips. It's actually a lot of motions and a lot of dexterity that's involved when you do that. You have to twist, push, pull. You have to understand all these motions. That's actually very complicated.
+
+[01:04]  actually very complicated. Thank you, Apollo. >> We're advancing what we can do even with parallel grippers. Need to have dexterity, precision, and 3D space understanding. And those are really hard problems that we are trying to solve. We can move the kit around. We can move the tools around. The robot is going to be able to understand how to reorient the objects in space and then precisely put them in. >> The robot's task is to tie a knot, tie off the trash bag.
+
+[01:35]  off the trash bag. Multi-fingered hands are a key ingredient for this kind of intricate knot tying dexterity. Come on, robot. You got this. Good job, Apollo. We are pushing our understanding of how robots may interact with complex objects in the real world, like trash bags or like hazardous waste, it would be great if we could send a robot to do that rather than have humans put themselves
+
+[02:05]  rather than have humans put themselves at risk.

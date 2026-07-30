@@ -5242,6 +5242,109 @@
       "published": "2026-07-30T12:00:11+00:00",
       "url": "https://www.youtube.com/watch?v=Y_7_rbtQXcs",
       "generated": "2026-07-30T14:35:02+00:00"
+    },
+    "pWXUkLP9uWM": {
+      "status": "done",
+      "title": "First Steps Toward Automated AI Research — Richard Socher, CEO Recursive AI",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-30T16:59:37+00:00",
+      "url": "https://www.youtube.com/watch?v=pWXUkLP9uWM",
+      "generated": "2026-07-30T17:45:42+00:00"
+    },
+    "fo9WirRIaVs": {
+      "video_id": "fo9WirRIaVs",
+      "title": "Robots working together with Gemini Robotics 2",
+      "channel": "Google DeepMind",
+      "published": "2026-07-30T14:58:16+00:00",
+      "url": "https://www.youtube.com/watch?v=fo9WirRIaVs",
+      "channel_slug": "google-deepmind",
+      "status": "blocked"
+    },
+    "nBftSI5mmHA": {
+      "video_id": "nBftSI5mmHA",
+      "title": "Tasks that require whole-body control with Gemini Robotics 2",
+      "channel": "Google DeepMind",
+      "published": "2026-07-30T14:58:12+00:00",
+      "url": "https://www.youtube.com/watch?v=nBftSI5mmHA",
+      "channel_slug": "google-deepmind",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "wYVHxw2-DP4": {
+      "video_id": "wYVHxw2-DP4",
+      "title": "Tough dexterity tasks with Gemini Robotics 2",
+      "channel": "Google DeepMind",
+      "published": "2026-07-30T14:58:10+00:00",
+      "url": "https://www.youtube.com/watch?v=wYVHxw2-DP4",
+      "channel_slug": "google-deepmind",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "9MNLEAzA59o": {
+      "video_id": "9MNLEAzA59o",
+      "title": "Intelligent whole-body control with Gemini Robotics 2",
+      "channel": "Google DeepMind",
+      "published": "2026-07-30T14:58:07+00:00",
+      "url": "https://www.youtube.com/watch?v=9MNLEAzA59o",
+      "channel_slug": "google-deepmind",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "CiTPDm7PKW0": {
+      "status": "done",
+      "title": "Multi-robot collaboration with Gemini Robotics 2",
+      "channel": "Google DeepMind",
+      "channel_slug": "google-deepmind",
+      "published": "2026-07-30T14:58:03+00:00",
+      "url": "https://www.youtube.com/watch?v=CiTPDm7PKW0",
+      "generated": "2026-07-30T17:49:34+00:00"
+    },
+    "O9-650iHAls": {
+      "video_id": "O9-650iHAls",
+      "title": "Advanced dexterity with Gemini Robotics 2",
+      "channel": "Google DeepMind",
+      "published": "2026-07-30T14:57:59+00:00",
+      "url": "https://www.youtube.com/watch?v=O9-650iHAls",
+      "channel_slug": "google-deepmind",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "4lSQnrMC6nY": {
+      "video_id": "4lSQnrMC6nY",
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "channel": "Google DeepMind",
+      "published": "2026-07-30T14:57:57+00:00",
+      "url": "https://www.youtube.com/watch?v=4lSQnrMC6nY",
+      "channel_slug": "google-deepmind",
+      "status": "blocked"
+    },
+    "L54TFDmPwv8": {
+      "status": "done",
+      "title": "Where to start if you want to harden a distributed system",
+      "channel": "The Pragmatic Engineer",
+      "channel_slug": "the-pragmatic-engineer",
+      "published": "2026-07-30T16:00:36+00:00",
+      "url": "https://www.youtube.com/watch?v=L54TFDmPwv8",
+      "generated": "2026-07-30T17:47:00+00:00"
+    },
+    "DLjarZe0Xqc": {
+      "video_id": "DLjarZe0Xqc",
+      "title": "The Hallway Track: What Even Is Harness Engineering",
+      "channel": "AI Native Dev",
+      "published": "2026-07-30T16:00:19+00:00",
+      "url": "https://www.youtube.com/watch?v=DLjarZe0Xqc",
+      "channel_slug": "ai-native-dev",
+      "status": "blocked"
+    },
+    "nnYHNhOw5Vs": {
+      "video_id": "nnYHNhOw5Vs",
+      "title": "The Bug That Took 60 PRs to Kill",
+      "channel": "AI Native Dev",
+      "published": "2026-07-30T15:15:03+00:00",
+      "url": "https://www.youtube.com/watch?v=nnYHNhOw5Vs",
+      "channel_slug": "ai-native-dev",
+      "status": "short"
     }
   }
 }

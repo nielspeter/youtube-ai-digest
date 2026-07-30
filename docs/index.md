@@ -4,11 +4,12 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **393** videos summarized.
+Auto-generated summaries of subscribed channels. **396** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/pWXUkLP9uWM"><img loading="lazy" src="https://i.ytimg.com/vi/pWXUkLP9uWM/hqdefault.jpg" alt=""><span class="video-title">First Steps Toward Automated AI Research — Richard Socher, CEO Recursive AI</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/ai-engineer/YnNF55QV0zs"><img loading="lazy" src="https://i.ytimg.com/vi/YnNF55QV0zs/hqdefault.jpg" alt=""><span class="video-title">Persona Engineering: A Field Guide to AI Synthetic Personas — Ishan Anand, InsightSciences.ai</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/ai-engineer/kiqubc5b5Yo"><img loading="lazy" src="https://i.ytimg.com/vi/kiqubc5b5Yo/hqdefault.jpg" alt=""><span class="video-title">Morgan Stanley&#x27;s ALPHALAB: Multi-Agent Research Across Optimization Domains — Brendan Rappazzo</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/ai-engineer/z0sh8HyTrDo"><img loading="lazy" src="https://i.ytimg.com/vi/z0sh8HyTrDo/hqdefault.jpg" alt=""><span class="video-title">Your Finance Agent&#x27;s Bottleneck Is You — Ramana Siddanth Emani, Auditoria AI</span><span class="video-date">2026-07-29</span></a>
@@ -267,6 +268,7 @@ Auto-generated summaries of subscribed channels. **393** videos summarized.
 ## Google DeepMind
 
 <div class="video-grid">
+<a class="video-card" href="summaries/google-deepmind/CiTPDm7PKW0"><img loading="lazy" src="https://i.ytimg.com/vi/CiTPDm7PKW0/hqdefault.jpg" alt=""><span class="video-title">Multi-robot collaboration with Gemini Robotics 2</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/google-deepmind/1DtMiRKg-cs"><img loading="lazy" src="https://i.ytimg.com/vi/1DtMiRKg-cs/hqdefault.jpg" alt=""><span class="video-title">Understanding the inner thoughts of AI</span><span class="video-date">2026-07-10</span></a>
 <a class="video-card" href="summaries/google-deepmind/V04bm-3d6EQ"><img loading="lazy" src="https://i.ytimg.com/vi/V04bm-3d6EQ/hqdefault.jpg" alt=""><span class="video-title">When millions of AI agents meet</span><span class="video-date">2026-06-23</span></a>
 <a class="video-card" href="summaries/google-deepmind/aSY_vFFmkW0"><img loading="lazy" src="https://i.ytimg.com/vi/aSY_vFFmkW0/hqdefault.jpg" alt=""><span class="video-title">Generating novel scientific hypotheses with Co-Scientist</span><span class="video-date">2026-05-19</span></a>
@@ -471,6 +473,7 @@ Auto-generated summaries of subscribed channels. **393** videos summarized.
 ## The Pragmatic Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/the-pragmatic-engineer/L54TFDmPwv8"><img loading="lazy" src="https://i.ytimg.com/vi/L54TFDmPwv8/hqdefault.jpg" alt=""><span class="video-title">Where to start if you want to harden a distributed system</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/the-pragmatic-engineer/KSkcgIYQy0U"><img loading="lazy" src="https://i.ytimg.com/vi/KSkcgIYQy0U/hqdefault.jpg" alt=""><span class="video-title">Formal methods with Hillel Wayne</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/the-pragmatic-engineer/h8TBLKyo7Rs"><img loading="lazy" src="https://i.ytimg.com/vi/h8TBLKyo7Rs/hqdefault.jpg" alt=""><span class="video-title">From &quot;napkin math&quot; to turbpopuffer</span><span class="video-date">2026-07-21</span></a>
 <a class="video-card" href="summaries/the-pragmatic-engineer/Usufn8IQJgw"><img loading="lazy" src="https://i.ytimg.com/vi/Usufn8IQJgw/hqdefault.jpg" alt=""><span class="video-title">Context engineering with Dex Horthy</span><span class="video-date">2026-07-15</span></a>

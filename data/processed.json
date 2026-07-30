@@ -5019,14 +5019,13 @@
       "generated": "2026-07-29T17:33:54+00:00"
     },
     "z0sh8HyTrDo": {
-      "video_id": "z0sh8HyTrDo",
+      "status": "done",
       "title": "Your Finance Agent's Bottleneck Is You — Ramana Siddanth Emani, Auditoria AI",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-29T06:16:07+00:00",
       "url": "https://www.youtube.com/watch?v=z0sh8HyTrDo",
-      "channel_slug": "ai-engineer",
-      "status": "no_transcript",
-      "attempts": 4
+      "generated": "2026-07-30T03:22:19+00:00"
     },
     "Tt2kX2sgQio": {
       "status": "done",
@@ -5056,14 +5055,13 @@
       "generated": "2026-07-29T19:44:41+00:00"
     },
     "o6U_2vd967Y": {
-      "video_id": "o6U_2vd967Y",
+      "status": "done",
       "title": "Let's integrate AI Agents in Event-Sourced Systems — Divakar Kumar, FlyersSoft",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-29T06:15:50+00:00",
       "url": "https://www.youtube.com/watch?v=o6U_2vd967Y",
-      "channel_slug": "ai-engineer",
-      "status": "no_transcript",
-      "attempts": 4
+      "generated": "2026-07-30T03:24:37+00:00"
     },
     "KMR_RBoCa4M": {
       "status": "done",
@@ -5093,14 +5091,13 @@
       "generated": "2026-07-29T21:14:52+00:00"
     },
     "tJFjeMBKbIY": {
-      "video_id": "tJFjeMBKbIY",
+      "status": "done",
       "title": "Build for the Memo, Not the Demo — Shawn Chan, China Resources Holdings",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-29T06:15:32+00:00",
       "url": "https://www.youtube.com/watch?v=tJFjeMBKbIY",
-      "channel_slug": "ai-engineer",
-      "status": "no_transcript",
-      "attempts": 2
+      "generated": "2026-07-30T03:27:54+00:00"
     },
     "KSkcgIYQy0U": {
       "status": "done",

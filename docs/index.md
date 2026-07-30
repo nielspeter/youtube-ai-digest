@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **400** videos summarized.
+Auto-generated summaries of subscribed channels. **402** videos summarized.
 
 ## AI Engineer
 
@@ -196,6 +196,7 @@ Auto-generated summaries of subscribed channels. **400** videos summarized.
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/ZRsDQp9CrXc"><img loading="lazy" src="https://i.ytimg.com/vi/ZRsDQp9CrXc/hqdefault.jpg" alt=""><span class="video-title">Stop Paying for Dictation! This App Is Better and Free. (handy)</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/better-stack/Y_7_rbtQXcs"><img loading="lazy" src="https://i.ytimg.com/vi/Y_7_rbtQXcs/hqdefault.jpg" alt=""><span class="video-title">This is basically an X-ray for your codebase...</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/better-stack/38z2hdzV_DM"><img loading="lazy" src="https://i.ytimg.com/vi/38z2hdzV_DM/hqdefault.jpg" alt=""><span class="video-title">Is This WordPress&#x27;s Worst Hack In History?</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/better-stack/kl42N7pI7lM"><img loading="lazy" src="https://i.ytimg.com/vi/kl42N7pI7lM/hqdefault.jpg" alt=""><span class="video-title">TypeScript 7 Officially Released And Boy Is It Fast</span><span class="video-date">2026-07-29</span></a>
@@ -269,6 +270,7 @@ Auto-generated summaries of subscribed channels. **400** videos summarized.
 ## Google DeepMind
 
 <div class="video-grid">
+<a class="video-card" href="summaries/google-deepmind/fo9WirRIaVs"><img loading="lazy" src="https://i.ytimg.com/vi/fo9WirRIaVs/hqdefault.jpg" alt=""><span class="video-title">Robots working together with Gemini Robotics 2</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/google-deepmind/9MNLEAzA59o"><img loading="lazy" src="https://i.ytimg.com/vi/9MNLEAzA59o/hqdefault.jpg" alt=""><span class="video-title">Intelligent whole-body control with Gemini Robotics 2</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/google-deepmind/CiTPDm7PKW0"><img loading="lazy" src="https://i.ytimg.com/vi/CiTPDm7PKW0/hqdefault.jpg" alt=""><span class="video-title">Multi-robot collaboration with Gemini Robotics 2</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/google-deepmind/O9-650iHAls"><img loading="lazy" src="https://i.ytimg.com/vi/O9-650iHAls/hqdefault.jpg" alt=""><span class="video-title">Advanced dexterity with Gemini Robotics 2</span><span class="video-date">2026-07-30</span></a>

@@ -5253,13 +5253,13 @@
       "generated": "2026-07-30T17:45:42+00:00"
     },
     "fo9WirRIaVs": {
-      "video_id": "fo9WirRIaVs",
+      "status": "done",
       "title": "Robots working together with Gemini Robotics 2",
       "channel": "Google DeepMind",
+      "channel_slug": "google-deepmind",
       "published": "2026-07-30T14:58:16+00:00",
       "url": "https://www.youtube.com/watch?v=fo9WirRIaVs",
-      "channel_slug": "google-deepmind",
-      "status": "blocked"
+      "generated": "2026-07-30T21:22:10+00:00"
     },
     "nBftSI5mmHA": {
       "video_id": "nBftSI5mmHA",
@@ -5269,7 +5269,7 @@
       "url": "https://www.youtube.com/watch?v=nBftSI5mmHA",
       "channel_slug": "google-deepmind",
       "status": "no_transcript",
-      "attempts": 2
+      "attempts": 3
     },
     "wYVHxw2-DP4": {
       "video_id": "wYVHxw2-DP4",
@@ -5279,7 +5279,7 @@
       "url": "https://www.youtube.com/watch?v=wYVHxw2-DP4",
       "channel_slug": "google-deepmind",
       "status": "no_transcript",
-      "attempts": 2
+      "attempts": 3
     },
     "9MNLEAzA59o": {
       "status": "done",
@@ -5342,6 +5342,24 @@
       "published": "2026-07-30T15:15:03+00:00",
       "url": "https://www.youtube.com/watch?v=nnYHNhOw5Vs",
       "channel_slug": "ai-native-dev",
+      "status": "short"
+    },
+    "ZRsDQp9CrXc": {
+      "status": "done",
+      "title": "Stop Paying for Dictation! This App Is Better and Free. (handy)",
+      "channel": "Better Stack",
+      "channel_slug": "better-stack",
+      "published": "2026-07-30T20:10:06+00:00",
+      "url": "https://www.youtube.com/watch?v=ZRsDQp9CrXc",
+      "generated": "2026-07-30T21:20:32+00:00"
+    },
+    "JvkF6ckGy9o": {
+      "video_id": "JvkF6ckGy9o",
+      "title": "Which business will \"win\" AI?",
+      "channel": "Matthew Berman",
+      "published": "2026-07-30T20:08:18+00:00",
+      "url": "https://www.youtube.com/watch?v=JvkF6ckGy9o",
+      "channel_slug": "matthew-berman",
       "status": "short"
     }
   }

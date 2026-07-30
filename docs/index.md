@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **388** videos summarized.
+Auto-generated summaries of subscribed channels. **389** videos summarized.
 
 ## AI Engineer
 
@@ -244,6 +244,7 @@ Auto-generated summaries of subscribed channels. **388** videos summarized.
 ## Cole Medin
 
 <div class="video-grid">
+<a class="video-card" href="summaries/cole-medin/8JWhwhxWtJw"><img loading="lazy" src="https://i.ytimg.com/vi/8JWhwhxWtJw/hqdefault.jpg" alt=""><span class="video-title">The Ultimate Knowledge Base: Bring YouTube Into Your AI Second Brain</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/cole-medin/SA3TxPLLB08"><img loading="lazy" src="https://i.ytimg.com/vi/SA3TxPLLB08/hqdefault.jpg" alt=""><span class="video-title">Is Kimi K3 Really That Good?! (Don&#x27;t Just Believe The Hype)</span><span class="video-date">2026-07-24</span></a>
 <a class="video-card" href="summaries/cole-medin/zb2LyMro77M"><img loading="lazy" src="https://i.ytimg.com/vi/zb2LyMro77M/hqdefault.jpg" alt=""><span class="video-title">How to Actually Run Your Coding Agent Safely (And Avoid the Horror Stories)</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/cole-medin/m8VC2SV2igM"><img loading="lazy" src="https://i.ytimg.com/vi/m8VC2SV2igM/hqdefault.jpg" alt=""><span class="video-title">This Completely Changes the Way We Build Production AI Agents (Vercel Eve)</span><span class="video-date">2026-07-16</span></a>

@@ -5188,6 +5188,42 @@
       "published": "2026-07-29T22:37:43+00:00",
       "url": "https://www.youtube.com/watch?v=_Gd9yzAc-WI",
       "generated": "2026-07-29T23:11:07+00:00"
+    },
+    "8JWhwhxWtJw": {
+      "status": "done",
+      "title": "The Ultimate Knowledge Base: Bring YouTube Into Your AI Second Brain",
+      "channel": "Cole Medin",
+      "channel_slug": "cole-medin",
+      "published": "2026-07-30T00:00:15+00:00",
+      "url": "https://www.youtube.com/watch?v=8JWhwhxWtJw",
+      "generated": "2026-07-30T10:33:28+00:00"
+    },
+    "LsvlQBTamn8": {
+      "video_id": "LsvlQBTamn8",
+      "title": "Anthropic Accidentally Leaked Many Private Claude Chats",
+      "channel": "Better Stack",
+      "published": "2026-07-30T09:00:33+00:00",
+      "url": "https://www.youtube.com/watch?v=LsvlQBTamn8",
+      "channel_slug": "better-stack",
+      "status": "short"
+    },
+    "38z2hdzV_DM": {
+      "video_id": "38z2hdzV_DM",
+      "title": "Is This WordPress's Worst Hack In History?",
+      "channel": "Better Stack",
+      "published": "2026-07-30T08:00:07+00:00",
+      "url": "https://www.youtube.com/watch?v=38z2hdzV_DM",
+      "channel_slug": "better-stack",
+      "status": "blocked"
+    },
+    "F3lL98Pj90o": {
+      "video_id": "F3lL98Pj90o",
+      "title": "/wayfinder: Planning is no longer the AI bottleneck",
+      "channel": "Matt Pocock",
+      "published": "2026-07-30T10:17:45+00:00",
+      "url": "https://www.youtube.com/watch?v=F3lL98Pj90o",
+      "channel_slug": "matt-pocock",
+      "status": "blocked"
     }
   }
 }

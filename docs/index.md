@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **389** videos summarized.
+Auto-generated summaries of subscribed channels. **393** videos summarized.
 
 ## AI Engineer
 
@@ -194,6 +194,8 @@ Auto-generated summaries of subscribed channels. **389** videos summarized.
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/Y_7_rbtQXcs"><img loading="lazy" src="https://i.ytimg.com/vi/Y_7_rbtQXcs/hqdefault.jpg" alt=""><span class="video-title">This is basically an X-ray for your codebase...</span><span class="video-date">2026-07-30</span></a>
+<a class="video-card" href="summaries/better-stack/38z2hdzV_DM"><img loading="lazy" src="https://i.ytimg.com/vi/38z2hdzV_DM/hqdefault.jpg" alt=""><span class="video-title">Is This WordPress&#x27;s Worst Hack In History?</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/better-stack/kl42N7pI7lM"><img loading="lazy" src="https://i.ytimg.com/vi/kl42N7pI7lM/hqdefault.jpg" alt=""><span class="video-title">TypeScript 7 Officially Released And Boy Is It Fast</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/better-stack/IwzVzvDw68w"><img loading="lazy" src="https://i.ytimg.com/vi/IwzVzvDw68w/hqdefault.jpg" alt=""><span class="video-title">Homebrew 6.0 Just Changed How Your Mac Installs Software</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/better-stack/xFWhiWe91BE"><img loading="lazy" src="https://i.ytimg.com/vi/xFWhiWe91BE/hqdefault.jpg" alt=""><span class="video-title">Microsoft Built a New Charting Language for AI Agents</span><span class="video-date">2026-07-27</span></a>
@@ -285,6 +287,7 @@ Auto-generated summaries of subscribed channels. **389** videos summarized.
 ## LangChain
 
 <div class="video-grid">
+<a class="video-card" href="summaries/langchain/bBUotstDLdk"><img loading="lazy" src="https://i.ytimg.com/vi/bBUotstDLdk/hqdefault.jpg" alt=""><span class="video-title">The misaligned incentives behind AI coding agents</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/langchain/MS8tI9nMjeQ"><img loading="lazy" src="https://i.ytimg.com/vi/MS8tI9nMjeQ/hqdefault.jpg" alt=""><span class="video-title">Autonomous Agent Improvement with LangSmith Engine | New LangChain Academy Course</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/langchain/s2mZ_vKNOfI"><img loading="lazy" src="https://i.ytimg.com/vi/s2mZ_vKNOfI/hqdefault.jpg" alt=""><span class="video-title">How Credit Genie Debugs Thousands of Agent Traces with LangSmith</span><span class="video-date">2026-07-27</span></a>
 <a class="video-card" href="summaries/langchain/U5PkKt_uJys"><img loading="lazy" src="https://i.ytimg.com/vi/U5PkKt_uJys/hqdefault.jpg" alt=""><span class="video-title">Inside the Agent Engine: A LangChain and Traversal Fireside Chat</span><span class="video-date">2026-07-24</span></a>
@@ -328,6 +331,7 @@ Auto-generated summaries of subscribed channels. **389** videos summarized.
 ## Matt Pocock
 
 <div class="video-grid">
+<a class="video-card" href="summaries/matt-pocock/F3lL98Pj90o"><img loading="lazy" src="https://i.ytimg.com/vi/F3lL98Pj90o/hqdefault.jpg" alt=""><span class="video-title">/wayfinder: Planning is no longer the AI bottleneck</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/matt-pocock/n0VhIVtviC0"><img loading="lazy" src="https://i.ytimg.com/vi/n0VhIVtviC0/hqdefault.jpg" alt=""><span class="video-title">Don&#x27;t waste time on specs: /prototype instead</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/matt-pocock/M6mYodf0dJM"><img loading="lazy" src="https://i.ytimg.com/vi/M6mYodf0dJM/hqdefault.jpg" alt=""><span class="video-title">mattpocock/skills: Learn the whole flow, end-to-end</span><span class="video-date">2026-07-16</span></a>
 <a class="video-card" href="summaries/matt-pocock/e-pFrQ_Rh0s"><img loading="lazy" src="https://i.ytimg.com/vi/e-pFrQ_Rh0s/hqdefault.jpg" alt=""><span class="video-title">AI Coding is exhausting</span><span class="video-date">2026-07-15</span></a>

@@ -5459,6 +5459,42 @@
       "url": "https://www.youtube.com/watch?v=eP74Vkbn4nA",
       "channel_slug": "ai-native-dev",
       "status": "short"
+    },
+    "fukga_WwMxU": {
+      "video_id": "fukga_WwMxU",
+      "title": "How to prove your AI spend is actually shipping more features",
+      "channel": "Beyond Coding",
+      "published": "2026-07-31T19:02:05+00:00",
+      "url": "https://www.youtube.com/watch?v=fukga_WwMxU",
+      "channel_slug": "beyond-coding",
+      "status": "short"
+    },
+    "IZabCqyBJLg": {
+      "status": "done",
+      "title": "Building Deep Agents and Deploying in Production",
+      "channel": "LangChain",
+      "channel_slug": "langchain",
+      "published": "2026-07-31T19:19:14+00:00",
+      "url": "https://www.youtube.com/watch?v=IZabCqyBJLg",
+      "generated": "2026-07-31T19:52:24+00:00"
+    },
+    "lCBf9slCanI": {
+      "status": "done",
+      "title": "Ending AI Slop — Thais Castello Branco, Taste Labs",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-31T19:26:20+00:00",
+      "url": "https://www.youtube.com/watch?v=lCBf9slCanI",
+      "generated": "2026-07-31T19:48:33+00:00"
+    },
+    "PQwZkTTfHMk": {
+      "video_id": "PQwZkTTfHMk",
+      "title": "Can you REALLY run Kimi K3 locally?",
+      "channel": "Better Stack",
+      "published": "2026-07-31T19:38:25+00:00",
+      "url": "https://www.youtube.com/watch?v=PQwZkTTfHMk",
+      "channel_slug": "better-stack",
+      "status": "short"
     }
   }
 }

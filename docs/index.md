@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **414** videos summarized.
+Auto-generated summaries of subscribed channels. **416** videos summarized.
 
 ## AI Engineer
 
@@ -15,8 +15,10 @@ Auto-generated summaries of subscribed channels. **414** videos summarized.
 <a class="video-card" href="summaries/ai-engineer/lCBf9slCanI"><img loading="lazy" src="https://i.ytimg.com/vi/lCBf9slCanI/hqdefault.jpg" alt=""><span class="video-title">Ending AI Slop — Thais Castello Branco, Taste Labs</span><span class="video-date">2026-07-31</span></a>
 <a class="video-card" href="summaries/ai-engineer/AVMr9PMINyo"><img loading="lazy" src="https://i.ytimg.com/vi/AVMr9PMINyo/hqdefault.jpg" alt=""><span class="video-title">Agents at Scale: Inside MiniMax&#x27;s Model and the Infrastructure Behind It — Olive Song</span><span class="video-date">2026-07-31</span></a>
 <a class="video-card" href="summaries/ai-engineer/AMiyLItEtLA"><img loading="lazy" src="https://i.ytimg.com/vi/AMiyLItEtLA/hqdefault.jpg" alt=""><span class="video-title">fighting slop with slop — Vaibhav Gupta, Boundary</span><span class="video-date">2026-07-31</span></a>
+<a class="video-card" href="summaries/ai-engineer/ewtOo0scUh0"><img loading="lazy" src="https://i.ytimg.com/vi/ewtOo0scUh0/hqdefault.jpg" alt=""><span class="video-title">Data and Environment Curation for Post-Training LLMs — Mahesh Sathiamoorthy, Bespoke Labs</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/ai-engineer/pWXUkLP9uWM"><img loading="lazy" src="https://i.ytimg.com/vi/pWXUkLP9uWM/hqdefault.jpg" alt=""><span class="video-title">First Steps Toward Automated AI Research — Richard Socher, CEO Recursive AI</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/ai-engineer/jWq-aZIU0kM"><img loading="lazy" src="https://i.ytimg.com/vi/jWq-aZIU0kM/hqdefault.jpg" alt=""><span class="video-title">Benchmarks: The Good, the Bad, and the Ugly — Ali Khial, G2i</span><span class="video-date">2026-07-30</span></a>
+<a class="video-card" href="summaries/ai-engineer/k35LeKZEhiE"><img loading="lazy" src="https://i.ytimg.com/vi/k35LeKZEhiE/hqdefault.jpg" alt=""><span class="video-title">Learning on the Job: The Future of Post-Training — Raymond Feng, Applied Compute</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/ai-engineer/AQv3qRCG6Gw"><img loading="lazy" src="https://i.ytimg.com/vi/AQv3qRCG6Gw/hqdefault.jpg" alt=""><span class="video-title">Reinforcement Learning without Verifiable Rewards — Will Brown, Prime Intellect</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/ai-engineer/YnNF55QV0zs"><img loading="lazy" src="https://i.ytimg.com/vi/YnNF55QV0zs/hqdefault.jpg" alt=""><span class="video-title">Persona Engineering: A Field Guide to AI Synthetic Personas — Ishan Anand, InsightSciences.ai</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/ai-engineer/kiqubc5b5Yo"><img loading="lazy" src="https://i.ytimg.com/vi/kiqubc5b5Yo/hqdefault.jpg" alt=""><span class="video-title">Morgan Stanley&#x27;s ALPHALAB: Multi-Agent Research Across Optimization Domains — Brendan Rappazzo</span><span class="video-date">2026-07-29</span></a>

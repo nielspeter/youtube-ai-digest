@@ -5531,7 +5531,7 @@
       "url": "https://www.youtube.com/watch?v=_PdK6x7PQNM",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 1
+      "attempts": 2
     },
     "2aS7aKoXn64": {
       "video_id": "2aS7aKoXn64",
@@ -5541,7 +5541,7 @@
       "url": "https://www.youtube.com/watch?v=2aS7aKoXn64",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 1
+      "attempts": 2
     },
     "ZFxh7sqbUZo": {
       "video_id": "ZFxh7sqbUZo",
@@ -5551,7 +5551,7 @@
       "url": "https://www.youtube.com/watch?v=ZFxh7sqbUZo",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 1
+      "attempts": 2
     },
     "2bvtay8wGYI": {
       "video_id": "2bvtay8wGYI",
@@ -5560,28 +5560,26 @@
       "published": "2026-07-30T23:22:44+00:00",
       "url": "https://www.youtube.com/watch?v=2bvtay8wGYI",
       "channel_slug": "ai-engineer",
-      "status": "no_transcript",
-      "attempts": 1
+      "attempts": 1,
+      "status": "blocked"
     },
     "ewtOo0scUh0": {
-      "video_id": "ewtOo0scUh0",
+      "status": "done",
       "title": "Data and Environment Curation for Post-Training LLMs — Mahesh Sathiamoorthy, Bespoke Labs",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-30T23:20:52+00:00",
       "url": "https://www.youtube.com/watch?v=ewtOo0scUh0",
-      "channel_slug": "ai-engineer",
-      "status": "no_transcript",
-      "attempts": 1
+      "generated": "2026-07-31T23:16:18+00:00"
     },
     "k35LeKZEhiE": {
-      "video_id": "k35LeKZEhiE",
+      "status": "done",
       "title": "Learning on the Job: The Future of Post-Training — Raymond Feng, Applied Compute",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-30T11:22:55+00:00",
       "url": "https://www.youtube.com/watch?v=k35LeKZEhiE",
-      "channel_slug": "ai-engineer",
-      "status": "no_transcript",
-      "attempts": 1
+      "generated": "2026-07-31T23:17:02+00:00"
     }
   }
 }

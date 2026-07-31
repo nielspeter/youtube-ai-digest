@@ -5396,7 +5396,7 @@
       "url": "https://www.youtube.com/watch?v=jWq-aZIU0kM",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 1
+      "attempts": 2
     },
     "AQv3qRCG6Gw": {
       "video_id": "AQv3qRCG6Gw",
@@ -5406,7 +5406,7 @@
       "url": "https://www.youtube.com/watch?v=AQv3qRCG6Gw",
       "channel_slug": "ai-engineer",
       "status": "no_transcript",
-      "attempts": 1
+      "attempts": 2
     },
     "0qXVMt3pIjU": {
       "status": "done",
@@ -5416,6 +5416,15 @@
       "published": "2026-07-31T09:00:07+00:00",
       "url": "https://www.youtube.com/watch?v=0qXVMt3pIjU",
       "generated": "2026-07-31T10:49:50+00:00"
+    },
+    "E5qThSVlFzY": {
+      "video_id": "E5qThSVlFzY",
+      "title": "The Complete Local AI System with A Single NPM Install!",
+      "channel": "Cole Medin",
+      "published": "2026-07-31T14:00:22+00:00",
+      "url": "https://www.youtube.com/watch?v=E5qThSVlFzY",
+      "channel_slug": "cole-medin",
+      "status": "short"
     }
   }
 }

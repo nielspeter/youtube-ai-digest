@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **403** videos summarized.
+Auto-generated summaries of subscribed channels. **404** videos summarized.
 
 ## AI Engineer
 
@@ -271,6 +271,7 @@ Auto-generated summaries of subscribed channels. **403** videos summarized.
 
 <div class="video-grid">
 <a class="video-card" href="summaries/google-deepmind/fo9WirRIaVs"><img loading="lazy" src="https://i.ytimg.com/vi/fo9WirRIaVs/hqdefault.jpg" alt=""><span class="video-title">Robots working together with Gemini Robotics 2</span><span class="video-date">2026-07-30</span></a>
+<a class="video-card" href="summaries/google-deepmind/nBftSI5mmHA"><img loading="lazy" src="https://i.ytimg.com/vi/nBftSI5mmHA/hqdefault.jpg" alt=""><span class="video-title">Tasks that require whole-body control with Gemini Robotics 2</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/google-deepmind/9MNLEAzA59o"><img loading="lazy" src="https://i.ytimg.com/vi/9MNLEAzA59o/hqdefault.jpg" alt=""><span class="video-title">Intelligent whole-body control with Gemini Robotics 2</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/google-deepmind/CiTPDm7PKW0"><img loading="lazy" src="https://i.ytimg.com/vi/CiTPDm7PKW0/hqdefault.jpg" alt=""><span class="video-title">Multi-robot collaboration with Gemini Robotics 2</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/google-deepmind/O9-650iHAls"><img loading="lazy" src="https://i.ytimg.com/vi/O9-650iHAls/hqdefault.jpg" alt=""><span class="video-title">Advanced dexterity with Gemini Robotics 2</span><span class="video-date">2026-07-30</span></a>

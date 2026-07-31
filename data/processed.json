@@ -5262,14 +5262,13 @@
       "generated": "2026-07-30T21:22:10+00:00"
     },
     "nBftSI5mmHA": {
-      "video_id": "nBftSI5mmHA",
+      "status": "done",
       "title": "Tasks that require whole-body control with Gemini Robotics 2",
       "channel": "Google DeepMind",
+      "channel_slug": "google-deepmind",
       "published": "2026-07-30T14:58:12+00:00",
       "url": "https://www.youtube.com/watch?v=nBftSI5mmHA",
-      "channel_slug": "google-deepmind",
-      "attempts": 4,
-      "status": "blocked"
+      "generated": "2026-07-31T06:52:49+00:00"
     },
     "wYVHxw2-DP4": {
       "video_id": "wYVHxw2-DP4",
@@ -5279,7 +5278,7 @@
       "url": "https://www.youtube.com/watch?v=wYVHxw2-DP4",
       "channel_slug": "google-deepmind",
       "status": "no_transcript",
-      "attempts": 5
+      "attempts": 6
     },
     "9MNLEAzA59o": {
       "status": "done",

@@ -5389,24 +5389,22 @@
       "generated": "2026-07-31T10:53:10+00:00"
     },
     "jWq-aZIU0kM": {
-      "video_id": "jWq-aZIU0kM",
+      "status": "done",
       "title": "Benchmarks: The Good, the Bad, and the Ugly — Ali Khial, G2i",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-30T11:23:32+00:00",
       "url": "https://www.youtube.com/watch?v=jWq-aZIU0kM",
-      "channel_slug": "ai-engineer",
-      "status": "no_transcript",
-      "attempts": 2
+      "generated": "2026-07-31T17:50:09+00:00"
     },
     "AQv3qRCG6Gw": {
-      "video_id": "AQv3qRCG6Gw",
+      "status": "done",
       "title": "Reinforcement Learning without Verifiable Rewards — Will Brown, Prime Intellect",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-30T11:21:02+00:00",
       "url": "https://www.youtube.com/watch?v=AQv3qRCG6Gw",
-      "channel_slug": "ai-engineer",
-      "status": "no_transcript",
-      "attempts": 2
+      "generated": "2026-07-31T17:50:56+00:00"
     },
     "0qXVMt3pIjU": {
       "status": "done",
@@ -5424,6 +5422,42 @@
       "published": "2026-07-31T14:00:22+00:00",
       "url": "https://www.youtube.com/watch?v=E5qThSVlFzY",
       "channel_slug": "cole-medin",
+      "status": "short"
+    },
+    "UWpNnpswc8Q": {
+      "video_id": "UWpNnpswc8Q",
+      "title": "Why Do AI Agents Hallucinate?",
+      "channel": "LangChain",
+      "published": "2026-07-31T17:09:48+00:00",
+      "url": "https://www.youtube.com/watch?v=UWpNnpswc8Q",
+      "channel_slug": "langchain",
+      "status": "short"
+    },
+    "2dBFdTWaftc": {
+      "video_id": "2dBFdTWaftc",
+      "title": "They Finally Did the Impossible With a 2,000-Year-Old Scroll #ai #artificialintelligence #coding",
+      "channel": "Better Stack",
+      "published": "2026-07-31T15:00:21+00:00",
+      "url": "https://www.youtube.com/watch?v=2dBFdTWaftc",
+      "channel_slug": "better-stack",
+      "status": "short"
+    },
+    "OEmEfobzodE": {
+      "video_id": "OEmEfobzodE",
+      "title": "This is Gemini Robotics 2 🤖",
+      "channel": "Google DeepMind",
+      "published": "2026-07-31T16:10:59+00:00",
+      "url": "https://www.youtube.com/watch?v=OEmEfobzodE",
+      "channel_slug": "google-deepmind",
+      "status": "short"
+    },
+    "eP74Vkbn4nA": {
+      "video_id": "eP74Vkbn4nA",
+      "title": "The Engineer as Mechanic",
+      "channel": "AI Native Dev",
+      "published": "2026-07-31T16:30:04+00:00",
+      "url": "https://www.youtube.com/watch?v=eP74Vkbn4nA",
+      "channel_slug": "ai-native-dev",
       "status": "short"
     }
   }

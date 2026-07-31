@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **402** videos summarized.
+Auto-generated summaries of subscribed channels. **403** videos summarized.
 
 ## AI Engineer
 
@@ -357,6 +357,7 @@ Auto-generated summaries of subscribed channels. **402** videos summarized.
 ## Matthew Berman
 
 <div class="video-grid">
+<a class="video-card" href="summaries/matthew-berman/wAPDmc8e22U"><img loading="lazy" src="https://i.ytimg.com/vi/wAPDmc8e22U/hqdefault.jpg" alt=""><span class="video-title">GPT-5.6 just made itself CHEAPER</span><span class="video-date">2026-07-31</span></a>
 <a class="video-card" href="summaries/matthew-berman/N80TzPCHbNg"><img loading="lazy" src="https://i.ytimg.com/vi/N80TzPCHbNg/hqdefault.jpg" alt=""><span class="video-title">This letter could change EVERYTHING</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/matthew-berman/w9cCOUD-qDM"><img loading="lazy" src="https://i.ytimg.com/vi/w9cCOUD-qDM/hqdefault.jpg" alt=""><span class="video-title">AI can&#x27;t READ this</span><span class="video-date">2026-07-27</span></a>
 <a class="video-card" href="summaries/matthew-berman/tHQ34j8_toI"><img loading="lazy" src="https://i.ytimg.com/vi/tHQ34j8_toI/hqdefault.jpg" alt=""><span class="video-title">Opus 5 is FINALLY here! (WOAH)</span><span class="video-date">2026-07-24</span></a>

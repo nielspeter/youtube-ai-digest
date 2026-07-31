@@ -4,11 +4,14 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **411** videos summarized.
+Auto-generated summaries of subscribed channels. **414** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/zkX03APVj0M"><img loading="lazy" src="https://i.ytimg.com/vi/zkX03APVj0M/hqdefault.jpg" alt=""><span class="video-title">Emulated: The Data for Fully Autonomous Software Engineers and Companies — Joseph Wang</span><span class="video-date">2026-07-31</span></a>
+<a class="video-card" href="summaries/ai-engineer/xbPriQWXtWM"><img loading="lazy" src="https://i.ytimg.com/vi/xbPriQWXtWM/hqdefault.jpg" alt=""><span class="video-title">The Base Model Is Dead — Varun Singh, Arcee AI</span><span class="video-date">2026-07-31</span></a>
+<a class="video-card" href="summaries/ai-engineer/3ZMUiFaQ3qg"><img loading="lazy" src="https://i.ytimg.com/vi/3ZMUiFaQ3qg/hqdefault.jpg" alt=""><span class="video-title">Verifiable Environments for AI in Biology — Kenny Workman, LatchBio</span><span class="video-date">2026-07-31</span></a>
 <a class="video-card" href="summaries/ai-engineer/lCBf9slCanI"><img loading="lazy" src="https://i.ytimg.com/vi/lCBf9slCanI/hqdefault.jpg" alt=""><span class="video-title">Ending AI Slop — Thais Castello Branco, Taste Labs</span><span class="video-date">2026-07-31</span></a>
 <a class="video-card" href="summaries/ai-engineer/AVMr9PMINyo"><img loading="lazy" src="https://i.ytimg.com/vi/AVMr9PMINyo/hqdefault.jpg" alt=""><span class="video-title">Agents at Scale: Inside MiniMax&#x27;s Model and the Infrastructure Behind It — Olive Song</span><span class="video-date">2026-07-31</span></a>
 <a class="video-card" href="summaries/ai-engineer/AMiyLItEtLA"><img loading="lazy" src="https://i.ytimg.com/vi/AMiyLItEtLA/hqdefault.jpg" alt=""><span class="video-title">fighting slop with slop — Vaibhav Gupta, Boundary</span><span class="video-date">2026-07-31</span></a>

@@ -4,11 +4,13 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **404** videos summarized.
+Auto-generated summaries of subscribed channels. **407** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/AVMr9PMINyo"><img loading="lazy" src="https://i.ytimg.com/vi/AVMr9PMINyo/hqdefault.jpg" alt=""><span class="video-title">Agents at Scale: Inside MiniMax&#x27;s Model and the Infrastructure Behind It — Olive Song</span><span class="video-date">2026-07-31</span></a>
+<a class="video-card" href="summaries/ai-engineer/AMiyLItEtLA"><img loading="lazy" src="https://i.ytimg.com/vi/AMiyLItEtLA/hqdefault.jpg" alt=""><span class="video-title">fighting slop with slop — Vaibhav Gupta, Boundary</span><span class="video-date">2026-07-31</span></a>
 <a class="video-card" href="summaries/ai-engineer/pWXUkLP9uWM"><img loading="lazy" src="https://i.ytimg.com/vi/pWXUkLP9uWM/hqdefault.jpg" alt=""><span class="video-title">First Steps Toward Automated AI Research — Richard Socher, CEO Recursive AI</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/ai-engineer/YnNF55QV0zs"><img loading="lazy" src="https://i.ytimg.com/vi/YnNF55QV0zs/hqdefault.jpg" alt=""><span class="video-title">Persona Engineering: A Field Guide to AI Synthetic Personas — Ishan Anand, InsightSciences.ai</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/ai-engineer/kiqubc5b5Yo"><img loading="lazy" src="https://i.ytimg.com/vi/kiqubc5b5Yo/hqdefault.jpg" alt=""><span class="video-title">Morgan Stanley&#x27;s ALPHALAB: Multi-Agent Research Across Optimization Domains — Brendan Rappazzo</span><span class="video-date">2026-07-29</span></a>
@@ -196,6 +198,7 @@ Auto-generated summaries of subscribed channels. **404** videos summarized.
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/0qXVMt3pIjU"><img loading="lazy" src="https://i.ytimg.com/vi/0qXVMt3pIjU/hqdefault.jpg" alt=""><span class="video-title">This $8 Microcontroller Is Running a Language Model Locally!</span><span class="video-date">2026-07-31</span></a>
 <a class="video-card" href="summaries/better-stack/ZRsDQp9CrXc"><img loading="lazy" src="https://i.ytimg.com/vi/ZRsDQp9CrXc/hqdefault.jpg" alt=""><span class="video-title">Stop Paying for Dictation! This App Is Better and Free. (handy)</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/better-stack/Y_7_rbtQXcs"><img loading="lazy" src="https://i.ytimg.com/vi/Y_7_rbtQXcs/hqdefault.jpg" alt=""><span class="video-title">This is basically an X-ray for your codebase...</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/better-stack/38z2hdzV_DM"><img loading="lazy" src="https://i.ytimg.com/vi/38z2hdzV_DM/hqdefault.jpg" alt=""><span class="video-title">Is This WordPress&#x27;s Worst Hack In History?</span><span class="video-date">2026-07-30</span></a>

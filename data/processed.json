@@ -5369,6 +5369,53 @@
       "published": "2026-07-31T00:23:46+00:00",
       "url": "https://www.youtube.com/watch?v=wAPDmc8e22U",
       "generated": "2026-07-31T03:46:51+00:00"
+    },
+    "AVMr9PMINyo": {
+      "status": "done",
+      "title": "Agents at Scale: Inside MiniMax's Model and the Infrastructure Behind It — Olive Song",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-31T03:00:14+00:00",
+      "url": "https://www.youtube.com/watch?v=AVMr9PMINyo",
+      "generated": "2026-07-31T10:50:56+00:00"
+    },
+    "AMiyLItEtLA": {
+      "status": "done",
+      "title": "fighting slop with slop — Vaibhav Gupta, Boundary",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-31T01:11:30+00:00",
+      "url": "https://www.youtube.com/watch?v=AMiyLItEtLA",
+      "generated": "2026-07-31T10:53:10+00:00"
+    },
+    "jWq-aZIU0kM": {
+      "video_id": "jWq-aZIU0kM",
+      "title": "Benchmarks: The Good, the Bad, and the Ugly — Ali Khial, G2i",
+      "channel": "AI Engineer",
+      "published": "2026-07-30T11:23:32+00:00",
+      "url": "https://www.youtube.com/watch?v=jWq-aZIU0kM",
+      "channel_slug": "ai-engineer",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "AQv3qRCG6Gw": {
+      "video_id": "AQv3qRCG6Gw",
+      "title": "Reinforcement Learning without Verifiable Rewards — Will Brown, Prime Intellect",
+      "channel": "AI Engineer",
+      "published": "2026-07-30T11:21:02+00:00",
+      "url": "https://www.youtube.com/watch?v=AQv3qRCG6Gw",
+      "channel_slug": "ai-engineer",
+      "status": "no_transcript",
+      "attempts": 1
+    },
+    "0qXVMt3pIjU": {
+      "status": "done",
+      "title": "This $8 Microcontroller Is Running a Language Model Locally!",
+      "channel": "Better Stack",
+      "channel_slug": "better-stack",
+      "published": "2026-07-31T09:00:07+00:00",
+      "url": "https://www.youtube.com/watch?v=0qXVMt3pIjU",
+      "generated": "2026-07-31T10:49:50+00:00"
     }
   }
 }

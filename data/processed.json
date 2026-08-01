@@ -5524,24 +5524,22 @@
       "generated": "2026-07-31T21:19:57+00:00"
     },
     "_PdK6x7PQNM": {
-      "video_id": "_PdK6x7PQNM",
+      "status": "done",
       "title": "Data Quality Is the Compute Multiplier — Ari Morcos, DatologyAI",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-30T23:26:10+00:00",
       "url": "https://www.youtube.com/watch?v=_PdK6x7PQNM",
-      "channel_slug": "ai-engineer",
-      "status": "no_transcript",
-      "attempts": 2
+      "generated": "2026-08-01T03:48:03+00:00"
     },
     "2aS7aKoXn64": {
-      "video_id": "2aS7aKoXn64",
+      "status": "done",
       "title": "Rethinking Environments for Long-Horizon Work — Rayan Garg, Theta Software",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-30T23:25:30+00:00",
       "url": "https://www.youtube.com/watch?v=2aS7aKoXn64",
-      "channel_slug": "ai-engineer",
-      "status": "no_transcript",
-      "attempts": 2
+      "generated": "2026-08-01T03:49:58+00:00"
     },
     "ZFxh7sqbUZo": {
       "video_id": "ZFxh7sqbUZo",
@@ -5550,8 +5548,8 @@
       "published": "2026-07-30T23:24:37+00:00",
       "url": "https://www.youtube.com/watch?v=ZFxh7sqbUZo",
       "channel_slug": "ai-engineer",
-      "status": "no_transcript",
-      "attempts": 2
+      "attempts": 2,
+      "status": "blocked"
     },
     "2bvtay8wGYI": {
       "video_id": "2bvtay8wGYI",
@@ -5580,6 +5578,15 @@
       "published": "2026-07-30T11:22:55+00:00",
       "url": "https://www.youtube.com/watch?v=k35LeKZEhiE",
       "generated": "2026-07-31T23:17:02+00:00"
+    },
+    "cJ0EOzey--o": {
+      "status": "done",
+      "title": "What's Next After RLHF? — Diogo Almeida, TypeSafe AI",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-07-31T23:30:06+00:00",
+      "url": "https://www.youtube.com/watch?v=cJ0EOzey--o",
+      "generated": "2026-08-01T03:46:06+00:00"
     }
   }
 }

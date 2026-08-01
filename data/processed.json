@@ -5542,14 +5542,13 @@
       "generated": "2026-08-01T03:49:58+00:00"
     },
     "ZFxh7sqbUZo": {
-      "video_id": "ZFxh7sqbUZo",
+      "status": "done",
       "title": "Teaching AI to Find Real Vulnerabilities — David Brumley, Bugcrowd",
       "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
       "published": "2026-07-30T23:24:37+00:00",
       "url": "https://www.youtube.com/watch?v=ZFxh7sqbUZo",
-      "channel_slug": "ai-engineer",
-      "attempts": 2,
-      "status": "blocked"
+      "generated": "2026-08-01T06:38:49+00:00"
     },
     "2bvtay8wGYI": {
       "video_id": "2bvtay8wGYI",

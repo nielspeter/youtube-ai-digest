@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **420** videos summarized.
+Auto-generated summaries of subscribed channels. **422** videos summarized.
 
 ## AI Engineer
 
@@ -19,6 +19,7 @@ Auto-generated summaries of subscribed channels. **420** videos summarized.
 <a class="video-card" href="summaries/ai-engineer/_PdK6x7PQNM"><img loading="lazy" src="https://i.ytimg.com/vi/_PdK6x7PQNM/hqdefault.jpg" alt=""><span class="video-title">Data Quality Is the Compute Multiplier — Ari Morcos, DatologyAI</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/ai-engineer/2aS7aKoXn64"><img loading="lazy" src="https://i.ytimg.com/vi/2aS7aKoXn64/hqdefault.jpg" alt=""><span class="video-title">Rethinking Environments for Long-Horizon Work — Rayan Garg, Theta Software</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/ai-engineer/ZFxh7sqbUZo"><img loading="lazy" src="https://i.ytimg.com/vi/ZFxh7sqbUZo/hqdefault.jpg" alt=""><span class="video-title">Teaching AI to Find Real Vulnerabilities — David Brumley, Bugcrowd</span><span class="video-date">2026-07-30</span></a>
+<a class="video-card" href="summaries/ai-engineer/2bvtay8wGYI"><img loading="lazy" src="https://i.ytimg.com/vi/2bvtay8wGYI/hqdefault.jpg" alt=""><span class="video-title">Scaling to Long Horizons — Ross Taylor &amp; Chengxi Taylor, General Reasoning</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/ai-engineer/ewtOo0scUh0"><img loading="lazy" src="https://i.ytimg.com/vi/ewtOo0scUh0/hqdefault.jpg" alt=""><span class="video-title">Data and Environment Curation for Post-Training LLMs — Mahesh Sathiamoorthy, Bespoke Labs</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/ai-engineer/pWXUkLP9uWM"><img loading="lazy" src="https://i.ytimg.com/vi/pWXUkLP9uWM/hqdefault.jpg" alt=""><span class="video-title">First Steps Toward Automated AI Research — Richard Socher, CEO Recursive AI</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/ai-engineer/jWq-aZIU0kM"><img loading="lazy" src="https://i.ytimg.com/vi/jWq-aZIU0kM/hqdefault.jpg" alt=""><span class="video-title">Benchmarks: The Good, the Bad, and the Ugly — Ali Khial, G2i</span><span class="video-date">2026-07-30</span></a>
@@ -210,6 +211,7 @@ Auto-generated summaries of subscribed channels. **420** videos summarized.
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/vHhephsP6vU"><img loading="lazy" src="https://i.ytimg.com/vi/vHhephsP6vU/hqdefault.jpg" alt=""><span class="video-title">Apple Silicon Can Run Local AI With Just 2GB Of RAM</span><span class="video-date">2026-08-01</span></a>
 <a class="video-card" href="summaries/better-stack/0qXVMt3pIjU"><img loading="lazy" src="https://i.ytimg.com/vi/0qXVMt3pIjU/hqdefault.jpg" alt=""><span class="video-title">This $8 Microcontroller Is Running a Language Model Locally!</span><span class="video-date">2026-07-31</span></a>
 <a class="video-card" href="summaries/better-stack/ZRsDQp9CrXc"><img loading="lazy" src="https://i.ytimg.com/vi/ZRsDQp9CrXc/hqdefault.jpg" alt=""><span class="video-title">Stop Paying for Dictation! This App Is Better and Free. (handy)</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/better-stack/Y_7_rbtQXcs"><img loading="lazy" src="https://i.ytimg.com/vi/Y_7_rbtQXcs/hqdefault.jpg" alt=""><span class="video-title">This is basically an X-ray for your codebase...</span><span class="video-date">2026-07-30</span></a>

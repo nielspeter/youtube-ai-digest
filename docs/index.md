@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **423** videos summarized.
+Auto-generated summaries of subscribed channels. **424** videos summarized.
 
 ## AI Engineer
 
@@ -211,6 +211,7 @@ Auto-generated summaries of subscribed channels. **423** videos summarized.
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/JZf_m_BVDaQ"><img loading="lazy" src="https://i.ytimg.com/vi/JZf_m_BVDaQ/hqdefault.jpg" alt=""><span class="video-title">This UI component library is AWESOME (Canvas UI)</span><span class="video-date">2026-08-02</span></a>
 <a class="video-card" href="summaries/better-stack/vHhephsP6vU"><img loading="lazy" src="https://i.ytimg.com/vi/vHhephsP6vU/hqdefault.jpg" alt=""><span class="video-title">Apple Silicon Can Run Local AI With Just 2GB Of RAM</span><span class="video-date">2026-08-01</span></a>
 <a class="video-card" href="summaries/better-stack/0qXVMt3pIjU"><img loading="lazy" src="https://i.ytimg.com/vi/0qXVMt3pIjU/hqdefault.jpg" alt=""><span class="video-title">This $8 Microcontroller Is Running a Language Model Locally!</span><span class="video-date">2026-07-31</span></a>
 <a class="video-card" href="summaries/better-stack/ZRsDQp9CrXc"><img loading="lazy" src="https://i.ytimg.com/vi/ZRsDQp9CrXc/hqdefault.jpg" alt=""><span class="video-title">Stop Paying for Dictation! This App Is Better and Free. (handy)</span><span class="video-date">2026-07-30</span></a>

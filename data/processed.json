@@ -5657,6 +5657,15 @@
       "url": "https://www.youtube.com/watch?v=yMpgmz8xdxE",
       "channel_slug": "beyond-coding",
       "status": "short"
+    },
+    "6nb0k-nzn4o": {
+      "video_id": "6nb0k-nzn4o",
+      "title": "OpenWorker is an open-source agent that does your work for you.",
+      "channel": "Better Stack",
+      "published": "2026-08-02T12:00:24+00:00",
+      "url": "https://www.youtube.com/watch?v=6nb0k-nzn4o",
+      "channel_slug": "better-stack",
+      "status": "short"
     }
   }
 }

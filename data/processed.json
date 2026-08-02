@@ -5666,6 +5666,24 @@
       "url": "https://www.youtube.com/watch?v=6nb0k-nzn4o",
       "channel_slug": "better-stack",
       "status": "short"
+    },
+    "-npY6XjM8CQ": {
+      "status": "done",
+      "title": "When Will The Benchmaxxing Plague End? — Nick Heiner, Surge AI",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-08-02T16:30:06+00:00",
+      "url": "https://www.youtube.com/watch?v=-npY6XjM8CQ",
+      "generated": "2026-08-02T17:12:10+00:00"
+    },
+    "YDB_rzVacKY": {
+      "video_id": "YDB_rzVacKY",
+      "title": "Are software engineers really engineers?",
+      "channel": "The Pragmatic Engineer",
+      "published": "2026-08-02T16:00:37+00:00",
+      "url": "https://www.youtube.com/watch?v=YDB_rzVacKY",
+      "channel_slug": "the-pragmatic-engineer",
+      "status": "short"
     }
   }
 }

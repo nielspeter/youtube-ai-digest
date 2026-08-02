@@ -5684,6 +5684,15 @@
       "url": "https://www.youtube.com/watch?v=YDB_rzVacKY",
       "channel_slug": "the-pragmatic-engineer",
       "status": "short"
+    },
+    "s4r6nk5WsZw": {
+      "status": "done",
+      "title": "MCP Tasks (async): Why Aren't Any Agents Supporting Them? — Cornelia Davis, Temporal",
+      "channel": "AI Engineer",
+      "channel_slug": "ai-engineer",
+      "published": "2026-08-02T20:00:06+00:00",
+      "url": "https://www.youtube.com/watch?v=s4r6nk5WsZw",
+      "generated": "2026-08-02T21:08:08+00:00"
     }
   }
 }

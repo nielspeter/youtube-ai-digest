@@ -4,11 +4,12 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **425** videos summarized.
+Auto-generated summaries of subscribed channels. **426** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/s4r6nk5WsZw"><img loading="lazy" src="https://i.ytimg.com/vi/s4r6nk5WsZw/hqdefault.jpg" alt=""><span class="video-title">MCP Tasks (async): Why Aren&#x27;t Any Agents Supporting Them? — Cornelia Davis, Temporal</span><span class="video-date">2026-08-02</span></a>
 <a class="video-card" href="summaries/ai-engineer/-npY6XjM8CQ"><img loading="lazy" src="https://i.ytimg.com/vi/-npY6XjM8CQ/hqdefault.jpg" alt=""><span class="video-title">When Will The Benchmaxxing Plague End? — Nick Heiner, Surge AI</span><span class="video-date">2026-08-02</span></a>
 <a class="video-card" href="summaries/ai-engineer/cJ0EOzey--o"><img loading="lazy" src="https://i.ytimg.com/vi/cJ0EOzey--o/hqdefault.jpg" alt=""><span class="video-title">What&#x27;s Next After RLHF? — Diogo Almeida, TypeSafe AI</span><span class="video-date">2026-07-31</span></a>
 <a class="video-card" href="summaries/ai-engineer/zkX03APVj0M"><img loading="lazy" src="https://i.ytimg.com/vi/zkX03APVj0M/hqdefault.jpg" alt=""><span class="video-title">Emulated: The Data for Fully Autonomous Software Engineers and Companies — Joseph Wang</span><span class="video-date">2026-07-31</span></a>

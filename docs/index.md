@@ -4,11 +4,12 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **431** videos summarized.
+Auto-generated summaries of subscribed channels. **432** videos summarized.
 
 ## AI Engineer
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-engineer/jQDXzEVHMSE"><img loading="lazy" src="https://i.ytimg.com/vi/jQDXzEVHMSE/hqdefault.jpg" alt=""><span class="video-title">Building Turbopuffer: Gergely Orosz (@pragmaticengineer ) × Simon Eskildsen (CEO)</span><span class="video-date">2026-08-03</span></a>
 <a class="video-card" href="summaries/ai-engineer/-jY2T2PiJBE"><img loading="lazy" src="https://i.ytimg.com/vi/-jY2T2PiJBE/hqdefault.jpg" alt=""><span class="video-title">MCP Apps: Extending the Frontier — Ido Salomon &amp; Liad Yosef</span><span class="video-date">2026-08-02</span></a>
 <a class="video-card" href="summaries/ai-engineer/s4r6nk5WsZw"><img loading="lazy" src="https://i.ytimg.com/vi/s4r6nk5WsZw/hqdefault.jpg" alt=""><span class="video-title">MCP Tasks (async): Why Aren&#x27;t Any Agents Supporting Them? — Cornelia Davis, Temporal</span><span class="video-date">2026-08-02</span></a>
 <a class="video-card" href="summaries/ai-engineer/-npY6XjM8CQ"><img loading="lazy" src="https://i.ytimg.com/vi/-npY6XjM8CQ/hqdefault.jpg" alt=""><span class="video-title">When Will The Benchmaxxing Plague End? — Nick Heiner, Surge AI</span><span class="video-date">2026-08-02</span></a>

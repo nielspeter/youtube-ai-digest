@@ -5693,6 +5693,15 @@
       "published": "2026-08-02T20:00:06+00:00",
       "url": "https://www.youtube.com/watch?v=s4r6nk5WsZw",
       "generated": "2026-08-02T21:08:08+00:00"
+    },
+    "-jY2T2PiJBE": {
+      "video_id": "-jY2T2PiJBE",
+      "title": "MCP Apps: Extending the Frontier — Ido Salomon & Liad Yosef",
+      "channel": "AI Engineer",
+      "published": "2026-08-02T23:30:06+00:00",
+      "url": "https://www.youtube.com/watch?v=-jY2T2PiJBE",
+      "channel_slug": "ai-engineer",
+      "status": "blocked"
     }
   }
 }

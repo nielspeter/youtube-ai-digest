@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **427** videos summarized.
+Auto-generated summaries of subscribed channels. **431** videos summarized.
 
 ## AI Engineer
 
@@ -159,6 +159,8 @@ Auto-generated summaries of subscribed channels. **427** videos summarized.
 ## AI Native Dev
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-native-dev/A99UsxSJeJ0"><img loading="lazy" src="https://i.ytimg.com/vi/A99UsxSJeJ0/hqdefault.jpg" alt=""><span class="video-title">The Hallway Track: Would You Trust an Agent to Send Your Email?</span><span class="video-date">2026-08-03</span></a>
+<a class="video-card" href="summaries/ai-native-dev/g_iDPqIRvfI"><img loading="lazy" src="https://i.ytimg.com/vi/g_iDPqIRvfI/hqdefault.jpg" alt=""><span class="video-title">Agents Write 95% of Our Code. Here&#x27;s the Catch</span><span class="video-date">2026-08-03</span></a>
 <a class="video-card" href="summaries/ai-native-dev/DLjarZe0Xqc"><img loading="lazy" src="https://i.ytimg.com/vi/DLjarZe0Xqc/hqdefault.jpg" alt=""><span class="video-title">The Hallway Track: What Even Is Harness Engineering</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/ai-native-dev/Jwz0k8ZK9TE"><img loading="lazy" src="https://i.ytimg.com/vi/Jwz0k8ZK9TE/hqdefault.jpg" alt=""><span class="video-title">We Scored Oracle&#x27;s Database Skill Live: 95% Isn&#x27;t Enough</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/ai-native-dev/1grkxo4cyKY"><img loading="lazy" src="https://i.ytimg.com/vi/1grkxo4cyKY/hqdefault.jpg" alt=""><span class="video-title">Stephane Jourdan, Simon Rohrer &amp; Pini Reznik - From Pipelines to Prompts: Surviving the Shift to AI</span><span class="video-date">2026-07-29</span></a>
@@ -214,6 +216,7 @@ Auto-generated summaries of subscribed channels. **427** videos summarized.
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/viHqe5QqTd0"><img loading="lazy" src="https://i.ytimg.com/vi/viHqe5QqTd0/hqdefault.jpg" alt=""><span class="video-title">Claude Opus 5 one-shotted this game...</span><span class="video-date">2026-08-03</span></a>
 <a class="video-card" href="summaries/better-stack/JZf_m_BVDaQ"><img loading="lazy" src="https://i.ytimg.com/vi/JZf_m_BVDaQ/hqdefault.jpg" alt=""><span class="video-title">This UI component library is AWESOME (Canvas UI)</span><span class="video-date">2026-08-02</span></a>
 <a class="video-card" href="summaries/better-stack/vHhephsP6vU"><img loading="lazy" src="https://i.ytimg.com/vi/vHhephsP6vU/hqdefault.jpg" alt=""><span class="video-title">Apple Silicon Can Run Local AI With Just 2GB Of RAM</span><span class="video-date">2026-08-01</span></a>
 <a class="video-card" href="summaries/better-stack/0qXVMt3pIjU"><img loading="lazy" src="https://i.ytimg.com/vi/0qXVMt3pIjU/hqdefault.jpg" alt=""><span class="video-title">This $8 Microcontroller Is Running a Language Model Locally!</span><span class="video-date">2026-07-31</span></a>
@@ -310,6 +313,7 @@ Auto-generated summaries of subscribed channels. **427** videos summarized.
 ## IndyDevDan
 
 <div class="video-grid">
+<a class="video-card" href="summaries/indydevdan/haUfb1ievTE"><img loading="lazy" src="https://i.ytimg.com/vi/haUfb1ievTE/hqdefault.jpg" alt=""><span class="video-title">My Super Simple Software Factory (For Agentic Engineers)</span><span class="video-date">2026-08-03</span></a>
 <a class="video-card" href="summaries/indydevdan/qh4vLlit97I"><img loading="lazy" src="https://i.ytimg.com/vi/qh4vLlit97I/hqdefault.jpg" alt=""><span class="video-title">Is Anthropic STEALING Your Data? (While You PAY FOR IT)</span><span class="video-date">2026-07-27</span></a>
 <a class="video-card" href="summaries/indydevdan/AQl5Q-0l7FQ"><img loading="lazy" src="https://i.ytimg.com/vi/AQl5Q-0l7FQ/hqdefault.jpg" alt=""><span class="video-title">Engineers... STOP Picking GPT-5.6 Sol OR Claude Fable 5… FUSE THEM</span><span class="video-date">2026-07-20</span></a>
 </div>

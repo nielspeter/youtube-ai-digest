@@ -5702,6 +5702,51 @@
       "published": "2026-08-02T23:30:06+00:00",
       "url": "https://www.youtube.com/watch?v=-jY2T2PiJBE",
       "generated": "2026-08-03T07:39:43+00:00"
+    },
+    "viHqe5QqTd0": {
+      "status": "done",
+      "title": "Claude Opus 5 one-shotted this game...",
+      "channel": "Better Stack",
+      "channel_slug": "better-stack",
+      "published": "2026-08-03T13:00:30+00:00",
+      "url": "https://www.youtube.com/watch?v=viHqe5QqTd0",
+      "generated": "2026-08-03T15:16:11+00:00"
+    },
+    "haUfb1ievTE": {
+      "status": "done",
+      "title": "My Super Simple Software Factory (For Agentic Engineers)",
+      "channel": "IndyDevDan",
+      "channel_slug": "indydevdan",
+      "published": "2026-08-03T13:00:25+00:00",
+      "url": "https://www.youtube.com/watch?v=haUfb1ievTE",
+      "generated": "2026-08-03T15:17:43+00:00"
+    },
+    "A99UsxSJeJ0": {
+      "status": "done",
+      "title": "The Hallway Track: Would You Trust an Agent to Send Your Email?",
+      "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
+      "published": "2026-08-03T15:00:38+00:00",
+      "url": "https://www.youtube.com/watch?v=A99UsxSJeJ0",
+      "generated": "2026-08-03T15:12:17+00:00"
+    },
+    "Nd7rDkX3ZH4": {
+      "video_id": "Nd7rDkX3ZH4",
+      "title": "Trailer: The Rise of the Harness Engineer",
+      "channel": "AI Native Dev",
+      "published": "2026-08-03T14:00:31+00:00",
+      "url": "https://www.youtube.com/watch?v=Nd7rDkX3ZH4",
+      "channel_slug": "ai-native-dev",
+      "status": "short"
+    },
+    "g_iDPqIRvfI": {
+      "status": "done",
+      "title": "Agents Write 95% of Our Code. Here's the Catch",
+      "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
+      "published": "2026-08-03T13:05:25+00:00",
+      "url": "https://www.youtube.com/watch?v=g_iDPqIRvfI",
+      "generated": "2026-08-03T15:13:38+00:00"
     }
   }
 }

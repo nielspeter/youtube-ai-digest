@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **437** videos summarized.
+Auto-generated summaries of subscribed channels. **438** videos summarized.
 
 ## AI Engineer
 
@@ -436,6 +436,7 @@ Auto-generated summaries of subscribed channels. **437** videos summarized.
 ## OpenAI
 
 <div class="video-grid">
+<a class="video-card" href="summaries/openai/SJJBPwlPpww"><img loading="lazy" src="https://i.ytimg.com/vi/SJJBPwlPpww/hqdefault.jpg" alt=""><span class="video-title">How AI Helps Solve Medical Mysteries at Boston Children’s Hospital | OpenAI Forum</span><span class="video-date">2026-08-04</span></a>
 <a class="video-card" href="summaries/openai/r64krUavXJU"><img loading="lazy" src="https://i.ytimg.com/vi/r64krUavXJU/hqdefault.jpg" alt=""><span class="video-title">Meet Birding Pal</span><span class="video-date">2026-08-04</span></a>
 <a class="video-card" href="summaries/openai/_Gd9yzAc-WI"><img loading="lazy" src="https://i.ytimg.com/vi/_Gd9yzAc-WI/hqdefault.jpg" alt=""><span class="video-title">Using Voice in ChatGPT Work</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/openai/MLehRytu9Zo"><img loading="lazy" src="https://i.ytimg.com/vi/MLehRytu9Zo/hqdefault.jpg" alt=""><span class="video-title">We&#x27;re giving 100,000 academic researchers free access to our frontier models</span><span class="video-date">2026-07-29</span></a>

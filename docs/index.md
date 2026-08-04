@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **434** videos summarized.
+Auto-generated summaries of subscribed channels. **436** videos summarized.
 
 ## AI Engineer
 
@@ -160,6 +160,7 @@ Auto-generated summaries of subscribed channels. **434** videos summarized.
 ## AI Native Dev
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-native-dev/ru5SX4eonzM"><img loading="lazy" src="https://i.ytimg.com/vi/ru5SX4eonzM/hqdefault.jpg" alt=""><span class="video-title">Datadog Deleted All Its AI Context. It Worked.</span><span class="video-date">2026-08-04</span></a>
 <a class="video-card" href="summaries/ai-native-dev/A99UsxSJeJ0"><img loading="lazy" src="https://i.ytimg.com/vi/A99UsxSJeJ0/hqdefault.jpg" alt=""><span class="video-title">The Hallway Track: Would You Trust an Agent to Send Your Email?</span><span class="video-date">2026-08-03</span></a>
 <a class="video-card" href="summaries/ai-native-dev/g_iDPqIRvfI"><img loading="lazy" src="https://i.ytimg.com/vi/g_iDPqIRvfI/hqdefault.jpg" alt=""><span class="video-title">Agents Write 95% of Our Code. Here&#x27;s the Catch</span><span class="video-date">2026-08-03</span></a>
 <a class="video-card" href="summaries/ai-native-dev/DLjarZe0Xqc"><img loading="lazy" src="https://i.ytimg.com/vi/DLjarZe0Xqc/hqdefault.jpg" alt=""><span class="video-title">The Hallway Track: What Even Is Harness Engineering</span><span class="video-date">2026-07-30</span></a>
@@ -490,6 +491,7 @@ Auto-generated summaries of subscribed channels. **434** videos summarized.
 ## Ray Amjad
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ray-amjad/_eCtUVds3wA"><img loading="lazy" src="https://i.ytimg.com/vi/_eCtUVds3wA/hqdefault.jpg" alt=""><span class="video-title">The Future of AI Coding Is THIS</span><span class="video-date">2026-08-04</span></a>
 <a class="video-card" href="summaries/ray-amjad/XLA-sTSJ-Wc"><img loading="lazy" src="https://i.ytimg.com/vi/XLA-sTSJ-Wc/hqdefault.jpg" alt=""><span class="video-title">How Claude Code&#x27;s Creator Just Shared ACTUALLY Uses Claude Code</span><span class="video-date">2026-07-17</span></a>
 <a class="video-card" href="summaries/ray-amjad/EVyhcfo_Zsw"><img loading="lazy" src="https://i.ytimg.com/vi/EVyhcfo_Zsw/hqdefault.jpg" alt=""><span class="video-title">Anthropic Just Dropped a New Kind of Subagent</span><span class="video-date">2026-07-14</span></a>
 <a class="video-card" href="summaries/ray-amjad/B1sYKOWVHR0"><img loading="lazy" src="https://i.ytimg.com/vi/B1sYKOWVHR0/hqdefault.jpg" alt=""><span class="video-title">You Only Have 1 Day Left With Fable 5. Maximize It.</span><span class="video-date">2026-07-05</span></a>

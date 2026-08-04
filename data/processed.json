@@ -5794,13 +5794,22 @@
       "status": "short"
     },
     "ru5SX4eonzM": {
-      "video_id": "ru5SX4eonzM",
+      "status": "done",
       "title": "Datadog Deleted All Its AI Context. It Worked.",
       "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
       "published": "2026-08-04T12:00:10+00:00",
       "url": "https://www.youtube.com/watch?v=ru5SX4eonzM",
-      "channel_slug": "ai-native-dev",
-      "status": "blocked"
+      "generated": "2026-08-04T18:03:11+00:00"
+    },
+    "_eCtUVds3wA": {
+      "status": "done",
+      "title": "The Future of AI Coding Is THIS",
+      "channel": "Ray Amjad",
+      "channel_slug": "ray-amjad",
+      "published": "2026-08-04T14:59:50+00:00",
+      "url": "https://www.youtube.com/watch?v=_eCtUVds3wA",
+      "generated": "2026-08-04T18:01:18+00:00"
     }
   }
 }

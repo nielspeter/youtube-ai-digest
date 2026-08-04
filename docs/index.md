@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **432** videos summarized.
+Auto-generated summaries of subscribed channels. **433** videos summarized.
 
 ## AI Engineer
 
@@ -385,6 +385,7 @@ Auto-generated summaries of subscribed channels. **432** videos summarized.
 ## Matthew Berman
 
 <div class="video-grid">
+<a class="video-card" href="summaries/matthew-berman/CVlKp9Ld-Zg"><img loading="lazy" src="https://i.ytimg.com/vi/CVlKp9Ld-Zg/hqdefault.jpg" alt=""><span class="video-title">Open-source is WINNING</span><span class="video-date">2026-08-04</span></a>
 <a class="video-card" href="summaries/matthew-berman/wAPDmc8e22U"><img loading="lazy" src="https://i.ytimg.com/vi/wAPDmc8e22U/hqdefault.jpg" alt=""><span class="video-title">GPT-5.6 just made itself CHEAPER</span><span class="video-date">2026-07-31</span></a>
 <a class="video-card" href="summaries/matthew-berman/N80TzPCHbNg"><img loading="lazy" src="https://i.ytimg.com/vi/N80TzPCHbNg/hqdefault.jpg" alt=""><span class="video-title">This letter could change EVERYTHING</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/matthew-berman/w9cCOUD-qDM"><img loading="lazy" src="https://i.ytimg.com/vi/w9cCOUD-qDM/hqdefault.jpg" alt=""><span class="video-title">AI can&#x27;t READ this</span><span class="video-date">2026-07-27</span></a>

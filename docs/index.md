@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **438** videos summarized.
+Auto-generated summaries of subscribed channels. **439** videos summarized.
 
 ## AI Engineer
 
@@ -218,6 +218,7 @@ Auto-generated summaries of subscribed channels. **438** videos summarized.
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/-aCN5BMq1JI"><img loading="lazy" src="https://i.ytimg.com/vi/-aCN5BMq1JI/hqdefault.jpg" alt=""><span class="video-title">OpenAI Astra Just Advanced Mathematics... 10 Times.</span><span class="video-date">2026-08-05</span></a>
 <a class="video-card" href="summaries/better-stack/viHqe5QqTd0"><img loading="lazy" src="https://i.ytimg.com/vi/viHqe5QqTd0/hqdefault.jpg" alt=""><span class="video-title">Claude Opus 5 one-shotted this game...</span><span class="video-date">2026-08-03</span></a>
 <a class="video-card" href="summaries/better-stack/JZf_m_BVDaQ"><img loading="lazy" src="https://i.ytimg.com/vi/JZf_m_BVDaQ/hqdefault.jpg" alt=""><span class="video-title">This UI component library is AWESOME (Canvas UI)</span><span class="video-date">2026-08-02</span></a>
 <a class="video-card" href="summaries/better-stack/vHhephsP6vU"><img loading="lazy" src="https://i.ytimg.com/vi/vHhephsP6vU/hqdefault.jpg" alt=""><span class="video-title">Apple Silicon Can Run Local AI With Just 2GB Of RAM</span><span class="video-date">2026-08-01</span></a>

@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **439** videos summarized.
+Auto-generated summaries of subscribed channels. **440** videos summarized.
 
 ## AI Engineer
 
@@ -265,6 +265,7 @@ Auto-generated summaries of subscribed channels. **439** videos summarized.
 ## Beyond Coding
 
 <div class="video-grid">
+<a class="video-card" href="summaries/beyond-coding/6DT40fYFscU"><img loading="lazy" src="https://i.ytimg.com/vi/6DT40fYFscU/hqdefault.jpg" alt=""><span class="video-title">How I Accidentally Broke Production and Why I&#x27;m Glad I Did</span><span class="video-date">2026-08-05</span></a>
 <a class="video-card" href="summaries/beyond-coding/U2p01LVC5Oo"><img loading="lazy" src="https://i.ytimg.com/vi/U2p01LVC5Oo/hqdefault.jpg" alt=""><span class="video-title">What the Best Engineers Do About AI Costs</span><span class="video-date">2026-07-29</span></a>
 <a class="video-card" href="summaries/beyond-coding/SXg08HPpKr8"><img loading="lazy" src="https://i.ytimg.com/vi/SXg08HPpKr8/hqdefault.jpg" alt=""><span class="video-title">AWS Veteran: The Agent Blueprint Behind 1,400 Engineers</span><span class="video-date">2026-07-22</span></a>
 <a class="video-card" href="summaries/beyond-coding/mlvbbqYtUz0"><img loading="lazy" src="https://i.ytimg.com/vi/mlvbbqYtUz0/hqdefault.jpg" alt=""><span class="video-title">What Senior Engineers do Differently (Vercel VP)</span><span class="video-date">2026-07-15</span></a>

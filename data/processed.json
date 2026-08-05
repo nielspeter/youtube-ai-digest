@@ -5857,13 +5857,13 @@
       "status": "short"
     },
     "qLVbCFGcABU": {
-      "video_id": "qLVbCFGcABU",
+      "status": "done",
       "title": "Wayve's Dave Kirk: Why Agentic Code Review Needs Evals",
       "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
       "published": "2026-08-05T12:51:22+00:00",
       "url": "https://www.youtube.com/watch?v=qLVbCFGcABU",
-      "channel_slug": "ai-native-dev",
-      "status": "blocked"
+      "generated": "2026-08-05T19:56:38+00:00"
     },
     "TwN1Y7HW-w4": {
       "video_id": "TwN1Y7HW-w4",
@@ -5936,6 +5936,33 @@
       "url": "https://www.youtube.com/watch?v=hXoyw5B7J28",
       "channel_slug": "ai-native-dev",
       "status": "short"
+    },
+    "sM7qZvQJ5zU": {
+      "video_id": "sM7qZvQJ5zU",
+      "title": "SWE-bench is saturated, so Cognition built FrontierCode",
+      "channel": "LangChain",
+      "published": "2026-08-05T18:33:19+00:00",
+      "url": "https://www.youtube.com/watch?v=sM7qZvQJ5zU",
+      "channel_slug": "langchain",
+      "status": "short"
+    },
+    "D-SByYTJxUA": {
+      "status": "done",
+      "title": "How Madrigal Pharmaceuticals Cut Time to Production From 12 Weeks to 2 with LangChain & LangSmith",
+      "channel": "LangChain",
+      "channel_slug": "langchain",
+      "published": "2026-08-05T18:11:08+00:00",
+      "url": "https://www.youtube.com/watch?v=D-SByYTJxUA",
+      "generated": "2026-08-05T19:54:58+00:00"
+    },
+    "jGR8LnfVPbA": {
+      "status": "done",
+      "title": "Master Codex with these 15 Tips",
+      "channel": "Matthew Berman",
+      "channel_slug": "matthew-berman",
+      "published": "2026-08-05T18:44:08+00:00",
+      "url": "https://www.youtube.com/watch?v=jGR8LnfVPbA",
+      "generated": "2026-08-05T19:50:43+00:00"
     }
   }
 }

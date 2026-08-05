@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **444** videos summarized.
+Auto-generated summaries of subscribed channels. **447** videos summarized.
 
 ## AI Engineer
 
@@ -161,6 +161,7 @@ Auto-generated summaries of subscribed channels. **444** videos summarized.
 
 <div class="video-grid">
 <a class="video-card" href="summaries/ai-native-dev/uS7QLgj1jUY"><img loading="lazy" src="https://i.ytimg.com/vi/uS7QLgj1jUY/hqdefault.jpg" alt=""><span class="video-title">We Scored a Real Snyk Skill Against Anthropic&#x27;s Rules</span><span class="video-date">2026-08-05</span></a>
+<a class="video-card" href="summaries/ai-native-dev/qLVbCFGcABU"><img loading="lazy" src="https://i.ytimg.com/vi/qLVbCFGcABU/hqdefault.jpg" alt=""><span class="video-title">Wayve&#x27;s Dave Kirk: Why Agentic Code Review Needs Evals</span><span class="video-date">2026-08-05</span></a>
 <a class="video-card" href="summaries/ai-native-dev/ru5SX4eonzM"><img loading="lazy" src="https://i.ytimg.com/vi/ru5SX4eonzM/hqdefault.jpg" alt=""><span class="video-title">Datadog Deleted All Its AI Context. It Worked.</span><span class="video-date">2026-08-04</span></a>
 <a class="video-card" href="summaries/ai-native-dev/A99UsxSJeJ0"><img loading="lazy" src="https://i.ytimg.com/vi/A99UsxSJeJ0/hqdefault.jpg" alt=""><span class="video-title">The Hallway Track: Would You Trust an Agent to Send Your Email?</span><span class="video-date">2026-08-03</span></a>
 <a class="video-card" href="summaries/ai-native-dev/g_iDPqIRvfI"><img loading="lazy" src="https://i.ytimg.com/vi/g_iDPqIRvfI/hqdefault.jpg" alt=""><span class="video-title">Agents Write 95% of Our Code. Here&#x27;s the Catch</span><span class="video-date">2026-08-03</span></a>
@@ -327,6 +328,7 @@ Auto-generated summaries of subscribed channels. **444** videos summarized.
 ## LangChain
 
 <div class="video-grid">
+<a class="video-card" href="summaries/langchain/D-SByYTJxUA"><img loading="lazy" src="https://i.ytimg.com/vi/D-SByYTJxUA/hqdefault.jpg" alt=""><span class="video-title">How Madrigal Pharmaceuticals Cut Time to Production From 12 Weeks to 2 with LangChain &amp; LangSmith</span><span class="video-date">2026-08-05</span></a>
 <a class="video-card" href="summaries/langchain/IZabCqyBJLg"><img loading="lazy" src="https://i.ytimg.com/vi/IZabCqyBJLg/hqdefault.jpg" alt=""><span class="video-title">Building Deep Agents and Deploying in Production</span><span class="video-date">2026-07-31</span></a>
 <a class="video-card" href="summaries/langchain/bBUotstDLdk"><img loading="lazy" src="https://i.ytimg.com/vi/bBUotstDLdk/hqdefault.jpg" alt=""><span class="video-title">The misaligned incentives behind AI coding agents</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/langchain/MS8tI9nMjeQ"><img loading="lazy" src="https://i.ytimg.com/vi/MS8tI9nMjeQ/hqdefault.jpg" alt=""><span class="video-title">Autonomous Agent Improvement with LangSmith Engine | New LangChain Academy Course</span><span class="video-date">2026-07-29</span></a>
@@ -391,6 +393,7 @@ Auto-generated summaries of subscribed channels. **444** videos summarized.
 ## Matthew Berman
 
 <div class="video-grid">
+<a class="video-card" href="summaries/matthew-berman/jGR8LnfVPbA"><img loading="lazy" src="https://i.ytimg.com/vi/jGR8LnfVPbA/hqdefault.jpg" alt=""><span class="video-title">Master Codex with these 15 Tips</span><span class="video-date">2026-08-05</span></a>
 <a class="video-card" href="summaries/matthew-berman/CVlKp9Ld-Zg"><img loading="lazy" src="https://i.ytimg.com/vi/CVlKp9Ld-Zg/hqdefault.jpg" alt=""><span class="video-title">Open-source is WINNING</span><span class="video-date">2026-08-04</span></a>
 <a class="video-card" href="summaries/matthew-berman/wAPDmc8e22U"><img loading="lazy" src="https://i.ytimg.com/vi/wAPDmc8e22U/hqdefault.jpg" alt=""><span class="video-title">GPT-5.6 just made itself CHEAPER</span><span class="video-date">2026-07-31</span></a>
 <a class="video-card" href="summaries/matthew-berman/N80TzPCHbNg"><img loading="lazy" src="https://i.ytimg.com/vi/N80TzPCHbNg/hqdefault.jpg" alt=""><span class="video-title">This letter could change EVERYTHING</span><span class="video-date">2026-07-29</span></a>

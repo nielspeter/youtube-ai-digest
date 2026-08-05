@@ -5864,6 +5864,78 @@
       "url": "https://www.youtube.com/watch?v=qLVbCFGcABU",
       "channel_slug": "ai-native-dev",
       "status": "blocked"
+    },
+    "TwN1Y7HW-w4": {
+      "video_id": "TwN1Y7HW-w4",
+      "title": "Your next dev job might not come from a resume — here's why",
+      "channel": "Beyond Coding",
+      "published": "2026-08-05T16:25:46+00:00",
+      "url": "https://www.youtube.com/watch?v=TwN1Y7HW-w4",
+      "channel_slug": "beyond-coding",
+      "status": "short"
+    },
+    "szjakRcw7V0": {
+      "status": "done",
+      "title": "Opus 5 Is Exhausting. Anthropic Reveals The Fix.",
+      "channel": "Ray Amjad",
+      "channel_slug": "ray-amjad",
+      "published": "2026-08-05T15:37:08+00:00",
+      "url": "https://www.youtube.com/watch?v=szjakRcw7V0",
+      "generated": "2026-08-05T17:53:40+00:00"
+    },
+    "3Z1xcfF2xlY": {
+      "status": "done",
+      "title": "Github's Biggest Release In Years. Stacked PRs.",
+      "channel": "Better Stack",
+      "channel_slug": "better-stack",
+      "published": "2026-08-05T15:00:29+00:00",
+      "url": "https://www.youtube.com/watch?v=3Z1xcfF2xlY",
+      "generated": "2026-08-05T17:57:31+00:00"
+    },
+    "gaDdrDdczO4": {
+      "status": "done",
+      "title": "New Skills! v1.2 brings /wait-what, /writing-for-agents, and fixes /grill-me",
+      "channel": "Matt Pocock",
+      "channel_slug": "matt-pocock",
+      "published": "2026-08-05T15:28:41+00:00",
+      "url": "https://www.youtube.com/watch?v=gaDdrDdczO4",
+      "generated": "2026-08-05T17:55:34+00:00"
+    },
+    "P-eseSa6dy0": {
+      "video_id": "P-eseSa6dy0",
+      "title": "The “agile revolution in mining”",
+      "channel": "The Pragmatic Engineer",
+      "published": "2026-08-05T16:00:23+00:00",
+      "url": "https://www.youtube.com/watch?v=P-eseSa6dy0",
+      "channel_slug": "the-pragmatic-engineer",
+      "status": "short"
+    },
+    "uS7QLgj1jUY": {
+      "status": "done",
+      "title": "We Scored a Real Snyk Skill Against Anthropic's Rules",
+      "channel": "AI Native Dev",
+      "channel_slug": "ai-native-dev",
+      "published": "2026-08-05T16:00:27+00:00",
+      "url": "https://www.youtube.com/watch?v=uS7QLgj1jUY",
+      "generated": "2026-08-05T17:51:58+00:00"
+    },
+    "D19jYNgjXOk": {
+      "video_id": "D19jYNgjXOk",
+      "title": "Coming Soon: Is Your AI Skill Secretly a Security Risk?",
+      "channel": "AI Native Dev",
+      "published": "2026-08-05T16:00:23+00:00",
+      "url": "https://www.youtube.com/watch?v=D19jYNgjXOk",
+      "channel_slug": "ai-native-dev",
+      "status": "short"
+    },
+    "hXoyw5B7J28": {
+      "video_id": "hXoyw5B7J28",
+      "title": "The LeetCode Interview Autopsy",
+      "channel": "AI Native Dev",
+      "published": "2026-08-05T16:00:21+00:00",
+      "url": "https://www.youtube.com/watch?v=hXoyw5B7J28",
+      "channel_slug": "ai-native-dev",
+      "status": "short"
     }
   }
 }

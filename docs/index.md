@@ -4,7 +4,7 @@ title: Home
 
 # YouTube Digest
 
-Auto-generated summaries of subscribed channels. **440** videos summarized.
+Auto-generated summaries of subscribed channels. **444** videos summarized.
 
 ## AI Engineer
 
@@ -160,6 +160,7 @@ Auto-generated summaries of subscribed channels. **440** videos summarized.
 ## AI Native Dev
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ai-native-dev/uS7QLgj1jUY"><img loading="lazy" src="https://i.ytimg.com/vi/uS7QLgj1jUY/hqdefault.jpg" alt=""><span class="video-title">We Scored a Real Snyk Skill Against Anthropic&#x27;s Rules</span><span class="video-date">2026-08-05</span></a>
 <a class="video-card" href="summaries/ai-native-dev/ru5SX4eonzM"><img loading="lazy" src="https://i.ytimg.com/vi/ru5SX4eonzM/hqdefault.jpg" alt=""><span class="video-title">Datadog Deleted All Its AI Context. It Worked.</span><span class="video-date">2026-08-04</span></a>
 <a class="video-card" href="summaries/ai-native-dev/A99UsxSJeJ0"><img loading="lazy" src="https://i.ytimg.com/vi/A99UsxSJeJ0/hqdefault.jpg" alt=""><span class="video-title">The Hallway Track: Would You Trust an Agent to Send Your Email?</span><span class="video-date">2026-08-03</span></a>
 <a class="video-card" href="summaries/ai-native-dev/g_iDPqIRvfI"><img loading="lazy" src="https://i.ytimg.com/vi/g_iDPqIRvfI/hqdefault.jpg" alt=""><span class="video-title">Agents Write 95% of Our Code. Here&#x27;s the Catch</span><span class="video-date">2026-08-03</span></a>
@@ -218,6 +219,7 @@ Auto-generated summaries of subscribed channels. **440** videos summarized.
 ## Better Stack
 
 <div class="video-grid">
+<a class="video-card" href="summaries/better-stack/3Z1xcfF2xlY"><img loading="lazy" src="https://i.ytimg.com/vi/3Z1xcfF2xlY/hqdefault.jpg" alt=""><span class="video-title">Github&#x27;s Biggest Release In Years. Stacked PRs.</span><span class="video-date">2026-08-05</span></a>
 <a class="video-card" href="summaries/better-stack/-aCN5BMq1JI"><img loading="lazy" src="https://i.ytimg.com/vi/-aCN5BMq1JI/hqdefault.jpg" alt=""><span class="video-title">OpenAI Astra Just Advanced Mathematics... 10 Times.</span><span class="video-date">2026-08-05</span></a>
 <a class="video-card" href="summaries/better-stack/viHqe5QqTd0"><img loading="lazy" src="https://i.ytimg.com/vi/viHqe5QqTd0/hqdefault.jpg" alt=""><span class="video-title">Claude Opus 5 one-shotted this game...</span><span class="video-date">2026-08-03</span></a>
 <a class="video-card" href="summaries/better-stack/JZf_m_BVDaQ"><img loading="lazy" src="https://i.ytimg.com/vi/JZf_m_BVDaQ/hqdefault.jpg" alt=""><span class="video-title">This UI component library is AWESOME (Canvas UI)</span><span class="video-date">2026-08-02</span></a>
@@ -370,6 +372,7 @@ Auto-generated summaries of subscribed channels. **440** videos summarized.
 ## Matt Pocock
 
 <div class="video-grid">
+<a class="video-card" href="summaries/matt-pocock/gaDdrDdczO4"><img loading="lazy" src="https://i.ytimg.com/vi/gaDdrDdczO4/hqdefault.jpg" alt=""><span class="video-title">New Skills! v1.2 brings /wait-what, /writing-for-agents, and fixes /grill-me</span><span class="video-date">2026-08-05</span></a>
 <a class="video-card" href="summaries/matt-pocock/F3lL98Pj90o"><img loading="lazy" src="https://i.ytimg.com/vi/F3lL98Pj90o/hqdefault.jpg" alt=""><span class="video-title">/wayfinder: Planning is no longer the AI bottleneck</span><span class="video-date">2026-07-30</span></a>
 <a class="video-card" href="summaries/matt-pocock/n0VhIVtviC0"><img loading="lazy" src="https://i.ytimg.com/vi/n0VhIVtviC0/hqdefault.jpg" alt=""><span class="video-title">Don&#x27;t waste time on specs: /prototype instead</span><span class="video-date">2026-07-23</span></a>
 <a class="video-card" href="summaries/matt-pocock/M6mYodf0dJM"><img loading="lazy" src="https://i.ytimg.com/vi/M6mYodf0dJM/hqdefault.jpg" alt=""><span class="video-title">mattpocock/skills: Learn the whole flow, end-to-end</span><span class="video-date">2026-07-16</span></a>
@@ -495,6 +498,7 @@ Auto-generated summaries of subscribed channels. **440** videos summarized.
 ## Ray Amjad
 
 <div class="video-grid">
+<a class="video-card" href="summaries/ray-amjad/szjakRcw7V0"><img loading="lazy" src="https://i.ytimg.com/vi/szjakRcw7V0/hqdefault.jpg" alt=""><span class="video-title">Opus 5 Is Exhausting. Anthropic Reveals The Fix.</span><span class="video-date">2026-08-05</span></a>
 <a class="video-card" href="summaries/ray-amjad/_eCtUVds3wA"><img loading="lazy" src="https://i.ytimg.com/vi/_eCtUVds3wA/hqdefault.jpg" alt=""><span class="video-title">The Future of AI Coding Is THIS</span><span class="video-date">2026-08-04</span></a>
 <a class="video-card" href="summaries/ray-amjad/XLA-sTSJ-Wc"><img loading="lazy" src="https://i.ytimg.com/vi/XLA-sTSJ-Wc/hqdefault.jpg" alt=""><span class="video-title">How Claude Code&#x27;s Creator Just Shared ACTUALLY Uses Claude Code</span><span class="video-date">2026-07-17</span></a>
 <a class="video-card" href="summaries/ray-amjad/EVyhcfo_Zsw"><img loading="lazy" src="https://i.ytimg.com/vi/EVyhcfo_Zsw/hqdefault.jpg" alt=""><span class="video-title">Anthropic Just Dropped a New Kind of Subagent</span><span class="video-date">2026-07-14</span></a>

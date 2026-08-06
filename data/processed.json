@@ -5974,13 +5974,13 @@
       "generated": "2026-08-05T23:15:55+00:00"
     },
     "VnyGs43eiAA": {
-      "video_id": "VnyGs43eiAA",
+      "status": "done",
       "title": "The Creator of Claude Code Said to Do What Now?!",
       "channel": "Cole Medin",
+      "channel_slug": "cole-medin",
       "published": "2026-08-06T00:00:22+00:00",
       "url": "https://www.youtube.com/watch?v=VnyGs43eiAA",
-      "channel_slug": "cole-medin",
-      "status": "blocked"
+      "generated": "2026-08-06T14:31:46+00:00"
     },
     "_0A2BnRYVCo": {
       "status": "done",
@@ -5990,6 +5990,15 @@
       "published": "2026-08-06T08:00:37+00:00",
       "url": "https://www.youtube.com/watch?v=_0A2BnRYVCo",
       "generated": "2026-08-06T10:48:12+00:00"
+    },
+    "4vpdYgVjVKw": {
+      "video_id": "4vpdYgVjVKw",
+      "title": "The Biggest Cloud Conference in the World Is 70% Hands On",
+      "channel": "Cole Medin",
+      "published": "2026-08-06T13:27:22+00:00",
+      "url": "https://www.youtube.com/watch?v=4vpdYgVjVKw",
+      "channel_slug": "cole-medin",
+      "status": "short"
     }
   }
 }
